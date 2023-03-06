@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      VALIDATION_OUTPUT: "one, two, three"
+      VALIDATION_OUTPUT: "one\ntwo\nthree"
 
     steps:
     - name: Checkout repository
