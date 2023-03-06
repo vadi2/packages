@@ -14,10 +14,10 @@ jobs:
       VALIDATION_OUTPUT: "one, two, three"
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+    - name: Checkout packages/ folder only
+      uses: Bhacaz/checkout-files@v2
       with:
-        fetch-depth: 0
+        files: packages
 
     - name: Upload results
       uses: vadi2/gsheets-append-action@development
