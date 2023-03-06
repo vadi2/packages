@@ -19,7 +19,7 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Upload results 1
+    - name: Upload results
       uses: vadi2/gsheets-append-action@development
       with:
         GOOGLE_USER_MAIL: ${{secrets.GOOGLE_PERFORMANCE_EMAIL}}
