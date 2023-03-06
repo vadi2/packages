@@ -24,7 +24,19 @@ jobs:
       with:
         GOOGLE_USER_MAIL: ${{secrets.GOOGLE_SPREADSHEET_EMAIL}}
         GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
-        SPREADSHEET: '1Fm-CyDJFNQUeg9LYE845lzogq0eDMI0lXMOg-wU1-2g'
+        SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
         UPDATE: 'true'
         TABLE_START_CELL: 'C2'
         DATA_ENV_NAME: 'VALIDATION_OUTPUT'
+
+    - name: Setup tmate session
+      if: ${{ failure() }}
+      uses: mxschmitt/action-tmate@v3
+      with:
+        limit-access-to-actor: true
+      env:
+        GOOGLE_USER_MAIL: ${{secrets.GOOGLE_SPREADSHEET_EMAIL}}
+        GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
+        SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
+        UPDATE: 'true'
+        TABLE_START_CELL: 'C2'
