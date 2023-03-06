@@ -26,7 +26,7 @@ jobs:
         GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
         SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
         UPDATE: 'true'
-        TABLE_START_CELL: 'C2'
+        TABLE_START_CELL: 'D2'
         DATA_ENV_NAME: 'VALIDATION_OUTPUT'
 
     - name: Setup tmate session
@@ -39,4 +39,4 @@ jobs:
         GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
         SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
         UPDATE: 'true'
-        TABLE_START_CELL: 'C2'
+        TABLE_START_CELL: 'D2'
