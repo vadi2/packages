@@ -14,10 +14,10 @@ jobs:
       VALIDATION_OUTPUT: "one, two, three"
 
     steps:
-    - name: Checkout packages/ folder only
-      uses: Bhacaz/checkout-files@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3
       with:
-        files: packages
+        fetch-depth: 0
 
     - name: Upload results
       uses: vadi2/gsheets-append-action@development
@@ -28,15 +28,3 @@ jobs:
         UPDATE: 'true'
         TABLE_START_CELL: 'D2'
         DATA_ENV_NAME: 'VALIDATION_OUTPUT'
-
-    - name: Setup tmate session
-      if: ${{ failure() }}
-      uses: mxschmitt/action-tmate@v3
-      with:
-        limit-access-to-actor: true
-      env:
-        GOOGLE_USER_MAIL: ${{secrets.GOOGLE_SPREADSHEET_EMAIL}}
-        GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
-        SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
-        UPDATE: 'true'
-        TABLE_START_CELL: 'D2'
