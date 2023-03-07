@@ -20,7 +20,7 @@ jobs:
         fetch-depth: 0
 
     - name: Run transforms
-      run: ./interversion/ci-run-validation.sh
+      run: cd ./interversion/ && ./ci-run-validation.sh
 
     - name: Upload results
       uses: vadi2/gsheets-append-action@development
