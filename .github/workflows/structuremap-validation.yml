@@ -1,0 +1,30 @@
+name: "Validate StructureMaps"
+
+on:
+  push:
+  #  branches: master
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: "Validate StructureMaps & report online"
+    runs-on: ubuntu-latest
+
+    env:
+      VALIDATION_OUTPUT: "one\ntwo\nthree"
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Upload results
+      uses: vadi2/gsheets-append-action@development
+      with:
+        GOOGLE_USER_MAIL: ${{secrets.GOOGLE_SPREADSHEET_EMAIL}}
+        GOOGLE_USER_KEY: ${{secrets.GOOGLE_SPREADSHEET_KEY}}
+        SPREADSHEET: '1bIg0eQQgHArr7eWyVP4Vhedo4qkfjyKzqRPO4PxxuNg'
+        UPDATE: 'true'
+        TABLE_START_CELL: 'D2'
+        DATA_ENV_NAME: 'VALIDATION_OUTPUT'
