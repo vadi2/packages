@@ -10,7 +10,8 @@ tmp="/tmp/r4r5"
 rm -rf "$tmp"
 mkdir -p $tmp
 
-$JAVA_HOME_17_X64 -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
+ls $JAVA_HOME_17_X64
+$JAVA_HOME_17_X64/java -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
 
 # first row is the header, second row is where the data starts
 row=2
