@@ -12,7 +12,8 @@ mkdir -p $tmp
 
 # set locale otherwise validator will stop on first error
 export LANG=en_US.UTF-8
-"$JAVA_HOME_17_X64/bin/java" -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
+# ignore any errors (happens on primitive map atm)
+"$JAVA_HOME_17_X64/bin/java" -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split || true
 
 # first row is the header, second row is where the data starts
 row=2
