@@ -14,8 +14,6 @@ jobs:
       VALIDATION_OUTPUT: "one\ntwo\nthree"
 
     steps:
-    - run: ls $JAVA_HOME_17_X64
-    
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
