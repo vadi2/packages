@@ -12,7 +12,7 @@ if [ ! -d $tmp ]; then
   mkdir -p $tmp
 fi
 
-java -jar validator_cli.jar -version 5.0 ./interversion/r5/r4-2-r5/*.fml -ig ./interversion/r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
+java -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
 
 # first row is the header, second row is where the data starts
 row=2
