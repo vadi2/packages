@@ -7,10 +7,8 @@ if [ ! -f "validator_cli.jar" ]; then
 fi
 
 tmp="/tmp/r4r5"
-
-if [ ! -d $tmp ]; then
-  mkdir -p $tmp
-fi
+rm -rf "$tmp"
+mkdir -p $tmp
 
 java -jar validator_cli.jar -version 5.0 ./r5/r4-2-r5/*.fml -ig ./r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
 
