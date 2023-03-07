@@ -6,13 +6,26 @@ if [ ! -f "validator_cli.jar" ]; then
     curl -LJO https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar
 fi
 
+tmp="/tmp/r4r5"
+
+if [ ! -d $tmp ]; then
+  mkdir -p $tmp
+fi
+
+java -jar validator_cli.jar -version 5.0 ./interversion/r5/r4-2-r5/*.fml -ig ./interversion/r5/r4-2-r5 -alt-version R4 -output $tmp -output-style compact-split
+
 # first row is the header, second row is where the data starts
 row=2
-for map in ./interversion/r5/r4-2-r5/*; do
-    # output=$(java -jar validator_cli.jar -version 4.0 ./interversion/r5/r4-2-r5/MedicationStatement.fml -ig ./interversion/r5/r4-2-r5 -alt-version R5 2>&1)
-
-    output="test"
-    echo "Uploading results $map to $row"
-
+for fullpath in ./r5/r4-2-r5/*.fml; do
+    filename="$(basename "$fullpath")"
+    results=$(cat "$tmp/${filename%.*}.txt")
+    # replace all linebreaks with literal \n for uploading to gsheets
+    results="${results//$'\n'/\\n}"
+    # store each map's results in a separate variable not to exceed size limit (48kb per variable)
+    # variable name is the map name - 'VisionPrescription4to5.fml'
+    echo "{$filename}={$results}" >> "$GITHUB_ENV"
+    # store row # for the variable - 'VisionPrescription4to5.row'
+    echo "{${filename%.*}.row}={$row}" >> "$GITHUB_ENV"
     ((row++))
 done
+
