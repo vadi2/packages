@@ -20,6 +20,9 @@ jobs:
     - name: Run transforms
       run: cd ./interversion/ && ./ci-run-validation.sh
 
+    - name: Show environment variables
+      run: echo "true"
+
   upload-results:
     name: "Upload results"
     runs-on: ubuntu-latest
