@@ -14,15 +14,10 @@ jobs:
       VALIDATION_OUTPUT: "one\ntwo\nthree"
 
     steps:
-    # - name: Checkout repository
-    #   uses: actions/checkout@v3
-    #   with:
-    #     fetch-depth: 0
-    
-    - name: Checkout interversion/ folder only
-      uses: Bhacaz/checkout-files@v2
+    - name: Checkout repository
+      uses: actions/checkout@v3
       with:
-        files: interversion
+        fetch-depth: 0
 
     - name: Run transforms
       run: ./interversion/ci-run-validation.sh
