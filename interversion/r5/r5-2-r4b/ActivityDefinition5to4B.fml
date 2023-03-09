@@ -2,6 +2,8 @@
 /// name = 'ActivityDefinition5to4B'
 /// title = 'FML Conversion for ActivityDefinition: R5 to R4B'
 
+// VP 8-Mar 2023: All OK sans version-specific extensions
+
 conceptmap "ActivityParticipantType" {
   prefix s = "http://hl7.org/fhir/action-participant-type"
   prefix t = "http://hl7.org/fhir/4.3/action-participant-type"
@@ -16,6 +18,17 @@ conceptmap "ActivityParticipantType" {
   s:"practitioner" - t:"practitioner"
   // s:"practitionerrole" - t:"practitionerrole"
   s:"relatedperson" - t:"related-person"
+}
+
+conceptmap "ParticipantToSubjectTypes" {
+  prefix s = "http://hl7.org/fhir/fhir-types"
+  prefix t = "http://hl7.org/fhir/4.3/resource-types"
+
+  s:"Patient" - t:"Patient"
+  s:"Practitioner" - t:"Practitioner"
+  s:"Organization" - t:"Organization"
+  s:"Location" - t:"Location"
+  s:"Device" - t:"Device"
 }
 
 conceptmap "PublicationStatus" {
@@ -67,7 +80,7 @@ group ActivityDefinition(source src : ActivityDefinitionR5, target tgt : Activit
   src.name -> tgt.name;
   src.title -> tgt.title;
   src.subtitle -> tgt.subtitle;
-  src.status as v -> tgt.status = translate(v, '#PublicationStatus', 'code');
+  src.subject : CodeableConcept as v -> tgt.subject = translate(v, '#ParticipantToSubjectTypes', 'CodeableConcept');
   src.experimental -> tgt.experimental;
   src.subject : CodeableConcept -> tgt.subject;
   src.subject : Reference -> tgt.subject;
