@@ -48,3 +48,4 @@ interversion/r5/template
 interversion/r5/FHIR-xverr5.xml
 interversion/r5/txCache
 /interversion/output.txt
+interversion/run.sh
