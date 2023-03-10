@@ -151,8 +151,8 @@ group PlanDefinition(source src : PlanDefinitionR5, target tgt : PlanDefinitionR
   src.goal as s -> tgt.goal as t then PlanDefinitionGoal(s,t);
   // src.actor as s -> tgt.actor as t then PlanDefinitionActor(s,t);
   src.action as s -> tgt.action as t then PlanDefinitionAction(s,t);
-  src.asNeeded : boolean -> tgt.asNeeded;
-  src.asNeeded : CodeableConcept -> tgt.asNeeded;
+  // src.asNeeded : boolean -> tgt.asNeeded;
+  // src.asNeeded : CodeableConcept -> tgt.asNeeded;
 }
 
 group PlanDefinitionGoal(source src, target tgt) extends BackboneElement {
@@ -213,7 +213,7 @@ group PlanDefinitionAction(source src, target tgt) extends BackboneElement {
   src.timing : Duration -> tgt.timing;
   src.timing : Range -> tgt.timing;
   src.timing : Timing -> tgt.timing;
-  src.location -> tgt.location;
+  // src.location -> tgt.location;
   src.participant as s -> tgt.participant as t then PlanDefinitionActionParticipant(s,t);
   src.type -> tgt.type;
   src.groupingBehavior as v -> tgt.groupingBehavior = translate(v, '#ActionGroupingBehavior', 'code');
@@ -253,10 +253,10 @@ group PlanDefinitionActionRelatedAction(source src, target tgt) extends Backbone
 }
 
 group PlanDefinitionActionParticipant(source src, target tgt) extends BackboneElement {
-  src.actorId -> tgt.actorId;
+  // src.actorId -> tgt.actorId;
   src.type as v -> tgt.type = translate(v, '#ActivityParticipantType', 'code');
-  src.typeCanonical -> tgt.typeCanonical;
-  src.typeReference -> tgt.typeReference;
+  // src.typeCanonical -> tgt.typeCanonical;
+  // src.typeReference -> tgt.typeReference;
   src.role -> tgt.role;
   src.function -> tgt.function;
 }
