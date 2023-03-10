@@ -117,8 +117,8 @@ group PlanDefinition(source src : PlanDefinitionR4B, target tgt : PlanDefinition
   src.url -> tgt.url;
   src.identifier -> tgt.identifier;
   src.version -> tgt.version;
-  src.versionAlgorithm : string -> tgt.versionAlgorithm;
-  src.versionAlgorithm : Coding -> tgt.versionAlgorithm;
+  // src.versionAlgorithm : string -> tgt.versionAlgorithm;
+  // src.versionAlgorithm : Coding -> tgt.versionAlgorithm;
   src.name -> tgt.name;
   src.title -> tgt.title;
   src.subtitle -> tgt.subtitle;
@@ -137,7 +137,7 @@ group PlanDefinition(source src : PlanDefinitionR4B, target tgt : PlanDefinition
   src.purpose -> tgt.purpose;
   src.usage -> tgt.usage;
   src.copyright -> tgt.copyright;
-  src.copyrightLabel -> tgt.copyrightLabel;
+  // src.copyrightLabel -> tgt.copyrightLabel;
   src.approvalDate -> tgt.approvalDate;
   src.lastReviewDate -> tgt.lastReviewDate;
   src.effectivePeriod -> tgt.effectivePeriod;
@@ -149,7 +149,7 @@ group PlanDefinition(source src : PlanDefinitionR4B, target tgt : PlanDefinition
   src.relatedArtifact -> tgt.relatedArtifact;
   src.library -> tgt.library;
   src.goal as s -> tgt.goal as t then PlanDefinitionGoal(s,t);
-  src.actor as s -> tgt.actor as t then PlanDefinitionActor(s,t);
+  // src.actor as s -> tgt.actor as t then PlanDefinitionActor(s,t);
   src.action as s -> tgt.action as t then PlanDefinitionAction(s,t);
   src.asNeeded : boolean -> tgt.asNeeded;
   src.asNeeded : CodeableConcept -> tgt.asNeeded;
@@ -177,18 +177,18 @@ group PlanDefinitionGoalTarget(source src, target tgt) extends BackboneElement {
   src.due -> tgt.due;
 }
 
-group PlanDefinitionActor(source src, target tgt) extends BackboneElement {
-  src.title -> tgt.title;
-  src.description -> tgt.description;
-  src.option as s -> tgt.option as t then PlanDefinitionActorOption(s,t);
-}
+// group PlanDefinitionActor(source src, target tgt) extends BackboneElement {
+//   src.title -> tgt.title;
+//   src.description -> tgt.description;
+//   src.option as s -> tgt.option as t then PlanDefinitionActorOption(s,t);
+// }
 
-group PlanDefinitionActorOption(source src, target tgt) extends BackboneElement {
-  src.type as v -> tgt.type = translate(v, '#ActivityParticipantType', 'code');
-  src.typeCanonical -> tgt.typeCanonical;
-  src.typeReference -> tgt.typeReference;
-  src.role -> tgt.role;
-}
+// group PlanDefinitionActorOption(source src, target tgt) extends BackboneElement {
+//   src.type as v -> tgt.type = translate(v, '#ActivityParticipantType', 'code');
+//   src.typeCanonical -> tgt.typeCanonical;
+//   src.typeReference -> tgt.typeReference;
+//   src.role -> tgt.role;
+// }
 
 group PlanDefinitionAction(source src, target tgt) extends BackboneElement {
   src.linkId -> tgt.linkId;
@@ -233,9 +233,7 @@ group PlanDefinitionActionCondition(source src, target tgt) extends BackboneElem
 }
 
 group PlanDefinitionActionInput(source src, target tgt) extends BackboneElement {
-  src.title -> tgt.title;
-  src.requirement -> tgt.requirement;
-  src.relatedData -> tgt.relatedData;
+  src -> tgt.requirement = v "nput2nputrequirement";
 }
 
 group PlanDefinitionActionOutput(source src, target tgt) extends BackboneElement {
