@@ -1,6 +1,9 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "icd-9-cm",
+  "meta" : {
+    "source" : "https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Publications/ICD-9/ucod.txt"
+  }
   "url" : "http://hl7.org/fhir/sid/icd-9-cm",
   "identifier" : [
     {
