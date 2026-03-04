@@ -1,0 +1,170 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1115.15",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2025-04-09T01:09:28.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "ADVault Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-04-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-04-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.15",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1115.15"
+    }
+  ],
+  "version" : "20250409",
+  "name" : "UponDeathPreferences",
+  "title" : "Upon Death Preferences",
+  "status" : "active",
+  "date" : "2025-04-09T01:09:28-04:00",
+  "publisher" : "ADVault",
+  "description" : "Note that this value set replaces the previous value set called Upon Death Preferences with OID: 2.16.840.1.113762.1.4.1115.16. This identifier was not available in VSAC, and so the new Value Set was created using this new OID.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes concepts representing an individual's preferences of treatment.),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "75781-5",
+            "display" : "Thoughts on organ and tissue donations [Reported]"
+          },
+          {
+            "code" : "75782-3",
+            "display" : "Thoughts regarding autopsy [Reported]"
+          },
+          {
+            "code" : "75793-0",
+            "display" : "Other directives that have not otherwise been documented [Reported]"
+          },
+          {
+            "code" : "81356-8",
+            "display" : "Death arrangements [Reported]"
+          },
+          {
+            "code" : "81357-6",
+            "display" : "Messages to be delivered after death [Reported]"
+          },
+          {
+            "code" : "81358-4",
+            "display" : "Person(s) to notify upon death [Reported]"
+          },
+          {
+            "code" : "81364-2",
+            "display" : "Religious or cultural beliefs [Reported]"
+          },
+          {
+            "code" : "81365-9",
+            "display" : "Religious or cultural affiliation contact to notify [Reported]"
+          },
+          {
+            "code" : "81366-7",
+            "display" : "Unfinished business [Reported]"
+          },
+          {
+            "code" : "81379-0",
+            "display" : "Goals, preferences, and priorities upon death [Reported]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c4971d51-d6a2-47c7-a972-eab832768946",
+    "timestamp" : "2025-11-24T12:30:26-05:00",
+    "total" : 10,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75781-5",
+        "display" : "Thoughts on organ and tissue donations Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75782-3",
+        "display" : "Thoughts regarding autopsy Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75793-0",
+        "display" : "Other directives that have not otherwise been documented Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81356-8",
+        "display" : "Death arrangements Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81357-6",
+        "display" : "Messages to be delivered after death Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81358-4",
+        "display" : "Person(s) to notify upon death - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81364-2",
+        "display" : "Religious or cultural beliefs Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81365-9",
+        "display" : "Religious or cultural affiliation contact to notify - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81366-7",
+        "display" : "Unfinished business Narrative - Reported"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "81379-0",
+        "display" : "Goals, preferences, and priorities upon death Narrative - Reported"
+      }
+    ]
+  }
+}

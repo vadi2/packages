@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1434.1047",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2024-10-04T01:00:44.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CAP Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-10-04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-10-04"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1434.1047",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1434.1047"
+    }
+  ],
+  "version" : "20241004",
+  "name" : "SkinMelanomaPT1",
+  "title" : "Skin Melanoma pT1",
+  "status" : "active",
+  "date" : "2024-10-04T01:00:44-04:00",
+  "publisher" : "CAP Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Under Development),(Data Element Scope: Under Development),(Inclusion Criteria: Under Development),(Exclusion Criteria: Under Development)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1228959009",
+            "display" : "American Joint Committee on Cancer pT1a (qualifier value)"
+          },
+          {
+            "code" : "1228962007",
+            "display" : "American Joint Committee on Cancer pT1b (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1c3ccd8b-05c7-4cec-9a7f-6d3269b1f4e5",
+    "timestamp" : "2025-11-24T17:18:59-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1228959009",
+        "display" : "American Joint Committee on Cancer pT1a (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1228962007",
+        "display" : "American Joint Committee on Cancer pT1b (qualifier value)"
+      }
+    ]
+  }
+}

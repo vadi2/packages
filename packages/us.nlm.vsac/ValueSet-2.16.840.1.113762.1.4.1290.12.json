@@ -1,0 +1,111 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.12",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-23T01:02:58.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-23"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.12",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.12"
+    }
+  ],
+  "version" : "20250923",
+  "name" : "SCDAntibioticProphylaxisForNewborns",
+  "title" : "SCD Antibiotic Prophylaxis for Newborns",
+  "status" : "active",
+  "date" : "2025-09-23T01:02:58-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Antibiotic prophylaxis for infants with sickle cell disease),(Data Element Scope: Codes indicating administration of Penicillin VK or trimethoprim/sulfamethoxazole for prophylactic treatment of SCD in infants),(Inclusion Criteria: RXNorm codes for oral Penicilin VK and for trimethoprim/sulfamethoxazole),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.11"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.10"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d624a21d-922f-4c35-b69f-e97f509bdd09",
+    "timestamp" : "2025-11-24T16:58:23-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "10180",
+        "display" : "sulfamethoxazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "10829",
+        "display" : "trimethoprim"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198334",
+        "display" : "sulfamethoxazole 400 MG / trimethoprim 80 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203195",
+        "display" : "penicillin V potassium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313134",
+        "display" : "sulfamethoxazole 40 MG/ML / trimethoprim 8 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849580",
+        "display" : "sulfamethoxazole 800 MG / trimethoprim 160 MG Oral Tablet [Bactrim]"
+      }
+    ]
+  }
+}

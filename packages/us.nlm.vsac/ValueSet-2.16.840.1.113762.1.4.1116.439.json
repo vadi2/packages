@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.439",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-07-12"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2018-05-05"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.439",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.439"
+    }
+  ],
+  "version" : "20180505",
+  "name" : "TCategory",
+  "title" : "T Category",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2018-05-05T01:00:04-04:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of T category of cancer staging.),(Data Element Scope: This value set may use a model element related to Procedure or Laboratory Test.),(Inclusion Criteria: Includes concepts that represent T category of cancer staging.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "78873005",
+            "display" : "T category (observable entity)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:17bef395-3354-48bf-a37f-bdabf75c30b9",
+    "timestamp" : "2025-11-24T12:36:48-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78873005",
+        "display" : "T category (observable entity)"
+      }
+    ]
+  }
+}

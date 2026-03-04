@@ -1,0 +1,177 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.8420.3.1014",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "AOA MORE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-03-04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2019-09-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.8420.3.1014",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.8420.3.1014"
+    }
+  ],
+  "version" : "20190920",
+  "name" : "CongenitalConditionOfRetina",
+  "title" : "Congenital Condition of Retina",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2019-09-20T01:00:18-04:00",
+  "publisher" : "AOA MORE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set contains concepts that represent congenital conditions of the retina.),(Data Element Scope: This value set may use the Quality Data Model (QDM) category related to Diagnosis.),(Inclusion Criteria: Includes only relevant concepts associated with congenital conditions of the retina.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.8420.2.1026"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.8420.2.1025"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:260d11e5-48ef-4cb3-8f8a-a0ef7e04f5aa",
+    "timestamp" : "2025-11-24T19:23:37-05:00",
+    "total" : 17,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128534003",
+        "display" : "Congenital anomaly of posterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15673001000119103",
+        "display" : "Congenital glaucoma of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204113001",
+        "display" : "Congenital glaucoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232061009",
+        "display" : "Congenital stationary night blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253236002",
+        "display" : "Congenital malformation of vitreous humor (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "415176004",
+        "display" : "Primary congenital glaucoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49381001",
+        "display" : "Congenital anomaly of retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64635004",
+        "display" : "Congenital nystagmus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95490000",
+        "display" : "Congenital anomaly of choroid (disorder)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H53.63",
+        "display" : "Congenital night blindness"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H55.01",
+        "display" : "Congenital nystagmus"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q14.0",
+        "display" : "Congenital malformation of vitreous humor"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q14.1",
+        "display" : "Congenital malformation of retina"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q14.2",
+        "display" : "Congenital malformation of optic disc"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q14.3",
+        "display" : "Congenital malformation of choroid"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q14.8",
+        "display" : "Other congenital malformations of posterior segment of eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q15.0",
+        "display" : "Congenital glaucoma"
+      }
+    ]
+  }
+}

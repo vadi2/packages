@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1978",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-01-23T01:10:32.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-01-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1978",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1978"
+    }
+  ],
+  "version" : "20240123",
+  "name" : "LarvaMigransNeuralOcularOrVisceralSNOMED",
+  "title" : "Larva Migrans (Neural, Ocular, or Visceral) (SNOMED)",
+  "status" : "active",
+  "date" : "2024-01-23T01:10:32-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Larva Migrans (Neural, Ocular, or Visceral) regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Larva Migrans (Neural, Ocular, or Visceral)),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "231994007",
+            "display" : "Toxocara chorioretinitis (disorder)"
+          },
+          {
+            "code" : "240810006",
+            "display" : "Paragonimus larva migrans (disorder)"
+          },
+          {
+            "code" : "240866006",
+            "display" : "Ocular toxocariasis (disorder)"
+          },
+          {
+            "code" : "240874007",
+            "display" : "Gnathostomal visceral larva migrans (disorder)"
+          },
+          {
+            "code" : "415737009",
+            "display" : "Toxocara endophthalmitis (disorder)"
+          },
+          {
+            "code" : "417097002",
+            "display" : "Toxocara granuloma (disorder)"
+          },
+          {
+            "code" : "87121004",
+            "display" : "Visceral larva migrans syndrome (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d2d529c5-2127-45ad-8526-9c1b9d091844",
+    "timestamp" : "2025-11-24T13:02:58-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "231994007",
+        "display" : "Toxocara chorioretinitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240810006",
+        "display" : "Paragonimus larva migrans (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240866006",
+        "display" : "Ocular toxocariasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240874007",
+        "display" : "Gnathostomal visceral larva migrans (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "415737009",
+        "display" : "Toxocara endophthalmitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "417097002",
+        "display" : "Toxocara granuloma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87121004",
+        "display" : "Visceral larva migrans syndrome (disorder)"
+      }
+    ]
+  }
+}

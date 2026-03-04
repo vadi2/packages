@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.20",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-24T01:12:06.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-24"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.20",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.20"
+    }
+  ],
+  "version" : "20250924",
+  "name" : "TranscranialDopplerUltrasonographyScreening",
+  "title" : "Transcranial Doppler Ultrasonography Screening",
+  "status" : "active",
+  "date" : "2025-09-24T01:12:06-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Represent a Transcranial doppler ultrasonography (TCD) procedure performed),(Data Element Scope: Codes representing TCD performed),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.18"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.19"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:bc5d7c3b-5271-462d-8628-c1cce1925a0b",
+    "timestamp" : "2025-11-24T16:58:37-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "93886",
+        "display" : "Transcranial Doppler study of the intracranial arteries; complete study"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "93886",
+        "display" : "Complete ultrasound of within the brain blood flow"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "93888",
+        "display" : "Transcranial Doppler study of the intracranial arteries; limited study"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "93888",
+        "display" : "Ultrasound of within the brain blood flow"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "93892",
+        "display" : "Transcranial Doppler study of the intracranial arteries; emboli detection without intravenous microbubble injection"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "93892",
+        "display" : "Ultrasound of within the brain blood flow for blood clots"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "93893",
+        "display" : "Transcranial Doppler study of the intracranial arteries; venous-arterial shunt detection with intravenous microbubble injection"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "93893",
+        "display" : "Ultrasound of blood flow within brain for atypical blood flow detection with microbubble injection"
+      }
+    ]
+  }
+}

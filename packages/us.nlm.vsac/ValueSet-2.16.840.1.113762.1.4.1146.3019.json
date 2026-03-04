@@ -1,0 +1,2734 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3019",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3019",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3019"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "TetanusAdditionalContextMedicationCodes",
+  "title" : "Tetanus Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Tetanus Additional Context Medication Codes),(Data Element Scope: Tetanus Additional Context Medication Codes),(Inclusion Criteria: Tetanus Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1006992",
+            "display" : "merbromin / penicillin G"
+          },
+          {
+            "code" : "1007331",
+            "display" : "metronidazole / scopolamine"
+          },
+          {
+            "code" : "1007623",
+            "display" : "clemizolpenicillin / penicillin G"
+          },
+          {
+            "code" : "1007769",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline"
+          },
+          {
+            "code" : "1008899",
+            "display" : "malachite green / metronidazole / microcrystalline cellulose / trichlorfon"
+          },
+          {
+            "code" : "103866",
+            "display" : "metronidazole benzoate"
+          },
+          {
+            "code" : "103867",
+            "display" : "metronidazole 0.25 MG/MG Oral Gel"
+          },
+          {
+            "code" : "105078",
+            "display" : "penicillin G 375 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "105304",
+            "display" : "metronidazole 40 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "108249",
+            "display" : "diloxanide / metronidazole"
+          },
+          {
+            "code" : "108302",
+            "display" : "diloxanide 250 MG / metronidazole 200 MG Oral Tablet"
+          },
+          {
+            "code" : "1087390",
+            "display" : "tetanus immune globulin Prefilled Syringe"
+          },
+          {
+            "code" : "1087392",
+            "display" : "Hypertet"
+          },
+          {
+            "code" : "1148395",
+            "display" : "Rosadan"
+          },
+          {
+            "code" : "1148396",
+            "display" : "metronidazole 7.5 MG/ML [Rosadan]"
+          },
+          {
+            "code" : "1148397",
+            "display" : "metronidazole Topical Cream [Rosadan]"
+          },
+          {
+            "code" : "1148398",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream [Rosadan]"
+          },
+          {
+            "code" : "1151879",
+            "display" : "diloxanide / metronidazole Oral Product"
+          },
+          {
+            "code" : "1151880",
+            "display" : "diloxanide / metronidazole Pill"
+          },
+          {
+            "code" : "1154702",
+            "display" : "bismuth biskalcitrate / metronidazole / tetracycline Oral Product"
+          },
+          {
+            "code" : "1161817",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Product"
+          },
+          {
+            "code" : "1161818",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Pill"
+          },
+          {
+            "code" : "1164081",
+            "display" : "metronidazole Injectable Product"
+          },
+          {
+            "code" : "1164082",
+            "display" : "metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "1164083",
+            "display" : "metronidazole Oral Product"
+          },
+          {
+            "code" : "1164084",
+            "display" : "metronidazole Pill"
+          },
+          {
+            "code" : "1164085",
+            "display" : "metronidazole Rectal Product"
+          },
+          {
+            "code" : "1164086",
+            "display" : "metronidazole Topical Product"
+          },
+          {
+            "code" : "1164087",
+            "display" : "metronidazole Vaginal Product"
+          },
+          {
+            "code" : "1164764",
+            "display" : "penicillin G Injectable Product"
+          },
+          {
+            "code" : "1164766",
+            "display" : "penicillin G Oral Product"
+          },
+          {
+            "code" : "1164767",
+            "display" : "penicillin G Pill"
+          },
+          {
+            "code" : "1169007",
+            "display" : "Flagyl Oral Product"
+          },
+          {
+            "code" : "1169008",
+            "display" : "Flagyl Pill"
+          },
+          {
+            "code" : "1173631",
+            "display" : "Bicillin Injectable Product"
+          },
+          {
+            "code" : "1173632",
+            "display" : "Bicillin L-A Injectable Product"
+          },
+          {
+            "code" : "1176961",
+            "display" : "MetroCream Topical Product"
+          },
+          {
+            "code" : "1176962",
+            "display" : "MetroGel Topical Product"
+          },
+          {
+            "code" : "1176964",
+            "display" : "MetroLotion Topical Product"
+          },
+          {
+            "code" : "1178225",
+            "display" : "Pfizerpen Injectable Product"
+          },
+          {
+            "code" : "1179863",
+            "display" : "Nydamax Topical Product"
+          },
+          {
+            "code" : "1182554",
+            "display" : "Rosadan Topical Product"
+          },
+          {
+            "code" : "1184086",
+            "display" : "Pylera Oral Product"
+          },
+          {
+            "code" : "1184087",
+            "display" : "Pylera Pill"
+          },
+          {
+            "code" : "1185692",
+            "display" : "Noritate Topical Product"
+          },
+          {
+            "code" : "1187351",
+            "display" : "Vandazole Vaginal Product"
+          },
+          {
+            "code" : "1251686",
+            "display" : "metronidazole 0.0075 MG/MG [Rosadan]"
+          },
+          {
+            "code" : "1251687",
+            "display" : "metronidazole Topical Gel [Rosadan]"
+          },
+          {
+            "code" : "1251688",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel [Rosadan]"
+          },
+          {
+            "code" : "1294619",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule"
+          },
+          {
+            "code" : "1294620",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG [Pylera]"
+          },
+          {
+            "code" : "1294621",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "1295356",
+            "display" : "metronidazole Oral Gel Product"
+          },
+          {
+            "code" : "142046",
+            "display" : "metronidazole 0.0075 MG/MG Vaginal Gel"
+          },
+          {
+            "code" : "1429469",
+            "display" : "metronidazole / spiramycin"
+          },
+          {
+            "code" : "1492665",
+            "display" : "metronidazole 0.013 MG/MG"
+          },
+          {
+            "code" : "1604332",
+            "display" : "Nuvessa"
+          },
+          {
+            "code" : "1604333",
+            "display" : "metronidazole 0.013 MG/MG [Nuvessa]"
+          },
+          {
+            "code" : "1604336",
+            "display" : "metronidazole 0.013 MG/MG Vaginal Gel [Nuvessa]"
+          },
+          {
+            "code" : "1608253",
+            "display" : "metronidazole 0.013 MG/MG Vaginal Gel"
+          },
+          {
+            "code" : "1719795",
+            "display" : "penicillin G Injection"
+          },
+          {
+            "code" : "1726477",
+            "display" : "tetanus immune globulin, human 250 UNT/ML [Hypertet]"
+          },
+          {
+            "code" : "1726478",
+            "display" : "tetanus immune globulin Prefilled Syringe [Hypertet]"
+          },
+          {
+            "code" : "1726479",
+            "display" : "Hypertet Injectable Product"
+          },
+          {
+            "code" : "1727875",
+            "display" : "tetanus immune globulin"
+          },
+          {
+            "code" : "1727877",
+            "display" : "tetanus immune globulin Injectable Product"
+          },
+          {
+            "code" : "1799408",
+            "display" : "metronidazole Vaginal Gel [Nuvessa]"
+          },
+          {
+            "code" : "1799409",
+            "display" : "Nuvessa Vaginal Product"
+          },
+          {
+            "code" : "1863330",
+            "display" : "metronidazole Injection"
+          },
+          {
+            "code" : "199055",
+            "display" : "metronidazole 375 MG Oral Capsule"
+          },
+          {
+            "code" : "199326",
+            "display" : "metronidazole 200 MG Oral Tablet"
+          },
+          {
+            "code" : "199327",
+            "display" : "metronidazole 400 MG Oral Tablet"
+          },
+          {
+            "code" : "199959",
+            "display" : "metronidazole 500 MG Rectal Suppository"
+          },
+          {
+            "code" : "202866",
+            "display" : "Flagyl"
+          },
+          {
+            "code" : "202869",
+            "display" : "MetroGel"
+          },
+          {
+            "code" : "203133",
+            "display" : "penicillin G potassium"
+          },
+          {
+            "code" : "204466",
+            "display" : "50 ML penicillin G potassium 40000 UNT/ML Injection"
+          },
+          {
+            "code" : "207390",
+            "display" : "50 ML penicillin G potassium 20000 UNT/ML Injection"
+          },
+          {
+            "code" : "207391",
+            "display" : "50 ML penicillin G potassium 60000 UNT/ML Injection"
+          },
+          {
+            "code" : "211666",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream [MetroCream]"
+          },
+          {
+            "code" : "213120",
+            "display" : "metronidazole 10 MG/ML Topical Cream [Noritate]"
+          },
+          {
+            "code" : "215674",
+            "display" : "Bicillin L-A"
+          },
+          {
+            "code" : "218343",
+            "display" : "MetroCream"
+          },
+          {
+            "code" : "218345",
+            "display" : "MetroLotion"
+          },
+          {
+            "code" : "218778",
+            "display" : "Noritate"
+          },
+          {
+            "code" : "225110",
+            "display" : "Bicillin"
+          },
+          {
+            "code" : "226584",
+            "display" : "metronidazole 0.008 MG/MG Topical Gel"
+          },
+          {
+            "code" : "242736",
+            "display" : "metronidazole 7.5 MG/ML Topical Lotion"
+          },
+          {
+            "code" : "250261",
+            "display" : "metronidazole 1000 MG Rectal Suppository"
+          },
+          {
+            "code" : "261119",
+            "display" : "metronidazole 7.5 MG/ML Topical Lotion [MetroLotion]"
+          },
+          {
+            "code" : "2648018",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule"
+          },
+          {
+            "code" : "2648047",
+            "display" : "penicillin G potassium Injection"
+          },
+          {
+            "code" : "2654286",
+            "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "2654444",
+            "display" : "tetanus immune globulin, human Prefilled Syringe [Hypertet]"
+          },
+          {
+            "code" : "2655683",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "2657299",
+            "display" : "penicillin G benzathine Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "2657690",
+            "display" : "penicillin G potassium Injectable Solution [Pfizerpen]"
+          },
+          {
+            "code" : "2659155",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Product"
+          },
+          {
+            "code" : "2659432",
+            "display" : "penicillin G benzathine Injectable Product"
+          },
+          {
+            "code" : "2659930",
+            "display" : "penicillin G benzathine / penicillin G procaine Injectable Product"
+          },
+          {
+            "code" : "2660178",
+            "display" : "penicillin G procaine Injectable Product"
+          },
+          {
+            "code" : "2660809",
+            "display" : "penicillin G benzathine / penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2660986",
+            "display" : "penicillin G potassium Injectable Product"
+          },
+          {
+            "code" : "2661899",
+            "display" : "penicillin G procaine / penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2663130",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Pill"
+          },
+          {
+            "code" : "2663361",
+            "display" : "penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2667642",
+            "display" : "metronidazole 100 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "2667643",
+            "display" : "Likmez"
+          },
+          {
+            "code" : "2667644",
+            "display" : "metronidazole 100 MG/ML [Likmez]"
+          },
+          {
+            "code" : "2667645",
+            "display" : "Likmez Oral Product"
+          },
+          {
+            "code" : "2667646",
+            "display" : "Likmez Oral Liquid Product"
+          },
+          {
+            "code" : "2667647",
+            "display" : "metronidazole Oral Suspension [Likmez]"
+          },
+          {
+            "code" : "2667648",
+            "display" : "metronidazole 100 MG/ML Oral Suspension [Likmez]"
+          },
+          {
+            "code" : "2671685",
+            "display" : "penicillin G benzathine 1200000 UNT"
+          },
+          {
+            "code" : "2671686",
+            "display" : "penicillin G benzathine Injection"
+          },
+          {
+            "code" : "2671687",
+            "display" : "penicillin G benzathine 1200000 UNT Injection"
+          },
+          {
+            "code" : "2671688",
+            "display" : "Extencilline"
+          },
+          {
+            "code" : "2671689",
+            "display" : "penicillin G benzathine 1200000 UNT [Extencilline]"
+          },
+          {
+            "code" : "2671690",
+            "display" : "Extencilline Injectable Product"
+          },
+          {
+            "code" : "2671691",
+            "display" : "penicillin G Injection [Extencilline]"
+          },
+          {
+            "code" : "2671692",
+            "display" : "penicillin G benzathine Injection [Extencilline]"
+          },
+          {
+            "code" : "2671693",
+            "display" : "penicillin G benzathine 1200000 UNT Injection [Extencilline]"
+          },
+          {
+            "code" : "2671694",
+            "display" : "penicillin G benzathine 2400000 UNT"
+          },
+          {
+            "code" : "2671695",
+            "display" : "penicillin G benzathine 2400000 UNT Injection"
+          },
+          {
+            "code" : "2671696",
+            "display" : "penicillin G benzathine 2400000 UNT [Extencilline]"
+          },
+          {
+            "code" : "2671697",
+            "display" : "penicillin G benzathine 2400000 UNT Injection [Extencilline]"
+          },
+          {
+            "code" : "2684986",
+            "display" : "Lentocilin"
+          },
+          {
+            "code" : "2684987",
+            "display" : "penicillin G benzathine 1200000 UNT [Lentocilin]"
+          },
+          {
+            "code" : "2684988",
+            "display" : "Lentocilin Injectable Product"
+          },
+          {
+            "code" : "2684989",
+            "display" : "penicillin G Injection [Lentocilin]"
+          },
+          {
+            "code" : "2684990",
+            "display" : "penicillin G benzathine Injection [Lentocilin]"
+          },
+          {
+            "code" : "2684991",
+            "display" : "penicillin G benzathine 1200000 UNT Injection [Lentocilin]"
+          },
+          {
+            "code" : "2702348",
+            "display" : "metronidazole 125 MG Oral Tablet"
+          },
+          {
+            "code" : "2702631",
+            "display" : "metronidazole 2 MG/ML"
+          },
+          {
+            "code" : "2702633",
+            "display" : "chlorhexidine / metronidazole"
+          },
+          {
+            "code" : "2702634",
+            "display" : "chlorhexidine / metronidazole Dental Product"
+          },
+          {
+            "code" : "2702635",
+            "display" : "chlorhexidine / metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "2702636",
+            "display" : "chlorhexidine / metronidazole Mouthwash Product"
+          },
+          {
+            "code" : "2702637",
+            "display" : "chlorhexidine / metronidazole Mouthwash"
+          },
+          {
+            "code" : "2702638",
+            "display" : "chlorhexidine gluconate / metronidazole Dental Product"
+          },
+          {
+            "code" : "2702639",
+            "display" : "chlorhexidine gluconate / metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "2702640",
+            "display" : "chlorhexidine gluconate / metronidazole Mouthwash Product"
+          },
+          {
+            "code" : "2702641",
+            "display" : "chlorhexidine gluconate / metronidazole Mouthwash"
+          },
+          {
+            "code" : "2702642",
+            "display" : "chlorhexidine gluconate 6 MG/ML / metronidazole 2 MG/ML Mouthwash"
+          },
+          {
+            "code" : "311678",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream"
+          },
+          {
+            "code" : "311679",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel"
+          },
+          {
+            "code" : "311680",
+            "display" : "metronidazole 10 MG/ML Topical Cream"
+          },
+          {
+            "code" : "311681",
+            "display" : "metronidazole 500 MG Oral Tablet"
+          },
+          {
+            "code" : "311683",
+            "display" : "100 ML metronidazole 5 MG/ML Injection"
+          },
+          {
+            "code" : "314106",
+            "display" : "metronidazole 250 MG Oral Tablet"
+          },
+          {
+            "code" : "316300",
+            "display" : "metronidazole 250 MG"
+          },
+          {
+            "code" : "316301",
+            "display" : "metronidazole 375 MG"
+          },
+          {
+            "code" : "316302",
+            "display" : "metronidazole 5 MG/ML"
+          },
+          {
+            "code" : "316779",
+            "display" : "tetanus immune globulin, human 250 UNT/ML"
+          },
+          {
+            "code" : "317428",
+            "display" : "metronidazole 500 MG"
+          },
+          {
+            "code" : "328471",
+            "display" : "metronidazole 0.0075 MG/MG"
+          },
+          {
+            "code" : "330379",
+            "display" : "metronidazole 750 MG"
+          },
+          {
+            "code" : "332220",
+            "display" : "metronidazole 400 MG"
+          },
+          {
+            "code" : "332221",
+            "display" : "metronidazole 1000 MG"
+          },
+          {
+            "code" : "332606",
+            "display" : "metronidazole 200 MG"
+          },
+          {
+            "code" : "335213",
+            "display" : "metronidazole 0.25 MG/MG"
+          },
+          {
+            "code" : "335214",
+            "display" : "metronidazole 0.008 MG/MG"
+          },
+          {
+            "code" : "335218",
+            "display" : "metronidazole 125 MG"
+          },
+          {
+            "code" : "343095",
+            "display" : "penicillin G potassium 40000 UNT/ML"
+          },
+          {
+            "code" : "343103",
+            "display" : "penicillin G potassium 20000 UNT/ML"
+          },
+          {
+            "code" : "343121",
+            "display" : "penicillin G potassium 60000 UNT/ML"
+          },
+          {
+            "code" : "343252",
+            "display" : "metronidazole 10 MG/ML"
+          },
+          {
+            "code" : "343518",
+            "display" : "metronidazole 100 MG/ML"
+          },
+          {
+            "code" : "346265",
+            "display" : "metronidazole 7.5 MG/ML"
+          },
+          {
+            "code" : "360535",
+            "display" : "metronidazole 40 MG/ML"
+          },
+          {
+            "code" : "360983",
+            "display" : "penicillin G 375 MG/ML"
+          },
+          {
+            "code" : "362150",
+            "display" : "metronidazole Topical Cream [Noritate]"
+          },
+          {
+            "code" : "362151",
+            "display" : "metronidazole Topical Cream [MetroCream]"
+          },
+          {
+            "code" : "365729",
+            "display" : "metronidazole Topical Lotion [MetroLotion]"
+          },
+          {
+            "code" : "370376",
+            "display" : "metronidazole Topical Gel [MetroGel]"
+          },
+          {
+            "code" : "372893",
+            "display" : "metronidazole Oral Suspension"
+          },
+          {
+            "code" : "372895",
+            "display" : "metronidazole Oral Capsule"
+          },
+          {
+            "code" : "372896",
+            "display" : "metronidazole Rectal Suppository"
+          },
+          {
+            "code" : "372897",
+            "display" : "metronidazole Oral Tablet"
+          },
+          {
+            "code" : "372898",
+            "display" : "metronidazole Extended Release Oral Tablet"
+          },
+          {
+            "code" : "373259",
+            "display" : "penicillin G Oral Tablet"
+          },
+          {
+            "code" : "373262",
+            "display" : "penicillin G Injectable Solution"
+          },
+          {
+            "code" : "377759",
+            "display" : "metronidazole Topical Cream"
+          },
+          {
+            "code" : "377760",
+            "display" : "metronidazole Topical Lotion"
+          },
+          {
+            "code" : "377977",
+            "display" : "metronidazole Oral Gel"
+          },
+          {
+            "code" : "378013",
+            "display" : "metronidazole Topical Gel"
+          },
+          {
+            "code" : "379122",
+            "display" : "metronidazole Vaginal Gel"
+          },
+          {
+            "code" : "379484",
+            "display" : "diloxanide / metronidazole Oral Tablet"
+          },
+          {
+            "code" : "392520",
+            "display" : "metronidazole / nystatin"
+          },
+          {
+            "code" : "572018",
+            "display" : "metronidazole 7.5 MG/ML [MetroCream]"
+          },
+          {
+            "code" : "573045",
+            "display" : "metronidazole 10 MG/ML [Noritate]"
+          },
+          {
+            "code" : "574364",
+            "display" : "metronidazole 7.5 MG/ML [MetroLotion]"
+          },
+          {
+            "code" : "577236",
+            "display" : "metronidazole 0.01 MG/MG"
+          },
+          {
+            "code" : "577237",
+            "display" : "metronidazole 0.01 MG/MG Topical Gel"
+          },
+          {
+            "code" : "583271",
+            "display" : "penicillin G benzathine 300000 UNT/ML"
+          },
+          {
+            "code" : "583272",
+            "display" : "penicillin G procaine 300000 UNT/ML"
+          },
+          {
+            "code" : "605729",
+            "display" : "metronidazole 0.01 MG/MG [MetroGel]"
+          },
+          {
+            "code" : "605730",
+            "display" : "metronidazole 0.01 MG/MG Topical Gel [MetroGel]"
+          },
+          {
+            "code" : "606381",
+            "display" : "Vandazole"
+          },
+          {
+            "code" : "608932",
+            "display" : "metronidazole 0.0075 MG/MG [Vandazole]"
+          },
+          {
+            "code" : "608933",
+            "display" : "metronidazole Vaginal Gel [Vandazole]"
+          },
+          {
+            "code" : "608934",
+            "display" : "metronidazole 0.0075 MG/MG Vaginal Gel [Vandazole]"
+          },
+          {
+            "code" : "623671",
+            "display" : "penicillin G benzathine 150000 UNT/ML"
+          },
+          {
+            "code" : "623677",
+            "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "623694",
+            "display" : "penicillin G procaine 150000 UNT/ML"
+          },
+          {
+            "code" : "623695",
+            "display" : "penicillin G benzathine 150000 UNT/ML / penicillin G procaine 150000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "636559",
+            "display" : "24 HR metronidazole 750 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "687209",
+            "display" : "metronidazole 375 MG [Flagyl]"
+          },
+          {
+            "code" : "687210",
+            "display" : "metronidazole Oral Capsule [Flagyl]"
+          },
+          {
+            "code" : "687211",
+            "display" : "metronidazole 375 MG Oral Capsule [Flagyl]"
+          },
+          {
+            "code" : "6922",
+            "display" : "metronidazole"
+          },
+          {
+            "code" : "701916",
+            "display" : "Nydamax"
+          },
+          {
+            "code" : "701917",
+            "display" : "metronidazole 0.0075 MG/MG [Nydamax]"
+          },
+          {
+            "code" : "701918",
+            "display" : "metronidazole Topical Gel [Nydamax]"
+          },
+          {
+            "code" : "701919",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel [Nydamax]"
+          },
+          {
+            "code" : "705860",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule"
+          },
+          {
+            "code" : "705862",
+            "display" : "Pylera"
+          },
+          {
+            "code" : "705864",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "727620",
+            "display" : "penicillin G Prefilled Syringe"
+          },
+          {
+            "code" : "730595",
+            "display" : "penicillin G Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "731538",
+            "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731539",
+            "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML [Bicillin]"
+          },
+          {
+            "code" : "731540",
+            "display" : "penicillin G Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "731541",
+            "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "731542",
+            "display" : "penicillin G benzathine 600000 UNT/ML"
+          },
+          {
+            "code" : "731543",
+            "display" : "penicillin G procaine 600000 UNT/ML"
+          },
+          {
+            "code" : "731549",
+            "display" : "penicillin G benzathine 900000 UNT/ML"
+          },
+          {
+            "code" : "731554",
+            "display" : "penicillin G benzathine 450000 UNT/ML"
+          },
+          {
+            "code" : "731564",
+            "display" : "1 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731565",
+            "display" : "penicillin G benzathine 600000 UNT/ML [Bicillin L-A]"
+          },
+          {
+            "code" : "731566",
+            "display" : "1 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "731567",
+            "display" : "2 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731568",
+            "display" : "2 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "731570",
+            "display" : "4 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731571",
+            "display" : "4 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "731572",
+            "display" : "penicillin G benzathine 600000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "731575",
+            "display" : "penicillin G benzathine 300000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "745285",
+            "display" : "penicillin G potassium 250000 UNT"
+          },
+          {
+            "code" : "745286",
+            "display" : "penicillin G potassium 250000 UNT Oral Tablet"
+          },
+          {
+            "code" : "745291",
+            "display" : "penicillin G potassium 400000 UNT"
+          },
+          {
+            "code" : "745292",
+            "display" : "penicillin G potassium 400000 UNT Oral Tablet"
+          },
+          {
+            "code" : "745301",
+            "display" : "penicillin G sodium 100000 UNT/ML"
+          },
+          {
+            "code" : "745302",
+            "display" : "penicillin G sodium 100000 UNT/ML Injectable Solution"
+          },
+          {
+            "code" : "745462",
+            "display" : "2 ML penicillin G procaine 600000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "745477",
+            "display" : "penicillin G benzathine 900000 UNT/ML / penicillin G procaine 300000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "745560",
+            "display" : "1 ML penicillin G procaine 600000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "745561",
+            "display" : "penicillin G procaine 600000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "758019",
+            "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack"
+          },
+          {
+            "code" : "758020",
+            "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack [Helidac Therapy]"
+          },
+          {
+            "code" : "7980",
+            "display" : "penicillin G"
+          },
+          {
+            "code" : "7982",
+            "display" : "penicillin G benzathine"
+          },
+          {
+            "code" : "7983",
+            "display" : "penicillin G procaine"
+          },
+          {
+            "code" : "8096",
+            "display" : "Pfizerpen"
+          },
+          {
+            "code" : "818629",
+            "display" : "bismuth biskalcitrate / metronidazole / tetracycline"
+          },
+          {
+            "code" : "82047",
+            "display" : "metronidazole hydrochloride"
+          },
+          {
+            "code" : "821514",
+            "display" : "iodoquinol / metronidazole"
+          },
+          {
+            "code" : "836271",
+            "display" : "penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML [Bicillin]"
+          },
+          {
+            "code" : "836306",
+            "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "836307",
+            "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "863537",
+            "display" : "penicillin G potassium 1000000 UNT/ML"
+          },
+          {
+            "code" : "863538",
+            "display" : "penicillin G potassium 1000000 UNT/ML Injectable Solution"
+          },
+          {
+            "code" : "91603",
+            "display" : "tetanus immune globulin, human"
+          },
+          {
+            "code" : "93752",
+            "display" : "penicillin G Injectable Solution [Pfizerpen]"
+          },
+          {
+            "code" : "9900",
+            "display" : "penicillin G sodium"
+          },
+          {
+            "code" : "995905",
+            "display" : "penicillin G potassium 1000000 UNT/ML [Pfizerpen]"
+          },
+          {
+            "code" : "995906",
+            "display" : "penicillin G potassium 1000000 UNT/ML Injectable Solution [Pfizerpen]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:44c0da4b-668b-462e-8220-b63630d7681c",
+    "timestamp" : "2025-11-24T13:50:38-05:00",
+    "total" : 266,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1006992",
+        "display" : "merbromin / penicillin G"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007331",
+        "display" : "metronidazole / scopolamine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007623",
+        "display" : "clemizolpenicillin / penicillin G"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007769",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008899",
+        "display" : "malachite green / metronidazole / microcrystalline cellulose / trichlorfon"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "103866",
+        "display" : "metronidazole benzoate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "103867",
+        "display" : "metronidazole 0.25 MG/MG Oral Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105078",
+        "display" : "penicillin G 375 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105304",
+        "display" : "metronidazole 40 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108249",
+        "display" : "diloxanide / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108302",
+        "display" : "diloxanide 250 MG / metronidazole 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1087390",
+        "display" : "tetanus immune globulin Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1087392",
+        "display" : "Hypertet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148395",
+        "display" : "Rosadan"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148396",
+        "display" : "metronidazole 7.5 MG/ML [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148397",
+        "display" : "metronidazole Topical Cream [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148398",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151879",
+        "display" : "diloxanide / metronidazole Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151880",
+        "display" : "diloxanide / metronidazole Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1154702",
+        "display" : "bismuth biskalcitrate / metronidazole / tetracycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161817",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161818",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164081",
+        "display" : "metronidazole Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164082",
+        "display" : "metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164083",
+        "display" : "metronidazole Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164084",
+        "display" : "metronidazole Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164085",
+        "display" : "metronidazole Rectal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164086",
+        "display" : "metronidazole Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164087",
+        "display" : "metronidazole Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164764",
+        "display" : "penicillin G Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164766",
+        "display" : "penicillin G Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164767",
+        "display" : "penicillin G Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169007",
+        "display" : "Flagyl Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169008",
+        "display" : "Flagyl Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1173631",
+        "display" : "Bicillin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1173632",
+        "display" : "Bicillin L-A Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176961",
+        "display" : "MetroCream Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176962",
+        "display" : "MetroGel Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176964",
+        "display" : "MetroLotion Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1178225",
+        "display" : "Pfizerpen Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1179863",
+        "display" : "Nydamax Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182554",
+        "display" : "Rosadan Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184086",
+        "display" : "Pylera Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184087",
+        "display" : "Pylera Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1185692",
+        "display" : "Noritate Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187351",
+        "display" : "Vandazole Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251686",
+        "display" : "metronidazole 0.0075 MG/MG [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251687",
+        "display" : "metronidazole Topical Gel [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251688",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294619",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294620",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294621",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1295356",
+        "display" : "metronidazole Oral Gel Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "142046",
+        "display" : "metronidazole 0.0075 MG/MG Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1429469",
+        "display" : "metronidazole / spiramycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1492665",
+        "display" : "metronidazole 0.013 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604332",
+        "display" : "Nuvessa"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604333",
+        "display" : "metronidazole 0.013 MG/MG [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604336",
+        "display" : "metronidazole 0.013 MG/MG Vaginal Gel [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1608253",
+        "display" : "metronidazole 0.013 MG/MG Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1719795",
+        "display" : "penicillin G Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1726477",
+        "display" : "tetanus immune globulin, human 250 UNT/ML [Hypertet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1726478",
+        "display" : "tetanus immune globulin Prefilled Syringe [Hypertet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1726479",
+        "display" : "Hypertet Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1727875",
+        "display" : "tetanus immune globulin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1727877",
+        "display" : "tetanus immune globulin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799408",
+        "display" : "metronidazole Vaginal Gel [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799409",
+        "display" : "Nuvessa Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1863330",
+        "display" : "metronidazole Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199055",
+        "display" : "metronidazole 375 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199326",
+        "display" : "metronidazole 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199327",
+        "display" : "metronidazole 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199959",
+        "display" : "metronidazole 500 MG Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202866",
+        "display" : "Flagyl"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202869",
+        "display" : "MetroGel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203133",
+        "display" : "penicillin G potassium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "204466",
+        "display" : "50 ML penicillin G potassium 40000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "207390",
+        "display" : "50 ML penicillin G potassium 20000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "207391",
+        "display" : "50 ML penicillin G potassium 60000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "211666",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213120",
+        "display" : "metronidazole 10 MG/ML Topical Cream [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "215674",
+        "display" : "Bicillin L-A"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218343",
+        "display" : "MetroCream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218345",
+        "display" : "MetroLotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218778",
+        "display" : "Noritate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "225110",
+        "display" : "Bicillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "226584",
+        "display" : "metronidazole 0.008 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "242736",
+        "display" : "metronidazole 7.5 MG/ML Topical Lotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250261",
+        "display" : "metronidazole 1000 MG Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261119",
+        "display" : "metronidazole 7.5 MG/ML Topical Lotion [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648018",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648047",
+        "display" : "penicillin G potassium Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2654286",
+        "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2654444",
+        "display" : "tetanus immune globulin, human Prefilled Syringe [Hypertet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655683",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2657299",
+        "display" : "penicillin G benzathine Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2657690",
+        "display" : "penicillin G potassium Injectable Solution [Pfizerpen]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659155",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659432",
+        "display" : "penicillin G benzathine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659930",
+        "display" : "penicillin G benzathine / penicillin G procaine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660178",
+        "display" : "penicillin G procaine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660809",
+        "display" : "penicillin G benzathine / penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660986",
+        "display" : "penicillin G potassium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661899",
+        "display" : "penicillin G procaine / penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663130",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663361",
+        "display" : "penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667642",
+        "display" : "metronidazole 100 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667643",
+        "display" : "Likmez"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667644",
+        "display" : "metronidazole 100 MG/ML [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667645",
+        "display" : "Likmez Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667646",
+        "display" : "Likmez Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667647",
+        "display" : "metronidazole Oral Suspension [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667648",
+        "display" : "metronidazole 100 MG/ML Oral Suspension [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671685",
+        "display" : "penicillin G benzathine 1200000 UNT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671686",
+        "display" : "penicillin G benzathine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671687",
+        "display" : "penicillin G benzathine 1200000 UNT Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671688",
+        "display" : "Extencilline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671689",
+        "display" : "penicillin G benzathine 1200000 UNT [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671690",
+        "display" : "Extencilline Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671691",
+        "display" : "penicillin G Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671692",
+        "display" : "penicillin G benzathine Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671693",
+        "display" : "penicillin G benzathine 1200000 UNT Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671694",
+        "display" : "penicillin G benzathine 2400000 UNT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671695",
+        "display" : "penicillin G benzathine 2400000 UNT Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671696",
+        "display" : "penicillin G benzathine 2400000 UNT [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671697",
+        "display" : "penicillin G benzathine 2400000 UNT Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684986",
+        "display" : "Lentocilin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684987",
+        "display" : "penicillin G benzathine 1200000 UNT [Lentocilin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684988",
+        "display" : "Lentocilin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684989",
+        "display" : "penicillin G Injection [Lentocilin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684990",
+        "display" : "penicillin G benzathine Injection [Lentocilin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2684991",
+        "display" : "penicillin G benzathine 1200000 UNT Injection [Lentocilin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702348",
+        "display" : "metronidazole 125 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702631",
+        "display" : "metronidazole 2 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702633",
+        "display" : "chlorhexidine / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702634",
+        "display" : "chlorhexidine / metronidazole Dental Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702635",
+        "display" : "chlorhexidine / metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702636",
+        "display" : "chlorhexidine / metronidazole Mouthwash Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702637",
+        "display" : "chlorhexidine / metronidazole Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702638",
+        "display" : "chlorhexidine gluconate / metronidazole Dental Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702639",
+        "display" : "chlorhexidine gluconate / metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702640",
+        "display" : "chlorhexidine gluconate / metronidazole Mouthwash Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702641",
+        "display" : "chlorhexidine gluconate / metronidazole Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702642",
+        "display" : "chlorhexidine gluconate 6 MG/ML / metronidazole 2 MG/ML Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311678",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311679",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311680",
+        "display" : "metronidazole 10 MG/ML Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311681",
+        "display" : "metronidazole 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311683",
+        "display" : "100 ML metronidazole 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314106",
+        "display" : "metronidazole 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316300",
+        "display" : "metronidazole 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316301",
+        "display" : "metronidazole 375 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316302",
+        "display" : "metronidazole 5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316779",
+        "display" : "tetanus immune globulin, human 250 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317428",
+        "display" : "metronidazole 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328471",
+        "display" : "metronidazole 0.0075 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330379",
+        "display" : "metronidazole 750 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332220",
+        "display" : "metronidazole 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332221",
+        "display" : "metronidazole 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332606",
+        "display" : "metronidazole 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335213",
+        "display" : "metronidazole 0.25 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335214",
+        "display" : "metronidazole 0.008 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335218",
+        "display" : "metronidazole 125 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343095",
+        "display" : "penicillin G potassium 40000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343103",
+        "display" : "penicillin G potassium 20000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343121",
+        "display" : "penicillin G potassium 60000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343252",
+        "display" : "metronidazole 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343518",
+        "display" : "metronidazole 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "346265",
+        "display" : "metronidazole 7.5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360535",
+        "display" : "metronidazole 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360983",
+        "display" : "penicillin G 375 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362150",
+        "display" : "metronidazole Topical Cream [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362151",
+        "display" : "metronidazole Topical Cream [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "365729",
+        "display" : "metronidazole Topical Lotion [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370376",
+        "display" : "metronidazole Topical Gel [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372893",
+        "display" : "metronidazole Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372895",
+        "display" : "metronidazole Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372896",
+        "display" : "metronidazole Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372897",
+        "display" : "metronidazole Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372898",
+        "display" : "metronidazole Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373259",
+        "display" : "penicillin G Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373262",
+        "display" : "penicillin G Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377759",
+        "display" : "metronidazole Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377760",
+        "display" : "metronidazole Topical Lotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377977",
+        "display" : "metronidazole Oral Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "378013",
+        "display" : "metronidazole Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "379122",
+        "display" : "metronidazole Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "379484",
+        "display" : "diloxanide / metronidazole Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "392520",
+        "display" : "metronidazole / nystatin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "572018",
+        "display" : "metronidazole 7.5 MG/ML [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573045",
+        "display" : "metronidazole 10 MG/ML [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574364",
+        "display" : "metronidazole 7.5 MG/ML [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "577236",
+        "display" : "metronidazole 0.01 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "577237",
+        "display" : "metronidazole 0.01 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "583271",
+        "display" : "penicillin G benzathine 300000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "583272",
+        "display" : "penicillin G procaine 300000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "605729",
+        "display" : "metronidazole 0.01 MG/MG [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "605730",
+        "display" : "metronidazole 0.01 MG/MG Topical Gel [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "606381",
+        "display" : "Vandazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608932",
+        "display" : "metronidazole 0.0075 MG/MG [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608933",
+        "display" : "metronidazole Vaginal Gel [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608934",
+        "display" : "metronidazole 0.0075 MG/MG Vaginal Gel [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "623671",
+        "display" : "penicillin G benzathine 150000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "623677",
+        "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "623694",
+        "display" : "penicillin G procaine 150000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "623695",
+        "display" : "penicillin G benzathine 150000 UNT/ML / penicillin G procaine 150000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "636559",
+        "display" : "24 HR metronidazole 750 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687209",
+        "display" : "metronidazole 375 MG [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687210",
+        "display" : "metronidazole Oral Capsule [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687211",
+        "display" : "metronidazole 375 MG Oral Capsule [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "6922",
+        "display" : "metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701916",
+        "display" : "Nydamax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701917",
+        "display" : "metronidazole 0.0075 MG/MG [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701918",
+        "display" : "metronidazole Topical Gel [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701919",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705860",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705862",
+        "display" : "Pylera"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705864",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "727620",
+        "display" : "penicillin G Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "730595",
+        "display" : "penicillin G Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731538",
+        "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731539",
+        "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731540",
+        "display" : "penicillin G Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731541",
+        "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731542",
+        "display" : "penicillin G benzathine 600000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731543",
+        "display" : "penicillin G procaine 600000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731549",
+        "display" : "penicillin G benzathine 900000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731554",
+        "display" : "penicillin G benzathine 450000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731564",
+        "display" : "1 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731565",
+        "display" : "penicillin G benzathine 600000 UNT/ML [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731566",
+        "display" : "1 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731567",
+        "display" : "2 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731568",
+        "display" : "2 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731570",
+        "display" : "4 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731571",
+        "display" : "4 ML penicillin G benzathine 600000 UNT/ML Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731572",
+        "display" : "penicillin G benzathine 600000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731575",
+        "display" : "penicillin G benzathine 300000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745285",
+        "display" : "penicillin G potassium 250000 UNT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745286",
+        "display" : "penicillin G potassium 250000 UNT Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745291",
+        "display" : "penicillin G potassium 400000 UNT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745292",
+        "display" : "penicillin G potassium 400000 UNT Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745301",
+        "display" : "penicillin G sodium 100000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745302",
+        "display" : "penicillin G sodium 100000 UNT/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745462",
+        "display" : "2 ML penicillin G procaine 600000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745477",
+        "display" : "penicillin G benzathine 900000 UNT/ML / penicillin G procaine 300000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745560",
+        "display" : "1 ML penicillin G procaine 600000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745561",
+        "display" : "penicillin G procaine 600000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "758019",
+        "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "758020",
+        "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack [Helidac Therapy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7980",
+        "display" : "penicillin G"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7982",
+        "display" : "penicillin G benzathine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7983",
+        "display" : "penicillin G procaine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "8096",
+        "display" : "Pfizerpen"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "818629",
+        "display" : "bismuth biskalcitrate / metronidazole / tetracycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "82047",
+        "display" : "metronidazole hydrochloride"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "821514",
+        "display" : "iodoquinol / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836271",
+        "display" : "penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836306",
+        "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836307",
+        "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "863537",
+        "display" : "penicillin G potassium 1000000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "863538",
+        "display" : "penicillin G potassium 1000000 UNT/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "91603",
+        "display" : "tetanus immune globulin, human"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "93752",
+        "display" : "penicillin G Injectable Solution [Pfizerpen]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "9900",
+        "display" : "penicillin G sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "995905",
+        "display" : "penicillin G potassium 1000000 UNT/ML [Pfizerpen]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "995906",
+        "display" : "penicillin G potassium 1000000 UNT/ML Injectable Solution [Pfizerpen]"
+      }
+    ]
+  }
+}

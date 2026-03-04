@@ -1,0 +1,84 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2817",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2817",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2817"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "MalariaAdditionalContextSpecimenSourceCodes",
+  "title" : "Malaria Additional Context Specimen Source Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Malaria Additional Context Specimen Source Codes),(Data Element Scope: Malaria Additional Context Specimen Source Codes),(Inclusion Criteria: Malaria Additional Context Specimen Source Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "87612001",
+            "display" : "Blood (substance)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:70e2fe96-c675-4976-b8e5-0e546c8f53c0",
+    "timestamp" : "2025-11-24T13:39:17-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87612001",
+        "display" : "Blood (substance)"
+      }
+    ]
+  }
+}

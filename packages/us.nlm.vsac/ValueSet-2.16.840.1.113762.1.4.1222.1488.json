@@ -1,0 +1,102 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.1488",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2024-09-17T12:35:39.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-08-22"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-08-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1488",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.1488"
+    }
+  ],
+  "version" : "20240822",
+  "name" : "PosturalTachycardiaSyndromePOTSDiagnosis",
+  "title" : "Postural tachycardia syndrome (POTS) Diagnosis",
+  "status" : "active",
+  "date" : "2024-09-17T12:35:39-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnosis terms representing Postural tachycardia syndrome (POTS).),(Data Element Scope: The intent of this value set is to identify patients who are experiencing Postural tachycardia syndrome (POTS) symptoms.),(Inclusion Criteria: Includes Postural tachycardia syndrome (POTS) diagnosis concepts from SNOMED CT and ICD-10-CM.),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1487"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1486"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1a176671-7c5c-4a75-bb6e-b89bfd62c689",
+    "timestamp" : "2025-11-24T15:12:23-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217211002",
+        "display" : "Postural orthostatic tachycardia syndrome due to norepinephrine transporter deficiency (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1290892007",
+        "display" : "Bier anemic spots, cyanosis, and urticaria-like eruption syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371073003",
+        "display" : "Postural orthostatic tachycardia syndrome (disorder)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I49.8",
+        "display" : "Other specified cardiac arrhythmias"
+      }
+    ]
+  }
+}

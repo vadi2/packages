@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1219.98",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CMS DRLS Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-03-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1219.98",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1219.98"
+    }
+  ],
+  "version" : "20220315",
+  "name" : "PhysicalTherapyProcedureHCPCS",
+  "title" : "Physical Therapy Procedure HCPCS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-03-15T01:04:14-04:00",
+  "publisher" : "CMS DRLS Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: General physical therapy procedure.),(Data Element Scope: Generic rehabilitation physical therapy procedure that may qualify a patient for home health care  as defined by the US Centers for Medicare and Medicaid Services.),(Inclusion Criteria: General physical therapy procedure.),(Exclusion Criteria: Rehabilitation therapy procedures generally described as occupational therapy or speech-language pathology.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "G0151",
+            "display" : "Services performed by a qualified physical therapist in the home health or hospice setting, each 15 minutes"
+          },
+          {
+            "code" : "G0157",
+            "display" : "Services performed by a qualified physical therapist assistant in the home health or hospice setting, each 15 minutes"
+          },
+          {
+            "code" : "S9131",
+            "display" : "Physical therapy; in the home, per diem"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:dfff0f04-fdac-4d19-af9f-4bebd69e7618",
+    "timestamp" : "2025-11-24T15:02:38-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G0151",
+        "display" : "Services performed by a qualified physical therapist in the home health or hospice setting, each 15 minutes"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G0157",
+        "display" : "Services performed by a qualified physical therapist assistant in the home health or hospice setting, each 15 minutes"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "S9131",
+        "display" : "Physical therapy; in the home, per diem"
+      }
+    ]
+  }
+}

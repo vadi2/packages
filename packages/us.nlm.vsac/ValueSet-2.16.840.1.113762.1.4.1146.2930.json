@@ -1,0 +1,1064 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2930",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2930",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2930"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "InvasiveHaemophilusInfluenzaeDiseaseAdditionalContextImmunizationCodes",
+  "title" : "Invasive Haemophilus Influenzae Disease Additional Context Immunization Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Invasive Haemophilus Influenzae Disease Additional Context Immunization Codes),(Data Element Scope: Invasive Haemophilus Influenzae Disease Additional Context Immunization Codes),(Inclusion Criteria: Invasive Haemophilus Influenzae Disease Additional Context Immunization Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1008933",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated"
+          },
+          {
+            "code" : "1153958",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+          },
+          {
+            "code" : "1159739",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injectable Product"
+          },
+          {
+            "code" : "1160291",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+          },
+          {
+            "code" : "1169156",
+            "display" : "ActHIB Injectable Product"
+          },
+          {
+            "code" : "1169861",
+            "display" : "Hiberix Injectable Product"
+          },
+          {
+            "code" : "1184551",
+            "display" : "PedvaxHIB Injectable Product"
+          },
+          {
+            "code" : "1184583",
+            "display" : "Pentacel Injectable Product"
+          },
+          {
+            "code" : "1300180",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated"
+          },
+          {
+            "code" : "1300182",
+            "display" : "Bordetella pertussis fimbriae 2/3 vaccine, inactivated"
+          },
+          {
+            "code" : "1300183",
+            "display" : "Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML"
+          },
+          {
+            "code" : "1300184",
+            "display" : "Bordetella pertussis pertactin vaccine, inactivated"
+          },
+          {
+            "code" : "1300185",
+            "display" : "Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML"
+          },
+          {
+            "code" : "1300186",
+            "display" : "Bordetella pertussis toxoid vaccine, inactivated"
+          },
+          {
+            "code" : "1300464",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+          },
+          {
+            "code" : "1300465",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML"
+          },
+          {
+            "code" : "1300466",
+            "display" : "0.5 ML Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML Injection"
+          },
+          {
+            "code" : "1300467",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML [ActHIB]"
+          },
+          {
+            "code" : "1300468",
+            "display" : "0.5 ML Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML Injection [ActHIB]"
+          },
+          {
+            "code" : "1300806",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+          },
+          {
+            "code" : "1300807",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML"
+          },
+          {
+            "code" : "1300808",
+            "display" : "0.5 ML Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML Injection"
+          },
+          {
+            "code" : "1300809",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML [Hiberix]"
+          },
+          {
+            "code" : "1300810",
+            "display" : "0.5 ML Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML Injection [Hiberix]"
+          },
+          {
+            "code" : "1364467",
+            "display" : "Haemophilus influenzae"
+          },
+          {
+            "code" : "1437910",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / meningococcal group C polysaccharide / meningococcal polysaccharide vaccine group Y"
+          },
+          {
+            "code" : "1488651",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine"
+          },
+          {
+            "code" : "1657394",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+          },
+          {
+            "code" : "1657397",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Pentacel]"
+          },
+          {
+            "code" : "1657731",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injection"
+          },
+          {
+            "code" : "1657733",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injection [PedvaxHIB]"
+          },
+          {
+            "code" : "1658069",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+          },
+          {
+            "code" : "1658071",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [Hiberix]"
+          },
+          {
+            "code" : "1658093",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [ActHIB]"
+          },
+          {
+            "code" : "1988801",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML"
+          },
+          {
+            "code" : "1988802",
+            "display" : "Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML"
+          },
+          {
+            "code" : "2109608",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML"
+          },
+          {
+            "code" : "2109609",
+            "display" : "poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML"
+          },
+          {
+            "code" : "2109610",
+            "display" : "poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML"
+          },
+          {
+            "code" : "2109611",
+            "display" : "poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML"
+          },
+          {
+            "code" : "2109612",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+          },
+          {
+            "code" : "2109613",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+          },
+          {
+            "code" : "2109614",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated"
+          },
+          {
+            "code" : "2109615",
+            "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injection"
+          },
+          {
+            "code" : "2109616",
+            "display" : "Vaxelis"
+          },
+          {
+            "code" : "2109617",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML [Vaxelis]"
+          },
+          {
+            "code" : "2109618",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Vaxelis]"
+          },
+          {
+            "code" : "2109619",
+            "display" : "Vaxelis Injectable Product"
+          },
+          {
+            "code" : "2109620",
+            "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injection [Vaxelis]"
+          },
+          {
+            "code" : "235600",
+            "display" : "diphtheria toxoid adsorbed"
+          },
+          {
+            "code" : "2468236",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe"
+          },
+          {
+            "code" : "2468237",
+            "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2468238",
+            "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe [Vaxelis]"
+          },
+          {
+            "code" : "2468239",
+            "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Prefilled Syringe [Vaxelis]"
+          },
+          {
+            "code" : "2585714",
+            "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection"
+          },
+          {
+            "code" : "2585716",
+            "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML [Pentacel]"
+          },
+          {
+            "code" : "2585717",
+            "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection [Pentacel]"
+          },
+          {
+            "code" : "2646107",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+          },
+          {
+            "code" : "2648158",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+          },
+          {
+            "code" : "2649098",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+          },
+          {
+            "code" : "2649329",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe"
+          },
+          {
+            "code" : "2654629",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [ActHIB]"
+          },
+          {
+            "code" : "2655240",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe [Vaxelis]"
+          },
+          {
+            "code" : "2656184",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [Hiberix]"
+          },
+          {
+            "code" : "2656943",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Vaxelis]"
+          },
+          {
+            "code" : "2659647",
+            "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+          },
+          {
+            "code" : "2660657",
+            "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+          },
+          {
+            "code" : "2661097",
+            "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+          },
+          {
+            "code" : "314656",
+            "display" : "Hemophilus B polysaccharide"
+          },
+          {
+            "code" : "50937",
+            "display" : "Haemophilus influenzae type b"
+          },
+          {
+            "code" : "637866",
+            "display" : "ActHIB"
+          },
+          {
+            "code" : "674453",
+            "display" : "Pentacel"
+          },
+          {
+            "code" : "683648",
+            "display" : "Hiberix"
+          },
+          {
+            "code" : "763096",
+            "display" : "poliovirus vaccine inactivated, type 1 (Mahoney)"
+          },
+          {
+            "code" : "763097",
+            "display" : "poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML"
+          },
+          {
+            "code" : "763098",
+            "display" : "poliovirus vaccine inactivated, type 2 (MEF-1)"
+          },
+          {
+            "code" : "763099",
+            "display" : "poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML"
+          },
+          {
+            "code" : "763100",
+            "display" : "poliovirus vaccine inactivated, type 3 (Saukett)"
+          },
+          {
+            "code" : "763101",
+            "display" : "poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML"
+          },
+          {
+            "code" : "797752",
+            "display" : "hepatitis B surface antigen vaccine"
+          },
+          {
+            "code" : "797753",
+            "display" : "hepatitis B surface antigen vaccine 0.02 MG/ML"
+          },
+          {
+            "code" : "798279",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+          },
+          {
+            "code" : "798302",
+            "display" : "acellular pertussis vaccine, inactivated"
+          },
+          {
+            "code" : "798304",
+            "display" : "diphtheria toxoid vaccine, inactivated"
+          },
+          {
+            "code" : "798306",
+            "display" : "tetanus toxoid vaccine, inactivated"
+          },
+          {
+            "code" : "798307",
+            "display" : "tetanus toxoid vaccine, inactivated 10 UNT/ML"
+          },
+          {
+            "code" : "798444",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine"
+          },
+          {
+            "code" : "798445",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML"
+          },
+          {
+            "code" : "798447",
+            "display" : "0.5 ML Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML Injection"
+          },
+          {
+            "code" : "798448",
+            "display" : "PedvaxHIB"
+          },
+          {
+            "code" : "798449",
+            "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML [PedvaxHIB]"
+          },
+          {
+            "code" : "798451",
+            "display" : "0.5 ML Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML Injection [PedvaxHIB]"
+          },
+          {
+            "code" : "801712",
+            "display" : "tetanus toxoid vaccine, inactivated 20 UNT/ML"
+          },
+          {
+            "code" : "801826",
+            "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML"
+          },
+          {
+            "code" : "801829",
+            "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML"
+          },
+          {
+            "code" : "805373",
+            "display" : "diphtheria toxoid vaccine, inactivated 30 UNT/ML"
+          },
+          {
+            "code" : "805375",
+            "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection"
+          },
+          {
+            "code" : "805376",
+            "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML [Pentacel]"
+          },
+          {
+            "code" : "805378",
+            "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection [Pentacel]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:27e37d33-fed8-44de-b275-d7a4ff343371",
+    "timestamp" : "2025-11-24T13:46:12-05:00",
+    "total" : 99,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008933",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153958",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1159739",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160291",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169156",
+        "display" : "ActHIB Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169861",
+        "display" : "Hiberix Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184551",
+        "display" : "PedvaxHIB Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184583",
+        "display" : "Pentacel Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300180",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300182",
+        "display" : "Bordetella pertussis fimbriae 2/3 vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300183",
+        "display" : "Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300184",
+        "display" : "Bordetella pertussis pertactin vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300185",
+        "display" : "Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300186",
+        "display" : "Bordetella pertussis toxoid vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300464",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300465",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300466",
+        "display" : "0.5 ML Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300467",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML [ActHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300468",
+        "display" : "0.5 ML Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.068 MG/ML Injection [ActHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300806",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300807",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300808",
+        "display" : "0.5 ML Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300809",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML [Hiberix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1300810",
+        "display" : "0.5 ML Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 0.07 MG/ML Injection [Hiberix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364467",
+        "display" : "Haemophilus influenzae"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1437910",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / meningococcal group C polysaccharide / meningococcal polysaccharide vaccine group Y"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1488651",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657394",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657397",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Pentacel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657731",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657733",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine Injection [PedvaxHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658069",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658071",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [Hiberix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658093",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [ActHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1988801",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1988802",
+        "display" : "Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109608",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109609",
+        "display" : "poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109610",
+        "display" : "poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109611",
+        "display" : "poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109612",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109613",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109614",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109615",
+        "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109616",
+        "display" : "Vaxelis"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109617",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109618",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109619",
+        "display" : "Vaxelis Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2109620",
+        "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injection [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "235600",
+        "display" : "diphtheria toxoid adsorbed"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468236",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468237",
+        "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468238",
+        "display" : "acellular pertussis vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468239",
+        "display" : "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.04 MG/ML / Bordetella pertussis fimbriae 2/3 vaccine, inactivated 0.01 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.006 MG/ML / Bordetella pertussis toxoid vaccine, inactivated 0.04 MG/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.006 MG/ML / hepatitis B surface antigen vaccine 0.02 MG/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Prefilled Syringe [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2585714",
+        "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2585716",
+        "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML [Pentacel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2585717",
+        "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 58 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 14 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 52 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection [Pentacel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646107",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648158",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2649098",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2649329",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2654629",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [ActHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655240",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Prefilled Syringe [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656184",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injection [Hiberix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656943",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injection [Vaxelis]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659647",
+        "display" : "Haemophilus influenzae type b strain 20752, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660657",
+        "display" : "Haemophilus influenzae type b strain 1482, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661097",
+        "display" : "Bordetella pertussis filamentous hemagglutinin vaccine, inactivated / Bordetella pertussis fimbriae 2/3 vaccine, inactivated / Bordetella pertussis pertactin vaccine, inactivated / Bordetella pertussis toxoid vaccine, inactivated / diphtheria toxoid vaccine, inactivated / Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine / hepatitis B surface antigen vaccine / poliovirus vaccine inactivated, type 1 (Mahoney) / poliovirus vaccine inactivated, type 2 (MEF-1) / poliovirus vaccine inactivated, type 3 (Saukett) / tetanus toxoid vaccine, inactivated Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314656",
+        "display" : "Hemophilus B polysaccharide"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "50937",
+        "display" : "Haemophilus influenzae type b"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "637866",
+        "display" : "ActHIB"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "674453",
+        "display" : "Pentacel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "683648",
+        "display" : "Hiberix"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763096",
+        "display" : "poliovirus vaccine inactivated, type 1 (Mahoney)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763097",
+        "display" : "poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763098",
+        "display" : "poliovirus vaccine inactivated, type 2 (MEF-1)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763099",
+        "display" : "poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763100",
+        "display" : "poliovirus vaccine inactivated, type 3 (Saukett)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "763101",
+        "display" : "poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "797752",
+        "display" : "hepatitis B surface antigen vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "797753",
+        "display" : "hepatitis B surface antigen vaccine 0.02 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798279",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798302",
+        "display" : "acellular pertussis vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798304",
+        "display" : "diphtheria toxoid vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798306",
+        "display" : "tetanus toxoid vaccine, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798307",
+        "display" : "tetanus toxoid vaccine, inactivated 10 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798444",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798445",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798447",
+        "display" : "0.5 ML Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798448",
+        "display" : "PedvaxHIB"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798449",
+        "display" : "Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML [PedvaxHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798451",
+        "display" : "0.5 ML Haemophilus influenzae b (Ross strain) capsular polysaccharide meningococcal protein conjugate vaccine 0.265 MG/ML Injection [PedvaxHIB]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "801712",
+        "display" : "tetanus toxoid vaccine, inactivated 20 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "801826",
+        "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "801829",
+        "display" : "Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "805373",
+        "display" : "diphtheria toxoid vaccine, inactivated 30 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "805375",
+        "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "805376",
+        "display" : "acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML [Pentacel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "805378",
+        "display" : "0.5 ML acellular pertussis vaccine, inactivated 96 UNT/ML / diphtheria toxoid vaccine, inactivated 30 UNT/ML / Haemophilus influenzae type b, capsular polysaccharide inactivated tetanus toxoid conjugate vaccine 68 UNT/ML / poliovirus vaccine inactivated, type 1 (Mahoney) 80 UNT/ML / poliovirus vaccine inactivated, type 2 (MEF-1) 16 UNT/ML / poliovirus vaccine inactivated, type 3 (Saukett) 64 UNT/ML / tetanus toxoid vaccine, inactivated 20 UNT/ML Injection [Pentacel]"
+      }
+    ]
+  }
+}

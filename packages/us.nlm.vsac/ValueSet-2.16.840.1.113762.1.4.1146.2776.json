@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2776",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2776",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2776"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "PneumocystisOrganismOrSubstanceInLabResults",
+  "title" : "Pneumocystis (Organism or Substance in Lab Results)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains organism names or substances associated with Pneumocystis  Infection.),(Data Element Scope: Organism names or substances reported in laboratory results),(Inclusion Criteria: Pneumocystis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "415124003",
+            "display" : "Pneumocystis murina (organism)"
+          },
+          {
+            "code" : "699877004",
+            "display" : "Pneumocystis carinii (organism)"
+          },
+          {
+            "code" : "719555004",
+            "display" : "Pneumocystis jirovecii cyst (organism)"
+          },
+          {
+            "code" : "719556003",
+            "display" : "Pneumocystis jirovecii early cyst (organism)"
+          },
+          {
+            "code" : "719557007",
+            "display" : "Pneumocystis jirovecii mature cyst (organism)"
+          },
+          {
+            "code" : "722007008",
+            "display" : "Pneumocystis jiroveci trophozoite (organism)"
+          },
+          {
+            "code" : "79909001",
+            "display" : "Pneumocystis jirovecii (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d3335604-b5d2-42ec-94f7-69513fd1d0a2",
+    "timestamp" : "2025-11-24T13:37:29-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "415124003",
+        "display" : "Pneumocystis murina (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699877004",
+        "display" : "Pneumocystis carinii (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719555004",
+        "display" : "Pneumocystis jirovecii cyst (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719556003",
+        "display" : "Pneumocystis jirovecii early cyst (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719557007",
+        "display" : "Pneumocystis jirovecii mature cyst (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722007008",
+        "display" : "Pneumocystis jiroveci trophozoite (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79909001",
+        "display" : "Pneumocystis jirovecii (organism)"
+      }
+    ]
+  }
+}

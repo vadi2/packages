@@ -1,0 +1,113 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2541",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Clubfoot,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2541",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2541"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "ClubfootDisordersSNOMED",
+  "title" : "Clubfoot (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Clubfoot regardless of the clinical presentation of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Talipes equinovarus (including congenital, idiopathic, and neurogenic), talipes not otherwise specified, clubfoot not otherwise specified.),(Exclusion Criteria: Talipes equinovalgus, talipes calcaneovarus, talipes calcaneovalgus, talipes varus, talipes valgus, vertical talus, metatarsus adductus alone, metatarsus varus alone, pes varus, pes valgus, pes planus, rocker-bottom foot, positional or postural clubfoot.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1156475005",
+            "display" : "Congenital talipes equinovarus (disorder)"
+          },
+          {
+            "code" : "397932003",
+            "display" : "Talipes equinovarus (disorder)"
+          },
+          {
+            "code" : "702957008",
+            "display" : "Talipes equinocavovarus (disorder)"
+          },
+          {
+            "code" : "897575007",
+            "display" : "Talipes equinovarus of bilateral ankles and feet (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f9d0bc1e-9197-4916-b8a8-f9906cf1873c",
+    "timestamp" : "2025-11-24T13:28:04-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156475005",
+        "display" : "Congenital talipes equinovarus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "397932003",
+        "display" : "Talipes equinovarus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702957008",
+        "display" : "Talipes equinocavovarus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "897575007",
+        "display" : "Talipes equinovarus of bilateral ankles and feet (disorder)"
+      }
+    ]
+  }
+}

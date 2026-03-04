@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.3.292",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-11-23T18:00:57.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-11-23"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-11-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.292",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.3.292"
+    }
+  ],
+  "version" : "20251123",
+  "name" : "PDL1Testing",
+  "title" : "PD L1 Testing",
+  "status" : "active",
+  "date" : "2025-11-23T18:00:57-05:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for PD-L1 testing.),(Data Element Scope: This value set may use a model element related to Laboratory Test.),(Inclusion Criteria: Includes concepts that represent a laboratory test for PD-L1.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "83052-1",
+            "display" : "PD-L1 by clone 22C3 [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code" : "83055-4",
+            "display" : "PD-L1 by clone 28-8 [Presence] in Tissue by Immune stain"
+          },
+          {
+            "code" : "83057-0",
+            "display" : "PD-L1 by clone SP142 [Presence] in Tissue by Immune stain"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:05587333-90ad-4185-a6d1-4cfc956356a2",
+    "timestamp" : "2025-11-24T18:16:18-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "83052-1",
+        "display" : "PD-L1 by clone 22C3 [Presence] in Tissue by Immune stain"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "83055-4",
+        "display" : "PD-L1 by clone 28-8 [Presence] in Tissue by Immune stain"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "83057-0",
+        "display" : "PD-L1 by clone SP142 [Presence] in Tissue by Immune stain"
+      }
+    ]
+  }
+}

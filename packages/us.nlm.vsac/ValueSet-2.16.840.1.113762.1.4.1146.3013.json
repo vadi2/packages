@@ -1,0 +1,453 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3013",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3013",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3013"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "PustularSkinLesionsSNOMED",
+  "title" : "Pustular Skin Lesions (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Pustular Skin Lesions regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Pustular Skin Lesions),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "123700004",
+            "display" : "Pustular eczema (disorder)"
+          },
+          {
+            "code" : "1251376007",
+            "display" : "Acute pustular eruption of skin (disorder)"
+          },
+          {
+            "code" : "1251421004",
+            "display" : "Pustular psoriasis of palm and sole caused by drug (disorder)"
+          },
+          {
+            "code" : "1254867007",
+            "display" : "Plaque psoriasis with pustules (disorder)"
+          },
+          {
+            "code" : "1256081007",
+            "display" : "Pustular pyoderma gangrenosum (disorder)"
+          },
+          {
+            "code" : "200973000",
+            "display" : "Pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "238509006",
+            "display" : "Pustular chilblain (disorder)"
+          },
+          {
+            "code" : "238612002",
+            "display" : "Generalized pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "238613007",
+            "display" : "Generalized pustular psoriasis of pregnancy (disorder)"
+          },
+          {
+            "code" : "238615000",
+            "display" : "Juvenile pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "238616004",
+            "display" : "Infantile pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "238617008",
+            "display" : "Circinate and annular pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "238733003",
+            "display" : "Erosive pustular dermatosis of the scalp (disorder)"
+          },
+          {
+            "code" : "239092005",
+            "display" : "Transient neonatal pustulosis (disorder)"
+          },
+          {
+            "code" : "25147002",
+            "display" : "Subcorneal pustular dermatosis (disorder)"
+          },
+          {
+            "code" : "26988005",
+            "display" : "Miliaria pustulosa (disorder)"
+          },
+          {
+            "code" : "271760008",
+            "display" : "Pustule (disorder)"
+          },
+          {
+            "code" : "27520001",
+            "display" : "Pustular psoriasis of palms and soles (disorder)"
+          },
+          {
+            "code" : "28840001",
+            "display" : "Generalized pustular psoriasis, exanthematous type (disorder)"
+          },
+          {
+            "code" : "3533007",
+            "display" : "Pustular bacterid (disorder)"
+          },
+          {
+            "code" : "402326008",
+            "display" : "Acute generalized pustular psoriasis de novo (disorder)"
+          },
+          {
+            "code" : "402327004",
+            "display" : "Acute generalized pustular flare of preexisting plaque psoriasis (disorder)"
+          },
+          {
+            "code" : "402663007",
+            "display" : "Pustular vasculitis (disorder)"
+          },
+          {
+            "code" : "402958005",
+            "display" : "Pustular vasculitis due to gonococcal bacteremia (disorder)"
+          },
+          {
+            "code" : "403217003",
+            "display" : "Subcorneal pustular dermatosis with paraproteinemia (disorder)"
+          },
+          {
+            "code" : "403530003",
+            "display" : "Erosive pustular dermatosis (disorder)"
+          },
+          {
+            "code" : "403531004",
+            "display" : "Erosive pustular dermatosis of lower extremity (disorder)"
+          },
+          {
+            "code" : "403845000",
+            "display" : "Neonatal eosinophilic pustular folliculitis (disorder)"
+          },
+          {
+            "code" : "53651004",
+            "display" : "Pustular folliculitis (disorder)"
+          },
+          {
+            "code" : "59172008",
+            "display" : "Pustular acne (disorder)"
+          },
+          {
+            "code" : "60684003",
+            "display" : "Synovitis acne pustulosis hyperostosis osteomyelitis syndrome (disorder)"
+          },
+          {
+            "code" : "702617007",
+            "display" : "Acute generalized exanthematous pustulosis (disorder)"
+          },
+          {
+            "code" : "773702002",
+            "display" : "Sterile multifocal osteomyelitis with periostitis and pustulosis (disorder)"
+          },
+          {
+            "code" : "784327005",
+            "display" : "Pustular psoriasis of sole of foot (disorder)"
+          },
+          {
+            "code" : "784328000",
+            "display" : "Pustular psoriasis of palm of hand (disorder)"
+          },
+          {
+            "code" : "81271001",
+            "display" : "Localized pustular psoriasis (disorder)"
+          },
+          {
+            "code" : "829981005",
+            "display" : "Deep seated pustule (disorder)"
+          },
+          {
+            "code" : "95333004",
+            "display" : "Eosinophilic pustular folliculitis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:45daa298-3d38-4157-ba8d-7373a8e30c95",
+    "timestamp" : "2025-11-24T13:50:21-05:00",
+    "total" : 38,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "123700004",
+        "display" : "Pustular eczema (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1251376007",
+        "display" : "Acute pustular eruption of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1251421004",
+        "display" : "Pustular psoriasis of palm and sole caused by drug (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1254867007",
+        "display" : "Plaque psoriasis with pustules (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1256081007",
+        "display" : "Pustular pyoderma gangrenosum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "200973000",
+        "display" : "Pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238509006",
+        "display" : "Pustular chilblain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238612002",
+        "display" : "Generalized pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238613007",
+        "display" : "Generalized pustular psoriasis of pregnancy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238615000",
+        "display" : "Juvenile pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238616004",
+        "display" : "Infantile pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238617008",
+        "display" : "Circinate and annular pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238733003",
+        "display" : "Erosive pustular dermatosis of the scalp (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "239092005",
+        "display" : "Transient neonatal pustulosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25147002",
+        "display" : "Subcorneal pustular dermatosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26988005",
+        "display" : "Miliaria pustulosa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271760008",
+        "display" : "Pustule (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "27520001",
+        "display" : "Pustular psoriasis of palms and soles (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28840001",
+        "display" : "Generalized pustular psoriasis, exanthematous type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3533007",
+        "display" : "Pustular bacterid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402326008",
+        "display" : "Acute generalized pustular psoriasis de novo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402327004",
+        "display" : "Acute generalized pustular flare of preexisting plaque psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402663007",
+        "display" : "Pustular vasculitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402958005",
+        "display" : "Pustular vasculitis due to gonococcal bacteremia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403217003",
+        "display" : "Subcorneal pustular dermatosis with paraproteinemia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403530003",
+        "display" : "Erosive pustular dermatosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403531004",
+        "display" : "Erosive pustular dermatosis of lower extremity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403845000",
+        "display" : "Neonatal eosinophilic pustular folliculitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53651004",
+        "display" : "Pustular folliculitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "59172008",
+        "display" : "Pustular acne (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60684003",
+        "display" : "Synovitis acne pustulosis hyperostosis osteomyelitis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702617007",
+        "display" : "Acute generalized exanthematous pustulosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773702002",
+        "display" : "Sterile multifocal osteomyelitis with periostitis and pustulosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "784327005",
+        "display" : "Pustular psoriasis of sole of foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "784328000",
+        "display" : "Pustular psoriasis of palm of hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81271001",
+        "display" : "Localized pustular psoriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "829981005",
+        "display" : "Deep seated pustule (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95333004",
+        "display" : "Eosinophilic pustular folliculitis (disorder)"
+      }
+    ]
+  }
+}

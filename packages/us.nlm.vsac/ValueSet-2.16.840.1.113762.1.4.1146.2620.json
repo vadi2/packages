@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2620",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Sickle_Cell_Anemia,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2620",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2620"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "SickleCellAnemiaDisordersSNOMED",
+  "title" : "Sickle Cell Anemia (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Sickle Cell Anemia regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Sickle Cell Anemia),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10759351000119103",
+            "display" : "Sickle cell anemia in mother complicating childbirth (disorder)"
+          },
+          {
+            "code" : "127040003",
+            "display" : "Sickle cell-hemoglobin SS disease (disorder)"
+          },
+          {
+            "code" : "127045008",
+            "display" : "Sickle cell anemia with coexistent alpha-thalassemia (disorder)"
+          },
+          {
+            "code" : "234391009",
+            "display" : "Sickle cell anemia with high hemoglobin F (disorder)"
+          },
+          {
+            "code" : "416180004",
+            "display" : "Hemoglobin SS disease without crisis (disorder)"
+          },
+          {
+            "code" : "417425009",
+            "display" : "Hemoglobin SS disease with crisis (disorder)"
+          },
+          {
+            "code" : "440206000",
+            "display" : "Hemoglobin SS disease with vasoocclusive crisis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:cbb781c0-60d4-4987-adbd-592ea127e31b",
+    "timestamp" : "2025-11-24T13:31:27-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10759351000119103",
+        "display" : "Sickle cell anemia in mother complicating childbirth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "127040003",
+        "display" : "Sickle cell-hemoglobin SS disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "127045008",
+        "display" : "Sickle cell anemia with coexistent alpha-thalassemia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "234391009",
+        "display" : "Sickle cell anemia with high hemoglobin F (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416180004",
+        "display" : "Hemoglobin SS disease without crisis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "417425009",
+        "display" : "Hemoglobin SS disease with crisis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440206000",
+        "display" : "Hemoglobin SS disease with vasoocclusive crisis (disorder)"
+      }
+    ]
+  }
+}

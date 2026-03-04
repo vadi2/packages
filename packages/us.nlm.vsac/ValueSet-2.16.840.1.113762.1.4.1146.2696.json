@@ -1,0 +1,1123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2696",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2696",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2696"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "DialysisSNOMED",
+  "title" : "Dialysis (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes diagnoses or conditions indicating that the patient has undergone Dialysis, regardless of the current clinical presentation.),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: dialysis),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "105502003",
+            "display" : "Dependence on renal dialysis (finding)"
+          },
+          {
+            "code" : "11000731000119102",
+            "display" : "Dependence on continuous ambulatory peritoneal dialysis (finding)"
+          },
+          {
+            "code" : "11000771000119104",
+            "display" : "Dependence on continuous cycling peritoneal dialysis (finding)"
+          },
+          {
+            "code" : "114711000119105",
+            "display" : "Infection due to and following peritoneal dialysis (disorder)"
+          },
+          {
+            "code" : "1153581007",
+            "display" : "Matrix stone formation during renal dialysis (disorder)"
+          },
+          {
+            "code" : "12001621000119100",
+            "display" : "Hemorrhage associated with hemodialysis catheter (disorder)"
+          },
+          {
+            "code" : "12267851000119108",
+            "display" : "Thrombosis associated with hemodialysis catheter (disorder)"
+          },
+          {
+            "code" : "125141000119102",
+            "display" : "Non-compliance with renal dialysis (finding)"
+          },
+          {
+            "code" : "127991000119101",
+            "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "128001000119105",
+            "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "133031000119106",
+            "display" : "Thrombosis of arteriovenous graft caused by hemodialysis arteriovenous access device (disorder)"
+          },
+          {
+            "code" : "15859004",
+            "display" : "Chronic hemodialysis diet (finding)"
+          },
+          {
+            "code" : "16218721000119107",
+            "display" : "Hyperparathyroidism due to end stage renal disease on dialysis (disorder)"
+          },
+          {
+            "code" : "16320631000119104",
+            "display" : "Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease (finding)"
+          },
+          {
+            "code" : "236435004",
+            "display" : "End stage renal failure on dialysis (disorder)"
+          },
+          {
+            "code" : "236539007",
+            "display" : "First use syndrome of dialysis (disorder)"
+          },
+          {
+            "code" : "236540009",
+            "display" : "Non-allergic hypersensitivity reaction during dialysis (disorder)"
+          },
+          {
+            "code" : "236541008",
+            "display" : "Hyperchloremic acidosis associated with dialysis (disorder)"
+          },
+          {
+            "code" : "236542001",
+            "display" : "Long-term disorder of dialysis (disorder)"
+          },
+          {
+            "code" : "236550005",
+            "display" : "Polyserositis syndrome of dialysis (disorder)"
+          },
+          {
+            "code" : "236551009",
+            "display" : "Underdialysis (disorder)"
+          },
+          {
+            "code" : "236557008",
+            "display" : "Peritoneal dialysis catheter exit site infection (disorder)"
+          },
+          {
+            "code" : "236558003",
+            "display" : "Peritoneal dialysis catheter tunnel infection (disorder)"
+          },
+          {
+            "code" : "236562009",
+            "display" : "Obstruction of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "236563004",
+            "display" : "Migration of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "236564005",
+            "display" : "Omental wrapping around peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "236565006",
+            "display" : "Poor drainage of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "236566007",
+            "display" : "Extrusion of peritoneal dialysis catheter cuff (disorder)"
+          },
+          {
+            "code" : "236567003",
+            "display" : "Misplacement of acute peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "241951000",
+            "display" : "Non-allergic hypersensitivity reaction caused by dialysis membrane (disorder)"
+          },
+          {
+            "code" : "251859005",
+            "display" : "Dialysis finding (finding)"
+          },
+          {
+            "code" : "251869004",
+            "display" : "Adequacy of hemodialysis (finding)"
+          },
+          {
+            "code" : "27366005",
+            "display" : "Megaloblastic anemia due to hemodialysis (disorder)"
+          },
+          {
+            "code" : "276883000",
+            "display" : "Peritoneal dialysis-associated peritonitis (disorder)"
+          },
+          {
+            "code" : "278904002",
+            "display" : "Hemodialysis diet (finding)"
+          },
+          {
+            "code" : "278905001",
+            "display" : "Continuous ambulatory peritoneal dialysis diet (finding)"
+          },
+          {
+            "code" : "286371000119107",
+            "display" : "Malignant hypertensive end stage renal disease on dialysis (disorder)"
+          },
+          {
+            "code" : "292761003",
+            "display" : "Peritoneal dialysis solution adverse reaction (disorder)"
+          },
+          {
+            "code" : "292762005",
+            "display" : "Hemodialysis fluid adverse reaction (disorder)"
+          },
+          {
+            "code" : "300478000",
+            "display" : "Finding of measures of dialysis (finding)"
+          },
+          {
+            "code" : "32599008",
+            "display" : "Hemodialysis-associated amyloidosis (disorder)"
+          },
+          {
+            "code" : "32751000119100",
+            "display" : "Line sepsis associated with dialysis catheter (disorder)"
+          },
+          {
+            "code" : "331000124109",
+            "display" : "Hemodialysis finding (finding)"
+          },
+          {
+            "code" : "341000124104",
+            "display" : "Peritoneal dialysis finding (finding)"
+          },
+          {
+            "code" : "365399009",
+            "display" : "Finding of adequacy of dialysis (finding)"
+          },
+          {
+            "code" : "402458002",
+            "display" : "Hemodialysis-associated secondary amyloidosis of skin (disorder)"
+          },
+          {
+            "code" : "402762007",
+            "display" : "Skin lesion associated with hemodialysis (disorder)"
+          },
+          {
+            "code" : "403732009",
+            "display" : "Hemodialysis-associated pseudoporphyria (disorder)"
+          },
+          {
+            "code" : "403733004",
+            "display" : "Hemodialysis-associated pruritus (disorder)"
+          },
+          {
+            "code" : "404813001",
+            "display" : "Peritoneal dialysis leakage (disorder)"
+          },
+          {
+            "code" : "408667000",
+            "display" : "Hemodialysis-associated hypotension (disorder)"
+          },
+          {
+            "code" : "423062001",
+            "display" : "Stenosis of arteriovenous dialysis fistula (disorder)"
+          },
+          {
+            "code" : "428937001",
+            "display" : "Dependence on peritoneal dialysis due to end stage renal disease (finding)"
+          },
+          {
+            "code" : "428982002",
+            "display" : "Dependence on hemodialysis due to end stage renal disease (finding)"
+          },
+          {
+            "code" : "429075005",
+            "display" : "Dependence on dialysis due to end stage renal disease (finding)"
+          },
+          {
+            "code" : "430332005",
+            "display" : "Infection of arteriovenous graft for hemodialysis (disorder)"
+          },
+          {
+            "code" : "430333000",
+            "display" : "Hematoma of dialysis access site (disorder)"
+          },
+          {
+            "code" : "430958003",
+            "display" : "Infection of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "431000124102",
+            "display" : "Hemodialysis access site non-patent (finding)"
+          },
+          {
+            "code" : "431873008",
+            "display" : "Peritonitis due to infected peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "433991000124108",
+            "display" : "Peritoneal dialysis access failure (disorder)"
+          },
+          {
+            "code" : "434061000124103",
+            "display" : "Hemodialysis access failure (disorder)"
+          },
+          {
+            "code" : "439073006",
+            "display" : "Peritoneal dialysis catheter in situ (finding)"
+          },
+          {
+            "code" : "439360004",
+            "display" : "Peritoneal dialysis catheter fell out (finding)"
+          },
+          {
+            "code" : "440551001",
+            "display" : "Malposition of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "440597004",
+            "display" : "Obstruction of peritoneal dialysis catheter by fibrin formation (disorder)"
+          },
+          {
+            "code" : "440926006",
+            "display" : "Temporary peritoneal dialysis catheter in situ (finding)"
+          },
+          {
+            "code" : "441000124107",
+            "display" : "Hemodialysis access site patent (finding)"
+          },
+          {
+            "code" : "442181000124100",
+            "display" : "Fungal infection associated with peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "442326005",
+            "display" : "Cloudy peritoneal dialysis effluent (finding)"
+          },
+          {
+            "code" : "443143006",
+            "display" : "Dependence on hemodialysis (finding)"
+          },
+          {
+            "code" : "443596009",
+            "display" : "Dependence on peritoneal dialysis (finding)"
+          },
+          {
+            "code" : "444887005",
+            "display" : "Inadequate flow to support prescribed dialysis blood flow (finding)"
+          },
+          {
+            "code" : "449288005",
+            "display" : "Infection of arteriovenous fistula for hemodialysis (disorder)"
+          },
+          {
+            "code" : "451000124109",
+            "display" : "Increase in hemodialysis blood flow (finding)"
+          },
+          {
+            "code" : "461000124106",
+            "display" : "Increase in hemodialysis dialyzer size (finding)"
+          },
+          {
+            "code" : "471000124104",
+            "display" : "Increase in hemodialysis session time (finding)"
+          },
+          {
+            "code" : "473069007",
+            "display" : "Infection associated with peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "473147002",
+            "display" : "Malfunction of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "473190001",
+            "display" : "Leakage of peritoneal dialysis catheter (disorder)"
+          },
+          {
+            "code" : "473193004",
+            "display" : "Mode of dialysis access by patient choice (finding)"
+          },
+          {
+            "code" : "473397008",
+            "display" : "Dialysis catheter in situ usable (finding)"
+          },
+          {
+            "code" : "473398003",
+            "display" : "Dialysis catheter in situ unusable (finding)"
+          },
+          {
+            "code" : "601000124107",
+            "display" : "Inadequate monitoring of dose delivery of peritoneal dialysis (finding)"
+          },
+          {
+            "code" : "631000124104",
+            "display" : "Compliant with peritoneal dialysis prescription (finding)"
+          },
+          {
+            "code" : "641000124109",
+            "display" : "Non-compliant with peritoneal dialysis prescription (finding)"
+          },
+          {
+            "code" : "698937002",
+            "display" : "Misplacement of hemodialysis catheter (disorder)"
+          },
+          {
+            "code" : "702634004",
+            "display" : "Inadequate peritoneal dialysis (disorder)"
+          },
+          {
+            "code" : "702635003",
+            "display" : "Inadequate hemodialysis (disorder)"
+          },
+          {
+            "code" : "704308002",
+            "display" : "Difficulty managing peritoneal dialysis (finding)"
+          },
+          {
+            "code" : "704667004",
+            "display" : "Hypertension concurrent and due to end stage renal disease on dialysis (disorder)"
+          },
+          {
+            "code" : "707090004",
+            "display" : "Spondyloarthropathy due to hemodialysis-associated amyloidosis (disorder)"
+          },
+          {
+            "code" : "713720009",
+            "display" : "Sclerosing peritonitis as complication of peritoneal dialysis (disorder)"
+          },
+          {
+            "code" : "713721008",
+            "display" : "Hydrothorax as complication of peritoneal dialysis (disorder)"
+          },
+          {
+            "code" : "713727007",
+            "display" : "Hemoperitoneum as complication of peritoneal dialysis (disorder)"
+          },
+          {
+            "code" : "715272002",
+            "display" : "Infection of hemodialysis catheter exit site (disorder)"
+          },
+          {
+            "code" : "736918003",
+            "display" : "Infection of bloodstream associated with hemodialysis catheter in situ (disorder)"
+          },
+          {
+            "code" : "736920000",
+            "display" : "Infection of bloodstream associated with tunneled hemodialysis catheter in situ (disorder)"
+          },
+          {
+            "code" : "736984007",
+            "display" : "Infection of bloodstream associated with temporary hemodialysis catheter in situ (disorder)"
+          },
+          {
+            "code" : "831000124100",
+            "display" : "Infection of hemodialysis tunneled catheter (disorder)"
+          },
+          {
+            "code" : "841000124105",
+            "display" : "Infection of hemodialysis catheter (disorder)"
+          },
+          {
+            "code" : "851000124107",
+            "display" : "Infection of hemodialysis temporary catheter (disorder)"
+          },
+          {
+            "code" : "88351001",
+            "display" : "Hypercalcemia associated with chronic dialysis (disorder)"
+          },
+          {
+            "code" : "96701000119107",
+            "display" : "Hypertensive heart AND chronic kidney disease on dialysis (disorder)"
+          },
+          {
+            "code" : "99591000119101",
+            "display" : "Hemorrhage associated with renal dialysis graft (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0c927f7c-b174-4ebd-9015-8aec6ddebf45",
+    "timestamp" : "2025-11-24T13:34:50-05:00",
+    "total" : 105,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105502003",
+        "display" : "Dependence on renal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11000731000119102",
+        "display" : "Dependence on continuous ambulatory peritoneal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11000771000119104",
+        "display" : "Dependence on continuous cycling peritoneal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "114711000119105",
+        "display" : "Infection due to and following peritoneal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1153581007",
+        "display" : "Matrix stone formation during renal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12001621000119100",
+        "display" : "Hemorrhage associated with hemodialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12267851000119108",
+        "display" : "Thrombosis associated with hemodialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "125141000119102",
+        "display" : "Non-compliance with renal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "127991000119101",
+        "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128001000119105",
+        "display" : "Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "133031000119106",
+        "display" : "Thrombosis of arteriovenous graft caused by hemodialysis arteriovenous access device (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15859004",
+        "display" : "Chronic hemodialysis diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16218721000119107",
+        "display" : "Hyperparathyroidism due to end stage renal disease on dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16320631000119104",
+        "display" : "Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236435004",
+        "display" : "End stage renal failure on dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236539007",
+        "display" : "First use syndrome of dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236540009",
+        "display" : "Non-allergic hypersensitivity reaction during dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236541008",
+        "display" : "Hyperchloremic acidosis associated with dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236542001",
+        "display" : "Long-term disorder of dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236550005",
+        "display" : "Polyserositis syndrome of dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236551009",
+        "display" : "Underdialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236557008",
+        "display" : "Peritoneal dialysis catheter exit site infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236558003",
+        "display" : "Peritoneal dialysis catheter tunnel infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236562009",
+        "display" : "Obstruction of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236563004",
+        "display" : "Migration of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236564005",
+        "display" : "Omental wrapping around peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236565006",
+        "display" : "Poor drainage of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236566007",
+        "display" : "Extrusion of peritoneal dialysis catheter cuff (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236567003",
+        "display" : "Misplacement of acute peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241951000",
+        "display" : "Non-allergic hypersensitivity reaction caused by dialysis membrane (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "251859005",
+        "display" : "Dialysis finding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "251869004",
+        "display" : "Adequacy of hemodialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "27366005",
+        "display" : "Megaloblastic anemia due to hemodialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276883000",
+        "display" : "Peritoneal dialysis-associated peritonitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278904002",
+        "display" : "Hemodialysis diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278905001",
+        "display" : "Continuous ambulatory peritoneal dialysis diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "286371000119107",
+        "display" : "Malignant hypertensive end stage renal disease on dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292761003",
+        "display" : "Peritoneal dialysis solution adverse reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292762005",
+        "display" : "Hemodialysis fluid adverse reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "300478000",
+        "display" : "Finding of measures of dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32599008",
+        "display" : "Hemodialysis-associated amyloidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32751000119100",
+        "display" : "Line sepsis associated with dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "331000124109",
+        "display" : "Hemodialysis finding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341000124104",
+        "display" : "Peritoneal dialysis finding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "365399009",
+        "display" : "Finding of adequacy of dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402458002",
+        "display" : "Hemodialysis-associated secondary amyloidosis of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402762007",
+        "display" : "Skin lesion associated with hemodialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403732009",
+        "display" : "Hemodialysis-associated pseudoporphyria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403733004",
+        "display" : "Hemodialysis-associated pruritus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404813001",
+        "display" : "Peritoneal dialysis leakage (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "408667000",
+        "display" : "Hemodialysis-associated hypotension (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "423062001",
+        "display" : "Stenosis of arteriovenous dialysis fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428937001",
+        "display" : "Dependence on peritoneal dialysis due to end stage renal disease (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428982002",
+        "display" : "Dependence on hemodialysis due to end stage renal disease (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429075005",
+        "display" : "Dependence on dialysis due to end stage renal disease (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430332005",
+        "display" : "Infection of arteriovenous graft for hemodialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430333000",
+        "display" : "Hematoma of dialysis access site (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430958003",
+        "display" : "Infection of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431000124102",
+        "display" : "Hemodialysis access site non-patent (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431873008",
+        "display" : "Peritonitis due to infected peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433991000124108",
+        "display" : "Peritoneal dialysis access failure (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434061000124103",
+        "display" : "Hemodialysis access failure (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439073006",
+        "display" : "Peritoneal dialysis catheter in situ (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439360004",
+        "display" : "Peritoneal dialysis catheter fell out (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440551001",
+        "display" : "Malposition of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440597004",
+        "display" : "Obstruction of peritoneal dialysis catheter by fibrin formation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440926006",
+        "display" : "Temporary peritoneal dialysis catheter in situ (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441000124107",
+        "display" : "Hemodialysis access site patent (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442181000124100",
+        "display" : "Fungal infection associated with peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442326005",
+        "display" : "Cloudy peritoneal dialysis effluent (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443143006",
+        "display" : "Dependence on hemodialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443596009",
+        "display" : "Dependence on peritoneal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444887005",
+        "display" : "Inadequate flow to support prescribed dialysis blood flow (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449288005",
+        "display" : "Infection of arteriovenous fistula for hemodialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "451000124109",
+        "display" : "Increase in hemodialysis blood flow (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461000124106",
+        "display" : "Increase in hemodialysis dialyzer size (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471000124104",
+        "display" : "Increase in hemodialysis session time (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473069007",
+        "display" : "Infection associated with peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473147002",
+        "display" : "Malfunction of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473190001",
+        "display" : "Leakage of peritoneal dialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473193004",
+        "display" : "Mode of dialysis access by patient choice (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473397008",
+        "display" : "Dialysis catheter in situ usable (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473398003",
+        "display" : "Dialysis catheter in situ unusable (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "601000124107",
+        "display" : "Inadequate monitoring of dose delivery of peritoneal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "631000124104",
+        "display" : "Compliant with peritoneal dialysis prescription (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "641000124109",
+        "display" : "Non-compliant with peritoneal dialysis prescription (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698937002",
+        "display" : "Misplacement of hemodialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702634004",
+        "display" : "Inadequate peritoneal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702635003",
+        "display" : "Inadequate hemodialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "704308002",
+        "display" : "Difficulty managing peritoneal dialysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "704667004",
+        "display" : "Hypertension concurrent and due to end stage renal disease on dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707090004",
+        "display" : "Spondyloarthropathy due to hemodialysis-associated amyloidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713720009",
+        "display" : "Sclerosing peritonitis as complication of peritoneal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713721008",
+        "display" : "Hydrothorax as complication of peritoneal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713727007",
+        "display" : "Hemoperitoneum as complication of peritoneal dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715272002",
+        "display" : "Infection of hemodialysis catheter exit site (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736918003",
+        "display" : "Infection of bloodstream associated with hemodialysis catheter in situ (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736920000",
+        "display" : "Infection of bloodstream associated with tunneled hemodialysis catheter in situ (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736984007",
+        "display" : "Infection of bloodstream associated with temporary hemodialysis catheter in situ (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "831000124100",
+        "display" : "Infection of hemodialysis tunneled catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "841000124105",
+        "display" : "Infection of hemodialysis catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "851000124107",
+        "display" : "Infection of hemodialysis temporary catheter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "88351001",
+        "display" : "Hypercalcemia associated with chronic dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "96701000119107",
+        "display" : "Hypertensive heart AND chronic kidney disease on dialysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "99591000119101",
+        "display" : "Hemorrhage associated with renal dialysis graft (disorder)"
+      }
+    ]
+  }
+}

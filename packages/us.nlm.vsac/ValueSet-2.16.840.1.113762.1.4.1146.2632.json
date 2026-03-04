@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2632",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Small_Intestinal_Atresia_Stenosis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2632",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2632"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "SmallIntestinalAtresiaAndStenosisDisordersICD10CM",
+  "title" : "Small Intestinal Atresia and Stenosis (Disorders) (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Small Intestinal Atresia and Stenosis regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Small Intestinal Atresia and Stenosis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "Q41.0",
+            "display" : "Congenital absence, atresia and stenosis of duodenum"
+          },
+          {
+            "code" : "Q41.1",
+            "display" : "Congenital absence, atresia and stenosis of jejunum"
+          },
+          {
+            "code" : "Q41.2",
+            "display" : "Congenital absence, atresia and stenosis of ileum"
+          },
+          {
+            "code" : "Q41.8",
+            "display" : "Congenital absence, atresia and stenosis of other specified parts of small intestine"
+          },
+          {
+            "code" : "Q41.9",
+            "display" : "Congenital absence, atresia and stenosis of small intestine, part unspecified"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:521c9c28-2f3c-4da2-93d1-eb8981eb950f",
+    "timestamp" : "2025-11-24T13:31:56-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q41.0",
+        "display" : "Congenital absence, atresia and stenosis of duodenum"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q41.1",
+        "display" : "Congenital absence, atresia and stenosis of jejunum"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q41.2",
+        "display" : "Congenital absence, atresia and stenosis of ileum"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q41.8",
+        "display" : "Congenital absence, atresia and stenosis of other specified parts of small intestine"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q41.9",
+        "display" : "Congenital absence, atresia and stenosis of small intestine, part unspecified"
+      }
+    ]
+  }
+}

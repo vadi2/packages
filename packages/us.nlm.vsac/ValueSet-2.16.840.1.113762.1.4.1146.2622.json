@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2622",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Sickle_Cell_Anemia,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2622",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2622"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "SickleCellAnemiaTestsForHemoglobinSQuantitative",
+  "title" : "Sickle Cell Anemia (Tests for Hemoglobin S [Quantitative])",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Hemoglobin S [Quantitative]),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Hemoglobin S [Quantitative]),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "32683-5",
+            "display" : "Hemoglobin S/Hemoglobin.total in Blood by Electrophoresis"
+          },
+          {
+            "code" : "44923-1",
+            "display" : "Hemoglobin S/Hemoglobin.total in Blood by HPLC"
+          },
+          {
+            "code" : "4625-0",
+            "display" : "Hemoglobin S/Hemoglobin.total in Blood"
+          },
+          {
+            "code" : "56476-5",
+            "display" : "Hemoglobin S/Hemoglobin.total in DBS"
+          },
+          {
+            "code" : "71857-7",
+            "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood"
+          },
+          {
+            "code" : "71858-5",
+            "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood by HPLC"
+          },
+          {
+            "code" : "71859-3",
+            "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood by Electrophoresis"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:16dc679d-1681-49dd-88ba-14601b7cb4ad",
+    "timestamp" : "2025-11-24T13:31:33-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "32683-5",
+        "display" : "Hemoglobin S/Hemoglobin.total in Blood by Electrophoresis"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "44923-1",
+        "display" : "Hemoglobin S/Hemoglobin.total in Blood by HPLC"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "4625-0",
+        "display" : "Hemoglobin S/Hemoglobin.total in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "56476-5",
+        "display" : "Hemoglobin S/Hemoglobin.total in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71857-7",
+        "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71858-5",
+        "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood by HPLC"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71859-3",
+        "display" : "Hemoglobin S/Hemoglobin.total [Pure mass fraction] in Blood by Electrophoresis"
+      }
+    ]
+  }
+}

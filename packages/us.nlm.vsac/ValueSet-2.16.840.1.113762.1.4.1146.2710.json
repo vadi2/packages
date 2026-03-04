@@ -1,0 +1,93 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2710",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2710",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2710"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "AlkalinePhosphataseALPTestsInUnspecifiedSpecimenByAnyMethodQuantitative",
+  "title" : "Alkaline Phosphatase (ALP) (Tests in Unspecified Specimen by Any Method) [Quantitative]",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Alkaline Phosphatase (ALP) in an unspecified specimen),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Alkaline Phosphatase (ALP) (Tests in Unspecified Specimen by Any Method) [Quantitative]),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "15148-0",
+            "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Body fluid"
+          },
+          {
+            "code" : "1775-6",
+            "display" : "Alkaline phosphatase [Mass/volume] in Body fluid"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c92b06ef-e3f5-4042-b984-c0b56241442b",
+    "timestamp" : "2025-11-24T13:35:27-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "15148-0",
+        "display" : "Alkaline phosphatase [Enzymatic activity/volume] in Body fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "1775-6",
+        "display" : "Alkaline phosphatase [Mass/volume] in Body fluid"
+      }
+    ]
+  }
+}

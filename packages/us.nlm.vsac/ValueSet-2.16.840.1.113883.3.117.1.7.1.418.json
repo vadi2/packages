@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.117.1.7.1.418",
+  "meta" : {
+    "versionId" : "55",
+    "lastUpdated" : "2024-04-20T01:10:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "TJC EH Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "PC-01"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-04-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.117.1.7.1.418",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.117.1.7.1.418"
+    }
+  ],
+  "version" : "20240420",
+  "name" : "ClassicalCesareanBirth",
+  "title" : "Classical Cesarean Birth",
+  "status" : "active",
+  "date" : "2024-04-20T01:10:17-04:00",
+  "publisher" : "TJC EH Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of procedures for classical cesarean section.),(Data Element Scope: This value set may use a model element related to procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a classical cesarean section. Prior classical cesarean birth which is defined as a vertical incision into the upper uterine segment. Incision descriptors may include \"high\" or \"vertical\" or \"mid\" or \"active segment\" or \"classical\".),(Exclusion Criteria: Excludes concepts that represent a cesarean procedure that include incision descriptors of \"low\".)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "177142005",
+            "display" : "Elective upper segment cesarean section (procedure)"
+          },
+          {
+            "code" : "236986001",
+            "display" : "Emergency upper segment cesarean section (procedure)"
+          },
+          {
+            "code" : "736018001",
+            "display" : "Elective upper segment cesarean section with bilateral tubal ligation (procedure)"
+          },
+          {
+            "code" : "736020003",
+            "display" : "Emergency upper segment cesarean section with bilateral tubal ligation (procedure)"
+          },
+          {
+            "code" : "84195007",
+            "display" : "Classical cesarean section (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:8da9a11a-b72a-4a70-b04a-205540fdb70d",
+    "timestamp" : "2025-11-24T17:18:27-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "177142005",
+        "display" : "Elective upper segment cesarean section (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236986001",
+        "display" : "Emergency upper segment cesarean section (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736018001",
+        "display" : "Elective upper segment cesarean section with bilateral tubal ligation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736020003",
+        "display" : "Emergency upper segment cesarean section with bilateral tubal ligation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84195007",
+        "display" : "Classical cesarean section (procedure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2313",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Coarctation_Aorta,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2313",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2313"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CoarctationOfTheAortaDisordersSNOMED",
+  "title" : "Coarctation of the Aorta (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Coarctation of the Aorta regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Coarctation of the Aorta),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "13867009",
+            "display" : "Preductal coarctation of aorta (disorder)"
+          },
+          {
+            "code" : "253672004",
+            "display" : "Preductal aortic stenosis (disorder)"
+          },
+          {
+            "code" : "253673009",
+            "display" : "Preductal interruption of aorta (disorder)"
+          },
+          {
+            "code" : "253674003",
+            "display" : "Preductal hypoplasia of aorta (disorder)"
+          },
+          {
+            "code" : "253675002",
+            "display" : "Juxtaductal aortic coarctation (disorder)"
+          },
+          {
+            "code" : "253676001",
+            "display" : "Postductal aortic stenosis (disorder)"
+          },
+          {
+            "code" : "253677005",
+            "display" : "Postductal interruption of aorta (disorder)"
+          },
+          {
+            "code" : "253678000",
+            "display" : "Thoracic aortic coarctation (disorder)"
+          },
+          {
+            "code" : "253679008",
+            "display" : "Abdominal aortic coarctation (disorder)"
+          },
+          {
+            "code" : "41371000119100",
+            "display" : "Shone complex (disorder)"
+          },
+          {
+            "code" : "450304006",
+            "display" : "Coarctation of suprarenal abdominal aorta (disorder)"
+          },
+          {
+            "code" : "450305007",
+            "display" : "Coarctation of infrarenal abdominal aorta (disorder)"
+          },
+          {
+            "code" : "450312003",
+            "display" : "Coarctation of aorta between subclavian artery and common carotid artery (disorder)"
+          },
+          {
+            "code" : "450313008",
+            "display" : "Coarctation of aorta between left common carotid artery and right common carotid artery (disorder)"
+          },
+          {
+            "code" : "460918005",
+            "display" : "Abnormality within thorax due to coarctation of aorta (disorder)"
+          },
+          {
+            "code" : "72242008",
+            "display" : "Postductal coarctation of aorta (disorder)"
+          },
+          {
+            "code" : "723867002",
+            "display" : "Coarctation of aortic arch (disorder)"
+          },
+          {
+            "code" : "7305005",
+            "display" : "Coarctation of aorta (disorder)"
+          },
+          {
+            "code" : "871650000",
+            "display" : "Common arterial trunk with pulmonary dominance and aortic coarctation (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:b9cbdbbe-3b38-4913-a018-c3bab9029431",
+    "timestamp" : "2025-11-24T13:17:44-05:00",
+    "total" : 19,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13867009",
+        "display" : "Preductal coarctation of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253672004",
+        "display" : "Preductal aortic stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253673009",
+        "display" : "Preductal interruption of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253674003",
+        "display" : "Preductal hypoplasia of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253675002",
+        "display" : "Juxtaductal aortic coarctation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253676001",
+        "display" : "Postductal aortic stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253677005",
+        "display" : "Postductal interruption of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253678000",
+        "display" : "Thoracic aortic coarctation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253679008",
+        "display" : "Abdominal aortic coarctation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41371000119100",
+        "display" : "Shone complex (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450304006",
+        "display" : "Coarctation of suprarenal abdominal aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450305007",
+        "display" : "Coarctation of infrarenal abdominal aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450312003",
+        "display" : "Coarctation of aorta between subclavian artery and common carotid artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450313008",
+        "display" : "Coarctation of aorta between left common carotid artery and right common carotid artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460918005",
+        "display" : "Abnormality within thorax due to coarctation of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "72242008",
+        "display" : "Postductal coarctation of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723867002",
+        "display" : "Coarctation of aortic arch (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7305005",
+        "display" : "Coarctation of aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "871650000",
+        "display" : "Common arterial trunk with pulmonary dominance and aortic coarctation (disorder)"
+      }
+    ]
+  }
+}

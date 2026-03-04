@@ -1,0 +1,623 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2698",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2698",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2698"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "BloodTransfusionSNOMED",
+  "title" : "Blood Transfusion (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes diagnoses or conditions indicating that the patient has undergone a blood transfusion, regardless of the current clinical presentation.),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: blood transfusion),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10421000132103",
+            "display" : "Hemorrhage requiring transfusion (finding)"
+          },
+          {
+            "code" : "10593005",
+            "display" : "Posttransfusion state (finding)"
+          },
+          {
+            "code" : "1119426009",
+            "display" : "Transfusion-transmitted infectious disease (disorder)"
+          },
+          {
+            "code" : "128094006",
+            "display" : "Alloimmune platelet transfusion refractoriness (disorder)"
+          },
+          {
+            "code" : "1306792008",
+            "display" : "Coagulation factor inhibitor detected in blood after transfusion of coagulation factors (finding)"
+          },
+          {
+            "code" : "143101000119101",
+            "display" : "Hemochromatosis following repeated red blood cell transfusion (disorder)"
+          },
+          {
+            "code" : "15765005",
+            "display" : "Septic shock due to transfusion (disorder)"
+          },
+          {
+            "code" : "16668007",
+            "display" : "Transfusion reaction caused by leukagglutinin (disorder)"
+          },
+          {
+            "code" : "17985000",
+            "display" : "Transfusion reaction due to clerical error (disorder)"
+          },
+          {
+            "code" : "206510008",
+            "display" : "Transient neonatal thrombocytopenia due to exchange transfusion (disorder)"
+          },
+          {
+            "code" : "213315003",
+            "display" : "Infection after transfusion (disorder)"
+          },
+          {
+            "code" : "234517008",
+            "display" : "Pulmonary transfusion reaction (disorder)"
+          },
+          {
+            "code" : "23674002",
+            "display" : "Transfusion reaction caused by anti B (disorder)"
+          },
+          {
+            "code" : "250373003",
+            "display" : "Blood transfusion finding (finding)"
+          },
+          {
+            "code" : "277145006",
+            "display" : "Transfusion reaction due to blood group antibody-antigen mismatch (disorder)"
+          },
+          {
+            "code" : "277147003",
+            "display" : "Delayed transfusion reaction (disorder)"
+          },
+          {
+            "code" : "28766006",
+            "display" : "Posttransfusion viral hepatitis (disorder)"
+          },
+          {
+            "code" : "302972002",
+            "display" : "Urticarial transfusion reaction (disorder)"
+          },
+          {
+            "code" : "30394008",
+            "display" : "Transfusion reaction due to products of cell metabolism (disorder)"
+          },
+          {
+            "code" : "304604001",
+            "display" : "Immediate transfusion reaction (disorder)"
+          },
+          {
+            "code" : "307342006",
+            "display" : "Thrombocytopenia due to massive blood transfusion (disorder)"
+          },
+          {
+            "code" : "309750008",
+            "display" : "Extravasation due to and following blood transfusion (disorder)"
+          },
+          {
+            "code" : "34492003",
+            "display" : "Transfusion reaction due to air embolism (disorder)"
+          },
+          {
+            "code" : "35633007",
+            "display" : "Transfusion reaction due to excess volume (disorder)"
+          },
+          {
+            "code" : "361098001",
+            "display" : "Allergic transfusion reaction (disorder)"
+          },
+          {
+            "code" : "361106007",
+            "display" : "Transfusion reaction caused by allergen in blood (disorder)"
+          },
+          {
+            "code" : "36617002",
+            "display" : "Immediate hemolytic transfusion reaction (disorder)"
+          },
+          {
+            "code" : "39778006",
+            "display" : "Hemolytic transfusion reaction (disorder)"
+          },
+          {
+            "code" : "435001000124103",
+            "display" : "Febrile transfusion reaction without hemolysis (disorder)"
+          },
+          {
+            "code" : "49829008",
+            "display" : "Transfusion reaction caused by anti A (disorder)"
+          },
+          {
+            "code" : "51831006",
+            "display" : "Sepsis following infusion, injection, transfusion AND/OR vaccination (disorder)"
+          },
+          {
+            "code" : "56238008",
+            "display" : "Thromboembolism following infusion, perfusion AND/OR transfusion (disorder)"
+          },
+          {
+            "code" : "58738001",
+            "display" : "Transfusion reaction due to faulty storage of blood (disorder)"
+          },
+          {
+            "code" : "590365011000119106",
+            "display" : "Dyspnea due to and following transfusion (disorder)"
+          },
+          {
+            "code" : "631002",
+            "display" : "Transfusion reaction due to minor incompatibility (disorder)"
+          },
+          {
+            "code" : "67888001",
+            "display" : "Transfusion reaction caused by toxic effect of anticoagulant (disorder)"
+          },
+          {
+            "code" : "69281008",
+            "display" : "Transfusion hemosiderosis (disorder)"
+          },
+          {
+            "code" : "698466009",
+            "display" : "At increased risk of graft-versus-host disease associated with transfusion (finding)"
+          },
+          {
+            "code" : "7081006",
+            "display" : "Transfusion reaction caused by contaminant in blood (disorder)"
+          },
+          {
+            "code" : "713891007",
+            "display" : "Intraoperative hemorrhage requiring transfusion (disorder)"
+          },
+          {
+            "code" : "722586005",
+            "display" : "Polycythemia neonatorum following blood transfusion (disorder)"
+          },
+          {
+            "code" : "72284000",
+            "display" : "Transfusion reaction due to serum protein reaction (disorder)"
+          },
+          {
+            "code" : "72813006",
+            "display" : "Transfusion reaction caused by platelet antibody (disorder)"
+          },
+          {
+            "code" : "73162004",
+            "display" : "Posttransfusion purpura (disorder)"
+          },
+          {
+            "code" : "73301000",
+            "display" : "Febrile transfusion reaction (disorder)"
+          },
+          {
+            "code" : "735911004",
+            "display" : "Air embolism due to and following transfusion (disorder)"
+          },
+          {
+            "code" : "762400004",
+            "display" : "Injury due to and following transfusion (disorder)"
+          },
+          {
+            "code" : "77115005",
+            "display" : "Transfusion reaction due to immunoglobulin A (disorder)"
+          },
+          {
+            "code" : "789667003",
+            "display" : "Phlebitis following transfusion (disorder)"
+          },
+          {
+            "code" : "789682008",
+            "display" : "Thrombophlebitis following transfusion (disorder)"
+          },
+          {
+            "code" : "79337003",
+            "display" : "Anaphylactic transfusion reaction (disorder)"
+          },
+          {
+            "code" : "82545002",
+            "display" : "Blood transfusion reaction (disorder)"
+          },
+          {
+            "code" : "83250000",
+            "display" : "Delayed hemolytic transfusion reaction (disorder)"
+          },
+          {
+            "code" : "871554001",
+            "display" : "Non-allergic anaphylaxis due to transfusion of blood product (disorder)"
+          },
+          {
+            "code" : "89962000",
+            "display" : "Neonatal thrombocytopenia due to exchange transfusion (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:42cfd315-fa42-4256-942c-55b228c949c0",
+    "timestamp" : "2025-11-24T13:34:56-05:00",
+    "total" : 55,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10421000132103",
+        "display" : "Hemorrhage requiring transfusion (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10593005",
+        "display" : "Posttransfusion state (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119426009",
+        "display" : "Transfusion-transmitted infectious disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128094006",
+        "display" : "Alloimmune platelet transfusion refractoriness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1306792008",
+        "display" : "Coagulation factor inhibitor detected in blood after transfusion of coagulation factors (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "143101000119101",
+        "display" : "Hemochromatosis following repeated red blood cell transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15765005",
+        "display" : "Septic shock due to transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16668007",
+        "display" : "Transfusion reaction caused by leukagglutinin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17985000",
+        "display" : "Transfusion reaction due to clerical error (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "206510008",
+        "display" : "Transient neonatal thrombocytopenia due to exchange transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "213315003",
+        "display" : "Infection after transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "234517008",
+        "display" : "Pulmonary transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23674002",
+        "display" : "Transfusion reaction caused by anti B (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "250373003",
+        "display" : "Blood transfusion finding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277145006",
+        "display" : "Transfusion reaction due to blood group antibody-antigen mismatch (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277147003",
+        "display" : "Delayed transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28766006",
+        "display" : "Posttransfusion viral hepatitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302972002",
+        "display" : "Urticarial transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "30394008",
+        "display" : "Transfusion reaction due to products of cell metabolism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "304604001",
+        "display" : "Immediate transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "307342006",
+        "display" : "Thrombocytopenia due to massive blood transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "309750008",
+        "display" : "Extravasation due to and following blood transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34492003",
+        "display" : "Transfusion reaction due to air embolism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35633007",
+        "display" : "Transfusion reaction due to excess volume (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "361098001",
+        "display" : "Allergic transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "361106007",
+        "display" : "Transfusion reaction caused by allergen in blood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36617002",
+        "display" : "Immediate hemolytic transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39778006",
+        "display" : "Hemolytic transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "435001000124103",
+        "display" : "Febrile transfusion reaction without hemolysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49829008",
+        "display" : "Transfusion reaction caused by anti A (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51831006",
+        "display" : "Sepsis following infusion, injection, transfusion AND/OR vaccination (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56238008",
+        "display" : "Thromboembolism following infusion, perfusion AND/OR transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58738001",
+        "display" : "Transfusion reaction due to faulty storage of blood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "590365011000119106",
+        "display" : "Dyspnea due to and following transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "631002",
+        "display" : "Transfusion reaction due to minor incompatibility (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "67888001",
+        "display" : "Transfusion reaction caused by toxic effect of anticoagulant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "69281008",
+        "display" : "Transfusion hemosiderosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698466009",
+        "display" : "At increased risk of graft-versus-host disease associated with transfusion (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7081006",
+        "display" : "Transfusion reaction caused by contaminant in blood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713891007",
+        "display" : "Intraoperative hemorrhage requiring transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722586005",
+        "display" : "Polycythemia neonatorum following blood transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "72284000",
+        "display" : "Transfusion reaction due to serum protein reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "72813006",
+        "display" : "Transfusion reaction caused by platelet antibody (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "73162004",
+        "display" : "Posttransfusion purpura (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "73301000",
+        "display" : "Febrile transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "735911004",
+        "display" : "Air embolism due to and following transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762400004",
+        "display" : "Injury due to and following transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "77115005",
+        "display" : "Transfusion reaction due to immunoglobulin A (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "789667003",
+        "display" : "Phlebitis following transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "789682008",
+        "display" : "Thrombophlebitis following transfusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79337003",
+        "display" : "Anaphylactic transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82545002",
+        "display" : "Blood transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83250000",
+        "display" : "Delayed hemolytic transfusion reaction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "871554001",
+        "display" : "Non-allergic anaphylaxis due to transfusion of blood product (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89962000",
+        "display" : "Neonatal thrombocytopenia due to exchange transfusion (disorder)"
+      }
+    ]
+  }
+}

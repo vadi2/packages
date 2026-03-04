@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.188",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-01-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.188",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.188"
+    }
+  ],
+  "version" : "20230118",
+  "name" : "EDVisit_CN_HD_SNOMED",
+  "title" : "ED Visit_CN_HD_SNOMED",
+  "status" : "active",
+  "date" : "2023-01-18T01:03:05-05:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for Blood Pressure Care Need.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The intent of this value set is for the purpose of defining the clinical codes that constitute Blood Pressure Care Need for inclusion and utilization in patients/users connected heath.),(Data Element Scope: Blood Pressure Care Need for b.well.),(Inclusion Criteria: Blood Pressure Codes that constitute the Blood Pressure Care Need for b.well.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "4525004",
+            "display" : "Emergency department patient visit (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5e591e7b-7168-4095-8964-b016ccfc8feb",
+    "timestamp" : "2025-11-24T15:39:29-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4525004",
+        "display" : "Emergency department patient visit (procedure)"
+      }
+    ]
+  }
+}

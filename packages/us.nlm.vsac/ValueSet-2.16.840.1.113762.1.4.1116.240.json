@@ -1,0 +1,999 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.240",
+  "meta" : {
+    "versionId" : "14",
+    "lastUpdated" : "2025-10-15T01:04:59.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CancerLinQ Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-15"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.240",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.240"
+    }
+  ],
+  "version" : "20251015",
+  "name" : "Leukemia",
+  "title" : "Leukemia",
+  "status" : "active",
+  "date" : "2025-10-15T01:04:59-04:00",
+  "publisher" : "CancerLinQ Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: ),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept" : [
+          {
+            "code" : "203.1",
+            "display" : "Plasma cell leukemia"
+          },
+          {
+            "code" : "203.10",
+            "display" : "Plasma cell leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "203.11",
+            "display" : "Plasma cell leukemia, in remission"
+          },
+          {
+            "code" : "204",
+            "display" : "Lymphoid leukemia"
+          },
+          {
+            "code" : "204.0",
+            "display" : "Lymphoid leukemia, acute"
+          },
+          {
+            "code" : "204.00",
+            "display" : "Acute lymphoid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "204.01",
+            "display" : "Acute lymphoid leukemia, in remission"
+          },
+          {
+            "code" : "204.1",
+            "display" : "Lymphoid leukemia, chronic"
+          },
+          {
+            "code" : "204.10",
+            "display" : "Chronic lymphoid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "204.11",
+            "display" : "Chronic lymphoid leukemia, in remission"
+          },
+          {
+            "code" : "204.12",
+            "display" : "Chronic lymphoid leukemia, in relapse"
+          },
+          {
+            "code" : "204.2",
+            "display" : "Lymphoid leukemia, subacute"
+          },
+          {
+            "code" : "204.20",
+            "display" : "Subacute lymphoid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "204.21",
+            "display" : "Subacute lymphoid leukemia, in remission"
+          },
+          {
+            "code" : "204.22",
+            "display" : "Subacute lymphoid leukemia, in relapse"
+          },
+          {
+            "code" : "204.8",
+            "display" : "Other lymphoid leukemia"
+          },
+          {
+            "code" : "204.80",
+            "display" : "Other lymphoid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "204.81",
+            "display" : "Other lymphoid leukemia, in remission"
+          },
+          {
+            "code" : "204.82",
+            "display" : "Other lymphoid leukemia, in relapse"
+          },
+          {
+            "code" : "204.9",
+            "display" : "Unspecified lymphoid leukemia"
+          },
+          {
+            "code" : "204.90",
+            "display" : "Unspecified lymphoid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "204.91",
+            "display" : "Unspecified lymphoid leukemia, in remission"
+          },
+          {
+            "code" : "205",
+            "display" : "Myeloid leukemia"
+          },
+          {
+            "code" : "205.0",
+            "display" : "Myeloid leukemia, acute"
+          },
+          {
+            "code" : "205.00",
+            "display" : "Acute myeloid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "205.01",
+            "display" : "Acute myeloid leukemia, in remission"
+          },
+          {
+            "code" : "205.02",
+            "display" : "Acute myeloid leukemia, in relapse"
+          },
+          {
+            "code" : "205.1",
+            "display" : "Myeloid leukemia, chronic"
+          },
+          {
+            "code" : "205.10",
+            "display" : "Chronic myeloid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "205.11",
+            "display" : "Chronic myeloid leukemia, in remission"
+          },
+          {
+            "code" : "205.12",
+            "display" : "Chronic myeloid leukemia, in relapse"
+          },
+          {
+            "code" : "205.2",
+            "display" : "Myeloid leukemia, subacute"
+          },
+          {
+            "code" : "205.20",
+            "display" : "Subacute myeloid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "205.21",
+            "display" : "Subacute myeloid leukemia,in remission"
+          },
+          {
+            "code" : "205.22",
+            "display" : "Subacute myeloid leukemia, in relapse"
+          },
+          {
+            "code" : "205.8",
+            "display" : "Other myeloid leukemia"
+          },
+          {
+            "code" : "205.80",
+            "display" : "Other myeloid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "205.81",
+            "display" : "Other myeloid leukemia, in remission"
+          },
+          {
+            "code" : "205.82",
+            "display" : "Other myeloid leukemia, in relapse"
+          },
+          {
+            "code" : "205.9",
+            "display" : "Unspecified myeloid leukemia"
+          },
+          {
+            "code" : "205.90",
+            "display" : "Unspecified myeloid leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "205.91",
+            "display" : "Unspecified myeloid leukemia, in remission"
+          },
+          {
+            "code" : "205.92",
+            "display" : "Unspecified myeloid leukemia, in relapse"
+          },
+          {
+            "code" : "206",
+            "display" : "Monocytic leukemia"
+          },
+          {
+            "code" : "206.0",
+            "display" : "Monocytic leukemia, acute"
+          },
+          {
+            "code" : "206.00",
+            "display" : "Acute monocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "206.01",
+            "display" : "Acute monocytic leukemia,in remission"
+          },
+          {
+            "code" : "206.02",
+            "display" : "Acute monocytic leukemia, in relapse"
+          },
+          {
+            "code" : "206.1",
+            "display" : "Monocytic leukemia, chronic"
+          },
+          {
+            "code" : "206.10",
+            "display" : "Chronic monocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "206.11",
+            "display" : "Chronic monocytic leukemia, in remission"
+          },
+          {
+            "code" : "206.2",
+            "display" : "Monocytic leukemia, subacute"
+          },
+          {
+            "code" : "206.20",
+            "display" : "Subacute monocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "206.21",
+            "display" : "Subacute monocytic leukemia, in remission"
+          },
+          {
+            "code" : "206.22",
+            "display" : "Subacute monocytic leukemia, in relapse"
+          },
+          {
+            "code" : "206.8",
+            "display" : "Other monocytic leukemia"
+          },
+          {
+            "code" : "206.80",
+            "display" : "Other monocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "206.81",
+            "display" : "Other monocytic leukemia, in remission"
+          },
+          {
+            "code" : "206.82",
+            "display" : "Other monocytic leukemia, in relapse"
+          },
+          {
+            "code" : "206.9",
+            "display" : "Unspecified monocytic leukemia"
+          },
+          {
+            "code" : "206.90",
+            "display" : "Unspecified monocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "206.91",
+            "display" : "Unspecified monocytic leukemia, in remission"
+          },
+          {
+            "code" : "206.92",
+            "display" : "Unspecified monocytic leukemia, in relapse"
+          },
+          {
+            "code" : "207.0",
+            "display" : "Acute erythremia and erythroleukemia"
+          },
+          {
+            "code" : "207.00",
+            "display" : "Acute erythremia and erythroleukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "207.02",
+            "display" : "Acute erythremia and erythroleukemia, in relapse"
+          },
+          {
+            "code" : "207.2",
+            "display" : "Megakaryocytic leukemia"
+          },
+          {
+            "code" : "207.20",
+            "display" : "Megakaryocytic leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "207.21",
+            "display" : "Megakaryocytic leukemia, in remission"
+          },
+          {
+            "code" : "207.22",
+            "display" : "Megakaryocytic leukemia, in relapse"
+          },
+          {
+            "code" : "207.8",
+            "display" : "Other specified leukemia"
+          },
+          {
+            "code" : "207.81",
+            "display" : "Other specified leukemia, in remission"
+          },
+          {
+            "code" : "208",
+            "display" : "Leukemia of unspecified cell type"
+          },
+          {
+            "code" : "208.0",
+            "display" : "Leukemia of unspecified cell type, acute"
+          },
+          {
+            "code" : "208.00",
+            "display" : "Acute leukemia of unspecified cell type, without mention of having achieved remission"
+          },
+          {
+            "code" : "208.01",
+            "display" : "Acute leukemia of unspecified cell type, in remission"
+          },
+          {
+            "code" : "208.02",
+            "display" : "Acute leukemia of unspecified cell type, in relapse"
+          },
+          {
+            "code" : "208.1",
+            "display" : "Leukemia of unspecified cell type, chronic"
+          },
+          {
+            "code" : "208.10",
+            "display" : "Chronic leukemia of unspecified cell type, without mention of having achieved remission"
+          },
+          {
+            "code" : "208.11",
+            "display" : "Chronic leukemia of unspecified cell type, in remission"
+          },
+          {
+            "code" : "208.12",
+            "display" : "Chronic leukemia of unspecified cell type, in relapse"
+          },
+          {
+            "code" : "208.2",
+            "display" : "Leukemia of unspecified cell type, subacute"
+          },
+          {
+            "code" : "208.20",
+            "display" : "Subacute leukemia of unspecified cell type, without mention of having achieved remission"
+          },
+          {
+            "code" : "208.21",
+            "display" : "Subacute leukemia of unspecified cell type, in remission"
+          },
+          {
+            "code" : "208.22",
+            "display" : "Subacute leukemia of unspecified cell type, in relapse"
+          },
+          {
+            "code" : "208.8",
+            "display" : "Other leukemia of unspecified cell type"
+          },
+          {
+            "code" : "208.80",
+            "display" : "Other leukemia of unspecified cell type, without mention of having achieved remission"
+          },
+          {
+            "code" : "208.81",
+            "display" : "Other leukemia of unspecified cell type, in remission"
+          },
+          {
+            "code" : "208.82",
+            "display" : "Other leukemia of unspecified cell type, in relapse"
+          },
+          {
+            "code" : "208.9",
+            "display" : "Unspecified leukemia"
+          },
+          {
+            "code" : "208.90",
+            "display" : "Unspecified leukemia, without mention of having achieved remission"
+          },
+          {
+            "code" : "208.91",
+            "display" : "Unspecified leukemia, in remission"
+          },
+          {
+            "code" : "208.92",
+            "display" : "Unspecified leukemia, in relapse"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c58b6bae-005d-482d-ac8c-04ee02fc3c81",
+    "timestamp" : "2025-11-24T12:35:35-05:00",
+    "total" : 93,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "203.1",
+        "display" : "Plasma cell leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "203.10",
+        "display" : "Plasma cell leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "203.11",
+        "display" : "Plasma cell leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204",
+        "display" : "Lymphoid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.0",
+        "display" : "Lymphoid leukemia, acute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.00",
+        "display" : "Acute lymphoid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.01",
+        "display" : "Acute lymphoid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.1",
+        "display" : "Lymphoid leukemia, chronic"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.10",
+        "display" : "Chronic lymphoid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.11",
+        "display" : "Chronic lymphoid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.12",
+        "display" : "Chronic lymphoid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.2",
+        "display" : "Lymphoid leukemia, subacute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.20",
+        "display" : "Subacute lymphoid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.21",
+        "display" : "Subacute lymphoid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.22",
+        "display" : "Subacute lymphoid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.8",
+        "display" : "Other lymphoid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.80",
+        "display" : "Other lymphoid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.81",
+        "display" : "Other lymphoid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.82",
+        "display" : "Other lymphoid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.9",
+        "display" : "Unspecified lymphoid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.90",
+        "display" : "Unspecified lymphoid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "204.91",
+        "display" : "Unspecified lymphoid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205",
+        "display" : "Myeloid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.0",
+        "display" : "Myeloid leukemia, acute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.00",
+        "display" : "Acute myeloid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.01",
+        "display" : "Acute myeloid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.02",
+        "display" : "Acute myeloid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.1",
+        "display" : "Myeloid leukemia, chronic"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.10",
+        "display" : "Chronic myeloid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.11",
+        "display" : "Chronic myeloid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.12",
+        "display" : "Chronic myeloid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.2",
+        "display" : "Myeloid leukemia, subacute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.20",
+        "display" : "Subacute myeloid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.21",
+        "display" : "Subacute myeloid leukemia,in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.22",
+        "display" : "Subacute myeloid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.8",
+        "display" : "Other myeloid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.80",
+        "display" : "Other myeloid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.81",
+        "display" : "Other myeloid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.82",
+        "display" : "Other myeloid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.9",
+        "display" : "Unspecified myeloid leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.90",
+        "display" : "Unspecified myeloid leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.91",
+        "display" : "Unspecified myeloid leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "205.92",
+        "display" : "Unspecified myeloid leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206",
+        "display" : "Monocytic leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.0",
+        "display" : "Monocytic leukemia, acute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.00",
+        "display" : "Acute monocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.01",
+        "display" : "Acute monocytic leukemia,in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.02",
+        "display" : "Acute monocytic leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.1",
+        "display" : "Monocytic leukemia, chronic"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.10",
+        "display" : "Chronic monocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.11",
+        "display" : "Chronic monocytic leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.2",
+        "display" : "Monocytic leukemia, subacute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.20",
+        "display" : "Subacute monocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.21",
+        "display" : "Subacute monocytic leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.22",
+        "display" : "Subacute monocytic leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.8",
+        "display" : "Other monocytic leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.80",
+        "display" : "Other monocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.81",
+        "display" : "Other monocytic leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.82",
+        "display" : "Other monocytic leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.9",
+        "display" : "Unspecified monocytic leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.90",
+        "display" : "Unspecified monocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.91",
+        "display" : "Unspecified monocytic leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "206.92",
+        "display" : "Unspecified monocytic leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.0",
+        "display" : "Acute erythremia and erythroleukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.00",
+        "display" : "Acute erythremia and erythroleukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.02",
+        "display" : "Acute erythremia and erythroleukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.2",
+        "display" : "Megakaryocytic leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.20",
+        "display" : "Megakaryocytic leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.21",
+        "display" : "Megakaryocytic leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.22",
+        "display" : "Megakaryocytic leukemia, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.8",
+        "display" : "Other specified leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "207.81",
+        "display" : "Other specified leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208",
+        "display" : "Leukemia of unspecified cell type"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.0",
+        "display" : "Leukemia of unspecified cell type, acute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.00",
+        "display" : "Acute leukemia of unspecified cell type, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.01",
+        "display" : "Acute leukemia of unspecified cell type, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.02",
+        "display" : "Acute leukemia of unspecified cell type, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.1",
+        "display" : "Leukemia of unspecified cell type, chronic"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.10",
+        "display" : "Chronic leukemia of unspecified cell type, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.11",
+        "display" : "Chronic leukemia of unspecified cell type, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.12",
+        "display" : "Chronic leukemia of unspecified cell type, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.2",
+        "display" : "Leukemia of unspecified cell type, subacute"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.20",
+        "display" : "Subacute leukemia of unspecified cell type, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.21",
+        "display" : "Subacute leukemia of unspecified cell type, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.22",
+        "display" : "Subacute leukemia of unspecified cell type, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.8",
+        "display" : "Other leukemia of unspecified cell type"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.80",
+        "display" : "Other leukemia of unspecified cell type, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.81",
+        "display" : "Other leukemia of unspecified cell type, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.82",
+        "display" : "Other leukemia of unspecified cell type, in relapse"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.9",
+        "display" : "Unspecified leukemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.90",
+        "display" : "Unspecified leukemia, without mention of having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.91",
+        "display" : "Unspecified leukemia, in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "208.92",
+        "display" : "Unspecified leukemia, in relapse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2832",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2832",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2832"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "MpoxAdditionalContextMedicationCodesRxNorm",
+  "title" : "Mpox Additional Context Medication Codes (RxNorm)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Mpox Additional Context Medication Codes),(Data Element Scope: Mpox Additional Context Medication Codes),(Inclusion Criteria: Mpox Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1151776",
+            "display" : "cidofovir Injectable Product"
+          },
+          {
+            "code" : "1161535",
+            "display" : "human vaccinia immune globulin Injectable Product"
+          },
+          {
+            "code" : "1731046",
+            "display" : "cidofovir Injection"
+          },
+          {
+            "code" : "1922327",
+            "display" : "human vaccinia immune globulin 2500 UNT/ML"
+          },
+          {
+            "code" : "1922328",
+            "display" : "human vaccinia immune globulin Injection"
+          },
+          {
+            "code" : "1922329",
+            "display" : "20 ML human vaccinia immune globulin 2500 UNT/ML Injection"
+          },
+          {
+            "code" : "1922330",
+            "display" : "CNJ-016"
+          },
+          {
+            "code" : "1922331",
+            "display" : "human vaccinia immune globulin 2500 UNT/ML [CNJ-016]"
+          },
+          {
+            "code" : "1922332",
+            "display" : "human vaccinia immune globulin Injection [CNJ-016]"
+          },
+          {
+            "code" : "1922333",
+            "display" : "CNJ-016 Injectable Product"
+          },
+          {
+            "code" : "1922334",
+            "display" : "20 ML human vaccinia immune globulin 2500 UNT/ML Injection [CNJ-016]"
+          },
+          {
+            "code" : "199388",
+            "display" : "5 ML cidofovir 75 MG/ML Injection"
+          },
+          {
+            "code" : "2055103",
+            "display" : "ticovirimat monohydrate"
+          },
+          {
+            "code" : "2055104",
+            "display" : "tecovirimat"
+          },
+          {
+            "code" : "2055105",
+            "display" : "tecovirimat 200 MG"
+          },
+          {
+            "code" : "2055106",
+            "display" : "tecovirimat Oral Product"
+          },
+          {
+            "code" : "2055107",
+            "display" : "tecovirimat Pill"
+          },
+          {
+            "code" : "2055108",
+            "display" : "tecovirimat Oral Capsule"
+          },
+          {
+            "code" : "2055109",
+            "display" : "tecovirimat 200 MG Oral Capsule"
+          },
+          {
+            "code" : "2055110",
+            "display" : "Tpoxx"
+          },
+          {
+            "code" : "2055111",
+            "display" : "tecovirimat 200 MG [Tpoxx]"
+          },
+          {
+            "code" : "2055112",
+            "display" : "tecovirimat Oral Capsule [Tpoxx]"
+          },
+          {
+            "code" : "2055113",
+            "display" : "Tpoxx Oral Product"
+          },
+          {
+            "code" : "2055114",
+            "display" : "Tpoxx Pill"
+          },
+          {
+            "code" : "2055115",
+            "display" : "tecovirimat 200 MG Oral Capsule [Tpoxx]"
+          },
+          {
+            "code" : "2055677",
+            "display" : "tecovirimat monohydrate"
+          },
+          {
+            "code" : "211248",
+            "display" : "5 ML cidofovir 75 MG/ML Injection [Vistide]"
+          },
+          {
+            "code" : "2599518",
+            "display" : "brincidofovir"
+          },
+          {
+            "code" : "2599521",
+            "display" : "brincidofovir 10 MG/ML"
+          },
+          {
+            "code" : "2599522",
+            "display" : "brincidofovir Oral Product"
+          },
+          {
+            "code" : "2599523",
+            "display" : "brincidofovir Oral Liquid Product"
+          },
+          {
+            "code" : "2599524",
+            "display" : "brincidofovir Oral Suspension"
+          },
+          {
+            "code" : "2599525",
+            "display" : "brincidofovir 10 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "2599526",
+            "display" : "Tembexa"
+          },
+          {
+            "code" : "2599527",
+            "display" : "brincidofovir 10 MG/ML [Tembexa]"
+          },
+          {
+            "code" : "2599528",
+            "display" : "Tembexa Oral Product"
+          },
+          {
+            "code" : "2599529",
+            "display" : "Tembexa Oral Liquid Product"
+          },
+          {
+            "code" : "2599530",
+            "display" : "brincidofovir Oral Suspension [Tembexa]"
+          },
+          {
+            "code" : "2599531",
+            "display" : "brincidofovir 10 MG/ML Oral Suspension [Tembexa]"
+          },
+          {
+            "code" : "2599532",
+            "display" : "brincidofovir 100 MG"
+          },
+          {
+            "code" : "2599533",
+            "display" : "brincidofovir Pill"
+          },
+          {
+            "code" : "2599534",
+            "display" : "brincidofovir Oral Tablet"
+          },
+          {
+            "code" : "2599535",
+            "display" : "brincidofovir 100 MG Oral Tablet"
+          },
+          {
+            "code" : "2599536",
+            "display" : "brincidofovir 100 MG [Tembexa]"
+          },
+          {
+            "code" : "2599537",
+            "display" : "Tembexa Pill"
+          },
+          {
+            "code" : "2599538",
+            "display" : "brincidofovir Oral Tablet [Tembexa]"
+          },
+          {
+            "code" : "2599539",
+            "display" : "brincidofovir 100 MG Oral Tablet [Tembexa]"
+          },
+          {
+            "code" : "2599540",
+            "display" : "{4 (brincidofovir 100 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "2599541",
+            "display" : "{4 (brincidofovir 100 MG Oral Tablet [Tembexa]) } Pack [Tembexa 4 Tablet Pack]"
+          },
+          {
+            "code" : "2602123",
+            "display" : "tecovirimat 10 MG/ML"
+          },
+          {
+            "code" : "2602124",
+            "display" : "tecovirimat Injectable Product"
+          },
+          {
+            "code" : "2602125",
+            "display" : "tecovirimat Injection"
+          },
+          {
+            "code" : "2602126",
+            "display" : "20 ML tecovirimat 10 MG/ML Injection"
+          },
+          {
+            "code" : "2602128",
+            "display" : "tecovirimat 10 MG/ML [Tpoxx]"
+          },
+          {
+            "code" : "2602129",
+            "display" : "Tpoxx Injectable Product"
+          },
+          {
+            "code" : "2602130",
+            "display" : "tecovirimat Injection [Tpoxx]"
+          },
+          {
+            "code" : "2602131",
+            "display" : "20 ML tecovirimat 10 MG/ML Injection [Tpoxx]"
+          },
+          {
+            "code" : "315674",
+            "display" : "cidofovir 75 MG/ML"
+          },
+          {
+            "code" : "597392",
+            "display" : "human vaccinia immune globulin"
+          },
+          {
+            "code" : "597393",
+            "display" : "human vaccinia immune globulin 50 MG/ML"
+          },
+          {
+            "code" : "597394",
+            "display" : "human vaccinia immune globulin Injectable Solution"
+          },
+          {
+            "code" : "597395",
+            "display" : "human vaccinia immune globulin 50 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "83171",
+            "display" : "cidofovir"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:6c72c801-1b96-4a6d-a00c-866e8c9f7aed",
+    "timestamp" : "2025-11-24T13:40:15-05:00",
+    "total" : 62,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151776",
+        "display" : "cidofovir Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161535",
+        "display" : "human vaccinia immune globulin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1731046",
+        "display" : "cidofovir Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922327",
+        "display" : "human vaccinia immune globulin 2500 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922328",
+        "display" : "human vaccinia immune globulin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922329",
+        "display" : "20 ML human vaccinia immune globulin 2500 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922330",
+        "display" : "CNJ-016"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922331",
+        "display" : "human vaccinia immune globulin 2500 UNT/ML [CNJ-016]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922332",
+        "display" : "human vaccinia immune globulin Injection [CNJ-016]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922333",
+        "display" : "CNJ-016 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1922334",
+        "display" : "20 ML human vaccinia immune globulin 2500 UNT/ML Injection [CNJ-016]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199388",
+        "display" : "5 ML cidofovir 75 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055103",
+        "display" : "ticovirimat monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055104",
+        "display" : "tecovirimat"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055105",
+        "display" : "tecovirimat 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055106",
+        "display" : "tecovirimat Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055107",
+        "display" : "tecovirimat Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055108",
+        "display" : "tecovirimat Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055109",
+        "display" : "tecovirimat 200 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055110",
+        "display" : "Tpoxx"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055111",
+        "display" : "tecovirimat 200 MG [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055112",
+        "display" : "tecovirimat Oral Capsule [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055113",
+        "display" : "Tpoxx Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055114",
+        "display" : "Tpoxx Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055115",
+        "display" : "tecovirimat 200 MG Oral Capsule [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055677",
+        "display" : "tecovirimat monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599518",
+        "display" : "brincidofovir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599521",
+        "display" : "brincidofovir 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599522",
+        "display" : "brincidofovir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599523",
+        "display" : "brincidofovir Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599524",
+        "display" : "brincidofovir Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599525",
+        "display" : "brincidofovir 10 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599526",
+        "display" : "Tembexa"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599527",
+        "display" : "brincidofovir 10 MG/ML [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599528",
+        "display" : "Tembexa Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599529",
+        "display" : "Tembexa Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599530",
+        "display" : "brincidofovir Oral Suspension [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599531",
+        "display" : "brincidofovir 10 MG/ML Oral Suspension [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599532",
+        "display" : "brincidofovir 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599533",
+        "display" : "brincidofovir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599534",
+        "display" : "brincidofovir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599535",
+        "display" : "brincidofovir 100 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599536",
+        "display" : "brincidofovir 100 MG [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599537",
+        "display" : "Tembexa Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599538",
+        "display" : "brincidofovir Oral Tablet [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599539",
+        "display" : "brincidofovir 100 MG Oral Tablet [Tembexa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599540",
+        "display" : "{4 (brincidofovir 100 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2599541",
+        "display" : "{4 (brincidofovir 100 MG Oral Tablet [Tembexa]) } Pack [Tembexa 4 Tablet Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602123",
+        "display" : "tecovirimat 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602124",
+        "display" : "tecovirimat Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602125",
+        "display" : "tecovirimat Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602126",
+        "display" : "20 ML tecovirimat 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602128",
+        "display" : "tecovirimat 10 MG/ML [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602129",
+        "display" : "Tpoxx Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602130",
+        "display" : "tecovirimat Injection [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2602131",
+        "display" : "20 ML tecovirimat 10 MG/ML Injection [Tpoxx]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315674",
+        "display" : "cidofovir 75 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597392",
+        "display" : "human vaccinia immune globulin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597393",
+        "display" : "human vaccinia immune globulin 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597394",
+        "display" : "human vaccinia immune globulin Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597395",
+        "display" : "human vaccinia immune globulin 50 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "83171",
+        "display" : "cidofovir"
+      }
+    ]
+  }
+}

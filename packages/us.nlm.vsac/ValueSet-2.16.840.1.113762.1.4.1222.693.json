@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.693",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-09-20T10:03:19.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-27"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-27"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.693",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.693"
+    }
+  ],
+  "version" : "20240627",
+  "name" : "SuicideRisk",
+  "title" : "Suicide Risk",
+  "status" : "active",
+  "date" : "2024-09-20T10:03:19-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Suicide Risk.),(Data Element Scope: The intent of this set of values is to identify patients who have a/an indication of whether the person is at risk of committing suicide..),(Inclusion Criteria: Includes GROUP codes for Suicide Risk.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Suicide Risk.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.691"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.692"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9bfce552-fdfc-4072-a25e-9543f87fcab7",
+    "timestamp" : "2025-11-24T15:26:33-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225444004",
+        "display" : "At increased risk for suicide (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "394685004",
+        "display" : "High suicide risk (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "394686003",
+        "display" : "Moderate suicide risk (finding)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R45.851",
+        "display" : "Suicidal ideations"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z91.5",
+        "display" : "Personal history of self-harm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z91.51",
+        "display" : "Personal history of suicidal behavior"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z91.52",
+        "display" : "Personal history of nonsuicidal self-harm"
+      }
+    ]
+  }
+}

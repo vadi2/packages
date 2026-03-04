@@ -1,0 +1,193 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2718",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Encephalitis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2718",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2718"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "BacteriaCausingEncephalitisTestsForBacteriaCausingEncephalitisAntigenInCerebrospinalFluid",
+  "title" : "Bacteria [Causing Encephalitis] (Tests for Bacteria Causing Encephalitis Antigen in Cerebrospinal Fluid)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with Encephalitis-causing Bacteria in Cerebrospinal fluid),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Encephalitis-causing Bacteria in cerebrospinal Fluid),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "17330-2",
+            "display" : "Neisseria meningitidis serogroup Y Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "19022-3",
+            "display" : "Neisseria meningitidis serogroups C+w135 Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "20487-5",
+            "display" : "Neisseria meningitidis serogroups A+Y Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "20488-3",
+            "display" : "Streptococcus agalactiae Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "20489-1",
+            "display" : "Streptococcus pneumoniae Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "24017-6",
+            "display" : "Neisseria meningitidis serogroup B Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31907-9",
+            "display" : "Neisseria meningitidis serogroup A Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31909-5",
+            "display" : "Neisseria meningitidis serogroups A+C+w135+Y Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31911-1",
+            "display" : "Neisseria meningitidis Ag [Units/volume] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31916-0",
+            "display" : "Neisseria meningitidis serogroup C Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31918-6",
+            "display" : "Neisseria meningitidis serogroup w135 Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "6508-6",
+            "display" : "Neisseria meningitidis Ag [Presence] in Cerebral spinal fluid"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:bdd16ecf-9923-430c-9817-e4931649b99b",
+    "timestamp" : "2025-11-24T13:35:50-05:00",
+    "total" : 12,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "17330-2",
+        "display" : "Neisseria meningitidis serogroup Y Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "19022-3",
+        "display" : "Neisseria meningitidis serogroups C+w135 Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "20487-5",
+        "display" : "Neisseria meningitidis serogroups A+Y Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "20488-3",
+        "display" : "Streptococcus agalactiae Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "20489-1",
+        "display" : "Streptococcus pneumoniae Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "24017-6",
+        "display" : "Neisseria meningitidis serogroup B Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31907-9",
+        "display" : "Neisseria meningitidis serogroup A Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31909-5",
+        "display" : "Neisseria meningitidis serogroups A+C+w135+Y Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31911-1",
+        "display" : "Neisseria meningitidis Ag [Units/volume] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31916-0",
+        "display" : "Neisseria meningitidis serogroup C Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31918-6",
+        "display" : "Neisseria meningitidis serogroup w135 Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "6508-6",
+        "display" : "Neisseria meningitidis Ag [Presence] in Cerebral spinal fluid"
+      }
+    ]
+  }
+}

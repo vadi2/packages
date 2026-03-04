@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1166.154",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "OPA Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-14"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2021-10-12"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1166.154",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1166.154"
+    }
+  ],
+  "version" : "20211012",
+  "name" : "ContraceptiveRingSNOMEDProvisionProcedures",
+  "title" : "Contraceptive Ring SNOMED Provision Procedures",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-10-12T01:01:34-04:00",
+  "publisher" : "OPA Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Family planning - provision and use of most and moderately effective contraceptive methods),(Data Element Scope: Procedure codes for prescription or provision of contraceptive ring, a moderately effective method of contraception),(Inclusion Criteria: Procedure codes for prescription or provision of contraceptive ring, a moderately effective method of contraception),(Exclusion Criteria: Any contraceptive method that is not a contraceptive ring; Most effective (i.e., sterilization, contraceptive implants, intrauterine devices or systems) or moderately effective (i.e., injectables, oral pills, or contraceptive patch) methods of contraception; Less effective methods of contraception (i.e., diaphragm, male condom, female condom, withdrawal, sponge, fertility-awareness based methods, spermicide))",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "703144005",
+            "display" : "Initiation of hormone releasing contraceptive vaginal ring (regime/therapy)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ccf072b8-b33d-42ae-a53a-691fe3e50b2d",
+    "timestamp" : "2025-11-24T14:15:11-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703144005",
+        "display" : "Initiation of hormone releasing contraceptive vaginal ring (procedure)"
+      }
+    ]
+  }
+}

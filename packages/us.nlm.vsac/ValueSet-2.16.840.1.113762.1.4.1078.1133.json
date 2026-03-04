@@ -1,0 +1,717 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1133",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-05-28T01:03:12.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-05-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-05-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1133",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1133"
+    }
+  ],
+  "version" : "20250528",
+  "name" : "CoronaryArteryAnomalySCT",
+  "title" : "Coronary artery anomaly SCT",
+  "status" : "active",
+  "date" : "2025-05-28T01:03:12-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Coronary artery anomaly),(Data Element Scope: SNOMED CT),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "28574005"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ca0c1562-e261-4961-8694-8de42e0c1800",
+    "timestamp" : "2025-11-24T11:32:10-05:00",
+    "total" : 107,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11433004",
+        "display" : "Congenital coronary artery fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128555001",
+        "display" : "Congenital coronary artery fistula to left atrium (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128556000",
+        "display" : "Congenital coronary artery fistula to left ventricle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128557009",
+        "display" : "Congenital coronary artery fistula to right atrium (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128558004",
+        "display" : "Congenital coronary artery fistula to right ventricle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "129582000",
+        "display" : "Congenital coronary artery fistula to pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204378009",
+        "display" : "Congenital coronary aneurysm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204379001",
+        "display" : "Congenital stricture of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21981000",
+        "display" : "Single coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253700001",
+        "display" : "Variant coronary origin from aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253703004",
+        "display" : "Anomalous origin of coronary artery from non-facing sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253704005",
+        "display" : "Anomalous origin of left anterior descending from right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253706007",
+        "display" : "Anomalous origin of coronary artery from pulmonary arterial tree (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253707003",
+        "display" : "Anomalous origin of coronary artery from right pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253708008",
+        "display" : "Anomalous origin of coronary artery from left pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253710005",
+        "display" : "Coronary orifice abnormally high (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253711009",
+        "display" : "Coronary orifice asymmetrical (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253712002",
+        "display" : "Dual coronary orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253714001",
+        "display" : "Abnormal coronary artery course (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253715000",
+        "display" : "Intramural coronary artery course (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253716004",
+        "display" : "Aberrant course of left anterior descending coronary artery from right coronary artery crossing right ventricular outflow tract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253717008",
+        "display" : "Coronary artery runs between aorta and pulmonary trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253718003",
+        "display" : "Circumflex runs posterior to pulmonary trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253719006",
+        "display" : "Circumflex runs posterior to aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253720000",
+        "display" : "Congenital coronary arteriovenous fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253725005",
+        "display" : "Congenital coronary artery calcification (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253728007",
+        "display" : "Right dominant coronary system (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253729004",
+        "display" : "Left dominant coronary system (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253730009",
+        "display" : "Balanced coronary system (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "270510008",
+        "display" : "Anomalous coronary artery communication (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28574005",
+        "display" : "Congenital anomaly of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448095003",
+        "display" : "Aortic left ventricular tunnel with right coronary artery from tunnel (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448478000",
+        "display" : "Systemic to pulmonary collateral artery from coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450300002",
+        "display" : "Anomalous origin of right coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450301003",
+        "display" : "Anomalous origin of left coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450302005",
+        "display" : "Anomalous origin of left anterior descending coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "458039003",
+        "display" : "Anomalous origin of left circumflex coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "459065005",
+        "display" : "Congenital atresia of left main stem coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "459066006",
+        "display" : "Anomalous origin of accessory coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460437005",
+        "display" : "Anomalous origin of dual left anterior descending coronary arteries from right coronary artery and left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460438000",
+        "display" : "Anomalous origin of large conus artery from right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460471001",
+        "display" : "Anomalous origin of conus artery from separate aortic sinus orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460510005",
+        "display" : "Anomalous origin of coronary arteries from anterior aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460517008",
+        "display" : "Anomalous origin of coronary arteries from both aortic sinuses of bicuspid valve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460524009",
+        "display" : "Anomalous origin of right coronary artery from left anterior descending coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460531008",
+        "display" : "Anomalous origin of right coronary artery from left circumflex coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460538002",
+        "display" : "Anomalous origin of left coronary artery from right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460545002",
+        "display" : "Congenital atresia of right coronary artery orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460581004",
+        "display" : "Anomalous origin of accessory coronary artery from aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460582006",
+        "display" : "Anomalous origin of left coronary artery and right coronary artery from pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460583001",
+        "display" : "Anomalous origin of sinus node coronary artery from separate aortic sinus orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460584007",
+        "display" : "Anomalous course of coronary artery posterior to pulmonary trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460585008",
+        "display" : "Anomalous course of coronary artery posterior to aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460586009",
+        "display" : "Anomalous origin of right coronary artery from left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460587000",
+        "display" : "Anomalous origin of single coronary artery from left coronary artery aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460588005",
+        "display" : "Anomalous origin of left circumflex coronary artery from right coronary aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460913001",
+        "display" : "Systemic to coronary collateral artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460923005",
+        "display" : "Anomalous origin of right coronary artery from left coronary artery aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460930004",
+        "display" : "Anomalous origin of left coronary artery from right coronary aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460937001",
+        "display" : "Anomalous origin of single coronary artery from right coronary artery aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460944005",
+        "display" : "Anomalous origin of right coronary artery from left coronary artery aortic sinus and anomalous origin of left coronary artery from right coronary artery aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461104009",
+        "display" : "Interruption of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461105005",
+        "display" : "Anomalous origin of coronary artery from aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461107002",
+        "display" : "Single coronary artery dividing into right coronary artery and left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461109004",
+        "display" : "Anomalous course of coronary artery anterior to pulmonary trunk and aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461110009",
+        "display" : "Anomalous course of coronary artery posterior to pulmonary trunk and aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461111008",
+        "display" : "Anomalous course of coronary artery anterior to aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461112001",
+        "display" : "Anomalous course of coronary artery anterior to pulmonary trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461331004",
+        "display" : "Malposition of coronary artery orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461345005",
+        "display" : "Coronary artery orifice abnormally low (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461359003",
+        "display" : "Common coronary artery orifice (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461381008",
+        "display" : "Anomalous intramural course of proximal portion of coronary artery within aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461382001",
+        "display" : "Anomalous intramural course of proximal portion of coronary artery across commissure of aortic valve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461383006",
+        "display" : "Anomalous intramural course of proximal portion of coronary artery above aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461384000",
+        "display" : "Anomalous course of coronary artery across right ventricular outflow tract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461385004",
+        "display" : "Anomalous course of coronary artery through infundibular septum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461420008",
+        "display" : "Anomalous coronary artery with acute angulation of less than 45 degrees relative to aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461421007",
+        "display" : "Anomalous coronary artery without acute angulation of less than 45 degrees relative to aorta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461435009",
+        "display" : "Anomalous origin of left anterior descending coronary artery from right coronary artery aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461436005",
+        "display" : "Anomalous origin of dual left anterior descending coronary arteries (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461438006",
+        "display" : "Double barrel dual coronary artery orifices within aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461439003",
+        "display" : "Widely spaced right coronary artery and left coronary artery orifices within single aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471276003",
+        "display" : "Single left coronary artery supplying all of heart with usual distribution of right coronary artery derived from distal left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471277007",
+        "display" : "Single right coronary artery supplying all of heart with usual distribution of left coronary artery derived from distal right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471285003",
+        "display" : "Anomalous origin of coronary artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471286002",
+        "display" : "Anomalous origin of coronary artery from aortic sinus to right of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471287006",
+        "display" : "Anomalous origin of left coronary artery and right coronary artery with dual orifices from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471288001",
+        "display" : "Anomalous origin of left coronary artery and right coronary artery with dual orifices from aortic sinus to right of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471289009",
+        "display" : "Anomalous origin of circumflex artery from aortic sinus to right of nonfacing aortic sinus and anomalous origin of left anterior descending coronary artery and right coronary artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471290000",
+        "display" : "Anomalous origin of left anterior descending artery from aortic sinus to right of nonfacing aortic sinus and anomalous origin of circumflex artery and right coronary artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471291001",
+        "display" : "Anomalous origin of right coronary artery from aortic sinus to right of nonfacing aortic sinus and anomalous origin of left coronary artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471292008",
+        "display" : "Anomalous origin of right coronary artery and circumflex artery from aortic sinus to right of nonfacing aortic sinus and anomalous origin of left anterior descending artery from aortic sinus to left on nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471293003",
+        "display" : "Anomalous origin of left anterior descending artery and right coronary artery from aortic sinus to right of nonfacing aortic sinus and anomalous origin of circumflex artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471297002",
+        "display" : "Anomalous origin of single coronary artery from nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471298007",
+        "display" : "Anomalous origin of single coronary artery from aortic sinus to left of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471299004",
+        "display" : "Anomalous origin of single coronary artery from aortic sinus to right of nonfacing aortic sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473362006",
+        "display" : "Congenital stenosis of distal coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473443007",
+        "display" : "Anomalous origin of right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473444001",
+        "display" : "Anomalous origin of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5230009",
+        "display" : "Congenital absence of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55546004",
+        "display" : "Anomalous origin of left circumflex artery from right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74218008",
+        "display" : "Coronary artery arising from main pulmonary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75398000",
+        "display" : "Anomalous origin of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "780842009",
+        "display" : "Aortopulmonary coronary arterial course (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "782698000",
+        "display" : "Congenital atresia of ostium of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "782699008",
+        "display" : "Congenital stenosis of ostium of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783773000",
+        "display" : "Congenital abnormal number of ostium of coronary artery (disorder)"
+      }
+    ]
+  }
+}

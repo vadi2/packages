@@ -1,0 +1,473 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3002",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3002",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3002"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "OpticNeuropathySNOMED",
+  "title" : "Optic Neuropathy (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Optic Neuropathy regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Optic Neuropathy),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "111527005",
+            "display" : "Partial optic atrophy (disorder)"
+          },
+          {
+            "code" : "1169360001",
+            "display" : "Chronic relapsing inflammatory optic neuropathy (disorder)"
+          },
+          {
+            "code" : "1231226002",
+            "display" : "Non-arteritic posterior ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "1231240001",
+            "display" : "Idiopathic optic neuritis (disorder)"
+          },
+          {
+            "code" : "123615007",
+            "display" : "Secondary optic atrophy (disorder)"
+          },
+          {
+            "code" : "14357004",
+            "display" : "Ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "15632811000119100",
+            "display" : "Optic atrophy of right eye (disorder)"
+          },
+          {
+            "code" : "15632851000119104",
+            "display" : "Optic atrophy of left eye (disorder)"
+          },
+          {
+            "code" : "15731601000119100",
+            "display" : "Anterior ischemic optic neuropathy of left eye (disorder)"
+          },
+          {
+            "code" : "16376391000119106",
+            "display" : "Arteritic anterior ischemic optic neuropathy of right eye (disorder)"
+          },
+          {
+            "code" : "194043004",
+            "display" : "Optic atrophy secondary to retinal disease (disorder)"
+          },
+          {
+            "code" : "19448008",
+            "display" : "Optic atrophy associated with retinal dystrophy (disorder)"
+          },
+          {
+            "code" : "21098003",
+            "display" : "Primary optic atrophy (disorder)"
+          },
+          {
+            "code" : "230230002",
+            "display" : "Early onset cerebellar ataxia with retinitis pigmentosa and optic atrophy (disorder)"
+          },
+          {
+            "code" : "230508004",
+            "display" : "Arteritic ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "230509007",
+            "display" : "Non-arteritic ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "230511003",
+            "display" : "Optic atrophy secondary to papilledema (disorder)"
+          },
+          {
+            "code" : "2691000124105",
+            "display" : "Recurrent optic neuritis (disorder)"
+          },
+          {
+            "code" : "312944002",
+            "display" : "Compressive optic atrophy (disorder)"
+          },
+          {
+            "code" : "332891000119102",
+            "display" : "Primary optic atrophy of right eye (disorder)"
+          },
+          {
+            "code" : "334651000119101",
+            "display" : "Ischemic optic neuropathy of right eye (disorder)"
+          },
+          {
+            "code" : "338501000119109",
+            "display" : "Primary optic atrophy of left eye (disorder)"
+          },
+          {
+            "code" : "344271000119107",
+            "display" : "Primary optic atrophy of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "345611000119102",
+            "display" : "Ischemic optic neuropathy of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "348131000119109",
+            "display" : "Partial optic atrophy of right eye (disorder)"
+          },
+          {
+            "code" : "348581000119100",
+            "display" : "Partial optic atrophy of left eye (disorder)"
+          },
+          {
+            "code" : "349161000119106",
+            "display" : "Partial optic atrophy of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "359683002",
+            "display" : "Complete optic atrophy (disorder)"
+          },
+          {
+            "code" : "404659001",
+            "display" : "Anterior ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "404660006",
+            "display" : "Acute compressive optic neuropathy (disorder)"
+          },
+          {
+            "code" : "415147002",
+            "display" : "Posterior ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "421731000",
+            "display" : "Hypertensive optic neuropathy (disorder)"
+          },
+          {
+            "code" : "432521000124106",
+            "display" : "Bilateral optic neuritis (disorder)"
+          },
+          {
+            "code" : "66760008",
+            "display" : "Optic neuritis (disorder)"
+          },
+          {
+            "code" : "679691000119100",
+            "display" : "Retrobulbar optic neuritis of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "679701000119100",
+            "display" : "Retrobulbar optic neuritis of left eye (disorder)"
+          },
+          {
+            "code" : "679711000119102",
+            "display" : "Retrobulbar optic neuritis of right eye (disorder)"
+          },
+          {
+            "code" : "733506009",
+            "display" : "Arteritic anterior ischemic optic neuropathy (disorder)"
+          },
+          {
+            "code" : "76976005",
+            "display" : "Optic atrophy (disorder)"
+          },
+          {
+            "code" : "860884007",
+            "display" : "Idiopathic non-arteritic posterior ischemic optic neuropathy (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:19667acb-555f-4750-9add-b6012f28dca8",
+    "timestamp" : "2025-11-24T13:49:47-05:00",
+    "total" : 40,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111527005",
+        "display" : "Partial optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1169360001",
+        "display" : "Chronic relapsing inflammatory optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231226002",
+        "display" : "Non-arteritic posterior ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231240001",
+        "display" : "Idiopathic optic neuritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "123615007",
+        "display" : "Secondary optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14357004",
+        "display" : "Ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15632811000119100",
+        "display" : "Optic atrophy of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15632851000119104",
+        "display" : "Optic atrophy of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15731601000119100",
+        "display" : "Anterior ischemic optic neuropathy of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16376391000119106",
+        "display" : "Arteritic anterior ischemic optic neuropathy of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194043004",
+        "display" : "Optic atrophy secondary to retinal disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19448008",
+        "display" : "Optic atrophy associated with retinal dystrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21098003",
+        "display" : "Primary optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230230002",
+        "display" : "Early onset cerebellar ataxia with retinitis pigmentosa and optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230508004",
+        "display" : "Arteritic ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230509007",
+        "display" : "Non-arteritic ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230511003",
+        "display" : "Optic atrophy secondary to papilledema (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2691000124105",
+        "display" : "Recurrent optic neuritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312944002",
+        "display" : "Compressive optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "332891000119102",
+        "display" : "Primary optic atrophy of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "334651000119101",
+        "display" : "Ischemic optic neuropathy of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "338501000119109",
+        "display" : "Primary optic atrophy of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "344271000119107",
+        "display" : "Primary optic atrophy of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "345611000119102",
+        "display" : "Ischemic optic neuropathy of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348131000119109",
+        "display" : "Partial optic atrophy of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348581000119100",
+        "display" : "Partial optic atrophy of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "349161000119106",
+        "display" : "Partial optic atrophy of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "359683002",
+        "display" : "Complete optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404659001",
+        "display" : "Anterior ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404660006",
+        "display" : "Acute compressive optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "415147002",
+        "display" : "Posterior ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "421731000",
+        "display" : "Hypertensive optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432521000124106",
+        "display" : "Bilateral optic neuritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66760008",
+        "display" : "Optic neuritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "679691000119100",
+        "display" : "Retrobulbar optic neuritis of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "679701000119100",
+        "display" : "Retrobulbar optic neuritis of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "679711000119102",
+        "display" : "Retrobulbar optic neuritis of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733506009",
+        "display" : "Arteritic anterior ischemic optic neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76976005",
+        "display" : "Optic atrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "860884007",
+        "display" : "Idiopathic non-arteritic posterior ischemic optic neuropathy (disorder)"
+      }
+    ]
+  }
+}

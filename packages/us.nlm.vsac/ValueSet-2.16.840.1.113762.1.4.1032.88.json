@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1032.88",
+  "meta" : {
+    "versionId" : "14",
+    "lastUpdated" : "2024-08-26T16:46:32.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "AHRQ CDS Connect Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1032.88",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1032.88"
+    }
+  ],
+  "version" : "20240606",
+  "name" : "WaistCircumference",
+  "title" : "Waist Circumference",
+  "status" : "active",
+  "date" : "2024-06-06T01:23:01-04:00",
+  "publisher" : "AHRQ CDS Connect Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Waist circumference measurement),(Data Element Scope: LOINC codes that express waist circumference measurement),(Inclusion Criteria: LOINC codes that represent varied approaches to measuring waist circumference),(Exclusion Criteria: Trial LOINC codes that represent waist circumference measurement)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "56114-2",
+            "display" : "Waist Circumference by NHANES"
+          },
+          {
+            "code" : "56115-9",
+            "display" : "Waist Circumference by NCFS"
+          },
+          {
+            "code" : "56117-5",
+            "display" : "Waist Circumference by WHI"
+          },
+          {
+            "code" : "8280-0",
+            "display" : "Waist Circumference at umbilicus by Tape measure"
+          },
+          {
+            "code" : "8281-8",
+            "display" : "Waist Circumference at umbilicus by US"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:7280a39f-fb13-45e7-bc0c-b97281b5fe2e",
+    "timestamp" : "2025-11-24T11:05:07-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "56114-2",
+        "display" : "Waist Circumference by NHANES"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "56115-9",
+        "display" : "Waist Circumference by NCFS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "56117-5",
+        "display" : "Waist Circumference by WHI"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "8280-0",
+        "display" : "Waist Circumference at umbilicus by Tape measure"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "8281-8",
+        "display" : "Waist Circumference at umbilicus by US"
+      }
+    ]
+  }
+}

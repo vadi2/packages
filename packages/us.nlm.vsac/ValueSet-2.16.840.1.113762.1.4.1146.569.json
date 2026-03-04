@@ -1,0 +1,113 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.569",
+  "meta" : {
+    "versionId" : "14",
+    "lastUpdated" : "2024-06-19T01:24:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_ZVD,Plague,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.569",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.569"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "PlagueTestsForYersiniaPestisNucleicAcid",
+  "title" : "Plague (Tests for Yersinia pestis Nucleic Acid)",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Yersinia pestis Nucleic Acid.),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: component: Yersinia pestis DNA;  \n\nLOINC Search terms: ‘yersinia pestis nucleic -sp -panel -isolate’),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "101363-0",
+            "display" : "Yersinia pestis DNA [Presence] in Blood by NAA with non-probe detection"
+          },
+          {
+            "code" : "101371-3",
+            "display" : "Yersinia pestis DNA [Presence] by NAA with non-probe detection in Positive blood culture"
+          },
+          {
+            "code" : "101372-1",
+            "display" : "Yersinia pestis DNA [Presence] in Sputum by NAA with non-probe detection"
+          },
+          {
+            "code" : "33691-7",
+            "display" : "Yersinia pestis DNA [Presence] in Specimen by NAA with probe detection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f6d0d2d9-c33f-4965-8b14-5a16a3f90f97",
+    "timestamp" : "2025-11-24T13:56:13-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101363-0",
+        "display" : "Yersinia pestis DNA [Presence] in Blood by NAA with non-probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101371-3",
+        "display" : "Yersinia pestis DNA [Presence] by NAA with non-probe detection in Positive blood culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101372-1",
+        "display" : "Yersinia pestis DNA [Presence] in Sputum by NAA with non-probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33691-7",
+        "display" : "Yersinia pestis DNA [Presence] in Specimen by NAA with probe detection"
+      }
+    ]
+  }
+}

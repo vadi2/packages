@@ -1,0 +1,93 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1337",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-06-20T01:22:57.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Prion_Disease,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1337",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1337"
+    }
+  ],
+  "version" : "20240620",
+  "name" : "VariantCreutzfeldtJakobDiseaseDisordersSNOMED",
+  "title" : "Variant Creutzfeldt Jakob Disease (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2024-06-20T01:22:57-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Variant Creutzfeldt Jakob Disease regardless of the clinical presentation of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Variant Creutzfeldt Jakob Disease),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1259522005",
+            "display" : "Dementia due to variant Creutzfeldt-Jakob disease (disorder)"
+          },
+          {
+            "code" : "304603007",
+            "display" : "Variant Creutzfeldt-Jakob disease (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:de6f93b7-ed1e-4ab0-86ef-1bd6dbebe3ab",
+    "timestamp" : "2025-11-24T12:48:53-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259522005",
+        "display" : "Dementia due to variant Creutzfeldt-Jakob disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "304603007",
+        "display" : "Variant Creutzfeldt-Jakob disease (disorder)"
+      }
+    ]
+  }
+}

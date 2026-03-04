@@ -1,0 +1,90 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.28",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-18T01:02:52.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.28",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.28"
+    }
+  ],
+  "version" : "20251018",
+  "name" : "LeadScreeningTests",
+  "title" : "Lead Screening Tests",
+  "status" : "active",
+  "date" : "2025-10-18T01:02:52-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For PAPM Reporting",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Represents Lead Screening Tests including either capillary blood test or venous blood test),(Data Element Scope: SNOMED codes representing the completion of either a capillary blood test or venous blood test),(Inclusion Criteria: codes representing the completion of either a capillary blood test or venous blood test),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "35833009",
+            "display" : "Lead screening, blood (procedure)"
+          },
+          {
+            "code" : "8655006",
+            "display" : "Lead measurement, quantitative, blood (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:022ac625-cfdc-436d-ad5b-39709a4c26e8",
+    "timestamp" : "2025-11-24T16:58:55-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35833009",
+        "display" : "Lead screening, blood (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8655006",
+        "display" : "Lead measurement, quantitative, blood (procedure)"
+      }
+    ]
+  }
+}

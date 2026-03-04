@@ -1,0 +1,268 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2851",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2851",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2851"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "BabesiosisAdditionalContextSymptomCodesSNOMED",
+  "title" : "Babesiosis Additional Context Symptom Codes (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Babesiosis Additional Context Symptom Codes (SNOMED)),(Data Element Scope: Babesiosis Additional Context Symptom Codes (SNOMED)),(Inclusion Criteria: Babesiosis Additional Context Symptom Codes (SNOMED)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "13791008",
+            "display" : "Asthenia (finding)"
+          },
+          {
+            "code" : "164623002",
+            "display" : "On examination - a rash (disorder)"
+          },
+          {
+            "code" : "25064002",
+            "display" : "Headache (finding)"
+          },
+          {
+            "code" : "271737000",
+            "display" : "Anemia (disorder)"
+          },
+          {
+            "code" : "271807003",
+            "display" : "Eruption of skin (disorder)"
+          },
+          {
+            "code" : "274640006",
+            "display" : "Fever with chills (finding)"
+          },
+          {
+            "code" : "302215000",
+            "display" : "Thrombocytopenic disorder (disorder)"
+          },
+          {
+            "code" : "312230002",
+            "display" : "Hyperhidrosis (disorder)"
+          },
+          {
+            "code" : "367391008",
+            "display" : "Malaise (finding)"
+          },
+          {
+            "code" : "37796009",
+            "display" : "Migraine (disorder)"
+          },
+          {
+            "code" : "386661006",
+            "display" : "Fever (finding)"
+          },
+          {
+            "code" : "398057008",
+            "display" : "Tension-type headache (disorder)"
+          },
+          {
+            "code" : "43724002",
+            "display" : "Chill (finding)"
+          },
+          {
+            "code" : "57676002",
+            "display" : "Pain of joint (finding)"
+          },
+          {
+            "code" : "68962001",
+            "display" : "Muscle pain (finding)"
+          },
+          {
+            "code" : "725119006",
+            "display" : "Generalized rash (disorder)"
+          },
+          {
+            "code" : "7520000",
+            "display" : "Pyrexia of unknown origin (finding)"
+          },
+          {
+            "code" : "771258003",
+            "display" : "Bite of tick (event)"
+          },
+          {
+            "code" : "84229001",
+            "display" : "Fatigue (finding)"
+          },
+          {
+            "code" : "95898004",
+            "display" : "Tick bite (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:72e94f24-807d-4eef-9327-da2794c9d17e",
+    "timestamp" : "2025-11-24T13:41:29-05:00",
+    "total" : 19,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13791008",
+        "display" : "Asthenia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25064002",
+        "display" : "Headache (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271737000",
+        "display" : "Anemia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271807003",
+        "display" : "Eruption of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "274640006",
+        "display" : "Fever with chills (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302215000",
+        "display" : "Thrombocytopenic disorder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312230002",
+        "display" : "Hyperhidrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367391008",
+        "display" : "Malaise (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37796009",
+        "display" : "Migraine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "386661006",
+        "display" : "Fever (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398057008",
+        "display" : "Tension-type headache (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43724002",
+        "display" : "Chill (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "57676002",
+        "display" : "Pain of joint (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68962001",
+        "display" : "Muscle pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "725119006",
+        "display" : "Generalized rash (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7520000",
+        "display" : "Pyrexia of unknown origin (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771258003",
+        "display" : "Bite of tick (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84229001",
+        "display" : "Fatigue (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95898004",
+        "display" : "Tick bite (disorder)"
+      }
+    ]
+  }
+}

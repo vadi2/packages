@@ -1,0 +1,354 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3028",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3028",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3028"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "VaricellaAdditionalContextImmunizationCodes",
+  "title" : "Varicella Additional Context Immunization Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Varicella Additional Context Immunization Codes),(Data Element Scope: Varicella Additional Context Immunization Codes),(Inclusion Criteria: Varicella Additional Context Immunization Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1179526",
+            "display" : "ProQuad Injectable Product"
+          },
+          {
+            "code" : "1187569",
+            "display" : "Varivax Injectable Product"
+          },
+          {
+            "code" : "1292422",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain"
+          },
+          {
+            "code" : "1292423",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML"
+          },
+          {
+            "code" : "1292424",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injectable Product"
+          },
+          {
+            "code" : "1292427",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML [Varivax]"
+          },
+          {
+            "code" : "1292430",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 29800 UNT/ML"
+          },
+          {
+            "code" : "1292432",
+            "display" : "0.65 ML varicella-zoster virus vaccine live (Oka-Merck) strain 29800 UNT/ML Injection"
+          },
+          {
+            "code" : "1292436",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML"
+          },
+          {
+            "code" : "1292437",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injectable Product"
+          },
+          {
+            "code" : "1292439",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain"
+          },
+          {
+            "code" : "1292440",
+            "display" : "0.5 ML measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML Injection"
+          },
+          {
+            "code" : "1292441",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML [ProQuad]"
+          },
+          {
+            "code" : "1292443",
+            "display" : "0.5 ML measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML Injection [ProQuad]"
+          },
+          {
+            "code" : "1292457",
+            "display" : "0.5 ML varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML Injection"
+          },
+          {
+            "code" : "1292459",
+            "display" : "0.5 ML varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML Injection [Varivax]"
+          },
+          {
+            "code" : "1657998",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injection"
+          },
+          {
+            "code" : "1658000",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injection [ProQuad]"
+          },
+          {
+            "code" : "1658006",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injection"
+          },
+          {
+            "code" : "1658008",
+            "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injection [Varivax]"
+          },
+          {
+            "code" : "287578",
+            "display" : "Varivax"
+          },
+          {
+            "code" : "606051",
+            "display" : "ProQuad"
+          },
+          {
+            "code" : "762817",
+            "display" : "rubella virus vaccine live (Wistar RA 27-3 strain)"
+          },
+          {
+            "code" : "762818",
+            "display" : "rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML"
+          },
+          {
+            "code" : "798372",
+            "display" : "mumps virus vaccine live, Jeryl Lynn strain"
+          },
+          {
+            "code" : "798373",
+            "display" : "mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML"
+          },
+          {
+            "code" : "804179",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain"
+          },
+          {
+            "code" : "804180",
+            "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:48876828-01e7-4471-9fef-77d09dbcd77f",
+    "timestamp" : "2025-11-24T13:51:07-05:00",
+    "total" : 28,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1179526",
+        "display" : "ProQuad Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187569",
+        "display" : "Varivax Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292422",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292423",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292424",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292427",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML [Varivax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292430",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 29800 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292432",
+        "display" : "0.65 ML varicella-zoster virus vaccine live (Oka-Merck) strain 29800 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292436",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292437",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292439",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292440",
+        "display" : "0.5 ML measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292441",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML [ProQuad]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292443",
+        "display" : "0.5 ML measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML / mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML / rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML / varicella-zoster virus vaccine live (Oka-Merck) strain 20000 UNT/ML Injection [ProQuad]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292457",
+        "display" : "0.5 ML varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292459",
+        "display" : "0.5 ML varicella-zoster virus vaccine live (Oka-Merck) strain 2700 UNT/ML Injection [Varivax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657998",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658000",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain / mumps virus vaccine live, Jeryl Lynn strain / rubella virus vaccine live (Wistar RA 27-3 strain) / varicella-zoster virus vaccine live (Oka-Merck) strain Injection [ProQuad]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658006",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658008",
+        "display" : "varicella-zoster virus vaccine live (Oka-Merck) strain Injection [Varivax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "287578",
+        "display" : "Varivax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "606051",
+        "display" : "ProQuad"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "762817",
+        "display" : "rubella virus vaccine live (Wistar RA 27-3 strain)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "762818",
+        "display" : "rubella virus vaccine live (Wistar RA 27-3 strain) 2000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798372",
+        "display" : "mumps virus vaccine live, Jeryl Lynn strain"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798373",
+        "display" : "mumps virus vaccine live, Jeryl Lynn strain 40000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804179",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804180",
+        "display" : "measles virus vaccine live, Enders' attenuated Edmonston strain 2000 UNT/ML"
+      }
+    ]
+  }
+}

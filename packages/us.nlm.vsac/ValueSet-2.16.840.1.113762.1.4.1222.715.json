@@ -1,0 +1,150 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.715",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-09-13T15:33:34.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-14"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-14"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.715",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.715"
+    }
+  ],
+  "version" : "20240614",
+  "name" : "LowerUrinaryTractSymptomsLUTSFromBenignProstaticHyperplasia",
+  "title" : "Lower Urinary Tract Symptoms (LUTS) From Benign Prostatic Hyperplasia",
+  "status" : "active",
+  "date" : "2024-06-14T01:20:39-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Lower Urinary Tract Symptoms (LUTS) From Benign Prostatic Hyperplasia.),(Data Element Scope: The intent of this set of values is to identify patients who have a documented diagnosis of Lower Urinary Tract Symptoms (LUTS) due to benign prostatic hyperplasia.),(Inclusion Criteria: Includes GROUP codes for Lower Urinary Tract Symptoms (LUTS) From Benign Prostatic Hyperplasia.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Lower Urinary Tract Symptoms (LUTS) From Benign Prostatic Hyperplasia.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.714"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.713"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1e4d83e9-f0aa-424e-b7be-e7e5ad3b22f1",
+    "timestamp" : "2025-11-24T15:27:28-05:00",
+    "total" : 12,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117491000119102",
+        "display" : "Straining on urination due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117501000119109",
+        "display" : "Urinary hesitancy due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117511000119107",
+        "display" : "Urinary urgency due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117521000119100",
+        "display" : "Weak urinary stream due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117531000119102",
+        "display" : "Urinary frequency due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117541000119106",
+        "display" : "Urinary incontinence due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117551000119108",
+        "display" : "Incomplete emptying of urinary bladder due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1711000119101",
+        "display" : "Nocturia due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236646007",
+        "display" : "Benign prostatic hyperplasia with outflow obstruction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "30041000119101",
+        "display" : "Lower urinary tract symptoms due to benign prostatic hypertrophy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4127004",
+        "display" : "Prostatic obstruction (disorder)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "N40.1",
+        "display" : "Benign prostatic hyperplasia with lower urinary tract symptoms"
+      }
+    ]
+  }
+}

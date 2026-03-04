@@ -1,0 +1,183 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2694",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2694",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2694"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "OrganTransplantSNOMED",
+  "title" : "Organ Transplant (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes diagnoses or conditions indicating that the patient has undergone an organ transplant, regardless of the current clinical presentation.),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: organ transplant),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "737294004",
+            "display" : "Transplant present (finding)"
+          },
+          {
+            "code" : "737295003",
+            "display" : "Transplanted kidney present (finding)"
+          },
+          {
+            "code" : "737296002",
+            "display" : "Transplanted lung present (finding)"
+          },
+          {
+            "code" : "737297006",
+            "display" : "Transplanted liver present (finding)"
+          },
+          {
+            "code" : "737298001",
+            "display" : "Transplanted bone present (finding)"
+          },
+          {
+            "code" : "737299009",
+            "display" : "Transplanted cornea present (finding)"
+          },
+          {
+            "code" : "737300001",
+            "display" : "Bone marrow transplant present (finding)"
+          },
+          {
+            "code" : "739024006",
+            "display" : "Transplanted heart present (finding)"
+          },
+          {
+            "code" : "739025007",
+            "display" : "Transplanted heart-lung present (finding)"
+          },
+          {
+            "code" : "739026008",
+            "display" : "Transplanted heart valve present (finding)"
+          },
+          {
+            "code" : "739027004",
+            "display" : "Transplanted skin present (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5e843a74-d250-48aa-8543-4e6a8af71c59",
+    "timestamp" : "2025-11-24T13:34:44-05:00",
+    "total" : 11,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737294004",
+        "display" : "Transplant present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737295003",
+        "display" : "Transplanted kidney present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737296002",
+        "display" : "Transplanted lung present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737297006",
+        "display" : "Transplanted liver present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737298001",
+        "display" : "Transplanted bone present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737299009",
+        "display" : "Transplanted cornea present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737300001",
+        "display" : "Bone marrow transplant present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "739024006",
+        "display" : "Transplanted heart present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "739025007",
+        "display" : "Transplanted heart-lung present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "739026008",
+        "display" : "Transplanted heart valve present (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "739027004",
+        "display" : "Transplanted skin present (finding)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1240.15.2.4005",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Mathematica EP"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1240.15.2.4005",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1240.15.2.4005"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "Apixaban",
+  "title" : "Apixaban",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "Mathematica",
+  "description" : "Clone of FMQAI draft value set",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This is a medication value set that contains all formulations of apixaban.),(Data Element Scope: ),(Inclusion Criteria: All formulations of apixaban),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1364432",
+            "display" : "apixaban Oral Product"
+          },
+          {
+            "code" : "1364433",
+            "display" : "apixaban Pill"
+          },
+          {
+            "code" : "1364434",
+            "display" : "apixaban Oral Tablet"
+          },
+          {
+            "code" : "1364435",
+            "display" : "apixaban 2.5 MG Oral Tablet"
+          },
+          {
+            "code" : "1364445",
+            "display" : "apixaban 5 MG Oral Tablet"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:eb752236-f0e8-4fb5-9f6e-1763f7754800",
+    "timestamp" : "2025-11-24T17:18:57-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364432",
+        "display" : "apixaban Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364433",
+        "display" : "apixaban Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364434",
+        "display" : "apixaban Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364435",
+        "display" : "apixaban 2.5 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1364445",
+        "display" : "apixaban 5 MG Oral Tablet"
+      }
+    ]
+  }
+}

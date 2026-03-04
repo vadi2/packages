@@ -1,0 +1,129 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1204",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-04T01:03:23.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-04"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1204",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1204"
+    }
+  ],
+  "version" : "20250604",
+  "name" : "OvarianCancerI10",
+  "title" : "Ovarian cancer I10",
+  "status" : "active",
+  "date" : "2025-06-04T01:03:23-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Ovarian cancer),(Data Element Scope: ICD-10-CM),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "C56",
+            "display" : "Malignant neoplasm of ovary"
+          },
+          {
+            "code" : "C56.1",
+            "display" : "Malignant neoplasm of right ovary"
+          },
+          {
+            "code" : "C56.2",
+            "display" : "Malignant neoplasm of left ovary"
+          },
+          {
+            "code" : "C56.3",
+            "display" : "Malignant neoplasm of bilateral ovaries"
+          },
+          {
+            "code" : "C56.9",
+            "display" : "Malignant neoplasm of unspecified ovary"
+          },
+          {
+            "code" : "Z85.43",
+            "display" : "Personal history of malignant neoplasm of ovary"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:b9ba122b-0fd2-4cf1-a758-2cf5072c4ebe",
+    "timestamp" : "2025-11-24T11:35:42-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C56",
+        "display" : "Malignant neoplasm of ovary"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C56.1",
+        "display" : "Malignant neoplasm of right ovary"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C56.2",
+        "display" : "Malignant neoplasm of left ovary"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C56.3",
+        "display" : "Malignant neoplasm of bilateral ovaries"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C56.9",
+        "display" : "Malignant neoplasm of unspecified ovary"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z85.43",
+        "display" : "Personal history of malignant neoplasm of ovary"
+      }
+    ]
+  }
+}

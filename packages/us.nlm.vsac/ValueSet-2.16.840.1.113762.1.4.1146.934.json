@@ -1,0 +1,303 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.934",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2024-01-22T01:09:37.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-01-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.934",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.934"
+    }
+  ],
+  "version" : "20240122",
+  "name" : "HematuriaUnspecifiedCauseSNOMED",
+  "title" : "Hematuria [Unspecified Cause] (SNOMED)",
+  "status" : "active",
+  "date" : "2024-01-22T01:09:37-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has  Hematuria regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Root = Blood in Urine; \nChildren: No;),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1148864001",
+            "display" : "Intermittent microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "1148922000",
+            "display" : "Intermittent frank hematuria (disorder)"
+          },
+          {
+            "code" : "16698651000119109",
+            "display" : "Asymptomatic microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "197938001",
+            "display" : "Painless hematuria (disorder)"
+          },
+          {
+            "code" : "197939009",
+            "display" : "Painful hematuria (disorder)"
+          },
+          {
+            "code" : "197940006",
+            "display" : "Microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "197941005",
+            "display" : "Frank hematuria (disorder)"
+          },
+          {
+            "code" : "197942003",
+            "display" : "Clot hematuria (disorder)"
+          },
+          {
+            "code" : "20407004",
+            "display" : "Benign hematuria (disorder)"
+          },
+          {
+            "code" : "236717007",
+            "display" : "Upper urinary tract hematuria (disorder)"
+          },
+          {
+            "code" : "236718002",
+            "display" : "Chemical hematuria (disorder)"
+          },
+          {
+            "code" : "281855006",
+            "display" : "Persistent frank hematuria (disorder)"
+          },
+          {
+            "code" : "281856007",
+            "display" : "Recurrent frank hematuria (disorder)"
+          },
+          {
+            "code" : "281857003",
+            "display" : "Persistent microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "281858008",
+            "display" : "Recurrent microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "281859000",
+            "display" : "Persistent hematuria (disorder)"
+          },
+          {
+            "code" : "281860005",
+            "display" : "Recurrent hematuria (disorder)"
+          },
+          {
+            "code" : "314280007",
+            "display" : "Hematuria of undiagnosed cause (disorder)"
+          },
+          {
+            "code" : "34436003",
+            "display" : "Blood in urine (finding)"
+          },
+          {
+            "code" : "367011000119109",
+            "display" : "Benign essential microscopic hematuria (disorder)"
+          },
+          {
+            "code" : "371020003",
+            "display" : "Renal hematuria (disorder)"
+          },
+          {
+            "code" : "399094007",
+            "display" : "Familial hematuria (disorder)"
+          },
+          {
+            "code" : "95567008",
+            "display" : "Traumatic hematuria (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:de41d3ee-58f9-44d5-a638-14c920fa99d8",
+    "timestamp" : "2025-11-24T14:04:18-05:00",
+    "total" : 23,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148864001",
+        "display" : "Intermittent microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148922000",
+        "display" : "Intermittent frank hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16698651000119109",
+        "display" : "Asymptomatic microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197938001",
+        "display" : "Painless hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197939009",
+        "display" : "Painful hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197940006",
+        "display" : "Microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197941005",
+        "display" : "Frank hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197942003",
+        "display" : "Clot hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "20407004",
+        "display" : "Benign hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236717007",
+        "display" : "Upper urinary tract hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236718002",
+        "display" : "Chemical hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281855006",
+        "display" : "Persistent frank hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281856007",
+        "display" : "Recurrent frank hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281857003",
+        "display" : "Persistent microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281858008",
+        "display" : "Recurrent microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281859000",
+        "display" : "Persistent hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281860005",
+        "display" : "Recurrent hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314280007",
+        "display" : "Hematuria of undiagnosed cause (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34436003",
+        "display" : "Blood in urine (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367011000119109",
+        "display" : "Benign essential microscopic hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371020003",
+        "display" : "Renal hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399094007",
+        "display" : "Familial hematuria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95567008",
+        "display" : "Traumatic hematuria (disorder)"
+      }
+    ]
+  }
+}

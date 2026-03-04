@@ -1,0 +1,304 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2873",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2873",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2873"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "COVID19AdditionalContextSymptomCodesICD9CM",
+  "title" : "COVID19 Additional Context Symptom Codes (ICD9CM)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: COVID-19 Additional Context Symptom Codes (ICD9CM)),(Data Element Scope: COVID-19 Additional Context Symptom Codes (ICD9CM)),(Inclusion Criteria: COVID-19 Additional Context Symptom Codes (ICD9CM)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept" : [
+          {
+            "code" : "462",
+            "display" : "Acute pharyngitis"
+          },
+          {
+            "code" : "472.1",
+            "display" : "Chronic pharyngitis"
+          },
+          {
+            "code" : "478.19",
+            "display" : "Other disease of nasal cavity and sinuses"
+          },
+          {
+            "code" : "729.1",
+            "display" : "Myalgia and myositis, unspecified"
+          },
+          {
+            "code" : "780.60",
+            "display" : "Fever, unspecified"
+          },
+          {
+            "code" : "780.64",
+            "display" : "Chills (without fever)"
+          },
+          {
+            "code" : "780.79",
+            "display" : "Other malaise and fatigue"
+          },
+          {
+            "code" : "781.1",
+            "display" : "Disturbances of sensation of smell and taste"
+          },
+          {
+            "code" : "784.0",
+            "display" : "Headache"
+          },
+          {
+            "code" : "784.1",
+            "display" : "Throat pain"
+          },
+          {
+            "code" : "784.7",
+            "display" : "Epistaxis"
+          },
+          {
+            "code" : "784.91",
+            "display" : "Postnasal drip"
+          },
+          {
+            "code" : "786.07",
+            "display" : "Wheezing"
+          },
+          {
+            "code" : "786.09",
+            "display" : "Other respiratory abnormalities"
+          },
+          {
+            "code" : "786.2",
+            "display" : "Cough"
+          },
+          {
+            "code" : "786.4",
+            "display" : "Abnormal sputum"
+          },
+          {
+            "code" : "786.50",
+            "display" : "Chest pain, unspecified"
+          },
+          {
+            "code" : "787.02",
+            "display" : "Nausea alone"
+          },
+          {
+            "code" : "787.03",
+            "display" : "Vomiting alone"
+          },
+          {
+            "code" : "787.7",
+            "display" : "Abnormal feces"
+          },
+          {
+            "code" : "787.91",
+            "display" : "Diarrhea"
+          },
+          {
+            "code" : "789.00",
+            "display" : "Abdominal pain, unspecified site"
+          },
+          {
+            "code" : "797",
+            "display" : "Senility without mention of psychosis"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fb63f2f4-6d06-457b-b493-729c19a5df4f",
+    "timestamp" : "2025-11-24T13:43:00-05:00",
+    "total" : 23,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "462",
+        "display" : "Acute pharyngitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "472.1",
+        "display" : "Chronic pharyngitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "478.19",
+        "display" : "Other disease of nasal cavity and sinuses"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "729.1",
+        "display" : "Myalgia and myositis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "780.60",
+        "display" : "Fever, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "780.64",
+        "display" : "Chills (without fever)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "780.79",
+        "display" : "Other malaise and fatigue"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "781.1",
+        "display" : "Disturbances of sensation of smell and taste"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "784.0",
+        "display" : "Headache"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "784.1",
+        "display" : "Throat pain"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "784.7",
+        "display" : "Epistaxis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "784.91",
+        "display" : "Postnasal drip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.07",
+        "display" : "Wheezing"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.09",
+        "display" : "Other respiratory abnormalities"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.2",
+        "display" : "Cough"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.4",
+        "display" : "Abnormal sputum"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.50",
+        "display" : "Chest pain, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "787.02",
+        "display" : "Nausea alone"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "787.03",
+        "display" : "Vomiting alone"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "787.7",
+        "display" : "Abnormal feces"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "787.91",
+        "display" : "Diarrhea"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "789.00",
+        "display" : "Abdominal pain, unspecified site"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "797",
+        "display" : "Senility without mention of psychosis"
+      }
+    ]
+  }
+}

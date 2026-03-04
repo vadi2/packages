@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.1.11.11610",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-06-06T01:23:01.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.1.11.11610",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.1.11.11610"
+    }
+  ],
+  "version" : "20240606",
+  "name" : "X_ActRelationshipDocument",
+  "title" : "x_ActRelationshipDocument",
+  "status" : "active",
+  "date" : "2024-06-06T01:23:01-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "description" : "Used to enumerate the relationships between two clinical documents for document management.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Used to enumerate the relationships between two clinical documents for document management.),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "concept" : [
+          {
+            "code" : "APND",
+            "display" : "is appendage"
+          },
+          {
+            "code" : "RPLC",
+            "display" : "replaces"
+          },
+          {
+            "code" : "XFRM",
+            "display" : "transformation"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:655fedb1-e5cb-4acb-a0d0-966204ae280c",
+    "timestamp" : "2025-11-24T16:59:28-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "version" : "2023-02-01",
+        "code" : "APND",
+        "display" : "is appendage"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "version" : "2023-02-01",
+        "code" : "RPLC",
+        "display" : "replaces"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
+        "version" : "2023-02-01",
+        "code" : "XFRM",
+        "display" : "transformation"
+      }
+    ]
+  }
+}

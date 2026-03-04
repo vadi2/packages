@@ -1,0 +1,788 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1271",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-18T01:01:20.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1271",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1271"
+    }
+  ],
+  "version" : "20250618",
+  "name" : "AtheroscleroticCoronaryArteryDisease",
+  "title" : "Atherosclerotic coronary artery disease",
+  "status" : "active",
+  "date" : "2025-06-18T01:01:21-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Atherosclerotic coronary artery disease),(Data Element Scope: SNOMED CT and ICD-10-CM),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1270"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1269"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5920b086-0da4-4f72-9fa2-77ff905c9f1c",
+    "timestamp" : "2025-11-24T11:40:50-05:00",
+    "total" : 119,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1269257006",
+        "display" : "Arteriosclerosis of nonautologous biological coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1293192009",
+        "display" : "Premature coronary artery disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1303693000",
+        "display" : "Atherosclerosis of right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366495003",
+        "display" : "Atherosclerosis of circumflex branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366496002",
+        "display" : "Atherosclerosis of left coronary artery main stem (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366498001",
+        "display" : "Atherosclerosis of anterior descending branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366499009",
+        "display" : "Atherosclerosis of proximal portion of circumflex branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366500000",
+        "display" : "Atherosclerosis of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366501001",
+        "display" : "Atherosclerosis of proximal portion of anterior descending branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366502008",
+        "display" : "Atherosclerosis of mid portion of circumflex branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366503003",
+        "display" : "Atherosclerosis of mid portion of anterior descending branch of left coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366504009",
+        "display" : "Atherosclerosis of proximal portion of right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366505005",
+        "display" : "Atherosclerosis of mid portion of right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366506006",
+        "display" : "Atherosclerosis of distal portion of right coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "139011000119104",
+        "display" : "Coronary arteriosclerosis following coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "157885051000119102",
+        "display" : "Refractory angina due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960061000119102",
+        "display" : "Unstable angina co-occurrent and due to coronary arteriosclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960101000119104",
+        "display" : "Angina due to coronary arteriosclerosis in artery of transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960141000119102",
+        "display" : "Angina co-occurrent and due to coronary arteriosclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960181000119107",
+        "display" : "Angina pectoris due to arteriosclerosis of nonautologous biological coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960381000119109",
+        "display" : "Angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960581000119102",
+        "display" : "Angina co-occurrent and due to arteriosclerosis of autologous vein coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960661000119107",
+        "display" : "Unstable angina co-occurrent and due to arteriosclerosis of coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960781000119108",
+        "display" : "Angina co-occurrent and due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15960861000119108",
+        "display" : "Preinfarction syndrome due to coronary arteriosclerosis in artery of transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16891151000119103",
+        "display" : "Coronary artery disease due to type 2 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16891191000119108",
+        "display" : "Coronary artery disease due to type 1 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194842008",
+        "display" : "Single coronary vessel disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194843003",
+        "display" : "Double coronary vessel disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233817007",
+        "display" : "Triple vessel disease of the heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233844002",
+        "display" : "Accelerated coronary artery disease in transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285141000119106",
+        "display" : "Arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285151000119108",
+        "display" : "Arteriosclerosis of autologous coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292696521000119104",
+        "display" : "Refractory angina due to coronary arteriosclerosis in artery of transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "315348000",
+        "display" : "Asymptomatic coronary heart disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "358849981000119105",
+        "display" : "Refractory angina due to arteriosclerosis of autologous arterial coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371803003",
+        "display" : "Multi vessel coronary artery disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371804009",
+        "display" : "Left main coronary artery disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371805005",
+        "display" : "Significant coronary bypass graft disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "401873901000119109",
+        "display" : "Refractory angina due to arteriosclerosis of coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "420006002",
+        "display" : "Obliterative coronary artery disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427919004",
+        "display" : "Coronary arteriosclerosis caused by radiation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42866003",
+        "display" : "Congenital coronary artery sclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429245005",
+        "display" : "Recurrent coronary arteriosclerosis after percutaneous transluminal coronary angioplasty (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429673002",
+        "display" : "Arteriosclerosis of coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442224005",
+        "display" : "Arteriosclerosis of autologous vein coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442240008",
+        "display" : "Arteriosclerosis of nonautologous coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442421004",
+        "display" : "Arteriosclerosis of arterial coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443502000",
+        "display" : "Atherosclerosis of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444855007",
+        "display" : "Arteriosclerosis of coronary artery bypass graft of transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444856008",
+        "display" : "Arteriosclerosis of internal mammary artery coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "451041000124103",
+        "display" : "Atherosclerosis of coronary artery without angina pectoris (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "451361000124102",
+        "display" : "Lipid-rich atherosclerosis of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53741008",
+        "display" : "Coronary arteriosclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "577777871000119101",
+        "display" : "Refractory angina due to coronary arteriosclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719678003",
+        "display" : "Non-obstructive atherosclerosis of coronary artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723862008",
+        "display" : "Atherosclerosis of non-autologous coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724431008",
+        "display" : "Atherosclerosis of autologous coronary artery bypass graft (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "792842004",
+        "display" : "Coronary arteriosclerosis in artery of transplanted heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "92517006",
+        "display" : "Calcific coronary arteriosclerosis (disorder)"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.1",
+        "display" : "Atherosclerotic heart disease of native coronary artery"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.10",
+        "display" : "Atherosclerotic heart disease of native coronary artery without angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.11",
+        "display" : "Atherosclerotic heart disease of native coronary artery with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.110",
+        "display" : "Atherosclerotic heart disease of native coronary artery with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.111",
+        "display" : "Atherosclerotic heart disease of native coronary artery with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.112",
+        "display" : "Atherosclerotic heart disease of native coronary artery with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.118",
+        "display" : "Atherosclerotic heart disease of native coronary artery with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.119",
+        "display" : "Atherosclerotic heart disease of native coronary artery with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.7",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s) and coronary artery of transplanted heart with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.70",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.700",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.701",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.702",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.708",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.709",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s), unspecified, with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.71",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.710",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.711",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.712",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.718",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.719",
+        "display" : "Atherosclerosis of autologous vein coronary artery bypass graft(s) with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.72",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.720",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.721",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.722",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.728",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.729",
+        "display" : "Atherosclerosis of autologous artery coronary artery bypass graft(s) with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.73",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.730",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.731",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.732",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.738",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.739",
+        "display" : "Atherosclerosis of nonautologous biological coronary artery bypass graft(s) with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.75",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.750",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with unstable angina"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.751",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.752",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.758",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.759",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.76",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.760",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with unstable angina"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.761",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.762",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.768",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.769",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.79",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.790",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with unstable angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.791",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with angina pectoris with documented spasm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.792",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with refractory angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.798",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with other forms of angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.799",
+        "display" : "Atherosclerosis of other coronary artery bypass graft(s) with unspecified angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.8",
+        "display" : "Other forms of chronic ischemic heart disease"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.81",
+        "display" : "Atherosclerosis of other coronary vessels without angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.810",
+        "display" : "Atherosclerosis of coronary artery bypass graft(s) without angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.811",
+        "display" : "Atherosclerosis of native coronary artery of transplanted heart without angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.812",
+        "display" : "Atherosclerosis of bypass graft of coronary artery of transplanted heart without angina pectoris"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.82",
+        "display" : "Chronic total occlusion of coronary artery"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.83",
+        "display" : "Coronary atherosclerosis due to lipid rich plaque"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I25.84",
+        "display" : "Coronary atherosclerosis due to calcified coronary lesion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1219.72",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CMS DRLS Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-03-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1219.72",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1219.72"
+    }
+  ],
+  "version" : "20220315",
+  "name" : "PortableCompressedGasOxygenTherapyDevice",
+  "title" : "Portable Compressed Gas Oxygen Therapy Device",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-03-15T01:04:14-04:00",
+  "publisher" : "CMS DRLS Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Oxygen concentrator therapy devices for home use home that are designed to allow a change in location while operating.),(Data Element Scope: Portable oxygen concentrator therapy devices accepted by the US Centers for Medicare and Medicaid as valid for home use.),(Inclusion Criteria: Oxygen concentrator therapy devices for home use home that are designed to allow a change in location while operating.),(Exclusion Criteria: Oxygen concentrator therapy devices designed to remain in one place while operating.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "E0431",
+            "display" : "Portable gaseous oxygen system, rental; includes portable container, regulator, flowmeter, humidifier, cannula or mask, and tubing"
+          },
+          {
+            "code" : "E0443",
+            "display" : "Portable oxygen contents, gaseous, 1 month's supply = 1 unit"
+          },
+          {
+            "code" : "K0738",
+            "display" : "Portable gaseous oxygen system, rental; home compressor used to fill portable oxygen cylinders; includes portable containers, regulator, flowmeter, humidifier, cannula or mask, and tubing"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:4b9bcf33-b119-474c-93cc-e2943d9d78b8",
+    "timestamp" : "2025-11-24T15:01:30-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0431",
+        "display" : "Portable gaseous oxygen system, rental; includes portable container, regulator, flowmeter, humidifier, cannula or mask, and tubing"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0443",
+        "display" : "Portable oxygen contents, gaseous, 1 month's supply = 1 unit"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "K0738",
+        "display" : "Portable gaseous oxygen system, rental; home compressor used to fill portable oxygen cylinders; includes portable containers, regulator, flowmeter, humidifier, cannula or mask, and tubing"
+      }
+    ]
+  }
+}

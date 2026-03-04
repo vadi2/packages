@@ -1,0 +1,359 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.3.293",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2025-11-23T18:00:57.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-11-23"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-11-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.293",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.3.293"
+    }
+  ],
+  "version" : "20251123",
+  "name" : "RadiationTreatmentDelivery",
+  "title" : "Radiation Treatment Delivery",
+  "status" : "active",
+  "date" : "2025-11-23T18:00:57-05:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for the radiation treatment delivery.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure for radiation treatment delivery.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "0395T",
+            "display" : "High dose rate electronic brachytherapy, interstitial or intracavitary treatment, per fraction, includes basic dosimetry, when performed"
+          },
+          {
+            "code" : "77373",
+            "display" : "Stereotactic body radiation therapy, treatment delivery, per fraction to 1 or more lesions, including image guidance, entire course not to exceed 5 fractions"
+          },
+          {
+            "code" : "77387",
+            "display" : "Guidance for localization of target volume for delivery of radiation treatment, includes intrafraction tracking, when performed"
+          },
+          {
+            "code" : "77402",
+            "display" : "Radiation treatment delivery; Level 1 (eg, single-electron field, multiple-electron fields, or 2D photons), including imaging guidance, when performed"
+          },
+          {
+            "code" : "77407",
+            "display" : "Radiation treatment delivery; Level 2, single-isocenter (eg, 3D or IMRT), photons, including imaging guidance, when performed"
+          },
+          {
+            "code" : "77412",
+            "display" : "Radiation treatment delivery; Level 3, multiple isocenters with photon therapy (eg, 2D, 3D, or IMRT) or a single-isocenter photon therapy (eg, 3D or IMRT) with active motion management, or total skin electrons, or mixed-electron/photon field(s), including imaging guidance, when performed"
+          },
+          {
+            "code" : "77417",
+            "display" : "Therapeutic radiology port image(s)"
+          },
+          {
+            "code" : "77423",
+            "display" : "High energy neutron radiation treatment delivery, 1 or more isocenter(s) with coplanar or non-coplanar geometry with blocking and/or wedge, and/or compensator(s)"
+          },
+          {
+            "code" : "77424",
+            "display" : "Intraoperative radiation treatment delivery, x-ray, single treatment session"
+          },
+          {
+            "code" : "77425",
+            "display" : "Intraoperative radiation treatment delivery, electrons, single treatment session"
+          },
+          {
+            "code" : "77520",
+            "display" : "Proton treatment delivery; simple, without compensation"
+          },
+          {
+            "code" : "77522",
+            "display" : "Proton treatment delivery; simple, with compensation"
+          },
+          {
+            "code" : "77523",
+            "display" : "Proton treatment delivery; intermediate"
+          },
+          {
+            "code" : "77525",
+            "display" : "Proton treatment delivery; complex"
+          },
+          {
+            "code" : "77600",
+            "display" : "Hyperthermia, externally generated; superficial (ie, heating to a depth of 4 cm or less)"
+          },
+          {
+            "code" : "77605",
+            "display" : "Hyperthermia, externally generated; deep (ie, heating to depths greater than 4 cm)"
+          },
+          {
+            "code" : "77610",
+            "display" : "Hyperthermia generated by interstitial probe(s); 5 or fewer interstitial applicators"
+          },
+          {
+            "code" : "77615",
+            "display" : "Hyperthermia generated by interstitial probe(s); more than 5 interstitial applicators"
+          },
+          {
+            "code" : "77620",
+            "display" : "Hyperthermia generated by intracavitary probe(s)"
+          },
+          {
+            "code" : "77750",
+            "display" : "Infusion or instillation of radioelement solution (includes 3-month follow-up care)"
+          },
+          {
+            "code" : "77761",
+            "display" : "Intracavitary radiation source application; simple"
+          },
+          {
+            "code" : "77762",
+            "display" : "Intracavitary radiation source application; intermediate"
+          },
+          {
+            "code" : "77763",
+            "display" : "Intracavitary radiation source application; complex"
+          },
+          {
+            "code" : "77770",
+            "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; 1 channel"
+          },
+          {
+            "code" : "77771",
+            "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; 2-12 channels"
+          },
+          {
+            "code" : "77772",
+            "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; over 12 channels"
+          },
+          {
+            "code" : "77778",
+            "display" : "Interstitial radiation source application, complex, includes supervision, handling, loading of radiation source, when performed"
+          },
+          {
+            "code" : "77789",
+            "display" : "Surface application of low dose rate radionuclide source"
+          },
+          {
+            "code" : "77790",
+            "display" : "Supervision, handling, loading of radiation source"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:53f529a9-6549-4588-a9a2-39ebf07877c7",
+    "timestamp" : "2025-11-24T18:16:20-05:00",
+    "total" : 29,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "0395T",
+        "display" : "High dose rate electronic brachytherapy, interstitial or intracavitary treatment, per fraction, includes basic dosimetry, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77373",
+        "display" : "Stereotactic body radiation therapy, treatment delivery, per fraction to 1 or more lesions, including image guidance, entire course not to exceed 5 fractions"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77387",
+        "display" : "Guidance for localization of target volume for delivery of radiation treatment, includes intrafraction tracking, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77402",
+        "display" : "Radiation treatment delivery; Level 1 (eg, single-electron field, multiple-electron fields, or 2D photons), including imaging guidance, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77407",
+        "display" : "Radiation treatment delivery; Level 2, single-isocenter (eg, 3D or IMRT), photons, including imaging guidance, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77412",
+        "display" : "Radiation treatment delivery; Level 3, multiple isocenters with photon therapy (eg, 2D, 3D, or IMRT) or a single-isocenter photon therapy (eg, 3D or IMRT) with active motion management, or total skin electrons, or mixed-electron/photon field(s), including imaging guidance, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77417",
+        "display" : "Therapeutic radiology port image(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77423",
+        "display" : "High energy neutron radiation treatment delivery, 1 or more isocenter(s) with coplanar or non-coplanar geometry with blocking and/or wedge, and/or compensator(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77424",
+        "display" : "Intraoperative radiation treatment delivery, x-ray, single treatment session"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77425",
+        "display" : "Intraoperative radiation treatment delivery, electrons, single treatment session"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77520",
+        "display" : "Proton treatment delivery; simple, without compensation"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77522",
+        "display" : "Proton treatment delivery; simple, with compensation"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77523",
+        "display" : "Proton treatment delivery; intermediate"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77525",
+        "display" : "Proton treatment delivery; complex"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77600",
+        "display" : "Hyperthermia, externally generated; superficial (ie, heating to a depth of 4 cm or less)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77605",
+        "display" : "Hyperthermia, externally generated; deep (ie, heating to depths greater than 4 cm)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77610",
+        "display" : "Hyperthermia generated by interstitial probe(s); 5 or fewer interstitial applicators"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77615",
+        "display" : "Hyperthermia generated by interstitial probe(s); more than 5 interstitial applicators"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77620",
+        "display" : "Hyperthermia generated by intracavitary probe(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77750",
+        "display" : "Infusion or instillation of radioelement solution (includes 3-month follow-up care)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77761",
+        "display" : "Intracavitary radiation source application; simple"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77762",
+        "display" : "Intracavitary radiation source application; intermediate"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77763",
+        "display" : "Intracavitary radiation source application; complex"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77770",
+        "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; 1 channel"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77771",
+        "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; 2-12 channels"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77772",
+        "display" : "Remote afterloading high dose rate radionuclide interstitial or intracavitary brachytherapy, includes basic dosimetry, when performed; over 12 channels"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77778",
+        "display" : "Interstitial radiation source application, complex, includes supervision, handling, loading of radiation source, when performed"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77789",
+        "display" : "Surface application of low dose rate radionuclide source"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77790",
+        "display" : "Supervision, handling, loading of radiation source"
+      }
+    ]
+  }
+}

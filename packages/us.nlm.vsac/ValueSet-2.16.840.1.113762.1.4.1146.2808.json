@@ -1,0 +1,323 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2808",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2808",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2808"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "RectalFistulaOrStrictureUnspecifiedCauseSNOMED",
+  "title" : "Rectal Fistula or Stricture [Unspecified Cause] (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Rectal Fistula or Stricture [Unspecified Cause] regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Rectal Fistula or Stricture [Unspecified Cause]),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "111330004",
+            "display" : "Congenital rectovaginal fistula (disorder)"
+          },
+          {
+            "code" : "1142042001",
+            "display" : "Rectovaginal fistula with anal sphincter involvement (disorder)"
+          },
+          {
+            "code" : "12104008",
+            "display" : "Congenital rectocloacal fistula (disorder)"
+          },
+          {
+            "code" : "15165002",
+            "display" : "Urethrorectal fistula (disorder)"
+          },
+          {
+            "code" : "17442002",
+            "display" : "Uterorectal fistula (disorder)"
+          },
+          {
+            "code" : "18317005",
+            "display" : "Rectovulval fistula (disorder)"
+          },
+          {
+            "code" : "204709003",
+            "display" : "Congenital absence of rectum with fistula (disorder)"
+          },
+          {
+            "code" : "204717006",
+            "display" : "Atresia of rectum with fistula (disorder)"
+          },
+          {
+            "code" : "204728005",
+            "display" : "Congenital stricture of rectum with fistula (disorder)"
+          },
+          {
+            "code" : "235784001",
+            "display" : "Rectourinary fistula (disorder)"
+          },
+          {
+            "code" : "235785000",
+            "display" : "Ureteric fistula to rectum (disorder)"
+          },
+          {
+            "code" : "235786004",
+            "display" : "Rectoprostatic fistula (disorder)"
+          },
+          {
+            "code" : "253773000",
+            "display" : "Congenital fistula of rectum (disorder)"
+          },
+          {
+            "code" : "25730006",
+            "display" : "Stricture of rectum (disorder)"
+          },
+          {
+            "code" : "302952007",
+            "display" : "Congenital fistula of rectum and anus (disorder)"
+          },
+          {
+            "code" : "39476006",
+            "display" : "Congenital stricture of rectum (disorder)"
+          },
+          {
+            "code" : "63253009",
+            "display" : "Congenital rectovestibular fistula (disorder)"
+          },
+          {
+            "code" : "64283009",
+            "display" : "Congenital rectovesical fistula (disorder)"
+          },
+          {
+            "code" : "65619001",
+            "display" : "Rectovaginal fistula (disorder)"
+          },
+          {
+            "code" : "68301001",
+            "display" : "Vesicorectal fistula (disorder)"
+          },
+          {
+            "code" : "71449000",
+            "display" : "Rectum to skin fistula (disorder)"
+          },
+          {
+            "code" : "72779005",
+            "display" : "Anorectal fistula (disorder)"
+          },
+          {
+            "code" : "80736008",
+            "display" : "Rectal fistula (disorder)"
+          },
+          {
+            "code" : "87093008",
+            "display" : "Congenital urethrorectal fistula (disorder)"
+          },
+          {
+            "code" : "91448003",
+            "display" : "Ileorectal fistula (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:38618e15-d087-4d68-bb06-39396cb7295e",
+    "timestamp" : "2025-11-24T13:38:53-05:00",
+    "total" : 25,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111330004",
+        "display" : "Congenital rectovaginal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1142042001",
+        "display" : "Rectovaginal fistula with anal sphincter involvement (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12104008",
+        "display" : "Congenital rectocloacal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15165002",
+        "display" : "Urethrorectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17442002",
+        "display" : "Uterorectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18317005",
+        "display" : "Rectovulval fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204709003",
+        "display" : "Congenital absence of rectum with fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204717006",
+        "display" : "Atresia of rectum with fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204728005",
+        "display" : "Congenital stricture of rectum with fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235784001",
+        "display" : "Rectourinary fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235785000",
+        "display" : "Ureteric fistula to rectum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235786004",
+        "display" : "Rectoprostatic fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253773000",
+        "display" : "Congenital fistula of rectum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25730006",
+        "display" : "Stricture of rectum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302952007",
+        "display" : "Congenital fistula of rectum and anus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39476006",
+        "display" : "Congenital stricture of rectum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63253009",
+        "display" : "Congenital rectovestibular fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64283009",
+        "display" : "Congenital rectovesical fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "65619001",
+        "display" : "Rectovaginal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68301001",
+        "display" : "Vesicorectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71449000",
+        "display" : "Rectum to skin fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "72779005",
+        "display" : "Anorectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "80736008",
+        "display" : "Rectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87093008",
+        "display" : "Congenital urethrorectal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "91448003",
+        "display" : "Ileorectal fistula (disorder)"
+      }
+    ]
+  }
+}

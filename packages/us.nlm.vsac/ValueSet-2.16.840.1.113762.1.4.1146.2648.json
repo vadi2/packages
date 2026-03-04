@@ -1,0 +1,203 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2648",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2648",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2648"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "NeurologicDysfunctionUnspecifiedCauseICD10CM",
+  "title" : "Neurologic Dysfunction [Unspecified Cause] (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Neurologic Dysfunction [Unspecified Cause] regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Neurologic Dysfunction [Unspecified Cause]),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "R20.8",
+            "display" : "Other disturbances of skin sensation"
+          },
+          {
+            "code" : "R20.9",
+            "display" : "Unspecified disturbances of skin sensation"
+          },
+          {
+            "code" : "R29.2",
+            "display" : "Abnormal reflex"
+          },
+          {
+            "code" : "R29.818",
+            "display" : "Other symptoms and signs involving the nervous system"
+          },
+          {
+            "code" : "R29.90",
+            "display" : "Unspecified symptoms and signs involving the nervous system"
+          },
+          {
+            "code" : "R44.8",
+            "display" : "Other symptoms and signs involving general sensations and perceptions"
+          },
+          {
+            "code" : "R44.9",
+            "display" : "Unspecified symptoms and signs involving general sensations and perceptions"
+          },
+          {
+            "code" : "R94.01",
+            "display" : "Abnormal electroencephalogram [EEG]"
+          },
+          {
+            "code" : "R94.02",
+            "display" : "Abnormal brain scan"
+          },
+          {
+            "code" : "R94.09",
+            "display" : "Abnormal results of other function studies of central nervous system"
+          },
+          {
+            "code" : "R94.130",
+            "display" : "Abnormal response to nerve stimulation, unspecified"
+          },
+          {
+            "code" : "R94.131",
+            "display" : "Abnormal electromyogram [EMG]"
+          },
+          {
+            "code" : "R94.138",
+            "display" : "Abnormal results of other function studies of peripheral nervous system"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:6073e400-6d30-432b-84c7-f1ccc8df4100",
+    "timestamp" : "2025-11-24T13:32:45-05:00",
+    "total" : 13,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R20.8",
+        "display" : "Other disturbances of skin sensation"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R20.9",
+        "display" : "Unspecified disturbances of skin sensation"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R29.2",
+        "display" : "Abnormal reflex"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R29.818",
+        "display" : "Other symptoms and signs involving the nervous system"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R29.90",
+        "display" : "Unspecified symptoms and signs involving the nervous system"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R44.8",
+        "display" : "Other symptoms and signs involving general sensations and perceptions"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R44.9",
+        "display" : "Unspecified symptoms and signs involving general sensations and perceptions"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.01",
+        "display" : "Abnormal electroencephalogram [EEG]"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.02",
+        "display" : "Abnormal brain scan"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.09",
+        "display" : "Abnormal results of other function studies of central nervous system"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.130",
+        "display" : "Abnormal response to nerve stimulation, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.131",
+        "display" : "Abnormal electromyogram [EMG]"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R94.138",
+        "display" : "Abnormal results of other function studies of peripheral nervous system"
+      }
+    ]
+  }
+}

@@ -1,0 +1,613 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3011",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3011",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3011"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "TenosynovitisUnspecifiedCauseSNOMED",
+  "title" : "Tenosynovitis [Unspecified Cause] (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Tenosynovitis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Tenosynovitis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1075791000119100",
+            "display" : "Suppurative tenosynovitis of flexor tendon of right hand (disorder)"
+          },
+          {
+            "code" : "1075801000119104",
+            "display" : "Suppurative tenosynovitis of flexor tendon of left hand (disorder)"
+          },
+          {
+            "code" : "1075851000119100",
+            "display" : "Tenosynovitis of right wrist (disorder)"
+          },
+          {
+            "code" : "1075861000119103",
+            "display" : "Tenosynovitis of left wrist (disorder)"
+          },
+          {
+            "code" : "1075871000119109",
+            "display" : "Tenosynovitis of right hand (disorder)"
+          },
+          {
+            "code" : "1075881000119107",
+            "display" : "Tenosynovitis of left hand (disorder)"
+          },
+          {
+            "code" : "1075931000119102",
+            "display" : "Tenosynovitis of left ankle (disorder)"
+          },
+          {
+            "code" : "1075941000119106",
+            "display" : "Tenosynovitis of right ankle (disorder)"
+          },
+          {
+            "code" : "1075951000119108",
+            "display" : "Tenosynovitis of left foot (disorder)"
+          },
+          {
+            "code" : "1075961000119105",
+            "display" : "Tenosynovitis of right foot (disorder)"
+          },
+          {
+            "code" : "110471000119102",
+            "display" : "Suppurative tenosynovitis of flexor tendon (disorder)"
+          },
+          {
+            "code" : "1255982007",
+            "display" : "Synovitis and tenosynovitis of joint of wrist (disorder)"
+          },
+          {
+            "code" : "1260165005",
+            "display" : "Synovitis and tenosynovitis of joint of hip (disorder)"
+          },
+          {
+            "code" : "1260436007",
+            "display" : "Synovitis and tenosynovitis of joint of hand (disorder)"
+          },
+          {
+            "code" : "1260437003",
+            "display" : "Synovitis and tenosynovitis of joint of knee (disorder)"
+          },
+          {
+            "code" : "1260440003",
+            "display" : "Synovitis and tenosynovitis of multiple joints (disorder)"
+          },
+          {
+            "code" : "15675161000119104",
+            "display" : "Tenosynovitis of bilateral feet (disorder)"
+          },
+          {
+            "code" : "15676201000119100",
+            "display" : "Tenosynovitis of bilateral ankles (disorder)"
+          },
+          {
+            "code" : "16004271000119100",
+            "display" : "Tenosynovitis of right radial styloid (disorder)"
+          },
+          {
+            "code" : "16004311000119100",
+            "display" : "Tenosynovitis of bilateral radial styloids (disorder)"
+          },
+          {
+            "code" : "16004351000119104",
+            "display" : "Tenosynovitis of left radial styloid (disorder)"
+          },
+          {
+            "code" : "16007431000119108",
+            "display" : "Tenosynovitis of bilateral hands (disorder)"
+          },
+          {
+            "code" : "16020471000119100",
+            "display" : "Suppurative tenosynovitis of flexor tendon of bilateral hands (disorder)"
+          },
+          {
+            "code" : "202900007",
+            "display" : "Synovitis and tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202907005",
+            "display" : "Tenosynovitis of ankle (disorder)"
+          },
+          {
+            "code" : "202908000",
+            "display" : "Tenosynovitis of foot (disorder)"
+          },
+          {
+            "code" : "202911004",
+            "display" : "Flexor tenosynovitis of wrist (disorder)"
+          },
+          {
+            "code" : "202912006",
+            "display" : "Flexor tenosynovitis of finger (disorder)"
+          },
+          {
+            "code" : "202913001",
+            "display" : "Flexor tenosynovitis of thumb (disorder)"
+          },
+          {
+            "code" : "202914007",
+            "display" : "Extensor tenosynovitis of wrist (disorder)"
+          },
+          {
+            "code" : "202915008",
+            "display" : "Extensor tenosynovitis of finger (disorder)"
+          },
+          {
+            "code" : "202916009",
+            "display" : "Extensor tenosynovitis of thumb (disorder)"
+          },
+          {
+            "code" : "202917000",
+            "display" : "Achilles tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202918005",
+            "display" : "Tibialis anterior tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202919002",
+            "display" : "Tibialis posterior tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202920008",
+            "display" : "Extensor hallucis longus tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202921007",
+            "display" : "Extensor digitorum longus tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202922000",
+            "display" : "Peroneus longus tenosynovitis (disorder)"
+          },
+          {
+            "code" : "202923005",
+            "display" : "Peroneus brevis tenosynovitis (disorder)"
+          },
+          {
+            "code" : "21794005",
+            "display" : "Radial styloid tenosynovitis (disorder)"
+          },
+          {
+            "code" : "239976003",
+            "display" : "Extensor carpi radialis tenosynovitis (disorder)"
+          },
+          {
+            "code" : "240036003",
+            "display" : "Tenosynovitis of fingers (disorder)"
+          },
+          {
+            "code" : "287017006",
+            "display" : "Synovitis/tenosynovitis - shoulder (disorder)"
+          },
+          {
+            "code" : "41137001",
+            "display" : "Bicipital tenosynovitis (disorder)"
+          },
+          {
+            "code" : "423778009",
+            "display" : "Tenosynovitis of hand (disorder)"
+          },
+          {
+            "code" : "4248008",
+            "display" : "Synovitis AND/OR tenosynovitis associated with another disease (disorder)"
+          },
+          {
+            "code" : "430938004",
+            "display" : "Suppurative tenosynovitis (disorder)"
+          },
+          {
+            "code" : "442048005",
+            "display" : "Tenosynovitis of wrist (disorder)"
+          },
+          {
+            "code" : "449823005",
+            "display" : "Tenosynovitis of thumb (disorder)"
+          },
+          {
+            "code" : "66452006",
+            "display" : "Stenosing tenosynovitis (disorder)"
+          },
+          {
+            "code" : "67801009",
+            "display" : "Tenosynovitis (disorder)"
+          },
+          {
+            "code" : "713858003",
+            "display" : "Peroneal tenosynovitis (disorder)"
+          },
+          {
+            "code" : "846645002",
+            "display" : "Tenosynovitis of elbow (disorder)"
+          },
+          {
+            "code" : "95413004",
+            "display" : "Nodular tenosynovitis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:727166ad-c3c5-4449-9cd5-4cf1de4c7f1f",
+    "timestamp" : "2025-11-24T13:50:16-05:00",
+    "total" : 54,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075791000119100",
+        "display" : "Suppurative tenosynovitis of flexor tendon of right hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075801000119104",
+        "display" : "Suppurative tenosynovitis of flexor tendon of left hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075851000119100",
+        "display" : "Tenosynovitis of right wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075861000119103",
+        "display" : "Tenosynovitis of left wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075871000119109",
+        "display" : "Tenosynovitis of right hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075881000119107",
+        "display" : "Tenosynovitis of left hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075931000119102",
+        "display" : "Tenosynovitis of left ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075941000119106",
+        "display" : "Tenosynovitis of right ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075951000119108",
+        "display" : "Tenosynovitis of left foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1075961000119105",
+        "display" : "Tenosynovitis of right foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110471000119102",
+        "display" : "Suppurative tenosynovitis of flexor tendon (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1255982007",
+        "display" : "Synovitis and tenosynovitis of joint of wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260165005",
+        "display" : "Synovitis and tenosynovitis of joint of hip (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260436007",
+        "display" : "Synovitis and tenosynovitis of joint of hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260437003",
+        "display" : "Synovitis and tenosynovitis of joint of knee (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260440003",
+        "display" : "Synovitis and tenosynovitis of multiple joints (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15675161000119104",
+        "display" : "Tenosynovitis of bilateral feet (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15676201000119100",
+        "display" : "Tenosynovitis of bilateral ankles (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16004271000119100",
+        "display" : "Tenosynovitis of right radial styloid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16004311000119100",
+        "display" : "Tenosynovitis of bilateral radial styloids (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16004351000119104",
+        "display" : "Tenosynovitis of left radial styloid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16007431000119108",
+        "display" : "Tenosynovitis of bilateral hands (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16020471000119100",
+        "display" : "Suppurative tenosynovitis of flexor tendon of bilateral hands (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202900007",
+        "display" : "Synovitis and tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202907005",
+        "display" : "Tenosynovitis of ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202908000",
+        "display" : "Tenosynovitis of foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202911004",
+        "display" : "Flexor tenosynovitis of wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202912006",
+        "display" : "Flexor tenosynovitis of finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202913001",
+        "display" : "Flexor tenosynovitis of thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202914007",
+        "display" : "Extensor tenosynovitis of wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202915008",
+        "display" : "Extensor tenosynovitis of finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202916009",
+        "display" : "Extensor tenosynovitis of thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202917000",
+        "display" : "Achilles tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202918005",
+        "display" : "Tibialis anterior tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202919002",
+        "display" : "Tibialis posterior tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202920008",
+        "display" : "Extensor hallucis longus tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202921007",
+        "display" : "Extensor digitorum longus tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202922000",
+        "display" : "Peroneus longus tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "202923005",
+        "display" : "Peroneus brevis tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21794005",
+        "display" : "Radial styloid tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "239976003",
+        "display" : "Extensor carpi radialis tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240036003",
+        "display" : "Tenosynovitis of fingers (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "287017006",
+        "display" : "Synovitis/tenosynovitis - shoulder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41137001",
+        "display" : "Bicipital tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "423778009",
+        "display" : "Tenosynovitis of hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4248008",
+        "display" : "Synovitis AND/OR tenosynovitis associated with another disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430938004",
+        "display" : "Suppurative tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442048005",
+        "display" : "Tenosynovitis of wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449823005",
+        "display" : "Tenosynovitis of thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66452006",
+        "display" : "Stenosing tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "67801009",
+        "display" : "Tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713858003",
+        "display" : "Peroneal tenosynovitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "846645002",
+        "display" : "Tenosynovitis of elbow (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95413004",
+        "display" : "Nodular tenosynovitis (disorder)"
+      }
+    ]
+  }
+}

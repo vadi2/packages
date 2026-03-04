@@ -1,0 +1,3704 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2931",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2931",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2931"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "InvasiveHaemophilusInfluenzaeDiseaseAdditionalContextMedicationCodes",
+  "title" : "Invasive Haemophilus Influenzae Disease Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Invasive Haemophilus Influenzae Disease Additional Context Medication Codes),(Data Element Scope: Invasive Haemophilus Influenzae Disease Additional Context Medication Codes),(Inclusion Criteria: Invasive Haemophilus Influenzae Disease Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1006944",
+            "display" : "chloramphenicol / naphazoline / neomycin"
+          },
+          {
+            "code" : "1007109",
+            "display" : "chloramphenicol / resorcinol / salicylic acid"
+          },
+          {
+            "code" : "1007422",
+            "display" : "chloramphenicol / ictasol"
+          },
+          {
+            "code" : "1007586",
+            "display" : "ampicillin / floxacillin"
+          },
+          {
+            "code" : "1007619",
+            "display" : "ampicillin / bromhexine"
+          },
+          {
+            "code" : "1007635",
+            "display" : "benzocaine / chloramphenicol"
+          },
+          {
+            "code" : "1007671",
+            "display" : "chloramphenicol / idoxuridine"
+          },
+          {
+            "code" : "1007718",
+            "display" : "chloramphenicol / neomycin"
+          },
+          {
+            "code" : "1007871",
+            "display" : "chloramphenicol / naphazoline"
+          },
+          {
+            "code" : "1008072",
+            "display" : "chloramphenicol / collagenase"
+          },
+          {
+            "code" : "1008074",
+            "display" : "ampicillin / carbocysteine"
+          },
+          {
+            "code" : "1008236",
+            "display" : "chloramphenicol / prednisolone"
+          },
+          {
+            "code" : "1008323",
+            "display" : "amoxicillin / sulbactam"
+          },
+          {
+            "code" : "1008558",
+            "display" : "ampicillin / diclofenac"
+          },
+          {
+            "code" : "1008820",
+            "display" : "ampicillin / dicloxacillin"
+          },
+          {
+            "code" : "1008855",
+            "display" : "ampicillin / brovanexine"
+          },
+          {
+            "code" : "1008942",
+            "display" : "chloramphenicol / prednisone"
+          },
+          {
+            "code" : "1009002",
+            "display" : "chloramphenicol / oxyphenbutazone"
+          },
+          {
+            "code" : "1009036",
+            "display" : "ambroxol / ampicillin"
+          },
+          {
+            "code" : "1009148",
+            "display" : "ampicillin / sulbactam"
+          },
+          {
+            "code" : "10167",
+            "display" : "sulbactam"
+          },
+          {
+            "code" : "1043020",
+            "display" : "cefixime 100 MG"
+          },
+          {
+            "code" : "1043021",
+            "display" : "cefixime Chewable Tablet"
+          },
+          {
+            "code" : "1043022",
+            "display" : "cefixime 100 MG Chewable Tablet"
+          },
+          {
+            "code" : "1043030",
+            "display" : "cefixime 200 MG Chewable Tablet"
+          },
+          {
+            "code" : "105174",
+            "display" : "cefotaxime 200 MG/ML Injectable Solution [Claforan]"
+          },
+          {
+            "code" : "105265",
+            "display" : "chloramphenicol 25 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "106846",
+            "display" : "ampicillin / cloxacillin"
+          },
+          {
+            "code" : "106876",
+            "display" : "isoniazid / rifampin"
+          },
+          {
+            "code" : "106960",
+            "display" : "chloramphenicol / hydrocortisone"
+          },
+          {
+            "code" : "1145207",
+            "display" : "chloramphenicol / deoxyribonucleases / plasmin"
+          },
+          {
+            "code" : "1152095",
+            "display" : "cefixime Oral Liquid Product"
+          },
+          {
+            "code" : "1152096",
+            "display" : "cefixime Oral Product"
+          },
+          {
+            "code" : "1152097",
+            "display" : "cefixime Pill"
+          },
+          {
+            "code" : "1152100",
+            "display" : "cefoperazone Injectable Product"
+          },
+          {
+            "code" : "1152101",
+            "display" : "cefotaxime Injectable Product"
+          },
+          {
+            "code" : "1152106",
+            "display" : "ceftazidime Injectable Product"
+          },
+          {
+            "code" : "1152108",
+            "display" : "ceftriaxone Injectable Product"
+          },
+          {
+            "code" : "1153043",
+            "display" : "chloramphenicol / hydrocortisone / polymyxin B Ophthalmic Product"
+          },
+          {
+            "code" : "1153057",
+            "display" : "chloramphenicol Injectable Product"
+          },
+          {
+            "code" : "1153059",
+            "display" : "chloramphenicol Ophthalmic Product"
+          },
+          {
+            "code" : "1153060",
+            "display" : "chloramphenicol Oral Liquid Product"
+          },
+          {
+            "code" : "1153062",
+            "display" : "chloramphenicol Otic Product"
+          },
+          {
+            "code" : "1153065",
+            "display" : "chloramphenicol Topical Product"
+          },
+          {
+            "code" : "1153183",
+            "display" : "ampicillin / floxacillin Injectable Product"
+          },
+          {
+            "code" : "1153185",
+            "display" : "ampicillin / floxacillin Oral Product"
+          },
+          {
+            "code" : "1153186",
+            "display" : "ampicillin / floxacillin Pill"
+          },
+          {
+            "code" : "1153190",
+            "display" : "ampicillin / sulbactam Injectable Product"
+          },
+          {
+            "code" : "1153194",
+            "display" : "ampicillin Injectable Product"
+          },
+          {
+            "code" : "1153196",
+            "display" : "ampicillin Oral Liquid Product"
+          },
+          {
+            "code" : "1153197",
+            "display" : "ampicillin Oral Product"
+          },
+          {
+            "code" : "1153198",
+            "display" : "ampicillin Pill"
+          },
+          {
+            "code" : "1156818",
+            "display" : "ethambutol / isoniazid / rifampin Oral Product"
+          },
+          {
+            "code" : "1160601",
+            "display" : "cefdinir Oral Liquid Product"
+          },
+          {
+            "code" : "1160602",
+            "display" : "cefdinir Oral Product"
+          },
+          {
+            "code" : "1160603",
+            "display" : "cefdinir Pill"
+          },
+          {
+            "code" : "1160604",
+            "display" : "cefditoren Oral Product"
+          },
+          {
+            "code" : "1160605",
+            "display" : "cefditoren Pill"
+          },
+          {
+            "code" : "1160611",
+            "display" : "cefpodoxime Oral Liquid Product"
+          },
+          {
+            "code" : "1161214",
+            "display" : "cefpodoxime Oral Product"
+          },
+          {
+            "code" : "1161215",
+            "display" : "cefpodoxime Pill"
+          },
+          {
+            "code" : "1161220",
+            "display" : "ceftibuten Oral Liquid Product"
+          },
+          {
+            "code" : "1161221",
+            "display" : "ceftibuten Oral Product"
+          },
+          {
+            "code" : "1161222",
+            "display" : "ceftibuten Pill"
+          },
+          {
+            "code" : "1161346",
+            "display" : "isoniazid / pyrazinamide / rifampin Oral Product"
+          },
+          {
+            "code" : "1161347",
+            "display" : "isoniazid / pyrazinamide / rifampin Pill"
+          },
+          {
+            "code" : "1161348",
+            "display" : "isoniazid / rifampin Oral Product"
+          },
+          {
+            "code" : "1161349",
+            "display" : "isoniazid / rifampin Pill"
+          },
+          {
+            "code" : "1165463",
+            "display" : "rifampin Injectable Product"
+          },
+          {
+            "code" : "1165464",
+            "display" : "rifampin Oral Liquid Product"
+          },
+          {
+            "code" : "1165465",
+            "display" : "rifampin Oral Product"
+          },
+          {
+            "code" : "1165466",
+            "display" : "rifampin Pill"
+          },
+          {
+            "code" : "1170944",
+            "display" : "Claforan Injectable Product"
+          },
+          {
+            "code" : "1172631",
+            "display" : "Fortaz Injectable Product"
+          },
+          {
+            "code" : "1177253",
+            "display" : "Spectracef Oral Product"
+          },
+          {
+            "code" : "1177254",
+            "display" : "Spectracef Pill"
+          },
+          {
+            "code" : "1180260",
+            "display" : "Tazicef Injectable Product"
+          },
+          {
+            "code" : "1184712",
+            "display" : "Rifadin Injectable Product"
+          },
+          {
+            "code" : "1184714",
+            "display" : "Rifadin Oral Product"
+          },
+          {
+            "code" : "1184715",
+            "display" : "Rifadin Pill"
+          },
+          {
+            "code" : "1184867",
+            "display" : "Suprax Oral Liquid Product"
+          },
+          {
+            "code" : "1184868",
+            "display" : "Suprax Oral Product"
+          },
+          {
+            "code" : "1184869",
+            "display" : "Suprax Pill"
+          },
+          {
+            "code" : "1187828",
+            "display" : "Unasyn Injectable Product"
+          },
+          {
+            "code" : "1295631",
+            "display" : "cefixime Chewable Product"
+          },
+          {
+            "code" : "1297879",
+            "display" : "ceftibuten dihydrate"
+          },
+          {
+            "code" : "1299048",
+            "display" : "hetacillin potassium"
+          },
+          {
+            "code" : "1306064",
+            "display" : "cefdinir monohydrate"
+          },
+          {
+            "code" : "1372998",
+            "display" : "cefixime Oral Capsule [Suprax]"
+          },
+          {
+            "code" : "1372999",
+            "display" : "cefixime 400 MG Oral Capsule [Suprax]"
+          },
+          {
+            "code" : "1373013",
+            "display" : "cefixime 100 MG/ML"
+          },
+          {
+            "code" : "1373014",
+            "display" : "cefixime 100 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1545984",
+            "display" : "ceftazidime anhydrous"
+          },
+          {
+            "code" : "1546021",
+            "display" : "cefixime anhydrous"
+          },
+          {
+            "code" : "1603837",
+            "display" : "avibactam / ceftazidime Injectable Product"
+          },
+          {
+            "code" : "1603839",
+            "display" : "avibactam / ceftazidime"
+          },
+          {
+            "code" : "1603840",
+            "display" : "avibactam 500 MG / ceftazidime 2000 MG Injection"
+          },
+          {
+            "code" : "1603841",
+            "display" : "Avycaz"
+          },
+          {
+            "code" : "1603844",
+            "display" : "Avycaz Injectable Product"
+          },
+          {
+            "code" : "1603845",
+            "display" : "avibactam 500 MG / ceftazidime 2000 MG Injection [Avycaz]"
+          },
+          {
+            "code" : "1656311",
+            "display" : "cefotaxime 1000 MG"
+          },
+          {
+            "code" : "1656312",
+            "display" : "cefotaxime Injection"
+          },
+          {
+            "code" : "1656313",
+            "display" : "cefotaxime 1000 MG Injection"
+          },
+          {
+            "code" : "1656314",
+            "display" : "cefotaxime 1000 MG [Claforan]"
+          },
+          {
+            "code" : "1656315",
+            "display" : "cefotaxime Injection [Claforan]"
+          },
+          {
+            "code" : "1656316",
+            "display" : "cefotaxime 1000 MG Injection [Claforan]"
+          },
+          {
+            "code" : "1656317",
+            "display" : "cefotaxime 2000 MG"
+          },
+          {
+            "code" : "1656318",
+            "display" : "cefotaxime 2000 MG Injection"
+          },
+          {
+            "code" : "1656319",
+            "display" : "cefotaxime 2000 MG [Claforan]"
+          },
+          {
+            "code" : "1656320",
+            "display" : "cefotaxime 2000 MG Injection [Claforan]"
+          },
+          {
+            "code" : "1656671",
+            "display" : "cefotaxime 500 MG"
+          },
+          {
+            "code" : "1659276",
+            "display" : "ceftazidime 500 MG"
+          },
+          {
+            "code" : "1659277",
+            "display" : "ceftazidime Injection"
+          },
+          {
+            "code" : "1659278",
+            "display" : "ceftazidime 500 MG Injection"
+          },
+          {
+            "code" : "1659279",
+            "display" : "ceftazidime 500 MG [Fortaz]"
+          },
+          {
+            "code" : "1659280",
+            "display" : "ceftazidime Injection [Fortaz]"
+          },
+          {
+            "code" : "1659281",
+            "display" : "ceftazidime 500 MG Injection [Fortaz]"
+          },
+          {
+            "code" : "1659282",
+            "display" : "ceftazidime 1000 MG"
+          },
+          {
+            "code" : "1659283",
+            "display" : "ceftazidime 1000 MG Injection"
+          },
+          {
+            "code" : "1659284",
+            "display" : "ceftazidime 1000 MG [Fortaz]"
+          },
+          {
+            "code" : "1659285",
+            "display" : "ceftazidime 1000 MG Injection [Fortaz]"
+          },
+          {
+            "code" : "1659286",
+            "display" : "ceftazidime 2000 MG"
+          },
+          {
+            "code" : "1659287",
+            "display" : "ceftazidime 2000 MG Injection"
+          },
+          {
+            "code" : "1659288",
+            "display" : "ceftazidime 2000 MG [Fortaz]"
+          },
+          {
+            "code" : "1659289",
+            "display" : "ceftazidime 2000 MG Injection [Fortaz]"
+          },
+          {
+            "code" : "1659290",
+            "display" : "ceftazidime 1000 MG [Tazicef]"
+          },
+          {
+            "code" : "1659291",
+            "display" : "ceftazidime Injection [Tazicef]"
+          },
+          {
+            "code" : "1659292",
+            "display" : "ceftazidime 1000 MG Injection [Tazicef]"
+          },
+          {
+            "code" : "1659293",
+            "display" : "ceftazidime 2000 MG [Tazicef]"
+          },
+          {
+            "code" : "1659294",
+            "display" : "ceftazidime 2000 MG Injection [Tazicef]"
+          },
+          {
+            "code" : "1659591",
+            "display" : "ampicillin / sulbactam Injection"
+          },
+          {
+            "code" : "1659592",
+            "display" : "ampicillin 1000 MG / sulbactam 500 MG Injection"
+          },
+          {
+            "code" : "1659593",
+            "display" : "ampicillin 1000 MG / sulbactam 500 MG [Unasyn]"
+          },
+          {
+            "code" : "1659594",
+            "display" : "ampicillin / sulbactam Injection [Unasyn]"
+          },
+          {
+            "code" : "1659595",
+            "display" : "ampicillin 1000 MG / sulbactam 500 MG Injection [Unasyn]"
+          },
+          {
+            "code" : "1659596",
+            "display" : "ampicillin 2000 MG"
+          },
+          {
+            "code" : "1659597",
+            "display" : "sulbactam 1000 MG"
+          },
+          {
+            "code" : "1659598",
+            "display" : "ampicillin 2000 MG / sulbactam 1000 MG Injection"
+          },
+          {
+            "code" : "1659599",
+            "display" : "ampicillin 2000 MG / sulbactam 1000 MG [Unasyn]"
+          },
+          {
+            "code" : "1659600",
+            "display" : "ampicillin 2000 MG / sulbactam 1000 MG Injection [Unasyn]"
+          },
+          {
+            "code" : "166010",
+            "display" : "sulbactam pivoxyl"
+          },
+          {
+            "code" : "1664991",
+            "display" : "ceftriaxone 250 MG"
+          },
+          {
+            "code" : "1664992",
+            "display" : "ceftriaxone Injection"
+          },
+          {
+            "code" : "1665004",
+            "display" : "ceftriaxone 500 MG"
+          },
+          {
+            "code" : "1665005",
+            "display" : "ceftriaxone 500 MG Injection"
+          },
+          {
+            "code" : "1665020",
+            "display" : "ceftriaxone 1000 MG"
+          },
+          {
+            "code" : "1665021",
+            "display" : "ceftriaxone 1000 MG Injection"
+          },
+          {
+            "code" : "1665045",
+            "display" : "ceftriaxone 2000 MG"
+          },
+          {
+            "code" : "1665046",
+            "display" : "ceftriaxone 2000 MG Injection"
+          },
+          {
+            "code" : "1718938",
+            "display" : "avibactam / ceftazidime Injection"
+          },
+          {
+            "code" : "1718940",
+            "display" : "avibactam 500 MG / ceftazidime 2000 MG [Avycaz]"
+          },
+          {
+            "code" : "1718941",
+            "display" : "avibactam / ceftazidime Injection [Avycaz]"
+          },
+          {
+            "code" : "1721470",
+            "display" : "ampicillin Injection"
+          },
+          {
+            "code" : "1721473",
+            "display" : "ampicillin 250 MG Injection"
+          },
+          {
+            "code" : "1721474",
+            "display" : "ampicillin 500 MG Injection"
+          },
+          {
+            "code" : "1721475",
+            "display" : "ampicillin 1000 MG Injection"
+          },
+          {
+            "code" : "1721476",
+            "display" : "ampicillin 2000 MG Injection"
+          },
+          {
+            "code" : "1747114",
+            "display" : "cefotaxime 20 MG/ML"
+          },
+          {
+            "code" : "1747120",
+            "display" : "cefotaxime 40 MG/ML"
+          },
+          {
+            "code" : "1747121",
+            "display" : "50 ML cefotaxime 40 MG/ML Injection"
+          },
+          {
+            "code" : "1863365",
+            "display" : "rifampin Injection"
+          },
+          {
+            "code" : "1863367",
+            "display" : "rifampin 600 MG [Rifadin]"
+          },
+          {
+            "code" : "1863368",
+            "display" : "rifampin Injection [Rifadin]"
+          },
+          {
+            "code" : "196499",
+            "display" : "Suprax"
+          },
+          {
+            "code" : "197450",
+            "display" : "cefixime 200 MG Oral Tablet"
+          },
+          {
+            "code" : "197451",
+            "display" : "cefixime 400 MG Oral Tablet"
+          },
+          {
+            "code" : "197463",
+            "display" : "chloramphenicol 250 MG Oral Capsule"
+          },
+          {
+            "code" : "198201",
+            "display" : "rifampin 150 MG Oral Capsule"
+          },
+          {
+            "code" : "198202",
+            "display" : "rifampin 300 MG Oral Capsule"
+          },
+          {
+            "code" : "198203",
+            "display" : "isoniazid 150 MG / rifampin 300 MG Oral Capsule"
+          },
+          {
+            "code" : "198384",
+            "display" : "isoniazid 50 MG / pyrazinamide 300 MG / rifampin 120 MG Oral Tablet"
+          },
+          {
+            "code" : "199755",
+            "display" : "isoniazid 100 MG / rifampin 150 MG Oral Tablet"
+          },
+          {
+            "code" : "199756",
+            "display" : "isoniazid 150 MG / rifampin 300 MG Oral Tablet"
+          },
+          {
+            "code" : "199802",
+            "display" : "rifampin 450 MG Oral Tablet"
+          },
+          {
+            "code" : "200346",
+            "display" : "cefdinir 300 MG Oral Capsule"
+          },
+          {
+            "code" : "201867",
+            "display" : "rifampin 150 MG Oral Capsule [Rifadin]"
+          },
+          {
+            "code" : "201868",
+            "display" : "rifampin 300 MG Oral Capsule [Rifadin]"
+          },
+          {
+            "code" : "202953",
+            "display" : "Rifadin"
+          },
+          {
+            "code" : "203115",
+            "display" : "ampicillin trihydrate"
+          },
+          {
+            "code" : "203117",
+            "display" : "cefotaxime sodium"
+          },
+          {
+            "code" : "203172",
+            "display" : "ceftriaxone sodium"
+          },
+          {
+            "code" : "203421",
+            "display" : "Fortaz"
+          },
+          {
+            "code" : "203422",
+            "display" : "Tazicef"
+          },
+          {
+            "code" : "203573",
+            "display" : "Claforan"
+          },
+          {
+            "code" : "204699",
+            "display" : "chloramphenicol 5 MG/ML Otic Solution"
+          },
+          {
+            "code" : "20489",
+            "display" : "cefpodoxime"
+          },
+          {
+            "code" : "20492",
+            "display" : "ceftibuten"
+          },
+          {
+            "code" : "205843",
+            "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML Injectable Solution [Unasyn]"
+          },
+          {
+            "code" : "206423",
+            "display" : "ceftazidime 200 MG/ML Injectable Solution [Tazicef]"
+          },
+          {
+            "code" : "207436",
+            "display" : "rifampin 600 MG Injection [Rifadin]"
+          },
+          {
+            "code" : "20767",
+            "display" : "chloramphenicol palmitate"
+          },
+          {
+            "code" : "20768",
+            "display" : "chloramphenicol stearate"
+          },
+          {
+            "code" : "20769",
+            "display" : "chloramphenicol succinate"
+          },
+          {
+            "code" : "214233",
+            "display" : "ampicillin / probenecid"
+          },
+          {
+            "code" : "214662",
+            "display" : "isoniazid / pyrazinamide / rifampin"
+          },
+          {
+            "code" : "2184",
+            "display" : "cefoperazone"
+          },
+          {
+            "code" : "2186",
+            "display" : "cefotaxime"
+          },
+          {
+            "code" : "2191",
+            "display" : "ceftazidime"
+          },
+          {
+            "code" : "2193",
+            "display" : "ceftriaxone"
+          },
+          {
+            "code" : "221058",
+            "display" : "ampicillin (anhydrous)"
+          },
+          {
+            "code" : "221071",
+            "display" : "ceftazidime sodium"
+          },
+          {
+            "code" : "227214",
+            "display" : "cefoperazone sodium"
+          },
+          {
+            "code" : "2348",
+            "display" : "chloramphenicol"
+          },
+          {
+            "code" : "235552",
+            "display" : "ceftazidime pentahydrate"
+          },
+          {
+            "code" : "239200",
+            "display" : "chloramphenicol 100 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "240447",
+            "display" : "ceftazidime 250 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "240572",
+            "display" : "isoniazid / pyrazinamide / rifampin Oral Tablet"
+          },
+          {
+            "code" : "240984",
+            "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "242800",
+            "display" : "ceftazidime 200 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "245581",
+            "display" : "chloramphenicol 2.5 MG/ML Ophthalmic Solution"
+          },
+          {
+            "code" : "246297",
+            "display" : "rifampin 20 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "250156",
+            "display" : "cefpodoxime 8 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "25033",
+            "display" : "cefixime"
+          },
+          {
+            "code" : "25037",
+            "display" : "cefdinir"
+          },
+          {
+            "code" : "250463",
+            "display" : "ampicillin 250 MG / floxacillin 250 MG Oral Capsule"
+          },
+          {
+            "code" : "250652",
+            "display" : "chloramphenicol 100 MG/ML Otic Solution"
+          },
+          {
+            "code" : "250653",
+            "display" : "chloramphenicol 50 MG/ML Otic Solution"
+          },
+          {
+            "code" : "251704",
+            "display" : "chloramphenicol 0.01 MG/MG Topical Ointment"
+          },
+          {
+            "code" : "2573160",
+            "display" : "durlobactam / sulbactam"
+          },
+          {
+            "code" : "2647462",
+            "display" : "ampicillin / diclofenac sodium Oral Tablet"
+          },
+          {
+            "code" : "2648668",
+            "display" : "ampicillin / diclofenac sodium Delayed Release Oral Tablet"
+          },
+          {
+            "code" : "2657902",
+            "display" : "cefditoren pivoxil Oral Tablet [Spectracef]"
+          },
+          {
+            "code" : "2661521",
+            "display" : "ampicillin / diclofenac sodium Oral Product"
+          },
+          {
+            "code" : "2663034",
+            "display" : "ampicillin / diclofenac sodium Pill"
+          },
+          {
+            "code" : "2665010",
+            "display" : "durlobactam / sulbactam Injectable Product"
+          },
+          {
+            "code" : "2665011",
+            "display" : "durlobactam / sulbactam Injection"
+          },
+          {
+            "code" : "2665012",
+            "display" : "durlobactam 1000 MG / sulbactam 1000 MG Injection"
+          },
+          {
+            "code" : "2665013",
+            "display" : "Xacduro"
+          },
+          {
+            "code" : "2665014",
+            "display" : "durlobactam 1000 MG / sulbactam 1000 MG [Xacduro]"
+          },
+          {
+            "code" : "2665015",
+            "display" : "Xacduro Injectable Product"
+          },
+          {
+            "code" : "2665016",
+            "display" : "durlobactam / sulbactam Injection [Xacduro]"
+          },
+          {
+            "code" : "2665017",
+            "display" : "durlobactam 1000 MG / sulbactam 1000 MG Injection [Xacduro]"
+          },
+          {
+            "code" : "304885",
+            "display" : "Spectracef"
+          },
+          {
+            "code" : "308207",
+            "display" : "ampicillin 125 MG Injection"
+          },
+          {
+            "code" : "308210",
+            "display" : "ampicillin 50 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "308212",
+            "display" : "ampicillin 500 MG Oral Capsule"
+          },
+          {
+            "code" : "309054",
+            "display" : "cefdinir 25 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309058",
+            "display" : "cefixime 20 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309065",
+            "display" : "cefotaxime 200 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "309068",
+            "display" : "cefotaxime 500 MG Injection"
+          },
+          {
+            "code" : "309076",
+            "display" : "cefpodoxime 100 MG Oral Tablet"
+          },
+          {
+            "code" : "309077",
+            "display" : "cefpodoxime 20 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309078",
+            "display" : "cefpodoxime 200 MG Oral Tablet"
+          },
+          {
+            "code" : "309079",
+            "display" : "cefpodoxime 10 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309085",
+            "display" : "ceftibuten 36 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309086",
+            "display" : "ceftibuten 400 MG Oral Capsule"
+          },
+          {
+            "code" : "309087",
+            "display" : "ceftibuten 18 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "309090",
+            "display" : "ceftriaxone 100 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "309092",
+            "display" : "ceftriaxone 250 MG Injection"
+          },
+          {
+            "code" : "309172",
+            "display" : "chloramphenicol 0.01 MG/MG Ophthalmic Ointment"
+          },
+          {
+            "code" : "309174",
+            "display" : "chloramphenicol 5 MG/ML Ophthalmic Solution"
+          },
+          {
+            "code" : "312821",
+            "display" : "rifampin 600 MG Injection"
+          },
+          {
+            "code" : "313799",
+            "display" : "ampicillin 25 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "313800",
+            "display" : "ampicillin 250 MG Oral Capsule"
+          },
+          {
+            "code" : "315375",
+            "display" : "ampicillin 100 MG/ML"
+          },
+          {
+            "code" : "315376",
+            "display" : "ampicillin 25 MG/ML"
+          },
+          {
+            "code" : "315378",
+            "display" : "ampicillin 50 MG/ML"
+          },
+          {
+            "code" : "315594",
+            "display" : "cefdinir 25 MG/ML"
+          },
+          {
+            "code" : "315595",
+            "display" : "cefdinir 300 MG"
+          },
+          {
+            "code" : "315596",
+            "display" : "cefixime 20 MG/ML"
+          },
+          {
+            "code" : "315597",
+            "display" : "cefixime 200 MG"
+          },
+          {
+            "code" : "316641",
+            "display" : "rifampin 150 MG"
+          },
+          {
+            "code" : "316642",
+            "display" : "rifampin 300 MG"
+          },
+          {
+            "code" : "317623",
+            "display" : "cefixime 400 MG"
+          },
+          {
+            "code" : "323964",
+            "display" : "rifampin 600 MG"
+          },
+          {
+            "code" : "323980",
+            "display" : "chloramphenicol 5 MG/ML"
+          },
+          {
+            "code" : "328304",
+            "display" : "ampicillin 250 MG"
+          },
+          {
+            "code" : "328305",
+            "display" : "ampicillin 500 MG"
+          },
+          {
+            "code" : "328307",
+            "display" : "ampicillin 1000 MG"
+          },
+          {
+            "code" : "328311",
+            "display" : "ampicillin 125 MG"
+          },
+          {
+            "code" : "328312",
+            "display" : "sulbactam 500 MG"
+          },
+          {
+            "code" : "328975",
+            "display" : "ceftibuten 400 MG"
+          },
+          {
+            "code" : "328976",
+            "display" : "ceftibuten 18 MG/ML"
+          },
+          {
+            "code" : "328980",
+            "display" : "chloramphenicol 0.01 MG/MG"
+          },
+          {
+            "code" : "329657",
+            "display" : "cefpodoxime 100 MG"
+          },
+          {
+            "code" : "329658",
+            "display" : "cefpodoxime 200 MG"
+          },
+          {
+            "code" : "330672",
+            "display" : "cefpodoxime 20 MG/ML"
+          },
+          {
+            "code" : "330673",
+            "display" : "cefpodoxime 10 MG/ML"
+          },
+          {
+            "code" : "330674",
+            "display" : "ceftibuten 36 MG/ML"
+          },
+          {
+            "code" : "331065",
+            "display" : "sulbactam 50 MG/ML"
+          },
+          {
+            "code" : "331186",
+            "display" : "chloramphenicol 50 MG/ML"
+          },
+          {
+            "code" : "331345",
+            "display" : "cefpodoxime 8 MG/ML"
+          },
+          {
+            "code" : "332756",
+            "display" : "chloramphenicol 100 MG/ML"
+          },
+          {
+            "code" : "333249",
+            "display" : "rifampin 20 MG/ML"
+          },
+          {
+            "code" : "333250",
+            "display" : "rifampin 450 MG"
+          },
+          {
+            "code" : "333634",
+            "display" : "chloramphenicol 2.5 MG/ML"
+          },
+          {
+            "code" : "333636",
+            "display" : "chloramphenicol 25 MG/ML"
+          },
+          {
+            "code" : "335921",
+            "display" : "rifampin 120 MG"
+          },
+          {
+            "code" : "336212",
+            "display" : "ceftazidime 200 MG/ML"
+          },
+          {
+            "code" : "337560",
+            "display" : "ceftriaxone 100 MG/ML"
+          },
+          {
+            "code" : "343590",
+            "display" : "cefotaxime 200 MG/ML"
+          },
+          {
+            "code" : "346219",
+            "display" : "ceftazidime 250 MG/ML"
+          },
+          {
+            "code" : "351127",
+            "display" : "cefditoren pivoxil 200 MG Oral Tablet"
+          },
+          {
+            "code" : "358772",
+            "display" : "cefditoren pivoxil 200 MG"
+          },
+          {
+            "code" : "362554",
+            "display" : "ampicillin / sulbactam Injectable Solution [Unasyn]"
+          },
+          {
+            "code" : "362884",
+            "display" : "cefotaxime Injectable Solution [Claforan]"
+          },
+          {
+            "code" : "366732",
+            "display" : "rifampin Oral Capsule [Rifadin]"
+          },
+          {
+            "code" : "369490",
+            "display" : "cefditoren Oral Tablet [Spectracef]"
+          },
+          {
+            "code" : "370500",
+            "display" : "chloramphenicol Injectable Solution"
+          },
+          {
+            "code" : "370584",
+            "display" : "ampicillin Injectable Solution"
+          },
+          {
+            "code" : "370585",
+            "display" : "ampicillin Oral Suspension"
+          },
+          {
+            "code" : "370586",
+            "display" : "ampicillin Oral Capsule"
+          },
+          {
+            "code" : "370900",
+            "display" : "ampicillin / probenecid Oral Suspension"
+          },
+          {
+            "code" : "370903",
+            "display" : "ampicillin Oral Tablet"
+          },
+          {
+            "code" : "370909",
+            "display" : "ampicillin / floxacillin Oral Capsule"
+          },
+          {
+            "code" : "371325",
+            "display" : "cefdinir Oral Capsule"
+          },
+          {
+            "code" : "371326",
+            "display" : "cefdinir Oral Suspension"
+          },
+          {
+            "code" : "371327",
+            "display" : "cefixime Oral Suspension"
+          },
+          {
+            "code" : "371328",
+            "display" : "cefixime Oral Tablet"
+          },
+          {
+            "code" : "371331",
+            "display" : "cefotaxime Injectable Solution"
+          },
+          {
+            "code" : "371333",
+            "display" : "cefpodoxime Oral Suspension"
+          },
+          {
+            "code" : "371334",
+            "display" : "cefpodoxime Oral Tablet"
+          },
+          {
+            "code" : "371337",
+            "display" : "ceftazidime Injectable Solution"
+          },
+          {
+            "code" : "371338",
+            "display" : "ceftibuten Oral Capsule"
+          },
+          {
+            "code" : "371339",
+            "display" : "ceftibuten Oral Suspension"
+          },
+          {
+            "code" : "371376",
+            "display" : "chloramphenicol Oral Capsule"
+          },
+          {
+            "code" : "371377",
+            "display" : "chloramphenicol Ophthalmic Solution"
+          },
+          {
+            "code" : "371378",
+            "display" : "chloramphenicol Otic Solution"
+          },
+          {
+            "code" : "371379",
+            "display" : "chloramphenicol Oral Suspension"
+          },
+          {
+            "code" : "371380",
+            "display" : "chloramphenicol Oral Solution"
+          },
+          {
+            "code" : "372508",
+            "display" : "isoniazid / rifampin Oral Capsule"
+          },
+          {
+            "code" : "372509",
+            "display" : "isoniazid / rifampin Oral Tablet"
+          },
+          {
+            "code" : "373781",
+            "display" : "rifampin Oral Capsule"
+          },
+          {
+            "code" : "373783",
+            "display" : "rifampin Oral Tablet"
+          },
+          {
+            "code" : "376593",
+            "display" : "ceftriaxone Injectable Solution"
+          },
+          {
+            "code" : "376647",
+            "display" : "rifampin Oral Suspension"
+          },
+          {
+            "code" : "376673",
+            "display" : "ampicillin / sulbactam Injectable Solution"
+          },
+          {
+            "code" : "377640",
+            "display" : "chloramphenicol Topical Cream"
+          },
+          {
+            "code" : "393150",
+            "display" : "chloramphenicol Topical Ointment"
+          },
+          {
+            "code" : "409823",
+            "display" : "cefixime 400 MG Oral Capsule"
+          },
+          {
+            "code" : "419849",
+            "display" : "cefixime 40 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "433775",
+            "display" : "rifampin 150 MG Oral Tablet"
+          },
+          {
+            "code" : "438392",
+            "display" : "cefixime Oral Capsule"
+          },
+          {
+            "code" : "438393",
+            "display" : "cefixime 40 MG/ML"
+          },
+          {
+            "code" : "476576",
+            "display" : "cefdinir 50 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "476577",
+            "display" : "cefdinir 50 MG/ML"
+          },
+          {
+            "code" : "47835",
+            "display" : "cefpodoxime proxetil"
+          },
+          {
+            "code" : "47998",
+            "display" : "chloramphenicol sodium succinate"
+          },
+          {
+            "code" : "484948",
+            "display" : "cefditoren Oral Tablet"
+          },
+          {
+            "code" : "563142",
+            "display" : "rifampin 300 MG [Rifadin]"
+          },
+          {
+            "code" : "563953",
+            "display" : "cefotaxime 200 MG/ML [Claforan]"
+          },
+          {
+            "code" : "563971",
+            "display" : "cefixime 20 MG/ML [Suprax]"
+          },
+          {
+            "code" : "566037",
+            "display" : "rifampin 150 MG [Rifadin]"
+          },
+          {
+            "code" : "566732",
+            "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML [Unasyn]"
+          },
+          {
+            "code" : "567261",
+            "display" : "ceftazidime 200 MG/ML [Tazicef]"
+          },
+          {
+            "code" : "573772",
+            "display" : "cefixime 400 MG [Suprax]"
+          },
+          {
+            "code" : "57773",
+            "display" : "Unasyn"
+          },
+          {
+            "code" : "581573",
+            "display" : "cefixime Oral Suspension [Suprax]"
+          },
+          {
+            "code" : "581574",
+            "display" : "cefixime 20 MG/ML Oral Suspension [Suprax]"
+          },
+          {
+            "code" : "689288",
+            "display" : "chloramphenicol / hydrocortisone / polymyxin B"
+          },
+          {
+            "code" : "72611",
+            "display" : "cefditoren pivoxil"
+          },
+          {
+            "code" : "733",
+            "display" : "ampicillin"
+          },
+          {
+            "code" : "789980",
+            "display" : "ampicillin 100 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "814321",
+            "display" : "ethambutol / isoniazid / rifampin"
+          },
+          {
+            "code" : "815833",
+            "display" : "chloramphenicol / dexamethasone"
+          },
+          {
+            "code" : "818205",
+            "display" : "rifampin / trimethoprim"
+          },
+          {
+            "code" : "81953",
+            "display" : "ampicillin sodium"
+          },
+          {
+            "code" : "82100",
+            "display" : "sulbactam sodium"
+          },
+          {
+            "code" : "83682",
+            "display" : "cefditoren"
+          },
+          {
+            "code" : "847359",
+            "display" : "cefditoren pivoxil 400 MG"
+          },
+          {
+            "code" : "847360",
+            "display" : "cefditoren pivoxil 400 MG Oral Tablet"
+          },
+          {
+            "code" : "847361",
+            "display" : "cefditoren pivoxil 400 MG [Spectracef]"
+          },
+          {
+            "code" : "847362",
+            "display" : "cefditoren pivoxil 400 MG Oral Tablet [Spectracef]"
+          },
+          {
+            "code" : "9384",
+            "display" : "rifampin"
+          },
+          {
+            "code" : "94251",
+            "display" : "ceftazidime Injectable Solution [Tazicef]"
+          },
+          {
+            "code" : "95104",
+            "display" : "chloramphenicol Ophthalmic Ointment"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:465fb9ba-6292-4570-aac6-f99ce1100e68",
+    "timestamp" : "2025-11-24T13:46:15-05:00",
+    "total" : 361,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1006944",
+        "display" : "chloramphenicol / naphazoline / neomycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007109",
+        "display" : "chloramphenicol / resorcinol / salicylic acid"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007422",
+        "display" : "chloramphenicol / ictasol"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007586",
+        "display" : "ampicillin / floxacillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007619",
+        "display" : "ampicillin / bromhexine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007635",
+        "display" : "benzocaine / chloramphenicol"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007671",
+        "display" : "chloramphenicol / idoxuridine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007718",
+        "display" : "chloramphenicol / neomycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007871",
+        "display" : "chloramphenicol / naphazoline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008072",
+        "display" : "chloramphenicol / collagenase"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008074",
+        "display" : "ampicillin / carbocysteine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008236",
+        "display" : "chloramphenicol / prednisolone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008323",
+        "display" : "amoxicillin / sulbactam"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008558",
+        "display" : "ampicillin / diclofenac"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008820",
+        "display" : "ampicillin / dicloxacillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008855",
+        "display" : "ampicillin / brovanexine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008942",
+        "display" : "chloramphenicol / prednisone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1009002",
+        "display" : "chloramphenicol / oxyphenbutazone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1009036",
+        "display" : "ambroxol / ampicillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1009148",
+        "display" : "ampicillin / sulbactam"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "10167",
+        "display" : "sulbactam"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105174",
+        "display" : "cefotaxime 200 MG/ML Injectable Solution [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105265",
+        "display" : "chloramphenicol 25 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "106846",
+        "display" : "ampicillin / cloxacillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "106876",
+        "display" : "isoniazid / rifampin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "106960",
+        "display" : "chloramphenicol / hydrocortisone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1145207",
+        "display" : "chloramphenicol / deoxyribonucleases / plasmin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152095",
+        "display" : "cefixime Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152096",
+        "display" : "cefixime Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152097",
+        "display" : "cefixime Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152100",
+        "display" : "cefoperazone Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152101",
+        "display" : "cefotaxime Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152106",
+        "display" : "ceftazidime Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152108",
+        "display" : "ceftriaxone Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153043",
+        "display" : "chloramphenicol / hydrocortisone / polymyxin B Ophthalmic Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153057",
+        "display" : "chloramphenicol Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153059",
+        "display" : "chloramphenicol Ophthalmic Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153060",
+        "display" : "chloramphenicol Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153062",
+        "display" : "chloramphenicol Otic Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153065",
+        "display" : "chloramphenicol Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153183",
+        "display" : "ampicillin / floxacillin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153185",
+        "display" : "ampicillin / floxacillin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153186",
+        "display" : "ampicillin / floxacillin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153190",
+        "display" : "ampicillin / sulbactam Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153194",
+        "display" : "ampicillin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153196",
+        "display" : "ampicillin Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153197",
+        "display" : "ampicillin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153198",
+        "display" : "ampicillin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1156818",
+        "display" : "ethambutol / isoniazid / rifampin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160601",
+        "display" : "cefdinir Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160602",
+        "display" : "cefdinir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160603",
+        "display" : "cefdinir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160604",
+        "display" : "cefditoren Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160605",
+        "display" : "cefditoren Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160611",
+        "display" : "cefpodoxime Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161214",
+        "display" : "cefpodoxime Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161215",
+        "display" : "cefpodoxime Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161220",
+        "display" : "ceftibuten Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161221",
+        "display" : "ceftibuten Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161222",
+        "display" : "ceftibuten Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161346",
+        "display" : "isoniazid / pyrazinamide / rifampin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161347",
+        "display" : "isoniazid / pyrazinamide / rifampin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161348",
+        "display" : "isoniazid / rifampin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161349",
+        "display" : "isoniazid / rifampin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165463",
+        "display" : "rifampin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165464",
+        "display" : "rifampin Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165465",
+        "display" : "rifampin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165466",
+        "display" : "rifampin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1170944",
+        "display" : "Claforan Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1172631",
+        "display" : "Fortaz Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177253",
+        "display" : "Spectracef Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177254",
+        "display" : "Spectracef Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1180260",
+        "display" : "Tazicef Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184712",
+        "display" : "Rifadin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184714",
+        "display" : "Rifadin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184715",
+        "display" : "Rifadin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184867",
+        "display" : "Suprax Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184868",
+        "display" : "Suprax Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184869",
+        "display" : "Suprax Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187828",
+        "display" : "Unasyn Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1297879",
+        "display" : "ceftibuten dihydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1299048",
+        "display" : "hetacillin potassium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1306064",
+        "display" : "cefdinir monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1372998",
+        "display" : "cefixime Oral Capsule [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1372999",
+        "display" : "cefixime 400 MG Oral Capsule [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1373013",
+        "display" : "cefixime 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1373014",
+        "display" : "cefixime 100 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1545984",
+        "display" : "ceftazidime anhydrous"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1546021",
+        "display" : "cefixime anhydrous"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603837",
+        "display" : "avibactam / ceftazidime Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603839",
+        "display" : "avibactam / ceftazidime"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603840",
+        "display" : "avibactam 500 MG / ceftazidime 2000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603841",
+        "display" : "Avycaz"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603844",
+        "display" : "Avycaz Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1603845",
+        "display" : "avibactam 500 MG / ceftazidime 2000 MG Injection [Avycaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656311",
+        "display" : "cefotaxime 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656312",
+        "display" : "cefotaxime Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656313",
+        "display" : "cefotaxime 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656314",
+        "display" : "cefotaxime 1000 MG [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656315",
+        "display" : "cefotaxime Injection [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656316",
+        "display" : "cefotaxime 1000 MG Injection [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656317",
+        "display" : "cefotaxime 2000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656318",
+        "display" : "cefotaxime 2000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656319",
+        "display" : "cefotaxime 2000 MG [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656320",
+        "display" : "cefotaxime 2000 MG Injection [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1656671",
+        "display" : "cefotaxime 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659276",
+        "display" : "ceftazidime 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659277",
+        "display" : "ceftazidime Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659278",
+        "display" : "ceftazidime 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659279",
+        "display" : "ceftazidime 500 MG [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659280",
+        "display" : "ceftazidime Injection [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659281",
+        "display" : "ceftazidime 500 MG Injection [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659282",
+        "display" : "ceftazidime 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659283",
+        "display" : "ceftazidime 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659284",
+        "display" : "ceftazidime 1000 MG [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659285",
+        "display" : "ceftazidime 1000 MG Injection [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659286",
+        "display" : "ceftazidime 2000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659287",
+        "display" : "ceftazidime 2000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659288",
+        "display" : "ceftazidime 2000 MG [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659289",
+        "display" : "ceftazidime 2000 MG Injection [Fortaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659290",
+        "display" : "ceftazidime 1000 MG [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659291",
+        "display" : "ceftazidime Injection [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659292",
+        "display" : "ceftazidime 1000 MG Injection [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659293",
+        "display" : "ceftazidime 2000 MG [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659294",
+        "display" : "ceftazidime 2000 MG Injection [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659591",
+        "display" : "ampicillin / sulbactam Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659592",
+        "display" : "ampicillin 1000 MG / sulbactam 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659593",
+        "display" : "ampicillin 1000 MG / sulbactam 500 MG [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659594",
+        "display" : "ampicillin / sulbactam Injection [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659595",
+        "display" : "ampicillin 1000 MG / sulbactam 500 MG Injection [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659596",
+        "display" : "ampicillin 2000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659597",
+        "display" : "sulbactam 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659598",
+        "display" : "ampicillin 2000 MG / sulbactam 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659599",
+        "display" : "ampicillin 2000 MG / sulbactam 1000 MG [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659600",
+        "display" : "ampicillin 2000 MG / sulbactam 1000 MG Injection [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "166010",
+        "display" : "sulbactam pivoxyl"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1664991",
+        "display" : "ceftriaxone 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1664992",
+        "display" : "ceftriaxone Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665004",
+        "display" : "ceftriaxone 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665005",
+        "display" : "ceftriaxone 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665020",
+        "display" : "ceftriaxone 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665021",
+        "display" : "ceftriaxone 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665045",
+        "display" : "ceftriaxone 2000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665046",
+        "display" : "ceftriaxone 2000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718938",
+        "display" : "avibactam / ceftazidime Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718940",
+        "display" : "avibactam 500 MG / ceftazidime 2000 MG [Avycaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718941",
+        "display" : "avibactam / ceftazidime Injection [Avycaz]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1721470",
+        "display" : "ampicillin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1721473",
+        "display" : "ampicillin 250 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1721474",
+        "display" : "ampicillin 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1721475",
+        "display" : "ampicillin 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1721476",
+        "display" : "ampicillin 2000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1747114",
+        "display" : "cefotaxime 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1747120",
+        "display" : "cefotaxime 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1747121",
+        "display" : "50 ML cefotaxime 40 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1863365",
+        "display" : "rifampin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1863367",
+        "display" : "rifampin 600 MG [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1863368",
+        "display" : "rifampin Injection [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "196499",
+        "display" : "Suprax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197450",
+        "display" : "cefixime 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197451",
+        "display" : "cefixime 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197463",
+        "display" : "chloramphenicol 250 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198201",
+        "display" : "rifampin 150 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198202",
+        "display" : "rifampin 300 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198203",
+        "display" : "isoniazid 150 MG / rifampin 300 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198384",
+        "display" : "isoniazid 50 MG / pyrazinamide 300 MG / rifampin 120 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199755",
+        "display" : "isoniazid 100 MG / rifampin 150 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199756",
+        "display" : "isoniazid 150 MG / rifampin 300 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199802",
+        "display" : "rifampin 450 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "200346",
+        "display" : "cefdinir 300 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "201867",
+        "display" : "rifampin 150 MG Oral Capsule [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "201868",
+        "display" : "rifampin 300 MG Oral Capsule [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202953",
+        "display" : "Rifadin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203115",
+        "display" : "ampicillin trihydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203117",
+        "display" : "cefotaxime sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203172",
+        "display" : "ceftriaxone sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203421",
+        "display" : "Fortaz"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203422",
+        "display" : "Tazicef"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203573",
+        "display" : "Claforan"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "204699",
+        "display" : "chloramphenicol 5 MG/ML Otic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "20489",
+        "display" : "cefpodoxime"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "20492",
+        "display" : "ceftibuten"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "205843",
+        "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML Injectable Solution [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "206423",
+        "display" : "ceftazidime 200 MG/ML Injectable Solution [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "207436",
+        "display" : "rifampin 600 MG Injection [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "20767",
+        "display" : "chloramphenicol palmitate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "20768",
+        "display" : "chloramphenicol stearate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "20769",
+        "display" : "chloramphenicol succinate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "214233",
+        "display" : "ampicillin / probenecid"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "214662",
+        "display" : "isoniazid / pyrazinamide / rifampin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2184",
+        "display" : "cefoperazone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2186",
+        "display" : "cefotaxime"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2191",
+        "display" : "ceftazidime"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2193",
+        "display" : "ceftriaxone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "221058",
+        "display" : "ampicillin (anhydrous)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "221071",
+        "display" : "ceftazidime sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "227214",
+        "display" : "cefoperazone sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2348",
+        "display" : "chloramphenicol"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "235552",
+        "display" : "ceftazidime pentahydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "239200",
+        "display" : "chloramphenicol 100 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "240447",
+        "display" : "ceftazidime 250 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "240572",
+        "display" : "isoniazid / pyrazinamide / rifampin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "240984",
+        "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "242800",
+        "display" : "ceftazidime 200 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "245581",
+        "display" : "chloramphenicol 2.5 MG/ML Ophthalmic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "246297",
+        "display" : "rifampin 20 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250156",
+        "display" : "cefpodoxime 8 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "25033",
+        "display" : "cefixime"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "25037",
+        "display" : "cefdinir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250463",
+        "display" : "ampicillin 250 MG / floxacillin 250 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250652",
+        "display" : "chloramphenicol 100 MG/ML Otic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250653",
+        "display" : "chloramphenicol 50 MG/ML Otic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "251704",
+        "display" : "chloramphenicol 0.01 MG/MG Topical Ointment"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2573160",
+        "display" : "durlobactam / sulbactam"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647462",
+        "display" : "ampicillin / diclofenac sodium Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648668",
+        "display" : "ampicillin / diclofenac sodium Delayed Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2657902",
+        "display" : "cefditoren pivoxil Oral Tablet [Spectracef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661521",
+        "display" : "ampicillin / diclofenac sodium Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663034",
+        "display" : "ampicillin / diclofenac sodium Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665010",
+        "display" : "durlobactam / sulbactam Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665011",
+        "display" : "durlobactam / sulbactam Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665012",
+        "display" : "durlobactam 1000 MG / sulbactam 1000 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665013",
+        "display" : "Xacduro"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665014",
+        "display" : "durlobactam 1000 MG / sulbactam 1000 MG [Xacduro]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665015",
+        "display" : "Xacduro Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665016",
+        "display" : "durlobactam / sulbactam Injection [Xacduro]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2665017",
+        "display" : "durlobactam 1000 MG / sulbactam 1000 MG Injection [Xacduro]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "304885",
+        "display" : "Spectracef"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "308207",
+        "display" : "ampicillin 125 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "308210",
+        "display" : "ampicillin 50 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "308212",
+        "display" : "ampicillin 500 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309054",
+        "display" : "cefdinir 25 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309058",
+        "display" : "cefixime 20 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309065",
+        "display" : "cefotaxime 200 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309068",
+        "display" : "cefotaxime 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309076",
+        "display" : "cefpodoxime 100 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309077",
+        "display" : "cefpodoxime 20 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309078",
+        "display" : "cefpodoxime 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309079",
+        "display" : "cefpodoxime 10 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309085",
+        "display" : "ceftibuten 36 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309086",
+        "display" : "ceftibuten 400 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309087",
+        "display" : "ceftibuten 18 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309090",
+        "display" : "ceftriaxone 100 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309092",
+        "display" : "ceftriaxone 250 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309172",
+        "display" : "chloramphenicol 0.01 MG/MG Ophthalmic Ointment"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "309174",
+        "display" : "chloramphenicol 5 MG/ML Ophthalmic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312821",
+        "display" : "rifampin 600 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313799",
+        "display" : "ampicillin 25 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313800",
+        "display" : "ampicillin 250 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315375",
+        "display" : "ampicillin 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315376",
+        "display" : "ampicillin 25 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315378",
+        "display" : "ampicillin 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315594",
+        "display" : "cefdinir 25 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315595",
+        "display" : "cefdinir 300 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315596",
+        "display" : "cefixime 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315597",
+        "display" : "cefixime 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316641",
+        "display" : "rifampin 150 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316642",
+        "display" : "rifampin 300 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317623",
+        "display" : "cefixime 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "323964",
+        "display" : "rifampin 600 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "323980",
+        "display" : "chloramphenicol 5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328304",
+        "display" : "ampicillin 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328305",
+        "display" : "ampicillin 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328307",
+        "display" : "ampicillin 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328311",
+        "display" : "ampicillin 125 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328312",
+        "display" : "sulbactam 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328975",
+        "display" : "ceftibuten 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328976",
+        "display" : "ceftibuten 18 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328980",
+        "display" : "chloramphenicol 0.01 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "329657",
+        "display" : "cefpodoxime 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "329658",
+        "display" : "cefpodoxime 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330672",
+        "display" : "cefpodoxime 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330673",
+        "display" : "cefpodoxime 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330674",
+        "display" : "ceftibuten 36 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "331065",
+        "display" : "sulbactam 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "331186",
+        "display" : "chloramphenicol 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "331345",
+        "display" : "cefpodoxime 8 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332756",
+        "display" : "chloramphenicol 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "333249",
+        "display" : "rifampin 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "333250",
+        "display" : "rifampin 450 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "333634",
+        "display" : "chloramphenicol 2.5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "333636",
+        "display" : "chloramphenicol 25 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335921",
+        "display" : "rifampin 120 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "336212",
+        "display" : "ceftazidime 200 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "337560",
+        "display" : "ceftriaxone 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343590",
+        "display" : "cefotaxime 200 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "346219",
+        "display" : "ceftazidime 250 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "351127",
+        "display" : "cefditoren pivoxil 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "358772",
+        "display" : "cefditoren pivoxil 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362554",
+        "display" : "ampicillin / sulbactam Injectable Solution [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362884",
+        "display" : "cefotaxime Injectable Solution [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "366732",
+        "display" : "rifampin Oral Capsule [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "369490",
+        "display" : "cefditoren Oral Tablet [Spectracef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370500",
+        "display" : "chloramphenicol Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370584",
+        "display" : "ampicillin Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370585",
+        "display" : "ampicillin Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370586",
+        "display" : "ampicillin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370900",
+        "display" : "ampicillin / probenecid Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370903",
+        "display" : "ampicillin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370909",
+        "display" : "ampicillin / floxacillin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371325",
+        "display" : "cefdinir Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371326",
+        "display" : "cefdinir Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371327",
+        "display" : "cefixime Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371328",
+        "display" : "cefixime Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371331",
+        "display" : "cefotaxime Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371333",
+        "display" : "cefpodoxime Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371334",
+        "display" : "cefpodoxime Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371337",
+        "display" : "ceftazidime Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371338",
+        "display" : "ceftibuten Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371339",
+        "display" : "ceftibuten Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371376",
+        "display" : "chloramphenicol Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371377",
+        "display" : "chloramphenicol Ophthalmic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371378",
+        "display" : "chloramphenicol Otic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371379",
+        "display" : "chloramphenicol Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371380",
+        "display" : "chloramphenicol Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372508",
+        "display" : "isoniazid / rifampin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372509",
+        "display" : "isoniazid / rifampin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373781",
+        "display" : "rifampin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373783",
+        "display" : "rifampin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "376593",
+        "display" : "ceftriaxone Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "376647",
+        "display" : "rifampin Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "376673",
+        "display" : "ampicillin / sulbactam Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377640",
+        "display" : "chloramphenicol Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "393150",
+        "display" : "chloramphenicol Topical Ointment"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "409823",
+        "display" : "cefixime 400 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "419849",
+        "display" : "cefixime 40 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "433775",
+        "display" : "rifampin 150 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "438392",
+        "display" : "cefixime Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "438393",
+        "display" : "cefixime 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476576",
+        "display" : "cefdinir 50 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476577",
+        "display" : "cefdinir 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "47835",
+        "display" : "cefpodoxime proxetil"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "47998",
+        "display" : "chloramphenicol sodium succinate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "484948",
+        "display" : "cefditoren Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563142",
+        "display" : "rifampin 300 MG [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563953",
+        "display" : "cefotaxime 200 MG/ML [Claforan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563971",
+        "display" : "cefixime 20 MG/ML [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "566037",
+        "display" : "rifampin 150 MG [Rifadin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "566732",
+        "display" : "ampicillin 100 MG/ML / sulbactam 50 MG/ML [Unasyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "567261",
+        "display" : "ceftazidime 200 MG/ML [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573772",
+        "display" : "cefixime 400 MG [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "57773",
+        "display" : "Unasyn"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "581573",
+        "display" : "cefixime Oral Suspension [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "581574",
+        "display" : "cefixime 20 MG/ML Oral Suspension [Suprax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "689288",
+        "display" : "chloramphenicol / hydrocortisone / polymyxin B"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "72611",
+        "display" : "cefditoren pivoxil"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "733",
+        "display" : "ampicillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "789980",
+        "display" : "ampicillin 100 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "814321",
+        "display" : "ethambutol / isoniazid / rifampin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "815833",
+        "display" : "chloramphenicol / dexamethasone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "818205",
+        "display" : "rifampin / trimethoprim"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "81953",
+        "display" : "ampicillin sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "82100",
+        "display" : "sulbactam sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "83682",
+        "display" : "cefditoren"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "847359",
+        "display" : "cefditoren pivoxil 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "847360",
+        "display" : "cefditoren pivoxil 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "847361",
+        "display" : "cefditoren pivoxil 400 MG [Spectracef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "847362",
+        "display" : "cefditoren pivoxil 400 MG Oral Tablet [Spectracef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "9384",
+        "display" : "rifampin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "94251",
+        "display" : "ceftazidime Injectable Solution [Tazicef]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "95104",
+        "display" : "chloramphenicol Ophthalmic Ointment"
+      }
+    ]
+  }
+}

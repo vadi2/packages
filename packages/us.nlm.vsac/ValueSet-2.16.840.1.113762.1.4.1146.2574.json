@@ -1,0 +1,93 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2574",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common,MCADD"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2574",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2574"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "MediumChainAcylCoADehydrogenaseDeficiencyTestsForAcylcarnitineC8Quantitative",
+  "title" : "Medium chain Acyl CoA Dehydrogenase Deficiency (Tests for Acylcarnitine C8 [Quantitative])",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Acylcarnitine C8 [Quantitative] in an unspecified specimen),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Acylcarnitine C8 [Quantitative]),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "30540-9",
+            "display" : "Octanoylcarnitine (C8) [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "53175-6",
+            "display" : "Octanoylcarnitine (C8) [Moles/volume] in DBS"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2d4d1437-3189-4fb3-b074-5e830e065ed0",
+    "timestamp" : "2025-11-24T13:29:28-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "30540-9",
+        "display" : "Octanoylcarnitine (C8) [Moles/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "53175-6",
+        "display" : "Octanoylcarnitine (C8) [Moles/volume] in DBS"
+      }
+    ]
+  }
+}

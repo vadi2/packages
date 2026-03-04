@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2700",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2700",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2700"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "IncarcerationSNOMED",
+  "title" : "Incarceration (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The value set contains concepts that denote individuals being incarcerated or detained),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: incarceration),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "105568001",
+            "display" : "In prison (finding)"
+          },
+          {
+            "code" : "160832006",
+            "display" : "On remand (finding)"
+          },
+          {
+            "code" : "224338007",
+            "display" : "In police custody (finding)"
+          },
+          {
+            "code" : "228128002",
+            "display" : "Child on remand (finding)"
+          },
+          {
+            "code" : "276092001",
+            "display" : "Arrested in police custody (finding)"
+          },
+          {
+            "code" : "45361006",
+            "display" : "Imprisonment (finding)"
+          },
+          {
+            "code" : "746003004",
+            "display" : "Under care of prison service (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:40735997-5ffc-4add-84ce-a5c509d02ba0",
+    "timestamp" : "2025-11-24T13:35:01-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105568001",
+        "display" : "In prison (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "160832006",
+        "display" : "On remand (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224338007",
+        "display" : "In police custody (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228128002",
+        "display" : "Child on remand (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276092001",
+        "display" : "Arrested in police custody (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45361006",
+        "display" : "Imprisonment (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "746003004",
+        "display" : "Under care of prison service (finding)"
+      }
+    ]
+  }
+}

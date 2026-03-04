@@ -1,0 +1,1153 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2804",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2804",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2804"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "InfectiveArthritisICD10CM",
+  "title" : "Infective Arthritis (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Infective Arthritis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Infective Arthritis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "M00.80",
+            "display" : "Arthritis due to other bacteria, unspecified joint"
+          },
+          {
+            "code" : "M00.811",
+            "display" : "Arthritis due to other bacteria, right shoulder"
+          },
+          {
+            "code" : "M00.812",
+            "display" : "Arthritis due to other bacteria, left shoulder"
+          },
+          {
+            "code" : "M00.819",
+            "display" : "Arthritis due to other bacteria, unspecified shoulder"
+          },
+          {
+            "code" : "M00.821",
+            "display" : "Arthritis due to other bacteria, right elbow"
+          },
+          {
+            "code" : "M00.822",
+            "display" : "Arthritis due to other bacteria, left elbow"
+          },
+          {
+            "code" : "M00.829",
+            "display" : "Arthritis due to other bacteria, unspecified elbow"
+          },
+          {
+            "code" : "M00.831",
+            "display" : "Arthritis due to other bacteria, right wrist"
+          },
+          {
+            "code" : "M00.832",
+            "display" : "Arthritis due to other bacteria, left wrist"
+          },
+          {
+            "code" : "M00.839",
+            "display" : "Arthritis due to other bacteria, unspecified wrist"
+          },
+          {
+            "code" : "M00.841",
+            "display" : "Arthritis due to other bacteria, right hand"
+          },
+          {
+            "code" : "M00.842",
+            "display" : "Arthritis due to other bacteria, left hand"
+          },
+          {
+            "code" : "M00.849",
+            "display" : "Arthritis due to other bacteria, unspecified hand"
+          },
+          {
+            "code" : "M00.851",
+            "display" : "Arthritis due to other bacteria, right hip"
+          },
+          {
+            "code" : "M00.852",
+            "display" : "Arthritis due to other bacteria, left hip"
+          },
+          {
+            "code" : "M00.859",
+            "display" : "Arthritis due to other bacteria, unspecified hip"
+          },
+          {
+            "code" : "M00.861",
+            "display" : "Arthritis due to other bacteria, right knee"
+          },
+          {
+            "code" : "M00.862",
+            "display" : "Arthritis due to other bacteria, left knee"
+          },
+          {
+            "code" : "M00.869",
+            "display" : "Arthritis due to other bacteria, unspecified knee"
+          },
+          {
+            "code" : "M00.871",
+            "display" : "Arthritis due to other bacteria, right ankle and foot"
+          },
+          {
+            "code" : "M00.872",
+            "display" : "Arthritis due to other bacteria, left ankle and foot"
+          },
+          {
+            "code" : "M00.879",
+            "display" : "Arthritis due to other bacteria, unspecified ankle and foot"
+          },
+          {
+            "code" : "M00.88",
+            "display" : "Arthritis due to other bacteria, vertebrae"
+          },
+          {
+            "code" : "M00.89",
+            "display" : "Polyarthritis due to other bacteria"
+          },
+          {
+            "code" : "M00.9",
+            "display" : "Pyogenic arthritis, unspecified"
+          },
+          {
+            "code" : "M01.X0",
+            "display" : "Direct infection of unspecified joint in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X11",
+            "display" : "Direct infection of right shoulder in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X12",
+            "display" : "Direct infection of left shoulder in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X19",
+            "display" : "Direct infection of unspecified shoulder in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X21",
+            "display" : "Direct infection of right elbow in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X22",
+            "display" : "Direct infection of left elbow in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X29",
+            "display" : "Direct infection of unspecified elbow in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X31",
+            "display" : "Direct infection of right wrist in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X32",
+            "display" : "Direct infection of left wrist in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X39",
+            "display" : "Direct infection of unspecified wrist in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X41",
+            "display" : "Direct infection of right hand in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X42",
+            "display" : "Direct infection of left hand in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X49",
+            "display" : "Direct infection of unspecified hand in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X51",
+            "display" : "Direct infection of right hip in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X52",
+            "display" : "Direct infection of left hip in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X59",
+            "display" : "Direct infection of unspecified hip in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X61",
+            "display" : "Direct infection of right knee in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X62",
+            "display" : "Direct infection of left knee in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X69",
+            "display" : "Direct infection of unspecified knee in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X71",
+            "display" : "Direct infection of right ankle and foot in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X72",
+            "display" : "Direct infection of left ankle and foot in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X79",
+            "display" : "Direct infection of unspecified ankle and foot in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X8",
+            "display" : "Direct infection of vertebrae in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M01.X9",
+            "display" : "Direct infection of multiple joints in infectious and parasitic diseases classified elsewhere"
+          },
+          {
+            "code" : "M02.30",
+            "display" : "Reiter's disease, unspecified site"
+          },
+          {
+            "code" : "M02.311",
+            "display" : "Reiter's disease, right shoulder"
+          },
+          {
+            "code" : "M02.312",
+            "display" : "Reiter's disease, left shoulder"
+          },
+          {
+            "code" : "M02.319",
+            "display" : "Reiter's disease, unspecified shoulder"
+          },
+          {
+            "code" : "M02.321",
+            "display" : "Reiter's disease, right elbow"
+          },
+          {
+            "code" : "M02.322",
+            "display" : "Reiter's disease, left elbow"
+          },
+          {
+            "code" : "M02.329",
+            "display" : "Reiter's disease, unspecified elbow"
+          },
+          {
+            "code" : "M02.331",
+            "display" : "Reiter's disease, right wrist"
+          },
+          {
+            "code" : "M02.332",
+            "display" : "Reiter's disease, left wrist"
+          },
+          {
+            "code" : "M02.339",
+            "display" : "Reiter's disease, unspecified wrist"
+          },
+          {
+            "code" : "M02.341",
+            "display" : "Reiter's disease, right hand"
+          },
+          {
+            "code" : "M02.342",
+            "display" : "Reiter's disease, left hand"
+          },
+          {
+            "code" : "M02.349",
+            "display" : "Reiter's disease, unspecified hand"
+          },
+          {
+            "code" : "M02.351",
+            "display" : "Reiter's disease, right hip"
+          },
+          {
+            "code" : "M02.352",
+            "display" : "Reiter's disease, left hip"
+          },
+          {
+            "code" : "M02.359",
+            "display" : "Reiter's disease, unspecified hip"
+          },
+          {
+            "code" : "M02.361",
+            "display" : "Reiter's disease, right knee"
+          },
+          {
+            "code" : "M02.362",
+            "display" : "Reiter's disease, left knee"
+          },
+          {
+            "code" : "M02.369",
+            "display" : "Reiter's disease, unspecified knee"
+          },
+          {
+            "code" : "M02.371",
+            "display" : "Reiter's disease, right ankle and foot"
+          },
+          {
+            "code" : "M02.372",
+            "display" : "Reiter's disease, left ankle and foot"
+          },
+          {
+            "code" : "M02.379",
+            "display" : "Reiter's disease, unspecified ankle and foot"
+          },
+          {
+            "code" : "M02.38",
+            "display" : "Reiter's disease, vertebrae"
+          },
+          {
+            "code" : "M02.39",
+            "display" : "Reiter's disease, multiple sites"
+          },
+          {
+            "code" : "M02.80",
+            "display" : "Other reactive arthropathies, unspecified site"
+          },
+          {
+            "code" : "M02.811",
+            "display" : "Other reactive arthropathies, right shoulder"
+          },
+          {
+            "code" : "M02.812",
+            "display" : "Other reactive arthropathies, left shoulder"
+          },
+          {
+            "code" : "M02.819",
+            "display" : "Other reactive arthropathies, unspecified shoulder"
+          },
+          {
+            "code" : "M02.821",
+            "display" : "Other reactive arthropathies, right elbow"
+          },
+          {
+            "code" : "M02.822",
+            "display" : "Other reactive arthropathies, left elbow"
+          },
+          {
+            "code" : "M02.829",
+            "display" : "Other reactive arthropathies, unspecified elbow"
+          },
+          {
+            "code" : "M02.831",
+            "display" : "Other reactive arthropathies, right wrist"
+          },
+          {
+            "code" : "M02.832",
+            "display" : "Other reactive arthropathies, left wrist"
+          },
+          {
+            "code" : "M02.839",
+            "display" : "Other reactive arthropathies, unspecified wrist"
+          },
+          {
+            "code" : "M02.841",
+            "display" : "Other reactive arthropathies, right hand"
+          },
+          {
+            "code" : "M02.842",
+            "display" : "Other reactive arthropathies, left hand"
+          },
+          {
+            "code" : "M02.849",
+            "display" : "Other reactive arthropathies, unspecified hand"
+          },
+          {
+            "code" : "M02.851",
+            "display" : "Other reactive arthropathies, right hip"
+          },
+          {
+            "code" : "M02.852",
+            "display" : "Other reactive arthropathies, left hip"
+          },
+          {
+            "code" : "M02.859",
+            "display" : "Other reactive arthropathies, unspecified hip"
+          },
+          {
+            "code" : "M02.861",
+            "display" : "Other reactive arthropathies, right knee"
+          },
+          {
+            "code" : "M02.862",
+            "display" : "Other reactive arthropathies, left knee"
+          },
+          {
+            "code" : "M02.869",
+            "display" : "Other reactive arthropathies, unspecified knee"
+          },
+          {
+            "code" : "M02.871",
+            "display" : "Other reactive arthropathies, right ankle and foot"
+          },
+          {
+            "code" : "M02.872",
+            "display" : "Other reactive arthropathies, left ankle and foot"
+          },
+          {
+            "code" : "M02.879",
+            "display" : "Other reactive arthropathies, unspecified ankle and foot"
+          },
+          {
+            "code" : "M02.88",
+            "display" : "Other reactive arthropathies, vertebrae"
+          },
+          {
+            "code" : "M02.89",
+            "display" : "Other reactive arthropathies, multiple sites"
+          },
+          {
+            "code" : "M02.9",
+            "display" : "Reactive arthropathy, unspecified"
+          },
+          {
+            "code" : "M46.50",
+            "display" : "Other infective spondylopathies, site unspecified"
+          },
+          {
+            "code" : "M46.51",
+            "display" : "Other infective spondylopathies, occipito-atlanto-axial region"
+          },
+          {
+            "code" : "M46.52",
+            "display" : "Other infective spondylopathies, cervical region"
+          },
+          {
+            "code" : "M46.53",
+            "display" : "Other infective spondylopathies, cervicothoracic region"
+          },
+          {
+            "code" : "M46.54",
+            "display" : "Other infective spondylopathies, thoracic region"
+          },
+          {
+            "code" : "M46.55",
+            "display" : "Other infective spondylopathies, thoracolumbar region"
+          },
+          {
+            "code" : "M46.56",
+            "display" : "Other infective spondylopathies, lumbar region"
+          },
+          {
+            "code" : "M46.57",
+            "display" : "Other infective spondylopathies, lumbosacral region"
+          },
+          {
+            "code" : "M46.58",
+            "display" : "Other infective spondylopathies, sacral and sacrococcygeal region"
+          },
+          {
+            "code" : "M46.59",
+            "display" : "Other infective spondylopathies, multiple sites in spine"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:6555dcf4-e27a-40ec-8181-265ca74b505c",
+    "timestamp" : "2025-11-24T13:38:43-05:00",
+    "total" : 108,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.80",
+        "display" : "Arthritis due to other bacteria, unspecified joint"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.811",
+        "display" : "Arthritis due to other bacteria, right shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.812",
+        "display" : "Arthritis due to other bacteria, left shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.819",
+        "display" : "Arthritis due to other bacteria, unspecified shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.821",
+        "display" : "Arthritis due to other bacteria, right elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.822",
+        "display" : "Arthritis due to other bacteria, left elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.829",
+        "display" : "Arthritis due to other bacteria, unspecified elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.831",
+        "display" : "Arthritis due to other bacteria, right wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.832",
+        "display" : "Arthritis due to other bacteria, left wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.839",
+        "display" : "Arthritis due to other bacteria, unspecified wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.841",
+        "display" : "Arthritis due to other bacteria, right hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.842",
+        "display" : "Arthritis due to other bacteria, left hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.849",
+        "display" : "Arthritis due to other bacteria, unspecified hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.851",
+        "display" : "Arthritis due to other bacteria, right hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.852",
+        "display" : "Arthritis due to other bacteria, left hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.859",
+        "display" : "Arthritis due to other bacteria, unspecified hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.861",
+        "display" : "Arthritis due to other bacteria, right knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.862",
+        "display" : "Arthritis due to other bacteria, left knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.869",
+        "display" : "Arthritis due to other bacteria, unspecified knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.871",
+        "display" : "Arthritis due to other bacteria, right ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.872",
+        "display" : "Arthritis due to other bacteria, left ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.879",
+        "display" : "Arthritis due to other bacteria, unspecified ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.88",
+        "display" : "Arthritis due to other bacteria, vertebrae"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.89",
+        "display" : "Polyarthritis due to other bacteria"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M00.9",
+        "display" : "Pyogenic arthritis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X0",
+        "display" : "Direct infection of unspecified joint in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X11",
+        "display" : "Direct infection of right shoulder in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X12",
+        "display" : "Direct infection of left shoulder in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X19",
+        "display" : "Direct infection of unspecified shoulder in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X21",
+        "display" : "Direct infection of right elbow in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X22",
+        "display" : "Direct infection of left elbow in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X29",
+        "display" : "Direct infection of unspecified elbow in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X31",
+        "display" : "Direct infection of right wrist in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X32",
+        "display" : "Direct infection of left wrist in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X39",
+        "display" : "Direct infection of unspecified wrist in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X41",
+        "display" : "Direct infection of right hand in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X42",
+        "display" : "Direct infection of left hand in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X49",
+        "display" : "Direct infection of unspecified hand in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X51",
+        "display" : "Direct infection of right hip in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X52",
+        "display" : "Direct infection of left hip in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X59",
+        "display" : "Direct infection of unspecified hip in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X61",
+        "display" : "Direct infection of right knee in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X62",
+        "display" : "Direct infection of left knee in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X69",
+        "display" : "Direct infection of unspecified knee in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X71",
+        "display" : "Direct infection of right ankle and foot in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X72",
+        "display" : "Direct infection of left ankle and foot in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X79",
+        "display" : "Direct infection of unspecified ankle and foot in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X8",
+        "display" : "Direct infection of vertebrae in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M01.X9",
+        "display" : "Direct infection of multiple joints in infectious and parasitic diseases classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.30",
+        "display" : "Reiter's disease, unspecified site"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.311",
+        "display" : "Reiter's disease, right shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.312",
+        "display" : "Reiter's disease, left shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.319",
+        "display" : "Reiter's disease, unspecified shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.321",
+        "display" : "Reiter's disease, right elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.322",
+        "display" : "Reiter's disease, left elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.329",
+        "display" : "Reiter's disease, unspecified elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.331",
+        "display" : "Reiter's disease, right wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.332",
+        "display" : "Reiter's disease, left wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.339",
+        "display" : "Reiter's disease, unspecified wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.341",
+        "display" : "Reiter's disease, right hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.342",
+        "display" : "Reiter's disease, left hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.349",
+        "display" : "Reiter's disease, unspecified hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.351",
+        "display" : "Reiter's disease, right hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.352",
+        "display" : "Reiter's disease, left hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.359",
+        "display" : "Reiter's disease, unspecified hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.361",
+        "display" : "Reiter's disease, right knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.362",
+        "display" : "Reiter's disease, left knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.369",
+        "display" : "Reiter's disease, unspecified knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.371",
+        "display" : "Reiter's disease, right ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.372",
+        "display" : "Reiter's disease, left ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.379",
+        "display" : "Reiter's disease, unspecified ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.38",
+        "display" : "Reiter's disease, vertebrae"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.39",
+        "display" : "Reiter's disease, multiple sites"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.80",
+        "display" : "Other reactive arthropathies, unspecified site"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.811",
+        "display" : "Other reactive arthropathies, right shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.812",
+        "display" : "Other reactive arthropathies, left shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.819",
+        "display" : "Other reactive arthropathies, unspecified shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.821",
+        "display" : "Other reactive arthropathies, right elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.822",
+        "display" : "Other reactive arthropathies, left elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.829",
+        "display" : "Other reactive arthropathies, unspecified elbow"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.831",
+        "display" : "Other reactive arthropathies, right wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.832",
+        "display" : "Other reactive arthropathies, left wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.839",
+        "display" : "Other reactive arthropathies, unspecified wrist"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.841",
+        "display" : "Other reactive arthropathies, right hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.842",
+        "display" : "Other reactive arthropathies, left hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.849",
+        "display" : "Other reactive arthropathies, unspecified hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.851",
+        "display" : "Other reactive arthropathies, right hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.852",
+        "display" : "Other reactive arthropathies, left hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.859",
+        "display" : "Other reactive arthropathies, unspecified hip"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.861",
+        "display" : "Other reactive arthropathies, right knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.862",
+        "display" : "Other reactive arthropathies, left knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.869",
+        "display" : "Other reactive arthropathies, unspecified knee"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.871",
+        "display" : "Other reactive arthropathies, right ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.872",
+        "display" : "Other reactive arthropathies, left ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.879",
+        "display" : "Other reactive arthropathies, unspecified ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.88",
+        "display" : "Other reactive arthropathies, vertebrae"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.89",
+        "display" : "Other reactive arthropathies, multiple sites"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M02.9",
+        "display" : "Reactive arthropathy, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.50",
+        "display" : "Other infective spondylopathies, site unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.51",
+        "display" : "Other infective spondylopathies, occipito-atlanto-axial region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.52",
+        "display" : "Other infective spondylopathies, cervical region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.53",
+        "display" : "Other infective spondylopathies, cervicothoracic region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.54",
+        "display" : "Other infective spondylopathies, thoracic region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.55",
+        "display" : "Other infective spondylopathies, thoracolumbar region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.56",
+        "display" : "Other infective spondylopathies, lumbar region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.57",
+        "display" : "Other infective spondylopathies, lumbosacral region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.58",
+        "display" : "Other infective spondylopathies, sacral and sacrococcygeal region"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M46.59",
+        "display" : "Other infective spondylopathies, multiple sites in spine"
+      }
+    ]
+  }
+}

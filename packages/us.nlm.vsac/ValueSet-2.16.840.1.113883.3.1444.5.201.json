@@ -1,0 +1,82 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.5.201",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-05-23"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2020-09-02"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.5.201",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.5.201"
+    }
+  ],
+  "version" : "20200902",
+  "name" : "Epirubicin",
+  "title" : "Epirubicin",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-09-02T01:00:24-04:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set contains concepts that represent the medication Epirubicin.),(Data Element Scope: This value set may use the Quality Data Model (QDM) category related to Medication.),(Inclusion Criteria: Includes only relevant concepts associated with semantic clinical drugs (concepts associated with component, form and strength); generic; prescribable; injectable Epirubicin.),(Exclusion Criteria: Excludes branded drugs; components or ingredients only; non-prescribable.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.200"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:92371316-4b97-46f4-81b3-6c8468c4b06a",
+    "timestamp" : "2025-11-24T18:16:25-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1732182",
+        "display" : "25 ML epirubicin hydrochloride 2 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1732186",
+        "display" : "100 ML epirubicin hydrochloride 2 MG/ML Injection"
+      }
+    ]
+  }
+}

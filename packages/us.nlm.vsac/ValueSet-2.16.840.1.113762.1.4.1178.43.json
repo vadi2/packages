@@ -1,0 +1,110 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1178.43",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "AHA Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-07-16"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1178.43",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1178.43"
+    }
+  ],
+  "version" : "20220716",
+  "name" : "SGLT2Ingredients",
+  "title" : "SGLT2 Ingredients",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-07-16T01:02:12-04:00",
+  "publisher" : "AHA Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for medications of sodium glucose co-transporter 2 (SGLT2) ingredients.),(Data Element Scope: This value set may use a model element related to Allergy/Intolerance.),(Inclusion Criteria: Includes concepts that represent an allergy or intolerance for prescribable sodium glucose co-transporter 2 (SGLT2) ingredients only.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1373458",
+            "display" : "canagliflozin"
+          },
+          {
+            "code" : "1488564",
+            "display" : "dapagliflozin"
+          },
+          {
+            "code" : "1545653",
+            "display" : "empagliflozin"
+          },
+          {
+            "code" : "1992672",
+            "display" : "ertugliflozin"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:99a00b16-85e9-49df-954e-efebe9be7dce",
+    "timestamp" : "2025-11-24T14:23:53-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1373458",
+        "display" : "canagliflozin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1488564",
+        "display" : "dapagliflozin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1545653",
+        "display" : "empagliflozin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1992672",
+        "display" : "ertugliflozin"
+      }
+    ]
+  }
+}

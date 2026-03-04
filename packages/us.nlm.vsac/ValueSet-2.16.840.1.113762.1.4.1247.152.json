@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.152",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2024-06-05T15:26:40.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-12"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-07-25"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.152",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.152"
+    }
+  ],
+  "version" : "20230725",
+  "name" : "MedicalCostBurdenDiagnosesSNOMEDCT",
+  "title" : "Medical Cost Burden Diagnoses SNOMED CT",
+  "status" : "active",
+  "date" : "2023-07-25T01:37:12-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent diagnoses for Medical Cost Burden as selected by the Gravity Project.),(Data Element Scope: In the FHIR Condition resource, these values may be used for Condition.code (e.g., for the SDOHCC Condition profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes SNOMED CT diagnoses for Medical Cost Burden as selected by the Gravity Project.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1184702004",
+            "display" : "Financial insecurity (finding)"
+          },
+          {
+            "code" : "671281000124103",
+            "display" : "Financial insecurity due to cost burden of medical expenses (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:03ec7a8c-e6cb-4b71-bf98-83a7a0c5a1ae",
+    "timestamp" : "2025-11-24T16:07:50-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1184702004",
+        "display" : "Financial insecurity (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "671281000124103",
+        "display" : "Financial insecurity due to cost burden of medical expenses (finding)"
+      }
+    ]
+  }
+}

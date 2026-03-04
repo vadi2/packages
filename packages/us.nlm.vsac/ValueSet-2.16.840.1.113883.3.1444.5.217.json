@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.5.217",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2024-07-03T01:06:58.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-08-07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-07-03"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.5.217",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.5.217"
+    }
+  ],
+  "version" : "20240703",
+  "name" : "TelehealthEmergencyDepartmentOrInitialInpatient",
+  "title" : "Telehealth Emergency Department or Initial Inpatient",
+  "status" : "active",
+  "date" : "2024-07-03T01:06:58-04:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set contains concepts that represent telehealth consultations in emergency department or for initial inpatient.),(Data Element Scope: This value set may use the Quality Data Model (QDM) category related to Encounter.),(Inclusion Criteria: Includes only relevant concepts associated with telehealth consultation in emergency department or for initial inpatient.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.113"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e6b65a34-5676-4a4c-9783-360195b63850",
+    "timestamp" : "2025-11-24T18:17:03-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G0425",
+        "display" : "Telehealth consultation, emergency department or initial inpatient, typically 30 minutes communicating with the patient via telehealth"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G0426",
+        "display" : "Telehealth consultation, emergency department or initial inpatient, typically 50 minutes communicating with the patient via telehealth"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G0427",
+        "display" : "Telehealth consultation, emergency department or initial inpatient, typically 70 minutes or more communicating with the patient via telehealth"
+      }
+    ]
+  }
+}

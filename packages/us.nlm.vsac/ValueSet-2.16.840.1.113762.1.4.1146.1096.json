@@ -1,0 +1,323 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1096",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2025-02-19T01:09:45.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-02-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-02-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1096",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1096"
+    }
+  ],
+  "version" : "20250219",
+  "name" : "DevelopmentalDelaySNOMED",
+  "title" : "Developmental delay (SNOMED)",
+  "status" : "active",
+  "date" : "2025-02-19T01:09:45-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has developmental delay regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Developmental delay),(Exclusion Criteria: Exclude codes that list multiple conditions and secondary disease.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "129815002",
+            "display" : "Delayed growth and development (finding)"
+          },
+          {
+            "code" : "18541000119100",
+            "display" : "Borderline cognitive developmental delay (disorder)"
+          },
+          {
+            "code" : "224958001",
+            "display" : "Global developmental delay (disorder)"
+          },
+          {
+            "code" : "229718005",
+            "display" : "Phonological delay (disorder)"
+          },
+          {
+            "code" : "229721007",
+            "display" : "Speech delay (disorder)"
+          },
+          {
+            "code" : "229734008",
+            "display" : "Expressive language delay (disorder)"
+          },
+          {
+            "code" : "229736005",
+            "display" : "Receptive language delay (disorder)"
+          },
+          {
+            "code" : "229740001",
+            "display" : "Delayed pre-verbal development (disorder)"
+          },
+          {
+            "code" : "248290002",
+            "display" : "Developmental delay (disorder)"
+          },
+          {
+            "code" : "425805004",
+            "display" : "Cognitive developmental delay (disorder)"
+          },
+          {
+            "code" : "426881004",
+            "display" : "Developmental delay in feeding (disorder)"
+          },
+          {
+            "code" : "430099007",
+            "display" : "Gross motor development delay (disorder)"
+          },
+          {
+            "code" : "447740001",
+            "display" : "Delay in physiological development (finding)"
+          },
+          {
+            "code" : "62211000119103",
+            "display" : "Moderate expressive language delay (disorder)"
+          },
+          {
+            "code" : "62221000119105",
+            "display" : "Severe expressive language delay (disorder)"
+          },
+          {
+            "code" : "62231000119108",
+            "display" : "Mild expressive language delay (disorder)"
+          },
+          {
+            "code" : "62415009",
+            "display" : "Delayed articulatory and language development (finding)"
+          },
+          {
+            "code" : "702528003",
+            "display" : "Developmental delay in receptive-expressive language (disorder)"
+          },
+          {
+            "code" : "703477003",
+            "display" : "Developmental delay in fine motor function (disorder)"
+          },
+          {
+            "code" : "703478008",
+            "display" : "Developmental delay in social skills (disorder)"
+          },
+          {
+            "code" : "870305003",
+            "display" : "Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language (disorder)"
+          },
+          {
+            "code" : "870308001",
+            "display" : "Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language (disorder)"
+          },
+          {
+            "code" : "89381000119107",
+            "display" : "Moderate receptive language delay (disorder)"
+          },
+          {
+            "code" : "89391000119105",
+            "display" : "Severe receptive language delay (disorder)"
+          },
+          {
+            "code" : "89501000119108",
+            "display" : "Mild receptive language delay (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c990d391-61fd-419e-a715-0a24c7343fd6",
+    "timestamp" : "2025-11-24T12:44:56-05:00",
+    "total" : 25,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "129815002",
+        "display" : "Delayed growth and development (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18541000119100",
+        "display" : "Borderline cognitive developmental delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224958001",
+        "display" : "Global developmental delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "229718005",
+        "display" : "Phonological delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "229721007",
+        "display" : "Speech delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "229734008",
+        "display" : "Expressive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "229736005",
+        "display" : "Receptive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "229740001",
+        "display" : "Delayed pre-verbal development (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "248290002",
+        "display" : "Developmental delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "425805004",
+        "display" : "Cognitive developmental delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426881004",
+        "display" : "Developmental delay in feeding (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430099007",
+        "display" : "Gross motor development delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447740001",
+        "display" : "Delay in physiological development (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62211000119103",
+        "display" : "Moderate expressive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62221000119105",
+        "display" : "Severe expressive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62231000119108",
+        "display" : "Mild expressive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62415009",
+        "display" : "Delayed articulatory and language development (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702528003",
+        "display" : "Developmental delay in receptive-expressive language (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703477003",
+        "display" : "Developmental delay in fine motor function (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703478008",
+        "display" : "Developmental delay in social skills (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "870305003",
+        "display" : "Pervasive developmental disorder with cognitive developmental delay and marked impairment of functional language (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "870308001",
+        "display" : "Pervasive developmental disorder with cognitive developmental delay and complete impairment of functional language (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89381000119107",
+        "display" : "Moderate receptive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89391000119105",
+        "display" : "Severe receptive language delay (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89501000119108",
+        "display" : "Mild receptive language delay (disorder)"
+      }
+    ]
+  }
+}

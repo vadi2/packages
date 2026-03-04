@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.192",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2024-07-09T01:07:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-07-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-07-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.192",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.192"
+    }
+  ],
+  "version" : "20240709",
+  "name" : "CancerStageIIA",
+  "title" : "Cancer Stage IIA",
+  "status" : "active",
+  "date" : "2024-07-09T01:07:16-04:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of cancer stage IIA.),(Data Element Scope: This value set may use a model element related to a component of or result of cancer staging Procedure or Laboratory Test.),(Inclusion Criteria: Includes concepts that represent cancer stage IIA.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1222766008",
+            "display" : "American Joint Committee on Cancer stage IIA (qualifier value)"
+          },
+          {
+            "code" : "261614003",
+            "display" : "Stage 2A (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3553ea77-3aa4-4090-9d15-b1bf87089fa7",
+    "timestamp" : "2025-11-24T12:34:32-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1222766008",
+        "display" : "American Joint Committee on Cancer stage IIA (qualifier value)"
+      }
+    ]
+  }
+}

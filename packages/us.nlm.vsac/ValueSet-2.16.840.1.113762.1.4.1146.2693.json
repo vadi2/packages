@@ -1,0 +1,423 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2693",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2693",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2693"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "Non_OpioidSubstanceAbuseDependenceAndOtherUseExcludingOverdoseAndPoisoningDisordersSNOMED",
+  "title" : "Non_Opioid Substance Abuse, Dependence, and Other Use [Excluding Overdose and Poisoning] (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has non-opioid substance abuse, dependence, and other use regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: non-opioid substance abuse, dependence, other use),(Exclusion Criteria: overdose, poisoning, alcohol, inhalants, nicotine)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1230071005",
+            "display" : "Episodic harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+          },
+          {
+            "code" : "1230072003",
+            "display" : "Amfetamine and/or amfetamine derivative abuse, continuous (disorder)"
+          },
+          {
+            "code" : "1230082002",
+            "display" : "Nondependent harmful pattern of use of psychostimulant in remission (disorder)"
+          },
+          {
+            "code" : "1230084001",
+            "display" : "Continuous nondependent harmful pattern of use of psychostimulant (disorder)"
+          },
+          {
+            "code" : "1230085000",
+            "display" : "Continuous nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+          },
+          {
+            "code" : "1230086004",
+            "display" : "Episodic nondependent harmful pattern of use of psychostimulant (disorder)"
+          },
+          {
+            "code" : "1230087008",
+            "display" : "Episodic nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+          },
+          {
+            "code" : "1230088003",
+            "display" : "Nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+          },
+          {
+            "code" : "1230089006",
+            "display" : "Nondependent harmful pattern of use of psychostimulant (disorder)"
+          },
+          {
+            "code" : "125851000119106",
+            "display" : "Continuous sedative abuse (disorder)"
+          },
+          {
+            "code" : "1336239003",
+            "display" : "Harmful pattern of use of methylenedioxymethamphetamine (disorder)"
+          },
+          {
+            "code" : "1344922008",
+            "display" : "Harmful pattern of use of ketamine (disorder)"
+          },
+          {
+            "code" : "144981000119109",
+            "display" : "Nondependent intravenous amphetamine abuse (disorder)"
+          },
+          {
+            "code" : "145101000119102",
+            "display" : "Harmful pattern of use of intravenous cocaine (disorder)"
+          },
+          {
+            "code" : "145841000119107",
+            "display" : "Episodic harmful pattern of use of phencyclidine (disorder)"
+          },
+          {
+            "code" : "191891003",
+            "display" : "Nondependent harmful pattern of use of cannabis (disorder)"
+          },
+          {
+            "code" : "191893000",
+            "display" : "Continuous nondependent harmful pattern of use of cannabis (disorder)"
+          },
+          {
+            "code" : "191894006",
+            "display" : "Episodic nondependent harmful pattern of use of cannabis (disorder)"
+          },
+          {
+            "code" : "191916008",
+            "display" : "Nondependent harmful pattern of use of cocaine (disorder)"
+          },
+          {
+            "code" : "191918009",
+            "display" : "Continuous nondependent harmful pattern of use of cocaine (disorder)"
+          },
+          {
+            "code" : "191919001",
+            "display" : "Episodic nondependent harmful pattern of use of cocaine (disorder)"
+          },
+          {
+            "code" : "191928000",
+            "display" : "Harmful pattern of use of antidepressant (disorder)"
+          },
+          {
+            "code" : "34111000119108",
+            "display" : "Nondependent amphetamine abuse (disorder)"
+          },
+          {
+            "code" : "37344009",
+            "display" : "Harmful pattern of use of cannabis (disorder)"
+          },
+          {
+            "code" : "425885002",
+            "display" : "Continuous harmful pattern of use of phencyclidine (disorder)"
+          },
+          {
+            "code" : "441527004",
+            "display" : "Harmful pattern of use of stimulant (disorder)"
+          },
+          {
+            "code" : "64386003",
+            "display" : "Harmful pattern of use of sedative (disorder)"
+          },
+          {
+            "code" : "699449003",
+            "display" : "Harmful pattern of use of metamfetamine (disorder)"
+          },
+          {
+            "code" : "7071007",
+            "display" : "Harmful pattern of use of phencyclidine (disorder)"
+          },
+          {
+            "code" : "737336003",
+            "display" : "Harmful pattern of use of synthetic cannabinoid (disorder)"
+          },
+          {
+            "code" : "74851005",
+            "display" : "Harmful pattern of use of hallucinogen (disorder)"
+          },
+          {
+            "code" : "762504005",
+            "display" : "Harmful pattern of use of synthetic cathinone (disorder)"
+          },
+          {
+            "code" : "78267003",
+            "display" : "Harmful pattern of use of cocaine (disorder)"
+          },
+          {
+            "code" : "785277001",
+            "display" : "Harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+          },
+          {
+            "code" : "91388009",
+            "display" : "Harmful pattern of use of psychoactive substance (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c4d5b6b8-84c6-4ac1-be7f-122940b5db02",
+    "timestamp" : "2025-11-24T13:34:41-05:00",
+    "total" : 35,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230071005",
+        "display" : "Episodic harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230072003",
+        "display" : "Amfetamine and/or amfetamine derivative abuse, continuous (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230082002",
+        "display" : "Nondependent harmful pattern of use of psychostimulant in remission (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230084001",
+        "display" : "Continuous nondependent harmful pattern of use of psychostimulant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230085000",
+        "display" : "Continuous nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230086004",
+        "display" : "Episodic nondependent harmful pattern of use of psychostimulant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230087008",
+        "display" : "Episodic nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230088003",
+        "display" : "Nondependent harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230089006",
+        "display" : "Nondependent harmful pattern of use of psychostimulant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "125851000119106",
+        "display" : "Continuous sedative abuse (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1336239003",
+        "display" : "Harmful pattern of use of methylenedioxymethamphetamine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344922008",
+        "display" : "Harmful pattern of use of ketamine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "144981000119109",
+        "display" : "Nondependent intravenous amphetamine abuse (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "145101000119102",
+        "display" : "Harmful pattern of use of intravenous cocaine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "145841000119107",
+        "display" : "Episodic harmful pattern of use of phencyclidine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191891003",
+        "display" : "Nondependent harmful pattern of use of cannabis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191893000",
+        "display" : "Continuous nondependent harmful pattern of use of cannabis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191894006",
+        "display" : "Episodic nondependent harmful pattern of use of cannabis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191916008",
+        "display" : "Nondependent harmful pattern of use of cocaine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191918009",
+        "display" : "Continuous nondependent harmful pattern of use of cocaine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191919001",
+        "display" : "Episodic nondependent harmful pattern of use of cocaine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "191928000",
+        "display" : "Harmful pattern of use of antidepressant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34111000119108",
+        "display" : "Nondependent amphetamine abuse (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37344009",
+        "display" : "Harmful pattern of use of Cannabis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "425885002",
+        "display" : "Continuous harmful pattern of use of phencyclidine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441527004",
+        "display" : "Harmful pattern of use of stimulant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64386003",
+        "display" : "Harmful pattern of use of sedative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699449003",
+        "display" : "Harmful pattern of use of metamfetamine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7071007",
+        "display" : "Harmful pattern of use of phencyclidine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737336003",
+        "display" : "Harmful pattern of use of synthetic cannabinoid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74851005",
+        "display" : "Harmful pattern of use of hallucinogen (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762504005",
+        "display" : "Harmful pattern of use of synthetic cathinone (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78267003",
+        "display" : "Harmful pattern of use of cocaine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "785277001",
+        "display" : "Harmful pattern of use of amfetamine and/or amfetamine derivative (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "91388009",
+        "display" : "Harmful pattern of use of psychoactive substance (disorder)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.196.12.1265",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2024-08-12T09:29:45.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Institutes for Research Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-02-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2018-03-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.196.12.1265",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.196.12.1265"
+    }
+  ],
+  "version" : "20180310",
+  "name" : "AromataseInhibitors",
+  "title" : "Aromatase Inhibitors",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2018-03-10T01:00:08-05:00",
+  "publisher" : "American Institutes for Research Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for aromatase inhibitors.),(Data Element Scope: This value set may use a model element related to Medication.),(Inclusion Criteria: Includes concepts that represent generic, human use and prescribable aromatase inhibitors.),(Exclusion Criteria: Excludes concepts that represent non-prescribable or branded drugs and excludes concepts that represent components or ingredients.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.196.11.1266"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3d72819f-4dba-4c54-9f43-7ae5b3cbcb6a",
+    "timestamp" : "2025-11-24T18:54:52-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1923053",
+        "display" : "{28 (letrozole 2.5 MG Oral Tablet) / 21 (ribociclib 200 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1923055",
+        "display" : "{28 (letrozole 2.5 MG Oral Tablet) / 42 (ribociclib 200 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1923057",
+        "display" : "{28 (letrozole 2.5 MG Oral Tablet) / 63 (ribociclib 200 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199224",
+        "display" : "anastrozole 1 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "200064",
+        "display" : "letrozole 2.5 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "310261",
+        "display" : "exemestane 25 MG Oral Tablet"
+      }
+    ]
+  }
+}

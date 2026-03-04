@@ -1,0 +1,233 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.329",
+  "meta" : {
+    "versionId" : "43",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.329",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.329"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "ApneaSNOMED",
+  "title" : "Apnea (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has apnea regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Root1 = Apnea (finding); \nRoot1 children included = Some;\n\nAdded leaf concepts: YES),(Exclusion Criteria: Child of root1 excluded = apnea (disorder))",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1023001",
+            "display" : "Apnea (finding)"
+          },
+          {
+            "code" : "13094009",
+            "display" : "Apnea in newborn (finding)"
+          },
+          {
+            "code" : "14041005",
+            "display" : "Deglutition apnea (finding)"
+          },
+          {
+            "code" : "276544005",
+            "display" : "Apnea of prematurity (disorder)"
+          },
+          {
+            "code" : "276546007",
+            "display" : "Prolonged apnea of newborn (disorder)"
+          },
+          {
+            "code" : "276725001",
+            "display" : "Recurrent apnea of newborn (finding)"
+          },
+          {
+            "code" : "37952003",
+            "display" : "Initial apnea (finding)"
+          },
+          {
+            "code" : "416945002",
+            "display" : "Recurrent apnea (finding)"
+          },
+          {
+            "code" : "430335007",
+            "display" : "Primary apnea in the newborn (finding)"
+          },
+          {
+            "code" : "63214000",
+            "display" : "Vagal apnea (finding)"
+          },
+          {
+            "code" : "70073005",
+            "display" : "Perinatal apneic spells (disorder)"
+          },
+          {
+            "code" : "722914008",
+            "display" : "Central neonatal apnea (disorder)"
+          },
+          {
+            "code" : "724229002",
+            "display" : "Apnea of infancy (disorder)"
+          },
+          {
+            "code" : "762287001",
+            "display" : "Mixed neonatal apnea (disorder)"
+          },
+          {
+            "code" : "90701007",
+            "display" : "Late apnea (finding)"
+          },
+          {
+            "code" : "95616002",
+            "display" : "Neonatal apneic attack (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e7a29683-62f7-4b2f-980a-c7327bebd122",
+    "timestamp" : "2025-11-24T13:52:14-05:00",
+    "total" : 16,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1023001",
+        "display" : "Apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13094009",
+        "display" : "Apnea in newborn (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14041005",
+        "display" : "Deglutition apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276544005",
+        "display" : "Apnea of prematurity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276546007",
+        "display" : "Prolonged apnea of newborn (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276725001",
+        "display" : "Recurrent apnea of newborn (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37952003",
+        "display" : "Initial apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416945002",
+        "display" : "Recurrent apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430335007",
+        "display" : "Primary apnea in the newborn (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63214000",
+        "display" : "Vagal apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "70073005",
+        "display" : "Perinatal apneic spells (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722914008",
+        "display" : "Central neonatal apnea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724229002",
+        "display" : "Apnea of infancy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762287001",
+        "display" : "Mixed neonatal apnea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "90701007",
+        "display" : "Late apnea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95616002",
+        "display" : "Neonatal apneic attack (finding)"
+      }
+    ]
+  }
+}

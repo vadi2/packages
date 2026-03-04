@@ -1,0 +1,112 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.163",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2024-06-05T15:30:32.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-04"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.163",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.163"
+    }
+  ],
+  "version" : "20240604",
+  "name" : "TransportationInsecurityGoals",
+  "title" : "Transportation Insecurity Goals",
+  "status" : "active",
+  "date" : "2024-06-04T01:21:19-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "description" : "There are currently no existing domain specific LOINC codes for Transportation Insecurity. That value set will be added to this group once it is available.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent goals for Transportation Insecurity as selected by the Gravity Project.),(Data Element Scope: In the FHIR Goal resource, these values may be used for Goal.description (e.g., for the SDOHCC Goal profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes SNOMED CT goals for Transportation Insecurity as selected by the Gravity Project.),(Exclusion Criteria: NA)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.162"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:6d2f6e59-24e8-4d39-8869-20cf1aa4e4e5",
+    "timestamp" : "2025-11-24T16:08:14-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1268687001",
+        "display" : "Feels transportation time to destination is acceptable (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611271000124109",
+        "display" : "Transportation security (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611461000124101",
+        "display" : "Able to afford transportation related expense (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611491000124109",
+        "display" : "Has transportation that meets cognitive needs (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611501000124101",
+        "display" : "Has transportation that meets functional needs (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611511000124103",
+        "display" : "Has transportation to access community resources (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611521000124106",
+        "display" : "Has transportation to access health care (finding)"
+      }
+    ]
+  }
+}

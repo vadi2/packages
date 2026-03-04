@@ -1,0 +1,4811 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2643",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2643",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2643"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CongenitalAnomaliesOfTheEyeSNOMED",
+  "title" : "Congenital Anomalies of the Eye (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Congenital Anomalies of the Eye regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Congenital Anomalies of the Eye),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1003369001",
+            "display" : "Microphthalmos due to Delleman syndrome (disorder)"
+          },
+          {
+            "code" : "1003370000",
+            "display" : "Microphthalmos due to Fryns syndrome (disorder)"
+          },
+          {
+            "code" : "1003372008",
+            "display" : "Microphthalmos due to branchio-oculo-facial syndrome (disorder)"
+          },
+          {
+            "code" : "1003408005",
+            "display" : "Congenital dystrophy of cornea (disorder)"
+          },
+          {
+            "code" : "1003424006",
+            "display" : "Hutterite type cataract (disorder)"
+          },
+          {
+            "code" : "1003884001",
+            "display" : "Pulverulent cataract (disorder)"
+          },
+          {
+            "code" : "1003921006",
+            "display" : "Sclerocornea of bilateral corneas (disorder)"
+          },
+          {
+            "code" : "1010606009",
+            "display" : "Waardenburg syndrome type 1 (disorder)"
+          },
+          {
+            "code" : "1010636000",
+            "display" : "Waardenburg syndrome type 2 (disorder)"
+          },
+          {
+            "code" : "1010664005",
+            "display" : "Stickler syndrome type 2 (disorder)"
+          },
+          {
+            "code" : "1010666007",
+            "display" : "Stickler syndrome type 4 (disorder)"
+          },
+          {
+            "code" : "1010668008",
+            "display" : "Stickler syndrome type 1 (disorder)"
+          },
+          {
+            "code" : "10170007",
+            "display" : "Black locks, oculocutaneous albinism, AND deafness of the sensorineural type (disorder)"
+          },
+          {
+            "code" : "11160000",
+            "display" : "Brown oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "11211000119108",
+            "display" : "Congenital anomaly of pupil (disorder)"
+          },
+          {
+            "code" : "1172594000",
+            "display" : "Congenital labioscrotal agenesis, cerebellar malformation, corneal dystrophy, facial dysmorphism syndrome (disorder)"
+          },
+          {
+            "code" : "1172629005",
+            "display" : "Severe growth deficiency, strabismus, extensive dermal melanocytosis, intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "1172636006",
+            "display" : "Familial progressive retinal dystrophy, iris coloboma, congenital cataract syndrome (disorder)"
+          },
+          {
+            "code" : "1172683008",
+            "display" : "Microcephaly, congenital cataract, psoriasiform dermatitis syndrome (disorder)"
+          },
+          {
+            "code" : "1179296003",
+            "display" : "Colobomatous macrophthalmia with microcornea syndrome (disorder)"
+          },
+          {
+            "code" : "1197357008",
+            "display" : "Colobomatous optic disc, macular atrophy, chorioretinopathy syndrome (disorder)"
+          },
+          {
+            "code" : "1197358003",
+            "display" : "Autosomal recessive dysgenesis of anterior segment of eye (disorder)"
+          },
+          {
+            "code" : "1197365006",
+            "display" : "Familial cavitary optic disc anomaly (disorder)"
+          },
+          {
+            "code" : "1208342001",
+            "display" : "Eye defects, arachnodactyly, cardiopathy syndrome (disorder)"
+          },
+          {
+            "code" : "1208480004",
+            "display" : "Epibulbar lipodermoid, preauricular appendage, polythelia syndrome (disorder)"
+          },
+          {
+            "code" : "1208840000",
+            "display" : "Incomplete achromatopsia (disorder)"
+          },
+          {
+            "code" : "1217628008",
+            "display" : "Congenital absence of eye with orbital implant (disorder)"
+          },
+          {
+            "code" : "1217664009",
+            "display" : "Congenital colobomatous cyst of orbit (disorder)"
+          },
+          {
+            "code" : "1217688006",
+            "display" : "Congenital corneal leukoma (disorder)"
+          },
+          {
+            "code" : "1230014007",
+            "display" : "Duane retraction syndrome with congenital deafness (disorder)"
+          },
+          {
+            "code" : "1230020008",
+            "display" : "Congenital peripapillary staphyloma (disorder)"
+          },
+          {
+            "code" : "1230066003",
+            "display" : "Isolated microspherophakia (disorder)"
+          },
+          {
+            "code" : "1230344000",
+            "display" : "Microphthalmia, microtia, fetal akinesia syndrome (disorder)"
+          },
+          {
+            "code" : "1231626009",
+            "display" : "Syndromic nanophthalmos due to Kenny-Caffey syndrome (disorder)"
+          },
+          {
+            "code" : "1237337007",
+            "display" : "Extensive peripapillary myelinated nerve fibers of retina (disorder)"
+          },
+          {
+            "code" : "1237370002",
+            "display" : "Myelinated nerve fiber layer of retina (disorder)"
+          },
+          {
+            "code" : "1254751008",
+            "display" : "Congenital prepapillary vascular loop (disorder)"
+          },
+          {
+            "code" : "1255268002",
+            "display" : "Oculocerebrodental syndrome (disorder)"
+          },
+          {
+            "code" : "1260140008",
+            "display" : "Congenital cataract, severe neonatal hepatopathy, global developmental delay syndrome (disorder)"
+          },
+          {
+            "code" : "1279837000",
+            "display" : "Congenital cataract microcornea with corneal opacity (disorder)"
+          },
+          {
+            "code" : "1279889005",
+            "display" : "Microcephaly, facial dysmorphism, ocular anomalies, multiple congenital anomalies syndrome (disorder)"
+          },
+          {
+            "code" : "128082002",
+            "display" : "Duane's syndrome, type 1 (disorder)"
+          },
+          {
+            "code" : "128083007",
+            "display" : "Duane's syndrome, type 2 (disorder)"
+          },
+          {
+            "code" : "128084001",
+            "display" : "Duane's syndrome, type 3 (disorder)"
+          },
+          {
+            "code" : "128352002",
+            "display" : "Congenital structural abnormality of cornea (disorder)"
+          },
+          {
+            "code" : "128353007",
+            "display" : "Congenital anomaly of lens (disorder)"
+          },
+          {
+            "code" : "1285322008",
+            "display" : "Triopia (disorder)"
+          },
+          {
+            "code" : "128533009",
+            "display" : "Micropapilla (disorder)"
+          },
+          {
+            "code" : "128534003",
+            "display" : "Congenital anomaly of posterior segment of eye (disorder)"
+          },
+          {
+            "code" : "128985003",
+            "display" : "Congenital anomaly of iris (disorder)"
+          },
+          {
+            "code" : "1295485009",
+            "display" : "Aldehyde dehydrogenase 18 family member A1-related de Barsy syndrome (disorder)"
+          },
+          {
+            "code" : "1295488006",
+            "display" : "Pyrroline-5-carboxylate reductase 1 related de Barsy syndrome (disorder)"
+          },
+          {
+            "code" : "1300116006",
+            "display" : "Oculocutaneous albinism type 8 (disorder)"
+          },
+          {
+            "code" : "13015741000119105",
+            "display" : "Congenital ocular melanocytosis of left eye (disorder)"
+          },
+          {
+            "code" : "13015781000119100",
+            "display" : "Congenital ocular melanocytosis of right eye (disorder)"
+          },
+          {
+            "code" : "13015821000119105",
+            "display" : "Congenital ocular melanocytosis of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "1303582008",
+            "display" : "Congenital aphakia, iris hypoplasia, microphthalmia, microcornea syndrome (disorder)"
+          },
+          {
+            "code" : "1306783005",
+            "display" : "Congenital malformation of angle of anterior chamber of right eye (disorder)"
+          },
+          {
+            "code" : "1306784004",
+            "display" : "Congenital malformation of angle of anterior chamber of left eye (disorder)"
+          },
+          {
+            "code" : "1306785003",
+            "display" : "Congenital malformation of angle of anterior chamber of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "13282008",
+            "display" : "Congenital corneal opacity interfering with vision (disorder)"
+          },
+          {
+            "code" : "1332382002",
+            "display" : "Coloboma, osteopetrosis, microphthalmia, macrocephaly, albinism, deafness syndrome (disorder)"
+          },
+          {
+            "code" : "14552009",
+            "display" : "Vestigial remnants of canal of Cloquet (disorder)"
+          },
+          {
+            "code" : "15552004",
+            "display" : "Osteogenesis imperfecta, recessive perinatal lethal, with microcephaly AND cataracts (disorder)"
+          },
+          {
+            "code" : "15665201000119103",
+            "display" : "Congenital vitreous opacity of right eye (disorder)"
+          },
+          {
+            "code" : "15665241000119101",
+            "display" : "Congenital vitreous opacity of left eye (disorder)"
+          },
+          {
+            "code" : "15665281000119106",
+            "display" : "Congenital vitreous opacity of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15665321000119101",
+            "display" : "Congenital chorioretinal coloboma of right eye (disorder)"
+          },
+          {
+            "code" : "15665361000119106",
+            "display" : "Congenital chorioretinal coloboma of left eye (disorder)"
+          },
+          {
+            "code" : "15665401000119102",
+            "display" : "Congenital chorioretinal coloboma of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15665641000119103",
+            "display" : "Anophthalmos of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15665721000119102",
+            "display" : "Congenital coloboma of bilateral irides (disorder)"
+          },
+          {
+            "code" : "15665801000119104",
+            "display" : "Congenital capsular cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15665841000119102",
+            "display" : "Congenital capsular cataract of right eye (disorder)"
+          },
+          {
+            "code" : "15665881000119107",
+            "display" : "Congenital capsular cataract of left eye (disorder)"
+          },
+          {
+            "code" : "15863931000119108",
+            "display" : "Duane's syndrome of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15986071000119108",
+            "display" : "Congenital anomaly of right pupil (disorder)"
+          },
+          {
+            "code" : "15986111000119101",
+            "display" : "Congenital coloboma of bilateral optic discs (disorder)"
+          },
+          {
+            "code" : "15986151000119100",
+            "display" : "Congenital coloboma of right optic disc (disorder)"
+          },
+          {
+            "code" : "15986191000119105",
+            "display" : "Congenital coloboma of left optic disc (disorder)"
+          },
+          {
+            "code" : "15986231000119101",
+            "display" : "Congenital anomaly of right optic disc (disorder)"
+          },
+          {
+            "code" : "15986271000119103",
+            "display" : "Congenital anomaly of bilateral optic discs (disorder)"
+          },
+          {
+            "code" : "15986311000119103",
+            "display" : "Congenital anomaly of left optic disc (disorder)"
+          },
+          {
+            "code" : "15986351000119102",
+            "display" : "Congenital chorioretinal degeneration of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15986391000119107",
+            "display" : "Congenital chorioretinal degeneration of right eye (disorder)"
+          },
+          {
+            "code" : "15986431000119102",
+            "display" : "Congenital chorioretinal degeneration of left eye (disorder)"
+          },
+          {
+            "code" : "15986471000119104",
+            "display" : "Congenital anomaly of retina of right eye (disorder)"
+          },
+          {
+            "code" : "15986511000119108",
+            "display" : "Congenital hypertrophy of retinal pigment epithelium of right eye (disorder)"
+          },
+          {
+            "code" : "15986551000119109",
+            "display" : "Congenital hypertrophy of retinal pigment epithelium of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15986591000119104",
+            "display" : "Congenital hypertrophy of retinal pigment epithelium of left eye (disorder)"
+          },
+          {
+            "code" : "15986751000119101",
+            "display" : "Congenital anomaly of retina of left eye (disorder)"
+          },
+          {
+            "code" : "15986791000119106",
+            "display" : "Congenital anomaly of bilateral retinas (disorder)"
+          },
+          {
+            "code" : "15986951000119103",
+            "display" : "Congenital aniridia of right eye (disorder)"
+          },
+          {
+            "code" : "15986991000119108",
+            "display" : "Congenital aniridia of left eye (disorder)"
+          },
+          {
+            "code" : "15987031000119108",
+            "display" : "Congenital aniridia of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15987071000119106",
+            "display" : "Congenital anomaly of left pupil (disorder)"
+          },
+          {
+            "code" : "15987111000119104",
+            "display" : "Congenital anomaly of bilateral pupils (disorder)"
+          },
+          {
+            "code" : "15987151000119103",
+            "display" : "Microphthalmos of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "15987191000119108",
+            "display" : "Microphthalmos of right eye (disorder)"
+          },
+          {
+            "code" : "15987231000119104",
+            "display" : "Microphthalmos of left eye (disorder)"
+          },
+          {
+            "code" : "15987391000119105",
+            "display" : "Congenital opacity of cornea of left eye (disorder)"
+          },
+          {
+            "code" : "15987431000119100",
+            "display" : "Congenital opacity of cornea of right eye (disorder)"
+          },
+          {
+            "code" : "15987511000119106",
+            "display" : "Congenital structural abnormality of left cornea (disorder)"
+          },
+          {
+            "code" : "15987551000119107",
+            "display" : "Congenital structural abnormality of bilateral corneas (disorder)"
+          },
+          {
+            "code" : "15987591000119102",
+            "display" : "Congenital structural abnormality of right cornea (disorder)"
+          },
+          {
+            "code" : "15987871000119100",
+            "display" : "Congenital coloboma of right lens (disorder)"
+          },
+          {
+            "code" : "15987911000119102",
+            "display" : "Congenital coloboma of left lens (disorder)"
+          },
+          {
+            "code" : "15988111000119100",
+            "display" : "Congenital anomaly of bilateral sclerae (disorder)"
+          },
+          {
+            "code" : "15988151000119104",
+            "display" : "Congenital anomaly of left sclera (disorder)"
+          },
+          {
+            "code" : "15988191000119109",
+            "display" : "Congenital anomaly of right sclera (disorder)"
+          },
+          {
+            "code" : "17480001",
+            "display" : "Atresia of pupil (disorder)"
+          },
+          {
+            "code" : "17827007",
+            "display" : "Cross syndrome (disorder)"
+          },
+          {
+            "code" : "184437571000119104",
+            "display" : "Congenital structural abnormality of ciliary body (disorder)"
+          },
+          {
+            "code" : "18821006",
+            "display" : "Dysplasia of eye (disorder)"
+          },
+          {
+            "code" : "193687000",
+            "display" : "Oguchi's disease (disorder)"
+          },
+          {
+            "code" : "19416009",
+            "display" : "Congenital anomaly of eye (disorder)"
+          },
+          {
+            "code" : "204102004",
+            "display" : "Cryptophthalmos syndrome (disorder)"
+          },
+          {
+            "code" : "204108000",
+            "display" : "Simple microphthalmos (disorder)"
+          },
+          {
+            "code" : "204118005",
+            "display" : "Congenital keratoglobus (disorder)"
+          },
+          {
+            "code" : "204127006",
+            "display" : "Cortical and zonular cataract (disorder)"
+          },
+          {
+            "code" : "204128001",
+            "display" : "Congenital lamellar cataract (disorder)"
+          },
+          {
+            "code" : "204134008",
+            "display" : "Coloboma of lens (disorder)"
+          },
+          {
+            "code" : "204138006",
+            "display" : "Congenital blue dot cataract (disorder)"
+          },
+          {
+            "code" : "204139003",
+            "display" : "Congenital membranous cataract (disorder)"
+          },
+          {
+            "code" : "204143004",
+            "display" : "Corneal size and shape anomalies (disorder)"
+          },
+          {
+            "code" : "204145006",
+            "display" : "Cornea plana (disorder)"
+          },
+          {
+            "code" : "204148008",
+            "display" : "Congenital corneal opacity with visual deficit (disorder)"
+          },
+          {
+            "code" : "204149000",
+            "display" : "Congenital corneal opacity without visual deficit (disorder)"
+          },
+          {
+            "code" : "204152008",
+            "display" : "Axenfeld anomaly (disorder)"
+          },
+          {
+            "code" : "204153003",
+            "display" : "Irido-corneo-trabecular dysgenesis (disorder)"
+          },
+          {
+            "code" : "204154009",
+            "display" : "Irido-trabecular dysgenesis (disorder)"
+          },
+          {
+            "code" : "204159004",
+            "display" : "Polycoria (disorder)"
+          },
+          {
+            "code" : "204164000",
+            "display" : "Blue sclera (disorder)"
+          },
+          {
+            "code" : "204166003",
+            "display" : "Multiple anterior segment anomalies (disorder)"
+          },
+          {
+            "code" : "204171005",
+            "display" : "Congenital vitreous opacity (disorder)"
+          },
+          {
+            "code" : "204173008",
+            "display" : "Coloboma of retina (disorder)"
+          },
+          {
+            "code" : "204175001",
+            "display" : "Congenital fold and cyst of posterior segment of eye (disorder)"
+          },
+          {
+            "code" : "204181009",
+            "display" : "Congenital retinal fold (disorder)"
+          },
+          {
+            "code" : "204189006",
+            "display" : "Congenital stricture of retinal artery (disorder)"
+          },
+          {
+            "code" : "204192005",
+            "display" : "Coloboma of choroid (disorder)"
+          },
+          {
+            "code" : "21590003",
+            "display" : "Congenital zonular cataract (disorder)"
+          },
+          {
+            "code" : "230504002",
+            "display" : "Tilted optic disc (disorder)"
+          },
+          {
+            "code" : "230506000",
+            "display" : "Myelinated nerve fibers of optic disc (disorder)"
+          },
+          {
+            "code" : "231933003",
+            "display" : "Lattice corneal dystrophy, isolated form (disorder)"
+          },
+          {
+            "code" : "232061009",
+            "display" : "Congenital stationary night blindness (disorder)"
+          },
+          {
+            "code" : "232074003",
+            "display" : "Congenital hypertrophy of retinal pigment epithelium (disorder)"
+          },
+          {
+            "code" : "237919007",
+            "display" : "Minimal pigment oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "237920001",
+            "display" : "Temperature-sensitive oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "24210004",
+            "display" : "Congenital chorioretinal degeneration (disorder)"
+          },
+          {
+            "code" : "247127002",
+            "display" : "Retinal arteriovenous shunt (disorder)"
+          },
+          {
+            "code" : "247204001",
+            "display" : "Morning glory disc (disorder)"
+          },
+          {
+            "code" : "251729009",
+            "display" : "Congenital malformation of angle of anterior chamber of eye (disorder)"
+          },
+          {
+            "code" : "251730004",
+            "display" : "Goniodysgenesis (disorder)"
+          },
+          {
+            "code" : "251731000",
+            "display" : "Barkan membrane (disorder)"
+          },
+          {
+            "code" : "253176002",
+            "display" : "Gillespie syndrome (disorder)"
+          },
+          {
+            "code" : "253221000",
+            "display" : "Lenticonus (disorder)"
+          },
+          {
+            "code" : "253223002",
+            "display" : "Congenital polar cataract (disorder)"
+          },
+          {
+            "code" : "253224008",
+            "display" : "Congenital anterior polar cataract (disorder)"
+          },
+          {
+            "code" : "253225009",
+            "display" : "Congenital posterior polar cataract (disorder)"
+          },
+          {
+            "code" : "253226005",
+            "display" : "Congenital sutural cataract (disorder)"
+          },
+          {
+            "code" : "253228006",
+            "display" : "Embryotoxon (disorder)"
+          },
+          {
+            "code" : "253230008",
+            "display" : "Congenital anterior staphyloma (disorder)"
+          },
+          {
+            "code" : "253231007",
+            "display" : "Aniridia type 1 (disorder)"
+          },
+          {
+            "code" : "253232000",
+            "display" : "Aniridia type 2 (disorder)"
+          },
+          {
+            "code" : "253233005",
+            "display" : "Pseudo-polycoria (disorder)"
+          },
+          {
+            "code" : "253234004",
+            "display" : "Congenital heterochromia iridis (disorder)"
+          },
+          {
+            "code" : "253235003",
+            "display" : "Congenital cyst of iris (disorder)"
+          },
+          {
+            "code" : "253236002",
+            "display" : "Congenital malformation of vitreous humor (disorder)"
+          },
+          {
+            "code" : "253238001",
+            "display" : "Partial hypoplasia of optic disc (disorder)"
+          },
+          {
+            "code" : "253239009",
+            "display" : "Sectorial hypoplasia of optic disc (disorder)"
+          },
+          {
+            "code" : "253240006",
+            "display" : "Trabecular dysgenesis (disorder)"
+          },
+          {
+            "code" : "253241005",
+            "display" : "Orbital dystopia (disorder)"
+          },
+          {
+            "code" : "253242003",
+            "display" : "Horizontal orbital dystopia (disorder)"
+          },
+          {
+            "code" : "253243008",
+            "display" : "Vertical orbital dystopia (disorder)"
+          },
+          {
+            "code" : "253244002",
+            "display" : "Rotational orbital dystopia (disorder)"
+          },
+          {
+            "code" : "254092004",
+            "display" : "Saldino-Mainzer dysplasia (disorder)"
+          },
+          {
+            "code" : "254150007",
+            "display" : "Francois syndrome (disorder)"
+          },
+          {
+            "code" : "26098002",
+            "display" : "Microcornea (disorder)"
+          },
+          {
+            "code" : "26336006",
+            "display" : "Tyrosinase-positive oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "26399002",
+            "display" : "Ocular albinism (disorder)"
+          },
+          {
+            "code" : "265569002",
+            "display" : "Aland eye disease and ocular albinism (disorder)"
+          },
+          {
+            "code" : "268158009",
+            "display" : "Megalocornea (disorder)"
+          },
+          {
+            "code" : "268160006",
+            "display" : "Congenital corneal opacity (disorder)"
+          },
+          {
+            "code" : "28550007",
+            "display" : "Congenital capsular cataract (disorder)"
+          },
+          {
+            "code" : "2884008",
+            "display" : "Weill-Marchesani syndrome (disorder)"
+          },
+          {
+            "code" : "29590001",
+            "display" : "Congenital total cataract (disorder)"
+          },
+          {
+            "code" : "302174000",
+            "display" : "Congenital abnormality of iris and ciliary body (disorder)"
+          },
+          {
+            "code" : "32809005",
+            "display" : "Congenital anomaly of sclera (disorder)"
+          },
+          {
+            "code" : "33521009",
+            "display" : "Congenital anomaly of lens shape (disorder)"
+          },
+          {
+            "code" : "335331000119104",
+            "display" : "Duane's syndrome of right eye (disorder)"
+          },
+          {
+            "code" : "335831000119107",
+            "display" : "Congenital posterior subcapsular polar cataract of right eye (disorder)"
+          },
+          {
+            "code" : "335841000119103",
+            "display" : "Congenital nuclear cataract of right eye (disorder)"
+          },
+          {
+            "code" : "335851000119101",
+            "display" : "Congenital combined form cataract of right eye (disorder)"
+          },
+          {
+            "code" : "335861000119104",
+            "display" : "Congenital cataract of right eye (disorder)"
+          },
+          {
+            "code" : "335871000119105",
+            "display" : "Congenital anterior subcapsular polar cataract of right eye (disorder)"
+          },
+          {
+            "code" : "340941000119101",
+            "display" : "Duane's syndrome of left eye (disorder)"
+          },
+          {
+            "code" : "341441000119102",
+            "display" : "Congenital posterior subcapsular polar cataract of left eye (disorder)"
+          },
+          {
+            "code" : "341451000119100",
+            "display" : "Congenital nuclear cataract of left eye (disorder)"
+          },
+          {
+            "code" : "341461000119103",
+            "display" : "Congenital combined form cataract of left eye (disorder)"
+          },
+          {
+            "code" : "341471000119109",
+            "display" : "Congenital cataract of left eye (disorder)"
+          },
+          {
+            "code" : "341481000119107",
+            "display" : "Congenital anterior subcapsular polar cataract of left eye (disorder)"
+          },
+          {
+            "code" : "342821000119103",
+            "display" : "Congenital posterior subcapsular polar cataract (disorder)"
+          },
+          {
+            "code" : "342831000119100",
+            "display" : "Congenital combined form cataract (disorder)"
+          },
+          {
+            "code" : "342841000119109",
+            "display" : "Congenital choroidal fold (disorder)"
+          },
+          {
+            "code" : "342911000119104",
+            "display" : "Congenital anterior subcapsular polar cataract (disorder)"
+          },
+          {
+            "code" : "346691000119104",
+            "display" : "Congenital posterior subcapsular polar cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "346701000119104",
+            "display" : "Congenital nuclear cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "346711000119101",
+            "display" : "Congenital combined form cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "346721000119108",
+            "display" : "Congenital cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "346731000119106",
+            "display" : "Congenital anterior subcapsular polar cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "348151000119103",
+            "display" : "Congenital pit of optic disc of right eye (disorder)"
+          },
+          {
+            "code" : "348321000119108",
+            "display" : "Congenital zonular cataract of right eye (disorder)"
+          },
+          {
+            "code" : "348601000119109",
+            "display" : "Congenital pit of optic disc of left eye (disorder)"
+          },
+          {
+            "code" : "348771000119108",
+            "display" : "Congenital zonular cataract of left eye (disorder)"
+          },
+          {
+            "code" : "349281000119109",
+            "display" : "Congenital zonular cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "35272001",
+            "display" : "Microphakia (disorder)"
+          },
+          {
+            "code" : "35387008",
+            "display" : "Congenital aphakia (disorder)"
+          },
+          {
+            "code" : "370483001",
+            "display" : "Mittendorf's dot (disorder)"
+          },
+          {
+            "code" : "3705009",
+            "display" : "Congenital anomaly of anterior chamber of eye (disorder)"
+          },
+          {
+            "code" : "373650004",
+            "display" : "Hypoplasia of optic disc (disorder)"
+          },
+          {
+            "code" : "373661007",
+            "display" : "Optic disc structural anomaly (disorder)"
+          },
+          {
+            "code" : "392437005",
+            "display" : "Posterior embryotoxon (disorder)"
+          },
+          {
+            "code" : "392461003",
+            "display" : "Congenital ectopic pupil (disorder)"
+          },
+          {
+            "code" : "39302008",
+            "display" : "Fundus coloboma (disorder)"
+          },
+          {
+            "code" : "400962005",
+            "display" : "Congenital miosis (disorder)"
+          },
+          {
+            "code" : "400963000",
+            "display" : "Congenital mydriasis (disorder)"
+          },
+          {
+            "code" : "400965007",
+            "display" : "Congenital iris ectropion (disorder)"
+          },
+          {
+            "code" : "403766000",
+            "display" : "Acromegaloid phenotype with cutis verticis gyrata and corneal leukoma (disorder)"
+          },
+          {
+            "code" : "4041005",
+            "display" : "Congenital anomaly of macula (disorder)"
+          },
+          {
+            "code" : "414063002",
+            "display" : "Duane syndrome with vertical deviation (disorder)"
+          },
+          {
+            "code" : "415176004",
+            "display" : "Primary congenital glaucoma (disorder)"
+          },
+          {
+            "code" : "416671000",
+            "display" : "Microspherophakia (disorder)"
+          },
+          {
+            "code" : "416834004",
+            "display" : "Epicapsular star (disorder)"
+          },
+          {
+            "code" : "417604002",
+            "display" : "Axenfeld-Rieger syndrome (disorder)"
+          },
+          {
+            "code" : "418653000",
+            "display" : "Secondary lens coloboma (disorder)"
+          },
+          {
+            "code" : "419237004",
+            "display" : "Ectopia lentis et pupillae (disorder)"
+          },
+          {
+            "code" : "419281007",
+            "display" : "Lentiglobus (disorder)"
+          },
+          {
+            "code" : "419496009",
+            "display" : "Congenital corneal keloid (disorder)"
+          },
+          {
+            "code" : "419544009",
+            "display" : "Primary lens coloboma (disorder)"
+          },
+          {
+            "code" : "429448005",
+            "display" : "Congenital anomaly of anterior segment of eye (disorder)"
+          },
+          {
+            "code" : "429449002",
+            "display" : "Congenital hypoplasia of fovea centralis (disorder)"
+          },
+          {
+            "code" : "438504004",
+            "display" : "Lenz microphthalmia syndrome (disorder)"
+          },
+          {
+            "code" : "44295002",
+            "display" : "Congenital coloboma of optic disc (disorder)"
+          },
+          {
+            "code" : "445257004",
+            "display" : "Nance-Horan syndrome (disorder)"
+          },
+          {
+            "code" : "446449009",
+            "display" : "Renal coloboma syndrome (disorder)"
+          },
+          {
+            "code" : "4465002",
+            "display" : "Spherophakia (disorder)"
+          },
+          {
+            "code" : "449817000",
+            "display" : "Peters plus syndrome (disorder)"
+          },
+          {
+            "code" : "449866003",
+            "display" : "Vitreoretinal dysplasia (disorder)"
+          },
+          {
+            "code" : "45795007",
+            "display" : "Melanosis oculi (disorder)"
+          },
+          {
+            "code" : "47507006",
+            "display" : "Rieger syndrome (disorder)"
+          },
+          {
+            "code" : "48249002",
+            "display" : "Congenital anisocoria (disorder)"
+          },
+          {
+            "code" : "49381001",
+            "display" : "Congenital anomaly of retina (disorder)"
+          },
+          {
+            "code" : "51485001",
+            "display" : "Congenital coloboma of iris (disorder)"
+          },
+          {
+            "code" : "5361003",
+            "display" : "Embryonal nuclear cataract (disorder)"
+          },
+          {
+            "code" : "54359000",
+            "display" : "Congenital corneal opacity not interfering with vision (disorder)"
+          },
+          {
+            "code" : "55819001",
+            "display" : "Albinotic fundus (disorder)"
+          },
+          {
+            "code" : "56852002",
+            "display" : "Achromatopsia (disorder)"
+          },
+          {
+            "code" : "58882000",
+            "display" : "Congenital cystic eyeball (disorder)"
+          },
+          {
+            "code" : "59252009",
+            "display" : "de Barsey syndrome (disorder)"
+          },
+          {
+            "code" : "60318001",
+            "display" : "Duane's syndrome (disorder)"
+          },
+          {
+            "code" : "60505005",
+            "display" : "Congenital anomaly of optic disc (disorder)"
+          },
+          {
+            "code" : "61142002",
+            "display" : "Microphthalmos (disorder)"
+          },
+          {
+            "code" : "61649007",
+            "display" : "Congenital oculocutaneous hypopigmentation (disorder)"
+          },
+          {
+            "code" : "62144003",
+            "display" : "Punctate oculocutaneous albinoidism (disorder)"
+          },
+          {
+            "code" : "62631009",
+            "display" : "Congenital cyst of posterior segment of eye (disorder)"
+          },
+          {
+            "code" : "62977003",
+            "display" : "Persistent tunica vasculosa lentis (disorder)"
+          },
+          {
+            "code" : "63216003",
+            "display" : "Congenital keratoconus (disorder)"
+          },
+          {
+            "code" : "63450009",
+            "display" : "Rufous albinism (disorder)"
+          },
+          {
+            "code" : "63844009",
+            "display" : "Oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "63890001",
+            "display" : "Osteogenesis imperfecta with blue sclerae AND dentinogenesis imperfecta (disorder)"
+          },
+          {
+            "code" : "64404003",
+            "display" : "Osteogenesis imperfecta with blue sclerae AND normal teeth (disorder)"
+          },
+          {
+            "code" : "6483008",
+            "display" : "Tyrosinase-negative oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "65997000",
+            "display" : "Congenital fold of posterior segment of eye (disorder)"
+          },
+          {
+            "code" : "66499004",
+            "display" : "Congenital cortical cataract (disorder)"
+          },
+          {
+            "code" : "679911000119104",
+            "display" : "Congenital cortical cataract of left eye (disorder)"
+          },
+          {
+            "code" : "679931000119109",
+            "display" : "Congenital cortical cataract of right eye (disorder)"
+          },
+          {
+            "code" : "681041000119106",
+            "display" : "Congenital cortical cataract of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "69278003",
+            "display" : "Congenital aniridia (disorder)"
+          },
+          {
+            "code" : "698851003",
+            "display" : "SOX2 anophthalmia syndrome (disorder)"
+          },
+          {
+            "code" : "699381006",
+            "display" : "Oculoskeletal dysplasia (disorder)"
+          },
+          {
+            "code" : "699867001",
+            "display" : "Duane-radial ray syndrome (disorder)"
+          },
+          {
+            "code" : "702433001",
+            "display" : "Congenital cataracts, facial dysmorphism and neuropathy (disorder)"
+          },
+          {
+            "code" : "703403003",
+            "display" : "Ophthalmo-acromelic syndrome (disorder)"
+          },
+          {
+            "code" : "711407000",
+            "display" : "Thrombocytopathy, asplenia and miosis (disorder)"
+          },
+          {
+            "code" : "715240000",
+            "display" : "X-linked retinal dysplasia (disorder)"
+          },
+          {
+            "code" : "715464002",
+            "display" : "Microcephalus microcornea syndrome of Seemanova type (disorder)"
+          },
+          {
+            "code" : "715484003",
+            "display" : "Ophthalmomandibulomelic dysplasia (disorder)"
+          },
+          {
+            "code" : "715533002",
+            "display" : "Microcephaly, microphthalmia, ectrodactyly of lower limbs and prognathism syndrome (disorder)"
+          },
+          {
+            "code" : "715632003",
+            "display" : "Oculocutaneous albinism type 4 (disorder)"
+          },
+          {
+            "code" : "715771008",
+            "display" : "Microphthalmos co-occurrent with congenital ocular coloboma (disorder)"
+          },
+          {
+            "code" : "715988005",
+            "display" : "Cataract with aberrant oral frenula and growth delay syndrome (disorder)"
+          },
+          {
+            "code" : "715989002",
+            "display" : "Congenital cataract with intellectual disability and anal atresia and urinary defect syndrome (disorder)"
+          },
+          {
+            "code" : "716024001",
+            "display" : "Goniodysgenesis with intellectual disability and short stature syndrome (disorder)"
+          },
+          {
+            "code" : "716099003",
+            "display" : "Absence deformity of leg and congenital cataract syndrome (disorder)"
+          },
+          {
+            "code" : "716110002",
+            "display" : "Upper limb defect with eye and ear abnormalities syndrome (disorder)"
+          },
+          {
+            "code" : "716165003",
+            "display" : "Microcornea with corectopia and macular hypoplasia syndrome (disorder)"
+          },
+          {
+            "code" : "716166002",
+            "display" : "Microcornea with glaucoma and absent frontal sinus syndrome (disorder)"
+          },
+          {
+            "code" : "716170005",
+            "display" : "Deafness with cataract and skeletal anomaly syndrome (disorder)"
+          },
+          {
+            "code" : "716775009",
+            "display" : "Nanophthalmia (disorder)"
+          },
+          {
+            "code" : "717222003",
+            "display" : "Microphthalmia with ankyloblepharon and intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "717785002",
+            "display" : "Coloboma of macula with brachydactyly type B syndrome (disorder)"
+          },
+          {
+            "code" : "717812000",
+            "display" : "Congenital cataract, hypertrophic cardiomyopathy, mitochondrial myopathy syndrome (disorder)"
+          },
+          {
+            "code" : "717887003",
+            "display" : "Biemond syndrome type 2 (disorder)"
+          },
+          {
+            "code" : "717915004",
+            "display" : "Blepharoptosis, myopia, ectopia lentis syndrome (disorder)"
+          },
+          {
+            "code" : "7183006",
+            "display" : "Anophthalmos (disorder)"
+          },
+          {
+            "code" : "718574003",
+            "display" : "Cleft palate with coloboma of eye and deafness syndrome (disorder)"
+          },
+          {
+            "code" : "718680001",
+            "display" : "Oro-facial digital syndrome type 9 (disorder)"
+          },
+          {
+            "code" : "718761007",
+            "display" : "Syndromic microphthalmia due to orthodenticle homeobox 2 mutation (disorder)"
+          },
+          {
+            "code" : "718766002",
+            "display" : "Spondyloepiphyseal dysplasia, craniosynostosis, cleft palate, cataract and intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "718851007",
+            "display" : "Cataract glaucoma syndrome (disorder)"
+          },
+          {
+            "code" : "719042007",
+            "display" : "Uveal coloboma with cleft lip and palate and intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "719096006",
+            "display" : "Brittle cornea syndrome (disorder)"
+          },
+          {
+            "code" : "719102004",
+            "display" : "Congenital cataract with ataxia and deafness syndrome (disorder)"
+          },
+          {
+            "code" : "719377004",
+            "display" : "Microcephalus with albinism and digital anomaly syndrome (disorder)"
+          },
+          {
+            "code" : "719824001",
+            "display" : "Vici syndrome (disorder)"
+          },
+          {
+            "code" : "719944006",
+            "display" : "Trichomegaly with retina pigmentary degeneration and dwarfism syndrome (disorder)"
+          },
+          {
+            "code" : "719947004",
+            "display" : "Craniofacial dysmorphism with coloboma of eye and corpus callosum agenesis syndrome (disorder)"
+          },
+          {
+            "code" : "720009004",
+            "display" : "Intractable diarrhea with choanal atresia and eye anomaly syndrome (disorder)"
+          },
+          {
+            "code" : "720010009",
+            "display" : "Microphthalmia with brain atrophy syndrome (disorder)"
+          },
+          {
+            "code" : "720415006",
+            "display" : "Acrorenoocular syndrome (disorder)"
+          },
+          {
+            "code" : "720467005",
+            "display" : "Aniridia and absent patella syndrome (disorder)"
+          },
+          {
+            "code" : "720468000",
+            "display" : "Aniridia and intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "720496006",
+            "display" : "Anophthalmia plus syndrome (disorder)"
+          },
+          {
+            "code" : "720511000",
+            "display" : "Arrhinia with choanal atresia and microphthalmia syndrome (disorder)"
+          },
+          {
+            "code" : "720636001",
+            "display" : "Cholestasis with pigmentary retinopathy and cleft palate syndrome (disorder)"
+          },
+          {
+            "code" : "720639008",
+            "display" : "Coloboma, congenital heart disease, ichthyosiform dermatosis, intellectual disability ear anomaly syndrome (disorder)"
+          },
+          {
+            "code" : "720749004",
+            "display" : "Congenital hereditary endothelial dystrophy and perceptive deafness syndrome (disorder)"
+          },
+          {
+            "code" : "720850008",
+            "display" : "Choroidal atrophy and alopecia syndrome (disorder)"
+          },
+          {
+            "code" : "720856002",
+            "display" : "Ectodermal dysplasia with ectrodactyly and macular dystrophy syndrome (disorder)"
+          },
+          {
+            "code" : "720958002",
+            "display" : "Frank-Ter Haar syndrome (disorder)"
+          },
+          {
+            "code" : "720983002",
+            "display" : "Amaurosis hypertrichosis syndrome (disorder)"
+          },
+          {
+            "code" : "720987001",
+            "display" : "Aniridia, ptosis, intellectual disability, familial obesity syndrome (disorder)"
+          },
+          {
+            "code" : "721015008",
+            "display" : "Hydrocephalus with endocardial fibroelastosis and cataract syndrome (disorder)"
+          },
+          {
+            "code" : "721076000",
+            "display" : "Siegler Brewer Carey syndrome (disorder)"
+          },
+          {
+            "code" : "721084001",
+            "display" : "Deaf blind hypopigmentation syndrome Yemenite type (disorder)"
+          },
+          {
+            "code" : "721208007",
+            "display" : "Ectodermal dysplasia with blindness syndrome (disorder)"
+          },
+          {
+            "code" : "721233005",
+            "display" : "Hypergonadotropic hypogonadism with cataract syndrome (disorder)"
+          },
+          {
+            "code" : "721878003",
+            "display" : "Microphthalmia with brain and digit anomaly (disorder)"
+          },
+          {
+            "code" : "721879006",
+            "display" : "Microphthalmia with linear skin defect syndrome (disorder)"
+          },
+          {
+            "code" : "722054007",
+            "display" : "Ocular albinism with late-onset sensorineural deafness (disorder)"
+          },
+          {
+            "code" : "722056009",
+            "display" : "Oculocerebrofacial syndrome Kaufman type (disorder)"
+          },
+          {
+            "code" : "722057000",
+            "display" : "Oculocutaneous albinism type 5 (disorder)"
+          },
+          {
+            "code" : "722058005",
+            "display" : "Oculocutaneous albinism type 6 (disorder)"
+          },
+          {
+            "code" : "722059002",
+            "display" : "Oculocutaneous albinism type 7 (disorder)"
+          },
+          {
+            "code" : "722062004",
+            "display" : "Oculotrichodysplasia (disorder)"
+          },
+          {
+            "code" : "722113001",
+            "display" : "Osteoporosis and oculocutaneous hypopigmentation syndrome (disorder)"
+          },
+          {
+            "code" : "722282008",
+            "display" : "Agenesis of corpus callosum, intellectual disability, coloboma, micrognathia syndrome (disorder)"
+          },
+          {
+            "code" : "722378009",
+            "display" : "Congenital cataract with deafness and hypogonadism syndrome (disorder)"
+          },
+          {
+            "code" : "722379001",
+            "display" : "Congenital cataract with hypertrichosis and intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "722380003",
+            "display" : "Congenital cataract with intellectual disability and hypogonadotropic hypogonadism syndrome (disorder)"
+          },
+          {
+            "code" : "722381004",
+            "display" : "Congenital cataract, nephropathy, encephalopathy syndrome (disorder)"
+          },
+          {
+            "code" : "722382006",
+            "display" : "Cataract and microcornea syndrome (disorder)"
+          },
+          {
+            "code" : "722432000",
+            "display" : "Duane anomaly, myopathy, scoliosis syndrome (disorder)"
+          },
+          {
+            "code" : "722437006",
+            "display" : "Ectopia lentis, chorioretinal dystrophy, myopia syndrome (disorder)"
+          },
+          {
+            "code" : "722439009",
+            "display" : "Endothelial dystrophy, iris hypoplasia, congenital cataract, stromal thinning syndrome (disorder)"
+          },
+          {
+            "code" : "722450007",
+            "display" : "Glaucoma, ectopia, microspherophakia, stiff joint, short stature syndrome (disorder)"
+          },
+          {
+            "code" : "722457005",
+            "display" : "Juvenile cataract, microcornea, renal glucosuria syndrome (disorder)"
+          },
+          {
+            "code" : "722458000",
+            "display" : "Matthew Wood syndrome (disorder)"
+          },
+          {
+            "code" : "722463001",
+            "display" : "Macular coloboma, cleft palate, hallux valgus syndrome (disorder)"
+          },
+          {
+            "code" : "722604002",
+            "display" : "Optic disc dysplasia (disorder)"
+          },
+          {
+            "code" : "723131006",
+            "display" : "Megalopapilla (disorder)"
+          },
+          {
+            "code" : "723449004",
+            "display" : "Pierson syndrome (disorder)"
+          },
+          {
+            "code" : "723503006",
+            "display" : "Retinal degeneration, nanophthalmos, glaucoma syndrome (disorder)"
+          },
+          {
+            "code" : "723584003",
+            "display" : "Stern Lubinsky Durrie syndrome (disorder)"
+          },
+          {
+            "code" : "723612001",
+            "display" : "Spinal muscular atrophy, Dandy-Walker malformation, cataract syndrome (disorder)"
+          },
+          {
+            "code" : "723999009",
+            "display" : "Retinitis pigmentosa, hypopituitarism, nephronophthisis, skeletal dysplasia syndrome (disorder)"
+          },
+          {
+            "code" : "724139004",
+            "display" : "Microtia, eye coloboma, imperforation of nasolacrimal duct syndrome (disorder)"
+          },
+          {
+            "code" : "724140002",
+            "display" : "Microspherophakia with metaphyseal dysplasia syndrome (disorder)"
+          },
+          {
+            "code" : "724281002",
+            "display" : "Hyposmia, nasal and ocular hypoplasia, hypogonadotropic hypogonadism syndrome (disorder)"
+          },
+          {
+            "code" : "725289009",
+            "display" : "5-amino-4-imidazole carboxamide ribosiduria (disorder)"
+          },
+          {
+            "code" : "726619004",
+            "display" : "Ptosis, strabismus, ectopic pupil syndrome (disorder)"
+          },
+          {
+            "code" : "726704006",
+            "display" : "Cataract, congenital heart disease, neural tube defect syndrome (disorder)"
+          },
+          {
+            "code" : "726709001",
+            "display" : "Intellectual disability, cataract, calcified pinna, myopathy syndrome (disorder)"
+          },
+          {
+            "code" : "732247000",
+            "display" : "Cleft lip retinopathy syndrome (disorder)"
+          },
+          {
+            "code" : "732952003",
+            "display" : "Congenital cataract ichthyosis syndrome (disorder)"
+          },
+          {
+            "code" : "733032006",
+            "display" : "Epilepsy telangiectasia syndrome (disorder)"
+          },
+          {
+            "code" : "733049004",
+            "display" : "Encephalopathy, intracerebral calcification, retinal degeneration syndrome (disorder)"
+          },
+          {
+            "code" : "733088002",
+            "display" : "Preaxial polydactyly, colobomata, intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "733110004",
+            "display" : "Van den Bosch syndrome (disorder)"
+          },
+          {
+            "code" : "733116005",
+            "display" : "Aniridia, renal agenesis, psychomotor retardation syndrome (disorder)"
+          },
+          {
+            "code" : "733522005",
+            "display" : "Megalocornea with intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "733626002",
+            "display" : "Atypical Norrie disease due to monosomy Xp11.3 (disorder)"
+          },
+          {
+            "code" : "734026006",
+            "display" : "Isolated congenital megalocornea (disorder)"
+          },
+          {
+            "code" : "737579002",
+            "display" : "Congenital coloboma of macula lutea (disorder)"
+          },
+          {
+            "code" : "74969002",
+            "display" : "Congenital ectopic lens (disorder)"
+          },
+          {
+            "code" : "75340008",
+            "display" : "Congenital keratoconus posticus circumscriptus (disorder)"
+          },
+          {
+            "code" : "7611002",
+            "display" : "Septo-optic dysplasia sequence (disorder)"
+          },
+          {
+            "code" : "762402007",
+            "display" : "Congenital anomaly of zonula (disorder)"
+          },
+          {
+            "code" : "763619009",
+            "display" : "White forelock with malformations syndrome (disorder)"
+          },
+          {
+            "code" : "763669001",
+            "display" : "Spastic ataxia with congenital miosis (disorder)"
+          },
+          {
+            "code" : "763815000",
+            "display" : "Oculoauricular syndrome Schorderet type (disorder)"
+          },
+          {
+            "code" : "764452004",
+            "display" : "Retinal arterial macroaneurysm with supravalvular pulmonic stenosis (disorder)"
+          },
+          {
+            "code" : "764942005",
+            "display" : "Colobomatous microphthalmia, rhizomelic dysplasia syndrome (disorder)"
+          },
+          {
+            "code" : "765146000",
+            "display" : "Oculocutaneous albinism type 1 (disorder)"
+          },
+          {
+            "code" : "76562003",
+            "display" : "Congenital subcapsular cataract (disorder)"
+          },
+          {
+            "code" : "768932000",
+            "display" : "Coloboma of choroid and retina (disorder)"
+          },
+          {
+            "code" : "770604006",
+            "display" : "X-linked cerebral, cerebellar, coloboma syndrome (disorder)"
+          },
+          {
+            "code" : "770728003",
+            "display" : "Facial dysmorphism, lens dislocation, anterior segment abnormalities, spontaneous filtering bleb syndrome (disorder)"
+          },
+          {
+            "code" : "771148008",
+            "display" : "X-linked colobomatous microphthalmia, microcephaly, intellectual disability, short stature syndrome (disorder)"
+          },
+          {
+            "code" : "772224009",
+            "display" : "Warburg micro syndrome (disorder)"
+          },
+          {
+            "code" : "772225005",
+            "display" : "RAB18, member RAS oncogene family deficiency (disorder)"
+          },
+          {
+            "code" : "773280009",
+            "display" : "Hydrocephalus, blue sclera, nephropathy syndrome (disorder)"
+          },
+          {
+            "code" : "773282001",
+            "display" : "Macrosomia, microphthalmia, cleft palate syndrome (disorder)"
+          },
+          {
+            "code" : "773398005",
+            "display" : "Congenital cataract, progressive muscular hypotonia, hearing loss, developmental delay syndrome (disorder)"
+          },
+          {
+            "code" : "773627004",
+            "display" : "Porencephaly, microcephaly, bilateral congenital cataract syndrome (disorder)"
+          },
+          {
+            "code" : "773628009",
+            "display" : "Frontonasal dysplasia, severe microphthalmia, severe facial clefting syndrome (disorder)"
+          },
+          {
+            "code" : "773648002",
+            "display" : "Congenital cataract, hearing loss, severe developmental delay syndrome (disorder)"
+          },
+          {
+            "code" : "773690008",
+            "display" : "Microcornea, posterior megalolenticonus, persistent fetal vasculature, coloboma syndrome (disorder)"
+          },
+          {
+            "code" : "774212003",
+            "display" : "Microcornea, myopic chorioretinal atrophy, telecanthus syndrome (disorder)"
+          },
+          {
+            "code" : "776204008",
+            "display" : "Colobomatous microphthalmia, obesity, hypogenitalism, intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "778021002",
+            "display" : "Microphthalmia, retinitis pigmentosa, foveoschisis, optic disc drusen syndrome (disorder)"
+          },
+          {
+            "code" : "778042000",
+            "display" : "Foveal hypoplasia with presenile cataract syndrome (disorder)"
+          },
+          {
+            "code" : "782754006",
+            "display" : "Foveal hypoplasia, optic nerve decussation defect, anterior segment dysgenesis syndrome (disorder)"
+          },
+          {
+            "code" : "783246000",
+            "display" : "Megalocornea, spherophakia, secondary glaucoma syndrome (disorder)"
+          },
+          {
+            "code" : "783551005",
+            "display" : "Ichthyosis, short stature, brachydactyly, microspherophakia syndrome (disorder)"
+          },
+          {
+            "code" : "785298001",
+            "display" : "Muscle eye brain disease with bilateral multicystic leukodystrophy (disorder)"
+          },
+          {
+            "code" : "786076007",
+            "display" : "Congenital pit of optic disc (disorder)"
+          },
+          {
+            "code" : "78642008",
+            "display" : "Ocular albinism, type I (disorder)"
+          },
+          {
+            "code" : "78675000",
+            "display" : "Stickler syndrome (disorder)"
+          },
+          {
+            "code" : "78921008",
+            "display" : "Autosomal recessive ocular albinism (disorder)"
+          },
+          {
+            "code" : "789675009",
+            "display" : "Complete achromatopsia (disorder)"
+          },
+          {
+            "code" : "789676005",
+            "display" : "Blue cone monochromatism (disorder)"
+          },
+          {
+            "code" : "79385002",
+            "display" : "Lowe syndrome (disorder)"
+          },
+          {
+            "code" : "79410001",
+            "display" : "Congenital cataract (disorder)"
+          },
+          {
+            "code" : "79665007",
+            "display" : "Wildervanck syndrome (disorder)"
+          },
+          {
+            "code" : "8041000119108",
+            "display" : "Congenital arcus juvenilis (disorder)"
+          },
+          {
+            "code" : "80651009",
+            "display" : "Aicardi's syndrome (disorder)"
+          },
+          {
+            "code" : "80734006",
+            "display" : "Marinesco-Sjögren syndrome (disorder)"
+          },
+          {
+            "code" : "817968741000119105",
+            "display" : "Situs inversus of optic disc (disorder)"
+          },
+          {
+            "code" : "82342003",
+            "display" : "Yellow mutant oculocutaneous albinism (disorder)"
+          },
+          {
+            "code" : "838300000",
+            "display" : "Blue sclera of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "840456001",
+            "display" : "Coloboma of bilateral maculae (disorder)"
+          },
+          {
+            "code" : "840458000",
+            "display" : "Coloboma of bilateral lenses (disorder)"
+          },
+          {
+            "code" : "840485007",
+            "display" : "Cornea plana of bilateral corneas (disorder)"
+          },
+          {
+            "code" : "840489001",
+            "display" : "Congenital opacity of bilateral corneas (disorder)"
+          },
+          {
+            "code" : "840492002",
+            "display" : "Microphthalmos co-occurrent with congenital ocular coloboma of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "840494001",
+            "display" : "Congenital macrophthalmos of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "86527000",
+            "display" : "Hypoplasia of eye (disorder)"
+          },
+          {
+            "code" : "866088004",
+            "display" : "Microcornea of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "866089007",
+            "display" : "Megalocornea of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "890350009",
+            "display" : "Coralliform cataract (disorder)"
+          },
+          {
+            "code" : "890378005",
+            "display" : "Congenital epibulbar choristoma of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "890396001",
+            "display" : "Congenital pit of bilateral optic discs (disorder)"
+          },
+          {
+            "code" : "890415000",
+            "display" : "Congenital cyst of vitreous body (disorder)"
+          },
+          {
+            "code" : "890461000",
+            "display" : "Congenital symblepharon of bilateral conjunctivae (disorder)"
+          },
+          {
+            "code" : "897559009",
+            "display" : "Congenital retinal dysplasia caused by teratogenic substance (disorder)"
+          },
+          {
+            "code" : "897576008",
+            "display" : "Spherophakia of bilateral lenses (disorder)"
+          },
+          {
+            "code" : "897585008",
+            "display" : "Congenital primary glaucoma of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "897587000",
+            "display" : "Congenital primary aphakia of bilateral lenses (disorder)"
+          },
+          {
+            "code" : "92972001",
+            "display" : "Monophthalmos (disorder)"
+          },
+          {
+            "code" : "9311003",
+            "display" : "Hermansky-Pudlak syndrome (disorder)"
+          },
+          {
+            "code" : "93181004",
+            "display" : "Macrophthalmos (disorder)"
+          },
+          {
+            "code" : "93320008",
+            "display" : "Congenital malposition of eye (disorder)"
+          },
+          {
+            "code" : "93390002",
+            "display" : "Congenital ocular coloboma (disorder)"
+          },
+          {
+            "code" : "943003",
+            "display" : "Congenital retinal aneurysm (disorder)"
+          },
+          {
+            "code" : "95479005",
+            "display" : "Congenital sclerocornea (disorder)"
+          },
+          {
+            "code" : "95480008",
+            "display" : "Anterior lenticonus (disorder)"
+          },
+          {
+            "code" : "95481007",
+            "display" : "Anterior lentiglobus (disorder)"
+          },
+          {
+            "code" : "95482000",
+            "display" : "Posterior lenticonus (disorder)"
+          },
+          {
+            "code" : "95483005",
+            "display" : "Posterior lentiglobus (disorder)"
+          },
+          {
+            "code" : "95484004",
+            "display" : "Congenital pigmentation of lens (disorder)"
+          },
+          {
+            "code" : "95485003",
+            "display" : "Congenital anterior capsular pigmentation (disorder)"
+          },
+          {
+            "code" : "95488001",
+            "display" : "Congenital macular corneal dystrophy (disorder)"
+          },
+          {
+            "code" : "95489009",
+            "display" : "Congenital cyst of conjunctiva (disorder)"
+          },
+          {
+            "code" : "95490000",
+            "display" : "Congenital anomaly of choroid (disorder)"
+          },
+          {
+            "code" : "95491001",
+            "display" : "Congenital hypoplasia of choroid (disorder)"
+          },
+          {
+            "code" : "95492008",
+            "display" : "Congenital hypopigmentation of choroid (disorder)"
+          },
+          {
+            "code" : "95493003",
+            "display" : "Congenital retinoschisis (disorder)"
+          },
+          {
+            "code" : "95494009",
+            "display" : "Retinal dysplasia (disorder)"
+          },
+          {
+            "code" : "95495005",
+            "display" : "Multifocal retinal dysplasia (disorder)"
+          },
+          {
+            "code" : "95496006",
+            "display" : "Geographic retinal dysplasia (disorder)"
+          },
+          {
+            "code" : "95497002",
+            "display" : "Diffuse retinal dysplasia (disorder)"
+          },
+          {
+            "code" : "95500008",
+            "display" : "Persistent pupillary membranes (disorder)"
+          },
+          {
+            "code" : "95501007",
+            "display" : "Retinal arteriovenous malformation (disorder)"
+          },
+          {
+            "code" : "95714006",
+            "display" : "Hypoplasia of iris (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3e278e46-4d40-49c2-8f0d-e690fa76eb7b",
+    "timestamp" : "2025-11-24T13:32:30-05:00",
+    "total" : 473,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003369001",
+        "display" : "Microphthalmos due to Delleman syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003370000",
+        "display" : "Microphthalmos due to Fryns syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003372008",
+        "display" : "Microphthalmos due to branchio-oculo-facial syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003408005",
+        "display" : "Congenital dystrophy of cornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003424006",
+        "display" : "Hutterite type cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003884001",
+        "display" : "Pulverulent cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1003921006",
+        "display" : "Sclerocornea of bilateral corneas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010606009",
+        "display" : "Waardenburg syndrome type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010636000",
+        "display" : "Waardenburg syndrome type 2 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010664005",
+        "display" : "Stickler syndrome type 2 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010666007",
+        "display" : "Stickler syndrome type 4 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010668008",
+        "display" : "Stickler syndrome type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10170007",
+        "display" : "Black locks, oculocutaneous albinism, AND deafness of the sensorineural type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11160000",
+        "display" : "Brown oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11211000119108",
+        "display" : "Congenital anomaly of pupil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1172594000",
+        "display" : "Congenital labioscrotal agenesis, cerebellar malformation, corneal dystrophy, facial dysmorphism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1172629005",
+        "display" : "Severe growth deficiency, strabismus, extensive dermal melanocytosis, intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1172636006",
+        "display" : "Familial progressive retinal dystrophy, iris coloboma, congenital cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1172683008",
+        "display" : "Microcephaly, congenital cataract, psoriasiform dermatitis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1179296003",
+        "display" : "Colobomatous macrophthalmia with microcornea syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1197357008",
+        "display" : "Colobomatous optic disc, macular atrophy, chorioretinopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1197358003",
+        "display" : "Autosomal recessive dysgenesis of anterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1197365006",
+        "display" : "Familial cavitary optic disc anomaly (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208342001",
+        "display" : "Eye defects, arachnodactyly, cardiopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208480004",
+        "display" : "Epibulbar lipodermoid, preauricular appendage, polythelia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208840000",
+        "display" : "Incomplete achromatopsia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217628008",
+        "display" : "Congenital absence of eye with orbital implant (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217664009",
+        "display" : "Congenital colobomatous cyst of orbit (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217688006",
+        "display" : "Congenital corneal leukoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230014007",
+        "display" : "Duane retraction syndrome with congenital deafness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230020008",
+        "display" : "Congenital peripapillary staphyloma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230066003",
+        "display" : "Isolated microspherophakia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230344000",
+        "display" : "Microphthalmia, microtia, fetal akinesia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231626009",
+        "display" : "Syndromic nanophthalmos due to Kenny-Caffey syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1237337007",
+        "display" : "Extensive peripapillary myelinated nerve fibers of retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1237370002",
+        "display" : "Myelinated nerve fiber layer of retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1254751008",
+        "display" : "Congenital prepapillary vascular loop (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1255268002",
+        "display" : "Oculocerebrodental syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260140008",
+        "display" : "Congenital cataract, severe neonatal hepatopathy, global developmental delay syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1279837000",
+        "display" : "Congenital cataract microcornea with corneal opacity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1279889005",
+        "display" : "Microcephaly, facial dysmorphism, ocular anomalies, multiple congenital anomalies syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128082002",
+        "display" : "Duane's syndrome, type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128083007",
+        "display" : "Duane's syndrome, type 2 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128084001",
+        "display" : "Duane's syndrome, type 3 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128352002",
+        "display" : "Congenital structural abnormality of cornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128353007",
+        "display" : "Congenital anomaly of lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1285322008",
+        "display" : "Triopia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128533009",
+        "display" : "Micropapilla (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128534003",
+        "display" : "Congenital anomaly of posterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128985003",
+        "display" : "Congenital anomaly of iris (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1295485009",
+        "display" : "Aldehyde dehydrogenase 18 family member A1-related de Barsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1295488006",
+        "display" : "Pyrroline-5-carboxylate reductase 1 related de Barsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1300116006",
+        "display" : "Oculocutaneous albinism type 8 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13015741000119105",
+        "display" : "Congenital ocular melanocytosis of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13015781000119100",
+        "display" : "Congenital ocular melanocytosis of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13015821000119105",
+        "display" : "Congenital ocular melanocytosis of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1303582008",
+        "display" : "Congenital aphakia, iris hypoplasia, microphthalmia, microcornea syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1306783005",
+        "display" : "Congenital malformation of angle of anterior chamber of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1306784004",
+        "display" : "Congenital malformation of angle of anterior chamber of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1306785003",
+        "display" : "Congenital malformation of angle of anterior chamber of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13282008",
+        "display" : "Congenital corneal opacity interfering with vision (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1332382002",
+        "display" : "Coloboma, osteopetrosis, microphthalmia, macrocephaly, albinism, deafness syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14552009",
+        "display" : "Vestigial remnants of canal of Cloquet (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15552004",
+        "display" : "Osteogenesis imperfecta, recessive perinatal lethal, with microcephaly AND cataracts (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665201000119103",
+        "display" : "Congenital vitreous opacity of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665241000119101",
+        "display" : "Congenital vitreous opacity of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665281000119106",
+        "display" : "Congenital vitreous opacity of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665321000119101",
+        "display" : "Congenital chorioretinal coloboma of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665361000119106",
+        "display" : "Congenital chorioretinal coloboma of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665401000119102",
+        "display" : "Congenital chorioretinal coloboma of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665641000119103",
+        "display" : "Anophthalmos of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665721000119102",
+        "display" : "Congenital coloboma of bilateral irides (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665801000119104",
+        "display" : "Congenital capsular cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665841000119102",
+        "display" : "Congenital capsular cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15665881000119107",
+        "display" : "Congenital capsular cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15863931000119108",
+        "display" : "Duane's syndrome of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986071000119108",
+        "display" : "Congenital anomaly of right pupil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986111000119101",
+        "display" : "Congenital coloboma of bilateral optic discs (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986151000119100",
+        "display" : "Congenital coloboma of right optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986191000119105",
+        "display" : "Congenital coloboma of left optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986231000119101",
+        "display" : "Congenital anomaly of right optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986271000119103",
+        "display" : "Congenital anomaly of bilateral optic discs (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986311000119103",
+        "display" : "Congenital anomaly of left optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986351000119102",
+        "display" : "Congenital chorioretinal degeneration of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986391000119107",
+        "display" : "Congenital chorioretinal degeneration of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986431000119102",
+        "display" : "Congenital chorioretinal degeneration of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986471000119104",
+        "display" : "Congenital anomaly of retina of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986511000119108",
+        "display" : "Congenital hypertrophy of retinal pigment epithelium of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986551000119109",
+        "display" : "Congenital hypertrophy of retinal pigment epithelium of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986591000119104",
+        "display" : "Congenital hypertrophy of retinal pigment epithelium of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986751000119101",
+        "display" : "Congenital anomaly of retina of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986791000119106",
+        "display" : "Congenital anomaly of bilateral retinas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986951000119103",
+        "display" : "Congenital aniridia of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15986991000119108",
+        "display" : "Congenital aniridia of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987031000119108",
+        "display" : "Congenital aniridia of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987071000119106",
+        "display" : "Congenital anomaly of left pupil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987111000119104",
+        "display" : "Congenital anomaly of bilateral pupils (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987151000119103",
+        "display" : "Microphthalmos of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987191000119108",
+        "display" : "Microphthalmos of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987231000119104",
+        "display" : "Microphthalmos of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987391000119105",
+        "display" : "Congenital opacity of cornea of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987431000119100",
+        "display" : "Congenital opacity of cornea of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987511000119106",
+        "display" : "Congenital structural abnormality of left cornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987551000119107",
+        "display" : "Congenital structural abnormality of bilateral corneas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987591000119102",
+        "display" : "Congenital structural abnormality of right cornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987871000119100",
+        "display" : "Congenital coloboma of right lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15987911000119102",
+        "display" : "Congenital coloboma of left lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15988111000119100",
+        "display" : "Congenital anomaly of bilateral sclerae (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15988151000119104",
+        "display" : "Congenital anomaly of left sclera (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15988191000119109",
+        "display" : "Congenital anomaly of right sclera (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17480001",
+        "display" : "Atresia of pupil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17827007",
+        "display" : "Cross syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "184437571000119104",
+        "display" : "Congenital structural abnormality of ciliary body (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18821006",
+        "display" : "Dysplasia of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193687000",
+        "display" : "Oguchi's disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19416009",
+        "display" : "Congenital anomaly of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204102004",
+        "display" : "Cryptophthalmos syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204108000",
+        "display" : "Simple microphthalmos (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204118005",
+        "display" : "Congenital keratoglobus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204127006",
+        "display" : "Cortical and zonular cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204128001",
+        "display" : "Congenital lamellar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204134008",
+        "display" : "Coloboma of lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204138006",
+        "display" : "Congenital blue dot cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204139003",
+        "display" : "Congenital membranous cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204143004",
+        "display" : "Corneal size and shape anomalies (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204145006",
+        "display" : "Cornea plana (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204148008",
+        "display" : "Congenital corneal opacity with visual deficit (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204149000",
+        "display" : "Congenital corneal opacity without visual deficit (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204152008",
+        "display" : "Axenfeld anomaly (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204153003",
+        "display" : "Irido-corneo-trabecular dysgenesis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204154009",
+        "display" : "Irido-trabecular dysgenesis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204159004",
+        "display" : "Polycoria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204164000",
+        "display" : "Blue sclera (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204166003",
+        "display" : "Multiple anterior segment anomalies (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204171005",
+        "display" : "Congenital vitreous opacity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204173008",
+        "display" : "Coloboma of retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204175001",
+        "display" : "Congenital fold and cyst of posterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204181009",
+        "display" : "Congenital retinal fold (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204189006",
+        "display" : "Congenital stricture of retinal artery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204192005",
+        "display" : "Coloboma of choroid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21590003",
+        "display" : "Congenital zonular cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230504002",
+        "display" : "Tilted optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230506000",
+        "display" : "Myelinated nerve fibers of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "231933003",
+        "display" : "Lattice corneal dystrophy, isolated form (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232061009",
+        "display" : "Congenital stationary night blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232074003",
+        "display" : "Congenital hypertrophy of retinal pigment epithelium (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "237919007",
+        "display" : "Minimal pigment oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "237920001",
+        "display" : "Temperature-sensitive oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "24210004",
+        "display" : "Congenital chorioretinal degeneration (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247127002",
+        "display" : "Retinal arteriovenous shunt (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247204001",
+        "display" : "Morning glory disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "251729009",
+        "display" : "Congenital malformation of angle of anterior chamber of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "251730004",
+        "display" : "Goniodysgenesis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "251731000",
+        "display" : "Barkan membrane (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253176002",
+        "display" : "Gillespie syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253221000",
+        "display" : "Lenticonus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253223002",
+        "display" : "Congenital polar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253224008",
+        "display" : "Congenital anterior polar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253225009",
+        "display" : "Congenital posterior polar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253226005",
+        "display" : "Congenital sutural cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253228006",
+        "display" : "Embryotoxon (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253230008",
+        "display" : "Congenital anterior staphyloma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253231007",
+        "display" : "Aniridia type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253232000",
+        "display" : "Aniridia type 2 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253233005",
+        "display" : "Pseudo-polycoria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253234004",
+        "display" : "Congenital heterochromia iridis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253235003",
+        "display" : "Congenital cyst of iris (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253236002",
+        "display" : "Congenital malformation of vitreous humor (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253238001",
+        "display" : "Partial hypoplasia of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253239009",
+        "display" : "Sectorial hypoplasia of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253240006",
+        "display" : "Trabecular dysgenesis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253241005",
+        "display" : "Orbital dystopia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253242003",
+        "display" : "Horizontal orbital dystopia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253243008",
+        "display" : "Vertical orbital dystopia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253244002",
+        "display" : "Rotational orbital dystopia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "254092004",
+        "display" : "Saldino-Mainzer dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "254150007",
+        "display" : "Francois syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26098002",
+        "display" : "Microcornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26336006",
+        "display" : "Tyrosinase-positive oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26399002",
+        "display" : "Ocular albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265569002",
+        "display" : "Aland eye disease and ocular albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "268158009",
+        "display" : "Megalocornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "268160006",
+        "display" : "Congenital corneal opacity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28550007",
+        "display" : "Congenital capsular cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2884008",
+        "display" : "Weill-Marchesani syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29590001",
+        "display" : "Congenital total cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302174000",
+        "display" : "Congenital abnormality of iris and ciliary body (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32809005",
+        "display" : "Congenital anomaly of sclera (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "33521009",
+        "display" : "Congenital anomaly of lens shape (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335331000119104",
+        "display" : "Duane's syndrome of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335831000119107",
+        "display" : "Congenital posterior subcapsular polar cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335841000119103",
+        "display" : "Congenital nuclear cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335851000119101",
+        "display" : "Congenital combined form cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335861000119104",
+        "display" : "Congenital cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "335871000119105",
+        "display" : "Congenital anterior subcapsular polar cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "340941000119101",
+        "display" : "Duane's syndrome of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341441000119102",
+        "display" : "Congenital posterior subcapsular polar cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341451000119100",
+        "display" : "Congenital nuclear cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341461000119103",
+        "display" : "Congenital combined form cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341471000119109",
+        "display" : "Congenital cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "341481000119107",
+        "display" : "Congenital anterior subcapsular polar cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342821000119103",
+        "display" : "Congenital posterior subcapsular polar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342831000119100",
+        "display" : "Congenital combined form cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342841000119109",
+        "display" : "Congenital choroidal fold (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342911000119104",
+        "display" : "Congenital anterior subcapsular polar cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "346691000119104",
+        "display" : "Congenital posterior subcapsular polar cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "346701000119104",
+        "display" : "Congenital nuclear cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "346711000119101",
+        "display" : "Congenital combined form cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "346721000119108",
+        "display" : "Congenital cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "346731000119106",
+        "display" : "Congenital anterior subcapsular polar cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348151000119103",
+        "display" : "Congenital pit of optic disc of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348321000119108",
+        "display" : "Congenital zonular cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348601000119109",
+        "display" : "Congenital pit of optic disc of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "348771000119108",
+        "display" : "Congenital zonular cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "349281000119109",
+        "display" : "Congenital zonular cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35272001",
+        "display" : "Microphakia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35387008",
+        "display" : "Congenital aphakia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "370483001",
+        "display" : "Mittendorf's dot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3705009",
+        "display" : "Congenital anomaly of anterior chamber of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "373650004",
+        "display" : "Hypoplasia of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "373661007",
+        "display" : "Optic disc structural anomaly (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "392437005",
+        "display" : "Posterior embryotoxon (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "392461003",
+        "display" : "Congenital ectopic pupil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39302008",
+        "display" : "Fundus coloboma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400962005",
+        "display" : "Congenital miosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400963000",
+        "display" : "Congenital mydriasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400965007",
+        "display" : "Congenital iris ectropion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403766000",
+        "display" : "Acromegaloid phenotype with cutis verticis gyrata and corneal leukoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4041005",
+        "display" : "Congenital anomaly of macula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "414063002",
+        "display" : "Duane syndrome with vertical deviation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "415176004",
+        "display" : "Primary congenital glaucoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416671000",
+        "display" : "Microspherophakia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416834004",
+        "display" : "Epicapsular star (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "417604002",
+        "display" : "Axenfeld-Rieger syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418653000",
+        "display" : "Secondary lens coloboma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419237004",
+        "display" : "Ectopia lentis et pupillae (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419281007",
+        "display" : "Lentiglobus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419496009",
+        "display" : "Congenital corneal keloid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419544009",
+        "display" : "Primary lens coloboma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429448005",
+        "display" : "Congenital anomaly of anterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429449002",
+        "display" : "Congenital hypoplasia of fovea centralis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438504004",
+        "display" : "Lenz microphthalmia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44295002",
+        "display" : "Congenital coloboma of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445257004",
+        "display" : "Nance-Horan syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446449009",
+        "display" : "Renal coloboma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4465002",
+        "display" : "Spherophakia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449817000",
+        "display" : "Peters plus syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449866003",
+        "display" : "Vitreoretinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45795007",
+        "display" : "Melanosis oculi (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "47507006",
+        "display" : "Rieger syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "48249002",
+        "display" : "Congenital anisocoria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49381001",
+        "display" : "Congenital anomaly of retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51485001",
+        "display" : "Congenital coloboma of iris (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5361003",
+        "display" : "Embryonal nuclear cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54359000",
+        "display" : "Congenital corneal opacity not interfering with vision (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55819001",
+        "display" : "Albinotic fundus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56852002",
+        "display" : "Achromatopsia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58882000",
+        "display" : "Congenital cystic eyeball (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "59252009",
+        "display" : "de Barsey syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60318001",
+        "display" : "Duane's syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60505005",
+        "display" : "Congenital anomaly of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61142002",
+        "display" : "Microphthalmos (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61649007",
+        "display" : "Congenital oculocutaneous hypopigmentation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62144003",
+        "display" : "Punctate oculocutaneous albinoidism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62631009",
+        "display" : "Congenital cyst of posterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62977003",
+        "display" : "Persistent tunica vasculosa lentis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63216003",
+        "display" : "Congenital keratoconus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63450009",
+        "display" : "Rufous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63844009",
+        "display" : "Oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63890001",
+        "display" : "Osteogenesis imperfecta with blue sclerae AND dentinogenesis imperfecta (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64404003",
+        "display" : "Osteogenesis imperfecta with blue sclerae AND normal teeth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "6483008",
+        "display" : "Tyrosinase-negative oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "65997000",
+        "display" : "Congenital fold of posterior segment of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66499004",
+        "display" : "Congenital cortical cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "679911000119104",
+        "display" : "Congenital cortical cataract of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "679931000119109",
+        "display" : "Congenital cortical cataract of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "681041000119106",
+        "display" : "Congenital cortical cataract of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "69278003",
+        "display" : "Congenital aniridia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698851003",
+        "display" : "SOX2 anophthalmia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699381006",
+        "display" : "Oculoskeletal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699867001",
+        "display" : "Duane-radial ray syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702433001",
+        "display" : "Congenital cataracts, facial dysmorphism and neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703403003",
+        "display" : "Ophthalmo-acromelic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711407000",
+        "display" : "Thrombocytopathy, asplenia and miosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715240000",
+        "display" : "X-linked retinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715464002",
+        "display" : "Microcephalus microcornea syndrome of Seemanova type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715484003",
+        "display" : "Ophthalmomandibulomelic dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715533002",
+        "display" : "Microcephaly, microphthalmia, ectrodactyly of lower limbs and prognathism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715632003",
+        "display" : "Oculocutaneous albinism type 4 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715771008",
+        "display" : "Microphthalmos co-occurrent with congenital ocular coloboma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715988005",
+        "display" : "Cataract with aberrant oral frenula and growth delay syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715989002",
+        "display" : "Congenital cataract with intellectual disability and anal atresia and urinary defect syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716024001",
+        "display" : "Goniodysgenesis with intellectual disability and short stature syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716099003",
+        "display" : "Absence deformity of leg and congenital cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716110002",
+        "display" : "Upper limb defect with eye and ear abnormalities syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716165003",
+        "display" : "Microcornea with corectopia and macular hypoplasia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716166002",
+        "display" : "Microcornea with glaucoma and absent frontal sinus syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716170005",
+        "display" : "Deafness with cataract and skeletal anomaly syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716775009",
+        "display" : "Nanophthalmia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717222003",
+        "display" : "Microphthalmia with ankyloblepharon and intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717785002",
+        "display" : "Coloboma of macula with brachydactyly type B syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717812000",
+        "display" : "Congenital cataract, hypertrophic cardiomyopathy, mitochondrial myopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717887003",
+        "display" : "Biemond syndrome type 2 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717915004",
+        "display" : "Blepharoptosis, myopia, ectopia lentis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7183006",
+        "display" : "Anophthalmos (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718574003",
+        "display" : "Cleft palate with coloboma of eye and deafness syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718680001",
+        "display" : "Oro-facial digital syndrome type 9 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718761007",
+        "display" : "Syndromic microphthalmia due to orthodenticle homeobox 2 mutation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718766002",
+        "display" : "Spondyloepiphyseal dysplasia, craniosynostosis, cleft palate, cataract and intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718851007",
+        "display" : "Cataract glaucoma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719042007",
+        "display" : "Uveal coloboma with cleft lip and palate and intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719096006",
+        "display" : "Brittle cornea syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719102004",
+        "display" : "Congenital cataract with ataxia and deafness syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719377004",
+        "display" : "Microcephalus with albinism and digital anomaly syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719824001",
+        "display" : "Vici syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719944006",
+        "display" : "Trichomegaly with retina pigmentary degeneration and dwarfism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719947004",
+        "display" : "Craniofacial dysmorphism with coloboma of eye and corpus callosum agenesis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720009004",
+        "display" : "Intractable diarrhea with choanal atresia and eye anomaly syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720010009",
+        "display" : "Microphthalmia with brain atrophy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720415006",
+        "display" : "Acrorenoocular syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720467005",
+        "display" : "Aniridia and absent patella syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720468000",
+        "display" : "Aniridia and intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720496006",
+        "display" : "Anophthalmia plus syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720636001",
+        "display" : "Cholestasis with pigmentary retinopathy and cleft palate syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720639008",
+        "display" : "Coloboma, congenital heart disease, ichthyosiform dermatosis, intellectual disability ear anomaly syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720749004",
+        "display" : "Congenital hereditary endothelial dystrophy and perceptive deafness syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720850008",
+        "display" : "Choroidal atrophy and alopecia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720856002",
+        "display" : "Ectodermal dysplasia with ectrodactyly and macular dystrophy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720958002",
+        "display" : "Frank-Ter Haar syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720983002",
+        "display" : "Amaurosis hypertrichosis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720987001",
+        "display" : "Aniridia, ptosis, intellectual disability, familial obesity syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721015008",
+        "display" : "Hydrocephalus with endocardial fibroelastosis and cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721076000",
+        "display" : "Siegler Brewer Carey syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721084001",
+        "display" : "Deaf blind hypopigmentation syndrome Yemenite type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721208007",
+        "display" : "Ectodermal dysplasia with blindness syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721233005",
+        "display" : "Hypergonadotropic hypogonadism with cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721878003",
+        "display" : "Microphthalmia with brain and digit anomaly (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721879006",
+        "display" : "Microphthalmia with linear skin defect syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722054007",
+        "display" : "Ocular albinism with late-onset sensorineural deafness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722056009",
+        "display" : "Oculocerebrofacial syndrome Kaufman type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722057000",
+        "display" : "Oculocutaneous albinism type 5 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722058005",
+        "display" : "Oculocutaneous albinism type 6 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722059002",
+        "display" : "Oculocutaneous albinism type 7 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722062004",
+        "display" : "Oculotrichodysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722113001",
+        "display" : "Osteoporosis and oculocutaneous hypopigmentation syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722282008",
+        "display" : "Agenesis of corpus callosum, intellectual disability, coloboma, micrognathia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722378009",
+        "display" : "Congenital cataract with deafness and hypogonadism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722379001",
+        "display" : "Congenital cataract with hypertrichosis and intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722380003",
+        "display" : "Congenital cataract with intellectual disability and hypogonadotropic hypogonadism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722381004",
+        "display" : "Congenital cataract, nephropathy, encephalopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722382006",
+        "display" : "Cataract and microcornea syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722437006",
+        "display" : "Ectopia lentis, chorioretinal dystrophy, myopia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722439009",
+        "display" : "Endothelial dystrophy, iris hypoplasia, congenital cataract, stromal thinning syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722450007",
+        "display" : "Glaucoma, ectopia, microspherophakia, stiff joint, short stature syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722457005",
+        "display" : "Juvenile cataract, microcornea, renal glucosuria syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722458000",
+        "display" : "Matthew Wood syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722463001",
+        "display" : "Macular coloboma, cleft palate, hallux valgus syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722604002",
+        "display" : "Optic disc dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723131006",
+        "display" : "Megalopapilla (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723449004",
+        "display" : "Pierson syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723503006",
+        "display" : "Retinal degeneration, nanophthalmos, glaucoma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723584003",
+        "display" : "Stern Lubinsky Durrie syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723612001",
+        "display" : "Spinal muscular atrophy, Dandy-Walker malformation, cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723999009",
+        "display" : "Retinitis pigmentosa, hypopituitarism, nephronophthisis, skeletal dysplasia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724139004",
+        "display" : "Microtia, eye coloboma, imperforation of nasolacrimal duct syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724140002",
+        "display" : "Microspherophakia with metaphyseal dysplasia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724281002",
+        "display" : "Hyposmia, nasal and ocular hypoplasia, hypogonadotropic hypogonadism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "725289009",
+        "display" : "5-amino-4-imidazole carboxamide ribosiduria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726619004",
+        "display" : "Ptosis, strabismus, ectopic pupil syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726704006",
+        "display" : "Cataract, congenital heart disease, neural tube defect syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726709001",
+        "display" : "Intellectual disability, cataract, calcified pinna, myopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "732247000",
+        "display" : "Cleft lip retinopathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "732952003",
+        "display" : "Congenital cataract ichthyosis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733032006",
+        "display" : "Epilepsy telangiectasia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733049004",
+        "display" : "Encephalopathy, intracerebral calcification, retinal degeneration syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733088002",
+        "display" : "Preaxial polydactyly, colobomata, intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733110004",
+        "display" : "Van den Bosch syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733116005",
+        "display" : "Aniridia, renal agenesis, psychomotor retardation syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733522005",
+        "display" : "Megalocornea with intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733626002",
+        "display" : "Atypical Norrie disease due to monosomy Xp11.3 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "734026006",
+        "display" : "Isolated congenital megalocornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737579002",
+        "display" : "Congenital coloboma of macula lutea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74969002",
+        "display" : "Congenital ectopic lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75340008",
+        "display" : "Congenital keratoconus posticus circumscriptus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7611002",
+        "display" : "Septo-optic dysplasia sequence (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762402007",
+        "display" : "Congenital anomaly of zonula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "763619009",
+        "display" : "White forelock with malformations syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "763669001",
+        "display" : "Spastic ataxia with congenital miosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "763815000",
+        "display" : "Oculoauricular syndrome Schorderet type (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764452004",
+        "display" : "Retinal arterial macroaneurysm with supravalvular pulmonic stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764942005",
+        "display" : "Colobomatous microphthalmia, rhizomelic dysplasia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765146000",
+        "display" : "Oculocutaneous albinism type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76562003",
+        "display" : "Congenital subcapsular cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "768932000",
+        "display" : "Coloboma of choroid and retina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770604006",
+        "display" : "X-linked cerebral, cerebellar, coloboma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770728003",
+        "display" : "Facial dysmorphism, lens dislocation, anterior segment abnormalities, spontaneous filtering bleb syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771148008",
+        "display" : "X-linked colobomatous microphthalmia, microcephaly, intellectual disability, short stature syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "772224009",
+        "display" : "Warburg micro syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "772225005",
+        "display" : "RAB18, member RAS oncogene family deficiency (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773280009",
+        "display" : "Hydrocephalus, blue sclera, nephropathy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773282001",
+        "display" : "Macrosomia, microphthalmia, cleft palate syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773398005",
+        "display" : "Congenital cataract, progressive muscular hypotonia, hearing loss, developmental delay syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773627004",
+        "display" : "Porencephaly, microcephaly, bilateral congenital cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773628009",
+        "display" : "Frontonasal dysplasia, severe microphthalmia, severe facial clefting syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773648002",
+        "display" : "Congenital cataract, hearing loss, severe developmental delay syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773690008",
+        "display" : "Microcornea, posterior megalolenticonus, persistent fetal vasculature, coloboma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "774212003",
+        "display" : "Microcornea, myopic chorioretinal atrophy, telecanthus syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "776204008",
+        "display" : "Colobomatous microphthalmia, obesity, hypogenitalism, intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "778021002",
+        "display" : "Microphthalmia, retinitis pigmentosa, foveoschisis, optic disc drusen syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "778042000",
+        "display" : "Foveal hypoplasia with presenile cataract syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "782754006",
+        "display" : "Foveal hypoplasia, optic nerve decussation defect, anterior segment dysgenesis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783246000",
+        "display" : "Megalocornea, spherophakia, secondary glaucoma syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783551005",
+        "display" : "Ichthyosis, short stature, brachydactyly, microspherophakia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "785298001",
+        "display" : "Muscle eye brain disease with bilateral multicystic leukodystrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "786076007",
+        "display" : "Congenital pit of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78642008",
+        "display" : "Ocular albinism, type I (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78675000",
+        "display" : "Stickler syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78921008",
+        "display" : "Autosomal recessive ocular albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "789675009",
+        "display" : "Complete achromatopsia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "789676005",
+        "display" : "Blue cone monochromatism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79385002",
+        "display" : "Lowe syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79410001",
+        "display" : "Congenital cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79665007",
+        "display" : "Wildervanck syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8041000119108",
+        "display" : "Congenital arcus juvenilis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "80651009",
+        "display" : "Aicardi's syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "80734006",
+        "display" : "Marinesco-Sjögren syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "817968741000119105",
+        "display" : "Situs inversus of optic disc (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82342003",
+        "display" : "Yellow mutant oculocutaneous albinism (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "838300000",
+        "display" : "Blue sclera of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840456001",
+        "display" : "Coloboma of bilateral maculae (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840458000",
+        "display" : "Coloboma of bilateral lenses (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840485007",
+        "display" : "Cornea plana of bilateral corneas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840489001",
+        "display" : "Congenital opacity of bilateral corneas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840492002",
+        "display" : "Microphthalmos co-occurrent with congenital ocular coloboma of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840494001",
+        "display" : "Congenital macrophthalmos of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86527000",
+        "display" : "Hypoplasia of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "866088004",
+        "display" : "Microcornea of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "866089007",
+        "display" : "Megalocornea of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890350009",
+        "display" : "Coralliform cataract (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890378005",
+        "display" : "Congenital epibulbar choristoma of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890396001",
+        "display" : "Congenital pit of bilateral optic discs (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890415000",
+        "display" : "Congenital cyst of vitreous body (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890461000",
+        "display" : "Congenital symblepharon of bilateral conjunctivae (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "897559009",
+        "display" : "Congenital retinal dysplasia caused by teratogenic substance (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "897576008",
+        "display" : "Spherophakia of bilateral lenses (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "897585008",
+        "display" : "Congenital primary glaucoma of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "897587000",
+        "display" : "Congenital primary aphakia of bilateral lenses (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "92972001",
+        "display" : "Monophthalmos (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "9311003",
+        "display" : "Hermansky-Pudlak syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "93181004",
+        "display" : "Macrophthalmos (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "93320008",
+        "display" : "Congenital malposition of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "93390002",
+        "display" : "Congenital ocular coloboma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "943003",
+        "display" : "Congenital retinal aneurysm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95479005",
+        "display" : "Congenital sclerocornea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95480008",
+        "display" : "Anterior lenticonus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95481007",
+        "display" : "Anterior lentiglobus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95482000",
+        "display" : "Posterior lenticonus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95483005",
+        "display" : "Posterior lentiglobus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95484004",
+        "display" : "Congenital pigmentation of lens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95485003",
+        "display" : "Congenital anterior capsular pigmentation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95488001",
+        "display" : "Congenital macular corneal dystrophy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95489009",
+        "display" : "Congenital cyst of conjunctiva (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95490000",
+        "display" : "Congenital anomaly of choroid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95491001",
+        "display" : "Congenital hypoplasia of choroid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95492008",
+        "display" : "Congenital hypopigmentation of choroid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95493003",
+        "display" : "Congenital retinoschisis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95494009",
+        "display" : "Retinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95495005",
+        "display" : "Multifocal retinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95496006",
+        "display" : "Geographic retinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95497002",
+        "display" : "Diffuse retinal dysplasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95500008",
+        "display" : "Persistent pupillary membranes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95501007",
+        "display" : "Retinal arteriovenous malformation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95714006",
+        "display" : "Hypoplasia of iris (disorder)"
+      }
+    ]
+  }
+}

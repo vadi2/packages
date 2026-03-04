@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.146",
+  "meta" : {
+    "versionId" : "16",
+    "lastUpdated" : "2024-07-04T01:07:44.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-29"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-07-04"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.146",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.146"
+    }
+  ],
+  "version" : "20240704",
+  "name" : "CancerStageIV",
+  "title" : "Cancer Stage IV",
+  "status" : "active",
+  "date" : "2024-07-04T01:07:44-04:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of cancer stage IV.),(Data Element Scope: This value set may use a model element related to a component of or result of cancer staging Procedure or Laboratory Test.),(Inclusion Criteria: Includes concepts that represent cancer stage IV.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1222837003",
+            "display" : "American Joint Committee on Cancer stage IV (qualifier value)"
+          },
+          {
+            "code" : "258228008",
+            "display" : "Stage 4 (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:51fd161b-39b5-4a21-b163-c70198471ade",
+    "timestamp" : "2025-11-24T12:33:32-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1222837003",
+        "display" : "American Joint Committee on Cancer stage IV (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "258228008",
+        "display" : "Stage 4 (qualifier value)"
+      }
+    ]
+  }
+}

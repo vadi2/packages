@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.217",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2025-07-01T01:09:32.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-01"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-01"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.217",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.217"
+    }
+  ],
+  "version" : "20250701",
+  "name" : "DigitalLiteracyDiagnosesSNOMEDCT",
+  "title" : "Digital Literacy Diagnoses SNOMED CT",
+  "status" : "active",
+  "date" : "2025-07-01T01:09:32-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent diagnoses for Digital Literacy as selected by the Gravity Project.),(Data Element Scope: In the FHIR Condition resource, these values may be used for Condition.code (e.g., for the SDOHCC Condition profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes SNOMED CT diagnoses for Digital Literacy as selected by the Gravity Project.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1344883000",
+            "display" : "Inadequate digital literacy skills (finding)"
+          },
+          {
+            "code" : "1344884006",
+            "display" : "Inadequate digital literacy skills affecting health care (finding)"
+          },
+          {
+            "code" : "1344885007",
+            "display" : "Inadequate digital literacy skills affecting employment (finding)"
+          },
+          {
+            "code" : "1344886008",
+            "display" : "Inadequate digital literacy skills affecting education (finding)"
+          },
+          {
+            "code" : "851261000124100",
+            "display" : "Inadequate foundation level digital literacy skills (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fde4f3d1-7b43-44a1-bcc8-63a776278d88",
+    "timestamp" : "2025-11-24T16:10:34-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344883000",
+        "display" : "Inadequate digital literacy skills (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344884006",
+        "display" : "Inadequate digital literacy skills affecting health care (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344885007",
+        "display" : "Inadequate digital literacy skills affecting employment (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344886008",
+        "display" : "Inadequate digital literacy skills affecting education (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "851261000124100",
+        "display" : "Inadequate foundation level digital literacy skills (finding)"
+      }
+    ]
+  }
+}

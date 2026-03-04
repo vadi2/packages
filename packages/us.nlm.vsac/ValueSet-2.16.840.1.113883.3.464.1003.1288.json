@@ -1,0 +1,219 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1288",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1288",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1288"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "TotalNephrectomy",
+  "title" : "Total Nephrectomy",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for total nephrectomy.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a total nephrectomy.),(Exclusion Criteria: Partial Nephrectomy.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "concept" : [
+          {
+            "code" : "0TT00Z0",
+            "display" : "Resection of Right Kidney, Open Approach, Allogeneic"
+          },
+          {
+            "code" : "0TT00Z1",
+            "display" : "Resection of Right Kidney, Open Approach, Syngeneic"
+          },
+          {
+            "code" : "0TT00Z2",
+            "display" : "Resection of Right Kidney, Open Approach, Zooplastic"
+          },
+          {
+            "code" : "0TT00ZZ",
+            "display" : "Resection of Right Kidney, Open Approach"
+          },
+          {
+            "code" : "0TT04ZG",
+            "display" : "Resection of Right Kidney, Percutaneous Endoscopic Approach, Hand-Assisted"
+          },
+          {
+            "code" : "0TT04ZZ",
+            "display" : "Resection of Right Kidney, Percutaneous Endoscopic Approach"
+          },
+          {
+            "code" : "0TT10Z0",
+            "display" : "Resection of Left Kidney, Open Approach, Allogeneic"
+          },
+          {
+            "code" : "0TT10Z1",
+            "display" : "Resection of Left Kidney, Open Approach, Syngeneic"
+          },
+          {
+            "code" : "0TT10Z2",
+            "display" : "Resection of Left Kidney, Open Approach, Zooplastic"
+          },
+          {
+            "code" : "0TT10ZZ",
+            "display" : "Resection of Left Kidney, Open Approach"
+          },
+          {
+            "code" : "0TT14ZG",
+            "display" : "Resection of Left Kidney, Percutaneous Endoscopic Approach, Hand-Assisted"
+          },
+          {
+            "code" : "0TT14ZZ",
+            "display" : "Resection of Left Kidney, Percutaneous Endoscopic Approach"
+          },
+          {
+            "code" : "0TT20ZZ",
+            "display" : "Resection of Bilateral Kidneys, Open Approach"
+          },
+          {
+            "code" : "0TT24ZG",
+            "display" : "Resection of Bilateral Kidneys, Percutaneous Endoscopic Approach, Hand-Assisted"
+          },
+          {
+            "code" : "0TT24ZZ",
+            "display" : "Resection of Bilateral Kidneys, Percutaneous Endoscopic Approach"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:92b13d0d-b8ca-4920-81e8-b6edc8c7cf1f",
+    "timestamp" : "2025-11-24T18:52:41-05:00",
+    "total" : 15,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT00Z0",
+        "display" : "Resection of Right Kidney, Open Approach, Allogeneic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT00Z1",
+        "display" : "Resection of Right Kidney, Open Approach, Syngeneic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT00Z2",
+        "display" : "Resection of Right Kidney, Open Approach, Zooplastic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT00ZZ",
+        "display" : "Resection of Right Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT04ZG",
+        "display" : "Resection of Right Kidney, Percutaneous Endoscopic Approach, Hand-Assisted"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT04ZZ",
+        "display" : "Resection of Right Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT10Z0",
+        "display" : "Resection of Left Kidney, Open Approach, Allogeneic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT10Z1",
+        "display" : "Resection of Left Kidney, Open Approach, Syngeneic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT10Z2",
+        "display" : "Resection of Left Kidney, Open Approach, Zooplastic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT10ZZ",
+        "display" : "Resection of Left Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT14ZG",
+        "display" : "Resection of Left Kidney, Percutaneous Endoscopic Approach, Hand-Assisted"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT14ZZ",
+        "display" : "Resection of Left Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT20ZZ",
+        "display" : "Resection of Bilateral Kidneys, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT24ZG",
+        "display" : "Resection of Bilateral Kidneys, Percutaneous Endoscopic Approach, Hand-Assisted"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TT24ZZ",
+        "display" : "Resection of Bilateral Kidneys, Percutaneous Endoscopic Approach"
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.864",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-09-12T22:48:02.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-13"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.864",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.864"
+    }
+  ],
+  "version" : "20240613",
+  "name" : "KidneyBiopsyReport",
+  "title" : "Kidney Biopsy Report",
+  "status" : "active",
+  "date" : "2024-06-13T01:21:43-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Kidney Biopsy Report.),(Data Element Scope: The intent of this set of values is to identify patients who have a/an report of findings from kidney biopsy.),(Inclusion Criteria: Includes LOINC codes for Kidney Biopsy Report.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Kidney Biopsy Report.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "65757-7"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:535347ed-d529-40cd-8ae5-13d95dbff7b4",
+    "timestamp" : "2025-11-24T15:32:09-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "65757-7",
+        "display" : "Kidney Pathology biopsy report"
+      }
+    ]
+  }
+}

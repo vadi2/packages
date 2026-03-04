@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2550",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Cystic_Fibrosis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2550",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2550"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CysticFibrosisTestsForChlorideInUnspecifiedSpecimenQuantitative",
+  "title" : "Cystic Fibrosis (Tests for Chloride in Unspecified Specimen [Quantitative])",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Chloride in an unspecified specimen),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Chloride in unspecified specimen; quantitative),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "2072-7",
+            "display" : "Chloride [Moles/volume] in Body fluid"
+          },
+          {
+            "code" : "32307-1",
+            "display" : "Chloride [Moles/volume] in Specimen"
+          },
+          {
+            "code" : "54370-2",
+            "display" : "Chloride [Mass/volume] in Body fluid"
+          },
+          {
+            "code" : "87475-0",
+            "display" : "Chloride [Mass/volume] in Specimen"
+          },
+          {
+            "code" : "87476-8",
+            "display" : "Chloride [Mass/mass] in Specimen"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9db29d68-6be2-4df7-8417-933968203757",
+    "timestamp" : "2025-11-24T13:28:27-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2072-7",
+        "display" : "Chloride [Moles/volume] in Body fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "32307-1",
+        "display" : "Chloride [Moles/volume] in Specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "54370-2",
+        "display" : "Chloride [Mass/volume] in Body fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "87475-0",
+        "display" : "Chloride [Mass/volume] in Specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "87476-8",
+        "display" : "Chloride [Mass/mass] in Specimen"
+      }
+    ]
+  }
+}

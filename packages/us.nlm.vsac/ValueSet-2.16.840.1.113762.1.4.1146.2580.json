@@ -1,0 +1,193 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2580",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Homocystinuria,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2580",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2580"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "HomocystinuriaTestsForHomocysteineQuantitativeInBlood",
+  "title" : "Homocystinuria (Tests for Homocysteine [Quantitative] in Blood)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Homocysteine [Quantitative] in Blood),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Homocysteine [Quantitative] in Blood),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "13965-9",
+            "display" : "Homocysteine [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "20646-6",
+            "display" : "Homocystine [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "2428-1",
+            "display" : "Homocysteine [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "2430-7",
+            "display" : "Homocystine [Mass/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "27352-4",
+            "display" : "Homocystine [Units/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "33937-4",
+            "display" : "Homocystine Free [Moles/volume] in Serum or Plasma"
+          },
+          {
+            "code" : "54301-7",
+            "display" : "Homocysteine [Moles/volume] in DBS"
+          },
+          {
+            "code" : "54302-5",
+            "display" : "Homocystine [Moles/volume] in DBS"
+          },
+          {
+            "code" : "58859-0",
+            "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --post XXX challenge"
+          },
+          {
+            "code" : "72500-2",
+            "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --fasting"
+          },
+          {
+            "code" : "72501-0",
+            "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --6 hours post dose methionine"
+          },
+          {
+            "code" : "72502-8",
+            "display" : "Homocyst(e)ine [Molar concentration difference] in Serum or Plasma --6 hours post dose methionine - post CFst"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5a0624b5-cfd6-42b9-8e5e-fba66bc1bdb4",
+    "timestamp" : "2025-11-24T13:29:44-05:00",
+    "total" : 12,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "13965-9",
+        "display" : "Homocysteine [Moles/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "20646-6",
+        "display" : "Homocystine [Moles/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2428-1",
+        "display" : "Homocysteine [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2430-7",
+        "display" : "Homocystine [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "27352-4",
+        "display" : "Homocystine [Units/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33937-4",
+        "display" : "Homocystine Free [Moles/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "54301-7",
+        "display" : "Homocysteine [Moles/volume] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "54302-5",
+        "display" : "Homocystine [Moles/volume] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "58859-0",
+        "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --post XXX challenge"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "72500-2",
+        "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --fasting"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "72501-0",
+        "display" : "Homocyst(e)ine [Moles/volume] in Serum or Plasma --6 hours post dose methionine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "72502-8",
+        "display" : "Homocyst(e)ine [Molar concentration difference] in Serum or Plasma --6 hours post dose methionine - post CFst"
+      }
+    ]
+  }
+}

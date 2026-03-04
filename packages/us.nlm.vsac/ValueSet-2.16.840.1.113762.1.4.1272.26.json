@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1272.26",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Mathematica PSI Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1272.26",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1272.26"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "IntravenousHeparinAdministrationRoute",
+  "title" : "Intravenous Heparin Administration Route",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "Mathematica PSI Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for Heparin intravenous routes of administration.),(Data Element Scope: This value set may use a model element related to routes of medication administrations for Heparin),(Inclusion Criteria: Includes concepts that represent intravenous routes of administration for Heparin.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "418114005",
+            "display" : "Intravenous central route (qualifier value)"
+          },
+          {
+            "code" : "419993007",
+            "display" : "Intravenous peripheral route (qualifier value)"
+          },
+          {
+            "code" : "47625008",
+            "display" : "Intravenous route (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:b345c927-5deb-407e-a8c5-08f57304b8cb",
+    "timestamp" : "2025-11-24T16:57:11-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418114005",
+        "display" : "Intravenous central route (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419993007",
+        "display" : "Intravenous peripheral route (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "47625008",
+        "display" : "Intravenous route (qualifier value)"
+      }
+    ]
+  }
+}

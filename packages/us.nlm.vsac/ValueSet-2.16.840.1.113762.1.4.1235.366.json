@@ -1,0 +1,111 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.366",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-09-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-09-29"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.366",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.366"
+    }
+  ],
+  "version" : "20230929",
+  "name" : "OtherRevascularization_Grouping",
+  "title" : "Other Revascularization_Grouping",
+  "status" : "active",
+  "date" : "2023-09-29T01:00:57-04:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for the Other Revascularization exclusion in the Statin Use For Diabetes Care Need",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set's intent is to define the clinical codes that constitute the Other Revascularization Grouping and utilization in patients/users connected health.),(Data Element Scope: This value set's intent is to define the clinical codes that constitute the Other Revascularization Grouping and utilization in patients/users connected health.),(Inclusion Criteria: This value set's intent is to define the clinical codes that constitute the Other Revascularization Grouping and utilization in patients/users connected health.),(Exclusion Criteria: This value set's intent is to define the clinical codes that constitute the Other Revascularization Grouping and utilization in patients/users connected health.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.364"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.365"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1aba4935-f913-4420-889a-c11f31847584",
+    "timestamp" : "2025-11-24T15:47:11-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233497001",
+        "display" : "Limb revascularization (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233498006",
+        "display" : "Revascularization of upper limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233499003",
+        "display" : "Revascularization of entire free upper limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233500007",
+        "display" : "Revascularization of forearm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233505002",
+        "display" : "Revascularization of lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233506001",
+        "display" : "Revascularization of entire free lower limb (procedure)"
+      }
+    ]
+  }
+}

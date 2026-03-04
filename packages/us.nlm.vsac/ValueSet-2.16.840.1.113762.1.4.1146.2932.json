@@ -1,0 +1,164 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2932",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2932",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2932"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "InvasiveHaemophilusInfluenzaeDiseaseAdditionalContextSymptomCodesICD10CM",
+  "title" : "Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD10CM)),(Data Element Scope: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD10CM)),(Inclusion Criteria: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD10CM)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "R05",
+            "display" : "Cough"
+          },
+          {
+            "code" : "R50.81",
+            "display" : "Fever presenting with conditions classified elsewhere"
+          },
+          {
+            "code" : "R50.9",
+            "display" : "Fever, unspecified"
+          },
+          {
+            "code" : "R51",
+            "display" : "Headache"
+          },
+          {
+            "code" : "R53.8",
+            "display" : "Other malaise and fatigue"
+          },
+          {
+            "code" : "R53.83",
+            "display" : "Other fatigue"
+          },
+          {
+            "code" : "R56.00",
+            "display" : "Simple febrile convulsions"
+          },
+          {
+            "code" : "R63.0",
+            "display" : "Anorexia"
+          },
+          {
+            "code" : "R63.6",
+            "display" : "Underweight"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2bafdf1f-aba0-4d42-b594-8ccc74c82ee8",
+    "timestamp" : "2025-11-24T13:46:18-05:00",
+    "total" : 9,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R05",
+        "display" : "Cough"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R50.81",
+        "display" : "Fever presenting with conditions classified elsewhere"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R50.9",
+        "display" : "Fever, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R51",
+        "display" : "Headache"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R53.8",
+        "display" : "Other malaise and fatigue"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R53.83",
+        "display" : "Other fatigue"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R56.00",
+        "display" : "Simple febrile convulsions"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R63.0",
+        "display" : "Anorexia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R63.6",
+        "display" : "Underweight"
+      }
+    ]
+  }
+}

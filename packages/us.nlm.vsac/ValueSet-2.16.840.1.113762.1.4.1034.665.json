@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1034.665",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-14T01:00:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Academy of Neurology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-14"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-14"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1034.665",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1034.665"
+    }
+  ],
+  "version" : "20250614",
+  "name" : "OxygenTherapyPhysicalObject",
+  "title" : "Oxygen Therapy (Physical Object)",
+  "status" : "active",
+  "date" : "2025-06-14T01:00:54-04:00",
+  "publisher" : "American Academy of Neurology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Oxygen therapy),(Data Element Scope: ),(Inclusion Criteria: Oxygen therapy),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "257308009",
+            "display" : "Oxygenator (physical object)"
+          },
+          {
+            "code" : "336589003",
+            "display" : "Oxygen equipment (physical object)"
+          },
+          {
+            "code" : "336608004",
+            "display" : "Oxygen cylinder (physical object)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:075a43b9-7de6-4344-a52f-f5e9e881c178",
+    "timestamp" : "2025-11-24T11:07:17-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "257308009",
+        "display" : "Oxygenator (physical object)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "336589003",
+        "display" : "Oxygen equipment (physical object)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "336608004",
+        "display" : "Oxygen cylinder (physical object)"
+      }
+    ]
+  }
+}

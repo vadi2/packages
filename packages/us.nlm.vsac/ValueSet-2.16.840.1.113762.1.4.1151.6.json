@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1151.6",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Oregon Urology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-02-07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2016-07-13"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1151.6",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1151.6"
+    }
+  ],
+  "version" : "20160713",
+  "name" : "PeripheralDXAScan",
+  "title" : "Peripheral DXA Scan",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2016-07-13T01:00:02-04:00",
+  "publisher" : "Oregon Urology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Peripheral xray study to determine bone density),(Data Element Scope: The intent of this data element is to identify patients with low bone mineral density.),(Inclusion Criteria: Appendicular skeleton (radius, wrist, heel)),(Exclusion Criteria: 1 or more sites, axial skeleton (hips, pelvis, spine))",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "77081",
+            "display" : "Dual-energy X-ray absorptiometry (DXA), bone density study, 1 or more sites; appendicular skeleton (peripheral) (eg, radius, wrist, heel)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c8f38293-c90d-49fb-bf47-0aaa3bc7163d",
+    "timestamp" : "2025-11-24T14:09:12-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "77081",
+        "display" : "Dual-energy X-ray absorptiometry (DXA), bone density study, 1 or more sites; appendicular skeleton (peripheral) (eg, radius, wrist, heel)"
+      }
+    ]
+  }
+}

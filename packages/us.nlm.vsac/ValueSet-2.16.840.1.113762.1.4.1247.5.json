@@ -1,0 +1,589 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.5",
+  "meta" : {
+    "versionId" : "51",
+    "lastUpdated" : "2025-07-02T01:03:43.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-02"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-02"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.5",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.5"
+    }
+  ],
+  "version" : "20250702",
+  "name" : "SocialDeterminantsOfHealthGeneralInterventionsSNOMEDCT",
+  "title" : "Social Determinants of Health General Interventions SNOMED CT",
+  "status" : "active",
+  "date" : "2025-07-02T01:03:43-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent \"generic\" interventions, as selected by the Gravity Project, that are common to procedures and service requests across all SDOH Domains.),(Data Element Scope: This value set is a member of procedure grouping value sets and service request grouping value sets whose values may be used in the FHIR Procedure or ServiceRequest resources respectively (e.g., for the SDOHCC Procedure profile or the SDOHCC ServiceRequest profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes \"generic\" SNOMED CT interventions, as selected by the Gravity Project, that are common to procedures and service requests across all SDOH Domains.),(Exclusion Criteria: Interventions specific to the domain can be found in each domain value set.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1148446004",
+            "display" : "Education about legal aid (procedure)"
+          },
+          {
+            "code" : "11541000175105",
+            "display" : "Referral to care management service (procedure)"
+          },
+          {
+            "code" : "1162436000",
+            "display" : "Referral to legal aid (procedure)"
+          },
+          {
+            "code" : "1230338004",
+            "display" : "Referral to charitable organization (procedure)"
+          },
+          {
+            "code" : "1268662008",
+            "display" : "Coordination of resources to address social needs (procedure)"
+          },
+          {
+            "code" : "1268726004",
+            "display" : "Education about peer support program (procedure)"
+          },
+          {
+            "code" : "1268727008",
+            "display" : "Education about charitable organization (procedure)"
+          },
+          {
+            "code" : "1269404007",
+            "display" : "Adjustment of clinical plan to accommodate social risk (procedure)"
+          },
+          {
+            "code" : "1300108002",
+            "display" : "Assessment of barriers to communication (procedure)"
+          },
+          {
+            "code" : "225348002",
+            "display" : "Maintaining the client's dignity (procedure)"
+          },
+          {
+            "code" : "306238000",
+            "display" : "Referral to Social Services (procedure)"
+          },
+          {
+            "code" : "308440001",
+            "display" : "Referral to social worker (procedure)"
+          },
+          {
+            "code" : "32021000175107",
+            "display" : "Referral to community care management service (procedure)"
+          },
+          {
+            "code" : "370840004",
+            "display" : "Maintaining and protecting the patient's autonomy, dignity, and human rights (procedure)"
+          },
+          {
+            "code" : "428481000124106",
+            "display" : "Referral to clinical social worker (procedure)"
+          },
+          {
+            "code" : "461481000124109",
+            "display" : "Referral to peer support (procedure)"
+          },
+          {
+            "code" : "462481000124102",
+            "display" : "Referral to Community Action Agency program (procedure)"
+          },
+          {
+            "code" : "462491000124104",
+            "display" : "Referral to benefits enrollment assistance program (procedure)"
+          },
+          {
+            "code" : "464001000124109",
+            "display" : "Referral to case manager (procedure)"
+          },
+          {
+            "code" : "464011000124107",
+            "display" : "Referral to care manager (procedure)"
+          },
+          {
+            "code" : "464021000124104",
+            "display" : "Referral to care navigator (procedure)"
+          },
+          {
+            "code" : "464131000124100",
+            "display" : "Referral to community health worker (procedure)"
+          },
+          {
+            "code" : "464161000124109",
+            "display" : "Referral to community resource network program (procedure)"
+          },
+          {
+            "code" : "464291000124105",
+            "display" : "Education about community resource network program (procedure)"
+          },
+          {
+            "code" : "464301000124106",
+            "display" : "Education about benefits enrollment assistance program (procedure)"
+          },
+          {
+            "code" : "464311000124109",
+            "display" : "Education about Community Action Agency Program (procedure)"
+          },
+          {
+            "code" : "464611000124102",
+            "display" : "Coordination of care team (procedure)"
+          },
+          {
+            "code" : "470231000124107",
+            "display" : "Counseling for social determinant of health risk (procedure)"
+          },
+          {
+            "code" : "470591000124109",
+            "display" : "Education about community development financial institution (procedure)"
+          },
+          {
+            "code" : "470601000124101",
+            "display" : "Education about community development corporation (procedure)"
+          },
+          {
+            "code" : "470611000124103",
+            "display" : "Education about area agency on aging program (procedure)"
+          },
+          {
+            "code" : "471111000124101",
+            "display" : "Referral to community development financial institution (procedure)"
+          },
+          {
+            "code" : "471121000124109",
+            "display" : "Referral to community development corporation (procedure)"
+          },
+          {
+            "code" : "471131000124107",
+            "display" : "Referral to area agency on aging (procedure)"
+          },
+          {
+            "code" : "472151000124109",
+            "display" : "Referral to medical legal partnership program (procedure)"
+          },
+          {
+            "code" : "472331000124100",
+            "display" : "Education about medical legal partnership program (procedure)"
+          },
+          {
+            "code" : "551101000124107",
+            "display" : "Referral to lawyer (procedure)"
+          },
+          {
+            "code" : "581041000124102",
+            "display" : "Assistance with application for renewal of benefits enrollment (procedure)"
+          },
+          {
+            "code" : "651121000124109",
+            "display" : "Education about patient advocacy program (procedure)"
+          },
+          {
+            "code" : "661181000124100",
+            "display" : "Education about peer support specialist service (procedure)"
+          },
+          {
+            "code" : "662871000124101",
+            "display" : "Referral to patient advocate program (procedure)"
+          },
+          {
+            "code" : "663211000124100",
+            "display" : "Referral to peer support specialist (procedure)"
+          },
+          {
+            "code" : "710824005",
+            "display" : "Assessment of health and social care needs (procedure)"
+          },
+          {
+            "code" : "710873001",
+            "display" : "Involving client in decision making process (procedure)"
+          },
+          {
+            "code" : "711069006",
+            "display" : "Coordination of care plan (procedure)"
+          },
+          {
+            "code" : "718524000",
+            "display" : "Referral to discharge planning team (procedure)"
+          },
+          {
+            "code" : "761131000124106",
+            "display" : "Assistance with application for child financial support (procedure)"
+          },
+          {
+            "code" : "761291000124101",
+            "display" : "Education about child financial support (procedure)"
+          },
+          {
+            "code" : "761301000124100",
+            "display" : "Education about library educational programs (procedure)"
+          },
+          {
+            "code" : "841421000124108",
+            "display" : "Education about non-attorney legal advocate (procedure)"
+          },
+          {
+            "code" : "841431000124106",
+            "display" : "Referral to non-attorney legal advocate (procedure)"
+          },
+          {
+            "code" : "851301000124109",
+            "display" : "Referral to health plan case management program (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:821fbd1c-381e-4def-884e-726412012d8b",
+    "timestamp" : "2025-11-24T16:14:45-05:00",
+    "total" : 52,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148446004",
+        "display" : "Education about legal aid (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11541000175105",
+        "display" : "Referral to care management service (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1162436000",
+        "display" : "Referral to legal aid (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230338004",
+        "display" : "Referral to charitable organization (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1268662008",
+        "display" : "Coordination of resources to address social needs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1268726004",
+        "display" : "Education about peer support program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1268727008",
+        "display" : "Education about charitable organization (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1269404007",
+        "display" : "Adjustment of clinical plan to accommodate social risk (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1300108002",
+        "display" : "Assessment of barriers to communication (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225348002",
+        "display" : "Maintaining the client's dignity (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "306238000",
+        "display" : "Referral to Social Services (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308440001",
+        "display" : "Referral to social worker (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32021000175107",
+        "display" : "Referral to community care management service (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "370840004",
+        "display" : "Maintaining and protecting the patient's autonomy, dignity, and human rights (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428481000124106",
+        "display" : "Referral to clinical social worker (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "461481000124109",
+        "display" : "Referral to peer support (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "462481000124102",
+        "display" : "Referral to Community Action Agency program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "462491000124104",
+        "display" : "Referral to benefits enrollment assistance program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464001000124109",
+        "display" : "Referral to case manager (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464011000124107",
+        "display" : "Referral to care manager (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464021000124104",
+        "display" : "Referral to care navigator (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464131000124100",
+        "display" : "Referral to community health worker (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464161000124109",
+        "display" : "Referral to community resource network program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464291000124105",
+        "display" : "Education about community resource network program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464301000124106",
+        "display" : "Education about benefits enrollment assistance program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464311000124109",
+        "display" : "Education about Community Action Agency Program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "464611000124102",
+        "display" : "Coordination of care team (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "470231000124107",
+        "display" : "Counseling for social determinant of health risk (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "470591000124109",
+        "display" : "Education about community development financial institution (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "470601000124101",
+        "display" : "Education about community development corporation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "470611000124103",
+        "display" : "Education about area agency on aging program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471111000124101",
+        "display" : "Referral to community development financial institution (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471121000124109",
+        "display" : "Referral to community development corporation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "471131000124107",
+        "display" : "Referral to area agency on aging (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "472151000124109",
+        "display" : "Referral to medical legal partnership program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "472331000124100",
+        "display" : "Education about medical legal partnership program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "551101000124107",
+        "display" : "Referral to lawyer (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "581041000124102",
+        "display" : "Assistance with application for renewal of benefits enrollment (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "651121000124109",
+        "display" : "Education about patient advocacy program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "661181000124100",
+        "display" : "Education about peer support specialist service (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "662871000124101",
+        "display" : "Referral to patient advocate program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "663211000124100",
+        "display" : "Referral to peer support specialist (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710824005",
+        "display" : "Assessment of health and social care needs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710873001",
+        "display" : "Involving client in decision making process (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711069006",
+        "display" : "Coordination of care plan (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718524000",
+        "display" : "Referral to discharge planning team (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "761131000124106",
+        "display" : "Assistance with application for child financial support (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "761291000124101",
+        "display" : "Education about child financial support (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "761301000124100",
+        "display" : "Education about library educational programs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "841421000124108",
+        "display" : "Education about non-attorney legal advocate (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "841431000124106",
+        "display" : "Referral to non-attorney legal advocate (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "851301000124109",
+        "display" : "Referral to health plan case management program (procedure)"
+      }
+    ]
+  }
+}

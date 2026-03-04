@@ -1,0 +1,253 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2789",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2789",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2789"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "BalanitisSNOMED",
+  "title" : "Balanitis (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Balanitis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Balanitis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "198033005",
+            "display" : "Balanitis xerotica obliterans (disorder)"
+          },
+          {
+            "code" : "236743008",
+            "display" : "Balanitis circumscripta plasmacellularis (disorder)"
+          },
+          {
+            "code" : "236744002",
+            "display" : "Circinate balanitis co-occurrent with reactive arthritis triad (disorder)"
+          },
+          {
+            "code" : "236745001",
+            "display" : "Bacterial balanitis (disorder)"
+          },
+          {
+            "code" : "236746000",
+            "display" : "Anaerobic balanitis (disorder)"
+          },
+          {
+            "code" : "254740002",
+            "display" : "Ulcerative balanoposthitis (disorder)"
+          },
+          {
+            "code" : "255483000",
+            "display" : "Erosive balanitis (disorder)"
+          },
+          {
+            "code" : "309091003",
+            "display" : "Infective balanitis (disorder)"
+          },
+          {
+            "code" : "397889003",
+            "display" : "Gangrenous balanitis (disorder)"
+          },
+          {
+            "code" : "403462002",
+            "display" : "Traumatic balanitis (disorder)"
+          },
+          {
+            "code" : "403463007",
+            "display" : "Irritant balanitis (disorder)"
+          },
+          {
+            "code" : "403464001",
+            "display" : "Acute infective balanitis (disorder)"
+          },
+          {
+            "code" : "403465000",
+            "display" : "Chronic infective balanitis (disorder)"
+          },
+          {
+            "code" : "403466004",
+            "display" : "Micaceous and keratotic balanitis (disorder)"
+          },
+          {
+            "code" : "44882003",
+            "display" : "Balanitis (disorder)"
+          },
+          {
+            "code" : "46090001",
+            "display" : "Balanoposthitis (disorder)"
+          },
+          {
+            "code" : "50227004",
+            "display" : "Amebic balanitis (disorder)"
+          },
+          {
+            "code" : "9076009",
+            "display" : "Balanitis circinata (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:cfb04e1c-8826-4622-88f8-28636b435056",
+    "timestamp" : "2025-11-24T13:38:03-05:00",
+    "total" : 18,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "198033005",
+        "display" : "Balanitis xerotica obliterans (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236743008",
+        "display" : "Balanitis circumscripta plasmacellularis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236744002",
+        "display" : "Circinate balanitis co-occurrent with reactive arthritis triad (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236745001",
+        "display" : "Bacterial balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236746000",
+        "display" : "Anaerobic balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "254740002",
+        "display" : "Ulcerative balanoposthitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "255483000",
+        "display" : "Erosive balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "309091003",
+        "display" : "Infective balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "397889003",
+        "display" : "Gangrenous balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403462002",
+        "display" : "Traumatic balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403463007",
+        "display" : "Irritant balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403464001",
+        "display" : "Acute infective balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403465000",
+        "display" : "Chronic infective balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403466004",
+        "display" : "Micaceous and keratotic balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44882003",
+        "display" : "Balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "46090001",
+        "display" : "Balanoposthitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50227004",
+        "display" : "Amebic balanitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "9076009",
+        "display" : "Balanitis circinata (disorder)"
+      }
+    ]
+  }
+}

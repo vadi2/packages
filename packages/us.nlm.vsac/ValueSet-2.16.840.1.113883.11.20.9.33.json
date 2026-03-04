@@ -1,0 +1,129 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.11.20.9.33",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2025-07-24T18:09:41.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.33",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.11.20.9.33"
+    }
+  ],
+  "version" : "20240606",
+  "name" : "INDRoleclassCodes",
+  "title" : "INDRoleclassCodes",
+  "status" : "active",
+  "date" : "2024-06-06T01:23:01-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Represents interpersonal roles associated with a patient, such as caregiver, emergency contact, guarantor, or next of kin. These roles may impact communication, consent, or care coordination.),(Data Element Scope: Supports structured documentation of an individual's role in relation to a patient for administrative, legal, or care coordination purposes.),(Inclusion Criteria: Includes select codes from http://terminology.hl7.org/CodeSystem/v3-RoleClass),(Exclusion Criteria: Excludes codes other than the selected codes.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "concept" : [
+          {
+            "code" : "AGNT",
+            "display" : "agent"
+          },
+          {
+            "code" : "CAREGIVER",
+            "display" : "caregiver"
+          },
+          {
+            "code" : "ECON",
+            "display" : "emergency contact"
+          },
+          {
+            "code" : "GUAR",
+            "display" : "guarantor"
+          },
+          {
+            "code" : "NOK",
+            "display" : "next of kin"
+          },
+          {
+            "code" : "PRS",
+            "display" : "personal relationship"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:43c44944-ce82-41c7-8e68-5e404b04ab8b",
+    "timestamp" : "2025-11-24T17:08:45-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "AGNT",
+        "display" : "agent"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "CAREGIVER",
+        "display" : "caregiver"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "ECON",
+        "display" : "emergency contact"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "GUAR",
+        "display" : "guarantor"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "NOK",
+        "display" : "next of kin"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+        "version" : "2023-02-01",
+        "code" : "PRS",
+        "display" : "personal relationship"
+      }
+    ]
+  }
+}

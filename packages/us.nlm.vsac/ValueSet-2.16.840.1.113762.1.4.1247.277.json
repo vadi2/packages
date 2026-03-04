@@ -1,0 +1,139 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.277",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2025-06-28T01:08:30.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.277",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.277"
+    }
+  ],
+  "version" : "20250628",
+  "name" : "ToxicStressGoalsSNOMEDCT",
+  "title" : "Toxic Stress Goals SNOMED CT",
+  "status" : "active",
+  "date" : "2025-06-28T01:08:30-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent goals for Toxic Stress as selected by the Gravity Project.),(Data Element Scope: In the FHIR Goal resource, these values may be used for Goal.description (e.g., for the SDOHCC Goal profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes SNOMED CT goals for Toxic Stress as selected by the Gravity Project.),(Exclusion Criteria: NA)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1137437005",
+            "display" : "Has adequate sleep (finding)"
+          },
+          {
+            "code" : "11741000202105",
+            "display" : "Good quality of sleep (finding)"
+          },
+          {
+            "code" : "226229006",
+            "display" : "Balanced diet (finding)"
+          },
+          {
+            "code" : "226234005",
+            "display" : "Healthy diet (finding)"
+          },
+          {
+            "code" : "228448000",
+            "display" : "Exercises regularly (finding)"
+          },
+          {
+            "code" : "267112005",
+            "display" : "Patient feels well (finding)"
+          },
+          {
+            "code" : "716421004",
+            "display" : "Able to manage stress (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c3060db2-39ee-4174-8cc3-8dceb148b950",
+    "timestamp" : "2025-11-24T16:13:02-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1137437005",
+        "display" : "Has adequate sleep (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11741000202105",
+        "display" : "Good quality of sleep (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "226229006",
+        "display" : "Balanced diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "226234005",
+        "display" : "Healthy diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228448000",
+        "display" : "Exercises regularly (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "267112005",
+        "display" : "Patient feels well (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716421004",
+        "display" : "Able to manage stress (finding)"
+      }
+    ]
+  }
+}

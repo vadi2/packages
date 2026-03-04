@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1197",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-01-22T01:09:37.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-01-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1197",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1197"
+    }
+  ],
+  "version" : "20240122",
+  "name" : "CervicalLymphadenitisSNOMED",
+  "title" : "Cervical Lymphadenitis (SNOMED)",
+  "status" : "active",
+  "date" : "2024-01-22T01:09:37-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has a Cervical Lymphadenitis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Cervical Lymphadenitis; lymphadenitis of face, head and neck; Cervical adenitis),(Exclusion Criteria: chronic disease, other lymphadenitis of other sites)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10628951000119102",
+            "display" : "Acute lymphadenitis of face (disorder)"
+          },
+          {
+            "code" : "10628991000119107",
+            "display" : "Acute lymphadenitis of head (disorder)"
+          },
+          {
+            "code" : "10629031000119100",
+            "display" : "Acute lymphadenitis of neck (disorder)"
+          },
+          {
+            "code" : "15170009",
+            "display" : "Submandibular lymphadenitis (disorder)"
+          },
+          {
+            "code" : "200700005",
+            "display" : "Acute lymphadenitis of face, head and neck (disorder)"
+          },
+          {
+            "code" : "238405002",
+            "display" : "Acute cervical adenitis (disorder)"
+          },
+          {
+            "code" : "3502005",
+            "display" : "Cervical lymphadenitis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:333bc0f5-c37b-464a-8644-0f7440e28c69",
+    "timestamp" : "2025-11-24T12:46:20-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10628951000119102",
+        "display" : "Acute lymphadenitis of face (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10628991000119107",
+        "display" : "Acute lymphadenitis of head (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10629031000119100",
+        "display" : "Acute lymphadenitis of neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15170009",
+        "display" : "Submandibular lymphadenitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "200700005",
+        "display" : "Acute lymphadenitis of face, head and neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "238405002",
+        "display" : "Acute cervical adenitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3502005",
+        "display" : "Cervical lymphadenitis (disorder)"
+      }
+    ]
+  }
+}

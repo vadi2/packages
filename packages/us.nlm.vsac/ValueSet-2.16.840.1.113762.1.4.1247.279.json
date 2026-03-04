@@ -1,0 +1,169 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.279",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-28T01:08:30.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.279",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.279"
+    }
+  ],
+  "version" : "20250628",
+  "name" : "RacismInterventionsSNOMEDCT",
+  "title" : "Racism Interventions SNOMED CT",
+  "status" : "active",
+  "date" : "2025-06-28T01:08:30-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent interventions for Racism as selected by the Gravity Project.),(Data Element Scope: In the FHIR Procedure and ServiceRequest resources, these values may be used for Procedure.code and ServiceRequest.code (e.g., for the SDOHCC Procedure and ServiceRequest profiles in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes SNOMED CT interventions for Racism as selected by the Gravity Project.),(Exclusion Criteria: Excludes codes included in the \"Cross-Domains Interventions SNOMED CT\" Value Set.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1259020007",
+            "display" : "Referral to Mindfulness Based Stress Reduction program (procedure)"
+          },
+          {
+            "code" : "1259021006",
+            "display" : "Education about Mindfulness Based Stress Reduction program (procedure)"
+          },
+          {
+            "code" : "183583007",
+            "display" : "Refer to mental health worker (procedure)"
+          },
+          {
+            "code" : "306252003",
+            "display" : "Referral to mental health counselor (procedure)"
+          },
+          {
+            "code" : "308459004",
+            "display" : "Referral to psychologist (procedure)"
+          },
+          {
+            "code" : "308477009",
+            "display" : "Referral to psychiatrist (procedure)"
+          },
+          {
+            "code" : "661241000124102",
+            "display" : "Education about restorative justice program (procedure)"
+          },
+          {
+            "code" : "661571000124108",
+            "display" : "Education about victim advocate program (procedure)"
+          },
+          {
+            "code" : "663011000124107",
+            "display" : "Referral to victim advocate program (procedure)"
+          },
+          {
+            "code" : "663101000124108",
+            "display" : "Referral to restorative justice program (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:97a7284d-1684-497f-9bd4-80f1f2bb385a",
+    "timestamp" : "2025-11-24T16:13:07-05:00",
+    "total" : 10,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259020007",
+        "display" : "Referral to Mindfulness Based Stress Reduction program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259021006",
+        "display" : "Education about Mindfulness Based Stress Reduction program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "183583007",
+        "display" : "Refer to mental health worker (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "306252003",
+        "display" : "Referral to mental health counselor (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308459004",
+        "display" : "Referral to psychologist (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308477009",
+        "display" : "Referral to psychiatrist (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "661241000124102",
+        "display" : "Education about restorative justice program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "661571000124108",
+        "display" : "Education about victim advocate program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "663011000124107",
+        "display" : "Referral to victim advocate program (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "663101000124108",
+        "display" : "Referral to restorative justice program (procedure)"
+      }
+    ]
+  }
+}

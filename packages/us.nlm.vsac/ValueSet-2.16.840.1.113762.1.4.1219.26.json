@@ -1,0 +1,110 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1219.26",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CMS DRLS Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-03-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1219.26",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1219.26"
+    }
+  ],
+  "version" : "20220315",
+  "name" : "DeviceUsePatientActivityLevel",
+  "title" : "Device Use Patient Activity Level",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-03-15T01:04:14-04:00",
+  "publisher" : "CMS DRLS Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Activity levels where a patient may be using a device, or a care giver may monitor a patient's use of that device.),(Data Element Scope: Activity levels used to qualify a request for device, or for a care giver to monitor device use, as defined by the US Centers for Medicare and Medicaid.),(Inclusion Criteria: Activity levels where a patient may be using a device, or a care giver may monitor a patient's use of that device.),(Exclusion Criteria: No exceptions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "248218005",
+            "display" : "Awake (finding)"
+          },
+          {
+            "code" : "263678003",
+            "display" : "At rest (qualifier value)"
+          },
+          {
+            "code" : "309604004",
+            "display" : "During exercise (qualifier value)"
+          },
+          {
+            "code" : "309610004",
+            "display" : "During sleep (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:99f390e1-2244-467d-a991-e628ff7d4ae3",
+    "timestamp" : "2025-11-24T14:58:58-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "248218005",
+        "display" : "Awake (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "263678003",
+        "display" : "At rest (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "309604004",
+        "display" : "During exercise (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "309610004",
+        "display" : "During sleep (qualifier value)"
+      }
+    ]
+  }
+}

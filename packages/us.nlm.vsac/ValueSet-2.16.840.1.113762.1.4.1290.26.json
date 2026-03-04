@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.26",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-18T01:02:52.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.26",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.26"
+    }
+  ],
+  "version" : "20251018",
+  "name" : "LeadScreeningTests",
+  "title" : "Lead Screening Tests",
+  "status" : "active",
+  "date" : "2025-10-18T01:02:52-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For PAPM reporting",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Represents Lead Screening Tests including either capillary blood test or venous blood test),(Data Element Scope: CPT codes representing the completion of either a capillary blood test or venous blood test),(Inclusion Criteria: codes representing the completion of either a capillary blood test or venous blood test),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "83655",
+            "display" : "Lead"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:7fce2fdc-a4ca-439e-9aa1-5e16e1b5dcda",
+    "timestamp" : "2025-11-24T16:58:51-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "83655",
+        "display" : "Lead"
+      }
+    ]
+  }
+}

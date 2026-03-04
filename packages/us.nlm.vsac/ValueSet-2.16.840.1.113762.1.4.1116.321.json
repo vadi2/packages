@@ -1,0 +1,159 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.321",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-07-29T01:15:24.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CancerLinQ Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-29"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-29"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.321",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.321"
+    }
+  ],
+  "version" : "20250729",
+  "name" : "HepatitisBAntibody",
+  "title" : "Hepatitis B Antibody",
+  "status" : "active",
+  "date" : "2025-07-29T01:15:24-04:00",
+  "publisher" : "CancerLinQ Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: ),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "106938-4",
+            "display" : "Hepatitis B virus core Ab [Units/volume] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code" : "13952-7",
+            "display" : "Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay"
+          },
+          {
+            "code" : "16933-4",
+            "display" : "Hepatitis B virus core Ab [Presence] in Serum"
+          },
+          {
+            "code" : "22316-4",
+            "display" : "Hepatitis B virus core Ab [Units/volume] in Serum"
+          },
+          {
+            "code" : "22317-2",
+            "display" : "Hepatitis B virus core Ab [Units/volume] in Serum from Donor"
+          },
+          {
+            "code" : "5188-8",
+            "display" : "Hepatitis B virus core Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+          },
+          {
+            "code" : "51914-0",
+            "display" : "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum"
+          },
+          {
+            "code" : "75378-0",
+            "display" : "Hepatitis B virus core Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+          },
+          {
+            "code" : "83100-8",
+            "display" : "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:013f52b5-700a-4c98-b543-0db2c8a70073",
+    "timestamp" : "2025-11-24T12:36:28-05:00",
+    "total" : 9,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "106938-4",
+        "display" : "Hepatitis B virus core Ab [Units/volume] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "13952-7",
+        "display" : "Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "16933-4",
+        "display" : "Hepatitis B virus core Ab [Presence] in Serum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "22316-4",
+        "display" : "Hepatitis B virus core Ab [Units/volume] in Serum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "22317-2",
+        "display" : "Hepatitis B virus core Ab [Units/volume] in Serum from Donor"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "5188-8",
+        "display" : "Hepatitis B virus core Ab [Units/volume] in Serum by Radioimmunoassay (RIA)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "51914-0",
+        "display" : "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75378-0",
+        "display" : "Hepatitis B virus core Ab [Presence] in Serum, Plasma or Blood by Rapid immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "83100-8",
+        "display" : "Hepatitis B virus core IgG+IgM Ab [Presence] in Serum or Plasma by Immunoassay"
+      }
+    ]
+  }
+}

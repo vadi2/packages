@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.593",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-07-15T01:07:28.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-15"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.593",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.593"
+    }
+  ],
+  "version" : "20250715",
+  "name" : "Polypharmacy_ClinicalConditionGrouping",
+  "title" : "Polypharmacy_Clinical Condition Grouping",
+  "status" : "active",
+  "date" : "2025-07-15T01:07:28-04:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for the Polypharmacy_Clinical Condition Grouping",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set's intent is to define the clinical codes that constitute the Polypharmacy_Clinical Condition Grouping and utilization in patients/users connected health.),(Data Element Scope: This value set's intent is to define the clinical codes that constitute the Polypharmacy_Clinical Condition Grouping and utilization in patients/users connected health.),(Inclusion Criteria: This value set's intent is to define the clinical codes that constitute the Polypharmacy_Clinical Condition Grouping and utilization in patients/users connected health.),(Exclusion Criteria: This value set's intent is to define the clinical codes that constitute the Polypharmacy_Clinical Condition Grouping and utilization in patients/users connected health.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.591"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.592"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c9e6d7f1-9385-4faa-9d86-2e66c6cdf21f",
+    "timestamp" : "2025-11-24T15:56:07-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "129846003",
+        "display" : "Polypharmacy (finding)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LP75398-5",
+        "display" : "Polypharmacy"
+      }
+    ]
+  }
+}

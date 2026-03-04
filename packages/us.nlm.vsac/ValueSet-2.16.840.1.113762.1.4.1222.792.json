@@ -1,0 +1,153 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.792",
+  "meta" : {
+    "versionId" : "16",
+    "lastUpdated" : "2024-09-09T14:50:46.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-14"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-14"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.792",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.792"
+    }
+  ],
+  "version" : "20240614",
+  "name" : "N24HourUrineProteinExcretion",
+  "title" : "24 Hour Urine Protein Excretion",
+  "status" : "active",
+  "date" : "2024-06-14T01:20:39-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing 24 Hour Urine Protein Excretion.),(Data Element Scope: The intent of this set of values is to identify patients who have a/an the total amount of protein excreted in the urine over a 24 hour period. includes both measured and predicted results.),(Inclusion Criteria: Includes LOINC codes for 24 Hour Urine Protein Excretion.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating 24 Hour Urine Protein Excretion.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "96804-0"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "96803-2"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "2889-4"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "21482-5"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "32209-9"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:83b4967e-642a-4c73-b7d7-f9bf0655bed6",
+    "timestamp" : "2025-11-24T15:30:18-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "21482-5",
+        "display" : "Protein [Mass/volume] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2889-4",
+        "display" : "Protein [Mass/time] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "32209-9",
+        "display" : "Protein [Presence] in 24 hour Urine by Test strip"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "96803-2",
+        "display" : "24 hour predicted protein [Mass/time] based on random Urine by calculation"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "96804-0",
+        "display" : "24 hour predicted protein [Mass/time range] based on random Urine by calculation"
+      }
+    ]
+  }
+}

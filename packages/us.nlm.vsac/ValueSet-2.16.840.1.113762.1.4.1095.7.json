@@ -1,0 +1,160 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1095.7",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-04-12T10:10:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "AND Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-27"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2021-04-03"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1095.7",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1095.7"
+    }
+  ],
+  "version" : "20210403",
+  "name" : "ModularNutritionFormulasSNOMEDCT",
+  "title" : "Modular Nutrition Formulas SNOMED CT",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-04-03T01:00:24-04:00",
+  "publisher" : "AND Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Modular nutrition additives.),(Data Element Scope: This data set is composed of modular nutrition component that represent a specific nutrient additive.),(Inclusion Criteria: This data set is composed of modular nutrition products. These additives are typically combined with enteral feeding formula, food,  human milk and/or infant formula that together, meet the nutritional needs specific to the individual.),(Exclusion Criteria: Nutritionally complete enteral nutrition or infant formulas.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "443571000124100"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:61568c22-a51a-48c3-85c4-63c0d13944f9",
+    "timestamp" : "2025-11-24T12:15:43-05:00",
+    "total" : 14,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441691000124104",
+        "display" : "Modular protein enteral formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441701000124104",
+        "display" : "Modular carbohydrate enteral formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441711000124101",
+        "display" : "Modular lipid enteral formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443341000124104",
+        "display" : "Modular amino acid-free infant formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443551000124105",
+        "display" : "Modular infant formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443571000124100",
+        "display" : "Modular formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443581000124102",
+        "display" : "Modular protein formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443591000124104",
+        "display" : "Modular lipid formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443601000124107",
+        "display" : "Modular carbohydrate formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444291000124104",
+        "display" : "Human milk fortifier (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444311000124100",
+        "display" : "Modular hydrolyzed protein infant formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444411000124105",
+        "display" : "Modular fiber formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444421000124102",
+        "display" : "Modular energy formula component (product)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444651000124108",
+        "display" : "Modular protein and vitamin and mineral formula component (product)"
+      }
+    ]
+  }
+}

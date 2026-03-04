@@ -1,0 +1,85 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.1082",
+  "meta" : {
+    "versionId" : "27",
+    "lastUpdated" : "2024-09-12T15:26:27.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-07-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-07-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1082",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.1082"
+    }
+  ],
+  "version" : "20230721",
+  "name" : "CriminalJusticeInvolvementOrIncarceration",
+  "title" : "Criminal Justice Involvement or Incarceration",
+  "status" : "active",
+  "date" : "2023-07-21T01:01:07-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This single member value set represents a question with an associated LOINC answer set about criminal justice involvement or incarceration.),(Data Element Scope: The intent of this single member value set is to identify patients who have answered a question about criminal justice involvement, including incarceration.),(Inclusion Criteria: Includes LOINC observation code/s for Criminal Justice Involvement or Incarceration.),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "89570-6"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:62a04542-01ce-4282-b6cc-dd9610631006",
+    "timestamp" : "2025-11-24T15:06:53-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89570-6",
+        "display" : "Involvement with criminal justice [CUBS]"
+      }
+    ]
+  }
+}

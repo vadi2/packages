@@ -1,0 +1,284 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3032",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3032",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3032"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "YellowFeverAdditionalContextImmunizationCodes",
+  "title" : "Yellow fever Additional Context Immunization Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Yellow fever Additional Context Immunization Codes),(Data Element Scope: Yellow fever Additional Context Immunization Codes),(Inclusion Criteria: Yellow fever Additional Context Immunization Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1162391",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injectable Product"
+          },
+          {
+            "code" : "1186641",
+            "display" : "YF-Vax Injectable Product"
+          },
+          {
+            "code" : "1292825",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injectable Suspension"
+          },
+          {
+            "code" : "1292826",
+            "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "1292827",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injectable Suspension [YF-Vax]"
+          },
+          {
+            "code" : "1292828",
+            "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injectable Suspension [YF-Vax]"
+          },
+          {
+            "code" : "1658238",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injection"
+          },
+          {
+            "code" : "1658239",
+            "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injection"
+          },
+          {
+            "code" : "1658240",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injection [YF-Vax]"
+          },
+          {
+            "code" : "1658241",
+            "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injection [YF-Vax]"
+          },
+          {
+            "code" : "1876704",
+            "display" : "yellow fever virus strain 17D-204 live antigen 2000 UNT/ML"
+          },
+          {
+            "code" : "1876705",
+            "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 2000 UNT/ML Injection"
+          },
+          {
+            "code" : "1876706",
+            "display" : "Stamaril"
+          },
+          {
+            "code" : "1876707",
+            "display" : "yellow fever virus strain 17D-204 live antigen 2000 UNT/ML [Stamaril]"
+          },
+          {
+            "code" : "1876708",
+            "display" : "yellow fever virus strain 17D-204 live antigen Injection [Stamaril]"
+          },
+          {
+            "code" : "1876709",
+            "display" : "Stamaril Injectable Product"
+          },
+          {
+            "code" : "1876710",
+            "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 2000 UNT/ML Injection [Stamaril]"
+          },
+          {
+            "code" : "220976",
+            "display" : "YF-Vax"
+          },
+          {
+            "code" : "804187",
+            "display" : "yellow fever virus strain 17D-204 live antigen"
+          },
+          {
+            "code" : "804188",
+            "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML"
+          },
+          {
+            "code" : "804191",
+            "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML [YF-Vax]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f96b6ed2-2f73-4b1d-b0ec-da827a0ef881",
+    "timestamp" : "2025-11-24T13:51:20-05:00",
+    "total" : 21,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1162391",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186641",
+        "display" : "YF-Vax Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292825",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292826",
+        "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292827",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injectable Suspension [YF-Vax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292828",
+        "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injectable Suspension [YF-Vax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658238",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658239",
+        "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658240",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injection [YF-Vax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658241",
+        "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 4000 UNT/ML Injection [YF-Vax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876704",
+        "display" : "yellow fever virus strain 17D-204 live antigen 2000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876705",
+        "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 2000 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876706",
+        "display" : "Stamaril"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876707",
+        "display" : "yellow fever virus strain 17D-204 live antigen 2000 UNT/ML [Stamaril]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876708",
+        "display" : "yellow fever virus strain 17D-204 live antigen Injection [Stamaril]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876709",
+        "display" : "Stamaril Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1876710",
+        "display" : "0.5 ML yellow fever virus strain 17D-204 live antigen 2000 UNT/ML Injection [Stamaril]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "220976",
+        "display" : "YF-Vax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804187",
+        "display" : "yellow fever virus strain 17D-204 live antigen"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804188",
+        "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804191",
+        "display" : "yellow fever virus strain 17D-204 live antigen 4000 UNT/ML [YF-Vax]"
+      }
+    ]
+  }
+}

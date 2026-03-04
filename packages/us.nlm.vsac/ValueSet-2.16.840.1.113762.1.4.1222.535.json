@@ -1,0 +1,108 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.535",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-06-29T01:12:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-29"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.535",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.535"
+    }
+  ],
+  "version" : "20240629",
+  "name" : "DiabeticHandOrDiabeticCheiroarthropathy",
+  "title" : "Diabetic Hand or Diabetic Cheiroarthropathy",
+  "status" : "active",
+  "date" : "2024-06-29T01:12:54-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Diabetic Hand or Diabetic Cheiroarthropathy.),(Data Element Scope: The intent of this set of values is to identify patients who have a/an documented diagnosis of diabetic hand or diabetic cheiroarthropathy.),(Inclusion Criteria: Includes SNOMEDCT codes for Diabetic Hand or Diabetic Cheiroarthropathy.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Diabetic Hand or Diabetic Cheiroarthropathy.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "201723002"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "368591000119109"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:460f8e1e-57e9-4567-bf0d-233f9e5e89ba",
+    "timestamp" : "2025-11-24T15:21:01-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "201723002",
+        "display" : "Cheiroarthropathy due to diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "368541000119101",
+        "display" : "Cheiroarthropathy due to diabetes mellitus type 1 (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "368591000119109",
+        "display" : "Cheiroarthropathy due to diabetes mellitus type 2 (disorder)"
+      }
+    ]
+  }
+}

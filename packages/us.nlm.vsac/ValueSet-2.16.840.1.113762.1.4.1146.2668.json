@@ -1,0 +1,194 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2668",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common,Meds"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2668",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2668"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "StreptomycinRXNORM",
+  "title" : "Streptomycin (RXNORM)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "All prescribable medication formulations represented using either a \"generic\" or \"brand-specific\" concept. This includes RxNorm codes whose Term Type is SCD (semantic clinical drug), SBD (semantic brand drug),  GPCK (generic pack), or BPCK (brand pack).\nSCDG (semantic clinical drug group), SBDG (semantic brand drug group), SCDF (semantic clinical drug form), IN (ingredient) or SBDF (semantic brand drug form) are NOT included in this value set.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for prescribable medications for Streptomycin),(Data Element Scope: medications that were administered, ordered or prescribed.),(Inclusion Criteria: Streptomycin),(Exclusion Criteria: SBDG (semantic brand drug group), SCDF (semantic clinical drug form), or SBDF (semantic brand drug form).)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1665497",
+            "display" : "50 ML levofloxacin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1665507",
+            "display" : "100 ML levofloxacin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1665515",
+            "display" : "150 ML levofloxacin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1665517",
+            "display" : "20 ML levofloxacin 25 MG/ML Injection"
+          },
+          {
+            "code" : "1665519",
+            "display" : "30 ML levofloxacin 25 MG/ML Injection"
+          },
+          {
+            "code" : "199884",
+            "display" : "levofloxacin 250 MG Oral Tablet"
+          },
+          {
+            "code" : "199885",
+            "display" : "levofloxacin 500 MG Oral Tablet"
+          },
+          {
+            "code" : "211815",
+            "display" : "levofloxacin 250 MG Oral Tablet [Levaquin]"
+          },
+          {
+            "code" : "311296",
+            "display" : "levofloxacin 750 MG Oral Tablet"
+          },
+          {
+            "code" : "314080",
+            "display" : "levofloxacin 5 MG/ML Ophthalmic Solution"
+          },
+          {
+            "code" : "477391",
+            "display" : "levofloxacin 25 MG/ML Oral Solution"
+          },
+          {
+            "code" : "545118",
+            "display" : "levofloxacin 15 MG/ML Ophthalmic Solution"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:cfd582eb-f8dd-4fbd-b7d1-83138ac54ef9",
+    "timestamp" : "2025-11-24T13:33:39-05:00",
+    "total" : 12,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665497",
+        "display" : "50 ML levofloxacin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665507",
+        "display" : "100 ML levofloxacin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665515",
+        "display" : "150 ML levofloxacin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665517",
+        "display" : "20 ML levofloxacin 25 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665519",
+        "display" : "30 ML levofloxacin 25 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199884",
+        "display" : "levofloxacin 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199885",
+        "display" : "levofloxacin 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "211815",
+        "display" : "levofloxacin 250 MG Oral Tablet [Levaquin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311296",
+        "display" : "levofloxacin 750 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314080",
+        "display" : "levofloxacin 5 MG/ML Ophthalmic Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "477391",
+        "display" : "levofloxacin 25 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "545118",
+        "display" : "levofloxacin 15 MG/ML Ophthalmic Solution"
+      }
+    ]
+  }
+}

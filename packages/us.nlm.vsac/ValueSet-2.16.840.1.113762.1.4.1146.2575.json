@@ -1,0 +1,133 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2575",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2575",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2575"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "NewbornScreeningInterpretationTests",
+  "title" : "Newborn Screening Interpretation Tests",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of lab test names may be ordered or ‘observed’ for identification of Newborn Screening Conditions in Newborn Screening Interpretation Tests),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Newborn Screening Interpretation Tests with condition specific results),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "57131-5",
+            "display" : "Newborn conditions with positive markers [Identifier] in DBS"
+          },
+          {
+            "code" : "57791-6",
+            "display" : "Organic acidemia conditions suspected [Identifier] in DBS"
+          },
+          {
+            "code" : "57792-4",
+            "display" : "Fatty acid oxidation conditions suspected [Identifier] in DBS"
+          },
+          {
+            "code" : "57793-2",
+            "display" : "Amino acidemia disorder suspected [Identifier] in DBS"
+          },
+          {
+            "code" : "62302-5",
+            "display" : "Lysosomal storage disorders suspected [Identifier] in DBS"
+          },
+          {
+            "code" : "71592-0",
+            "display" : "Hemoglobinopathies conditions suspected [Identifier] in DBS"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e1b30ec9-5eec-4feb-a8e5-147be3979237",
+    "timestamp" : "2025-11-24T13:29:31-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57131-5",
+        "display" : "Newborn conditions with positive markers [Identifier] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57791-6",
+        "display" : "Organic acidemia conditions suspected [Identifier] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57792-4",
+        "display" : "Fatty acid oxidation conditions suspected [Identifier] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57793-2",
+        "display" : "Amino acidemia disorder suspected [Identifier] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "62302-5",
+        "display" : "Lysosomal storage disorders suspected [Identifier] in DBS"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71592-0",
+        "display" : "Hemoglobinopathies conditions suspected [Identifier] in DBS"
+      }
+    ]
+  }
+}

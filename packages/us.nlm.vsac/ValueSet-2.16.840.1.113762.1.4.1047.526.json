@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1047.526",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-06-22T01:21:43.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "ASRS Quality Measure Development Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.526",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1047.526"
+    }
+  ],
+  "version" : "20240622",
+  "name" : "RetinaUltrasound",
+  "title" : "Retina Ultrasound",
+  "status" : "active",
+  "date" : "2024-06-22T01:21:43-04:00",
+  "publisher" : "ASRS Quality Measure Development Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes concepts related to retina ultrasounds.),(Data Element Scope: This value set may use Quality Data Model (QDM) datatype related to Encounter, Performed.),(Inclusion Criteria: Includes relevant concepts associated with retina ultrasounds.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "76512",
+            "display" : "Ophthalmic ultrasound, diagnostic; B-scan (with or without superimposed non-quantitative A-scan)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:bed7d39f-f303-4bc2-89cf-fb21a7afcd94",
+    "timestamp" : "2025-11-24T11:11:29-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "76512",
+        "display" : "Ophthalmic ultrasound, diagnostic; B-scan (with or without superimposed non-quantitative A-scan)"
+      }
+    ]
+  }
+}

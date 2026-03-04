@@ -1,0 +1,85 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.582",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2024-09-12T16:53:39.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-07-07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-07-07"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.582",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.582"
+    }
+  ],
+  "version" : "20240707",
+  "name" : "FraminghamRiskAssessments",
+  "title" : "Framingham Risk Assessments",
+  "status" : "active",
+  "date" : "2024-07-07T01:02:42-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Panel code(S) for Framingham Risk Assessments.),(Data Element Scope: The intent of this set of values is to identify patients who have a/an person's score on the Framingham Risk Assessments Scale.),(Inclusion Criteria: Includes LOINC Panel codes for Framingham Risk Assessments.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Framingham Risk Assessments.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "in",
+            "value" : "66336-9"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:69ba549e-e8b3-4a0b-8635-4643e5b62e16",
+    "timestamp" : "2025-11-24T15:22:21-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "66336-9",
+        "display" : "Framingham Risk Assessments Framingham"
+      }
+    ]
+  }
+}

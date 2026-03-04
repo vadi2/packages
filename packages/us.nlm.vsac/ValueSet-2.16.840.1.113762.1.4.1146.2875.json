@@ -1,0 +1,396 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2875",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2875",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2875"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "CryptosporidiosisAdditionalContextSymptomCodesSNOMED",
+  "title" : "Cryptosporidiosis Additional Context Symptom Codes (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Cryptosporidiosis Additional Context Symptom Codes (SNOMED)),(Data Element Scope: Cryptosporidiosis Additional Context Symptom Codes (SNOMED)),(Inclusion Criteria: Cryptosporidiosis Additional Context Symptom Codes (SNOMED)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "102613000",
+            "display" : "Localized abdominal pain (finding)"
+          },
+          {
+            "code" : "102614006",
+            "display" : "Generalized abdominal pain (finding)"
+          },
+          {
+            "code" : "111985007",
+            "display" : "Chronic abdominal pain (finding)"
+          },
+          {
+            "code" : "116289008",
+            "display" : "Abdominal bloating (finding)"
+          },
+          {
+            "code" : "116290004",
+            "display" : "Acute abdominal pain (finding)"
+          },
+          {
+            "code" : "13791008",
+            "display" : "Asthenia (finding)"
+          },
+          {
+            "code" : "162042000",
+            "display" : "Abdominal wall pain (finding)"
+          },
+          {
+            "code" : "162046002",
+            "display" : "Central abdominal pain (finding)"
+          },
+          {
+            "code" : "162068007",
+            "display" : "Abdominal distension symptom (finding)"
+          },
+          {
+            "code" : "207205003",
+            "display" : "[D]Abdominal pain (situation)"
+          },
+          {
+            "code" : "21522001",
+            "display" : "Abdominal pain (finding)"
+          },
+          {
+            "code" : "248490000",
+            "display" : "Bloating symptom (finding)"
+          },
+          {
+            "code" : "25064002",
+            "display" : "Headache (finding)"
+          },
+          {
+            "code" : "271832001",
+            "display" : "Flatulence, eructation and gas pain (finding)"
+          },
+          {
+            "code" : "271835004",
+            "display" : "Abdominal distension, gaseous (finding)"
+          },
+          {
+            "code" : "271864008",
+            "display" : "Mucus in stool (finding)"
+          },
+          {
+            "code" : "285387005",
+            "display" : "Left sided abdominal pain (finding)"
+          },
+          {
+            "code" : "285388000",
+            "display" : "Right sided abdominal pain (finding)"
+          },
+          {
+            "code" : "314212008",
+            "display" : "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code" : "367391008",
+            "display" : "Malaise (finding)"
+          },
+          {
+            "code" : "37796009",
+            "display" : "Migraine (disorder)"
+          },
+          {
+            "code" : "398057008",
+            "display" : "Tension-type headache (disorder)"
+          },
+          {
+            "code" : "405729008",
+            "display" : "Hematochezia (finding)"
+          },
+          {
+            "code" : "422587007",
+            "display" : "Nausea (finding)"
+          },
+          {
+            "code" : "426000000",
+            "display" : "Fever greater than 100.4 Fahrenheit (finding)"
+          },
+          {
+            "code" : "438506002",
+            "display" : "Visceral abdominal pain (finding)"
+          },
+          {
+            "code" : "45979003",
+            "display" : "Abdominal wind pain (finding)"
+          },
+          {
+            "code" : "54586004",
+            "display" : "Lower abdominal pain (finding)"
+          },
+          {
+            "code" : "57676002",
+            "display" : "Pain of joint (finding)"
+          },
+          {
+            "code" : "60728008",
+            "display" : "Swollen abdomen (finding)"
+          },
+          {
+            "code" : "68962001",
+            "display" : "Muscle pain (finding)"
+          },
+          {
+            "code" : "83132003",
+            "display" : "Upper abdominal pain (finding)"
+          },
+          {
+            "code" : "84229001",
+            "display" : "Fatigue (finding)"
+          },
+          {
+            "code" : "89362005",
+            "display" : "Weight loss (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fbc3268f-d3df-41f8-b135-e0ac7b4c4c5b",
+    "timestamp" : "2025-11-24T13:43:06-05:00",
+    "total" : 31,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102613000",
+        "display" : "Localized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102614006",
+        "display" : "Generalized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111985007",
+        "display" : "Chronic abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116289008",
+        "display" : "Abdominal bloating (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116290004",
+        "display" : "Acute abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13791008",
+        "display" : "Asthenia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162042000",
+        "display" : "Abdominal wall pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162046002",
+        "display" : "Central abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162068007",
+        "display" : "Abdominal distension symptom (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21522001",
+        "display" : "Abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25064002",
+        "display" : "Headache (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271832001",
+        "display" : "Flatulence, eructation and gas pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271835004",
+        "display" : "Distension of abdomen caused by intestinal gas (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271864008",
+        "display" : "Mucus in stool (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285387005",
+        "display" : "Left sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285388000",
+        "display" : "Right sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314212008",
+        "display" : "Abdominal pain - cause unknown (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367391008",
+        "display" : "Malaise (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37796009",
+        "display" : "Migraine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398057008",
+        "display" : "Tension-type headache (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405729008",
+        "display" : "Hematochezia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422587007",
+        "display" : "Nausea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426000000",
+        "display" : "Fever greater than 100.4 Fahrenheit (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438506002",
+        "display" : "Visceral abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45979003",
+        "display" : "Abdominal wind pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54586004",
+        "display" : "Lower abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "57676002",
+        "display" : "Pain of joint (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60728008",
+        "display" : "Swollen abdomen (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68962001",
+        "display" : "Muscle pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83132003",
+        "display" : "Upper abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84229001",
+        "display" : "Fatigue (finding)"
+      }
+    ]
+  }
+}

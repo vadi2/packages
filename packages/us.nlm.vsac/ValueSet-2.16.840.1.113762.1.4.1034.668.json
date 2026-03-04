@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1034.668",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-19T01:00:52.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Academy of Neurology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1034.668",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1034.668"
+    }
+  ],
+  "version" : "20250619",
+  "name" : "ExternalVagusNerveStimulationHCPCSII",
+  "title" : "External Vagus Nerve Stimulation (HCPCS II)",
+  "status" : "active",
+  "date" : "2025-06-19T01:00:52-04:00",
+  "publisher" : "American Academy of Neurology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: ),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "E0735",
+            "display" : "Non-invasive vagus nerve stimulator"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ad15b1fc-733b-4378-87f3-9b74bc30c903",
+    "timestamp" : "2025-11-24T11:07:24-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0735",
+        "display" : "Non-invasive vagus nerve stimulator"
+      }
+    ]
+  }
+}

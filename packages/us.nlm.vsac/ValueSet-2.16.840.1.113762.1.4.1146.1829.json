@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1829",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2024-06-19T01:24:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1829",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1829"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "PolyarthritisUnspecifiedCauseSNOMED",
+  "title" : "Polyarthritis [Unspecified Cause] (SNOMED)",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient may have Polyarthritis [Unspecified Cause]),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Polyarthritis [Unspecified Cause]),(Exclusion Criteria: condition specific causes)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "109663009",
+            "display" : "Arthritis of temporomandibular joint as part of polyarthritis (disorder)"
+          },
+          {
+            "code" : "111211002",
+            "display" : "Migratory polyarthritis (disorder)"
+          },
+          {
+            "code" : "225655006",
+            "display" : "Degenerative polyarthritis (disorder)"
+          },
+          {
+            "code" : "416956002",
+            "display" : "Undifferentiated inflammatory polyarthritis (disorder)"
+          },
+          {
+            "code" : "42898009",
+            "display" : "Acute polyarthritis (disorder)"
+          },
+          {
+            "code" : "44221002",
+            "display" : "Idiopathic polyarthritis (disorder)"
+          },
+          {
+            "code" : "6211002",
+            "display" : "Polyarthritis associated with another disorder (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5cc785c6-7f57-417e-a166-79f14872a6bb",
+    "timestamp" : "2025-11-24T12:59:04-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "109663009",
+        "display" : "Arthritis of temporomandibular joint as part of polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111211002",
+        "display" : "Migratory polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225655006",
+        "display" : "Degenerative polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416956002",
+        "display" : "Undifferentiated inflammatory polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42898009",
+        "display" : "Acute polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44221002",
+        "display" : "Idiopathic polyarthritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "6211002",
+        "display" : "Polyarthritis associated with another disorder (disorder)"
+      }
+    ]
+  }
+}

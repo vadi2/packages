@@ -1,0 +1,203 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1464",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2025-02-18T01:09:30.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Trigger,VRE"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-02-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-02-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1464",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1464"
+    }
+  ],
+  "version" : "20250218",
+  "name" : "VREOrganismOrSubstanceInLabResults",
+  "title" : "VRE (Organism or Substance in Lab Results)",
+  "status" : "active",
+  "date" : "2025-02-18T01:09:31-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains organisms and or substances relevant for reporting Enterococcus infection resistant to vancomycin (VRE)),(Data Element Scope: Organism and or substance names reported in laboratory results),(Inclusion Criteria: Enterococcus infection resistant to vancomycin (VRE)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1117501000112104",
+            "display" : "Vancomycin resistant Enterococcus casseliflavus (organism)"
+          },
+          {
+            "code" : "113727004",
+            "display" : "Vancomycin resistant Enterococcus (organism)"
+          },
+          {
+            "code" : "661000112100",
+            "display" : "Vancomycin resistant Enterococcus faecalis genotype vanB (organism)"
+          },
+          {
+            "code" : "707767003",
+            "display" : "Vancomycin resistant vanB2 and vanB3 Enterococcus (organism)"
+          },
+          {
+            "code" : "707768008",
+            "display" : "Enterococcus faecium genotype vanA (organism)"
+          },
+          {
+            "code" : "707769000",
+            "display" : "Enterococcus faecium genotype vanB (organism)"
+          },
+          {
+            "code" : "710333000",
+            "display" : "Vancomycin resistant enterococcus vanA strain (organism)"
+          },
+          {
+            "code" : "710334006",
+            "display" : "Vancomycin resistant enterococcus vanB strain (organism)"
+          },
+          {
+            "code" : "712663006",
+            "display" : "Vancomycin resistant Enterococcus faecalis (organism)"
+          },
+          {
+            "code" : "712665004",
+            "display" : "Vancomycin resistant Enterococcus faecium (organism)"
+          },
+          {
+            "code" : "720234008",
+            "display" : "Deoxyribonucleic acid of vancomycin resistant Enterococcus (substance)"
+          },
+          {
+            "code" : "782959008",
+            "display" : "Vancomycin resistant Enterococcus raffinosus (organism)"
+          },
+          {
+            "code" : "838511009",
+            "display" : "Linezolid and vancomycin resistant Enterococcus (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:552acd76-b996-4741-a059-e90d65f1f8e7",
+    "timestamp" : "2025-11-24T12:51:46-05:00",
+    "total" : 13,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1117501000112104",
+        "display" : "Vancomycin resistant Enterococcus casseliflavus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "113727004",
+        "display" : "Vancomycin resistant Enterococcus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "661000112100",
+        "display" : "Vancomycin resistant Enterococcus faecalis genotype vanB (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707767003",
+        "display" : "Vancomycin resistant vanB2 and vanB3 Enterococcus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707768008",
+        "display" : "Enterococcus faecium genotype vanA (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707769000",
+        "display" : "Enterococcus faecium genotype vanB (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710333000",
+        "display" : "Vancomycin resistant enterococcus vanA strain (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710334006",
+        "display" : "Vancomycin resistant enterococcus vanB strain (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712663006",
+        "display" : "Vancomycin resistant Enterococcus faecalis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712665004",
+        "display" : "Vancomycin resistant Enterococcus faecium (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720234008",
+        "display" : "Deoxyribonucleic acid of vancomycin resistant Enterococcus (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "782959008",
+        "display" : "Vancomycin resistant Enterococcus raffinosus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "838511009",
+        "display" : "Linezolid and vancomycin resistant Enterococcus (organism)"
+      }
+    ]
+  }
+}

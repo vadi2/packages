@@ -1,0 +1,429 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.287",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2025-07-02T01:03:43.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-02"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-02"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.287",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.287"
+    }
+  ],
+  "version" : "20250702",
+  "name" : "ToxicStressDiagnosesICD10CM",
+  "title" : "Toxic Stress Diagnoses ICD10CM",
+  "status" : "active",
+  "date" : "2025-07-02T01:03:43-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represent diagnoses for Toxic Stress as selected by the Gravity Project.),(Data Element Scope: In the FHIR Condition resource, these values may be used for Condition.code (e.g., for the SDOHCC Condition profile in the Gravity SDOH Clinical Care FHIR Implementation Guide).),(Inclusion Criteria: Includes ICD 10 CM diagnoses for Toxic Stress as selected by the Gravity Project.),(Exclusion Criteria: NA)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "T74.02",
+            "display" : "Child neglect or abandonment, confirmed"
+          },
+          {
+            "code" : "T74.02XA",
+            "display" : "Child neglect or abandonment, confirmed, initial encounter"
+          },
+          {
+            "code" : "T74.02XD",
+            "display" : "Child neglect or abandonment, confirmed, subsequent encounter"
+          },
+          {
+            "code" : "T74.02XS",
+            "display" : "Child neglect or abandonment, confirmed, sequela"
+          },
+          {
+            "code" : "T74.12",
+            "display" : "Child physical abuse, confirmed"
+          },
+          {
+            "code" : "T74.12XA",
+            "display" : "Child physical abuse, confirmed, initial encounter"
+          },
+          {
+            "code" : "T74.12XD",
+            "display" : "Child physical abuse, confirmed, subsequent encounter"
+          },
+          {
+            "code" : "T74.12XS",
+            "display" : "Child physical abuse, confirmed, sequela"
+          },
+          {
+            "code" : "T74.22",
+            "display" : "Child sexual abuse, confirmed"
+          },
+          {
+            "code" : "T74.22XA",
+            "display" : "Child sexual abuse, confirmed, initial encounter"
+          },
+          {
+            "code" : "T74.22XD",
+            "display" : "Child sexual abuse, confirmed, subsequent encounter"
+          },
+          {
+            "code" : "T74.22XS",
+            "display" : "Child sexual abuse, confirmed, sequela"
+          },
+          {
+            "code" : "T74.32",
+            "display" : "Child psychological abuse, confirmed"
+          },
+          {
+            "code" : "T74.32XA",
+            "display" : "Child psychological abuse, confirmed, initial encounter"
+          },
+          {
+            "code" : "T74.32XD",
+            "display" : "Child psychological abuse, confirmed, subsequent encounter"
+          },
+          {
+            "code" : "T74.32XS",
+            "display" : "Child psychological abuse, confirmed, sequela"
+          },
+          {
+            "code" : "T76.02",
+            "display" : "Child neglect or abandonment, suspected"
+          },
+          {
+            "code" : "T76.02XA",
+            "display" : "Child neglect or abandonment, suspected, initial encounter"
+          },
+          {
+            "code" : "T76.02XD",
+            "display" : "Child neglect or abandonment, suspected, subsequent encounter"
+          },
+          {
+            "code" : "T76.02XS",
+            "display" : "Child neglect or abandonment, suspected, sequela"
+          },
+          {
+            "code" : "T76.12",
+            "display" : "Child physical abuse, suspected"
+          },
+          {
+            "code" : "T76.12XA",
+            "display" : "Child physical abuse, suspected, initial encounter"
+          },
+          {
+            "code" : "T76.12XD",
+            "display" : "Child physical abuse, suspected, subsequent encounter"
+          },
+          {
+            "code" : "T76.12XS",
+            "display" : "Child physical abuse, suspected, sequela"
+          },
+          {
+            "code" : "T76.22",
+            "display" : "Child sexual abuse, suspected"
+          },
+          {
+            "code" : "T76.22XA",
+            "display" : "Child sexual abuse, suspected, initial encounter"
+          },
+          {
+            "code" : "T76.22XD",
+            "display" : "Child sexual abuse, suspected, subsequent encounter"
+          },
+          {
+            "code" : "T76.22XS",
+            "display" : "Child sexual abuse, suspected, sequela"
+          },
+          {
+            "code" : "T76.32",
+            "display" : "Child psychological abuse, suspected"
+          },
+          {
+            "code" : "T76.32XA",
+            "display" : "Child psychological abuse, suspected, initial encounter"
+          },
+          {
+            "code" : "T76.32XD",
+            "display" : "Child psychological abuse, suspected, subsequent encounter"
+          },
+          {
+            "code" : "T76.32XS",
+            "display" : "Child psychological abuse, suspected, sequela"
+          },
+          {
+            "code" : "Z62.810",
+            "display" : "Personal history of physical and sexual abuse in childhood"
+          },
+          {
+            "code" : "Z62.811",
+            "display" : "Personal history of psychological abuse in childhood"
+          },
+          {
+            "code" : "Z62.812",
+            "display" : "Personal history of neglect in childhood"
+          },
+          {
+            "code" : "Z71.88",
+            "display" : "Encounter for counseling for socioeconomic factors"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0ed8d8f3-0a65-471e-9572-cc87512ef284",
+    "timestamp" : "2025-11-24T16:13:20-05:00",
+    "total" : 36,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.02",
+        "display" : "Child neglect or abandonment, confirmed"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.02XA",
+        "display" : "Child neglect or abandonment, confirmed, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.02XD",
+        "display" : "Child neglect or abandonment, confirmed, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.02XS",
+        "display" : "Child neglect or abandonment, confirmed, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.12",
+        "display" : "Child physical abuse, confirmed"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.12XA",
+        "display" : "Child physical abuse, confirmed, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.12XD",
+        "display" : "Child physical abuse, confirmed, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.12XS",
+        "display" : "Child physical abuse, confirmed, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.22",
+        "display" : "Child sexual abuse, confirmed"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.22XA",
+        "display" : "Child sexual abuse, confirmed, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.22XD",
+        "display" : "Child sexual abuse, confirmed, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.22XS",
+        "display" : "Child sexual abuse, confirmed, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.32",
+        "display" : "Child psychological abuse, confirmed"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.32XA",
+        "display" : "Child psychological abuse, confirmed, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.32XD",
+        "display" : "Child psychological abuse, confirmed, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T74.32XS",
+        "display" : "Child psychological abuse, confirmed, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.02",
+        "display" : "Child neglect or abandonment, suspected"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.02XA",
+        "display" : "Child neglect or abandonment, suspected, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.02XD",
+        "display" : "Child neglect or abandonment, suspected, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.02XS",
+        "display" : "Child neglect or abandonment, suspected, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.12",
+        "display" : "Child physical abuse, suspected"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.12XA",
+        "display" : "Child physical abuse, suspected, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.12XD",
+        "display" : "Child physical abuse, suspected, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.12XS",
+        "display" : "Child physical abuse, suspected, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.22",
+        "display" : "Child sexual abuse, suspected"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.22XA",
+        "display" : "Child sexual abuse, suspected, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.22XD",
+        "display" : "Child sexual abuse, suspected, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.22XS",
+        "display" : "Child sexual abuse, suspected, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.32",
+        "display" : "Child psychological abuse, suspected"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.32XA",
+        "display" : "Child psychological abuse, suspected, initial encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.32XD",
+        "display" : "Child psychological abuse, suspected, subsequent encounter"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "T76.32XS",
+        "display" : "Child psychological abuse, suspected, sequela"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z62.810",
+        "display" : "Personal history of physical and sexual abuse in childhood"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z62.811",
+        "display" : "Personal history of psychological abuse in childhood"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z62.812",
+        "display" : "Personal history of neglect in childhood"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Z71.88",
+        "display" : "Encounter for counseling for socioeconomic factors"
+      }
+    ]
+  }
+}

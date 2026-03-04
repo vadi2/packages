@@ -1,0 +1,109 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1193",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-05-29T01:09:58.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-05-29"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-05-29"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1193",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1193"
+    }
+  ],
+  "version" : "20250529",
+  "name" : "AtrialSeptalDefectRepairCPT",
+  "title" : "Atrial septal defect repair CPT",
+  "status" : "active",
+  "date" : "2025-05-29T01:09:59-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Atrial septal defect repair),(Data Element Scope: CPT),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "33615",
+            "display" : "Repair of complex cardiac anomalies (eg, tricuspid atresia) by closure of atrial septal defect and anastomosis of atria or vena cava to pulmonary artery (simple Fontan procedure)"
+          },
+          {
+            "code" : "33641",
+            "display" : "Repair atrial septal defect, secundum, with cardiopulmonary bypass, with or without patch"
+          },
+          {
+            "code" : "33647",
+            "display" : "Repair of atrial septal defect and ventricular septal defect, with direct or patch closure"
+          },
+          {
+            "code" : "33660",
+            "display" : "Repair of incomplete or partial atrioventricular canal (ostium primum atrial septal defect), with or without atrioventricular valve repair"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f8b30e1e-d97b-4291-a769-6f072ac708a3",
+    "timestamp" : "2025-11-24T11:35:12-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "33615",
+        "display" : "Repair of complex cardiac anomalies (eg, tricuspid atresia) by closure of atrial septal defect and anastomosis of atria or vena cava to pulmonary artery (simple Fontan procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "33641",
+        "display" : "Repair atrial septal defect, secundum, with cardiopulmonary bypass, with or without patch"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "33647",
+        "display" : "Repair of atrial septal defect and ventricular septal defect, with direct or patch closure"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "33660",
+        "display" : "Repair of incomplete or partial atrioventricular canal (ostium primum atrial septal defect), with or without atrioventricular valve repair"
+      }
+    ]
+  }
+}

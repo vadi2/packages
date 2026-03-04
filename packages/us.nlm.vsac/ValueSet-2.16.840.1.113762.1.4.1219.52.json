@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1219.52",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CMS DRLS Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-03-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1219.52",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1219.52"
+    }
+  ],
+  "version" : "20220315",
+  "name" : "SemiElectricHospitalBedSupply",
+  "title" : "Semi electric Hospital Bed Supply",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-03-15T01:04:14-04:00",
+  "publisher" : "CMS DRLS Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Hospital bed durable medical equipment equipped with electric controls for some functions.),(Data Element Scope: Durable medical equipment, electronically and manually controlled hospital beds as defined by US Centers for Medicare and Medicaid.),(Inclusion Criteria: Hospital bed durable medical equipment equipped with electric controls for some functions.),(Exclusion Criteria: Hospital bed durable medical equipment without electronic  controls.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "E0260",
+            "display" : "Hospital bed, semi-electric (head and foot adjustment), with any type side rails, with mattress"
+          },
+          {
+            "code" : "E0261",
+            "display" : "Hospital bed, semi-electric (head and foot adjustment), with any type side rails, without mattress"
+          },
+          {
+            "code" : "E0294",
+            "display" : "Hospital bed, semi-electric (head and foot adjustment), without side rails, with mattress"
+          },
+          {
+            "code" : "E0295",
+            "display" : "Hospital bed, semi-electric (head and foot adjustment), without side rails, without mattress"
+          },
+          {
+            "code" : "E0329",
+            "display" : "Hospital bed, pediatric, electric or semi-electric, 360 degree side enclosures, top of headboard, footboard and side rails up to 24 inches above the spring, includes mattress"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:36de6ed2-ea53-407d-b64b-2bbc76f1f566",
+    "timestamp" : "2025-11-24T15:00:39-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0260",
+        "display" : "Hospital bed, semi-electric (head and foot adjustment), with any type side rails, with mattress"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0261",
+        "display" : "Hospital bed, semi-electric (head and foot adjustment), with any type side rails, without mattress"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0294",
+        "display" : "Hospital bed, semi-electric (head and foot adjustment), without side rails, with mattress"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0295",
+        "display" : "Hospital bed, semi-electric (head and foot adjustment), without side rails, without mattress"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0329",
+        "display" : "Hospital bed, pediatric, electric or semi-electric, 360 degree side enclosures, top of headboard, footboard and side rails up to 24 inches above the spring, includes mattress"
+      }
+    ]
+  }
+}

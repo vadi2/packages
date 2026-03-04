@@ -1,0 +1,94 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1029.173",
+  "meta" : {
+    "versionId" : "20",
+    "lastUpdated" : "2025-03-04T12:16:01.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Joint Commission Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "PC-06"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-05-07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2021-06-11"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1029.173",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1029.173"
+    }
+  ],
+  "version" : "20210611",
+  "name" : "NeonatalModerateRespiratoryComplicationsProcedures",
+  "title" : "Neonatal Moderate Respiratory Complications Procedures",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-06-11T01:00:55-04:00",
+  "publisher" : "Joint Commission",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of procedures for moderate respiratory complications procedures.),(Data Element Scope: This value set may use a model element related to procedure.),(Inclusion Criteria: Includes concepts that represent a procedure for moderate respiratory complications.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "concept" : [
+          {
+            "code" : "5A09457",
+            "display" : "Assistance with Respiratory Ventilation, 24-96 Consecutive Hours, Continuous Positive Airway Pressure"
+          },
+          {
+            "code" : "5A09557",
+            "display" : "Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours, Continuous Positive Airway Pressure"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e9c89560-5518-4381-afb5-3d9930c3ea2e",
+    "timestamp" : "2025-11-24T10:04:35-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "5A09457",
+        "display" : "Assistance with Respiratory Ventilation, 24-96 Consecutive Hours, Continuous Positive Airway Pressure"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "5A09557",
+        "display" : "Assistance with Respiratory Ventilation, Greater than 96 Consecutive Hours, Continuous Positive Airway Pressure"
+      }
+    ]
+  }
+}

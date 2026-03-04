@@ -1,0 +1,449 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1247.309",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2025-07-02T01:03:43.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "The Gravity Project Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-02"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-02"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1247.309",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1247.309"
+    }
+  ],
+  "version" : "20250702",
+  "name" : "ProtectiveFactorsFindingsSNOMEDCT",
+  "title" : "Protective Factors Findings SNOMED CT",
+  "status" : "active",
+  "date" : "2025-07-02T01:03:43-04:00",
+  "publisher" : "The Gravity Project Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values represents findings of Protective Factors (strengths), as selected by Gravity Project.),(Data Element Scope: These values serve as the reference for protective factor findings in Gravity Project data standard-aligned efforts.),(Inclusion Criteria: Includes SNOMED CT findings for Protective Factors (strengths) as selected by the Gravity Project.),(Exclusion Criteria: NA)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "105572002",
+            "display" : "Spiritual strength (finding)"
+          },
+          {
+            "code" : "1078229009",
+            "display" : "Food security (finding)"
+          },
+          {
+            "code" : "112076007",
+            "display" : "Extrinsic motivation (finding)"
+          },
+          {
+            "code" : "1137434003",
+            "display" : "Has access to transportation (finding)"
+          },
+          {
+            "code" : "1141694001",
+            "display" : "Demonstrates knowledge of parenting (finding)"
+          },
+          {
+            "code" : "1144481009",
+            "display" : "Feeling more empowered (finding)"
+          },
+          {
+            "code" : "1148785005",
+            "display" : "Good caregiver child attachment (finding)"
+          },
+          {
+            "code" : "1156332000",
+            "display" : "Self efficacy (finding)"
+          },
+          {
+            "code" : "1230391007",
+            "display" : "Adequate social connection (finding)"
+          },
+          {
+            "code" : "1230392000",
+            "display" : "Not feeling lonely (finding)"
+          },
+          {
+            "code" : "1230393005",
+            "display" : "Adequate social participation (finding)"
+          },
+          {
+            "code" : "1300103006",
+            "display" : "Feels social relationships are satisfying and sufficient (finding)"
+          },
+          {
+            "code" : "224133007",
+            "display" : "Lives with family (finding)"
+          },
+          {
+            "code" : "224137008",
+            "display" : "Lives with parents (finding)"
+          },
+          {
+            "code" : "224165005",
+            "display" : "Financially secure (finding)"
+          },
+          {
+            "code" : "224190007",
+            "display" : "Income sufficient to meet needs (finding)"
+          },
+          {
+            "code" : "224363007",
+            "display" : "Employed (finding)"
+          },
+          {
+            "code" : "225509003",
+            "display" : "Good self-image (finding)"
+          },
+          {
+            "code" : "225649001",
+            "display" : "Hopeful for the future (finding)"
+          },
+          {
+            "code" : "225791005",
+            "display" : "Empowered (finding)"
+          },
+          {
+            "code" : "225843003",
+            "display" : "Displays ethical principles (finding)"
+          },
+          {
+            "code" : "226234005",
+            "display" : "Healthy diet (finding)"
+          },
+          {
+            "code" : "228448000",
+            "display" : "Exercises regularly (finding)"
+          },
+          {
+            "code" : "26291000146108",
+            "display" : "Able to make friends (finding)"
+          },
+          {
+            "code" : "302124002",
+            "display" : "Satisfied with job (finding)"
+          },
+          {
+            "code" : "304867008",
+            "display" : "Secure attachment (finding)"
+          },
+          {
+            "code" : "406542000",
+            "display" : "Improvement in friendships and/or relationships (finding)"
+          },
+          {
+            "code" : "445091000124106",
+            "display" : "Receives as much social support as wanted (finding)"
+          },
+          {
+            "code" : "449892005",
+            "display" : "Feeling safe (finding)"
+          },
+          {
+            "code" : "460821000124100",
+            "display" : "Able to access healthcare services (finding)"
+          },
+          {
+            "code" : "611211000124100",
+            "display" : "Housing security (finding)"
+          },
+          {
+            "code" : "611221000124108",
+            "display" : "Stably housed (finding)"
+          },
+          {
+            "code" : "671271000124101",
+            "display" : "Enrolled in health insurance coverage (finding)"
+          },
+          {
+            "code" : "713055004",
+            "display" : "Good attachment to primary caregiver (finding)"
+          },
+          {
+            "code" : "716421004",
+            "display" : "Able to manage stress (finding)"
+          },
+          {
+            "code" : "716454002",
+            "display" : "Able to think creatively (finding)"
+          },
+          {
+            "code" : "733903006",
+            "display" : "Psychological resilience (finding)"
+          },
+          {
+            "code" : "86808004",
+            "display" : "Increased motivation (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1df21405-d414-4b24-8a0c-51ae7afb01c5",
+    "timestamp" : "2025-11-24T16:13:45-05:00",
+    "total" : 38,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105572002",
+        "display" : "Spiritual strength (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1078229009",
+        "display" : "Food security (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "112076007",
+        "display" : "Extrinsic motivation (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1137434003",
+        "display" : "Has access to transportation (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1141694001",
+        "display" : "Demonstrates knowledge of parenting (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1144481009",
+        "display" : "Feeling more empowered (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148785005",
+        "display" : "Good caregiver child attachment (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156332000",
+        "display" : "Self efficacy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230391007",
+        "display" : "Adequate social connection (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230392000",
+        "display" : "Not feeling lonely (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1230393005",
+        "display" : "Adequate social participation (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1300103006",
+        "display" : "Feels social relationships are satisfying and sufficient (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224133007",
+        "display" : "Lives with family (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224137008",
+        "display" : "Lives with parents (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224165005",
+        "display" : "Financially secure (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224190007",
+        "display" : "Income sufficient to meet needs (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "224363007",
+        "display" : "Employed (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225509003",
+        "display" : "Good self-image (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225649001",
+        "display" : "Hopeful for the future (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225791005",
+        "display" : "Empowered (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225843003",
+        "display" : "Displays ethical principles (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "226234005",
+        "display" : "Healthy diet (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228448000",
+        "display" : "Exercises regularly (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26291000146108",
+        "display" : "Able to make friends (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302124002",
+        "display" : "Satisfied with job (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "304867008",
+        "display" : "Secure attachment (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "406542000",
+        "display" : "Improvement in friendships and/or relationships (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445091000124106",
+        "display" : "Receives as much social support as wanted (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449892005",
+        "display" : "Feeling safe (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "460821000124100",
+        "display" : "Able to access healthcare services (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611211000124100",
+        "display" : "Housing security (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "611221000124108",
+        "display" : "Stably housed (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "671271000124101",
+        "display" : "Enrolled in health insurance coverage (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713055004",
+        "display" : "Good attachment to primary caregiver (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716421004",
+        "display" : "Able to manage stress (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716454002",
+        "display" : "Able to think creatively (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733903006",
+        "display" : "Psychological resilience (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86808004",
+        "display" : "Increased motivation (finding)"
+      }
+    ]
+  }
+}

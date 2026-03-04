@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.22",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-25T01:02:56.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-25"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-25"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.22",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.22"
+    }
+  ],
+  "version" : "20250925",
+  "name" : "SCAHydroxyureaTreatment",
+  "title" : "SCA hydroxyurea treatment",
+  "status" : "active",
+  "date" : "2025-09-25T01:02:56-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: hydroxyurea treatment for sickle cell anemia Hb SS or Hb S beta zero thalassemia),(Data Element Scope: RxNorm codes for hydroxyurea treatment for sickle cell anemia),(Inclusion Criteria: RxNorm codes for hydroxyurea treatment),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "5552",
+            "display" : "hydroxyurea"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:80b6bd05-fe48-44d2-87c8-39827de2ed28",
+    "timestamp" : "2025-11-24T16:58:41-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "5552",
+        "display" : "hydroxyurea"
+      }
+    ]
+  }
+}

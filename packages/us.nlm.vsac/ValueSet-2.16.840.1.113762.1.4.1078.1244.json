@@ -1,0 +1,338 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1244",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-17T01:01:00.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-17"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-17"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1244",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1244"
+    }
+  ],
+  "version" : "20250617",
+  "name" : "CTAbdomenAndPelvis",
+  "title" : "CT Abdomen and Pelvis",
+  "status" : "active",
+  "date" : "2025-06-17T01:01:00-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: CT Abdomen and Pelvis),(Data Element Scope: CPT and SNOMED CT),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1242"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1243"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:14ae9278-9b77-4749-97cf-8f332ec1d393",
+    "timestamp" : "2025-11-24T11:39:38-05:00",
+    "total" : 44,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148700003",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with intravenous contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148701004",
+        "display" : "Computed tomography of abdomen and pelvis with intravenous contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1345058007",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1345059004",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14871000087107",
+        "display" : "Computed tomography angiography of abdomen, pelvis and lumbar spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15391000087101",
+        "display" : "Computed tomography angiography of abdomen, pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16444991000119109",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16457501000119102",
+        "display" : "Computed tomography of abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16462121000119108",
+        "display" : "Computed tomography angiography of thorax and abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22831000087106",
+        "display" : "Computed tomography of abdomen, pelvis and bilateral lower limbs with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22851000087102",
+        "display" : "Computed tomography of abdomen, pelvis and left lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22871000087108",
+        "display" : "Computed tomography of abdomen, pelvis and lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22881000087105",
+        "display" : "Computed tomography of abdomen, pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22891000087107",
+        "display" : "Computed tomography of abdomen, pelvis and right lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "393161000119104",
+        "display" : "Computed tomography of chest, abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "411661000119104",
+        "display" : "Computed tomography of neck, chest, abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418023006",
+        "display" : "Computed tomography of chest, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418332004",
+        "display" : "Computed tomography of neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419394006",
+        "display" : "Computed tomography of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432370003",
+        "display" : "Computed tomography of abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433761009",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434438003",
+        "display" : "Computed tomography of neck, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440331001",
+        "display" : "Computed tomography of head, neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444618009",
+        "display" : "Computed tomography of head, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444628000",
+        "display" : "Computed tomography of head, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444630003",
+        "display" : "Computed tomography of head, neck, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444674001",
+        "display" : "Computed tomography of head, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445583005",
+        "display" : "Computed tomography of head, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448766000",
+        "display" : "Computed tomography angiography of pulmonary artery, abdominal artery and pelvic artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702513003",
+        "display" : "Computed tomography of abdomen, pelvis and lumbar spine (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702514009",
+        "display" : "Computed tomography of abdomen, pelvis and lumbar spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711425007",
+        "display" : "Computed tomography of sinus of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712874000",
+        "display" : "Computed tomography of sinus of abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715588003",
+        "display" : "Computed tomography of head, neck, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719898006",
+        "display" : "Computed tomography of head, neck, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721041002",
+        "display" : "Dual energy computed tomography of thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721042009",
+        "display" : "Dual energy computed tomography of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721043004",
+        "display" : "Dual energy computed tomography of neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726552004",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with oral contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726553009",
+        "display" : "Computed tomography of abdomen and pelvis with oral contrast (procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74176",
+        "display" : "Computed tomography, abdomen and pelvis; without contrast material"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74177",
+        "display" : "Computed tomography, abdomen and pelvis; with contrast material(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74178",
+        "display" : "Computed tomography, abdomen and pelvis; without contrast material in one or both body regions, followed by contrast material(s) and further sections in one or both body regions"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "9521000087109",
+        "display" : "Computed tomography angiography of abdominal artery and pelvic artery with contrast (procedure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1290",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1290",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1290"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "PartialNephrectomy",
+  "title" : "Partial Nephrectomy",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for partial nephrectomy.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a partial nephrectomy.),(Exclusion Criteria: Total Nephrectomy.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1291"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1292"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1293"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d7086e5a-d963-4410-8e46-276076052f77",
+    "timestamp" : "2025-11-24T18:52:46-05:00",
+    "total" : 26,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB00ZZ",
+        "display" : "Excision of Right Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB03ZZ",
+        "display" : "Excision of Right Kidney, Percutaneous Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB04ZZ",
+        "display" : "Excision of Right Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB07ZZ",
+        "display" : "Excision of Right Kidney, Via Natural or Artificial Opening"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB08ZZ",
+        "display" : "Excision of Right Kidney, Via Natural or Artificial Opening Endoscopic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB10ZZ",
+        "display" : "Excision of Left Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB13ZZ",
+        "display" : "Excision of Left Kidney, Percutaneous Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB14ZZ",
+        "display" : "Excision of Left Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB17ZZ",
+        "display" : "Excision of Left Kidney, Via Natural or Artificial Opening"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB18ZZ",
+        "display" : "Excision of Left Kidney, Via Natural or Artificial Opening Endoscopic"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119317007",
+        "display" : "Laparoscopic excision of part of left kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119318002",
+        "display" : "Laparoscopic excision of part of right kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119319005",
+        "display" : "Laparoscopic excision of part of left kidney via retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119320004",
+        "display" : "Laparoscopic excision of part of right kidney via retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175908001",
+        "display" : "Heminephrectomy for horseshoe kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175916005",
+        "display" : "Heminephrectomy for duplex kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175917001",
+        "display" : "Upper polar partial nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175918006",
+        "display" : "Lower polar partial nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236140002",
+        "display" : "Middle partial nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439739008",
+        "display" : "Laparoscopic partial excision of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446894005",
+        "display" : "Laparoscopic partial excision of kidney by retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49780003",
+        "display" : "Heminephrectomy (procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50240",
+        "display" : "Nephrectomy, partial"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51870000",
+        "display" : "Excision of lesion of kidney with partial nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708929007",
+        "display" : "Laparoscopic partial excision of kidney using robotic assistance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81516001",
+        "display" : "Partial nephrectomy (procedure)"
+      }
+    ]
+  }
+}

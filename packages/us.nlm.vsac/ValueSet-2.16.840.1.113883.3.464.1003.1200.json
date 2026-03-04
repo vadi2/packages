@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1200",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2023-07-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-07-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1200",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1200"
+    }
+  ],
+  "version" : "20230721",
+  "name" : "LowerExtremityNeurologicalTests",
+  "title" : "Lower Extremity Neurological Tests",
+  "status" : "active",
+  "date" : "2023-07-21T01:01:07-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for procedures involving foot vibration sensations testing.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent procedures related to procedures involving the foot vibration sensations testing.),(Exclusion Criteria: No Exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "713832003",
+            "display" : "Foot vibration sensation test using vibrometer (procedure)"
+          },
+          {
+            "code" : "713833008",
+            "display" : "Foot vibration sensation test using tuning fork (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3dba9fd4-fc59-415f-be6c-8c84a84c060d",
+    "timestamp" : "2025-11-24T18:49:09-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713832003",
+        "display" : "Foot vibration sensation test using vibrometer (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713833008",
+        "display" : "Foot vibration sensation test using tuning fork (procedure)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2872",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2872",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2872"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "COVID19AdditionalContextSymptomCodesSNOMED",
+  "title" : "COVID19 Additional Context Symptom Codes (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: COVID-19 Additional Context Symptom Codes (SNOMED)),(Data Element Scope: COVID-19 Additional Context Symptom Codes (SNOMED)),(Inclusion Criteria: COVID-19 Additional Context Symptom Codes (SNOMED)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "102613000",
+            "display" : "Localized abdominal pain (finding)"
+          },
+          {
+            "code" : "102614006",
+            "display" : "Generalized abdominal pain (finding)"
+          },
+          {
+            "code" : "111985007",
+            "display" : "Chronic abdominal pain (finding)"
+          },
+          {
+            "code" : "116290004",
+            "display" : "Acute abdominal pain (finding)"
+          },
+          {
+            "code" : "13791008",
+            "display" : "Asthenia (finding)"
+          },
+          {
+            "code" : "162042000",
+            "display" : "Abdominal wall pain (finding)"
+          },
+          {
+            "code" : "162046002",
+            "display" : "Central abdominal pain (finding)"
+          },
+          {
+            "code" : "164623002",
+            "display" : "On examination - a rash (disorder)"
+          },
+          {
+            "code" : "207205003",
+            "display" : "[D]Abdominal pain (situation)"
+          },
+          {
+            "code" : "21522001",
+            "display" : "Abdominal pain (finding)"
+          },
+          {
+            "code" : "271807003",
+            "display" : "Eruption of skin (disorder)"
+          },
+          {
+            "code" : "271832001",
+            "display" : "Flatulence, eructation and gas pain (finding)"
+          },
+          {
+            "code" : "285387005",
+            "display" : "Left sided abdominal pain (finding)"
+          },
+          {
+            "code" : "285388000",
+            "display" : "Right sided abdominal pain (finding)"
+          },
+          {
+            "code" : "301232003",
+            "display" : "Lesion of lung (disorder)"
+          },
+          {
+            "code" : "314212008",
+            "display" : "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code" : "438506002",
+            "display" : "Visceral abdominal pain (finding)"
+          },
+          {
+            "code" : "45979003",
+            "display" : "Abdominal wind pain (finding)"
+          },
+          {
+            "code" : "54586004",
+            "display" : "Lower abdominal pain (finding)"
+          },
+          {
+            "code" : "56018004",
+            "display" : "Wheezing (finding)"
+          },
+          {
+            "code" : "725119006",
+            "display" : "Generalized rash (disorder)"
+          },
+          {
+            "code" : "82991003",
+            "display" : "Generalized aches and pains (finding)"
+          },
+          {
+            "code" : "83132003",
+            "display" : "Upper abdominal pain (finding)"
+          },
+          {
+            "code" : "95891005",
+            "display" : "Influenza-like illness (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:caaaa804-6887-4ec2-98cc-a9181aad5745",
+    "timestamp" : "2025-11-24T13:42:58-05:00",
+    "total" : 22,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102613000",
+        "display" : "Localized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102614006",
+        "display" : "Generalized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111985007",
+        "display" : "Chronic abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116290004",
+        "display" : "Acute abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13791008",
+        "display" : "Asthenia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162042000",
+        "display" : "Abdominal wall pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162046002",
+        "display" : "Central abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21522001",
+        "display" : "Abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271807003",
+        "display" : "Eruption of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271832001",
+        "display" : "Flatulence, eructation and gas pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285387005",
+        "display" : "Left sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285388000",
+        "display" : "Right sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301232003",
+        "display" : "Lesion of lung (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314212008",
+        "display" : "Abdominal pain - cause unknown (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438506002",
+        "display" : "Visceral abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45979003",
+        "display" : "Abdominal wind pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54586004",
+        "display" : "Lower abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56018004",
+        "display" : "Wheezing (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "725119006",
+        "display" : "Generalized rash (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82991003",
+        "display" : "Generalized aches and pains (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83132003",
+        "display" : "Upper abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95891005",
+        "display" : "Influenza-like illness (finding)"
+      }
+    ]
+  }
+}

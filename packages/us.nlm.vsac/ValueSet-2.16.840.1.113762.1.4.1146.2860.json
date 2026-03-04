@@ -1,0 +1,2604 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2860",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2860",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2860"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "NongonococcalUrethritisAdditionalContextMedicationCodes",
+  "title" : "Nongonococcal Urethritis Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Nongonococcal Urethritis Additional Context Medication Codes),(Data Element Scope: Nongonococcal Urethritis Additional Context Medication Codes),(Inclusion Criteria: Nongonococcal Urethritis Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1007331",
+            "display" : "metronidazole / scopolamine"
+          },
+          {
+            "code" : "1007620",
+            "display" : "miconazole / tinidazole"
+          },
+          {
+            "code" : "1007712",
+            "display" : "mebendazole / niclosamide / tinidazole"
+          },
+          {
+            "code" : "1007769",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline"
+          },
+          {
+            "code" : "1008899",
+            "display" : "malachite green / metronidazole / microcrystalline cellulose / trichlorfon"
+          },
+          {
+            "code" : "103866",
+            "display" : "metronidazole benzoate"
+          },
+          {
+            "code" : "103867",
+            "display" : "metronidazole 0.25 MG/MG Oral Gel"
+          },
+          {
+            "code" : "105304",
+            "display" : "metronidazole 40 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "10612",
+            "display" : "tinidazole"
+          },
+          {
+            "code" : "108249",
+            "display" : "diloxanide / metronidazole"
+          },
+          {
+            "code" : "108302",
+            "display" : "diloxanide 250 MG / metronidazole 200 MG Oral Tablet"
+          },
+          {
+            "code" : "1148395",
+            "display" : "Rosadan"
+          },
+          {
+            "code" : "1148396",
+            "display" : "metronidazole 7.5 MG/ML [Rosadan]"
+          },
+          {
+            "code" : "1148397",
+            "display" : "metronidazole Topical Cream [Rosadan]"
+          },
+          {
+            "code" : "1148398",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream [Rosadan]"
+          },
+          {
+            "code" : "1151879",
+            "display" : "diloxanide / metronidazole Oral Product"
+          },
+          {
+            "code" : "1151880",
+            "display" : "diloxanide / metronidazole Pill"
+          },
+          {
+            "code" : "1154702",
+            "display" : "bismuth biskalcitrate / metronidazole / tetracycline Oral Product"
+          },
+          {
+            "code" : "1155011",
+            "display" : "azithromycin Oral Product"
+          },
+          {
+            "code" : "1155012",
+            "display" : "azithromycin Pill"
+          },
+          {
+            "code" : "1157106",
+            "display" : "tinidazole Oral Product"
+          },
+          {
+            "code" : "1157107",
+            "display" : "tinidazole Pill"
+          },
+          {
+            "code" : "1157858",
+            "display" : "moxifloxacin Oral Product"
+          },
+          {
+            "code" : "1157859",
+            "display" : "moxifloxacin Pill"
+          },
+          {
+            "code" : "1160778",
+            "display" : "doxycycline Oral Product"
+          },
+          {
+            "code" : "1160779",
+            "display" : "doxycycline Pill"
+          },
+          {
+            "code" : "1161817",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Product"
+          },
+          {
+            "code" : "1161818",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Pill"
+          },
+          {
+            "code" : "1164081",
+            "display" : "metronidazole Injectable Product"
+          },
+          {
+            "code" : "1164082",
+            "display" : "metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "1164083",
+            "display" : "metronidazole Oral Product"
+          },
+          {
+            "code" : "1164084",
+            "display" : "metronidazole Pill"
+          },
+          {
+            "code" : "1164085",
+            "display" : "metronidazole Rectal Product"
+          },
+          {
+            "code" : "1164086",
+            "display" : "metronidazole Topical Product"
+          },
+          {
+            "code" : "1164087",
+            "display" : "metronidazole Vaginal Product"
+          },
+          {
+            "code" : "1169007",
+            "display" : "Flagyl Oral Product"
+          },
+          {
+            "code" : "1169008",
+            "display" : "Flagyl Pill"
+          },
+          {
+            "code" : "1175685",
+            "display" : "Avelox Oral Product"
+          },
+          {
+            "code" : "1175686",
+            "display" : "Avelox Pill"
+          },
+          {
+            "code" : "1176961",
+            "display" : "MetroCream Topical Product"
+          },
+          {
+            "code" : "1176962",
+            "display" : "MetroGel Topical Product"
+          },
+          {
+            "code" : "1176964",
+            "display" : "MetroLotion Topical Product"
+          },
+          {
+            "code" : "1177300",
+            "display" : "Tindamax Oral Product"
+          },
+          {
+            "code" : "1177301",
+            "display" : "Tindamax Pill"
+          },
+          {
+            "code" : "1179863",
+            "display" : "Nydamax Topical Product"
+          },
+          {
+            "code" : "1182222",
+            "display" : "Monodox Oral Product"
+          },
+          {
+            "code" : "1182223",
+            "display" : "Monodox Pill"
+          },
+          {
+            "code" : "1182554",
+            "display" : "Rosadan Topical Product"
+          },
+          {
+            "code" : "1184086",
+            "display" : "Pylera Oral Product"
+          },
+          {
+            "code" : "1184087",
+            "display" : "Pylera Pill"
+          },
+          {
+            "code" : "1185692",
+            "display" : "Noritate Topical Product"
+          },
+          {
+            "code" : "1187351",
+            "display" : "Vandazole Vaginal Product"
+          },
+          {
+            "code" : "1187674",
+            "display" : "Zithromax Oral Product"
+          },
+          {
+            "code" : "1187675",
+            "display" : "Zithromax Pill"
+          },
+          {
+            "code" : "1251686",
+            "display" : "metronidazole 0.0075 MG/MG [Rosadan]"
+          },
+          {
+            "code" : "1251687",
+            "display" : "metronidazole Topical Gel [Rosadan]"
+          },
+          {
+            "code" : "1251688",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel [Rosadan]"
+          },
+          {
+            "code" : "1294619",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule"
+          },
+          {
+            "code" : "1294620",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG [Pylera]"
+          },
+          {
+            "code" : "1294621",
+            "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "1295356",
+            "display" : "metronidazole Oral Gel Product"
+          },
+          {
+            "code" : "139462",
+            "display" : "moxifloxacin"
+          },
+          {
+            "code" : "141962",
+            "display" : "azithromycin 250 MG Oral Capsule"
+          },
+          {
+            "code" : "142046",
+            "display" : "metronidazole 0.0075 MG/MG Vaginal Gel"
+          },
+          {
+            "code" : "1429469",
+            "display" : "metronidazole / spiramycin"
+          },
+          {
+            "code" : "1492665",
+            "display" : "metronidazole 0.013 MG/MG"
+          },
+          {
+            "code" : "1604332",
+            "display" : "Nuvessa"
+          },
+          {
+            "code" : "1604333",
+            "display" : "metronidazole 0.013 MG/MG [Nuvessa]"
+          },
+          {
+            "code" : "1604336",
+            "display" : "metronidazole 0.013 MG/MG Vaginal Gel [Nuvessa]"
+          },
+          {
+            "code" : "1608253",
+            "display" : "metronidazole 0.013 MG/MG Vaginal Gel"
+          },
+          {
+            "code" : "1649989",
+            "display" : "doxycycline monohydrate 100 MG"
+          },
+          {
+            "code" : "1649990",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+          },
+          {
+            "code" : "1649991",
+            "display" : "doxycycline monohydrate 100 MG [Monodox]"
+          },
+          {
+            "code" : "1666093",
+            "display" : "Mondoxyne"
+          },
+          {
+            "code" : "1666095",
+            "display" : "doxycycline Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "1666096",
+            "display" : "Mondoxyne Oral Product"
+          },
+          {
+            "code" : "1666097",
+            "display" : "Mondoxyne Pill"
+          },
+          {
+            "code" : "1666541",
+            "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+          },
+          {
+            "code" : "1666542",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "1799408",
+            "display" : "metronidazole Vaginal Gel [Nuvessa]"
+          },
+          {
+            "code" : "1799409",
+            "display" : "Nuvessa Vaginal Product"
+          },
+          {
+            "code" : "1807493",
+            "display" : "azithromycin Oral Powder Product"
+          },
+          {
+            "code" : "1807494",
+            "display" : "azithromycin Powder for Oral Suspension"
+          },
+          {
+            "code" : "1807496",
+            "display" : "azithromycin 1000 MG [Zithromax]"
+          },
+          {
+            "code" : "1807497",
+            "display" : "azithromycin Powder for Oral Suspension [Zithromax]"
+          },
+          {
+            "code" : "1807498",
+            "display" : "Zithromax Oral Powder Product"
+          },
+          {
+            "code" : "18631",
+            "display" : "azithromycin"
+          },
+          {
+            "code" : "1863330",
+            "display" : "metronidazole Injection"
+          },
+          {
+            "code" : "196474",
+            "display" : "Zithromax"
+          },
+          {
+            "code" : "199055",
+            "display" : "metronidazole 375 MG Oral Capsule"
+          },
+          {
+            "code" : "199326",
+            "display" : "metronidazole 200 MG Oral Tablet"
+          },
+          {
+            "code" : "199327",
+            "display" : "metronidazole 400 MG Oral Tablet"
+          },
+          {
+            "code" : "199519",
+            "display" : "tinidazole 500 MG Oral Tablet"
+          },
+          {
+            "code" : "199959",
+            "display" : "metronidazole 500 MG Rectal Suppository"
+          },
+          {
+            "code" : "202866",
+            "display" : "Flagyl"
+          },
+          {
+            "code" : "202869",
+            "display" : "MetroGel"
+          },
+          {
+            "code" : "203122",
+            "display" : "doxycycline monohydrate"
+          },
+          {
+            "code" : "2045893",
+            "display" : "Okebo"
+          },
+          {
+            "code" : "2045895",
+            "display" : "doxycycline Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2045896",
+            "display" : "Okebo Oral Product"
+          },
+          {
+            "code" : "2045897",
+            "display" : "Okebo Pill"
+          },
+          {
+            "code" : "2045899",
+            "display" : "doxycycline monohydrate 100 MG [Okebo]"
+          },
+          {
+            "code" : "2045900",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "205621",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "211666",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream [MetroCream]"
+          },
+          {
+            "code" : "212446",
+            "display" : "azithromycin 250 MG Oral Tablet [Zithromax]"
+          },
+          {
+            "code" : "213120",
+            "display" : "metronidazole 10 MG/ML Topical Cream [Noritate]"
+          },
+          {
+            "code" : "218343",
+            "display" : "MetroCream"
+          },
+          {
+            "code" : "218345",
+            "display" : "MetroLotion"
+          },
+          {
+            "code" : "218432",
+            "display" : "Monodox"
+          },
+          {
+            "code" : "218778",
+            "display" : "Noritate"
+          },
+          {
+            "code" : "226584",
+            "display" : "metronidazole 0.008 MG/MG Topical Gel"
+          },
+          {
+            "code" : "226827",
+            "display" : "azithromycin 500 MG Oral Tablet [Zithromax]"
+          },
+          {
+            "code" : "242736",
+            "display" : "metronidazole 7.5 MG/ML Topical Lotion"
+          },
+          {
+            "code" : "248656",
+            "display" : "azithromycin 500 MG Oral Tablet"
+          },
+          {
+            "code" : "250261",
+            "display" : "metronidazole 1000 MG Rectal Suppository"
+          },
+          {
+            "code" : "261119",
+            "display" : "metronidazole 7.5 MG/ML Topical Lotion [MetroLotion]"
+          },
+          {
+            "code" : "261339",
+            "display" : "moxifloxacin 400 MG Oral Tablet [Avelox]"
+          },
+          {
+            "code" : "261456",
+            "display" : "Avelox"
+          },
+          {
+            "code" : "2646603",
+            "display" : "doxycycline monohydrate Oral Capsule"
+          },
+          {
+            "code" : "2648018",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule"
+          },
+          {
+            "code" : "2655017",
+            "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "2655683",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "2656162",
+            "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "2658892",
+            "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2659155",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Product"
+          },
+          {
+            "code" : "2659349",
+            "display" : "doxycycline monohydrate Pill"
+          },
+          {
+            "code" : "2661725",
+            "display" : "doxycycline anhydrous Pill"
+          },
+          {
+            "code" : "2661810",
+            "display" : "doxycycline monohydrate Oral Product"
+          },
+          {
+            "code" : "2661949",
+            "display" : "doxycycline hyclate Pill"
+          },
+          {
+            "code" : "2662116",
+            "display" : "doxycycline calcium Oral Product"
+          },
+          {
+            "code" : "2663130",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Pill"
+          },
+          {
+            "code" : "2663160",
+            "display" : "doxycycline anhydrous Oral Product"
+          },
+          {
+            "code" : "2663263",
+            "display" : "doxycycline hyclate Oral Product"
+          },
+          {
+            "code" : "2667642",
+            "display" : "metronidazole 100 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "2667643",
+            "display" : "Likmez"
+          },
+          {
+            "code" : "2667644",
+            "display" : "metronidazole 100 MG/ML [Likmez]"
+          },
+          {
+            "code" : "2667645",
+            "display" : "Likmez Oral Product"
+          },
+          {
+            "code" : "2667646",
+            "display" : "Likmez Oral Liquid Product"
+          },
+          {
+            "code" : "2667647",
+            "display" : "metronidazole Oral Suspension [Likmez]"
+          },
+          {
+            "code" : "2667648",
+            "display" : "metronidazole 100 MG/ML Oral Suspension [Likmez]"
+          },
+          {
+            "code" : "2702348",
+            "display" : "metronidazole 125 MG Oral Tablet"
+          },
+          {
+            "code" : "2702631",
+            "display" : "metronidazole 2 MG/ML"
+          },
+          {
+            "code" : "2702633",
+            "display" : "chlorhexidine / metronidazole"
+          },
+          {
+            "code" : "2702634",
+            "display" : "chlorhexidine / metronidazole Dental Product"
+          },
+          {
+            "code" : "2702635",
+            "display" : "chlorhexidine / metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "2702636",
+            "display" : "chlorhexidine / metronidazole Mouthwash Product"
+          },
+          {
+            "code" : "2702637",
+            "display" : "chlorhexidine / metronidazole Mouthwash"
+          },
+          {
+            "code" : "2702638",
+            "display" : "chlorhexidine gluconate / metronidazole Dental Product"
+          },
+          {
+            "code" : "2702639",
+            "display" : "chlorhexidine gluconate / metronidazole Oral Liquid Product"
+          },
+          {
+            "code" : "2702640",
+            "display" : "chlorhexidine gluconate / metronidazole Mouthwash Product"
+          },
+          {
+            "code" : "2702641",
+            "display" : "chlorhexidine gluconate / metronidazole Mouthwash"
+          },
+          {
+            "code" : "2702642",
+            "display" : "chlorhexidine gluconate 6 MG/ML / metronidazole 2 MG/ML Mouthwash"
+          },
+          {
+            "code" : "308460",
+            "display" : "azithromycin 250 MG Oral Tablet"
+          },
+          {
+            "code" : "311678",
+            "display" : "metronidazole 7.5 MG/ML Topical Cream"
+          },
+          {
+            "code" : "311679",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel"
+          },
+          {
+            "code" : "311680",
+            "display" : "metronidazole 10 MG/ML Topical Cream"
+          },
+          {
+            "code" : "311681",
+            "display" : "metronidazole 500 MG Oral Tablet"
+          },
+          {
+            "code" : "311683",
+            "display" : "100 ML metronidazole 5 MG/ML Injection"
+          },
+          {
+            "code" : "311787",
+            "display" : "moxifloxacin 400 MG Oral Tablet"
+          },
+          {
+            "code" : "314106",
+            "display" : "metronidazole 250 MG Oral Tablet"
+          },
+          {
+            "code" : "315449",
+            "display" : "azithromycin 250 MG"
+          },
+          {
+            "code" : "316300",
+            "display" : "metronidazole 250 MG"
+          },
+          {
+            "code" : "316301",
+            "display" : "metronidazole 375 MG"
+          },
+          {
+            "code" : "316302",
+            "display" : "metronidazole 5 MG/ML"
+          },
+          {
+            "code" : "317428",
+            "display" : "metronidazole 500 MG"
+          },
+          {
+            "code" : "328471",
+            "display" : "metronidazole 0.0075 MG/MG"
+          },
+          {
+            "code" : "330379",
+            "display" : "metronidazole 750 MG"
+          },
+          {
+            "code" : "330383",
+            "display" : "moxifloxacin 400 MG"
+          },
+          {
+            "code" : "330623",
+            "display" : "azithromycin 500 MG"
+          },
+          {
+            "code" : "332220",
+            "display" : "metronidazole 400 MG"
+          },
+          {
+            "code" : "332221",
+            "display" : "metronidazole 1000 MG"
+          },
+          {
+            "code" : "332606",
+            "display" : "metronidazole 200 MG"
+          },
+          {
+            "code" : "333392",
+            "display" : "tinidazole 500 MG"
+          },
+          {
+            "code" : "335213",
+            "display" : "metronidazole 0.25 MG/MG"
+          },
+          {
+            "code" : "335214",
+            "display" : "metronidazole 0.008 MG/MG"
+          },
+          {
+            "code" : "335218",
+            "display" : "metronidazole 125 MG"
+          },
+          {
+            "code" : "343252",
+            "display" : "metronidazole 10 MG/ML"
+          },
+          {
+            "code" : "343518",
+            "display" : "metronidazole 100 MG/ML"
+          },
+          {
+            "code" : "346265",
+            "display" : "metronidazole 7.5 MG/ML"
+          },
+          {
+            "code" : "360535",
+            "display" : "metronidazole 40 MG/ML"
+          },
+          {
+            "code" : "362150",
+            "display" : "metronidazole Topical Cream [Noritate]"
+          },
+          {
+            "code" : "362151",
+            "display" : "metronidazole Topical Cream [MetroCream]"
+          },
+          {
+            "code" : "3640",
+            "display" : "doxycycline"
+          },
+          {
+            "code" : "365729",
+            "display" : "metronidazole Topical Lotion [MetroLotion]"
+          },
+          {
+            "code" : "366778",
+            "display" : "doxycycline Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "367697",
+            "display" : "azithromycin Oral Tablet [Zithromax]"
+          },
+          {
+            "code" : "368210",
+            "display" : "moxifloxacin Oral Tablet [Avelox]"
+          },
+          {
+            "code" : "370376",
+            "display" : "metronidazole Topical Gel [MetroGel]"
+          },
+          {
+            "code" : "370974",
+            "display" : "azithromycin Oral Capsule"
+          },
+          {
+            "code" : "370976",
+            "display" : "azithromycin Oral Tablet"
+          },
+          {
+            "code" : "371965",
+            "display" : "doxycycline Oral Capsule"
+          },
+          {
+            "code" : "372893",
+            "display" : "metronidazole Oral Suspension"
+          },
+          {
+            "code" : "372895",
+            "display" : "metronidazole Oral Capsule"
+          },
+          {
+            "code" : "372896",
+            "display" : "metronidazole Rectal Suppository"
+          },
+          {
+            "code" : "372897",
+            "display" : "metronidazole Oral Tablet"
+          },
+          {
+            "code" : "372898",
+            "display" : "metronidazole Extended Release Oral Tablet"
+          },
+          {
+            "code" : "374138",
+            "display" : "tinidazole Oral Tablet"
+          },
+          {
+            "code" : "374619",
+            "display" : "moxifloxacin Oral Tablet"
+          },
+          {
+            "code" : "377759",
+            "display" : "metronidazole Topical Cream"
+          },
+          {
+            "code" : "377760",
+            "display" : "metronidazole Topical Lotion"
+          },
+          {
+            "code" : "377977",
+            "display" : "metronidazole Oral Gel"
+          },
+          {
+            "code" : "378013",
+            "display" : "metronidazole Topical Gel"
+          },
+          {
+            "code" : "379122",
+            "display" : "metronidazole Vaginal Gel"
+          },
+          {
+            "code" : "379484",
+            "display" : "diloxanide / metronidazole Oral Tablet"
+          },
+          {
+            "code" : "392520",
+            "display" : "metronidazole / nystatin"
+          },
+          {
+            "code" : "434692",
+            "display" : "azithromycin 1000 MG"
+          },
+          {
+            "code" : "477234",
+            "display" : "tinidazole 250 MG Oral Tablet"
+          },
+          {
+            "code" : "477235",
+            "display" : "tinidazole 250 MG"
+          },
+          {
+            "code" : "539806",
+            "display" : "Tindamax"
+          },
+          {
+            "code" : "539807",
+            "display" : "tinidazole 250 MG [Tindamax]"
+          },
+          {
+            "code" : "539808",
+            "display" : "tinidazole Oral Tablet [Tindamax]"
+          },
+          {
+            "code" : "539809",
+            "display" : "tinidazole 250 MG Oral Tablet [Tindamax]"
+          },
+          {
+            "code" : "539810",
+            "display" : "tinidazole 500 MG [Tindamax]"
+          },
+          {
+            "code" : "539811",
+            "display" : "tinidazole 500 MG Oral Tablet [Tindamax]"
+          },
+          {
+            "code" : "564001",
+            "display" : "azithromycin 250 MG [Zithromax]"
+          },
+          {
+            "code" : "572018",
+            "display" : "metronidazole 7.5 MG/ML [MetroCream]"
+          },
+          {
+            "code" : "573045",
+            "display" : "metronidazole 10 MG/ML [Noritate]"
+          },
+          {
+            "code" : "574033",
+            "display" : "azithromycin 500 MG [Zithromax]"
+          },
+          {
+            "code" : "574364",
+            "display" : "metronidazole 7.5 MG/ML [MetroLotion]"
+          },
+          {
+            "code" : "574559",
+            "display" : "moxifloxacin 400 MG [Avelox]"
+          },
+          {
+            "code" : "577236",
+            "display" : "metronidazole 0.01 MG/MG"
+          },
+          {
+            "code" : "577237",
+            "display" : "metronidazole 0.01 MG/MG Topical Gel"
+          },
+          {
+            "code" : "605729",
+            "display" : "metronidazole 0.01 MG/MG [MetroGel]"
+          },
+          {
+            "code" : "605730",
+            "display" : "metronidazole 0.01 MG/MG Topical Gel [MetroGel]"
+          },
+          {
+            "code" : "606381",
+            "display" : "Vandazole"
+          },
+          {
+            "code" : "608932",
+            "display" : "metronidazole 0.0075 MG/MG [Vandazole]"
+          },
+          {
+            "code" : "608933",
+            "display" : "metronidazole Vaginal Gel [Vandazole]"
+          },
+          {
+            "code" : "608934",
+            "display" : "metronidazole 0.0075 MG/MG Vaginal Gel [Vandazole]"
+          },
+          {
+            "code" : "636559",
+            "display" : "24 HR metronidazole 750 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "687209",
+            "display" : "metronidazole 375 MG [Flagyl]"
+          },
+          {
+            "code" : "687210",
+            "display" : "metronidazole Oral Capsule [Flagyl]"
+          },
+          {
+            "code" : "687211",
+            "display" : "metronidazole 375 MG Oral Capsule [Flagyl]"
+          },
+          {
+            "code" : "6922",
+            "display" : "metronidazole"
+          },
+          {
+            "code" : "701916",
+            "display" : "Nydamax"
+          },
+          {
+            "code" : "701917",
+            "display" : "metronidazole 0.0075 MG/MG [Nydamax]"
+          },
+          {
+            "code" : "701918",
+            "display" : "metronidazole Topical Gel [Nydamax]"
+          },
+          {
+            "code" : "701919",
+            "display" : "metronidazole 0.0075 MG/MG Topical Gel [Nydamax]"
+          },
+          {
+            "code" : "705860",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule"
+          },
+          {
+            "code" : "705862",
+            "display" : "Pylera"
+          },
+          {
+            "code" : "705864",
+            "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule [Pylera]"
+          },
+          {
+            "code" : "749780",
+            "display" : "{3 (azithromycin 500 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "749783",
+            "display" : "{6 (azithromycin 250 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "750149",
+            "display" : "{6 (azithromycin 250 MG Oral Tablet [Zithromax]) } Pack [Z-PAK]"
+          },
+          {
+            "code" : "750157",
+            "display" : "{3 (azithromycin 500 MG Oral Tablet [Zithromax]) } Pack [TRI-PAK]"
+          },
+          {
+            "code" : "758019",
+            "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack"
+          },
+          {
+            "code" : "758020",
+            "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack [Helidac Therapy]"
+          },
+          {
+            "code" : "818629",
+            "display" : "bismuth biskalcitrate / metronidazole / tetracycline"
+          },
+          {
+            "code" : "82047",
+            "display" : "metronidazole hydrochloride"
+          },
+          {
+            "code" : "820916",
+            "display" : "mebendazole / tinidazole"
+          },
+          {
+            "code" : "821514",
+            "display" : "iodoquinol / metronidazole"
+          },
+          {
+            "code" : "861416",
+            "display" : "azithromycin 1000 MG Powder for Oral Suspension"
+          },
+          {
+            "code" : "861417",
+            "display" : "azithromycin 1000 MG Powder for Oral Suspension [Zithromax]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0185fb65-6557-4d94-b193-ff5039b09b2a",
+    "timestamp" : "2025-11-24T13:42:15-05:00",
+    "total" : 253,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007331",
+        "display" : "metronidazole / scopolamine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007620",
+        "display" : "miconazole / tinidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007712",
+        "display" : "mebendazole / niclosamide / tinidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1007769",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008899",
+        "display" : "malachite green / metronidazole / microcrystalline cellulose / trichlorfon"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "103866",
+        "display" : "metronidazole benzoate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "103867",
+        "display" : "metronidazole 0.25 MG/MG Oral Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105304",
+        "display" : "metronidazole 40 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "10612",
+        "display" : "tinidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108249",
+        "display" : "diloxanide / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108302",
+        "display" : "diloxanide 250 MG / metronidazole 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148395",
+        "display" : "Rosadan"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148396",
+        "display" : "metronidazole 7.5 MG/ML [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148397",
+        "display" : "metronidazole Topical Cream [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1148398",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151879",
+        "display" : "diloxanide / metronidazole Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151880",
+        "display" : "diloxanide / metronidazole Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1154702",
+        "display" : "bismuth biskalcitrate / metronidazole / tetracycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1155011",
+        "display" : "azithromycin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1155012",
+        "display" : "azithromycin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1157106",
+        "display" : "tinidazole Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1157107",
+        "display" : "tinidazole Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1157858",
+        "display" : "moxifloxacin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1157859",
+        "display" : "moxifloxacin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160778",
+        "display" : "doxycycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160779",
+        "display" : "doxycycline Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161817",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161818",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164081",
+        "display" : "metronidazole Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164082",
+        "display" : "metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164083",
+        "display" : "metronidazole Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164084",
+        "display" : "metronidazole Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164085",
+        "display" : "metronidazole Rectal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164086",
+        "display" : "metronidazole Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164087",
+        "display" : "metronidazole Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169007",
+        "display" : "Flagyl Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1169008",
+        "display" : "Flagyl Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1175685",
+        "display" : "Avelox Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1175686",
+        "display" : "Avelox Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176961",
+        "display" : "MetroCream Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176962",
+        "display" : "MetroGel Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1176964",
+        "display" : "MetroLotion Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177300",
+        "display" : "Tindamax Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177301",
+        "display" : "Tindamax Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1179863",
+        "display" : "Nydamax Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182222",
+        "display" : "Monodox Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182223",
+        "display" : "Monodox Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182554",
+        "display" : "Rosadan Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184086",
+        "display" : "Pylera Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184087",
+        "display" : "Pylera Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1185692",
+        "display" : "Noritate Topical Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187351",
+        "display" : "Vandazole Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187674",
+        "display" : "Zithromax Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187675",
+        "display" : "Zithromax Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251686",
+        "display" : "metronidazole 0.0075 MG/MG [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251687",
+        "display" : "metronidazole Topical Gel [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1251688",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel [Rosadan]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294619",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294620",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1294621",
+        "display" : "bismuth subcitrate 140 MG / metronidazole 125 MG / tetracycline hydrochloride 125 MG Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1295356",
+        "display" : "metronidazole Oral Gel Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "139462",
+        "display" : "moxifloxacin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "141962",
+        "display" : "azithromycin 250 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "142046",
+        "display" : "metronidazole 0.0075 MG/MG Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1429469",
+        "display" : "metronidazole / spiramycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1492665",
+        "display" : "metronidazole 0.013 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604332",
+        "display" : "Nuvessa"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604333",
+        "display" : "metronidazole 0.013 MG/MG [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1604336",
+        "display" : "metronidazole 0.013 MG/MG Vaginal Gel [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1608253",
+        "display" : "metronidazole 0.013 MG/MG Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649989",
+        "display" : "doxycycline monohydrate 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649990",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649991",
+        "display" : "doxycycline monohydrate 100 MG [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666093",
+        "display" : "Mondoxyne"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666095",
+        "display" : "doxycycline Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666096",
+        "display" : "Mondoxyne Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666097",
+        "display" : "Mondoxyne Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666541",
+        "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666542",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799408",
+        "display" : "metronidazole Vaginal Gel [Nuvessa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799409",
+        "display" : "Nuvessa Vaginal Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807493",
+        "display" : "azithromycin Oral Powder Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807494",
+        "display" : "azithromycin Powder for Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807496",
+        "display" : "azithromycin 1000 MG [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807497",
+        "display" : "azithromycin Powder for Oral Suspension [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807498",
+        "display" : "Zithromax Oral Powder Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "18631",
+        "display" : "azithromycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1863330",
+        "display" : "metronidazole Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "196474",
+        "display" : "Zithromax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199055",
+        "display" : "metronidazole 375 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199326",
+        "display" : "metronidazole 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199327",
+        "display" : "metronidazole 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199519",
+        "display" : "tinidazole 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199959",
+        "display" : "metronidazole 500 MG Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202866",
+        "display" : "Flagyl"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202869",
+        "display" : "MetroGel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203122",
+        "display" : "doxycycline monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045893",
+        "display" : "Okebo"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045895",
+        "display" : "doxycycline Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045896",
+        "display" : "Okebo Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045897",
+        "display" : "Okebo Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045899",
+        "display" : "doxycycline monohydrate 100 MG [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045900",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "205621",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "211666",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "212446",
+        "display" : "azithromycin 250 MG Oral Tablet [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213120",
+        "display" : "metronidazole 10 MG/ML Topical Cream [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218343",
+        "display" : "MetroCream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218345",
+        "display" : "MetroLotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218432",
+        "display" : "Monodox"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218778",
+        "display" : "Noritate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "226584",
+        "display" : "metronidazole 0.008 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "226827",
+        "display" : "azithromycin 500 MG Oral Tablet [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "242736",
+        "display" : "metronidazole 7.5 MG/ML Topical Lotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "248656",
+        "display" : "azithromycin 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "250261",
+        "display" : "metronidazole 1000 MG Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261119",
+        "display" : "metronidazole 7.5 MG/ML Topical Lotion [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261339",
+        "display" : "moxifloxacin 400 MG Oral Tablet [Avelox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261456",
+        "display" : "Avelox"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646603",
+        "display" : "doxycycline monohydrate Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648018",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655017",
+        "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655683",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656162",
+        "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2658892",
+        "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659155",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659349",
+        "display" : "doxycycline monohydrate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661725",
+        "display" : "doxycycline anhydrous Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661810",
+        "display" : "doxycycline monohydrate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661949",
+        "display" : "doxycycline hyclate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2662116",
+        "display" : "doxycycline calcium Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663130",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline hydrochloride Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663160",
+        "display" : "doxycycline anhydrous Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663263",
+        "display" : "doxycycline hyclate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667642",
+        "display" : "metronidazole 100 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667643",
+        "display" : "Likmez"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667644",
+        "display" : "metronidazole 100 MG/ML [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667645",
+        "display" : "Likmez Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667646",
+        "display" : "Likmez Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667647",
+        "display" : "metronidazole Oral Suspension [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2667648",
+        "display" : "metronidazole 100 MG/ML Oral Suspension [Likmez]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702348",
+        "display" : "metronidazole 125 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702631",
+        "display" : "metronidazole 2 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702633",
+        "display" : "chlorhexidine / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702634",
+        "display" : "chlorhexidine / metronidazole Dental Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702635",
+        "display" : "chlorhexidine / metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702636",
+        "display" : "chlorhexidine / metronidazole Mouthwash Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702637",
+        "display" : "chlorhexidine / metronidazole Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702638",
+        "display" : "chlorhexidine gluconate / metronidazole Dental Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702639",
+        "display" : "chlorhexidine gluconate / metronidazole Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702640",
+        "display" : "chlorhexidine gluconate / metronidazole Mouthwash Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702641",
+        "display" : "chlorhexidine gluconate / metronidazole Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2702642",
+        "display" : "chlorhexidine gluconate 6 MG/ML / metronidazole 2 MG/ML Mouthwash"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "308460",
+        "display" : "azithromycin 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311678",
+        "display" : "metronidazole 7.5 MG/ML Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311679",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311680",
+        "display" : "metronidazole 10 MG/ML Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311681",
+        "display" : "metronidazole 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311683",
+        "display" : "100 ML metronidazole 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311787",
+        "display" : "moxifloxacin 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314106",
+        "display" : "metronidazole 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315449",
+        "display" : "azithromycin 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316300",
+        "display" : "metronidazole 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316301",
+        "display" : "metronidazole 375 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316302",
+        "display" : "metronidazole 5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317428",
+        "display" : "metronidazole 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328471",
+        "display" : "metronidazole 0.0075 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330379",
+        "display" : "metronidazole 750 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330383",
+        "display" : "moxifloxacin 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330623",
+        "display" : "azithromycin 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332220",
+        "display" : "metronidazole 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332221",
+        "display" : "metronidazole 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332606",
+        "display" : "metronidazole 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "333392",
+        "display" : "tinidazole 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335213",
+        "display" : "metronidazole 0.25 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335214",
+        "display" : "metronidazole 0.008 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "335218",
+        "display" : "metronidazole 125 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343252",
+        "display" : "metronidazole 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343518",
+        "display" : "metronidazole 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "346265",
+        "display" : "metronidazole 7.5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360535",
+        "display" : "metronidazole 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362150",
+        "display" : "metronidazole Topical Cream [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362151",
+        "display" : "metronidazole Topical Cream [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "3640",
+        "display" : "doxycycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "365729",
+        "display" : "metronidazole Topical Lotion [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "366778",
+        "display" : "doxycycline Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "367697",
+        "display" : "azithromycin Oral Tablet [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "368210",
+        "display" : "moxifloxacin Oral Tablet [Avelox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370376",
+        "display" : "metronidazole Topical Gel [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370974",
+        "display" : "azithromycin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370976",
+        "display" : "azithromycin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371965",
+        "display" : "doxycycline Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372893",
+        "display" : "metronidazole Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372895",
+        "display" : "metronidazole Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372896",
+        "display" : "metronidazole Rectal Suppository"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372897",
+        "display" : "metronidazole Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372898",
+        "display" : "metronidazole Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "374138",
+        "display" : "tinidazole Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "374619",
+        "display" : "moxifloxacin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377759",
+        "display" : "metronidazole Topical Cream"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377760",
+        "display" : "metronidazole Topical Lotion"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "377977",
+        "display" : "metronidazole Oral Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "378013",
+        "display" : "metronidazole Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "379122",
+        "display" : "metronidazole Vaginal Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "379484",
+        "display" : "diloxanide / metronidazole Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "392520",
+        "display" : "metronidazole / nystatin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "434692",
+        "display" : "azithromycin 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "477234",
+        "display" : "tinidazole 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "477235",
+        "display" : "tinidazole 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539806",
+        "display" : "Tindamax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539807",
+        "display" : "tinidazole 250 MG [Tindamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539808",
+        "display" : "tinidazole Oral Tablet [Tindamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539809",
+        "display" : "tinidazole 250 MG Oral Tablet [Tindamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539810",
+        "display" : "tinidazole 500 MG [Tindamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539811",
+        "display" : "tinidazole 500 MG Oral Tablet [Tindamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "564001",
+        "display" : "azithromycin 250 MG [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "572018",
+        "display" : "metronidazole 7.5 MG/ML [MetroCream]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573045",
+        "display" : "metronidazole 10 MG/ML [Noritate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574033",
+        "display" : "azithromycin 500 MG [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574364",
+        "display" : "metronidazole 7.5 MG/ML [MetroLotion]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574559",
+        "display" : "moxifloxacin 400 MG [Avelox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "577236",
+        "display" : "metronidazole 0.01 MG/MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "577237",
+        "display" : "metronidazole 0.01 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "605729",
+        "display" : "metronidazole 0.01 MG/MG [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "605730",
+        "display" : "metronidazole 0.01 MG/MG Topical Gel [MetroGel]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "606381",
+        "display" : "Vandazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608932",
+        "display" : "metronidazole 0.0075 MG/MG [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608933",
+        "display" : "metronidazole Vaginal Gel [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "608934",
+        "display" : "metronidazole 0.0075 MG/MG Vaginal Gel [Vandazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "636559",
+        "display" : "24 HR metronidazole 750 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687209",
+        "display" : "metronidazole 375 MG [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687210",
+        "display" : "metronidazole Oral Capsule [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687211",
+        "display" : "metronidazole 375 MG Oral Capsule [Flagyl]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "6922",
+        "display" : "metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701916",
+        "display" : "Nydamax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701917",
+        "display" : "metronidazole 0.0075 MG/MG [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701918",
+        "display" : "metronidazole Topical Gel [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701919",
+        "display" : "metronidazole 0.0075 MG/MG Topical Gel [Nydamax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705860",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705862",
+        "display" : "Pylera"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "705864",
+        "display" : "bismuth subcitrate / metronidazole / tetracycline Oral Capsule [Pylera]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "749780",
+        "display" : "{3 (azithromycin 500 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "749783",
+        "display" : "{6 (azithromycin 250 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "750149",
+        "display" : "{6 (azithromycin 250 MG Oral Tablet [Zithromax]) } Pack [Z-PAK]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "750157",
+        "display" : "{3 (azithromycin 500 MG Oral Tablet [Zithromax]) } Pack [TRI-PAK]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "758019",
+        "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "758020",
+        "display" : "{112 (bismuth subsalicylate 262 MG Chewable Tablet) / 56 (metronidazole 250 MG Oral Tablet) / 56 (tetracycline hydrochloride 500 MG Oral Capsule) } Pack [Helidac Therapy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "818629",
+        "display" : "bismuth biskalcitrate / metronidazole / tetracycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "82047",
+        "display" : "metronidazole hydrochloride"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "820916",
+        "display" : "mebendazole / tinidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "821514",
+        "display" : "iodoquinol / metronidazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861416",
+        "display" : "azithromycin 1000 MG Powder for Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861417",
+        "display" : "azithromycin 1000 MG Powder for Oral Suspension [Zithromax]"
+      }
+    ]
+  }
+}

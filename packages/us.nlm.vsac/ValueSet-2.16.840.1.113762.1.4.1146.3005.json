@@ -1,0 +1,813 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3005",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3005",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3005"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ParalysisICD10CM",
+  "title" : "Paralysis (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Paralysis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Paralysis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "G12.22",
+            "display" : "Progressive bulbar palsy"
+          },
+          {
+            "code" : "G51.0",
+            "display" : "Bell's palsy"
+          },
+          {
+            "code" : "G72.3",
+            "display" : "Periodic paralysis"
+          },
+          {
+            "code" : "G80.0",
+            "display" : "Spastic quadriplegic cerebral palsy"
+          },
+          {
+            "code" : "G80.1",
+            "display" : "Spastic diplegic cerebral palsy"
+          },
+          {
+            "code" : "G80.2",
+            "display" : "Spastic hemiplegic cerebral palsy"
+          },
+          {
+            "code" : "G80.3",
+            "display" : "Athetoid cerebral palsy"
+          },
+          {
+            "code" : "G80.4",
+            "display" : "Ataxic cerebral palsy"
+          },
+          {
+            "code" : "G80.8",
+            "display" : "Other cerebral palsy"
+          },
+          {
+            "code" : "G80.9",
+            "display" : "Cerebral palsy, unspecified"
+          },
+          {
+            "code" : "G81.00",
+            "display" : "Flaccid hemiplegia affecting unspecified side"
+          },
+          {
+            "code" : "G81.01",
+            "display" : "Flaccid hemiplegia affecting right dominant side"
+          },
+          {
+            "code" : "G81.02",
+            "display" : "Flaccid hemiplegia affecting left dominant side"
+          },
+          {
+            "code" : "G81.03",
+            "display" : "Flaccid hemiplegia affecting right nondominant side"
+          },
+          {
+            "code" : "G81.04",
+            "display" : "Flaccid hemiplegia affecting left nondominant side"
+          },
+          {
+            "code" : "G81.10",
+            "display" : "Spastic hemiplegia affecting unspecified side"
+          },
+          {
+            "code" : "G81.11",
+            "display" : "Spastic hemiplegia affecting right dominant side"
+          },
+          {
+            "code" : "G81.12",
+            "display" : "Spastic hemiplegia affecting left dominant side"
+          },
+          {
+            "code" : "G81.13",
+            "display" : "Spastic hemiplegia affecting right nondominant side"
+          },
+          {
+            "code" : "G81.14",
+            "display" : "Spastic hemiplegia affecting left nondominant side"
+          },
+          {
+            "code" : "G81.90",
+            "display" : "Hemiplegia, unspecified affecting unspecified side"
+          },
+          {
+            "code" : "G81.91",
+            "display" : "Hemiplegia, unspecified affecting right dominant side"
+          },
+          {
+            "code" : "G81.92",
+            "display" : "Hemiplegia, unspecified affecting left dominant side"
+          },
+          {
+            "code" : "G81.93",
+            "display" : "Hemiplegia, unspecified affecting right nondominant side"
+          },
+          {
+            "code" : "G81.94",
+            "display" : "Hemiplegia, unspecified affecting left nondominant side"
+          },
+          {
+            "code" : "G82.50",
+            "display" : "Quadriplegia, unspecified"
+          },
+          {
+            "code" : "G82.51",
+            "display" : "Quadriplegia, C1-C4 complete"
+          },
+          {
+            "code" : "G82.52",
+            "display" : "Quadriplegia, C1-C4 incomplete"
+          },
+          {
+            "code" : "G82.53",
+            "display" : "Quadriplegia, C5-C7 complete"
+          },
+          {
+            "code" : "G82.54",
+            "display" : "Quadriplegia, C5-C7 incomplete"
+          },
+          {
+            "code" : "H49.00",
+            "display" : "Third [oculomotor] nerve palsy, unspecified eye"
+          },
+          {
+            "code" : "H49.01",
+            "display" : "Third [oculomotor] nerve palsy, right eye"
+          },
+          {
+            "code" : "H49.02",
+            "display" : "Third [oculomotor] nerve palsy, left eye"
+          },
+          {
+            "code" : "H49.03",
+            "display" : "Third [oculomotor] nerve palsy, bilateral"
+          },
+          {
+            "code" : "H49.10",
+            "display" : "Fourth [trochlear] nerve palsy, unspecified eye"
+          },
+          {
+            "code" : "H49.11",
+            "display" : "Fourth [trochlear] nerve palsy, right eye"
+          },
+          {
+            "code" : "H49.12",
+            "display" : "Fourth [trochlear] nerve palsy, left eye"
+          },
+          {
+            "code" : "H49.13",
+            "display" : "Fourth [trochlear] nerve palsy, bilateral"
+          },
+          {
+            "code" : "H51.0",
+            "display" : "Palsy (spasm) of conjugate gaze"
+          },
+          {
+            "code" : "I69.051",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting right dominant side"
+          },
+          {
+            "code" : "I69.052",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting left dominant side"
+          },
+          {
+            "code" : "I69.053",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.054",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.059",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting unspecified side"
+          },
+          {
+            "code" : "I69.151",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting right dominant side"
+          },
+          {
+            "code" : "I69.152",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting left dominant side"
+          },
+          {
+            "code" : "I69.153",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.154",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.159",
+            "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting unspecified side"
+          },
+          {
+            "code" : "I69.251",
+            "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting right dominant side"
+          },
+          {
+            "code" : "I69.252",
+            "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting left dominant side"
+          },
+          {
+            "code" : "I69.253",
+            "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.254",
+            "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.259",
+            "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting unspecified side"
+          },
+          {
+            "code" : "I69.351",
+            "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side"
+          },
+          {
+            "code" : "I69.352",
+            "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting left dominant side"
+          },
+          {
+            "code" : "I69.353",
+            "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.354",
+            "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.359",
+            "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting unspecified side"
+          },
+          {
+            "code" : "I69.851",
+            "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting right dominant side"
+          },
+          {
+            "code" : "I69.852",
+            "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting left dominant side"
+          },
+          {
+            "code" : "I69.853",
+            "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.854",
+            "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.859",
+            "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting unspecified side"
+          },
+          {
+            "code" : "I69.951",
+            "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting right dominant side"
+          },
+          {
+            "code" : "I69.952",
+            "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting left dominant side"
+          },
+          {
+            "code" : "I69.953",
+            "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting right non-dominant side"
+          },
+          {
+            "code" : "I69.954",
+            "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting left non-dominant side"
+          },
+          {
+            "code" : "I69.959",
+            "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting unspecified side"
+          },
+          {
+            "code" : "J38.00",
+            "display" : "Paralysis of vocal cords and larynx, unspecified"
+          },
+          {
+            "code" : "J38.01",
+            "display" : "Paralysis of vocal cords and larynx, unilateral"
+          },
+          {
+            "code" : "J38.02",
+            "display" : "Paralysis of vocal cords and larynx, bilateral"
+          },
+          {
+            "code" : "R29.5",
+            "display" : "Transient paralysis"
+          },
+          {
+            "code" : "R53.2",
+            "display" : "Functional quadriplegia"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3c45fdde-26cf-4ac2-8dc9-0c8f1f78f8ee",
+    "timestamp" : "2025-11-24T13:49:55-05:00",
+    "total" : 74,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G12.22",
+        "display" : "Progressive bulbar palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G51.0",
+        "display" : "Bell's palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G72.3",
+        "display" : "Periodic paralysis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.0",
+        "display" : "Spastic quadriplegic cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.1",
+        "display" : "Spastic diplegic cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.2",
+        "display" : "Spastic hemiplegic cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.3",
+        "display" : "Athetoid cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.4",
+        "display" : "Ataxic cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.8",
+        "display" : "Other cerebral palsy"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G80.9",
+        "display" : "Cerebral palsy, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.00",
+        "display" : "Flaccid hemiplegia affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.01",
+        "display" : "Flaccid hemiplegia affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.02",
+        "display" : "Flaccid hemiplegia affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.03",
+        "display" : "Flaccid hemiplegia affecting right nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.04",
+        "display" : "Flaccid hemiplegia affecting left nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.10",
+        "display" : "Spastic hemiplegia affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.11",
+        "display" : "Spastic hemiplegia affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.12",
+        "display" : "Spastic hemiplegia affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.13",
+        "display" : "Spastic hemiplegia affecting right nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.14",
+        "display" : "Spastic hemiplegia affecting left nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.90",
+        "display" : "Hemiplegia, unspecified affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.91",
+        "display" : "Hemiplegia, unspecified affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.92",
+        "display" : "Hemiplegia, unspecified affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.93",
+        "display" : "Hemiplegia, unspecified affecting right nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G81.94",
+        "display" : "Hemiplegia, unspecified affecting left nondominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G82.50",
+        "display" : "Quadriplegia, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G82.51",
+        "display" : "Quadriplegia, C1-C4 complete"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G82.52",
+        "display" : "Quadriplegia, C1-C4 incomplete"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G82.53",
+        "display" : "Quadriplegia, C5-C7 complete"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "G82.54",
+        "display" : "Quadriplegia, C5-C7 incomplete"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.00",
+        "display" : "Third [oculomotor] nerve palsy, unspecified eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.01",
+        "display" : "Third [oculomotor] nerve palsy, right eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.02",
+        "display" : "Third [oculomotor] nerve palsy, left eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.03",
+        "display" : "Third [oculomotor] nerve palsy, bilateral"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.10",
+        "display" : "Fourth [trochlear] nerve palsy, unspecified eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.11",
+        "display" : "Fourth [trochlear] nerve palsy, right eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.12",
+        "display" : "Fourth [trochlear] nerve palsy, left eye"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H49.13",
+        "display" : "Fourth [trochlear] nerve palsy, bilateral"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "H51.0",
+        "display" : "Palsy (spasm) of conjugate gaze"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.051",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.052",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.053",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.054",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.059",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic subarachnoid hemorrhage affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.151",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.152",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.153",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.154",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.159",
+        "display" : "Hemiplegia and hemiparesis following nontraumatic intracerebral hemorrhage affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.251",
+        "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.252",
+        "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.253",
+        "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.254",
+        "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.259",
+        "display" : "Hemiplegia and hemiparesis following other nontraumatic intracranial hemorrhage affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.351",
+        "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.352",
+        "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.353",
+        "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.354",
+        "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.359",
+        "display" : "Hemiplegia and hemiparesis following cerebral infarction affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.851",
+        "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.852",
+        "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.853",
+        "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.854",
+        "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.859",
+        "display" : "Hemiplegia and hemiparesis following other cerebrovascular disease affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.951",
+        "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting right dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.952",
+        "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting left dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.953",
+        "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting right non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.954",
+        "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting left non-dominant side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "I69.959",
+        "display" : "Hemiplegia and hemiparesis following unspecified cerebrovascular disease affecting unspecified side"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "J38.00",
+        "display" : "Paralysis of vocal cords and larynx, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "J38.01",
+        "display" : "Paralysis of vocal cords and larynx, unilateral"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "J38.02",
+        "display" : "Paralysis of vocal cords and larynx, bilateral"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R29.5",
+        "display" : "Transient paralysis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "R53.2",
+        "display" : "Functional quadriplegia"
+      }
+    ]
+  }
+}

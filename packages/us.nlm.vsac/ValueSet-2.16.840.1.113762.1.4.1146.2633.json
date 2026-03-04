@@ -1,0 +1,303 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2633",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Small_Intestinal_Atresia_Stenosis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2633",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2633"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "SmallIntestinalAtresiaAndStenosisDisordersSNOMED",
+  "title" : "Small Intestinal Atresia and Stenosis (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Small Intestinal Atresia and Stenosis regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Small Intestinal Atresia and Stenosis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "14430002",
+            "display" : "Congenital stenosis of small intestine (disorder)"
+          },
+          {
+            "code" : "16376000",
+            "display" : "Congenital duodenal stenosis (disorder)"
+          },
+          {
+            "code" : "204691002",
+            "display" : "Small intestine atresia and stenosis (disorder)"
+          },
+          {
+            "code" : "204699000",
+            "display" : "Congenital jejunal stenosis (disorder)"
+          },
+          {
+            "code" : "204700004",
+            "display" : "Congenital ileal stenosis (disorder)"
+          },
+          {
+            "code" : "235975009",
+            "display" : "Duodenal papillary stenosis (disorder)"
+          },
+          {
+            "code" : "253764008",
+            "display" : "Congenital absence, atresia and stenosis of small intestine (disorder)"
+          },
+          {
+            "code" : "25896009",
+            "display" : "Congenital atresia of ileum (disorder)"
+          },
+          {
+            "code" : "323451861000119105",
+            "display" : "Stenosis of ileostomy stoma (disorder)"
+          },
+          {
+            "code" : "355468491000132106",
+            "display" : "Stenosis of ileum (disorder)"
+          },
+          {
+            "code" : "360491009",
+            "display" : "Congenital atresia of jejunum (disorder)"
+          },
+          {
+            "code" : "51118003",
+            "display" : "Congenital atresia of duodenum (disorder)"
+          },
+          {
+            "code" : "721649001",
+            "display" : "Atresia of jejunum type IIIb (disorder)"
+          },
+          {
+            "code" : "721650001",
+            "display" : "Atresia of jejunum type IV (disorder)"
+          },
+          {
+            "code" : "73120006",
+            "display" : "Stenosis of duodenum (disorder)"
+          },
+          {
+            "code" : "84296002",
+            "display" : "Congenital atresia of small intestine (disorder)"
+          },
+          {
+            "code" : "890099000",
+            "display" : "Atresia of ileum type I (disorder)"
+          },
+          {
+            "code" : "890101007",
+            "display" : "Atresia of ileum type II (disorder)"
+          },
+          {
+            "code" : "890102000",
+            "display" : "Atresia of ileum type IIIa (disorder)"
+          },
+          {
+            "code" : "890103005",
+            "display" : "Atresia of jejunum type I (disorder)"
+          },
+          {
+            "code" : "890104004",
+            "display" : "Atresia of jejunum type II (disorder)"
+          },
+          {
+            "code" : "890105003",
+            "display" : "Atresia of jejunum type IIIa (disorder)"
+          },
+          {
+            "code" : "903952141000132105",
+            "display" : "Stenosis of jejunum (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e89a537f-15aa-4f2b-96cb-71c876b83aea",
+    "timestamp" : "2025-11-24T13:31:59-05:00",
+    "total" : 23,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14430002",
+        "display" : "Congenital stenosis of small intestine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16376000",
+        "display" : "Congenital duodenal stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204691002",
+        "display" : "Small intestine atresia and stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204699000",
+        "display" : "Congenital jejunal stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204700004",
+        "display" : "Congenital ileal stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235975009",
+        "display" : "Duodenal papillary stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253764008",
+        "display" : "Congenital absence, atresia and stenosis of small intestine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25896009",
+        "display" : "Congenital atresia of ileum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "323451861000119105",
+        "display" : "Stenosis of ileostomy stoma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "355468491000132106",
+        "display" : "Stenosis of ileum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "360491009",
+        "display" : "Congenital atresia of jejunum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51118003",
+        "display" : "Congenital atresia of duodenum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721649001",
+        "display" : "Atresia of jejunum type IIIb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721650001",
+        "display" : "Atresia of jejunum type IV (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "73120006",
+        "display" : "Stenosis of duodenum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84296002",
+        "display" : "Congenital atresia of small intestine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890099000",
+        "display" : "Atresia of ileum type I (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890101007",
+        "display" : "Atresia of ileum type II (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890102000",
+        "display" : "Atresia of ileum type IIIa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890103005",
+        "display" : "Atresia of jejunum type I (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890104004",
+        "display" : "Atresia of jejunum type II (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "890105003",
+        "display" : "Atresia of jejunum type IIIa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "903952141000132105",
+        "display" : "Stenosis of jejunum (disorder)"
+      }
+    ]
+  }
+}

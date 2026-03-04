@@ -1,0 +1,128 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.524",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2024-06-27T01:15:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-27"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-27"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.524",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.524"
+    }
+  ],
+  "version" : "20240627",
+  "name" : "UTI_ClinicalConditionGrouping",
+  "title" : "UTI_Clinical Condition Grouping",
+  "status" : "active",
+  "date" : "2024-06-27T01:15:11-04:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for the Urinary tract infection (UTI) Clinical Condition Grouping",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set's intent is to define the clinical codes that constitute the Urinary tract infection (UTI) Clinical Condition Grouping and utilization in patients/users connected health.),(Data Element Scope: This value set's intent is to define the clinical codes that constitute the Urinary tract infection (UTI) Clinical Condition Grouping and utilization in patients/users connected health.),(Inclusion Criteria: This value set's intent is to define the clinical codes that constitute the Urinary tract infection (UTI) Clinical Condition Grouping and utilization in patients/users connected health.),(Exclusion Criteria: This value set's intent is to define the clinical codes that constitute the Urinary tract infection (UTI) Clinical Condition Grouping and utilization in patients/users connected health.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.521"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.522"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.523"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c2f3cf29-f70d-40be-b610-93dc5d9590f4",
+    "timestamp" : "2025-11-24T15:53:05-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197926005",
+        "display" : "Postoperative urinary tract infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197927001",
+        "display" : "Recurrent urinary tract infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197928006",
+        "display" : "Chronic urinary tract infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "199111004",
+        "display" : "Urinary tract infection following delivery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "307534009",
+        "display" : "Urinary tract infection in pregnancy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422747000",
+        "display" : "Upper urinary tract infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431309003",
+        "display" : "Acute urinary tract infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68566005",
+        "display" : "Urinary tract infectious disease (disorder)"
+      }
+    ]
+  }
+}

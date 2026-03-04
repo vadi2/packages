@@ -1,0 +1,2037 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1338",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2025-09-05T01:02:56.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-05"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1338",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1338"
+    }
+  ],
+  "version" : "20250905",
+  "name" : "OIA_Antilipemics_Oral_Meds",
+  "title" : "OIA_Antilipemics_Oral_Meds",
+  "status" : "active",
+  "date" : "2025-09-05T01:02:56-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set intends to capture codes for the oral antilipemics meds),(Data Element Scope: DRUG_CLASS_MEMBERS: PHARMACOLOGIC:),(Inclusion Criteria: All generics (with different strengths), brands (with different strengths) for oral antilipemic drug class and combinations),(Exclusion Criteria: PCSK9s)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "103918",
+            "display" : "fluvastatin 20 MG Oral Capsule [Lescol]"
+          },
+          {
+            "code" : "103919",
+            "display" : "fluvastatin 40 MG Oral Capsule [Lescol]"
+          },
+          {
+            "code" : "104490",
+            "display" : "simvastatin 10 MG Oral Tablet [Zocor]"
+          },
+          {
+            "code" : "104491",
+            "display" : "simvastatin 20 MG Oral Tablet [Zocor]"
+          },
+          {
+            "code" : "1245416",
+            "display" : "ezetimibe 10 MG / simvastatin 10 MG [Vytorin]"
+          },
+          {
+            "code" : "1245420",
+            "display" : "ezetimibe 10 MG / simvastatin 10 MG Oral Tablet [Vytorin]"
+          },
+          {
+            "code" : "1245426",
+            "display" : "ezetimibe 10 MG / simvastatin 20 MG [Vytorin]"
+          },
+          {
+            "code" : "1245430",
+            "display" : "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet [Vytorin]"
+          },
+          {
+            "code" : "1245437",
+            "display" : "ezetimibe 10 MG / simvastatin 40 MG [Vytorin]"
+          },
+          {
+            "code" : "1245441",
+            "display" : "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet [Vytorin]"
+          },
+          {
+            "code" : "1245445",
+            "display" : "ezetimibe 10 MG / simvastatin 80 MG [Vytorin]"
+          },
+          {
+            "code" : "1245449",
+            "display" : "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet [Vytorin]"
+          },
+          {
+            "code" : "152923",
+            "display" : "simvastatin 40 MG Oral Tablet [Zocor]"
+          },
+          {
+            "code" : "1659153",
+            "display" : "alirocumab 150 MG/ML"
+          },
+          {
+            "code" : "1659156",
+            "display" : "1 ML alirocumab 150 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1659158",
+            "display" : "alirocumab 150 MG/ML [Praluent]"
+          },
+          {
+            "code" : "1659161",
+            "display" : "1 ML alirocumab 150 MG/ML Auto-Injector [Praluent]"
+          },
+          {
+            "code" : "1659165",
+            "display" : "1 ML alirocumab 150 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "1659167",
+            "display" : "1 ML alirocumab 150 MG/ML Prefilled Syringe [Praluent]"
+          },
+          {
+            "code" : "1659176",
+            "display" : "alirocumab 75 MG/ML"
+          },
+          {
+            "code" : "1659177",
+            "display" : "1 ML alirocumab 75 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "1659178",
+            "display" : "alirocumab 75 MG/ML [Praluent]"
+          },
+          {
+            "code" : "1659179",
+            "display" : "1 ML alirocumab 75 MG/ML Prefilled Syringe [Praluent]"
+          },
+          {
+            "code" : "1659182",
+            "display" : "1 ML alirocumab 75 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1659183",
+            "display" : "1 ML alirocumab 75 MG/ML Auto-Injector [Praluent]"
+          },
+          {
+            "code" : "1665892",
+            "display" : "evolocumab 140 MG/ML"
+          },
+          {
+            "code" : "1665895",
+            "display" : "1 ML evolocumab 140 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1665897",
+            "display" : "evolocumab 140 MG/ML [Repatha]"
+          },
+          {
+            "code" : "1665900",
+            "display" : "1 ML evolocumab 140 MG/ML Auto-Injector [Repatha]"
+          },
+          {
+            "code" : "1665904",
+            "display" : "1 ML evolocumab 140 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "1665906",
+            "display" : "1 ML evolocumab 140 MG/ML Prefilled Syringe [Repatha]"
+          },
+          {
+            "code" : "1790676",
+            "display" : "simvastatin 4 MG/ML"
+          },
+          {
+            "code" : "1790679",
+            "display" : "simvastatin 4 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1801317",
+            "display" : "evolocumab 120 MG/ML"
+          },
+          {
+            "code" : "1801319",
+            "display" : "3.5 ML evolocumab 120 MG/ML Cartridge"
+          },
+          {
+            "code" : "1801320",
+            "display" : "evolocumab 120 MG/ML [Repatha]"
+          },
+          {
+            "code" : "1801322",
+            "display" : "3.5 ML evolocumab 120 MG/ML Cartridge [Repatha]"
+          },
+          {
+            "code" : "1944258",
+            "display" : "simvastatin 4 MG/ML [Flolipid]"
+          },
+          {
+            "code" : "1944262",
+            "display" : "simvastatin 4 MG/ML Oral Suspension [Flolipid]"
+          },
+          {
+            "code" : "1944263",
+            "display" : "simvastatin 8 MG/ML"
+          },
+          {
+            "code" : "1944264",
+            "display" : "simvastatin 8 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1944265",
+            "display" : "simvastatin 8 MG/ML [Flolipid]"
+          },
+          {
+            "code" : "1944266",
+            "display" : "simvastatin 8 MG/ML Oral Suspension [Flolipid]"
+          },
+          {
+            "code" : "197903",
+            "display" : "lovastatin 10 MG Oral Tablet"
+          },
+          {
+            "code" : "197904",
+            "display" : "lovastatin 20 MG Oral Tablet"
+          },
+          {
+            "code" : "197905",
+            "display" : "lovastatin 40 MG Oral Tablet"
+          },
+          {
+            "code" : "198211",
+            "display" : "simvastatin 40 MG Oral Tablet"
+          },
+          {
+            "code" : "2001253",
+            "display" : "pitavastatin magnesium 1 MG"
+          },
+          {
+            "code" : "2001254",
+            "display" : "pitavastatin magnesium 1 MG Oral Tablet"
+          },
+          {
+            "code" : "2001256",
+            "display" : "pitavastatin magnesium 1 MG [Zypitamag]"
+          },
+          {
+            "code" : "2001260",
+            "display" : "pitavastatin magnesium 1 MG Oral Tablet [Zypitamag]"
+          },
+          {
+            "code" : "2001261",
+            "display" : "pitavastatin magnesium 2 MG"
+          },
+          {
+            "code" : "2001262",
+            "display" : "pitavastatin magnesium 2 MG Oral Tablet"
+          },
+          {
+            "code" : "2001263",
+            "display" : "pitavastatin magnesium 2 MG [Zypitamag]"
+          },
+          {
+            "code" : "2001264",
+            "display" : "pitavastatin magnesium 2 MG Oral Tablet [Zypitamag]"
+          },
+          {
+            "code" : "2001265",
+            "display" : "pitavastatin magnesium 4 MG"
+          },
+          {
+            "code" : "2001266",
+            "display" : "pitavastatin magnesium 4 MG Oral Tablet"
+          },
+          {
+            "code" : "2001267",
+            "display" : "pitavastatin magnesium 4 MG [Zypitamag]"
+          },
+          {
+            "code" : "2001268",
+            "display" : "pitavastatin magnesium 4 MG Oral Tablet [Zypitamag]"
+          },
+          {
+            "code" : "2001322",
+            "display" : "pitavastatin calcium 1 MG"
+          },
+          {
+            "code" : "2001324",
+            "display" : "pitavastatin calcium 1 MG [Livalo]"
+          },
+          {
+            "code" : "2001331",
+            "display" : "pitavastatin calcium 2 MG"
+          },
+          {
+            "code" : "2001333",
+            "display" : "pitavastatin calcium 2 MG [Livalo]"
+          },
+          {
+            "code" : "2001336",
+            "display" : "pitavastatin calcium 4 MG"
+          },
+          {
+            "code" : "2001338",
+            "display" : "pitavastatin calcium 4 MG [Livalo]"
+          },
+          {
+            "code" : "200345",
+            "display" : "simvastatin 80 MG Oral Tablet"
+          },
+          {
+            "code" : "206257",
+            "display" : "lovastatin 20 MG Oral Tablet [Mevacor]"
+          },
+          {
+            "code" : "206258",
+            "display" : "lovastatin 40 MG Oral Tablet [Mevacor]"
+          },
+          {
+            "code" : "208220",
+            "display" : "simvastatin 5 MG Oral Tablet [Zocor]"
+          },
+          {
+            "code" : "213319",
+            "display" : "simvastatin 80 MG Oral Tablet [Zocor]"
+          },
+          {
+            "code" : "2167555",
+            "display" : "rosuvastatin 10 MG"
+          },
+          {
+            "code" : "2167557",
+            "display" : "rosuvastatin 10 MG Oral Capsule"
+          },
+          {
+            "code" : "2167559",
+            "display" : "rosuvastatin 10 MG [Ezallor]"
+          },
+          {
+            "code" : "2167563",
+            "display" : "rosuvastatin 10 MG Oral Capsule [Ezallor]"
+          },
+          {
+            "code" : "2167564",
+            "display" : "rosuvastatin 20 MG"
+          },
+          {
+            "code" : "2167565",
+            "display" : "rosuvastatin 20 MG Oral Capsule"
+          },
+          {
+            "code" : "2167566",
+            "display" : "rosuvastatin 20 MG [Ezallor]"
+          },
+          {
+            "code" : "2167567",
+            "display" : "rosuvastatin 20 MG Oral Capsule [Ezallor]"
+          },
+          {
+            "code" : "2167568",
+            "display" : "rosuvastatin 40 MG"
+          },
+          {
+            "code" : "2167569",
+            "display" : "rosuvastatin 40 MG Oral Capsule"
+          },
+          {
+            "code" : "2167570",
+            "display" : "rosuvastatin 40 MG [Ezallor]"
+          },
+          {
+            "code" : "2167571",
+            "display" : "rosuvastatin 40 MG Oral Capsule [Ezallor]"
+          },
+          {
+            "code" : "2167572",
+            "display" : "rosuvastatin 5 MG"
+          },
+          {
+            "code" : "2167573",
+            "display" : "rosuvastatin 5 MG Oral Capsule"
+          },
+          {
+            "code" : "2167574",
+            "display" : "rosuvastatin 5 MG [Ezallor]"
+          },
+          {
+            "code" : "2167575",
+            "display" : "rosuvastatin 5 MG Oral Capsule [Ezallor]"
+          },
+          {
+            "code" : "2535745",
+            "display" : "ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet"
+          },
+          {
+            "code" : "2535747",
+            "display" : "ezetimibe 10 MG / rosuvastatin 5 MG Oral Tablet"
+          },
+          {
+            "code" : "2535749",
+            "display" : "ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet"
+          },
+          {
+            "code" : "2535750",
+            "display" : "ezetimibe 10 MG / rosuvastatin 10 MG Oral Tablet"
+          },
+          {
+            "code" : "2536056",
+            "display" : "ezetimibe 10 MG / rosuvastatin 10 MG [Roszet]"
+          },
+          {
+            "code" : "2536060",
+            "display" : "ezetimibe 10 MG / rosuvastatin 10 MG Oral Tablet [Roszet]"
+          },
+          {
+            "code" : "2536061",
+            "display" : "ezetimibe 10 MG / rosuvastatin 20 MG [Roszet]"
+          },
+          {
+            "code" : "2536062",
+            "display" : "ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet [Roszet]"
+          },
+          {
+            "code" : "2536063",
+            "display" : "ezetimibe 10 MG / rosuvastatin 40 MG [Roszet]"
+          },
+          {
+            "code" : "2536064",
+            "display" : "ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet [Roszet]"
+          },
+          {
+            "code" : "2536065",
+            "display" : "ezetimibe 10 MG / rosuvastatin 5 MG [Roszet]"
+          },
+          {
+            "code" : "2536066",
+            "display" : "ezetimibe 10 MG / rosuvastatin 5 MG Oral Tablet [Roszet]"
+          },
+          {
+            "code" : "2588260",
+            "display" : "inclisiran 189 MG/ML"
+          },
+          {
+            "code" : "2588263",
+            "display" : "1.5 ML inclisiran 189 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2588266",
+            "display" : "inclisiran 189 MG/ML [Leqvio]"
+          },
+          {
+            "code" : "2588269",
+            "display" : "1.5 ML inclisiran 189 MG/ML Prefilled Syringe [Leqvio]"
+          },
+          {
+            "code" : "259255",
+            "display" : "atorvastatin 80 MG Oral Tablet"
+          },
+          {
+            "code" : "262095",
+            "display" : "atorvastatin 80 MG Oral Tablet [Lipitor]"
+          },
+          {
+            "code" : "310404",
+            "display" : "fluvastatin 20 MG Oral Capsule"
+          },
+          {
+            "code" : "310405",
+            "display" : "fluvastatin 40 MG Oral Capsule"
+          },
+          {
+            "code" : "312961",
+            "display" : "simvastatin 20 MG Oral Tablet"
+          },
+          {
+            "code" : "312962",
+            "display" : "simvastatin 5 MG Oral Tablet"
+          },
+          {
+            "code" : "314231",
+            "display" : "simvastatin 10 MG Oral Tablet"
+          },
+          {
+            "code" : "316174",
+            "display" : "lovastatin 10 MG"
+          },
+          {
+            "code" : "316175",
+            "display" : "lovastatin 20 MG"
+          },
+          {
+            "code" : "316176",
+            "display" : "lovastatin 40 MG"
+          },
+          {
+            "code" : "316672",
+            "display" : "simvastatin 10 MG"
+          },
+          {
+            "code" : "316673",
+            "display" : "simvastatin 20 MG"
+          },
+          {
+            "code" : "316674",
+            "display" : "simvastatin 40 MG"
+          },
+          {
+            "code" : "316675",
+            "display" : "simvastatin 80 MG"
+          },
+          {
+            "code" : "317497",
+            "display" : "simvastatin 5 MG"
+          },
+          {
+            "code" : "328265",
+            "display" : "fluvastatin 20 MG"
+          },
+          {
+            "code" : "328267",
+            "display" : "fluvastatin 40 MG"
+          },
+          {
+            "code" : "329299",
+            "display" : "atorvastatin 80 MG"
+          },
+          {
+            "code" : "330788",
+            "display" : "fluvastatin 80 MG"
+          },
+          {
+            "code" : "349556",
+            "display" : "ezetimibe 10 MG Oral Tablet"
+          },
+          {
+            "code" : "350671",
+            "display" : "ezetimibe 10 MG"
+          },
+          {
+            "code" : "352304",
+            "display" : "ezetimibe 10 MG Oral Tablet [Zetia]"
+          },
+          {
+            "code" : "353377",
+            "display" : "lovastatin 60 MG"
+          },
+          {
+            "code" : "359731",
+            "display" : "24 HR lovastatin 40 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "359732",
+            "display" : "24 HR lovastatin 60 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "360507",
+            "display" : "24 HR fluvastatin 80 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "433849",
+            "display" : "24 HR lovastatin 20 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "476345",
+            "display" : "ezetimibe 10 MG / simvastatin 10 MG Oral Tablet"
+          },
+          {
+            "code" : "476349",
+            "display" : "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet"
+          },
+          {
+            "code" : "476350",
+            "display" : "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet"
+          },
+          {
+            "code" : "476351",
+            "display" : "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet"
+          },
+          {
+            "code" : "541845",
+            "display" : "lovastatin 20 MG [Altoprev]"
+          },
+          {
+            "code" : "542190",
+            "display" : "lovastatin 40 MG [Altoprev]"
+          },
+          {
+            "code" : "542195",
+            "display" : "lovastatin 60 MG [Altoprev]"
+          },
+          {
+            "code" : "563452",
+            "display" : "fluvastatin 20 MG [Lescol]"
+          },
+          {
+            "code" : "563453",
+            "display" : "fluvastatin 40 MG [Lescol]"
+          },
+          {
+            "code" : "563653",
+            "display" : "simvastatin 10 MG [Zocor]"
+          },
+          {
+            "code" : "563654",
+            "display" : "simvastatin 20 MG [Zocor]"
+          },
+          {
+            "code" : "565109",
+            "display" : "simvastatin 40 MG [Zocor]"
+          },
+          {
+            "code" : "567115",
+            "display" : "lovastatin 20 MG [Mevacor]"
+          },
+          {
+            "code" : "567116",
+            "display" : "lovastatin 40 MG [Mevacor]"
+          },
+          {
+            "code" : "568935",
+            "display" : "simvastatin 5 MG [Zocor]"
+          },
+          {
+            "code" : "573220",
+            "display" : "simvastatin 80 MG [Zocor]"
+          },
+          {
+            "code" : "574676",
+            "display" : "atorvastatin 80 MG [Lipitor]"
+          },
+          {
+            "code" : "576000",
+            "display" : "ezetimibe 10 MG [Zetia]"
+          },
+          {
+            "code" : "597966",
+            "display" : "atorvastatin 20 MG"
+          },
+          {
+            "code" : "597970",
+            "display" : "atorvastatin 10 MG"
+          },
+          {
+            "code" : "597983",
+            "display" : "atorvastatin 40 MG"
+          },
+          {
+            "code" : "617310",
+            "display" : "atorvastatin 20 MG Oral Tablet"
+          },
+          {
+            "code" : "617311",
+            "display" : "atorvastatin 40 MG Oral Tablet"
+          },
+          {
+            "code" : "617312",
+            "display" : "atorvastatin 10 MG Oral Tablet"
+          },
+          {
+            "code" : "617313",
+            "display" : "atorvastatin 10 MG [Lipitor]"
+          },
+          {
+            "code" : "617314",
+            "display" : "atorvastatin 10 MG Oral Tablet [Lipitor]"
+          },
+          {
+            "code" : "617317",
+            "display" : "atorvastatin 20 MG [Lipitor]"
+          },
+          {
+            "code" : "617318",
+            "display" : "atorvastatin 20 MG Oral Tablet [Lipitor]"
+          },
+          {
+            "code" : "617319",
+            "display" : "atorvastatin 40 MG [Lipitor]"
+          },
+          {
+            "code" : "617320",
+            "display" : "atorvastatin 40 MG Oral Tablet [Lipitor]"
+          },
+          {
+            "code" : "687046",
+            "display" : "fluvastatin 80 MG [Lescol]"
+          },
+          {
+            "code" : "687048",
+            "display" : "24 HR fluvastatin 80 MG Extended Release Oral Tablet [Lescol]"
+          },
+          {
+            "code" : "757702",
+            "display" : "simvastatin 10 MG Disintegrating Oral Tablet"
+          },
+          {
+            "code" : "757703",
+            "display" : "simvastatin 20 MG Disintegrating Oral Tablet"
+          },
+          {
+            "code" : "757704",
+            "display" : "simvastatin 40 MG Disintegrating Oral Tablet"
+          },
+          {
+            "code" : "757705",
+            "display" : "simvastatin 80 MG Disintegrating Oral Tablet"
+          },
+          {
+            "code" : "859418",
+            "display" : "rosuvastatin calcium 40 MG"
+          },
+          {
+            "code" : "859419",
+            "display" : "rosuvastatin calcium 40 MG Oral Tablet"
+          },
+          {
+            "code" : "859420",
+            "display" : "rosuvastatin calcium 40 MG [Crestor]"
+          },
+          {
+            "code" : "859421",
+            "display" : "rosuvastatin calcium 40 MG Oral Tablet [Crestor]"
+          },
+          {
+            "code" : "859423",
+            "display" : "rosuvastatin calcium 5 MG"
+          },
+          {
+            "code" : "859424",
+            "display" : "rosuvastatin calcium 5 MG Oral Tablet"
+          },
+          {
+            "code" : "859425",
+            "display" : "rosuvastatin calcium 5 MG [Crestor]"
+          },
+          {
+            "code" : "859426",
+            "display" : "rosuvastatin calcium 5 MG Oral Tablet [Crestor]"
+          },
+          {
+            "code" : "859746",
+            "display" : "rosuvastatin calcium 10 MG"
+          },
+          {
+            "code" : "859747",
+            "display" : "rosuvastatin calcium 10 MG Oral Tablet"
+          },
+          {
+            "code" : "859748",
+            "display" : "rosuvastatin calcium 10 MG [Crestor]"
+          },
+          {
+            "code" : "859749",
+            "display" : "rosuvastatin calcium 10 MG Oral Tablet [Crestor]"
+          },
+          {
+            "code" : "859750",
+            "display" : "rosuvastatin calcium 20 MG"
+          },
+          {
+            "code" : "859751",
+            "display" : "rosuvastatin calcium 20 MG Oral Tablet"
+          },
+          {
+            "code" : "859752",
+            "display" : "rosuvastatin calcium 20 MG [Crestor]"
+          },
+          {
+            "code" : "859753",
+            "display" : "rosuvastatin calcium 20 MG Oral Tablet [Crestor]"
+          },
+          {
+            "code" : "861643",
+            "display" : "pitavastatin calcium 1 MG Oral Tablet"
+          },
+          {
+            "code" : "861646",
+            "display" : "pitavastatin calcium 1 MG Oral Tablet [Livalo]"
+          },
+          {
+            "code" : "861648",
+            "display" : "pitavastatin calcium 2 MG Oral Tablet"
+          },
+          {
+            "code" : "861650",
+            "display" : "pitavastatin calcium 2 MG Oral Tablet [Livalo]"
+          },
+          {
+            "code" : "861652",
+            "display" : "pitavastatin calcium 4 MG Oral Tablet"
+          },
+          {
+            "code" : "861654",
+            "display" : "pitavastatin calcium 4 MG Oral Tablet [Livalo]"
+          },
+          {
+            "code" : "884383",
+            "display" : "24 HR lovastatin 60 MG Extended Release Oral Tablet [Altoprev]"
+          },
+          {
+            "code" : "904457",
+            "display" : "pravastatin sodium 10 MG"
+          },
+          {
+            "code" : "904458",
+            "display" : "pravastatin sodium 10 MG Oral Tablet"
+          },
+          {
+            "code" : "904466",
+            "display" : "pravastatin sodium 20 MG"
+          },
+          {
+            "code" : "904467",
+            "display" : "pravastatin sodium 20 MG Oral Tablet"
+          },
+          {
+            "code" : "904468",
+            "display" : "pravastatin sodium 20 MG [Pravachol]"
+          },
+          {
+            "code" : "904469",
+            "display" : "pravastatin sodium 20 MG Oral Tablet [Pravachol]"
+          },
+          {
+            "code" : "904474",
+            "display" : "pravastatin sodium 40 MG"
+          },
+          {
+            "code" : "904475",
+            "display" : "pravastatin sodium 40 MG Oral Tablet"
+          },
+          {
+            "code" : "904476",
+            "display" : "pravastatin sodium 40 MG [Pravachol]"
+          },
+          {
+            "code" : "904477",
+            "display" : "pravastatin sodium 40 MG Oral Tablet [Pravachol]"
+          },
+          {
+            "code" : "904480",
+            "display" : "pravastatin sodium 80 MG"
+          },
+          {
+            "code" : "904481",
+            "display" : "pravastatin sodium 80 MG Oral Tablet"
+          },
+          {
+            "code" : "904482",
+            "display" : "pravastatin sodium 80 MG [Pravachol]"
+          },
+          {
+            "code" : "904483",
+            "display" : "pravastatin sodium 80 MG Oral Tablet [Pravachol]"
+          },
+          {
+            "code" : "997006",
+            "display" : "24 HR lovastatin 20 MG Extended Release Oral Tablet [Altoprev]"
+          },
+          {
+            "code" : "997007",
+            "display" : "24 HR lovastatin 40 MG Extended Release Oral Tablet [Altoprev]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:42cf93d8-dc89-4c8b-bc7f-e16ee6d241a0",
+    "timestamp" : "2025-11-24T11:43:58-05:00",
+    "total" : 192,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "103919",
+        "display" : "fluvastatin 40 MG Oral Capsule [Lescol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "104490",
+        "display" : "simvastatin 10 MG Oral Tablet [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "104491",
+        "display" : "simvastatin 20 MG Oral Tablet [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245416",
+        "display" : "ezetimibe 10 MG / simvastatin 10 MG [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245420",
+        "display" : "ezetimibe 10 MG / simvastatin 10 MG Oral Tablet [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245426",
+        "display" : "ezetimibe 10 MG / simvastatin 20 MG [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245430",
+        "display" : "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245437",
+        "display" : "ezetimibe 10 MG / simvastatin 40 MG [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245441",
+        "display" : "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245445",
+        "display" : "ezetimibe 10 MG / simvastatin 80 MG [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1245449",
+        "display" : "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet [Vytorin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "152923",
+        "display" : "simvastatin 40 MG Oral Tablet [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659153",
+        "display" : "alirocumab 150 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659156",
+        "display" : "1 ML alirocumab 150 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659158",
+        "display" : "alirocumab 150 MG/ML [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659161",
+        "display" : "1 ML alirocumab 150 MG/ML Auto-Injector [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659165",
+        "display" : "1 ML alirocumab 150 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659167",
+        "display" : "1 ML alirocumab 150 MG/ML Prefilled Syringe [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659176",
+        "display" : "alirocumab 75 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659177",
+        "display" : "1 ML alirocumab 75 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659178",
+        "display" : "alirocumab 75 MG/ML [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659179",
+        "display" : "1 ML alirocumab 75 MG/ML Prefilled Syringe [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659182",
+        "display" : "1 ML alirocumab 75 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659183",
+        "display" : "1 ML alirocumab 75 MG/ML Auto-Injector [Praluent]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665892",
+        "display" : "evolocumab 140 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665895",
+        "display" : "1 ML evolocumab 140 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665897",
+        "display" : "evolocumab 140 MG/ML [Repatha]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665900",
+        "display" : "1 ML evolocumab 140 MG/ML Auto-Injector [Repatha]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665904",
+        "display" : "1 ML evolocumab 140 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665906",
+        "display" : "1 ML evolocumab 140 MG/ML Prefilled Syringe [Repatha]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1790676",
+        "display" : "simvastatin 4 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1790679",
+        "display" : "simvastatin 4 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1801317",
+        "display" : "evolocumab 120 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1801319",
+        "display" : "3.5 ML evolocumab 120 MG/ML Cartridge"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1801320",
+        "display" : "evolocumab 120 MG/ML [Repatha]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1801322",
+        "display" : "3.5 ML evolocumab 120 MG/ML Cartridge [Repatha]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944258",
+        "display" : "simvastatin 4 MG/ML [Flolipid]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944262",
+        "display" : "simvastatin 4 MG/ML Oral Suspension [Flolipid]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944263",
+        "display" : "simvastatin 8 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944264",
+        "display" : "simvastatin 8 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944265",
+        "display" : "simvastatin 8 MG/ML [Flolipid]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944266",
+        "display" : "simvastatin 8 MG/ML Oral Suspension [Flolipid]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197903",
+        "display" : "lovastatin 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197904",
+        "display" : "lovastatin 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197905",
+        "display" : "lovastatin 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198211",
+        "display" : "simvastatin 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001261",
+        "display" : "pitavastatin magnesium 2 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001262",
+        "display" : "pitavastatin magnesium 2 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001263",
+        "display" : "pitavastatin magnesium 2 MG [Zypitamag]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001264",
+        "display" : "pitavastatin magnesium 2 MG Oral Tablet [Zypitamag]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001265",
+        "display" : "pitavastatin magnesium 4 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001266",
+        "display" : "pitavastatin magnesium 4 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001267",
+        "display" : "pitavastatin magnesium 4 MG [Zypitamag]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001268",
+        "display" : "pitavastatin magnesium 4 MG Oral Tablet [Zypitamag]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001322",
+        "display" : "pitavastatin calcium 1 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001324",
+        "display" : "pitavastatin calcium 1 MG [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001331",
+        "display" : "pitavastatin calcium 2 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001333",
+        "display" : "pitavastatin calcium 2 MG [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001336",
+        "display" : "pitavastatin calcium 4 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2001338",
+        "display" : "pitavastatin calcium 4 MG [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "200345",
+        "display" : "simvastatin 80 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "208220",
+        "display" : "simvastatin 5 MG Oral Tablet [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213319",
+        "display" : "simvastatin 80 MG Oral Tablet [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167555",
+        "display" : "rosuvastatin 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167557",
+        "display" : "rosuvastatin 10 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167559",
+        "display" : "rosuvastatin 10 MG [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167563",
+        "display" : "rosuvastatin 10 MG Oral Capsule [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167564",
+        "display" : "rosuvastatin 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167565",
+        "display" : "rosuvastatin 20 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167566",
+        "display" : "rosuvastatin 20 MG [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167567",
+        "display" : "rosuvastatin 20 MG Oral Capsule [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167568",
+        "display" : "rosuvastatin 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167569",
+        "display" : "rosuvastatin 40 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167570",
+        "display" : "rosuvastatin 40 MG [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167571",
+        "display" : "rosuvastatin 40 MG Oral Capsule [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167572",
+        "display" : "rosuvastatin 5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167573",
+        "display" : "rosuvastatin 5 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167574",
+        "display" : "rosuvastatin 5 MG [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2167575",
+        "display" : "rosuvastatin 5 MG Oral Capsule [Ezallor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2535745",
+        "display" : "ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2535747",
+        "display" : "ezetimibe 10 MG / rosuvastatin 5 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2535749",
+        "display" : "ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2535750",
+        "display" : "ezetimibe 10 MG / rosuvastatin 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536056",
+        "display" : "ezetimibe 10 MG / rosuvastatin 10 MG [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536060",
+        "display" : "ezetimibe 10 MG / rosuvastatin 10 MG Oral Tablet [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536061",
+        "display" : "ezetimibe 10 MG / rosuvastatin 20 MG [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536062",
+        "display" : "ezetimibe 10 MG / rosuvastatin 20 MG Oral Tablet [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536063",
+        "display" : "ezetimibe 10 MG / rosuvastatin 40 MG [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536064",
+        "display" : "ezetimibe 10 MG / rosuvastatin 40 MG Oral Tablet [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536065",
+        "display" : "ezetimibe 10 MG / rosuvastatin 5 MG [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2536066",
+        "display" : "ezetimibe 10 MG / rosuvastatin 5 MG Oral Tablet [Roszet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2588260",
+        "display" : "inclisiran 189 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2588263",
+        "display" : "1.5 ML inclisiran 189 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2588266",
+        "display" : "inclisiran 189 MG/ML [Leqvio]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2588269",
+        "display" : "1.5 ML inclisiran 189 MG/ML Prefilled Syringe [Leqvio]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "259255",
+        "display" : "atorvastatin 80 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "262095",
+        "display" : "atorvastatin 80 MG Oral Tablet [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "310404",
+        "display" : "fluvastatin 20 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "310405",
+        "display" : "fluvastatin 40 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312961",
+        "display" : "simvastatin 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312962",
+        "display" : "simvastatin 5 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314231",
+        "display" : "simvastatin 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316174",
+        "display" : "lovastatin 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316175",
+        "display" : "lovastatin 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316176",
+        "display" : "lovastatin 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316672",
+        "display" : "simvastatin 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316673",
+        "display" : "simvastatin 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316674",
+        "display" : "simvastatin 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "316675",
+        "display" : "simvastatin 80 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317497",
+        "display" : "simvastatin 5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328265",
+        "display" : "fluvastatin 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "328267",
+        "display" : "fluvastatin 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "329299",
+        "display" : "atorvastatin 80 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330788",
+        "display" : "fluvastatin 80 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "349556",
+        "display" : "ezetimibe 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "350671",
+        "display" : "ezetimibe 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "352304",
+        "display" : "ezetimibe 10 MG Oral Tablet [Zetia]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "353377",
+        "display" : "lovastatin 60 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "359731",
+        "display" : "24 HR lovastatin 40 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "359732",
+        "display" : "24 HR lovastatin 60 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360507",
+        "display" : "24 HR fluvastatin 80 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "433849",
+        "display" : "24 HR lovastatin 20 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476345",
+        "display" : "ezetimibe 10 MG / simvastatin 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476349",
+        "display" : "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476350",
+        "display" : "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "476351",
+        "display" : "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "541845",
+        "display" : "lovastatin 20 MG [Altoprev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "542190",
+        "display" : "lovastatin 40 MG [Altoprev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "542195",
+        "display" : "lovastatin 60 MG [Altoprev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563453",
+        "display" : "fluvastatin 40 MG [Lescol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563653",
+        "display" : "simvastatin 10 MG [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "563654",
+        "display" : "simvastatin 20 MG [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "565109",
+        "display" : "simvastatin 40 MG [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "568935",
+        "display" : "simvastatin 5 MG [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573220",
+        "display" : "simvastatin 80 MG [Zocor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574676",
+        "display" : "atorvastatin 80 MG [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "576000",
+        "display" : "ezetimibe 10 MG [Zetia]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597966",
+        "display" : "atorvastatin 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597970",
+        "display" : "atorvastatin 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597983",
+        "display" : "atorvastatin 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617310",
+        "display" : "atorvastatin 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617311",
+        "display" : "atorvastatin 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617312",
+        "display" : "atorvastatin 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617313",
+        "display" : "atorvastatin 10 MG [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617314",
+        "display" : "atorvastatin 10 MG Oral Tablet [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617317",
+        "display" : "atorvastatin 20 MG [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617318",
+        "display" : "atorvastatin 20 MG Oral Tablet [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617319",
+        "display" : "atorvastatin 40 MG [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "617320",
+        "display" : "atorvastatin 40 MG Oral Tablet [Lipitor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687046",
+        "display" : "fluvastatin 80 MG [Lescol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "687048",
+        "display" : "24 HR fluvastatin 80 MG Extended Release Oral Tablet [Lescol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757702",
+        "display" : "simvastatin 10 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757703",
+        "display" : "simvastatin 20 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757704",
+        "display" : "simvastatin 40 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757705",
+        "display" : "simvastatin 80 MG Disintegrating Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859418",
+        "display" : "rosuvastatin calcium 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859419",
+        "display" : "rosuvastatin calcium 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859420",
+        "display" : "rosuvastatin calcium 40 MG [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859421",
+        "display" : "rosuvastatin calcium 40 MG Oral Tablet [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859423",
+        "display" : "rosuvastatin calcium 5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859424",
+        "display" : "rosuvastatin calcium 5 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859425",
+        "display" : "rosuvastatin calcium 5 MG [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859426",
+        "display" : "rosuvastatin calcium 5 MG Oral Tablet [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859746",
+        "display" : "rosuvastatin calcium 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859747",
+        "display" : "rosuvastatin calcium 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859748",
+        "display" : "rosuvastatin calcium 10 MG [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859749",
+        "display" : "rosuvastatin calcium 10 MG Oral Tablet [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859750",
+        "display" : "rosuvastatin calcium 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859751",
+        "display" : "rosuvastatin calcium 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859752",
+        "display" : "rosuvastatin calcium 20 MG [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859753",
+        "display" : "rosuvastatin calcium 20 MG Oral Tablet [Crestor]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861643",
+        "display" : "pitavastatin calcium 1 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861646",
+        "display" : "pitavastatin calcium 1 MG Oral Tablet [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861648",
+        "display" : "pitavastatin calcium 2 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861650",
+        "display" : "pitavastatin calcium 2 MG Oral Tablet [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861652",
+        "display" : "pitavastatin calcium 4 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861654",
+        "display" : "pitavastatin calcium 4 MG Oral Tablet [Livalo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "884383",
+        "display" : "24 HR lovastatin 60 MG Extended Release Oral Tablet [Altoprev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904457",
+        "display" : "pravastatin sodium 10 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904458",
+        "display" : "pravastatin sodium 10 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904466",
+        "display" : "pravastatin sodium 20 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904467",
+        "display" : "pravastatin sodium 20 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904468",
+        "display" : "pravastatin sodium 20 MG [Pravachol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904469",
+        "display" : "pravastatin sodium 20 MG Oral Tablet [Pravachol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904474",
+        "display" : "pravastatin sodium 40 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904475",
+        "display" : "pravastatin sodium 40 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904476",
+        "display" : "pravastatin sodium 40 MG [Pravachol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904477",
+        "display" : "pravastatin sodium 40 MG Oral Tablet [Pravachol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904480",
+        "display" : "pravastatin sodium 80 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "904481",
+        "display" : "pravastatin sodium 80 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "997006",
+        "display" : "24 HR lovastatin 20 MG Extended Release Oral Tablet [Altoprev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "997007",
+        "display" : "24 HR lovastatin 40 MG Extended Release Oral Tablet [Altoprev]"
+      }
+    ]
+  }
+}

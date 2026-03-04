@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1219.27",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CMS DRLS Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-03-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2022-03-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1219.27",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1219.27"
+    }
+  ],
+  "version" : "20220315",
+  "name" : "PortableLiquidOxygenTherapyDevice",
+  "title" : "Portable Liquid Oxygen Therapy Device",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2022-03-15T01:04:14-04:00",
+  "publisher" : "CMS DRLS Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Liquid oxygen therapy devices for home use home that are designed to allow a change in location while operating.),(Data Element Scope: Portable liquid oxygen therapy devices accepted by the US Centers for Medicare and Medicaid as valid for home use.),(Inclusion Criteria: Liquid oxygen therapy devices for home use home that are designed to allow a change in location while operating.),(Exclusion Criteria: Liquid oxygen therapy devices for use in the home that are designed to remain in one place while operating.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "E0433",
+            "display" : "Portable liquid oxygen system, rental; home liquefier used to fill portable liquid oxygen containers, includes portable containers, regulator, flowmeter, humidifier, cannula or mask and tubing, with or without supply reservoir and contents gauge"
+          },
+          {
+            "code" : "E0434",
+            "display" : "Portable liquid oxygen system, rental; includes portable container, supply reservoir, humidifier, flowmeter, refill adaptor, contents gauge, cannula or mask, and tubing"
+          },
+          {
+            "code" : "E0444",
+            "display" : "Portable oxygen contents, liquid, 1 month's supply = 1 unit"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:4c988727-0af4-4925-9539-2ef88d9ca0a3",
+    "timestamp" : "2025-11-24T14:59:25-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0433",
+        "display" : "Portable liquid oxygen system, rental; home liquefier used to fill portable liquid oxygen containers, includes portable containers, regulator, flowmeter, humidifier, cannula or mask and tubing, with or without supply reservoir and contents gauge"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0434",
+        "display" : "Portable liquid oxygen system, rental; includes portable container, supply reservoir, humidifier, flowmeter, refill adaptor, contents gauge, cannula or mask, and tubing"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "E0444",
+        "display" : "Portable oxygen contents, liquid, 1 month's supply = 1 unit"
+      }
+    ]
+  }
+}

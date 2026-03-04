@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.11.20.9.25",
+  "meta" : {
+    "versionId" : "19",
+    "lastUpdated" : "2025-08-05T20:14:02.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-11-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-07"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.25",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.11.20.9.25"
+    }
+  ],
+  "version" : "20240607",
+  "name" : "PlannedMoodCodeObservation",
+  "title" : "Planned moodCode (Observation)",
+  "status" : "active",
+  "date" : "2024-06-07T01:23:26-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Mood values appropriate to planned observations),(Data Element Scope: Mood values appropriate to planned observations),(Inclusion Criteria: Mood Codes as selected),(Exclusion Criteria: NA)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "concept" : [
+          {
+            "code" : "GOL",
+            "display" : "Goal"
+          },
+          {
+            "code" : "INT",
+            "display" : "intent"
+          },
+          {
+            "code" : "PRMS",
+            "display" : "promise"
+          },
+          {
+            "code" : "PRP",
+            "display" : "proposal"
+          },
+          {
+            "code" : "RQO",
+            "display" : "request"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a80c27e8-f98b-42fc-bab4-ffb5b529a4da",
+    "timestamp" : "2025-11-24T17:08:37-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "version" : "3.0.0",
+        "code" : "GOL",
+        "display" : "Goal"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "version" : "3.0.0",
+        "code" : "INT",
+        "display" : "intent"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "version" : "3.0.0",
+        "code" : "PRMS",
+        "display" : "promise"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "version" : "3.0.0",
+        "code" : "PRP",
+        "display" : "proposal"
+      },
+      {
+        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+        "version" : "3.0.0",
+        "code" : "RQO",
+        "display" : "request"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.913",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-09-17T12:20:52.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.913",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.913"
+    }
+  ],
+  "version" : "20240621",
+  "name" : "PancreasMRI",
+  "title" : "Pancreas MRI",
+  "status" : "active",
+  "date" : "2024-09-17T12:20:52-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: These terms may be used when reporting a result associated with Pancreas MRI or may be used to represent the procedure.),(Data Element Scope: The intent of this set of values is to identify Pancreas MRI performed or resulted on a patient or identify patients who have had Pancreas MRI performed or resulted.),(Inclusion Criteria: Includes LOINC codes specific to the Pancreas MRI tests.),(Exclusion Criteria: Excludes Pancreas codes that are precoordinated with body sites other than Biliary Ducts.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "in",
+            "value" : "44125-3,69199-8,36385-3,36944-7,44123-8,36515-5,36236-8,37220-1,36052-9"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:306b335b-9b60-44d2-b6ac-8f0b0f9fc3d7",
+    "timestamp" : "2025-11-24T15:33:54-05:00",
+    "total" : 9,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36052-9",
+        "display" : "MR Pancreas"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36236-8",
+        "display" : "MR Pancreas W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36385-3",
+        "display" : "MR Pancreas WO and W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36515-5",
+        "display" : "MR Pancreas WO contrast"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36944-7",
+        "display" : "MR Biliary ducts and Pancreatic duct WO and W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "37220-1",
+        "display" : "MR Biliary ducts and Pancreatic duct"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "44123-8",
+        "display" : "MR Biliary ducts and Pancreatic duct WO contrast"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "44125-3",
+        "display" : "MR Biliary ducts and Pancreatic duct W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "69199-8",
+        "display" : "MR Guidance for biopsy of Pancreas"
+      }
+    ]
+  }
+}

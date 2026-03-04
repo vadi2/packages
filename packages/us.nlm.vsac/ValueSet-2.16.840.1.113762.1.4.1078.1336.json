@@ -1,0 +1,1725 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1336",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2025-09-04T01:02:46.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-04"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-04"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1336",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1336"
+    }
+  ],
+  "version" : "20250904",
+  "name" : "OIA_Migraine_Meds_PRN",
+  "title" : "OIA_Migraine_Meds_PRN",
+  "status" : "active",
+  "date" : "2025-09-04T01:02:46-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: PRN Abortive and Preventive Migraine Medications as single or combination drugs in varying strengths),(Data Element Scope: DRUG_CLASS_MEMBERS: PHARMACOLOGIC),(Inclusion Criteria: PRN medications only),(Exclusion Criteria: Oral medications)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1042675",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1042684",
+            "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1042695",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1043400",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1043478",
+            "display" : "diclofenac sodium 10 MG/ML"
+          },
+          {
+            "code" : "1044427",
+            "display" : "acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1046384",
+            "display" : "acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1049580",
+            "display" : "acetaminophen 65 MG/ML / oxycodone hydrochloride 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1050385",
+            "display" : "acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1086750",
+            "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1092373",
+            "display" : "acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1092375",
+            "display" : "acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution [Tylenol PM]"
+          },
+          {
+            "code" : "1094131",
+            "display" : "acetaminophen 65 MG/ML / dextromethorphan hydrobromide 2 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1113397",
+            "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1113522",
+            "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1113705",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1116568",
+            "display" : "acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1116572",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1189316",
+            "display" : "acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+          },
+          {
+            "code" : "1237110",
+            "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1291951",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1292342",
+            "display" : "acetaminophen 43.3 MG/ML / chlorpheniramine maleate 0.267 MG/ML / dextromethorphan hydrobromide 2 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1298348",
+            "display" : "acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1357553",
+            "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1359455",
+            "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1367384",
+            "display" : "acetaminophen 32 MG/ML / pheniramine maleate 0.8 MG/ML / phenylephrine hydrochloride 0.8 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1369842",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1370113",
+            "display" : "acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1370285",
+            "display" : "acetaminophen 16.7 MG/ML / caffeine 1.08 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1372312",
+            "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1375932",
+            "display" : "acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1431245",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1442445",
+            "display" : "acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution [Lortab]"
+          },
+          {
+            "code" : "1483676",
+            "display" : "zolmitriptan 2.5 MG/ACTUAT"
+          },
+          {
+            "code" : "1483677",
+            "display" : "zolmitriptan 2.5 MG/ACTUAT Nasal Spray"
+          },
+          {
+            "code" : "1483678",
+            "display" : "zolmitriptan 2.5 MG/ACTUAT [Zomig]"
+          },
+          {
+            "code" : "1483679",
+            "display" : "zolmitriptan 2.5 MG/ACTUAT Nasal Spray [Zomig]"
+          },
+          {
+            "code" : "1487074",
+            "display" : "diclofenac sodium 20 MG/ML Topical Solution"
+          },
+          {
+            "code" : "1487076",
+            "display" : "diclofenac sodium 20 MG/ML Topical Solution [Pennsaid]"
+          },
+          {
+            "code" : "1494766",
+            "display" : "Sprinkle 24 HR topiramate 100 MG Extended Release Oral Capsule [Qudexy]"
+          },
+          {
+            "code" : "1494769",
+            "display" : "Sprinkle 24 HR topiramate 150 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1494771",
+            "display" : "Sprinkle 24 HR topiramate 150 MG Extended Release Oral Capsule [Qudexy]"
+          },
+          {
+            "code" : "1494775",
+            "display" : "Sprinkle 24 HR topiramate 200 MG Extended Release Oral Capsule [Qudexy]"
+          },
+          {
+            "code" : "1494778",
+            "display" : "Sprinkle 24 HR topiramate 25 MG Extended Release Oral Capsule [Qudexy]"
+          },
+          {
+            "code" : "1494781",
+            "display" : "Sprinkle 24 HR topiramate 50 MG Extended Release Oral Capsule [Qudexy]"
+          },
+          {
+            "code" : "1495058",
+            "display" : "propranolol hydrochloride 4.28 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1495064",
+            "display" : "propranolol hydrochloride 4.28 MG/ML Oral Solution [Hemangeol]"
+          },
+          {
+            "code" : "1534835",
+            "display" : "acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "1550968",
+            "display" : "acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "1593450",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1593765",
+            "display" : "acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1593771",
+            "display" : "acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution [Ninjacof A]"
+          },
+          {
+            "code" : "1600382",
+            "display" : "diclofenac sodium 10 MG/ML / fluorouracil 50 MG/ML Topical Cream"
+          },
+          {
+            "code" : "1648584",
+            "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vanatol]"
+          },
+          {
+            "code" : "1657151",
+            "display" : "0.5 ML sumatriptan 12 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1657160",
+            "display" : "0.5 ML sumatriptan 12 MG/ML Cartridge"
+          },
+          {
+            "code" : "1657173",
+            "display" : "0.5 ML sumatriptan 8 MG/ML Cartridge"
+          },
+          {
+            "code" : "1659175",
+            "display" : "acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "1659960",
+            "display" : "acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+          },
+          {
+            "code" : "1659964",
+            "display" : "acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "1659967",
+            "display" : "acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+          },
+          {
+            "code" : "1661683",
+            "display" : "acetaminophen 16.7 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1738576",
+            "display" : "0.5 ML sumatriptan 6 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1738581",
+            "display" : "0.5 ML sumatriptan 6 MG/ML Auto-Injector [Zembrace]"
+          },
+          {
+            "code" : "1739332",
+            "display" : "sumatriptan 11 MG Nasal Powder"
+          },
+          {
+            "code" : "1739337",
+            "display" : "sumatriptan 11 MG Nasal Powder [Onzetra]"
+          },
+          {
+            "code" : "1793916",
+            "display" : "0.5 ML sumatriptan 8 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "1796460",
+            "display" : "acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "1796708",
+            "display" : "acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "1804384",
+            "display" : "{1 (acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) / 1 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) } Pack"
+          },
+          {
+            "code" : "1812419",
+            "display" : "Sprinkle 24 HR topiramate 200 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1812421",
+            "display" : "Sprinkle 24 HR topiramate 25 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1812425",
+            "display" : "Sprinkle 24 HR topiramate 50 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1812427",
+            "display" : "Sprinkle 24 HR topiramate 100 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1919076",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "197803",
+            "display" : "ibuprofen 20 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1996081",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "204442",
+            "display" : "ibuprofen 40 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "2045627",
+            "display" : "1 ML erenumab-aooe 70 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2045632",
+            "display" : "1 ML erenumab-aooe 70 MG/ML Prefilled Syringe [Aimovig]"
+          },
+          {
+            "code" : "2045636",
+            "display" : "1 ML erenumab-aooe 70 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "2045638",
+            "display" : "1 ML erenumab-aooe 70 MG/ML Auto-Injector [Aimovig]"
+          },
+          {
+            "code" : "2056669",
+            "display" : "{2 (1 ML erenumab-aooe 70 MG/ML Auto-Injector) } Pack"
+          },
+          {
+            "code" : "2056670",
+            "display" : "{2 (1 ML erenumab-aooe 70 MG/ML Auto-Injector [Aimovig]) } Pack [Aimovig Autoinjector (140 MG Dose)]"
+          },
+          {
+            "code" : "2056695",
+            "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2056700",
+            "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Prefilled Syringe [Ajovy]"
+          },
+          {
+            "code" : "2058872",
+            "display" : "1 ML galcanezumab-gnlm 120 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "2058877",
+            "display" : "1 ML galcanezumab-gnlm 120 MG/ML Auto-Injector [Emgality]"
+          },
+          {
+            "code" : "2058885",
+            "display" : "1 ML galcanezumab-gnlm 120 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2058887",
+            "display" : "1 ML galcanezumab-gnlm 120 MG/ML Prefilled Syringe [Emgality]"
+          },
+          {
+            "code" : "206878",
+            "display" : "ibuprofen 20 MG/ML Oral Suspension [Advil]"
+          },
+          {
+            "code" : "207093",
+            "display" : "naproxen 25 MG/ML Oral Suspension [Naprosyn]"
+          },
+          {
+            "code" : "209397",
+            "display" : "acetaminophen 32 MG/ML Oral Solution [Mapap]"
+          },
+          {
+            "code" : "209417",
+            "display" : "acetaminophen 33.3 MG/ML Oral Solution [Mapap]"
+          },
+          {
+            "code" : "209425",
+            "display" : "acetaminophen 33.3 MG/ML Oral Solution [Redutemp]"
+          },
+          {
+            "code" : "2105822",
+            "display" : "acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2120193",
+            "display" : "1 ML erenumab-aooe 140 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "2120195",
+            "display" : "1 ML erenumab-aooe 140 MG/ML Auto-Injector [Aimovig]"
+          },
+          {
+            "code" : "2120198",
+            "display" : "1 ML erenumab-aooe 140 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2120199",
+            "display" : "1 ML erenumab-aooe 140 MG/ML Prefilled Syringe [Aimovig]"
+          },
+          {
+            "code" : "2121065",
+            "display" : "acetaminophen 65 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2170611",
+            "display" : "1 ML galcanezumab-gnlm 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2170613",
+            "display" : "1 ML galcanezumab-gnlm 100 MG/ML Prefilled Syringe [Emgality]"
+          },
+          {
+            "code" : "2173662",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2173667",
+            "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2178073",
+            "display" : "sumatriptan 10 MG/ACTUAT Nasal Spray [Tosymra]"
+          },
+          {
+            "code" : "2261403",
+            "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vtol]"
+          },
+          {
+            "code" : "2281851",
+            "display" : "acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution [Prolate]"
+          },
+          {
+            "code" : "2287903",
+            "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Auto-Injector"
+          },
+          {
+            "code" : "2287905",
+            "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Auto-Injector [Ajovy]"
+          },
+          {
+            "code" : "2372911",
+            "display" : "Once-Daily diclofenac epolamine 0.013 MG/MG Medicated Patch [Licart]"
+          },
+          {
+            "code" : "2374554",
+            "display" : "acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution"
+          },
+          {
+            "code" : "238159",
+            "display" : "acetaminophen 100 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2385118",
+            "display" : "diclofenac epolamine 0.013 MG/MG [Licart]"
+          },
+          {
+            "code" : "243675",
+            "display" : "acetaminophen 100 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "2550740",
+            "display" : "diclofenac sodium 0.01 MG/MG Topical Gel [Aleve Arthritis Pain]"
+          },
+          {
+            "code" : "2569836",
+            "display" : "dihydroergotamine mesylate 0.725 MG/ACTUAT Metered Dose Nasal Spray"
+          },
+          {
+            "code" : "2569842",
+            "display" : "dihydroergotamine mesylate 0.725 MG/ACTUAT Metered Dose Nasal Spray [Trudhesa]"
+          },
+          {
+            "code" : "2586427",
+            "display" : "topiramate 25 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2586433",
+            "display" : "topiramate 25 MG/ML Oral Solution [Eprontia]"
+          },
+          {
+            "code" : "2600049",
+            "display" : "diclofenac sodium 0.01 MG/MG / lidocaine hydrochloride 0.045 MG/MG Topical Gel"
+          },
+          {
+            "code" : "2604561",
+            "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2604562",
+            "display" : "acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2637974",
+            "display" : "zavegepant 10 MG Nasal Spray"
+          },
+          {
+            "code" : "2637980",
+            "display" : "zavegepant 10 MG Nasal Spray [Zavzpret]"
+          },
+          {
+            "code" : "307668",
+            "display" : "acetaminophen 32 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "307675",
+            "display" : "acetaminophen 32 MG/ML Oral Solution"
+          },
+          {
+            "code" : "307684",
+            "display" : "acetaminophen 33.3 MG/ML Oral Solution"
+          },
+          {
+            "code" : "311913",
+            "display" : "naproxen 25 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "313159",
+            "display" : "sumatriptan 5 MG/ACTUAT Nasal Spray"
+          },
+          {
+            "code" : "314227",
+            "display" : "sumatriptan 20 MG/ACTUAT Nasal Spray"
+          },
+          {
+            "code" : "402000",
+            "display" : "zolmitriptan 5 MG/ACTUAT Nasal Spray"
+          },
+          {
+            "code" : "402169",
+            "display" : "zolmitriptan 5 MG/ACTUAT Nasal Spray [Zomig]"
+          },
+          {
+            "code" : "402391",
+            "display" : "zolmitriptan 5 MG/ACTUAT"
+          },
+          {
+            "code" : "544393",
+            "display" : "ibuprofen 20 MG/ML Oral Suspension [Motrin]"
+          },
+          {
+            "code" : "576112",
+            "display" : "zolmitriptan 5 MG/ACTUAT [Zomig]"
+          },
+          {
+            "code" : "582328",
+            "display" : "sumatriptan 20 MG/ACTUAT Nasal Spray [Imitrex]"
+          },
+          {
+            "code" : "582330",
+            "display" : "sumatriptan 5 MG/ACTUAT Nasal Spray [Imitrex]"
+          },
+          {
+            "code" : "603724",
+            "display" : "acetaminophen 32 MG/ML Oral Suspension [Mapap]"
+          },
+          {
+            "code" : "727339",
+            "display" : "0.5 ML sumatriptan 12 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731531",
+            "display" : "ibuprofen 40 MG/ML Oral Suspension [Advil]"
+          },
+          {
+            "code" : "756245",
+            "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution"
+          },
+          {
+            "code" : "758523",
+            "display" : "0.5 ML sumatriptan 8 MG/ML Cartridge [Imitrex]"
+          },
+          {
+            "code" : "827757",
+            "display" : "acetaminophen 21.7 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+          },
+          {
+            "code" : "828555",
+            "display" : "acetaminophen 32 MG/ML Oral Suspension [Tylenol]"
+          },
+          {
+            "code" : "854762",
+            "display" : "ibuprofen 40 MG/ML Oral Suspension [Motrin]"
+          },
+          {
+            "code" : "854800",
+            "display" : "diclofenac sodium 1 MG/ML"
+          },
+          {
+            "code" : "855633",
+            "display" : "diclofenac sodium 0.01 MG/MG Topical Gel"
+          },
+          {
+            "code" : "855635",
+            "display" : "diclofenac sodium 0.01 MG/MG Topical Gel [Voltaren]"
+          },
+          {
+            "code" : "855642",
+            "display" : "diclofenac sodium 0.03 MG/MG Topical Gel"
+          },
+          {
+            "code" : "855644",
+            "display" : "diclofenac sodium 0.03 MG/MG Topical Gel [Solaraze]"
+          },
+          {
+            "code" : "856724",
+            "display" : "propranolol hydrochloride 4 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856733",
+            "display" : "propranolol hydrochloride 8 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856940",
+            "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856942",
+            "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution [Hycet]"
+          },
+          {
+            "code" : "856944",
+            "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856946",
+            "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution [Zamicet]"
+          },
+          {
+            "code" : "857099",
+            "display" : "acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution"
+          },
+          {
+            "code" : "857700",
+            "display" : "diclofenac sodium 15 MG/ML Topical Solution"
+          },
+          {
+            "code" : "859063",
+            "display" : "diclofenac potassium 50 MG Powder for Oral Solution"
+          },
+          {
+            "code" : "859066",
+            "display" : "diclofenac potassium 50 MG Powder for Oral Solution [Cambia]"
+          },
+          {
+            "code" : "860088",
+            "display" : "0.5 ML sumatriptan 12 MG/ML Cartridge [Imitrex]"
+          },
+          {
+            "code" : "861667",
+            "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT"
+          },
+          {
+            "code" : "861668",
+            "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT Metered Dose Nasal Spray"
+          },
+          {
+            "code" : "861669",
+            "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT [Migranal]"
+          },
+          {
+            "code" : "861670",
+            "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT Metered Dose Nasal Spray [Migranal]"
+          },
+          {
+            "code" : "967944",
+            "display" : "diclofenac sodium 15 MG/ML Topical Solution [Pennsaid]"
+          },
+          {
+            "code" : "993755",
+            "display" : "acetaminophen 24 MG/ML / codeine phosphate 2.4 MG/ML Oral Solution"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9b2a3d5f-4275-4852-af75-6e86ef922a12",
+    "timestamp" : "2025-11-24T11:43:50-05:00",
+    "total" : 164,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1042675",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1042684",
+        "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1042695",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1043400",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1043478",
+        "display" : "diclofenac sodium 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1044427",
+        "display" : "acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1046384",
+        "display" : "acetaminophen 21.7 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1049580",
+        "display" : "acetaminophen 65 MG/ML / oxycodone hydrochloride 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1050385",
+        "display" : "acetaminophen 32 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1086750",
+        "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1092373",
+        "display" : "acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1092375",
+        "display" : "acetaminophen 33.3 MG/ML / diphenhydramine hydrochloride 1.67 MG/ML Oral Solution [Tylenol PM]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1094131",
+        "display" : "acetaminophen 65 MG/ML / dextromethorphan hydrobromide 2 MG/ML / diphenhydramine hydrochloride 2.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1113397",
+        "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1113522",
+        "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1113705",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1116568",
+        "display" : "acetaminophen 32.5 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1116572",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1189316",
+        "display" : "acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1237110",
+        "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1291951",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / pseudoephedrine hydrochloride 2 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1292342",
+        "display" : "acetaminophen 43.3 MG/ML / chlorpheniramine maleate 0.267 MG/ML / dextromethorphan hydrobromide 2 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1298348",
+        "display" : "acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1357553",
+        "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1359455",
+        "display" : "acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1367384",
+        "display" : "acetaminophen 32 MG/ML / pheniramine maleate 0.8 MG/ML / phenylephrine hydrochloride 0.8 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1369842",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1370113",
+        "display" : "acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1370285",
+        "display" : "acetaminophen 16.7 MG/ML / caffeine 1.08 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1372312",
+        "display" : "acetaminophen 32 MG/ML / chlorpheniramine maleate 0.2 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1375932",
+        "display" : "acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1431245",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / doxylamine succinate 0.417 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1442445",
+        "display" : "acetaminophen 20 MG/ML / hydrocodone bitartrate 0.667 MG/ML Oral Solution [Lortab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1483676",
+        "display" : "zolmitriptan 2.5 MG/ACTUAT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1483677",
+        "display" : "zolmitriptan 2.5 MG/ACTUAT Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1483678",
+        "display" : "zolmitriptan 2.5 MG/ACTUAT [Zomig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1483679",
+        "display" : "zolmitriptan 2.5 MG/ACTUAT Nasal Spray [Zomig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1487074",
+        "display" : "diclofenac sodium 20 MG/ML Topical Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1487076",
+        "display" : "diclofenac sodium 20 MG/ML Topical Solution [Pennsaid]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494766",
+        "display" : "Sprinkle 24 HR topiramate 100 MG Extended Release Oral Capsule [Qudexy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494769",
+        "display" : "Sprinkle 24 HR topiramate 150 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494771",
+        "display" : "Sprinkle 24 HR topiramate 150 MG Extended Release Oral Capsule [Qudexy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494775",
+        "display" : "Sprinkle 24 HR topiramate 200 MG Extended Release Oral Capsule [Qudexy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494778",
+        "display" : "Sprinkle 24 HR topiramate 25 MG Extended Release Oral Capsule [Qudexy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1494781",
+        "display" : "Sprinkle 24 HR topiramate 50 MG Extended Release Oral Capsule [Qudexy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1495058",
+        "display" : "propranolol hydrochloride 4.28 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1495064",
+        "display" : "propranolol hydrochloride 4.28 MG/ML Oral Solution [Hemangeol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1534835",
+        "display" : "acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1550968",
+        "display" : "acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1593450",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1593765",
+        "display" : "acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1593771",
+        "display" : "acetaminophen 32 MG/ML / chlophedianol hydrochloride 2.5 MG/ML / pyrilamine maleate 2.5 MG/ML Oral Solution [Ninjacof A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1648584",
+        "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vanatol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657151",
+        "display" : "0.5 ML sumatriptan 12 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657160",
+        "display" : "0.5 ML sumatriptan 12 MG/ML Cartridge"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657173",
+        "display" : "0.5 ML sumatriptan 8 MG/ML Cartridge"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659175",
+        "display" : "acetaminophen 500 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659960",
+        "display" : "acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659964",
+        "display" : "acetaminophen 650 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1659967",
+        "display" : "acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1661683",
+        "display" : "acetaminophen 16.7 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1738576",
+        "display" : "0.5 ML sumatriptan 6 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1738581",
+        "display" : "0.5 ML sumatriptan 6 MG/ML Auto-Injector [Zembrace]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1739332",
+        "display" : "sumatriptan 11 MG Nasal Powder"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1739337",
+        "display" : "sumatriptan 11 MG Nasal Powder [Onzetra]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1793916",
+        "display" : "0.5 ML sumatriptan 8 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1796460",
+        "display" : "acetaminophen 325 MG / pheniramine maleate 20 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1796708",
+        "display" : "acetaminophen 32 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1804384",
+        "display" : "{1 (acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) / 1 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1812419",
+        "display" : "Sprinkle 24 HR topiramate 200 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1812421",
+        "display" : "Sprinkle 24 HR topiramate 25 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1812425",
+        "display" : "Sprinkle 24 HR topiramate 50 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1812427",
+        "display" : "Sprinkle 24 HR topiramate 100 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1919076",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197803",
+        "display" : "ibuprofen 20 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1996081",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "204442",
+        "display" : "ibuprofen 40 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045627",
+        "display" : "1 ML erenumab-aooe 70 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045632",
+        "display" : "1 ML erenumab-aooe 70 MG/ML Prefilled Syringe [Aimovig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045636",
+        "display" : "1 ML erenumab-aooe 70 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045638",
+        "display" : "1 ML erenumab-aooe 70 MG/ML Auto-Injector [Aimovig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2056669",
+        "display" : "{2 (1 ML erenumab-aooe 70 MG/ML Auto-Injector) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2056670",
+        "display" : "{2 (1 ML erenumab-aooe 70 MG/ML Auto-Injector [Aimovig]) } Pack [Aimovig Autoinjector (140 MG Dose)]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2056695",
+        "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2056700",
+        "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Prefilled Syringe [Ajovy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2058872",
+        "display" : "1 ML galcanezumab-gnlm 120 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2058877",
+        "display" : "1 ML galcanezumab-gnlm 120 MG/ML Auto-Injector [Emgality]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2058885",
+        "display" : "1 ML galcanezumab-gnlm 120 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2058887",
+        "display" : "1 ML galcanezumab-gnlm 120 MG/ML Prefilled Syringe [Emgality]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "206878",
+        "display" : "ibuprofen 20 MG/ML Oral Suspension [Advil]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "207093",
+        "display" : "naproxen 25 MG/ML Oral Suspension [Naprosyn]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "209397",
+        "display" : "acetaminophen 32 MG/ML Oral Solution [Mapap]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "209417",
+        "display" : "acetaminophen 33.3 MG/ML Oral Solution [Mapap]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "209425",
+        "display" : "acetaminophen 33.3 MG/ML Oral Solution [Redutemp]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2105822",
+        "display" : "acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2120193",
+        "display" : "1 ML erenumab-aooe 140 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2120195",
+        "display" : "1 ML erenumab-aooe 140 MG/ML Auto-Injector [Aimovig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2120198",
+        "display" : "1 ML erenumab-aooe 140 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2120199",
+        "display" : "1 ML erenumab-aooe 140 MG/ML Prefilled Syringe [Aimovig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2121065",
+        "display" : "acetaminophen 65 MG/ML / chlorpheniramine maleate 0.4 MG/ML / dextromethorphan hydrobromide 1.3 MG/ML / phenylephrine hydrochloride 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2170611",
+        "display" : "1 ML galcanezumab-gnlm 100 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2170613",
+        "display" : "1 ML galcanezumab-gnlm 100 MG/ML Prefilled Syringe [Emgality]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2173662",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / phenylephrine hydrochloride 0.5 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2173667",
+        "display" : "acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2178073",
+        "display" : "sumatriptan 10 MG/ACTUAT Nasal Spray [Tosymra]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2261403",
+        "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution [Vtol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2281851",
+        "display" : "acetaminophen 60 MG/ML / oxycodone hydrochloride 2 MG/ML Oral Solution [Prolate]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2287903",
+        "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Auto-Injector"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2287905",
+        "display" : "1.5 ML fremanezumab-vfrm 150 MG/ML Auto-Injector [Ajovy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2372911",
+        "display" : "Once-Daily diclofenac epolamine 0.013 MG/MG Medicated Patch [Licart]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2374554",
+        "display" : "acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "238159",
+        "display" : "acetaminophen 100 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2385118",
+        "display" : "diclofenac epolamine 0.013 MG/MG [Licart]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "243675",
+        "display" : "acetaminophen 100 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2550740",
+        "display" : "diclofenac sodium 0.01 MG/MG Topical Gel [Aleve Arthritis Pain]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2569836",
+        "display" : "dihydroergotamine mesylate 0.725 MG/ACTUAT Metered Dose Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2569842",
+        "display" : "dihydroergotamine mesylate 0.725 MG/ACTUAT Metered Dose Nasal Spray [Trudhesa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2586427",
+        "display" : "topiramate 25 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2586433",
+        "display" : "topiramate 25 MG/ML Oral Solution [Eprontia]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2600049",
+        "display" : "diclofenac sodium 0.01 MG/MG / lidocaine hydrochloride 0.045 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2604561",
+        "display" : "acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2604562",
+        "display" : "acetaminophen 33.3 MG/ML / chlorpheniramine maleate 0.133 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2637974",
+        "display" : "zavegepant 10 MG Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2637980",
+        "display" : "zavegepant 10 MG Nasal Spray [Zavzpret]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "307668",
+        "display" : "acetaminophen 32 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "307675",
+        "display" : "acetaminophen 32 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "307684",
+        "display" : "acetaminophen 33.3 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311913",
+        "display" : "naproxen 25 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313159",
+        "display" : "sumatriptan 5 MG/ACTUAT Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314227",
+        "display" : "sumatriptan 20 MG/ACTUAT Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "402000",
+        "display" : "zolmitriptan 5 MG/ACTUAT Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "402169",
+        "display" : "zolmitriptan 5 MG/ACTUAT Nasal Spray [Zomig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "402391",
+        "display" : "zolmitriptan 5 MG/ACTUAT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "544393",
+        "display" : "ibuprofen 20 MG/ML Oral Suspension [Motrin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "576112",
+        "display" : "zolmitriptan 5 MG/ACTUAT [Zomig]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "582328",
+        "display" : "sumatriptan 20 MG/ACTUAT Nasal Spray [Imitrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "582330",
+        "display" : "sumatriptan 5 MG/ACTUAT Nasal Spray [Imitrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "727339",
+        "display" : "0.5 ML sumatriptan 12 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731531",
+        "display" : "ibuprofen 40 MG/ML Oral Suspension [Advil]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "756245",
+        "display" : "acetaminophen 21.7 MG/ML / butalbital 3.33 MG/ML / caffeine 2.67 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "758523",
+        "display" : "0.5 ML sumatriptan 8 MG/ML Cartridge [Imitrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "827757",
+        "display" : "acetaminophen 21.7 MG/ML / guaifenesin 13.3 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "828555",
+        "display" : "acetaminophen 32 MG/ML Oral Suspension [Tylenol]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "854762",
+        "display" : "ibuprofen 40 MG/ML Oral Suspension [Motrin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "854800",
+        "display" : "diclofenac sodium 1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "855633",
+        "display" : "diclofenac sodium 0.01 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "855635",
+        "display" : "diclofenac sodium 0.01 MG/MG Topical Gel [Voltaren]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "855642",
+        "display" : "diclofenac sodium 0.03 MG/MG Topical Gel"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "855644",
+        "display" : "diclofenac sodium 0.03 MG/MG Topical Gel [Solaraze]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856724",
+        "display" : "propranolol hydrochloride 4 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856733",
+        "display" : "propranolol hydrochloride 8 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856940",
+        "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856942",
+        "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution [Hycet]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856944",
+        "display" : "acetaminophen 21.7 MG/ML / hydrocodone bitartrate 0.67 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "857099",
+        "display" : "acetaminophen 33.3 MG/ML / hydrocodone bitartrate 0.5 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "857700",
+        "display" : "diclofenac sodium 15 MG/ML Topical Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859063",
+        "display" : "diclofenac potassium 50 MG Powder for Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "859066",
+        "display" : "diclofenac potassium 50 MG Powder for Oral Solution [Cambia]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "860088",
+        "display" : "0.5 ML sumatriptan 12 MG/ML Cartridge [Imitrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861667",
+        "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861668",
+        "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT Metered Dose Nasal Spray"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861669",
+        "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT [Migranal]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861670",
+        "display" : "dihydroergotamine mesylate 0.5 MG/ACTUAT Metered Dose Nasal Spray [Migranal]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "993755",
+        "display" : "acetaminophen 24 MG/ML / codeine phosphate 2.4 MG/ML Oral Solution"
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2552",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Esophageal_Atresia,Tracheoesophageal_Fistula,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2552",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2552"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "EsophagealAtresiaTracheoesophagealFistulaDisordersSNOMED",
+  "title" : "Esophageal Atresia/Tracheoesophageal Fistula (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Esophageal Atresia/Tracheoesophageal Fistula regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Esophageal atresia alone | Esophageal atresia with tracheoesophageal (TE) fistula | Esophageal stenosis, stricture, ring, or web | TE fistula | TE fistula, all types),(Exclusion Criteria: Tracheal atresia | Tracheosophageal cleft)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "11266002",
+            "display" : "Upper esophageal web (disorder)"
+          },
+          {
+            "code" : "18792003",
+            "display" : "H-type congenital tracheoesophageal fistula (disorder)"
+          },
+          {
+            "code" : "19216006",
+            "display" : "Esophageal web (disorder)"
+          },
+          {
+            "code" : "204652007",
+            "display" : "Congenital esophageal fistula (disorder)"
+          },
+          {
+            "code" : "204658006",
+            "display" : "Congenital absence of esophagus with tracheoesophageal fistula (disorder)"
+          },
+          {
+            "code" : "204659003",
+            "display" : "Esophageal atresia with tracheoesophageal fistula (disorder)"
+          },
+          {
+            "code" : "22395006",
+            "display" : "Esophageal body web (disorder)"
+          },
+          {
+            "code" : "235616003",
+            "display" : "Benign esophageal stricture (disorder)"
+          },
+          {
+            "code" : "235622007",
+            "display" : "Esophageal web / ring (disorder)"
+          },
+          {
+            "code" : "235623002",
+            "display" : "Lower esophageal ring (disorder)"
+          },
+          {
+            "code" : "235625009",
+            "display" : "Lower esophageal muscular ring (disorder)"
+          },
+          {
+            "code" : "235640006",
+            "display" : "Tracheoesophageal fistula without atresia of esophagus (disorder)"
+          },
+          {
+            "code" : "253760004",
+            "display" : "Congenital esophageal ring (disorder)"
+          },
+          {
+            "code" : "26179002",
+            "display" : "Congenital atresia of esophagus (disorder)"
+          },
+          {
+            "code" : "268201001",
+            "display" : "Esophageal atresia, stenosis and fistula (disorder)"
+          },
+          {
+            "code" : "447851008",
+            "display" : "Congenital tracheoesophageal fistula with esophageal stenosis (disorder)"
+          },
+          {
+            "code" : "66889002",
+            "display" : "Terminal esophageal web (disorder)"
+          },
+          {
+            "code" : "717835002",
+            "display" : "Atresia of esophagus without tracheoesophageal fistula (disorder)"
+          },
+          {
+            "code" : "721182004",
+            "display" : "Long gap atresia of esophagus (disorder)"
+          },
+          {
+            "code" : "770619007",
+            "display" : "Congenital upper esophageal web (disorder)"
+          },
+          {
+            "code" : "788869006",
+            "display" : "Atresia of esophagus co-occurrent with esophagobronchial fistula (disorder)"
+          },
+          {
+            "code" : "95435007",
+            "display" : "Tracheoesophageal fistula (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3d7f9ec1-baca-474f-a64d-8c27b687e9f7",
+    "timestamp" : "2025-11-24T13:28:32-05:00",
+    "total" : 22,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11266002",
+        "display" : "Upper esophageal web (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18792003",
+        "display" : "H-type congenital tracheoesophageal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19216006",
+        "display" : "Esophageal web (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204652007",
+        "display" : "Congenital esophageal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204658006",
+        "display" : "Congenital absence of esophagus with tracheoesophageal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "204659003",
+        "display" : "Esophageal atresia with tracheoesophageal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22395006",
+        "display" : "Esophageal body web (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235616003",
+        "display" : "Benign esophageal stricture (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235622007",
+        "display" : "Esophageal web / ring (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235623002",
+        "display" : "Lower esophageal ring (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235625009",
+        "display" : "Lower esophageal muscular ring (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235640006",
+        "display" : "Tracheoesophageal fistula without atresia of esophagus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "253760004",
+        "display" : "Congenital esophageal ring (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26179002",
+        "display" : "Congenital atresia of esophagus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "268201001",
+        "display" : "Esophageal atresia, stenosis and fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447851008",
+        "display" : "Congenital tracheoesophageal fistula with esophageal stenosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66889002",
+        "display" : "Terminal esophageal web (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717835002",
+        "display" : "Atresia of esophagus without tracheoesophageal fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721182004",
+        "display" : "Long gap atresia of esophagus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770619007",
+        "display" : "Congenital upper esophageal web (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788869006",
+        "display" : "Atresia of esophagus co-occurrent with esophagobronchial fistula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95435007",
+        "display" : "Tracheoesophageal fistula (disorder)"
+      }
+    ]
+  }
+}

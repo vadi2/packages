@@ -1,0 +1,85 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.1520",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-09-13T15:49:05.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1520",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.1520"
+    }
+  ],
+  "version" : "20240618",
+  "name" : "MultisystemInflammatorySyndromeInAdultsMISAICD10",
+  "title" : "Multisystem Inflammatory Syndrome in Adults (MIS A) ICD10",
+  "status" : "active",
+  "date" : "2024-06-18T01:21:05-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains ICD-10-CM diagnosis terms representing Multisystem Inflammatory Syndrome in Adults (MIS-A).),(Data Element Scope: The intent of this set of values is to identify patients who have a diagnosis of Multisystem Inflammatory Syndrome in Adults (MIS-A).),(Inclusion Criteria: Includes ICD-10-CM Multisystem Inflammatory Syndrome in Adults (MIS-A) diagnosis concepts.),(Exclusion Criteria: None.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "M35.81"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:4ecc236f-6d02-407e-a0f7-4e0e4245c81f",
+    "timestamp" : "2025-11-24T15:13:43-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M35.81",
+        "display" : "Multisystem inflammatory syndrome"
+      }
+    ]
+  }
+}

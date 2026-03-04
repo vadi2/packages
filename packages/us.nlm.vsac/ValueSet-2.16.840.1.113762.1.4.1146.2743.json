@@ -1,0 +1,803 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2743",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2743",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2743"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ShinglesSNOMED",
+  "title" : "Shingles (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has shingles regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: shingles),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10698009",
+            "display" : "Herpes zoster iridocyclitis (disorder)"
+          },
+          {
+            "code" : "1087131000119102",
+            "display" : "Scleritis due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "1144351000",
+            "display" : "Scar of skin due to and following herpes zoster infection (disorder)"
+          },
+          {
+            "code" : "1144352007",
+            "display" : "Scar of cornea due to and following herpes zoster infection (disorder)"
+          },
+          {
+            "code" : "1163465001",
+            "display" : "Dacryoadenitis due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "1163483009",
+            "display" : "Infection of eyelid due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "1254866003",
+            "display" : "Pruritus due to and following herpes zoster (disorder)"
+          },
+          {
+            "code" : "12551000132107",
+            "display" : "Cranial neuropathy due to Herpes zoster (disorder)"
+          },
+          {
+            "code" : "12561000132105",
+            "display" : "Bacterial infection co-occurrent and due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "12571000132104",
+            "display" : "Pneumonia caused by Herpes zoster (disorder)"
+          },
+          {
+            "code" : "1263534009",
+            "display" : "Motor neuron disease due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15678761000119105",
+            "display" : "Iridocyclitis of right eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15678801000119102",
+            "display" : "Iridocyclitis of left eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15680201000119106",
+            "display" : "Keratoconjunctivitis of right eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15680241000119108",
+            "display" : "Keratoconjunctivitis of left eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15681321000119100",
+            "display" : "Dermatitis of left eyelid due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15681361000119105",
+            "display" : "Infection of skin of bilateral eyelids due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15681401000119101",
+            "display" : "Dermatitis of right eyelid due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15685201000119100",
+            "display" : "Interstitial keratitis of left eye caused by Herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15685281000119108",
+            "display" : "Interstitial keratitis of right eye caused by Herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15989271000119107",
+            "display" : "Conjunctivitis of right eye caused by herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15989311000119107",
+            "display" : "Conjunctivitis of bilateral eyes caused by herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15989351000119108",
+            "display" : "Conjunctivitis of left eye caused by herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15991711000119108",
+            "display" : "Iritis of right eye caused by herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15991791000119104",
+            "display" : "Iritis of left eye caused by herpes zoster virus (disorder)"
+          },
+          {
+            "code" : "15992271000119100",
+            "display" : "Keratitis of right eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "15992311000119100",
+            "display" : "Keratitis of left eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "16000751000119105",
+            "display" : "Scleritis of bilateral eyes due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "16000791000119100",
+            "display" : "Scleritis of left eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "16000831000119106",
+            "display" : "Scleritis of right eye due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "193190005",
+            "display" : "Polyneuropathy in herpes zoster (disorder)"
+          },
+          {
+            "code" : "21954000",
+            "display" : "Herpes zoster auricularis (disorder)"
+          },
+          {
+            "code" : "230176008",
+            "display" : "Herpes zoster encephalitis (disorder)"
+          },
+          {
+            "code" : "230262004",
+            "display" : "Amyotrophy caused by herpes zoster (disorder)"
+          },
+          {
+            "code" : "230536009",
+            "display" : "Acute trigeminal herpes zoster (disorder)"
+          },
+          {
+            "code" : "232400003",
+            "display" : "Acute herpes zoster pharyngitis (disorder)"
+          },
+          {
+            "code" : "235059009",
+            "display" : "Herpes zoster infection of oral mucosa (disorder)"
+          },
+          {
+            "code" : "240470005",
+            "display" : "Herpes zoster involving thoracic dermatome (disorder)"
+          },
+          {
+            "code" : "240471009",
+            "display" : "Herpes zoster involving lumbar dermatome (disorder)"
+          },
+          {
+            "code" : "240472002",
+            "display" : "Maxillary herpes zoster infection (disorder)"
+          },
+          {
+            "code" : "240473007",
+            "display" : "Mandibular herpes zoster infection (disorder)"
+          },
+          {
+            "code" : "240474001",
+            "display" : "Multidermatomal herpes zoster infection (disorder)"
+          },
+          {
+            "code" : "2490001000004101",
+            "display" : "Herpes zoster of skin of neck (disorder)"
+          },
+          {
+            "code" : "331071000119101",
+            "display" : "Herpes zoster iritis (disorder)"
+          },
+          {
+            "code" : "36292003",
+            "display" : "Otitis externa caused by Herpes zoster (disorder)"
+          },
+          {
+            "code" : "397573005",
+            "display" : "Herpes zoster keratitis (disorder)"
+          },
+          {
+            "code" : "400020001",
+            "display" : "Herpes zoster dermatitis (disorder)"
+          },
+          {
+            "code" : "402897003",
+            "display" : "Herpes zoster involving cervical dermatome (disorder)"
+          },
+          {
+            "code" : "402898008",
+            "display" : "Herpes zoster involving sacral dermatome (disorder)"
+          },
+          {
+            "code" : "410500004",
+            "display" : "Herpes zoster involving tip of nose (disorder)"
+          },
+          {
+            "code" : "410509003",
+            "display" : "Herpes zoster conjunctivitis (disorder)"
+          },
+          {
+            "code" : "416718008",
+            "display" : "Infection of skin of eyelid due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "421029004",
+            "display" : "Herpes zoster retinitis (disorder)"
+          },
+          {
+            "code" : "422127002",
+            "display" : "Herpes zoster with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code" : "422446008",
+            "display" : "Herpes zoster subepithelial infiltrates (disorder)"
+          },
+          {
+            "code" : "422471006",
+            "display" : "Herpes zoster acute retinal necrosis (disorder)"
+          },
+          {
+            "code" : "423628002",
+            "display" : "Acute herpes zoster neuropathy (disorder)"
+          },
+          {
+            "code" : "424353002",
+            "display" : "Corneal haze caused by herpes zoster (disorder)"
+          },
+          {
+            "code" : "424435009",
+            "display" : "Herpes zoster pseudodendrites (disorder)"
+          },
+          {
+            "code" : "42448002",
+            "display" : "Herpes zoster keratoconjunctivitis (disorder)"
+          },
+          {
+            "code" : "424801004",
+            "display" : "Herpes zoster corneal endotheliitis (disorder)"
+          },
+          {
+            "code" : "424941009",
+            "display" : "Herpes zoster radiculitis (disorder)"
+          },
+          {
+            "code" : "425356002",
+            "display" : "Herpes zoster retinal pigment epithelial detachment (disorder)"
+          },
+          {
+            "code" : "426570007",
+            "display" : "Herpes zoster interstitial keratitis (disorder)"
+          },
+          {
+            "code" : "428633000",
+            "display" : "Exanthem due to herpes zoster (disorder)"
+          },
+          {
+            "code" : "4740000",
+            "display" : "Herpes zoster (disorder)"
+          },
+          {
+            "code" : "55560002",
+            "display" : "Disseminated herpes zoster (disorder)"
+          },
+          {
+            "code" : "713733003",
+            "display" : "Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code" : "713964006",
+            "display" : "Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code" : "838357005",
+            "display" : "Acute glossopharyngeal neuropathy caused by Herpes zoster (disorder)"
+          },
+          {
+            "code" : "870321008",
+            "display" : "Ocular nerve palsy caused by Herpes zoster (disorder)"
+          },
+          {
+            "code" : "87513003",
+            "display" : "Herpes zoster ophthalmicus (disorder)"
+          },
+          {
+            "code" : "98541000119101",
+            "display" : "Herpes zoster myelitis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:3d7ea0af-bbfe-4310-951d-dd885a861119",
+    "timestamp" : "2025-11-24T13:36:01-05:00",
+    "total" : 73,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10698009",
+        "display" : "Herpes zoster iridocyclitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1087131000119102",
+        "display" : "Scleritis due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1144351000",
+        "display" : "Scar of skin due to and following herpes zoster infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1144352007",
+        "display" : "Scar of cornea due to and following herpes zoster infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1163465001",
+        "display" : "Dacryoadenitis due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1163483009",
+        "display" : "Infection of eyelid due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1254866003",
+        "display" : "Pruritus due to and following herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12551000132107",
+        "display" : "Cranial neuropathy due to Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12561000132105",
+        "display" : "Bacterial infection co-occurrent and due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12571000132104",
+        "display" : "Pneumonia caused by Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1263534009",
+        "display" : "Motor neuron disease due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15678761000119105",
+        "display" : "Iridocyclitis of right eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15678801000119102",
+        "display" : "Iridocyclitis of left eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15680201000119106",
+        "display" : "Keratoconjunctivitis of right eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15680241000119108",
+        "display" : "Keratoconjunctivitis of left eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15681321000119100",
+        "display" : "Dermatitis of left eyelid due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15681361000119105",
+        "display" : "Infection of skin of bilateral eyelids due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15681401000119101",
+        "display" : "Dermatitis of right eyelid due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15685201000119100",
+        "display" : "Interstitial keratitis of left eye caused by Herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15685281000119108",
+        "display" : "Interstitial keratitis of right eye caused by Herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15989271000119107",
+        "display" : "Conjunctivitis of right eye caused by herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15989311000119107",
+        "display" : "Conjunctivitis of bilateral eyes caused by herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15989351000119108",
+        "display" : "Conjunctivitis of left eye caused by herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15991711000119108",
+        "display" : "Iritis of right eye caused by herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15991791000119104",
+        "display" : "Iritis of left eye caused by herpes zoster virus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15992271000119100",
+        "display" : "Keratitis of right eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15992311000119100",
+        "display" : "Keratitis of left eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16000751000119105",
+        "display" : "Scleritis of bilateral eyes due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16000791000119100",
+        "display" : "Scleritis of left eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16000831000119106",
+        "display" : "Scleritis of right eye due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193190005",
+        "display" : "Polyneuropathy in herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21954000",
+        "display" : "Herpes zoster auricularis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230176008",
+        "display" : "Herpes zoster encephalitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230262004",
+        "display" : "Amyotrophy caused by herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230536009",
+        "display" : "Acute trigeminal herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232400003",
+        "display" : "Acute herpes zoster pharyngitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235059009",
+        "display" : "Herpes zoster infection of oral mucosa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240470005",
+        "display" : "Herpes zoster involving thoracic dermatome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240471009",
+        "display" : "Herpes zoster involving lumbar dermatome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240472002",
+        "display" : "Maxillary herpes zoster infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240473007",
+        "display" : "Mandibular herpes zoster infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240474001",
+        "display" : "Multidermatomal herpes zoster infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2490001000004101",
+        "display" : "Herpes zoster of skin of neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "331071000119101",
+        "display" : "Herpes zoster iritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36292003",
+        "display" : "Otitis externa caused by Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "397573005",
+        "display" : "Herpes zoster keratitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400020001",
+        "display" : "Herpes zoster dermatitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402897003",
+        "display" : "Herpes zoster involving cervical dermatome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402898008",
+        "display" : "Herpes zoster involving sacral dermatome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "410500004",
+        "display" : "Herpes zoster involving tip of nose (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "410509003",
+        "display" : "Herpes zoster conjunctivitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416718008",
+        "display" : "Infection of skin of eyelid due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "421029004",
+        "display" : "Herpes zoster retinitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422127002",
+        "display" : "Herpes zoster with acquired immunodeficiency syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422446008",
+        "display" : "Herpes zoster subepithelial infiltrates (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422471006",
+        "display" : "Herpes zoster acute retinal necrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "423628002",
+        "display" : "Acute herpes zoster neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424353002",
+        "display" : "Corneal haze caused by herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424435009",
+        "display" : "Herpes zoster pseudodendrites (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42448002",
+        "display" : "Herpes zoster keratoconjunctivitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424801004",
+        "display" : "Herpes zoster corneal endotheliitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424941009",
+        "display" : "Herpes zoster radiculitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "425356002",
+        "display" : "Herpes zoster retinal pigment epithelial detachment (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426570007",
+        "display" : "Herpes zoster interstitial keratitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428633000",
+        "display" : "Exanthem due to herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4740000",
+        "display" : "Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55560002",
+        "display" : "Disseminated herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713733003",
+        "display" : "Infection caused by herpes zoster virus co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713964006",
+        "display" : "Multidermatomal infection caused by Herpes zoster co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "838357005",
+        "display" : "Acute glossopharyngeal neuropathy caused by Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "870321008",
+        "display" : "Ocular nerve palsy caused by Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87513003",
+        "display" : "Herpes zoster ophthalmicus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "98541000119101",
+        "display" : "Herpes zoster myelitis (disorder)"
+      }
+    ]
+  }
+}

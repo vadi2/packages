@@ -1,0 +1,1244 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2929",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2929",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2929"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "InfluenzaAdditionalContextMedicationCodes",
+  "title" : "Influenza Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Influenza Additional Context Medication Codes),(Data Element Scope: Influenza Additional Context Medication Codes),(Inclusion Criteria: Influenza Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1115697",
+            "display" : "oseltamivir 6 MG/ML"
+          },
+          {
+            "code" : "1115698",
+            "display" : "oseltamivir 6 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "1115699",
+            "display" : "oseltamivir 6 MG/ML [Tamiflu]"
+          },
+          {
+            "code" : "1115700",
+            "display" : "oseltamivir 6 MG/ML Oral Suspension [Tamiflu]"
+          },
+          {
+            "code" : "1151228",
+            "display" : "amantadine Oral Liquid Product"
+          },
+          {
+            "code" : "1151229",
+            "display" : "amantadine Oral Product"
+          },
+          {
+            "code" : "1151230",
+            "display" : "amantadine Pill"
+          },
+          {
+            "code" : "1161399",
+            "display" : "peramivir Injectable Product"
+          },
+          {
+            "code" : "1161647",
+            "display" : "oseltamivir Oral Liquid Product"
+          },
+          {
+            "code" : "1161648",
+            "display" : "oseltamivir Oral Product"
+          },
+          {
+            "code" : "1161649",
+            "display" : "oseltamivir Pill"
+          },
+          {
+            "code" : "1163025",
+            "display" : "zanamivir Inhalant Product"
+          },
+          {
+            "code" : "1165473",
+            "display" : "rimantadine Oral Liquid Product"
+          },
+          {
+            "code" : "1165474",
+            "display" : "rimantadine Oral Product"
+          },
+          {
+            "code" : "1165475",
+            "display" : "rimantadine Pill"
+          },
+          {
+            "code" : "1171170",
+            "display" : "Flumadine Oral Product"
+          },
+          {
+            "code" : "1171171",
+            "display" : "Flumadine Pill"
+          },
+          {
+            "code" : "1177854",
+            "display" : "Tamiflu Oral Liquid Product"
+          },
+          {
+            "code" : "1177855",
+            "display" : "Tamiflu Oral Product"
+          },
+          {
+            "code" : "1177856",
+            "display" : "Tamiflu Pill"
+          },
+          {
+            "code" : "1180701",
+            "display" : "Relenza Inhalant Product"
+          },
+          {
+            "code" : "1598078",
+            "display" : "Rapivab"
+          },
+          {
+            "code" : "1598079",
+            "display" : "peramivir 10 MG/ML [Rapivab]"
+          },
+          {
+            "code" : "1598081",
+            "display" : "Rapivab Injectable Product"
+          },
+          {
+            "code" : "1598082",
+            "display" : "20 ML peramivir 10 MG/ML Injection"
+          },
+          {
+            "code" : "1598096",
+            "display" : "peramivir anhydrous"
+          },
+          {
+            "code" : "1724184",
+            "display" : "peramivir Injection"
+          },
+          {
+            "code" : "1724186",
+            "display" : "peramivir Injection [Rapivab]"
+          },
+          {
+            "code" : "1944368",
+            "display" : "amantadine 137 MG"
+          },
+          {
+            "code" : "1944369",
+            "display" : "amantadine Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1944370",
+            "display" : "24 HR amantadine 137 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1944371",
+            "display" : "Gocovri"
+          },
+          {
+            "code" : "1944372",
+            "display" : "amantadine 137 MG [Gocovri]"
+          },
+          {
+            "code" : "1944373",
+            "display" : "amantadine Extended Release Oral Capsule [Gocovri]"
+          },
+          {
+            "code" : "1944374",
+            "display" : "Gocovri Oral Product"
+          },
+          {
+            "code" : "1944375",
+            "display" : "Gocovri Pill"
+          },
+          {
+            "code" : "1944376",
+            "display" : "24 HR amantadine 137 MG Extended Release Oral Capsule [Gocovri]"
+          },
+          {
+            "code" : "1944379",
+            "display" : "amantadine 68.5 MG"
+          },
+          {
+            "code" : "1944380",
+            "display" : "24 HR amantadine 68.5 MG Extended Release Oral Capsule"
+          },
+          {
+            "code" : "1944381",
+            "display" : "amantadine 68.5 MG [Gocovri]"
+          },
+          {
+            "code" : "1944382",
+            "display" : "24 HR amantadine 68.5 MG Extended Release Oral Capsule [Gocovri]"
+          },
+          {
+            "code" : "2044712",
+            "display" : "amantadine 129 MG"
+          },
+          {
+            "code" : "2044713",
+            "display" : "amantadine Extended Release Oral Tablet"
+          },
+          {
+            "code" : "2044714",
+            "display" : "24 HR amantadine 129 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "2044715",
+            "display" : "Osmolex"
+          },
+          {
+            "code" : "2044716",
+            "display" : "amantadine 129 MG [Osmolex]"
+          },
+          {
+            "code" : "2044717",
+            "display" : "amantadine Extended Release Oral Tablet [Osmolex]"
+          },
+          {
+            "code" : "2044718",
+            "display" : "Osmolex Oral Product"
+          },
+          {
+            "code" : "2044719",
+            "display" : "Osmolex Pill"
+          },
+          {
+            "code" : "2044720",
+            "display" : "24 HR amantadine 129 MG Extended Release Oral Tablet [Osmolex]"
+          },
+          {
+            "code" : "2044723",
+            "display" : "amantadine 193 MG"
+          },
+          {
+            "code" : "2044724",
+            "display" : "24 HR amantadine 193 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "2044725",
+            "display" : "amantadine 193 MG [Osmolex]"
+          },
+          {
+            "code" : "2044726",
+            "display" : "24 HR amantadine 193 MG Extended Release Oral Tablet [Osmolex]"
+          },
+          {
+            "code" : "2044729",
+            "display" : "amantadine 258 MG"
+          },
+          {
+            "code" : "2044730",
+            "display" : "24 HR amantadine 258 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "2044731",
+            "display" : "amantadine 258 MG [Osmolex]"
+          },
+          {
+            "code" : "2044732",
+            "display" : "24 HR amantadine 258 MG Extended Release Oral Tablet [Osmolex]"
+          },
+          {
+            "code" : "2197842",
+            "display" : "baloxavir"
+          },
+          {
+            "code" : "2257014",
+            "display" : "{30 (24 HR amantadine 129 MG Extended Release Oral Tablet) / 30 (24 HR amantadine 193 MG Extended Release Oral Tablet) } Pack"
+          },
+          {
+            "code" : "2257015",
+            "display" : "{30 (24 HR amantadine 129 MG Extended Release Oral Tablet [Osmolex]) / 30 (24 HR amantadine 193 MG Extended Release Oral Tablet [Osmolex]) } Pack [Osmolex 322 MG Daily Dosing]"
+          },
+          {
+            "code" : "227249",
+            "display" : "Flumadine"
+          },
+          {
+            "code" : "259275",
+            "display" : "oseltamivir phosphate"
+          },
+          {
+            "code" : "260101",
+            "display" : "oseltamivir"
+          },
+          {
+            "code" : "261315",
+            "display" : "oseltamivir 75 MG Oral Capsule [Tamiflu]"
+          },
+          {
+            "code" : "261633",
+            "display" : "Relenza"
+          },
+          {
+            "code" : "261657",
+            "display" : "Tamiflu"
+          },
+          {
+            "code" : "2656208",
+            "display" : "rimantadine hydrochloride Oral Tablet [Flumadine]"
+          },
+          {
+            "code" : "282415",
+            "display" : "amantadine hydrochloride"
+          },
+          {
+            "code" : "312122",
+            "display" : "oseltamivir 75 MG Oral Capsule"
+          },
+          {
+            "code" : "314157",
+            "display" : "oseltamivir 12 MG/ML Oral Suspension"
+          },
+          {
+            "code" : "330390",
+            "display" : "oseltamivir 12 MG/ML"
+          },
+          {
+            "code" : "330391",
+            "display" : "oseltamivir 75 MG"
+          },
+          {
+            "code" : "366559",
+            "display" : "oseltamivir Oral Capsule [Tamiflu]"
+          },
+          {
+            "code" : "368744",
+            "display" : "rimantadine Oral Tablet [Flumadine]"
+          },
+          {
+            "code" : "370558",
+            "display" : "amantadine Oral Capsule"
+          },
+          {
+            "code" : "370559",
+            "display" : "amantadine Oral Tablet"
+          },
+          {
+            "code" : "373789",
+            "display" : "rimantadine Oral Tablet"
+          },
+          {
+            "code" : "374615",
+            "display" : "oseltamivir Oral Capsule"
+          },
+          {
+            "code" : "375196",
+            "display" : "oseltamivir Oral Suspension"
+          },
+          {
+            "code" : "574537",
+            "display" : "oseltamivir 75 MG [Tamiflu]"
+          },
+          {
+            "code" : "581625",
+            "display" : "oseltamivir Oral Suspension [Tamiflu]"
+          },
+          {
+            "code" : "582578",
+            "display" : "zanamivir 5 MG/ACTUAT"
+          },
+          {
+            "code" : "582580",
+            "display" : "zanamivir 5 MG/ACTUAT [Relenza]"
+          },
+          {
+            "code" : "619693",
+            "display" : "peramivir"
+          },
+          {
+            "code" : "620",
+            "display" : "amantadine"
+          },
+          {
+            "code" : "621",
+            "display" : "amantadine sulfate"
+          },
+          {
+            "code" : "69722",
+            "display" : "zanamivir"
+          },
+          {
+            "code" : "702116",
+            "display" : "amantadine Oral Solution"
+          },
+          {
+            "code" : "728108",
+            "display" : "oseltamivir 30 MG"
+          },
+          {
+            "code" : "728109",
+            "display" : "oseltamivir 30 MG Oral Capsule"
+          },
+          {
+            "code" : "728110",
+            "display" : "oseltamivir 30 MG [Tamiflu]"
+          },
+          {
+            "code" : "728111",
+            "display" : "oseltamivir 30 MG Oral Capsule [Tamiflu]"
+          },
+          {
+            "code" : "728112",
+            "display" : "oseltamivir 45 MG"
+          },
+          {
+            "code" : "728113",
+            "display" : "oseltamivir 45 MG Oral Capsule"
+          },
+          {
+            "code" : "728114",
+            "display" : "oseltamivir 45 MG [Tamiflu]"
+          },
+          {
+            "code" : "728115",
+            "display" : "oseltamivir 45 MG Oral Capsule [Tamiflu]"
+          },
+          {
+            "code" : "756780",
+            "display" : "rimantadine Oral Solution"
+          },
+          {
+            "code" : "759470",
+            "display" : "zanamivir Dry Powder Inhaler"
+          },
+          {
+            "code" : "759471",
+            "display" : "20 ACTUAT zanamivir 5 MG/ACTUAT Dry Powder Inhaler"
+          },
+          {
+            "code" : "759472",
+            "display" : "zanamivir Dry Powder Inhaler [Relenza]"
+          },
+          {
+            "code" : "759473",
+            "display" : "20 ACTUAT zanamivir 5 MG/ACTUAT Dry Powder Inhaler [Relenza]"
+          },
+          {
+            "code" : "82093",
+            "display" : "rimantadine hydrochloride"
+          },
+          {
+            "code" : "849384",
+            "display" : "amantadine hydrochloride 10 MG/ML"
+          },
+          {
+            "code" : "849385",
+            "display" : "amantadine hydrochloride 10 MG/ML Oral Solution"
+          },
+          {
+            "code" : "849388",
+            "display" : "amantadine hydrochloride 100 MG"
+          },
+          {
+            "code" : "849389",
+            "display" : "amantadine hydrochloride 100 MG Oral Capsule"
+          },
+          {
+            "code" : "849395",
+            "display" : "amantadine hydrochloride 100 MG Oral Tablet"
+          },
+          {
+            "code" : "856599",
+            "display" : "rimantadine hydrochloride 10 MG/ML"
+          },
+          {
+            "code" : "856600",
+            "display" : "rimantadine hydrochloride 10 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856604",
+            "display" : "rimantadine hydrochloride 100 MG"
+          },
+          {
+            "code" : "856605",
+            "display" : "rimantadine hydrochloride 100 MG Oral Tablet"
+          },
+          {
+            "code" : "856606",
+            "display" : "rimantadine hydrochloride 100 MG [Flumadine]"
+          },
+          {
+            "code" : "856607",
+            "display" : "rimantadine hydrochloride 100 MG Oral Tablet [Flumadine]"
+          },
+          {
+            "code" : "876201",
+            "display" : "peramivir 10 MG/ML"
+          },
+          {
+            "code" : "876203",
+            "display" : "20 ML peramivir 10 MG/ML Injection [Rapivab]"
+          },
+          {
+            "code" : "9386",
+            "display" : "rimantadine"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:12373e51-bc2c-4cec-9855-eb75013a8ae4",
+    "timestamp" : "2025-11-24T13:46:06-05:00",
+    "total" : 117,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1115697",
+        "display" : "oseltamivir 6 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1115698",
+        "display" : "oseltamivir 6 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1115699",
+        "display" : "oseltamivir 6 MG/ML [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1115700",
+        "display" : "oseltamivir 6 MG/ML Oral Suspension [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151228",
+        "display" : "amantadine Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151229",
+        "display" : "amantadine Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1151230",
+        "display" : "amantadine Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161399",
+        "display" : "peramivir Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161647",
+        "display" : "oseltamivir Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161648",
+        "display" : "oseltamivir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1161649",
+        "display" : "oseltamivir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163025",
+        "display" : "zanamivir Inhalant Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165473",
+        "display" : "rimantadine Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165474",
+        "display" : "rimantadine Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165475",
+        "display" : "rimantadine Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1171170",
+        "display" : "Flumadine Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1171171",
+        "display" : "Flumadine Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177854",
+        "display" : "Tamiflu Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177855",
+        "display" : "Tamiflu Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1177856",
+        "display" : "Tamiflu Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1180701",
+        "display" : "Relenza Inhalant Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1598078",
+        "display" : "Rapivab"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1598079",
+        "display" : "peramivir 10 MG/ML [Rapivab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1598081",
+        "display" : "Rapivab Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1598082",
+        "display" : "20 ML peramivir 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1598096",
+        "display" : "peramivir anhydrous"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1724184",
+        "display" : "peramivir Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1724186",
+        "display" : "peramivir Injection [Rapivab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944368",
+        "display" : "amantadine 137 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944369",
+        "display" : "amantadine Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944370",
+        "display" : "24 HR amantadine 137 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944371",
+        "display" : "Gocovri"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944372",
+        "display" : "amantadine 137 MG [Gocovri]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944373",
+        "display" : "amantadine Extended Release Oral Capsule [Gocovri]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944374",
+        "display" : "Gocovri Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944375",
+        "display" : "Gocovri Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944376",
+        "display" : "24 HR amantadine 137 MG Extended Release Oral Capsule [Gocovri]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944379",
+        "display" : "amantadine 68.5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944380",
+        "display" : "24 HR amantadine 68.5 MG Extended Release Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944381",
+        "display" : "amantadine 68.5 MG [Gocovri]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1944382",
+        "display" : "24 HR amantadine 68.5 MG Extended Release Oral Capsule [Gocovri]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044712",
+        "display" : "amantadine 129 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044713",
+        "display" : "amantadine Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044714",
+        "display" : "24 HR amantadine 129 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044715",
+        "display" : "Osmolex"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044716",
+        "display" : "amantadine 129 MG [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044717",
+        "display" : "amantadine Extended Release Oral Tablet [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044718",
+        "display" : "Osmolex Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044719",
+        "display" : "Osmolex Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044720",
+        "display" : "24 HR amantadine 129 MG Extended Release Oral Tablet [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044723",
+        "display" : "amantadine 193 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044724",
+        "display" : "24 HR amantadine 193 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044725",
+        "display" : "amantadine 193 MG [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044726",
+        "display" : "24 HR amantadine 193 MG Extended Release Oral Tablet [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044729",
+        "display" : "amantadine 258 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044730",
+        "display" : "24 HR amantadine 258 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044731",
+        "display" : "amantadine 258 MG [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2044732",
+        "display" : "24 HR amantadine 258 MG Extended Release Oral Tablet [Osmolex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2197842",
+        "display" : "baloxavir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2257014",
+        "display" : "{30 (24 HR amantadine 129 MG Extended Release Oral Tablet) / 30 (24 HR amantadine 193 MG Extended Release Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2257015",
+        "display" : "{30 (24 HR amantadine 129 MG Extended Release Oral Tablet [Osmolex]) / 30 (24 HR amantadine 193 MG Extended Release Oral Tablet [Osmolex]) } Pack [Osmolex 322 MG Daily Dosing]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "227249",
+        "display" : "Flumadine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "259275",
+        "display" : "oseltamivir phosphate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "260101",
+        "display" : "oseltamivir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261315",
+        "display" : "oseltamivir 75 MG Oral Capsule [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261633",
+        "display" : "Relenza"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "261657",
+        "display" : "Tamiflu"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656208",
+        "display" : "rimantadine hydrochloride Oral Tablet [Flumadine]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "282415",
+        "display" : "amantadine hydrochloride"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312122",
+        "display" : "oseltamivir 75 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "314157",
+        "display" : "oseltamivir 12 MG/ML Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330390",
+        "display" : "oseltamivir 12 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330391",
+        "display" : "oseltamivir 75 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "366559",
+        "display" : "oseltamivir Oral Capsule [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "368744",
+        "display" : "rimantadine Oral Tablet [Flumadine]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370558",
+        "display" : "amantadine Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370559",
+        "display" : "amantadine Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373789",
+        "display" : "rimantadine Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "374615",
+        "display" : "oseltamivir Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "375196",
+        "display" : "oseltamivir Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "574537",
+        "display" : "oseltamivir 75 MG [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "581625",
+        "display" : "oseltamivir Oral Suspension [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "582578",
+        "display" : "zanamivir 5 MG/ACTUAT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "582580",
+        "display" : "zanamivir 5 MG/ACTUAT [Relenza]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "619693",
+        "display" : "peramivir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "620",
+        "display" : "amantadine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "621",
+        "display" : "amantadine sulfate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "69722",
+        "display" : "zanamivir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "702116",
+        "display" : "amantadine Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728108",
+        "display" : "oseltamivir 30 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728109",
+        "display" : "oseltamivir 30 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728110",
+        "display" : "oseltamivir 30 MG [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728111",
+        "display" : "oseltamivir 30 MG Oral Capsule [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728112",
+        "display" : "oseltamivir 45 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728113",
+        "display" : "oseltamivir 45 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728114",
+        "display" : "oseltamivir 45 MG [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "728115",
+        "display" : "oseltamivir 45 MG Oral Capsule [Tamiflu]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "756780",
+        "display" : "rimantadine Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "759470",
+        "display" : "zanamivir Dry Powder Inhaler"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "759471",
+        "display" : "20 ACTUAT zanamivir 5 MG/ACTUAT Dry Powder Inhaler"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "759472",
+        "display" : "zanamivir Dry Powder Inhaler [Relenza]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "759473",
+        "display" : "20 ACTUAT zanamivir 5 MG/ACTUAT Dry Powder Inhaler [Relenza]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "82093",
+        "display" : "rimantadine hydrochloride"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849384",
+        "display" : "amantadine hydrochloride 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849385",
+        "display" : "amantadine hydrochloride 10 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849388",
+        "display" : "amantadine hydrochloride 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849389",
+        "display" : "amantadine hydrochloride 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "849395",
+        "display" : "amantadine hydrochloride 100 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856599",
+        "display" : "rimantadine hydrochloride 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856600",
+        "display" : "rimantadine hydrochloride 10 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856604",
+        "display" : "rimantadine hydrochloride 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856605",
+        "display" : "rimantadine hydrochloride 100 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856606",
+        "display" : "rimantadine hydrochloride 100 MG [Flumadine]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856607",
+        "display" : "rimantadine hydrochloride 100 MG Oral Tablet [Flumadine]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "876201",
+        "display" : "peramivir 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "876203",
+        "display" : "20 ML peramivir 10 MG/ML Injection [Rapivab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "9386",
+        "display" : "rimantadine"
+      }
+    ]
+  }
+}

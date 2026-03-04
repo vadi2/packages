@@ -1,0 +1,534 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.3157.1027",
+  "meta" : {
+    "versionId" : "33",
+    "lastUpdated" : "2025-07-19T01:08:56.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Acumen OP Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "AbdomenCT"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.3157.1027",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.3157.1027"
+    }
+  ],
+  "version" : "20250719",
+  "name" : "PancreaticDisorder",
+  "title" : "Pancreatic Disorder",
+  "status" : "active",
+  "date" : "2025-07-19T01:08:56-04:00",
+  "publisher" : "Acumen OP Steward",
+  "description" : "This value set is used to calculate OP-10 (Abdomen Computed Tomography (CT)—Use of Contrast Material), a claims-based measure used in the Centers for Medicare & Medicaid Services' Hospital Outpatient Quality Reporting (HOQR) Program. In calculation of OP-10, diagnoses of pancreatic disorders must appear on the abdomen CT claim to be excluded from the measure’s initial patient population.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains ICD-10 codes associated with other diseases of the pancreas, other than acute pancreatitis.),(Data Element Scope: The intent of this data element is to identify patients who have other diseases of the pancreas, aside from acute pancreatitis.),(Inclusion Criteria: ICD-10 codes associated with diseases of the pancreas, alcohol-induced chronic pancreatitis and other chronic pancreatitis are included in this value set.),(Exclusion Criteria: Acute pancreatitis is excluded from the value set. Codes captured in systems other than ICD-10 are also excluded from the value set.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "E08.641",
+            "display" : "Diabetes mellitus due to underlying condition with hypoglycemia with coma"
+          },
+          {
+            "code" : "E08.649",
+            "display" : "Diabetes mellitus due to underlying condition with hypoglycemia without coma"
+          },
+          {
+            "code" : "E09.641",
+            "display" : "Drug or chemical induced diabetes mellitus with hypoglycemia with coma"
+          },
+          {
+            "code" : "E09.649",
+            "display" : "Drug or chemical induced diabetes mellitus with hypoglycemia without coma"
+          },
+          {
+            "code" : "E10.641",
+            "display" : "Type 1 diabetes mellitus with hypoglycemia with coma"
+          },
+          {
+            "code" : "E10.649",
+            "display" : "Type 1 diabetes mellitus with hypoglycemia without coma"
+          },
+          {
+            "code" : "E10.A0",
+            "display" : "Type 1 diabetes mellitus, presymptomatic, unspecified"
+          },
+          {
+            "code" : "E10.A1",
+            "display" : "Type 1 diabetes mellitus, presymptomatic, Stage 1"
+          },
+          {
+            "code" : "E10.A2",
+            "display" : "Type 1 diabetes mellitus, presymptomatic, Stage 2"
+          },
+          {
+            "code" : "E11.641",
+            "display" : "Type 2 diabetes mellitus with hypoglycemia with coma"
+          },
+          {
+            "code" : "E11.649",
+            "display" : "Type 2 diabetes mellitus with hypoglycemia without coma"
+          },
+          {
+            "code" : "E13.641",
+            "display" : "Other specified diabetes mellitus with hypoglycemia with coma"
+          },
+          {
+            "code" : "E13.649",
+            "display" : "Other specified diabetes mellitus with hypoglycemia without coma"
+          },
+          {
+            "code" : "E15",
+            "display" : "Nondiabetic hypoglycemic coma"
+          },
+          {
+            "code" : "E16.0",
+            "display" : "Drug-induced hypoglycemia without coma"
+          },
+          {
+            "code" : "E16.1",
+            "display" : "Other hypoglycemia"
+          },
+          {
+            "code" : "E16.2",
+            "display" : "Hypoglycemia, unspecified"
+          },
+          {
+            "code" : "E16.A1",
+            "display" : "Hypoglycemia level 1"
+          },
+          {
+            "code" : "E16.A2",
+            "display" : "Hypoglycemia level 2"
+          },
+          {
+            "code" : "E16.A3",
+            "display" : "Hypoglycemia level 3"
+          },
+          {
+            "code" : "K85.0",
+            "display" : "Idiopathic acute pancreatitis"
+          },
+          {
+            "code" : "K85.00",
+            "display" : "Idiopathic acute pancreatitis without necrosis or infection"
+          },
+          {
+            "code" : "K85.01",
+            "display" : "Idiopathic acute pancreatitis with uninfected necrosis"
+          },
+          {
+            "code" : "K85.02",
+            "display" : "Idiopathic acute pancreatitis with infected necrosis"
+          },
+          {
+            "code" : "K85.1",
+            "display" : "Biliary acute pancreatitis"
+          },
+          {
+            "code" : "K85.10",
+            "display" : "Biliary acute pancreatitis without necrosis or infection"
+          },
+          {
+            "code" : "K85.11",
+            "display" : "Biliary acute pancreatitis with uninfected necrosis"
+          },
+          {
+            "code" : "K85.12",
+            "display" : "Biliary acute pancreatitis with infected necrosis"
+          },
+          {
+            "code" : "K85.2",
+            "display" : "Alcohol induced acute pancreatitis"
+          },
+          {
+            "code" : "K85.20",
+            "display" : "Alcohol induced acute pancreatitis without necrosis or infection"
+          },
+          {
+            "code" : "K85.21",
+            "display" : "Alcohol induced acute pancreatitis with uninfected necrosis"
+          },
+          {
+            "code" : "K85.22",
+            "display" : "Alcohol induced acute pancreatitis with infected necrosis"
+          },
+          {
+            "code" : "K85.3",
+            "display" : "Drug induced acute pancreatitis"
+          },
+          {
+            "code" : "K85.30",
+            "display" : "Drug induced acute pancreatitis without necrosis or infection"
+          },
+          {
+            "code" : "K85.31",
+            "display" : "Drug induced acute pancreatitis with uninfected necrosis"
+          },
+          {
+            "code" : "K85.32",
+            "display" : "Drug induced acute pancreatitis with infected necrosis"
+          },
+          {
+            "code" : "K85.8",
+            "display" : "Other acute pancreatitis"
+          },
+          {
+            "code" : "K85.80",
+            "display" : "Other acute pancreatitis without necrosis or infection"
+          },
+          {
+            "code" : "K85.81",
+            "display" : "Other acute pancreatitis with uninfected necrosis"
+          },
+          {
+            "code" : "K85.82",
+            "display" : "Other acute pancreatitis with infected necrosis"
+          },
+          {
+            "code" : "K85.9",
+            "display" : "Acute pancreatitis, unspecified"
+          },
+          {
+            "code" : "K85.90",
+            "display" : "Acute pancreatitis without necrosis or infection, unspecified"
+          },
+          {
+            "code" : "K85.91",
+            "display" : "Acute pancreatitis with uninfected necrosis, unspecified"
+          },
+          {
+            "code" : "K85.92",
+            "display" : "Acute pancreatitis with infected necrosis, unspecified"
+          },
+          {
+            "code" : "K86.0",
+            "display" : "Alcohol-induced chronic pancreatitis"
+          },
+          {
+            "code" : "K86.1",
+            "display" : "Other chronic pancreatitis"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:bf79f551-5b30-4886-844e-49c40fb62470",
+    "timestamp" : "2025-11-24T18:19:38-05:00",
+    "total" : 46,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E08.641",
+        "display" : "Diabetes mellitus due to underlying condition with hypoglycemia with coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E08.649",
+        "display" : "Diabetes mellitus due to underlying condition with hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E09.641",
+        "display" : "Drug or chemical induced diabetes mellitus with hypoglycemia with coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E09.649",
+        "display" : "Drug or chemical induced diabetes mellitus with hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E10.641",
+        "display" : "Type 1 diabetes mellitus with hypoglycemia with coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E10.649",
+        "display" : "Type 1 diabetes mellitus with hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E10.A0",
+        "display" : "Type 1 diabetes mellitus, presymptomatic, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E10.A1",
+        "display" : "Type 1 diabetes mellitus, presymptomatic, Stage 1"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E10.A2",
+        "display" : "Type 1 diabetes mellitus, presymptomatic, Stage 2"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E11.641",
+        "display" : "Type 2 diabetes mellitus with hypoglycemia with coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E11.649",
+        "display" : "Type 2 diabetes mellitus with hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E13.641",
+        "display" : "Other specified diabetes mellitus with hypoglycemia with coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E13.649",
+        "display" : "Other specified diabetes mellitus with hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E15",
+        "display" : "Nondiabetic hypoglycemic coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.0",
+        "display" : "Drug-induced hypoglycemia without coma"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.1",
+        "display" : "Other hypoglycemia"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.2",
+        "display" : "Hypoglycemia, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.A1",
+        "display" : "Hypoglycemia level 1"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.A2",
+        "display" : "Hypoglycemia level 2"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "E16.A3",
+        "display" : "Hypoglycemia level 3"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.0",
+        "display" : "Idiopathic acute pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.00",
+        "display" : "Idiopathic acute pancreatitis without necrosis or infection"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.01",
+        "display" : "Idiopathic acute pancreatitis with uninfected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.02",
+        "display" : "Idiopathic acute pancreatitis with infected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.1",
+        "display" : "Biliary acute pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.10",
+        "display" : "Biliary acute pancreatitis without necrosis or infection"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.11",
+        "display" : "Biliary acute pancreatitis with uninfected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.12",
+        "display" : "Biliary acute pancreatitis with infected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.2",
+        "display" : "Alcohol induced acute pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.20",
+        "display" : "Alcohol induced acute pancreatitis without necrosis or infection"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.21",
+        "display" : "Alcohol induced acute pancreatitis with uninfected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.22",
+        "display" : "Alcohol induced acute pancreatitis with infected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.3",
+        "display" : "Drug induced acute pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.30",
+        "display" : "Drug induced acute pancreatitis without necrosis or infection"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.31",
+        "display" : "Drug induced acute pancreatitis with uninfected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.32",
+        "display" : "Drug induced acute pancreatitis with infected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.8",
+        "display" : "Other acute pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.80",
+        "display" : "Other acute pancreatitis without necrosis or infection"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.81",
+        "display" : "Other acute pancreatitis with uninfected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.82",
+        "display" : "Other acute pancreatitis with infected necrosis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.9",
+        "display" : "Acute pancreatitis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.90",
+        "display" : "Acute pancreatitis without necrosis or infection, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.91",
+        "display" : "Acute pancreatitis with uninfected necrosis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K85.92",
+        "display" : "Acute pancreatitis with infected necrosis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K86.0",
+        "display" : "Alcohol-induced chronic pancreatitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "K86.1",
+        "display" : "Other chronic pancreatitis"
+      }
+    ]
+  }
+}

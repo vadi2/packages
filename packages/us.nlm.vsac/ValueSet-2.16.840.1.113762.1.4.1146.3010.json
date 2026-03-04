@@ -1,0 +1,603 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3010",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3010",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3010"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "VertigoSNOMED",
+  "title" : "Vertigo (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Vertigo regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Vertigo),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1010672007",
+            "display" : "Benign positional paroxysmal vertigo lateral canal (disorder)"
+          },
+          {
+            "code" : "1010673002",
+            "display" : "Benign positional paroxysmal vertigo posterior canal (disorder)"
+          },
+          {
+            "code" : "103017008",
+            "display" : "Postural dizziness (finding)"
+          },
+          {
+            "code" : "103018003",
+            "display" : "Exertional dizziness (finding)"
+          },
+          {
+            "code" : "103282003",
+            "display" : "Essential vertigo (finding)"
+          },
+          {
+            "code" : "103284002",
+            "display" : "Positional vertigo (finding)"
+          },
+          {
+            "code" : "103286000",
+            "display" : "Horizontal vertigo (finding)"
+          },
+          {
+            "code" : "103287009",
+            "display" : "Vertigo on awakening (finding)"
+          },
+          {
+            "code" : "103288004",
+            "display" : "Vertical vertigo (finding)"
+          },
+          {
+            "code" : "103290003",
+            "display" : "Paroxysmal vertigo (finding)"
+          },
+          {
+            "code" : "103291004",
+            "display" : "Intermittent vertigo (finding)"
+          },
+          {
+            "code" : "103292006",
+            "display" : "Constant vertigo (finding)"
+          },
+          {
+            "code" : "103293001",
+            "display" : "Persistent postural perceptual dizziness (finding)"
+          },
+          {
+            "code" : "103296009",
+            "display" : "Vertigo preceded by chewing (finding)"
+          },
+          {
+            "code" : "103298005",
+            "display" : "Severe vertigo (finding)"
+          },
+          {
+            "code" : "103299002",
+            "display" : "Severe vertigo, acute onset (finding)"
+          },
+          {
+            "code" : "103300005",
+            "display" : "Vertigo preceded by unsteady feeling (finding)"
+          },
+          {
+            "code" : "103301009",
+            "display" : "Vertigo, acute onset with vomiting and inability to stand (finding)"
+          },
+          {
+            "code" : "103302002",
+            "display" : "Vertigo when trying to urinate (finding)"
+          },
+          {
+            "code" : "111541001",
+            "display" : "Benign paroxysmal positional vertigo (disorder)"
+          },
+          {
+            "code" : "12151000119105",
+            "display" : "Chronic vertigo (finding)"
+          },
+          {
+            "code" : "15177007",
+            "display" : "Apoplectic vertigo (finding)"
+          },
+          {
+            "code" : "186738001",
+            "display" : "Epidemic vertigo (disorder)"
+          },
+          {
+            "code" : "18871009",
+            "display" : "Cerebellar vertigo (disorder)"
+          },
+          {
+            "code" : "194361002",
+            "display" : "Malignant positional vertigo (disorder)"
+          },
+          {
+            "code" : "232285008",
+            "display" : "Benign recurrent vertigo (disorder)"
+          },
+          {
+            "code" : "232286009",
+            "display" : "Syncopal vertigo (disorder)"
+          },
+          {
+            "code" : "232288005",
+            "display" : "Vertebrobasilar ischemic vertigo (disorder)"
+          },
+          {
+            "code" : "232289002",
+            "display" : "Multisensory dizziness (disorder)"
+          },
+          {
+            "code" : "271789005",
+            "display" : "Dizziness and giddiness (finding)"
+          },
+          {
+            "code" : "277491009",
+            "display" : "Peripheral positional vertigo (disorder)"
+          },
+          {
+            "code" : "301848005",
+            "display" : "Viral epidemic vertigo (disorder)"
+          },
+          {
+            "code" : "361270009",
+            "display" : "Episodic recurrent vertigo (disorder)"
+          },
+          {
+            "code" : "38403006",
+            "display" : "Vertigo of central origin (disorder)"
+          },
+          {
+            "code" : "399090003",
+            "display" : "Subjective vertigo (finding)"
+          },
+          {
+            "code" : "399153001",
+            "display" : "Vertigo (finding)"
+          },
+          {
+            "code" : "404640003",
+            "display" : "Dizziness (finding)"
+          },
+          {
+            "code" : "407645004",
+            "display" : "Dizziness on standing up (finding)"
+          },
+          {
+            "code" : "429530004",
+            "display" : "Dizziness of unknown cause (finding)"
+          },
+          {
+            "code" : "449834008",
+            "display" : "Lateral vertigo (finding)"
+          },
+          {
+            "code" : "449835009",
+            "display" : "Nocturnal vertigo (finding)"
+          },
+          {
+            "code" : "50041000",
+            "display" : "Objective vertigo (finding)"
+          },
+          {
+            "code" : "50438001",
+            "display" : "Peripheral vertigo (disorder)"
+          },
+          {
+            "code" : "50611000119105",
+            "display" : "Non-labyrinthine vertigo (disorder)"
+          },
+          {
+            "code" : "51568001",
+            "display" : "Brain stem vertigo (disorder)"
+          },
+          {
+            "code" : "63024004",
+            "display" : "Alternobaric vertigo (disorder)"
+          },
+          {
+            "code" : "68761002",
+            "display" : "Epileptic vertigo (disorder)"
+          },
+          {
+            "code" : "69017006",
+            "display" : "Cortical vertigo (disorder)"
+          },
+          {
+            "code" : "71305001",
+            "display" : "Benign paroxysmal vertigo of childhood (disorder)"
+          },
+          {
+            "code" : "762244004",
+            "display" : "Dizziness following neck extension (finding)"
+          },
+          {
+            "code" : "78977005",
+            "display" : "Ocular vertigo (finding)"
+          },
+          {
+            "code" : "84769001",
+            "display" : "Cervical vertigo (disorder)"
+          },
+          {
+            "code" : "95815000",
+            "display" : "Central positional vertigo (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d81a3bec-9b5f-4bbf-9871-954239aa792b",
+    "timestamp" : "2025-11-24T13:50:13-05:00",
+    "total" : 53,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010672007",
+        "display" : "Benign positional paroxysmal vertigo lateral canal (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010673002",
+        "display" : "Benign positional paroxysmal vertigo posterior canal (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103017008",
+        "display" : "Postural dizziness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103018003",
+        "display" : "Exertional dizziness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103282003",
+        "display" : "Essential vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103284002",
+        "display" : "Positional vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103286000",
+        "display" : "Horizontal vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103287009",
+        "display" : "Vertigo on awakening (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103288004",
+        "display" : "Vertical vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103290003",
+        "display" : "Paroxysmal vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103291004",
+        "display" : "Intermittent vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103292006",
+        "display" : "Constant vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103293001",
+        "display" : "Persistent postural perceptual dizziness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103296009",
+        "display" : "Vertigo preceded by chewing (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103298005",
+        "display" : "Severe vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103299002",
+        "display" : "Severe vertigo, acute onset (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103300005",
+        "display" : "Vertigo preceded by unsteady feeling (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103301009",
+        "display" : "Vertigo, acute onset with vomiting and inability to stand (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "103302002",
+        "display" : "Vertigo when trying to urinate (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111541001",
+        "display" : "Benign paroxysmal positional vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12151000119105",
+        "display" : "Chronic vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15177007",
+        "display" : "Apoplectic vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "186738001",
+        "display" : "Epidemic vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18871009",
+        "display" : "Cerebellar vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194361002",
+        "display" : "Malignant positional vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232285008",
+        "display" : "Benign recurrent vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232286009",
+        "display" : "Syncopal vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232288005",
+        "display" : "Vertebrobasilar ischemic vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232289002",
+        "display" : "Multisensory dizziness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271789005",
+        "display" : "Dizziness and giddiness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277491009",
+        "display" : "Peripheral positional vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301848005",
+        "display" : "Viral epidemic vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "361270009",
+        "display" : "Episodic recurrent vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "38403006",
+        "display" : "Vertigo of central origin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399090003",
+        "display" : "Subjective vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399153001",
+        "display" : "Vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404640003",
+        "display" : "Dizziness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "407645004",
+        "display" : "Dizziness on standing up (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429530004",
+        "display" : "Dizziness of unknown cause (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449834008",
+        "display" : "Lateral vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449835009",
+        "display" : "Nocturnal vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50041000",
+        "display" : "Objective vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50438001",
+        "display" : "Peripheral vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50611000119105",
+        "display" : "Non-labyrinthine vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51568001",
+        "display" : "Brain stem vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63024004",
+        "display" : "Alternobaric vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68761002",
+        "display" : "Epileptic vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "69017006",
+        "display" : "Cortical vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71305001",
+        "display" : "Benign paroxysmal vertigo of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762244004",
+        "display" : "Dizziness following neck extension (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78977005",
+        "display" : "Ocular vertigo (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84769001",
+        "display" : "Cervical vertigo (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95815000",
+        "display" : "Central positional vertigo (disorder)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.24",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-28T01:02:36.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.24",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.24"
+    }
+  ],
+  "version" : "20250928",
+  "name" : "CellBasedGeneTherapyForSickleCellDisease",
+  "title" : "Cell based gene therapy for sickle cell disease",
+  "status" : "active",
+  "date" : "2025-09-28T01:02:36-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Cell-based gene therapies for sickle cell disease (SCD)),(Data Element Scope: Codes to identify therapies which use gene editing or gene addition),(Inclusion Criteria: HCPCS codes to identify therapies which use gene editing or gene addition),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "concept" : [
+          {
+            "code" : "J3392",
+            "display" : "Injection, exagamglogene autotemcel, per treatment"
+          },
+          {
+            "code" : "J3394",
+            "display" : "Injection, lovotibeglogene autotemcel, per treatment"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5f277a07-387c-4761-b35b-f3cf6873f85e",
+    "timestamp" : "2025-11-24T16:58:46-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "J3392",
+        "display" : "Injection, exagamglogene autotemcel, per treatment"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "J3394",
+        "display" : "Injection, lovotibeglogene autotemcel, per treatment"
+      }
+    ]
+  }
+}

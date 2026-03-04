@@ -1,0 +1,373 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2973",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2973",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2973"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "TinnitusSNOMED",
+  "title" : "Tinnitus (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Tinnitus regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Tinnitus),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1084191000119105",
+            "display" : "Objective pulsatile tinnitus of bilateral ears (disorder)"
+          },
+          {
+            "code" : "1084201000119108",
+            "display" : "Objective tinnitus of bilateral ears (finding)"
+          },
+          {
+            "code" : "1084621000119102",
+            "display" : "Subjective pulsatile tinnitus of bilateral ears (disorder)"
+          },
+          {
+            "code" : "1084631000119104",
+            "display" : "Subjective tinnitus of bilateral ears (finding)"
+          },
+          {
+            "code" : "1089261000119105",
+            "display" : "Objective pulsatile tinnitus of left ear (disorder)"
+          },
+          {
+            "code" : "1089271000119104",
+            "display" : "Objective tinnitus of left ear (finding)"
+          },
+          {
+            "code" : "1089621000119103",
+            "display" : "Subjective pulsatile tinnitus of left ear (disorder)"
+          },
+          {
+            "code" : "1089631000119100",
+            "display" : "Subjective tinnitus of left ear (finding)"
+          },
+          {
+            "code" : "1091871000119103",
+            "display" : "Objective pulsatile tinnitus of right ear (disorder)"
+          },
+          {
+            "code" : "1091881000119100",
+            "display" : "Objective tinnitus of right ear (finding)"
+          },
+          {
+            "code" : "1092231000119108",
+            "display" : "Subjective pulsatile tinnitus of right ear (disorder)"
+          },
+          {
+            "code" : "1092241000119104",
+            "display" : "Subjective tinnitus of right ear (finding)"
+          },
+          {
+            "code" : "117411000119106",
+            "display" : "Objective pulsatile tinnitus (disorder)"
+          },
+          {
+            "code" : "117421000119104",
+            "display" : "Subjective pulsatile tinnitus (disorder)"
+          },
+          {
+            "code" : "232319009",
+            "display" : "Tinnitus of muscular origin (disorder)"
+          },
+          {
+            "code" : "232320003",
+            "display" : "Tinnitus arising from tensor tympani (disorder)"
+          },
+          {
+            "code" : "232321004",
+            "display" : "Tinnitus arising from tensor palatini (disorder)"
+          },
+          {
+            "code" : "232322006",
+            "display" : "Tinnitus of vascular origin (disorder)"
+          },
+          {
+            "code" : "28715001",
+            "display" : "Objective tinnitus (finding)"
+          },
+          {
+            "code" : "4831000119102",
+            "display" : "Bilateral tinnitus (finding)"
+          },
+          {
+            "code" : "4841000119106",
+            "display" : "Tinnitus of left ear (finding)"
+          },
+          {
+            "code" : "4851000119108",
+            "display" : "Tinnitus of right ear (finding)"
+          },
+          {
+            "code" : "60862001",
+            "display" : "Tinnitus (finding)"
+          },
+          {
+            "code" : "62452009",
+            "display" : "Subjective tinnitus (finding)"
+          },
+          {
+            "code" : "866003005",
+            "display" : "Tonal tinnitus (finding)"
+          },
+          {
+            "code" : "95822008",
+            "display" : "Clicking tinnitus (finding)"
+          },
+          {
+            "code" : "95823003",
+            "display" : "Leudet's tinnitus (disorder)"
+          },
+          {
+            "code" : "95824009",
+            "display" : "Nervous tinnitus (finding)"
+          },
+          {
+            "code" : "95825005",
+            "display" : "Non-vibratory tinnitus (finding)"
+          },
+          {
+            "code" : "95826006",
+            "display" : "Vibratory tinnitus (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d8c20a91-8725-4379-94fb-dfec86f8b07b",
+    "timestamp" : "2025-11-24T13:48:26-05:00",
+    "total" : 30,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1084191000119105",
+        "display" : "Objective pulsatile tinnitus of bilateral ears (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1084201000119108",
+        "display" : "Objective tinnitus of bilateral ears (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1084621000119102",
+        "display" : "Subjective pulsatile tinnitus of bilateral ears (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1084631000119104",
+        "display" : "Subjective tinnitus of bilateral ears (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1089261000119105",
+        "display" : "Objective pulsatile tinnitus of left ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1089271000119104",
+        "display" : "Objective tinnitus of left ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1089621000119103",
+        "display" : "Subjective pulsatile tinnitus of left ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1089631000119100",
+        "display" : "Subjective tinnitus of left ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1091871000119103",
+        "display" : "Objective pulsatile tinnitus of right ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1091881000119100",
+        "display" : "Objective tinnitus of right ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1092231000119108",
+        "display" : "Subjective pulsatile tinnitus of right ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1092241000119104",
+        "display" : "Subjective tinnitus of right ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117411000119106",
+        "display" : "Objective pulsatile tinnitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "117421000119104",
+        "display" : "Subjective pulsatile tinnitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232319009",
+        "display" : "Tinnitus of muscular origin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232320003",
+        "display" : "Tinnitus arising from tensor tympani (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232321004",
+        "display" : "Tinnitus arising from tensor palatini (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232322006",
+        "display" : "Tinnitus of vascular origin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28715001",
+        "display" : "Objective tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4831000119102",
+        "display" : "Bilateral tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4841000119106",
+        "display" : "Tinnitus of left ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4851000119108",
+        "display" : "Tinnitus of right ear (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60862001",
+        "display" : "Tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62452009",
+        "display" : "Subjective tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "866003005",
+        "display" : "Tonal tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95822008",
+        "display" : "Clicking tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95823003",
+        "display" : "Leudet's tinnitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95824009",
+        "display" : "Nervous tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95825005",
+        "display" : "Non-vibratory tinnitus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95826006",
+        "display" : "Vibratory tinnitus (finding)"
+      }
+    ]
+  }
+}

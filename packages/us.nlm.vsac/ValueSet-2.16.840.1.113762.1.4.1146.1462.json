@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1462",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2025-02-18T01:09:30.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MRSA,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-02-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-02-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1462",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1462"
+    }
+  ],
+  "version" : "20250218",
+  "name" : "StaphylococcusAureusTestsForStaphAureusNucleicAcidInBlood",
+  "title" : "Staphylococcus aureus (Tests for Staph aureus Nucleic Acid in Blood)",
+  "status" : "active",
+  "date" : "2025-02-18T01:09:31-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of  Staphylococcus aureus nucleic acid in blood),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Staphylococcus aureus nucleic acid in blood),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "105796-7",
+            "display" : "Staphylococcus aureus DNA [Cycle Threshold #] in Positive blood culture by NAA with probe detection"
+          },
+          {
+            "code" : "73558-9",
+            "display" : "Staphylococcus aureus and Staphylococcus sp.coagulase negative rRNA [Identifier] by FISH in Positive blood culture"
+          },
+          {
+            "code" : "85765-6",
+            "display" : "Staphylococcus aureus DNA [Presence] by NAA with non-probe detection in Positive blood culture"
+          },
+          {
+            "code" : "88269-6",
+            "display" : "Staphylococcus aureus gyrB gene [Presence] by Probe in Positive blood culture"
+          },
+          {
+            "code" : "92777-2",
+            "display" : "Staphylococcus aureus DNA [Presence] by NAA with probe detection in Positive blood culture"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e64997d6-7910-4c35-8636-34d1db3647ad",
+    "timestamp" : "2025-11-24T12:51:40-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "105796-7",
+        "display" : "Staphylococcus aureus DNA [Cycle Threshold #] in Positive blood culture by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "73558-9",
+        "display" : "Staphylococcus aureus and Staphylococcus sp.coagulase negative rRNA [Identifier] by FISH in Positive blood culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "85765-6",
+        "display" : "Staphylococcus aureus DNA [Presence] by NAA with non-probe detection in Positive blood culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "88269-6",
+        "display" : "Staphylococcus aureus gyrB gene [Presence] by Probe in Positive blood culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "92777-2",
+        "display" : "Staphylococcus aureus DNA [Presence] by NAA with probe detection in Positive blood culture"
+      }
+    ]
+  }
+}

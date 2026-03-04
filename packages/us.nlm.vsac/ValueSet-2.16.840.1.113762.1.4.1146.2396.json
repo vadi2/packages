@@ -1,0 +1,263 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2396",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2396",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2396"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "AtaxiaSNOMED",
+  "title" : "Ataxia (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Ataxia regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Ataxia),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "11145003",
+            "display" : "Single limb ataxia (finding)"
+          },
+          {
+            "code" : "1231201006",
+            "display" : "Optic ataxia (disorder)"
+          },
+          {
+            "code" : "192874000",
+            "display" : "Cerebellar ataxia associated with another disorder (disorder)"
+          },
+          {
+            "code" : "20262006",
+            "display" : "Ataxia (finding)"
+          },
+          {
+            "code" : "230234006",
+            "display" : "Periodic ataxia (disorder)"
+          },
+          {
+            "code" : "250048009",
+            "display" : "Frontal ataxia (finding)"
+          },
+          {
+            "code" : "250067008",
+            "display" : "Truncal ataxia (finding)"
+          },
+          {
+            "code" : "28634005",
+            "display" : "Cerebral ataxia (disorder)"
+          },
+          {
+            "code" : "29941000119105",
+            "display" : "Ataxia as sequela of cerebrovascular disease (disorder)"
+          },
+          {
+            "code" : "3756000",
+            "display" : "Static ataxia (finding)"
+          },
+          {
+            "code" : "437901000124108",
+            "display" : "Intermittent ataxia (finding)"
+          },
+          {
+            "code" : "445458007",
+            "display" : "Sensory ataxia (finding)"
+          },
+          {
+            "code" : "59546009",
+            "display" : "Motor ataxia (finding)"
+          },
+          {
+            "code" : "698036008",
+            "display" : "Oral motor ataxia (finding)"
+          },
+          {
+            "code" : "722968003",
+            "display" : "Acquired ataxia (disorder)"
+          },
+          {
+            "code" : "734023003",
+            "display" : "Sporadic adult-onset ataxia of unknown etiology (disorder)"
+          },
+          {
+            "code" : "830119000",
+            "display" : "Ataxia of bilateral lower limbs (finding)"
+          },
+          {
+            "code" : "830120006",
+            "display" : "Ataxia of bilateral upper limbs (finding)"
+          },
+          {
+            "code" : "85102008",
+            "display" : "Cerebellar ataxia (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:849d9f63-a5e1-488b-b163-0ac6cfa0e2c1",
+    "timestamp" : "2025-11-24T13:21:25-05:00",
+    "total" : 19,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11145003",
+        "display" : "Single limb ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231201006",
+        "display" : "Optic ataxia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "192874000",
+        "display" : "Cerebellar ataxia associated with another disorder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "20262006",
+        "display" : "Ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230234006",
+        "display" : "Periodic ataxia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "250048009",
+        "display" : "Frontal ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "250067008",
+        "display" : "Truncal ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28634005",
+        "display" : "Cerebral ataxia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29941000119105",
+        "display" : "Ataxia as sequela of cerebrovascular disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3756000",
+        "display" : "Static ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "437901000124108",
+        "display" : "Intermittent ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445458007",
+        "display" : "Sensory ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "59546009",
+        "display" : "Motor ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698036008",
+        "display" : "Oral motor ataxia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722968003",
+        "display" : "Acquired ataxia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "734023003",
+        "display" : "Sporadic adult-onset ataxia of unknown etiology (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "830119000",
+        "display" : "Ataxia of bilateral lower limbs (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "830120006",
+        "display" : "Ataxia of bilateral upper limbs (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "85102008",
+        "display" : "Cerebellar ataxia (disorder)"
+      }
+    ]
+  }
+}

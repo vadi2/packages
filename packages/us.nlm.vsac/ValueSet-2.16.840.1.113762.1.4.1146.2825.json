@@ -1,0 +1,636 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2825",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2825",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2825"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "MiddleEastRespiratorySyndromeMERSAdditionalContextSymptomCodesSNOMED",
+  "title" : "Middle East Respiratory Syndrome (MERS) Additional Context Symptom Codes (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Middle East Respiratory Syndrome (MERS) Additional Context Symptom Codes),(Data Element Scope: Middle East Respiratory Syndrome (MERS) Additional Context Symptom Codes),(Inclusion Criteria: Middle East Respiratory Syndrome (MERS) Additional Context Symptom Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "102613000",
+            "display" : "Localized abdominal pain (finding)"
+          },
+          {
+            "code" : "102614006",
+            "display" : "Generalized abdominal pain (finding)"
+          },
+          {
+            "code" : "111843007",
+            "display" : "Viral gastroenteritis (disorder)"
+          },
+          {
+            "code" : "111985007",
+            "display" : "Chronic abdominal pain (finding)"
+          },
+          {
+            "code" : "116290004",
+            "display" : "Acute abdominal pain (finding)"
+          },
+          {
+            "code" : "128333008",
+            "display" : "Diarrheal disorder (disorder)"
+          },
+          {
+            "code" : "13791008",
+            "display" : "Asthenia (finding)"
+          },
+          {
+            "code" : "1532007",
+            "display" : "Viral pharyngitis (disorder)"
+          },
+          {
+            "code" : "162042000",
+            "display" : "Abdominal wall pain (finding)"
+          },
+          {
+            "code" : "162046002",
+            "display" : "Central abdominal pain (finding)"
+          },
+          {
+            "code" : "162397003",
+            "display" : "Pain in throat (finding)"
+          },
+          {
+            "code" : "164623002",
+            "display" : "On examination - a rash (disorder)"
+          },
+          {
+            "code" : "16932000",
+            "display" : "Nausea and vomiting (disorder)"
+          },
+          {
+            "code" : "19213003",
+            "display" : "Infectious diarrheal disease (disorder)"
+          },
+          {
+            "code" : "207205003",
+            "display" : "[D]Abdominal pain (situation)"
+          },
+          {
+            "code" : "21522001",
+            "display" : "Abdominal pain (finding)"
+          },
+          {
+            "code" : "236071009",
+            "display" : "Chronic diarrhea (disorder)"
+          },
+          {
+            "code" : "249519007",
+            "display" : "Diarrhea and vomiting (finding)"
+          },
+          {
+            "code" : "25064002",
+            "display" : "Headache (finding)"
+          },
+          {
+            "code" : "267060006",
+            "display" : "Diarrhea symptom (finding)"
+          },
+          {
+            "code" : "267101005",
+            "display" : "Nasal discharge present (situation)"
+          },
+          {
+            "code" : "267102003",
+            "display" : "Sore throat (finding)"
+          },
+          {
+            "code" : "271807003",
+            "display" : "Eruption of skin (disorder)"
+          },
+          {
+            "code" : "271832001",
+            "display" : "Flatulence, eructation and gas pain (finding)"
+          },
+          {
+            "code" : "275297005",
+            "display" : "Diarrhea and vomiting, symptom (finding)"
+          },
+          {
+            "code" : "285387005",
+            "display" : "Left sided abdominal pain (finding)"
+          },
+          {
+            "code" : "285388000",
+            "display" : "Right sided abdominal pain (finding)"
+          },
+          {
+            "code" : "2919008",
+            "display" : "Nausea, vomiting and diarrhea (disorder)"
+          },
+          {
+            "code" : "29857009",
+            "display" : "Chest pain (finding)"
+          },
+          {
+            "code" : "300359004",
+            "display" : "Finding of vomiting (finding)"
+          },
+          {
+            "code" : "301232003",
+            "display" : "Lesion of lung (disorder)"
+          },
+          {
+            "code" : "314212008",
+            "display" : "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code" : "36955009",
+            "display" : "Loss of taste (finding)"
+          },
+          {
+            "code" : "37796009",
+            "display" : "Migraine (disorder)"
+          },
+          {
+            "code" : "38880002",
+            "display" : "Rigor (finding)"
+          },
+          {
+            "code" : "398057008",
+            "display" : "Tension-type headache (disorder)"
+          },
+          {
+            "code" : "409587002",
+            "display" : "Severe diarrhea (finding)"
+          },
+          {
+            "code" : "409966000",
+            "display" : "Acute diarrhea (disorder)"
+          },
+          {
+            "code" : "422400008",
+            "display" : "Vomiting (disorder)"
+          },
+          {
+            "code" : "422587007",
+            "display" : "Nausea (finding)"
+          },
+          {
+            "code" : "43724002",
+            "display" : "Chill (finding)"
+          },
+          {
+            "code" : "438506002",
+            "display" : "Visceral abdominal pain (finding)"
+          },
+          {
+            "code" : "44169009",
+            "display" : "Loss of sense of smell (finding)"
+          },
+          {
+            "code" : "45979003",
+            "display" : "Abdominal wind pain (finding)"
+          },
+          {
+            "code" : "54586004",
+            "display" : "Lower abdominal pain (finding)"
+          },
+          {
+            "code" : "56018004",
+            "display" : "Wheezing (finding)"
+          },
+          {
+            "code" : "62315008",
+            "display" : "Diarrhea (finding)"
+          },
+          {
+            "code" : "64531003",
+            "display" : "Nasal discharge (finding)"
+          },
+          {
+            "code" : "68235000",
+            "display" : "Nasal congestion (finding)"
+          },
+          {
+            "code" : "68962001",
+            "display" : "Muscle pain (finding)"
+          },
+          {
+            "code" : "725119006",
+            "display" : "Generalized rash (disorder)"
+          },
+          {
+            "code" : "82297005",
+            "display" : "Congestion of nasal sinus (disorder)"
+          },
+          {
+            "code" : "82991003",
+            "display" : "Generalized aches and pains (finding)"
+          },
+          {
+            "code" : "83132003",
+            "display" : "Upper abdominal pain (finding)"
+          },
+          {
+            "code" : "84229001",
+            "display" : "Fatigue (finding)"
+          },
+          {
+            "code" : "95544006",
+            "display" : "Inflammatory diarrhea (disorder)"
+          },
+          {
+            "code" : "95545007",
+            "display" : "Hemorrhagic diarrhea (disorder)"
+          },
+          {
+            "code" : "95891005",
+            "display" : "Influenza-like illness (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:952f0de0-c28a-48aa-82d3-933bcd847c23",
+    "timestamp" : "2025-11-24T13:39:50-05:00",
+    "total" : 55,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102613000",
+        "display" : "Localized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102614006",
+        "display" : "Generalized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111843007",
+        "display" : "Viral gastroenteritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111985007",
+        "display" : "Chronic abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116290004",
+        "display" : "Acute abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128333008",
+        "display" : "Diarrheal disorder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13791008",
+        "display" : "Asthenia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1532007",
+        "display" : "Viral pharyngitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162042000",
+        "display" : "Abdominal wall pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162046002",
+        "display" : "Central abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162397003",
+        "display" : "Pain in throat (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16932000",
+        "display" : "Nausea and vomiting (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19213003",
+        "display" : "Infectious diarrheal disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21522001",
+        "display" : "Abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236071009",
+        "display" : "Chronic diarrhea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "249519007",
+        "display" : "Diarrhea and vomiting (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25064002",
+        "display" : "Headache (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "267060006",
+        "display" : "Diarrhea symptom (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "267101005",
+        "display" : "Nasal discharge present (situation)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "267102003",
+        "display" : "Sore throat (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271807003",
+        "display" : "Eruption of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271832001",
+        "display" : "Flatulence, eructation and gas pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285387005",
+        "display" : "Left sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285388000",
+        "display" : "Right sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2919008",
+        "display" : "Nausea, vomiting and diarrhea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29857009",
+        "display" : "Chest pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "300359004",
+        "display" : "Finding of vomiting (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301232003",
+        "display" : "Lesion of lung (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314212008",
+        "display" : "Abdominal pain - cause unknown (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36955009",
+        "display" : "Loss of taste (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37796009",
+        "display" : "Migraine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "38880002",
+        "display" : "Rigor (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398057008",
+        "display" : "Tension-type headache (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "409587002",
+        "display" : "Severe diarrhea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "409966000",
+        "display" : "Acute diarrhea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422400008",
+        "display" : "Vomiting (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422587007",
+        "display" : "Nausea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43724002",
+        "display" : "Chill (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438506002",
+        "display" : "Visceral abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44169009",
+        "display" : "Loss of sense of smell (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45979003",
+        "display" : "Abdominal wind pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54586004",
+        "display" : "Lower abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56018004",
+        "display" : "Wheezing (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62315008",
+        "display" : "Diarrhea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64531003",
+        "display" : "Nasal discharge (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68235000",
+        "display" : "Nasal congestion (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68962001",
+        "display" : "Muscle pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "725119006",
+        "display" : "Generalized rash (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82297005",
+        "display" : "Congestion of nasal sinus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82991003",
+        "display" : "Generalized aches and pains (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83132003",
+        "display" : "Upper abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84229001",
+        "display" : "Fatigue (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95544006",
+        "display" : "Inflammatory diarrhea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95545007",
+        "display" : "Hemorrhagic diarrhea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95891005",
+        "display" : "Influenza-like illness (finding)"
+      }
+    ]
+  }
+}

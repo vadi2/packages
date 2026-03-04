@@ -1,0 +1,130 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.9",
+  "meta" : {
+    "versionId" : "8",
+    "lastUpdated" : "2025-09-24T01:12:06.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-24"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.9",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.9"
+    }
+  ],
+  "version" : "20250924",
+  "name" : "NewbornSickleCellDisease",
+  "title" : "Newborn Sickle Cell Disease",
+  "status" : "active",
+  "date" : "2025-09-24T01:12:06-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Diagnoses or problems that represent a newborn or infant patient has Sickle Cell Anemia regardless of the clinical presentation of the condition.),(Data Element Scope: Documented diagnoses of Sickle Cell Disease (SCD)),(Inclusion Criteria: Codes indicative of Sickle Cell Anemia),(Exclusion Criteria: Codes associated with Sickle Cell Crisis)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "D57.00",
+            "display" : "Hb-SS disease with crisis, unspecified"
+          },
+          {
+            "code" : "D57.01",
+            "display" : "Hb-SS disease with acute chest syndrome"
+          },
+          {
+            "code" : "D57.02",
+            "display" : "Hb-SS disease with splenic sequestration"
+          },
+          {
+            "code" : "D57.03",
+            "display" : "Hb-SS disease with cerebral vascular involvement"
+          },
+          {
+            "code" : "D57.04",
+            "display" : "Hb-SS disease with dactylitis"
+          },
+          {
+            "code" : "D57.09",
+            "display" : "Hb-SS disease with crisis with other specified complication"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5127f9c3-5a13-4533-9331-d9b3c0ec19f6",
+    "timestamp" : "2025-11-24T16:59:12-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.00",
+        "display" : "Hb-SS disease with crisis, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.01",
+        "display" : "Hb-SS disease with acute chest syndrome"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.02",
+        "display" : "Hb-SS disease with splenic sequestration"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.03",
+        "display" : "Hb-SS disease with cerebral vascular involvement"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.04",
+        "display" : "Hb-SS disease with dactylitis"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "D57.09",
+        "display" : "Hb-SS disease with crisis with other specified complication"
+      }
+    ]
+  }
+}

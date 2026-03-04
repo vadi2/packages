@@ -1,0 +1,213 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2591",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Candidemia,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2591",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2591"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CandidemiaTestsForCandidaSpeciesNucleicAcidInBloodOrSerum",
+  "title" : "Candidemia (Tests for Candida species Nucleic Acid in Blood or Serum)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Candida species Nucleic Acid in Blood or Serum),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Candida species Nucleic Acid in Blood or Serum),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "101120-4",
+            "display" : "Candida glabrata+krusei DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "101121-2",
+            "display" : "Candida albicans and tropicalis DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "10650-0",
+            "display" : "Candida sp DNA [Presence] in Blood by Probe with amplification"
+          },
+          {
+            "code" : "70022-9",
+            "display" : "Candida albicans DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "70023-7",
+            "display" : "Candida tropicalis DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "70024-5",
+            "display" : "Candida parapsilosis DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "70025-2",
+            "display" : "Candida krusei DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "70026-0",
+            "display" : "Candida glabrata DNA [Presence] in Blood by NAA with probe detection"
+          },
+          {
+            "code" : "90806-1",
+            "display" : "Candida albicans DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code" : "90807-9",
+            "display" : "Candida glabrata DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code" : "90808-7",
+            "display" : "Candida krusei DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code" : "90809-5",
+            "display" : "Candida parapsilosis DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code" : "90810-3",
+            "display" : "Candida tropicalis DNA [Presence] in Serum by NAA with probe detection"
+          },
+          {
+            "code" : "95766-2",
+            "display" : "Candida auris DNA [Presence] in Blood by NAA with non-probe detection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:10b1776f-58c1-4d5f-a598-e9df919177ae",
+    "timestamp" : "2025-11-24T13:30:13-05:00",
+    "total" : 14,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101120-4",
+        "display" : "Candida glabrata+krusei DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101121-2",
+        "display" : "Candida albicans and tropicalis DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "10650-0",
+        "display" : "Candida sp DNA [Presence] in Blood by Probe with amplification"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70022-9",
+        "display" : "Candida albicans DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70023-7",
+        "display" : "Candida tropicalis DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70024-5",
+        "display" : "Candida parapsilosis DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70025-2",
+        "display" : "Candida krusei DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70026-0",
+        "display" : "Candida glabrata DNA [Presence] in Blood by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90806-1",
+        "display" : "Candida albicans DNA [Presence] in Serum by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90807-9",
+        "display" : "Candida glabrata DNA [Presence] in Serum by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90808-7",
+        "display" : "Candida krusei DNA [Presence] in Serum by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90809-5",
+        "display" : "Candida parapsilosis DNA [Presence] in Serum by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90810-3",
+        "display" : "Candida tropicalis DNA [Presence] in Serum by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95766-2",
+        "display" : "Candida auris DNA [Presence] in Blood by NAA with non-probe detection"
+      }
+    ]
+  }
+}

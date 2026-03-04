@@ -1,0 +1,471 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1289",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1289",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1289"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "TotalNephrectomy",
+  "title" : "Total Nephrectomy",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for total nephrectomy.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a total nephrectomy.),(Exclusion Criteria: Partial Nephrectomy.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1017216005",
+            "display" : "Laparoscopic total excision of right kidney (procedure)"
+          },
+          {
+            "code" : "1017217001",
+            "display" : "Laparoscopic total excision of left kidney (procedure)"
+          },
+          {
+            "code" : "1017218006",
+            "display" : "Laparoscopic total excision of left kidney via retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "1017219003",
+            "display" : "Laparoscopic total excision of right kidney via retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "116033007",
+            "display" : "Radical nephrectomy (procedure)"
+          },
+          {
+            "code" : "116166009",
+            "display" : "Radical nephrectomy AND ipsilateral adrenalectomy (procedure)"
+          },
+          {
+            "code" : "1289993008",
+            "display" : "Laparoscopic radical excision of kidney by retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "12976005",
+            "display" : "Donor nephrectomy (procedure)"
+          },
+          {
+            "code" : "149579003",
+            "display" : "Nephrectomy (procedure)"
+          },
+          {
+            "code" : "149583003",
+            "display" : "Total nephrectomy (procedure)"
+          },
+          {
+            "code" : "149584009",
+            "display" : "Nephrectomy NOS (procedure)"
+          },
+          {
+            "code" : "175905003",
+            "display" : "Total nephrectomy (procedure)"
+          },
+          {
+            "code" : "175906002",
+            "display" : "Radical nephrectomy (procedure)"
+          },
+          {
+            "code" : "175909009",
+            "display" : "Simple nephrectomy (procedure)"
+          },
+          {
+            "code" : "175910004",
+            "display" : "Transplant nephrectomy (& for rejection) (procedure)"
+          },
+          {
+            "code" : "175911000",
+            "display" : "Live donor nephrectomy (procedure)"
+          },
+          {
+            "code" : "175914008",
+            "display" : "Other specified total nephrectomy (procedure)"
+          },
+          {
+            "code" : "175915009",
+            "display" : "Total nephrectomy NOS (procedure)"
+          },
+          {
+            "code" : "1866009",
+            "display" : "Total excision of bilateral kidneys (procedure)"
+          },
+          {
+            "code" : "265550007",
+            "display" : "Transplant nephrectomy (procedure)"
+          },
+          {
+            "code" : "284348003",
+            "display" : "Excision of rejected transplanted kidney (procedure)"
+          },
+          {
+            "code" : "287729007",
+            "display" : "Nephrectomy NOS (procedure)"
+          },
+          {
+            "code" : "289754003",
+            "display" : "Nephrectomy of remaining or solitary kidney (procedure)"
+          },
+          {
+            "code" : "290691008",
+            "display" : "Nephrectomy of remaining kidney (procedure)"
+          },
+          {
+            "code" : "361249003",
+            "display" : "Nephrectomy with excision of perirenal tissue (procedure)"
+          },
+          {
+            "code" : "439235001",
+            "display" : "Laparoscopic radical nephrectomy (procedure)"
+          },
+          {
+            "code" : "439964001",
+            "display" : "Laparoscopic excision of kidney and total excision of ureter (procedure)"
+          },
+          {
+            "code" : "440446009",
+            "display" : "Laparoscopic excision of kidney and partial excision of ureter (procedure)"
+          },
+          {
+            "code" : "442919002",
+            "display" : "Adrenal sparing radical nephrectomy (procedure)"
+          },
+          {
+            "code" : "443869003",
+            "display" : "Total excision of right kidney (procedure)"
+          },
+          {
+            "code" : "444083005",
+            "display" : "Total excision of left kidney (procedure)"
+          },
+          {
+            "code" : "446296004",
+            "display" : "Laparoscopic total excision of kidney (procedure)"
+          },
+          {
+            "code" : "446990000",
+            "display" : "Laparoscopic excision of ureter and kidney (procedure)"
+          },
+          {
+            "code" : "447527008",
+            "display" : "Laparoscopic total excision of kidney by retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "447531002",
+            "display" : "Laparoscopic excision of ureter and kidney by retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "48643009",
+            "display" : "Excision of cyst of kidney (procedure)"
+          },
+          {
+            "code" : "48994000",
+            "display" : "Renal homotransplantation with unilateral recipient nephrectomy (situation)"
+          },
+          {
+            "code" : "58367002",
+            "display" : "Nephrectomy of remaining kidney (procedure)"
+          },
+          {
+            "code" : "6561000179108",
+            "display" : "Open nephrectomy from live donor (procedure)"
+          },
+          {
+            "code" : "698869007",
+            "display" : "Laparoscopic bilateral total nephrectomy (procedure)"
+          },
+          {
+            "code" : "699719001",
+            "display" : "Laparoscopic nephrectomy of remaining kidney (procedure)"
+          },
+          {
+            "code" : "699720007",
+            "display" : "Laparoscopic nephrectomy of remaining kidney by retroperitoneal approach (procedure)"
+          },
+          {
+            "code" : "708908003",
+            "display" : "Laparoscopic live donor nephrectomy (procedure)"
+          },
+          {
+            "code" : "712998006",
+            "display" : "Laparoscopic radical nephrectomy using robotic assistance (procedure)"
+          },
+          {
+            "code" : "714031000",
+            "display" : "Single port laparoscopic nephrectomy (procedure)"
+          },
+          {
+            "code" : "722149000",
+            "display" : "Chronic kidney disease due to and following excision of neoplasm of kidney (disorder)"
+          },
+          {
+            "code" : "765472003",
+            "display" : "Excision of left kidney (procedure)"
+          },
+          {
+            "code" : "765473008",
+            "display" : "Excision of right kidney (procedure)"
+          },
+          {
+            "code" : "85250002",
+            "display" : "Nephrectomy (procedure)"
+          },
+          {
+            "code" : "88930008",
+            "display" : "Total nephrectomy in recipient (procedure)"
+          },
+          {
+            "code" : "88994001",
+            "display" : "Unilateral excision of kidney (situation)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d24986c1-6485-43b6-aa7b-45b70a61bc43",
+    "timestamp" : "2025-11-24T18:52:44-05:00",
+    "total" : 33,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1017216005",
+        "display" : "Laparoscopic total excision of right kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1017217001",
+        "display" : "Laparoscopic total excision of left kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1017218006",
+        "display" : "Laparoscopic total excision of left kidney via retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1017219003",
+        "display" : "Laparoscopic total excision of right kidney via retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116033007",
+        "display" : "Radical nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116166009",
+        "display" : "Radical nephrectomy AND ipsilateral adrenalectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1289993008",
+        "display" : "Laparoscopic radical excision of kidney by retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12976005",
+        "display" : "Donor nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175905003",
+        "display" : "Total nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175911000",
+        "display" : "Live donor nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1866009",
+        "display" : "Total excision of bilateral kidneys (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265550007",
+        "display" : "Transplant nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "284348003",
+        "display" : "Excision of rejected transplanted kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "361249003",
+        "display" : "Nephrectomy with excision of perirenal tissue (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439235001",
+        "display" : "Laparoscopic radical nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439964001",
+        "display" : "Laparoscopic excision of kidney and total excision of ureter (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440446009",
+        "display" : "Laparoscopic excision of kidney and partial excision of ureter (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442919002",
+        "display" : "Adrenal sparing radical nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443869003",
+        "display" : "Total excision of right kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444083005",
+        "display" : "Total excision of left kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446296004",
+        "display" : "Laparoscopic total excision of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446990000",
+        "display" : "Laparoscopic excision of ureter and kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447527008",
+        "display" : "Laparoscopic total excision of kidney by retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447531002",
+        "display" : "Laparoscopic excision of ureter and kidney by retroperitoneal approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "6561000179108",
+        "display" : "Open nephrectomy from live donor (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698869007",
+        "display" : "Laparoscopic bilateral total nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708908003",
+        "display" : "Laparoscopic live donor nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712998006",
+        "display" : "Laparoscopic radical nephrectomy using robotic assistance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "714031000",
+        "display" : "Single port laparoscopic nephrectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722149000",
+        "display" : "Chronic kidney disease due to and following excision of neoplasm of kidney (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765472003",
+        "display" : "Excision of left kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765473008",
+        "display" : "Excision of right kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "88930008",
+        "display" : "Total nephrectomy in recipient (procedure)"
+      }
+    ]
+  }
+}

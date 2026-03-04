@@ -1,0 +1,1071 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.257",
+  "meta" : {
+    "versionId" : "21",
+    "lastUpdated" : "2025-07-19T01:08:56.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CancerLinQ Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-07-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-07-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.257",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.257"
+    }
+  ],
+  "version" : "20250719",
+  "name" : "StageIIIColorectalCancerChemotherapy",
+  "title" : "Stage III Colorectal Cancer Chemotherapy",
+  "status" : "active",
+  "date" : "2025-07-19T01:08:56-04:00",
+  "publisher" : "CancerLinQ Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Adjuvant Chemotherapies Only),(Data Element Scope: Codes related to colon cancer that stem from: capecitabine\nFluorouracil\nLeucovorin\nlevoleucovorin\noxaliplatin),(Inclusion Criteria: Adjuvant Chemotherapies Only),(Exclusion Criteria: Chemotherapy codes unrelated to the 5 drug ingredients listed above)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "105584",
+            "display" : "fluorouracil 250 MG Oral Capsule"
+          },
+          {
+            "code" : "105691",
+            "display" : "leucovorin 7.5 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "1113383",
+            "display" : "levoleucovorin 10 MG/ML"
+          },
+          {
+            "code" : "1158877",
+            "display" : "capecitabine Oral Product"
+          },
+          {
+            "code" : "1158878",
+            "display" : "capecitabine Pill"
+          },
+          {
+            "code" : "1160121",
+            "display" : "oxaliplatin Injectable Product"
+          },
+          {
+            "code" : "1160829",
+            "display" : "fluorouracil Injectable Product"
+          },
+          {
+            "code" : "1160830",
+            "display" : "fluorouracil Oral Product"
+          },
+          {
+            "code" : "1160831",
+            "display" : "fluorouracil Pill"
+          },
+          {
+            "code" : "1162848",
+            "display" : "leucovorin Injectable Product"
+          },
+          {
+            "code" : "1163207",
+            "display" : "levoleucovorin Injectable Product"
+          },
+          {
+            "code" : "1170654",
+            "display" : "Adrucil Injectable Product"
+          },
+          {
+            "code" : "1174626",
+            "display" : "Eloxatin Injectable Product"
+          },
+          {
+            "code" : "1174701",
+            "display" : "Fusilev Injectable Product"
+          },
+          {
+            "code" : "1186410",
+            "display" : "Xeloda Oral Product"
+          },
+          {
+            "code" : "1186411",
+            "display" : "Xeloda Pill"
+          },
+          {
+            "code" : "1648126",
+            "display" : "levoleucovorin calcium pentahydrate"
+          },
+          {
+            "code" : "1669867",
+            "display" : "fluorouracil 40 MG/ML"
+          },
+          {
+            "code" : "1720758",
+            "display" : "levoleucovorin 50 MG"
+          },
+          {
+            "code" : "1720759",
+            "display" : "levoleucovorin Injection"
+          },
+          {
+            "code" : "1720760",
+            "display" : "levoleucovorin 50 MG Injection"
+          },
+          {
+            "code" : "1720761",
+            "display" : "levoleucovorin 50 MG [Fusilev]"
+          },
+          {
+            "code" : "1720762",
+            "display" : "levoleucovorin Injection [Fusilev]"
+          },
+          {
+            "code" : "1720763",
+            "display" : "levoleucovorin 50 MG Injection [Fusilev]"
+          },
+          {
+            "code" : "1720765",
+            "display" : "17.5 ML levoleucovorin 10 MG/ML Injection"
+          },
+          {
+            "code" : "1720773",
+            "display" : "25 ML levoleucovorin 10 MG/ML Injection"
+          },
+          {
+            "code" : "1736775",
+            "display" : "oxaliplatin Injection"
+          },
+          {
+            "code" : "1736776",
+            "display" : "10 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1736781",
+            "display" : "20 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1736783",
+            "display" : "oxaliplatin 50 MG"
+          },
+          {
+            "code" : "1736784",
+            "display" : "oxaliplatin 50 MG Injection"
+          },
+          {
+            "code" : "1736785",
+            "display" : "oxaliplatin 100 MG"
+          },
+          {
+            "code" : "1736786",
+            "display" : "oxaliplatin 100 MG Injection"
+          },
+          {
+            "code" : "1791700",
+            "display" : "fluorouracil Injection"
+          },
+          {
+            "code" : "1791701",
+            "display" : "10 ML fluorouracil 50 MG/ML Injection"
+          },
+          {
+            "code" : "1791736",
+            "display" : "20 ML fluorouracil 50 MG/ML Injection"
+          },
+          {
+            "code" : "1797528",
+            "display" : "40 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1803920",
+            "display" : "leucovorin 350 MG"
+          },
+          {
+            "code" : "1803921",
+            "display" : "leucovorin Injection"
+          },
+          {
+            "code" : "1803929",
+            "display" : "leucovorin 50 MG"
+          },
+          {
+            "code" : "1803930",
+            "display" : "leucovorin 50 MG Injection"
+          },
+          {
+            "code" : "1803931",
+            "display" : "leucovorin 100 MG"
+          },
+          {
+            "code" : "1803932",
+            "display" : "leucovorin 100 MG Injection"
+          },
+          {
+            "code" : "1803936",
+            "display" : "leucovorin 200 MG"
+          },
+          {
+            "code" : "1803937",
+            "display" : "leucovorin 200 MG Injection"
+          },
+          {
+            "code" : "1858560",
+            "display" : "levoleucovorin 175 MG"
+          },
+          {
+            "code" : "1858561",
+            "display" : "levoleucovorin 175 MG Injection"
+          },
+          {
+            "code" : "194000",
+            "display" : "capecitabine"
+          },
+          {
+            "code" : "199316",
+            "display" : "fluorouracil 25 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "200327",
+            "display" : "capecitabine 150 MG Oral Tablet"
+          },
+          {
+            "code" : "200328",
+            "display" : "capecitabine 500 MG Oral Tablet"
+          },
+          {
+            "code" : "202632",
+            "display" : "Adrucil"
+          },
+          {
+            "code" : "2055035",
+            "display" : "leucovorin 500 MG"
+          },
+          {
+            "code" : "2055036",
+            "display" : "leucovorin 500 MG Injection"
+          },
+          {
+            "code" : "2099993",
+            "display" : "10 ML leucovorin 10 MG/ML Injection"
+          },
+          {
+            "code" : "2104714",
+            "display" : "50 ML leucovorin 10 MG/ML Injection"
+          },
+          {
+            "code" : "2106369",
+            "display" : "Khapzory"
+          },
+          {
+            "code" : "2106370",
+            "display" : "levoleucovorin 175 MG [Khapzory]"
+          },
+          {
+            "code" : "2106371",
+            "display" : "levoleucovorin Injection [Khapzory]"
+          },
+          {
+            "code" : "2106372",
+            "display" : "Khapzory Injectable Product"
+          },
+          {
+            "code" : "2106373",
+            "display" : "levoleucovorin 175 MG Injection [Khapzory]"
+          },
+          {
+            "code" : "2106374",
+            "display" : "levoleucovorin 300 MG"
+          },
+          {
+            "code" : "2106375",
+            "display" : "levoleucovorin 300 MG Injection"
+          },
+          {
+            "code" : "2106376",
+            "display" : "levoleucovorin 300 MG [Khapzory]"
+          },
+          {
+            "code" : "2106377",
+            "display" : "levoleucovorin 300 MG Injection [Khapzory]"
+          },
+          {
+            "code" : "2107308",
+            "display" : "levoleucovorin disodium"
+          },
+          {
+            "code" : "213292",
+            "display" : "capecitabine 150 MG Oral Tablet [Xeloda]"
+          },
+          {
+            "code" : "213293",
+            "display" : "capecitabine 500 MG Oral Tablet [Xeloda]"
+          },
+          {
+            "code" : "213841",
+            "display" : "fluorouracil 50 MG/ML Injectable Solution [Adrucil]"
+          },
+          {
+            "code" : "220961",
+            "display" : "Xeloda"
+          },
+          {
+            "code" : "225852",
+            "display" : "leucovorin calcium"
+          },
+          {
+            "code" : "237788",
+            "display" : "leucovorin 350 MG Injection"
+          },
+          {
+            "code" : "239177",
+            "display" : "fluorouracil 50 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "311282",
+            "display" : "leucovorin 10 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "315557",
+            "display" : "capecitabine 150 MG"
+          },
+          {
+            "code" : "315558",
+            "display" : "capecitabine 500 MG"
+          },
+          {
+            "code" : "315950",
+            "display" : "fluorouracil 50 MG/ML"
+          },
+          {
+            "code" : "323957",
+            "display" : "leucovorin 10 MG/ML"
+          },
+          {
+            "code" : "32592",
+            "display" : "oxaliplatin"
+          },
+          {
+            "code" : "329765",
+            "display" : "fluorouracil 10 MG/ML"
+          },
+          {
+            "code" : "329766",
+            "display" : "fluorouracil 20 MG/ML"
+          },
+          {
+            "code" : "331954",
+            "display" : "fluorouracil 25 MG/ML"
+          },
+          {
+            "code" : "334799",
+            "display" : "fluorouracil 250 MG"
+          },
+          {
+            "code" : "337511",
+            "display" : "Eloxatin"
+          },
+          {
+            "code" : "343265",
+            "display" : "fluorouracil 5 MG/ML"
+          },
+          {
+            "code" : "358819",
+            "display" : "oxaliplatin 5 MG/ML"
+          },
+          {
+            "code" : "360568",
+            "display" : "leucovorin 7.5 MG/ML"
+          },
+          {
+            "code" : "362845",
+            "display" : "fluorouracil Injectable Solution [Adrucil]"
+          },
+          {
+            "code" : "368280",
+            "display" : "capecitabine Oral Tablet [Xeloda]"
+          },
+          {
+            "code" : "371250",
+            "display" : "capecitabine Oral Tablet"
+          },
+          {
+            "code" : "372227",
+            "display" : "fluorouracil Oral Capsule"
+          },
+          {
+            "code" : "372228",
+            "display" : "fluorouracil Injectable Solution"
+          },
+          {
+            "code" : "372573",
+            "display" : "leucovorin Injectable Solution"
+          },
+          {
+            "code" : "4492",
+            "display" : "fluorouracil"
+          },
+          {
+            "code" : "573202",
+            "display" : "capecitabine 150 MG [Xeloda]"
+          },
+          {
+            "code" : "573203",
+            "display" : "capecitabine 500 MG [Xeloda]"
+          },
+          {
+            "code" : "573686",
+            "display" : "fluorouracil 50 MG/ML [Adrucil]"
+          },
+          {
+            "code" : "575971",
+            "display" : "oxaliplatin 5 MG/ML [Eloxatin]"
+          },
+          {
+            "code" : "6313",
+            "display" : "leucovorin"
+          },
+          {
+            "code" : "804688",
+            "display" : "Fusilev"
+          },
+          {
+            "code" : "877015",
+            "display" : "levoleucovorin"
+          },
+          {
+            "code" : "979509",
+            "display" : "levoleucovorin calcium"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ed2b0828-03e6-493e-8f6e-d873c3e8ae10",
+    "timestamp" : "2025-11-24T12:35:52-05:00",
+    "total" : 99,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105584",
+        "display" : "fluorouracil 250 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "105691",
+        "display" : "leucovorin 7.5 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1113383",
+        "display" : "levoleucovorin 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1158877",
+        "display" : "capecitabine Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1158878",
+        "display" : "capecitabine Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160121",
+        "display" : "oxaliplatin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160829",
+        "display" : "fluorouracil Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160830",
+        "display" : "fluorouracil Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160831",
+        "display" : "fluorouracil Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1162848",
+        "display" : "leucovorin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163207",
+        "display" : "levoleucovorin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1170654",
+        "display" : "Adrucil Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1174701",
+        "display" : "Fusilev Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186410",
+        "display" : "Xeloda Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186411",
+        "display" : "Xeloda Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1648126",
+        "display" : "levoleucovorin calcium pentahydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1669867",
+        "display" : "fluorouracil 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720758",
+        "display" : "levoleucovorin 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720759",
+        "display" : "levoleucovorin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720760",
+        "display" : "levoleucovorin 50 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720761",
+        "display" : "levoleucovorin 50 MG [Fusilev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720762",
+        "display" : "levoleucovorin Injection [Fusilev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720763",
+        "display" : "levoleucovorin 50 MG Injection [Fusilev]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720765",
+        "display" : "17.5 ML levoleucovorin 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1720773",
+        "display" : "25 ML levoleucovorin 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736775",
+        "display" : "oxaliplatin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736776",
+        "display" : "10 ML oxaliplatin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736781",
+        "display" : "20 ML oxaliplatin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736783",
+        "display" : "oxaliplatin 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736784",
+        "display" : "oxaliplatin 50 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736785",
+        "display" : "oxaliplatin 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736786",
+        "display" : "oxaliplatin 100 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1791700",
+        "display" : "fluorouracil Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1791701",
+        "display" : "10 ML fluorouracil 50 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1791736",
+        "display" : "20 ML fluorouracil 50 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1797528",
+        "display" : "40 ML oxaliplatin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803920",
+        "display" : "leucovorin 350 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803921",
+        "display" : "leucovorin Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803929",
+        "display" : "leucovorin 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803930",
+        "display" : "leucovorin 50 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803931",
+        "display" : "leucovorin 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803932",
+        "display" : "leucovorin 100 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803936",
+        "display" : "leucovorin 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1803937",
+        "display" : "leucovorin 200 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1858560",
+        "display" : "levoleucovorin 175 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1858561",
+        "display" : "levoleucovorin 175 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "194000",
+        "display" : "capecitabine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199316",
+        "display" : "fluorouracil 25 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "200327",
+        "display" : "capecitabine 150 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "200328",
+        "display" : "capecitabine 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "202632",
+        "display" : "Adrucil"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055035",
+        "display" : "leucovorin 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2055036",
+        "display" : "leucovorin 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2099993",
+        "display" : "10 ML leucovorin 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2104714",
+        "display" : "50 ML leucovorin 10 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106369",
+        "display" : "Khapzory"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106370",
+        "display" : "levoleucovorin 175 MG [Khapzory]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106371",
+        "display" : "levoleucovorin Injection [Khapzory]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106372",
+        "display" : "Khapzory Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106373",
+        "display" : "levoleucovorin 175 MG Injection [Khapzory]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106374",
+        "display" : "levoleucovorin 300 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106375",
+        "display" : "levoleucovorin 300 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106376",
+        "display" : "levoleucovorin 300 MG [Khapzory]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2106377",
+        "display" : "levoleucovorin 300 MG Injection [Khapzory]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2107308",
+        "display" : "levoleucovorin disodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213292",
+        "display" : "capecitabine 150 MG Oral Tablet [Xeloda]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213293",
+        "display" : "capecitabine 500 MG Oral Tablet [Xeloda]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213841",
+        "display" : "fluorouracil 50 MG/ML Injectable Solution [Adrucil]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "220961",
+        "display" : "Xeloda"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "225852",
+        "display" : "leucovorin calcium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "237788",
+        "display" : "leucovorin 350 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "239177",
+        "display" : "fluorouracil 50 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "311282",
+        "display" : "leucovorin 10 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315557",
+        "display" : "capecitabine 150 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315558",
+        "display" : "capecitabine 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315950",
+        "display" : "fluorouracil 50 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "323957",
+        "display" : "leucovorin 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "32592",
+        "display" : "oxaliplatin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "329765",
+        "display" : "fluorouracil 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "329766",
+        "display" : "fluorouracil 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "331954",
+        "display" : "fluorouracil 25 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "334799",
+        "display" : "fluorouracil 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "343265",
+        "display" : "fluorouracil 5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "358819",
+        "display" : "oxaliplatin 5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360568",
+        "display" : "leucovorin 7.5 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "362845",
+        "display" : "fluorouracil Injectable Solution [Adrucil]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "368280",
+        "display" : "capecitabine Oral Tablet [Xeloda]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371250",
+        "display" : "capecitabine Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372227",
+        "display" : "fluorouracil Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372228",
+        "display" : "fluorouracil Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372573",
+        "display" : "leucovorin Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "4492",
+        "display" : "fluorouracil"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573202",
+        "display" : "capecitabine 150 MG [Xeloda]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573203",
+        "display" : "capecitabine 500 MG [Xeloda]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573686",
+        "display" : "fluorouracil 50 MG/ML [Adrucil]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "6313",
+        "display" : "leucovorin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "804688",
+        "display" : "Fusilev"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "877015",
+        "display" : "levoleucovorin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "979509",
+        "display" : "levoleucovorin calcium"
+      }
+    ]
+  }
+}

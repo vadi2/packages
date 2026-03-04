@@ -1,0 +1,113 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.960",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_ZVD,Plague,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.960",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.960"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "PlagueTestsForYersiniaPestisAntibodyQuantitative",
+  "title" : "Plague (Tests for Yersinia pestis Antibody [Quantitative])",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Yersinia pestis antibody (Quantitative results).),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: component: Yersinia pestis antibody (quantitative);  \n\nLOINC Search terms: ‘yersinia pestis Ab -Qn -panel -isolate’),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "104469-2",
+            "display" : "Yersinia pestis IgG Ab [Titer] in Serum by Immunoassay --1st specimen"
+          },
+          {
+            "code" : "104470-0",
+            "display" : "Yersinia pestis IgG Ab [Titer] in Serum by Immunoassay --2nd specimen"
+          },
+          {
+            "code" : "33690-9",
+            "display" : "Yersinia pestis Ab [Titer] in Serum by Immunoassay"
+          },
+          {
+            "code" : "33707-1",
+            "display" : "Yersinia pestis Ab [Titer] in Serum"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a555e2a2-2c8b-41b6-8871-0f5be205ee9c",
+    "timestamp" : "2025-11-24T14:04:47-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "104469-2",
+        "display" : "Yersinia pestis IgG Ab [Titer] in Serum by Immunoassay --1st specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "104470-0",
+        "display" : "Yersinia pestis IgG Ab [Titer] in Serum by Immunoassay --2nd specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33690-9",
+        "display" : "Yersinia pestis Ab [Titer] in Serum by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33707-1",
+        "display" : "Yersinia pestis Ab [Titer] in Serum"
+      }
+    ]
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1149",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-01-22T01:09:37.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common,Viral_Hemorrhagic_Fever"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-01-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1149",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1149"
+    }
+  ],
+  "version" : "20240122",
+  "name" : "ProteinuriaTestsForTotalProteinIn24HUrine",
+  "title" : "Proteinuria (Tests for Total Protein in 24H Urine)",
+  "status" : "active",
+  "date" : "2024-01-22T01:09:37-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with quantitative measurements for total protein in 24 hour urine.),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Total protein 24H Urine mass/time),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "21028-6",
+            "display" : "Protein [Interpretation] in 24 hour Urine"
+          },
+          {
+            "code" : "21482-5",
+            "display" : "Protein [Mass/volume] in 24 hour Urine"
+          },
+          {
+            "code" : "2889-4",
+            "display" : "Protein [Mass/time] in 24 hour Urine"
+          },
+          {
+            "code" : "32209-9",
+            "display" : "Protein [Presence] in 24 hour Urine by Test strip"
+          },
+          {
+            "code" : "66616-4",
+            "display" : "Proteinuria greater than or equal to 3.5 gm in 24 hours [Reported]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:7765063f-da82-4cac-9479-67d362475392",
+    "timestamp" : "2025-11-24T12:45:40-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "21028-6",
+        "display" : "Protein [Interpretation] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "21482-5",
+        "display" : "Protein [Mass/volume] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2889-4",
+        "display" : "Protein [Mass/time] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "32209-9",
+        "display" : "Protein [Presence] in 24 hour Urine by Test strip"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "66616-4",
+        "display" : "Proteinuria greater than or equal to 3.5 gm in 24 hours [Reported]"
+      }
+    ]
+  }
+}

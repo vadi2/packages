@@ -1,0 +1,2242 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1324",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-18T01:01:20.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1324",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1324"
+    }
+  ],
+  "version" : "20250618",
+  "name" : "ThoracicAortaSurgerySCT",
+  "title" : "Thoracic aorta surgery SCT",
+  "status" : "active",
+  "date" : "2025-06-18T01:01:21-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Thoracic aorta surgery),(Data Element Scope: SNOMED CT),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "32907006"
+          }
+        ]
+      }
+    ],
+    "exclude" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "in",
+            "value" : "31937004,428809009,440000004,359955002,725370006,450815006"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "14259004"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "27227004"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "419740003"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "79553004"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "233407007"
+          }
+        ]
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "699667004"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:acaebf80-8c1c-4032-b642-9f4f611256d6",
+    "timestamp" : "2025-11-24T11:43:20-05:00",
+    "total" : 348,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10190003",
+        "display" : "Aortocoronary bypass of four or more coronary arteries (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119427000",
+        "display" : "Open transposition of left subclavian artery to carotid artery with endovascular repair of descending thoracic aorta by neck incision (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1119428005",
+        "display" : "Open transposition of right subclavian artery to carotid artery with endovascular repair of descending thoracic aorta by neck incision (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "112818003",
+        "display" : "Division of descending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "112819006",
+        "display" : "Arteriectomy with graft replacement of thoracoabdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "112823003",
+        "display" : "Creation of aorta-carotid-brachial vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1145198009",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to diagonal branch of anterior descending branch of left coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1145199001",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to anterior descending branch of left coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1145200003",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to obtuse marginal branch of circumflex branch of coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148690000",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to intermediate artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148691001",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to posterior descending artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1149059007",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to marginal branch of right coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1149060002",
+        "display" : "Coronary artery bypass grafting using free right internal thoracic artery graft from aorta to posterior lateral branch of circumflex branch of left coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "119776000",
+        "display" : "Aorta closure (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "119777009",
+        "display" : "Aorta reconstruction (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12253004",
+        "display" : "Insertion of graft of aorta with cardiopulmonary bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231417003",
+        "display" : "Enlargement of aortic root using anterior approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231418008",
+        "display" : "Enlargement of aortic root using posterior approach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231787007",
+        "display" : "Endovascular repair of thoracic aorta using fenestrated stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "12363009",
+        "display" : "Complete repair of tetralogy of Fallot with closure of previous shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1255087004",
+        "display" : "Endovascular repair of dissection of aorta using endovascular stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1255088009",
+        "display" : "Repair of dissection of aorta using stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259868000",
+        "display" : "Endovascular repair of aneurysm of aorta using endovascular stent graft and stent graft anchoring system (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259910000",
+        "display" : "Endovascular repair of aneurysm of thoracic aorta using endovascular stent graft and stent graft anchoring system (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259982004",
+        "display" : "Anchoring of aortic endovascular stent graft to vessel wall using endovascular stent graft anchoring system (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1259983009",
+        "display" : "Anchoring of thoracic aortic endovascular stent graft to vessel wall using endovascular stent graft anchoring system (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1263731004",
+        "display" : "Implantation of custom-made extraluminal aortic root mesh-sleeve (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13275009",
+        "display" : "Excision of lesion of thoracic aorta with end-to-end anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343627009",
+        "display" : "Percutaneous transluminal angioplasty of aorta with prosthesis using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344813006",
+        "display" : "Percutaneous transluminal angioplasty of aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1344829003",
+        "display" : "Percutaneous transluminal angioplasty with insertion of stent into aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "13532002",
+        "display" : "Excision of lesion of thoracic aorta with interposition graft replacement (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14303006",
+        "display" : "Ligation of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14323007",
+        "display" : "Aortocoronary bypass of three coronary arteries (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15946006",
+        "display" : "Correction of coarctation of aorta with graft replacement (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17073005",
+        "display" : "Aortocoronary artery bypass graft with vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17309004",
+        "display" : "Excision of lesion of thoracoabdominal aorta with interposition graft replacement (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175221003",
+        "display" : "Construction of central aortopulmonary interposition shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175223000",
+        "display" : "Creation of shunt from ascending aorta to right pulmonary artery using interposition tube prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175224006",
+        "display" : "Creation of shunt from ascending aorta to left pulmonary artery using interposition tube prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175228009",
+        "display" : "Construction of aortopulmonary window (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175275009",
+        "display" : "Extra-anatomic bypass of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175276005",
+        "display" : "Emergency bypass of aorta by anastomosis of axillary artery to femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175282008",
+        "display" : "Repair of aortic aneurysm using bifurcation graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175283003",
+        "display" : "Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175284009",
+        "display" : "Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175290008",
+        "display" : "Emergency bypass of bifurcation of aorta by anastomosis of aorta to femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175292000",
+        "display" : "Emergency bypass of bifurcation of aorta by anastomosis of aorta to iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175297006",
+        "display" : "Emergency replacement of aneurysmal segment of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175298001",
+        "display" : "Emergency replacement of aneurysmal segment of ascending aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175299009",
+        "display" : "Emergency replacement of aneurysmal segment of thoracic aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175300001",
+        "display" : "Emergency replacement of aneurysmal segment of suprarenal abdominal aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175301002",
+        "display" : "Emergency replacement of aneurysmal segment of infrarenal abdominal aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175331008",
+        "display" : "Revision of prosthesis of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175332001",
+        "display" : "Revision of prosthesis of bifurcation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175334000",
+        "display" : "Removal of prosthesis from aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175337007",
+        "display" : "Plastic repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175338002",
+        "display" : "Plastic repair of aorta and end-to-end anastomosis of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175339005",
+        "display" : "Repair of aorta with subclavian flap (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175340007",
+        "display" : "Patch repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175342004",
+        "display" : "Revision of plastic repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175346001",
+        "display" : "Endarterectomy and patch repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175348000",
+        "display" : "Open embolectomy of bifurcation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175354004",
+        "display" : "Percutaneous transluminal balloon angioplasty of aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175356002",
+        "display" : "Percutaneous transluminal embolectomy of bifurcation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175566006",
+        "display" : "Emergency replacement of aneurysmal common iliac artery by anastomosis of aorta to common iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175567002",
+        "display" : "Emergency replacement of aneurysmal iliac artery by anastomosis of aorta to external iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175568007",
+        "display" : "Emergency replacement of aneurysmal artery of lower limb by anastomosis of aorta to common femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175569004",
+        "display" : "Emergency replacement of aneurysmal artery of lower limb by anastomosis of aorta to superficial femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "175730007",
+        "display" : "Revision of reconstruction involving aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18078004",
+        "display" : "Excision of lesion of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18932005",
+        "display" : "Rastelli operation in repair of transposition of great vessels (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19262003",
+        "display" : "Repair of thoracic aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "19606007",
+        "display" : "Endarterectomy of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "20534003",
+        "display" : "Aortopopliteal vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21574003",
+        "display" : "Repair of aneurysm of abdominal aorta with graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2250001",
+        "display" : "Resection of ascending aorta with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22833008",
+        "display" : "Division of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22870004",
+        "display" : "Repair of sinus of Valsalva fistula with cardiopulmonary bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232843004",
+        "display" : "Composite aortic root operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232845006",
+        "display" : "Aortic valve resuspension and replacement of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232846007",
+        "display" : "Replacement of aortic valve and replacement of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232847003",
+        "display" : "Aortic valve replacement and aortoplasty (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232848008",
+        "display" : "Aortic valve replacement and patch aortoplasty (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232849000",
+        "display" : "Aortic valve replacement and plication of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232960008",
+        "display" : "Transluminal removal of aortic balloon pump (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233075005",
+        "display" : "Construction of conduit - right ventricle to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233095004",
+        "display" : "Construction of conduit - apex of left ventricle to descending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233096003",
+        "display" : "Construction of conduit - left ventricle to ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233124005",
+        "display" : "Construction of intraventricular left ventricle to aorta tunnel (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233125006",
+        "display" : "Construction of intraventricular left ventricle to aorta spiral tunnel (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233127003",
+        "display" : "REV operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233134001",
+        "display" : "Damus-Stansel-Kaye operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233140008",
+        "display" : "Direct aorta to pulmonary artery anastomosis with fenestrated baffle (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233222004",
+        "display" : "Operation on the sinuses of Valsalva (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233223009",
+        "display" : "Closure of an aortic tunnel (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233224003",
+        "display" : "Central aortopulmonary shunt operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233225002",
+        "display" : "Disconnection of pulmonary trunk and reanastomosis of distal end to ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233265003",
+        "display" : "Percutaneous transluminal balloon angioplasty of thoracic aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233267006",
+        "display" : "Percutaneous transluminal balloon angioplasty of abdominal aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233344006",
+        "display" : "Polyethylene terephthalate graft operations on aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233370007",
+        "display" : "Repair of aneurysm of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233372004",
+        "display" : "Bypass graft of the descending thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233373009",
+        "display" : "Aortic bifurcation bypass graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233374003",
+        "display" : "Y graft of abdominal aortic aneurysm - emergency (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233375002",
+        "display" : "Straight graft of the abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233376001",
+        "display" : "Repair of aortic abdominal aneurysm using straight graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233377005",
+        "display" : "Tube graft abdominal aortic aneurysm - emergency (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233399002",
+        "display" : "Extended resection of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233400009",
+        "display" : "Radically extended resection of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233406003",
+        "display" : "Insertion of thoracic aorta stent (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23617000",
+        "display" : "Repair of ruptured aneurysm of abdominal aorta with graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "240927004",
+        "display" : "Embolectomy of aortoiliac segment (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25736000",
+        "display" : "Excision of coarctation of aorta with end-to-end anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265492000",
+        "display" : "Emergency replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265493005",
+        "display" : "Replacement of aneurysmal bifurcation of aorta by anastomosis of aorta to iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265495003",
+        "display" : "Bypass of bifurcation of aorta by anastomosis of aorta to iliac artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265499009",
+        "display" : "Transluminal operations on aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "27303004",
+        "display" : "Re-entry operation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "274022008",
+        "display" : "Repair of coarctation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "27500002",
+        "display" : "Aortoiliac to popliteal vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "275037003",
+        "display" : "Repair of aortic aneurysm using Y graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "275038008",
+        "display" : "Polyethylene terephthalate aortofemoral Y graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "275039000",
+        "display" : "Polyethylene terephthalate aortoiliac Y graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "275217009",
+        "display" : "Ligation of sinus of Valsalva fistula (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "287279006",
+        "display" : "Heart - aortic branch implant (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28856006",
+        "display" : "Repair of ruptured aneurysm of abdominal aorta involving iliac vessels with graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29454005",
+        "display" : "Surgical occlusion of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29819009",
+        "display" : "Aortocoronary bypass of one coronary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301884003",
+        "display" : "Removal of aortic cross clamp (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "307710002",
+        "display" : "Ligation of abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308677004",
+        "display" : "Resection of coarctation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308678009",
+        "display" : "Resection of segmental aortic hypoplasia (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308679001",
+        "display" : "Resection of interrupted aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "308696000",
+        "display" : "Percutaneous transluminal angioplasty of coarctation of aorta using imaging guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "310412004",
+        "display" : "Ligation of aortopulmonary window (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "310415002",
+        "display" : "Suturing of sinus of Valsalva fistula (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "310416001",
+        "display" : "Patching of sinus of Valsalva fistula (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312302004",
+        "display" : "Plication of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312311004",
+        "display" : "Replacement of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312693009",
+        "display" : "Aorta to inferior mesenteric artery bypass graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "315362007",
+        "display" : "Repair of thoracoabdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32252002",
+        "display" : "Arteriectomy with graft replacement of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32907006",
+        "display" : "Operation on aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34214004",
+        "display" : "Creation of aorta-subclavian-carotid vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34564005",
+        "display" : "Creation of shunt of ascending aorta to pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3546002",
+        "display" : "Aortocoronary artery bypass graft with saphenous vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35653006",
+        "display" : "Endarterectomy of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "359945001",
+        "display" : "Incision of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "359949007",
+        "display" : "Incision of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36286009",
+        "display" : "Creation of aortorenal shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3690001",
+        "display" : "Shunt of left subclavian to descending aorta by Blalock-Park operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37592008",
+        "display" : "Excision of lesion of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37897006",
+        "display" : "Removal of intra-aortic balloon with repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "386814008",
+        "display" : "Excision of aneurysm of sinus of Valsalva (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "386815009",
+        "display" : "Repair of aneurysm of sinus of Valsalva (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "38764003",
+        "display" : "Embolectomy of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "392139002",
+        "display" : "Incision of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39312001",
+        "display" : "Destructive procedure of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3957003",
+        "display" : "Arteriectomy of thoracoabdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399052009",
+        "display" : "Aortic balloon pump operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399175004",
+        "display" : "Intra-aortic balloon catheter operation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40059006",
+        "display" : "Creation of aortofemoral shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40267005",
+        "display" : "Intraaortic balloon pump removal (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405347000",
+        "display" : "Thrombolysis of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405397001",
+        "display" : "Endarterectomy and angioplasty of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405398006",
+        "display" : "Endarterectomy and angioplasty of aorta with vein (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405399003",
+        "display" : "Endarterectomy and angioplasty of aorta with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405481007",
+        "display" : "Aorto-profunda arterial bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405482000",
+        "display" : "Aorto-femoral arterial bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405483005",
+        "display" : "Aorto-femoral arterial bypass with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405484004",
+        "display" : "Aorto-profunda arterial bypass with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405485003",
+        "display" : "Bypass of bifurcation of aorta by anastomosis of aorta to profunda femoris artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405486002",
+        "display" : "Aorto-profunda bifurcation bypass with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405487006",
+        "display" : "Aorto-iliac bypass with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405489009",
+        "display" : "Bypass of bifurcation of aorta by anastomosis of aorta to iliac artery with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405520009",
+        "display" : "Aorto-profunda graft for repair of aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405521008",
+        "display" : "Aorto-profunda bifurcation graft for repair of aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405522001",
+        "display" : "Aorto-femoral bifurcation graft for repair of aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405524000",
+        "display" : "Aorto-Iliac graft for repair of aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405525004",
+        "display" : "Repair of aneurysm of abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405529005",
+        "display" : "Aorto-iliac bifurcation graft for repair of aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405598005",
+        "display" : "Aortocoronary artery bypass graft with two vein grafts (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "405599002",
+        "display" : "Aortocoronary artery bypass graft with three vein grafts (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41161008",
+        "display" : "Creation of aortoiliac shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418132005",
+        "display" : "Percutaneous transluminal angioplasty of abdominal aorta and femoral artery using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419526001",
+        "display" : "Fluoroscopic angiography of aorta with contrast and insertion of stent (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "420128004",
+        "display" : "Fluoroscopic angiography of thoracic aorta with contrast and insertion of stent (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426869003",
+        "display" : "Repair of interrupted aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427265007",
+        "display" : "Closure of aorto-left ventricular tunnel (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427731007",
+        "display" : "Replacement of aortic root using mechanical prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428057004",
+        "display" : "Insertion of stent into aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428062003",
+        "display" : "Percutaneous transluminal balloon angioplasty with insertion of stent into aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428179006",
+        "display" : "Replacement of aortic root (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428182001",
+        "display" : "Replacement of aortic root using homograft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42837001",
+        "display" : "Excision of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428411007",
+        "display" : "Aortopulmonary reconstruction with systemic-to-pulmonary arterial shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428501002",
+        "display" : "Replacement of aortic root using pulmonary valve autograft with right ventricle to pulmonary artery valved conduit (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428568006",
+        "display" : "Division of aberrant aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428998009",
+        "display" : "Plastic repair of aorta with tube graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429270005",
+        "display" : "Takedown of anastomosis from aorta to pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429394007",
+        "display" : "Division of anomalous aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429575001",
+        "display" : "Construction of left ventricle to aorta tunnel with right ventricle to pulmonary trunk direct anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429616001",
+        "display" : "Aortopulmonary reconstruction with right ventricle to pulmonary arterial valveless conduit (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429620002",
+        "display" : "Construction of left ventricle to aorta tunnel with right ventricle to pulmonary artery valved conduit (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429679003",
+        "display" : "Endovascular repair of thoracic aortic aneurysm using endovascular stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429794009",
+        "display" : "Fluoroscopic angiography with contrast and thrombolysis of aorta and femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430286000",
+        "display" : "Percutaneous fenestration of aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431229004",
+        "display" : "Percutaneous transluminal cutting balloon angioplasty of thoracic aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431525009",
+        "display" : "Percutaneous transluminal angioplasty of abdominal aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431751008",
+        "display" : "Percutaneous transluminal angioplasty of thoracic aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431754000",
+        "display" : "Fluoroscopic angiography of aorta using contrast with insertion of hybrid stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432035008",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast and insertion of stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432590008",
+        "display" : "Fluoroscopic angiography of thoracic aorta with contrast with insertion of drug eluting stent (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43317001",
+        "display" : "Suture of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433595005",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast and insertion of branched tapered stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433634000",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast with insertion of tapered stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433689002",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast with insertion of branched stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433765000",
+        "display" : "Fluoroscopic angiography of thoracic aorta using contrast with insertion of branched tapered stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433766004",
+        "display" : "Fluoroscopic angiography of thoracic aorta using contrast with insertion of branched tube stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433780006",
+        "display" : "Fluoroscopic angiography of thoracic aorta with contrast with insertion of tapered stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433781005",
+        "display" : "Fluoroscopic angiography of thoracic aorta with contrast with insertion of tube stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434121009",
+        "display" : "Fluoroscopic angiography of thoracic aorta using contrast with insertion of fenestrated tube stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434297008",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast with insertion of fenestrated tapered stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434359006",
+        "display" : "Percutaneous transluminal cutting balloon angioplasty of abdominal aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434432002",
+        "display" : "Intraoperative fluoroscopic angiography of thoracic aorta with contrast with insertion of fenestrated stent graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43654001",
+        "display" : "Correction of coarctation of aorta with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438361005",
+        "display" : "Endovascular repair of abdominal aortic aneurysm with insertion of visceral extension prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438580006",
+        "display" : "Grafting to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438837007",
+        "display" : "Suspension and fixation of aorta for tracheal decompression (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439388005",
+        "display" : "Grafting to aorta with shunt bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439773003",
+        "display" : "Endovascular repair of aneurysm with transcatheter placement of wireless physiologic sensor (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439944006",
+        "display" : "Insertion of proximal extension prosthesis for repair of descending thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443531001",
+        "display" : "Percutaneous insertion of stent into coarctation of aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443829004",
+        "display" : "Percutaneous transluminal balloon angioplasty of coarctation of aorta with insertion of stent using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444588006",
+        "display" : "Endovascular repair of abdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447786004",
+        "display" : "Creation of anastomosis from ascending aorta to main pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447878005",
+        "display" : "Creation of anastomosis from aorta to pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447879002",
+        "display" : "Creation of anastomosis from ascending aorta to right pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "447950005",
+        "display" : "Creation of anastomosis from ascending aorta to left pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448008005",
+        "display" : "Bypass of segment of thoracic aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448010007",
+        "display" : "Bypass of artery of lower extremity by anastomosis of aorta to superficial femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448020002",
+        "display" : "Creation of shunt from aorta to pulmonary artery using interposition tube prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448088007",
+        "display" : "Bypass of artery of lower extremity by anastomosis of aorta to common femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448122008",
+        "display" : "Bypass of segment of abdominal aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448171003",
+        "display" : "Bypass of bifurcation of aorta by anastomosis of aorta to femoral artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448342009",
+        "display" : "Endovascular fenestration of dissection of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448785002",
+        "display" : "Placement of stent at site of coarctation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448840005",
+        "display" : "Repair of supravalvar aorta using patch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449146005",
+        "display" : "Replacement of root of aorta with reimplantation of coronary arteries using button technique (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449338000",
+        "display" : "Replacement of aortic root using pulmonary valve autograft and replacement of pulmonary valve (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449403001",
+        "display" : "Balloon dilation of recoarctation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449453007",
+        "display" : "Bypass of segment of suprarenal abdominal aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449454001",
+        "display" : "Bypass of segment of ascending aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449530008",
+        "display" : "Bypass of segment of infrarenal abdominal aorta by anastomosis of aorta to aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449550007",
+        "display" : "Central aortopulmonary anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449611000124108",
+        "display" : "Repair of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "450682002",
+        "display" : "Bypass of segment of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45874007",
+        "display" : "Aneurysmectomy with graft replacement of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "46227000",
+        "display" : "Fenestration of aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "47485003",
+        "display" : "Creation of aortomesenteric shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49187005",
+        "display" : "Endarterectomy of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49326008",
+        "display" : "Creation of conduit between left ventricle and aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50075004",
+        "display" : "Repair of aneurysm of abdominal aorta involving iliac vessels with graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50434004",
+        "display" : "Excision of lesion of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50447009",
+        "display" : "Aortic-superior mesenteric vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50736001",
+        "display" : "Division of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51993007",
+        "display" : "Aneurysmectomy of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53879008",
+        "display" : "Creation of aortoceliac shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5571002",
+        "display" : "Excision of lesion of aorta with end-to-end anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56349004",
+        "display" : "Aorto-myocardial shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56834002",
+        "display" : "Repair of aneurysm of abdominal aorta involving visceral vessels with graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56970000",
+        "display" : "Central shunt with prosthetic graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "57365007",
+        "display" : "Excision of lesion of aorta with interposition graft replacement (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58506009",
+        "display" : "Embolectomy of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60283001",
+        "display" : "Closure of aortoduodenal fistula (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60291000087101",
+        "display" : "Percutaneous transluminal coronary intervention of ostium of coronary intermediate artery using imaging guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60869005",
+        "display" : "Division of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "608873006",
+        "display" : "Open repair of thoracoabdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "609161003",
+        "display" : "Percutaneous transluminal insertion of fenestrated stent graft into aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "609162005",
+        "display" : "Percutaneous transluminal insertion of branched stent graft into aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61125008",
+        "display" : "Aortofemoral-popliteal artery in-situ vein bypass graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61166008",
+        "display" : "Aneurysmectomy of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61192001",
+        "display" : "Closure of aorticopulmonary fistula or fenestration (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61551000087100",
+        "display" : "Percutaneous transluminal angioplasty with insertion of bare metal stent into ostium of left main coronary artery using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61591000087105",
+        "display" : "Percutaneous transluminal angioplasty with insertion of drug-eluting stent into ostium of left main coronary artery using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62665005",
+        "display" : "Abdominal aorta-iliac artery polyethylene terephthalate bypass graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "62820003",
+        "display" : "Correction of tetralogy of Fallot, one-stage (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63296004",
+        "display" : "Excision of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "6337001",
+        "display" : "Ligation of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63731008",
+        "display" : "Creation of aortocarotid shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64129003",
+        "display" : "Excision of lesion of thoracoabdominal aorta with end-to-end anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64608008",
+        "display" : "Excision of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64670002",
+        "display" : "Embolectomy with catheter of aortoiliac artery by leg incision (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "67166004",
+        "display" : "Aortocoronary artery bypass graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68645009",
+        "display" : "Embolectomy with catheter of aortoiliac artery by abdominal incision (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68800008",
+        "display" : "Creation of conduit of right ventricle and pulmonary artery in repair of transposition of great vessels (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698643003",
+        "display" : "Balloon dilation of coarctation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698992006",
+        "display" : "Emergency repair of ruptured infrarenal abdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698994007",
+        "display" : "Emergency repair of ruptured suprarenal abdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698995008",
+        "display" : "Elective repair of infrarenal abdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698996009",
+        "display" : "Elective repair of suprarenal abdominal aortic aneurysm (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699114003",
+        "display" : "Endovascular repair of abdominal aortic aneurysm using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699115002",
+        "display" : "Endovascular repair of thoracic aortic aneurysm using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699140009",
+        "display" : "Creation of aorto-common carotid artery shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699279007",
+        "display" : "Replacement of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699280005",
+        "display" : "Repair of aortic root (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699352005",
+        "display" : "Repair of ascending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699385002",
+        "display" : "Repair of dissection of proximal thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699386001",
+        "display" : "Repair of dissection of distal thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "700418003",
+        "display" : "Hand-assisted laparoscopic repair of aneurysm of abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709857008",
+        "display" : "Repair of aneurysm of aorta using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710074006",
+        "display" : "Percutaneous transluminal angioplasty of abdominal aorta, iliac artery and femoral artery using fluoroscopic guidance with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71198003",
+        "display" : "Aorto-iliac thromboendarterectomy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71346006",
+        "display" : "Augmentation of outflow tract in total repair of tetralogy of Fallot (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71543002",
+        "display" : "Fenestration of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715765002",
+        "display" : "Resection of ascending thoracic aorta using prosthetic graft with cardiopulmonary bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "725368002",
+        "display" : "Repair of dissection of abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "73202009",
+        "display" : "Aortofemoral to popliteal vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736966005",
+        "display" : "Aortocoronary artery bypass of four or more coronary arteries with saphenous vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736967001",
+        "display" : "Aortocoronary artery bypass of one coronary artery with saphenous vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736968006",
+        "display" : "Aortocoronary artery bypass of three coronary arteries with saphenous vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "736969003",
+        "display" : "Aortocoronary artery bypass of two coronary arteries with saphenous vein graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7414004",
+        "display" : "Intraoperative transluminal aortic angioplasty (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75409000",
+        "display" : "Implantation of outflow tract prosthesis in total repair of tetralogy of Fallot (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75533008",
+        "display" : "Aneurysmectomy with graft replacement of thoracoabdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76504000",
+        "display" : "Embolectomy of aortic arch (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76987002",
+        "display" : "Repair of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771348000",
+        "display" : "Repair of supravalvar aortic stenosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "77615009",
+        "display" : "Resection of aorta with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78692009",
+        "display" : "Ligation of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8102001",
+        "display" : "Aneurysmectomy of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82213008",
+        "display" : "Aneurysmectomy of aorta with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "822991000",
+        "display" : "Plastic repair of aortic arch with tube graft (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82367000",
+        "display" : "Aneurysmectomy of ascending aorta with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82611002",
+        "display" : "Creation of aortosubclavian shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83538007",
+        "display" : "Aneurysmectomy of aortic arch with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84552001",
+        "display" : "Resection of aortic arch with anastomosis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84594003",
+        "display" : "Gas endarterectomy of aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8645007",
+        "display" : "Aorta-coronary sinus shunt (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86642005",
+        "display" : "Creation of shunt of descending aorta to pulmonary artery (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86868001",
+        "display" : "Aortoiliofemoral vascular bypass (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8876004",
+        "display" : "Aortocoronary artery bypass graft with prosthesis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "90061001",
+        "display" : "Ligation of descending aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "90487008",
+        "display" : "Aortocoronary bypass of two coronary arteries (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "90989000",
+        "display" : "Arteriectomy of thoracic aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "91592003",
+        "display" : "Closure of fistula of sinus of Valsalva (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "9274004",
+        "display" : "Removal of intra-aortic balloon with repair of aorta with graft (procedure)"
+      }
+    ]
+  }
+}

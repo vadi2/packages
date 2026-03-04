@@ -1,0 +1,122 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1147.155",
+  "meta" : {
+    "versionId" : "27",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Mathematica PSI Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1147.155",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1147.155"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "CTAngiographyOfChest",
+  "title" : "CT Angiography of Chest",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "Mathematica PSI Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this Grouped value set is to represent concepts for CT angiography of the chest),(Data Element Scope: This value set may use a model element related to Diagnostic Study.),(Inclusion Criteria: Includes concepts that represent CT angiography of the chest.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1147.154"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1248.266"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1d699a9e-f716-49ef-b97a-f914f4ebc153",
+    "timestamp" : "2025-11-24T14:06:47-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16332841000119106",
+        "display" : "Computed tomography angiography of pulmonary artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "36147-7",
+        "display" : "CTA Pulmonary arteries W contrast IV"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448766000",
+        "display" : "Computed tomography angiography of pulmonary artery, abdominal artery and pelvic artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "79077-4",
+        "display" : "CTA Pulmonary arteries for pulmonary embolus W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "83290-7",
+        "display" : "CTA Pulmonary arteries - bilateral and Pelvis veins and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "87848-8",
+        "display" : "CTA Pulmonary arteries - bilateral and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis W contrast IV"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "87849-6",
+        "display" : "CTA Pulmonary arteries - bilateral and Lower extremity veins - bilateral for pulmonary embolus and deep vein thrombosis"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "88322-3",
+        "display" : "CT Chest W contrast IV and CT angiogram Pulmonary arteries for pulmonary embolus W contrast IV"
+      }
+    ]
+  }
+}

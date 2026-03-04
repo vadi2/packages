@@ -1,0 +1,203 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2085",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2023-01-25"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2085",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2085"
+    }
+  ],
+  "version" : "20230125",
+  "name" : "LeukocytesConcentrationTestsInBloodByAnyMethod",
+  "title" : "Leukocytes [Concentration] (Tests in Blood by Any Method)",
+  "status" : "active",
+  "date" : "2023-01-25T01:08:07-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Leukocyte concentration in Blood by any method.),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Leukocytes # volume Blood),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "12227-5",
+            "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood"
+          },
+          {
+            "code" : "26464-8",
+            "display" : "Leukocytes [#/volume] in Blood"
+          },
+          {
+            "code" : "30406-3",
+            "display" : "Leukocytes other [#/volume] in Blood"
+          },
+          {
+            "code" : "33256-9",
+            "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count"
+          },
+          {
+            "code" : "49498-9",
+            "display" : "Leukocytes [#/volume] in Blood by Estimate"
+          },
+          {
+            "code" : "51383-8",
+            "display" : "Leukocytes other [#/volume] in Blood by Automated count"
+          },
+          {
+            "code" : "52999-0",
+            "display" : "Leukocytes.disintegrated [#/volume] in Blood"
+          },
+          {
+            "code" : "61182-2",
+            "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood from Fetus"
+          },
+          {
+            "code" : "62239-9",
+            "display" : "Leukocytes [#/volume] in Blood from Fetus by Automated count"
+          },
+          {
+            "code" : "66145-4",
+            "display" : "Leukocytes other [#/volume] in Blood from Fetus by Manual count"
+          },
+          {
+            "code" : "6690-2",
+            "display" : "Leukocytes [#/volume] in Blood by Automated count"
+          },
+          {
+            "code" : "729-4",
+            "display" : "Leukocytes other [#/volume] in Blood by Manual count"
+          },
+          {
+            "code" : "804-5",
+            "display" : "Leukocytes [#/volume] in Blood by Manual count"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a94b1ccb-8f86-4553-8cf9-d2736fca2468",
+    "timestamp" : "2025-11-24T13:07:32-05:00",
+    "total" : 13,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "12227-5",
+        "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "26464-8",
+        "display" : "Leukocytes [#/volume] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "30406-3",
+        "display" : "Leukocytes other [#/volume] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33256-9",
+        "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood by Automated count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "49498-9",
+        "display" : "Leukocytes [#/volume] in Blood by Estimate"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "51383-8",
+        "display" : "Leukocytes other [#/volume] in Blood by Automated count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "52999-0",
+        "display" : "Leukocytes.disintegrated [#/volume] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "61182-2",
+        "display" : "Leukocytes [#/volume] corrected for nucleated erythrocytes in Blood from Fetus"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "62239-9",
+        "display" : "Leukocytes [#/volume] in Blood from Fetus by Automated count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "66145-4",
+        "display" : "Leukocytes other [#/volume] in Blood from Fetus by Manual count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "6690-2",
+        "display" : "Leukocytes [#/volume] in Blood by Automated count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "729-4",
+        "display" : "Leukocytes other [#/volume] in Blood by Manual count"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "804-5",
+        "display" : "Leukocytes [#/volume] in Blood by Manual count"
+      }
+    ]
+  }
+}

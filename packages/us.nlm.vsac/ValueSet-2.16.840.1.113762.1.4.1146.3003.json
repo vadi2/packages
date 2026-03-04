@@ -1,0 +1,573 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3003",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3003",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3003"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "OsteitisICD10CM",
+  "title" : "Osteitis (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Osteitis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Osteitis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "M85.30",
+            "display" : "Osteitis condensans, unspecified site"
+          },
+          {
+            "code" : "M85.311",
+            "display" : "Osteitis condensans, right shoulder"
+          },
+          {
+            "code" : "M85.312",
+            "display" : "Osteitis condensans, left shoulder"
+          },
+          {
+            "code" : "M85.319",
+            "display" : "Osteitis condensans, unspecified shoulder"
+          },
+          {
+            "code" : "M85.321",
+            "display" : "Osteitis condensans, right upper arm"
+          },
+          {
+            "code" : "M85.322",
+            "display" : "Osteitis condensans, left upper arm"
+          },
+          {
+            "code" : "M85.329",
+            "display" : "Osteitis condensans, unspecified upper arm"
+          },
+          {
+            "code" : "M85.331",
+            "display" : "Osteitis condensans, right forearm"
+          },
+          {
+            "code" : "M85.332",
+            "display" : "Osteitis condensans, left forearm"
+          },
+          {
+            "code" : "M85.339",
+            "display" : "Osteitis condensans, unspecified forearm"
+          },
+          {
+            "code" : "M85.341",
+            "display" : "Osteitis condensans, right hand"
+          },
+          {
+            "code" : "M85.342",
+            "display" : "Osteitis condensans, left hand"
+          },
+          {
+            "code" : "M85.349",
+            "display" : "Osteitis condensans, unspecified hand"
+          },
+          {
+            "code" : "M85.351",
+            "display" : "Osteitis condensans, right thigh"
+          },
+          {
+            "code" : "M85.352",
+            "display" : "Osteitis condensans, left thigh"
+          },
+          {
+            "code" : "M85.359",
+            "display" : "Osteitis condensans, unspecified thigh"
+          },
+          {
+            "code" : "M85.361",
+            "display" : "Osteitis condensans, right lower leg"
+          },
+          {
+            "code" : "M85.362",
+            "display" : "Osteitis condensans, left lower leg"
+          },
+          {
+            "code" : "M85.369",
+            "display" : "Osteitis condensans, unspecified lower leg"
+          },
+          {
+            "code" : "M85.371",
+            "display" : "Osteitis condensans, right ankle and foot"
+          },
+          {
+            "code" : "M85.372",
+            "display" : "Osteitis condensans, left ankle and foot"
+          },
+          {
+            "code" : "M85.379",
+            "display" : "Osteitis condensans, unspecified ankle and foot"
+          },
+          {
+            "code" : "M85.38",
+            "display" : "Osteitis condensans, other site"
+          },
+          {
+            "code" : "M85.39",
+            "display" : "Osteitis condensans, multiple sites"
+          },
+          {
+            "code" : "M88.0",
+            "display" : "Osteitis deformans of skull"
+          },
+          {
+            "code" : "M88.1",
+            "display" : "Osteitis deformans of vertebrae"
+          },
+          {
+            "code" : "M88.811",
+            "display" : "Osteitis deformans of right shoulder"
+          },
+          {
+            "code" : "M88.812",
+            "display" : "Osteitis deformans of left shoulder"
+          },
+          {
+            "code" : "M88.819",
+            "display" : "Osteitis deformans of unspecified shoulder"
+          },
+          {
+            "code" : "M88.821",
+            "display" : "Osteitis deformans of right upper arm"
+          },
+          {
+            "code" : "M88.822",
+            "display" : "Osteitis deformans of left upper arm"
+          },
+          {
+            "code" : "M88.829",
+            "display" : "Osteitis deformans of unspecified upper arm"
+          },
+          {
+            "code" : "M88.831",
+            "display" : "Osteitis deformans of right forearm"
+          },
+          {
+            "code" : "M88.832",
+            "display" : "Osteitis deformans of left forearm"
+          },
+          {
+            "code" : "M88.839",
+            "display" : "Osteitis deformans of unspecified forearm"
+          },
+          {
+            "code" : "M88.841",
+            "display" : "Osteitis deformans of right hand"
+          },
+          {
+            "code" : "M88.842",
+            "display" : "Osteitis deformans of left hand"
+          },
+          {
+            "code" : "M88.849",
+            "display" : "Osteitis deformans of unspecified hand"
+          },
+          {
+            "code" : "M88.851",
+            "display" : "Osteitis deformans of right thigh"
+          },
+          {
+            "code" : "M88.852",
+            "display" : "Osteitis deformans of left thigh"
+          },
+          {
+            "code" : "M88.859",
+            "display" : "Osteitis deformans of unspecified thigh"
+          },
+          {
+            "code" : "M88.861",
+            "display" : "Osteitis deformans of right lower leg"
+          },
+          {
+            "code" : "M88.862",
+            "display" : "Osteitis deformans of left lower leg"
+          },
+          {
+            "code" : "M88.869",
+            "display" : "Osteitis deformans of unspecified lower leg"
+          },
+          {
+            "code" : "M88.871",
+            "display" : "Osteitis deformans of right ankle and foot"
+          },
+          {
+            "code" : "M88.872",
+            "display" : "Osteitis deformans of left ankle and foot"
+          },
+          {
+            "code" : "M88.879",
+            "display" : "Osteitis deformans of unspecified ankle and foot"
+          },
+          {
+            "code" : "M88.88",
+            "display" : "Osteitis deformans of other bones"
+          },
+          {
+            "code" : "M88.89",
+            "display" : "Osteitis deformans of multiple sites"
+          },
+          {
+            "code" : "M88.9",
+            "display" : "Osteitis deformans of unspecified bone"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2196ca6c-d22b-4cb0-ac4b-eb5314ab1f55",
+    "timestamp" : "2025-11-24T13:49:50-05:00",
+    "total" : 50,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.30",
+        "display" : "Osteitis condensans, unspecified site"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.311",
+        "display" : "Osteitis condensans, right shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.312",
+        "display" : "Osteitis condensans, left shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.319",
+        "display" : "Osteitis condensans, unspecified shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.321",
+        "display" : "Osteitis condensans, right upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.322",
+        "display" : "Osteitis condensans, left upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.329",
+        "display" : "Osteitis condensans, unspecified upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.331",
+        "display" : "Osteitis condensans, right forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.332",
+        "display" : "Osteitis condensans, left forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.339",
+        "display" : "Osteitis condensans, unspecified forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.341",
+        "display" : "Osteitis condensans, right hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.342",
+        "display" : "Osteitis condensans, left hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.349",
+        "display" : "Osteitis condensans, unspecified hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.351",
+        "display" : "Osteitis condensans, right thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.352",
+        "display" : "Osteitis condensans, left thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.359",
+        "display" : "Osteitis condensans, unspecified thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.361",
+        "display" : "Osteitis condensans, right lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.362",
+        "display" : "Osteitis condensans, left lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.369",
+        "display" : "Osteitis condensans, unspecified lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.371",
+        "display" : "Osteitis condensans, right ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.372",
+        "display" : "Osteitis condensans, left ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.379",
+        "display" : "Osteitis condensans, unspecified ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.38",
+        "display" : "Osteitis condensans, other site"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M85.39",
+        "display" : "Osteitis condensans, multiple sites"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.0",
+        "display" : "Osteitis deformans of skull"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.1",
+        "display" : "Osteitis deformans of vertebrae"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.811",
+        "display" : "Osteitis deformans of right shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.812",
+        "display" : "Osteitis deformans of left shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.819",
+        "display" : "Osteitis deformans of unspecified shoulder"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.821",
+        "display" : "Osteitis deformans of right upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.822",
+        "display" : "Osteitis deformans of left upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.829",
+        "display" : "Osteitis deformans of unspecified upper arm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.831",
+        "display" : "Osteitis deformans of right forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.832",
+        "display" : "Osteitis deformans of left forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.839",
+        "display" : "Osteitis deformans of unspecified forearm"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.841",
+        "display" : "Osteitis deformans of right hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.842",
+        "display" : "Osteitis deformans of left hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.849",
+        "display" : "Osteitis deformans of unspecified hand"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.851",
+        "display" : "Osteitis deformans of right thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.852",
+        "display" : "Osteitis deformans of left thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.859",
+        "display" : "Osteitis deformans of unspecified thigh"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.861",
+        "display" : "Osteitis deformans of right lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.862",
+        "display" : "Osteitis deformans of left lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.869",
+        "display" : "Osteitis deformans of unspecified lower leg"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.871",
+        "display" : "Osteitis deformans of right ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.872",
+        "display" : "Osteitis deformans of left ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.879",
+        "display" : "Osteitis deformans of unspecified ankle and foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.88",
+        "display" : "Osteitis deformans of other bones"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.89",
+        "display" : "Osteitis deformans of multiple sites"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "M88.9",
+        "display" : "Osteitis deformans of unspecified bone"
+      }
+    ]
+  }
+}

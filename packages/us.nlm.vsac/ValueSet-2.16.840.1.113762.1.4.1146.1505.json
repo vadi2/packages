@@ -1,0 +1,167 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1505",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-01-23T01:10:32.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Acanthamoeba,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-01-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-01-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1505",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1505"
+    }
+  ],
+  "version" : "20240123",
+  "name" : "AcanthamoebaDiseaseKeratitisDisordersSNOMED",
+  "title" : "Acanthamoeba Disease [Keratitis] (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2024-01-23T01:10:32-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Acanthamoeba Disease (Keratitis) regardless of the clinical presentation of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Acanthamoeba Keratitis),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "127631000119105",
+            "display" : "Corneal ulcer due to acanthamoeba (disorder)"
+          },
+          {
+            "code" : "15693201000119102",
+            "display" : "Keratitis of bilateral eyes caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "15693241000119100",
+            "display" : "Keratitis of left eye caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "15693281000119105",
+            "display" : "Keratitis of right eye caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "15698841000119105",
+            "display" : "Ulcer of right cornea caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "15698881000119100",
+            "display" : "Ulcer of left cornea caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "231896005",
+            "display" : "Acanthamoeba keratitis (disorder)"
+          },
+          {
+            "code" : "711645008",
+            "display" : "Corneal ulcer caused by Acanthamoeba (disorder)"
+          },
+          {
+            "code" : "840444002",
+            "display" : "Dacryoadenitis due to Acanthamoeba keratitis (disorder)"
+          },
+          {
+            "code" : "840484006",
+            "display" : "Conjunctivitis caused by Acanthamoeba (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ffac1d6f-7902-4ff7-961b-26dc95593c1b",
+    "timestamp" : "2025-11-24T12:52:23-05:00",
+    "total" : 9,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15693201000119102",
+        "display" : "Keratitis of bilateral eyes caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15693241000119100",
+        "display" : "Keratitis of left eye caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15693281000119105",
+        "display" : "Keratitis of right eye caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15698841000119105",
+        "display" : "Ulcer of right cornea caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15698881000119100",
+        "display" : "Ulcer of left cornea caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "231896005",
+        "display" : "Acanthamoeba keratitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711645008",
+        "display" : "Corneal ulcer caused by Acanthamoeba (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840444002",
+        "display" : "Dacryoadenitis due to Acanthamoeba keratitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840484006",
+        "display" : "Conjunctivitis caused by Acanthamoeba (disorder)"
+      }
+    ]
+  }
+}

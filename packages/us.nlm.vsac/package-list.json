@@ -5,12 +5,20 @@
   "introduction" : "FHIR Distribution for the the VSAC CDA Documents",
   "list" : [
     {
+      "version" : "0.24.0",
+      "desc" : "Routine update with specific fixes for CCDA and US Core",
+      "path" : "http://fhir.org/packages/us.nlm.vsac/0.24.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "current" : true,
+      "date" : "2025-11-25"
+    },
+    {
       "version" : "0.23.0",
       "desc" : "Update for missed CCDA value sets",
       "path" : "http://fhir.org/packages/us.nlm.vsac/0.23.0",
       "status" : "release",
       "sequence" : "Publications",
-      "current" : true,
       "date" : "2025-05-24"
     },
     {

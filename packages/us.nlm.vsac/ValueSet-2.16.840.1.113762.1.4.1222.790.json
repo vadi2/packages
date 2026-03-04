@@ -1,0 +1,153 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.790",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2024-09-20T10:24:36.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-07-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-07-13"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.790",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.790"
+    }
+  ],
+  "version" : "20240713",
+  "name" : "UrineProteinToCreatinineRatioUPCR",
+  "title" : "Urine Protein to Creatinine Ratio (UPCR)",
+  "status" : "active",
+  "date" : "2024-09-20T10:24:36-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Urine Protein-to-Creatinine Ratio (UPCR).),(Data Element Scope: The intent of this set of values is to identify patients who have a/an the ratio of all protein to creatinine in the urine..),(Inclusion Criteria: Includes LOINC codes for Urine Protein-to-Creatinine Ratio (UPCR).),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Urine Protein-to-Creatinine Ratio (UPCR).)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "13801-6"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "2890-2"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "34366-5"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "40486-3"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "60678-0"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2fb23c1a-a529-415c-94e8-22bb12bb598b",
+    "timestamp" : "2025-11-24T15:30:13-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "13801-6",
+        "display" : "Protein/Creatinine [Mass Ratio] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "2890-2",
+        "display" : "Protein/Creatinine [Mass Ratio] in Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34366-5",
+        "display" : "Protein/Creatinine [Ratio] in Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "40486-3",
+        "display" : "Protein/Creatinine [Ratio] in 24 hour Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "60678-0",
+        "display" : "Protein/Creatinine [Mass Ratio] in 12 hour Urine"
+      }
+    ]
+  }
+}

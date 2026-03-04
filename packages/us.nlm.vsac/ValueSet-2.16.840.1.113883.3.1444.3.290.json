@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.3.290",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-11-23T18:00:57.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-11-23"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-11-23"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.290",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.3.290"
+    }
+  ],
+  "version" : "20251123",
+  "name" : "RETGeneTesting",
+  "title" : "RET Gene Testing",
+  "status" : "active",
+  "date" : "2025-11-23T18:00:57-05:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for RET testing.),(Data Element Scope: This value set may use a model element related to Laboratory Test.),(Inclusion Criteria: Includes concepts that represent a laboratory test for RET.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "101386-1",
+            "display" : "RET gene deletion+duplication and full mutation analysis in Blood or Tissue by Molecular genetics method"
+          },
+          {
+            "code" : "21733-1",
+            "display" : "RET gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal"
+          },
+          {
+            "code" : "21734-9",
+            "display" : "RET gene mutations tested for in Blood or Tissue by Molecular genetics method Nominal"
+          },
+          {
+            "code" : "40693-4",
+            "display" : "RET gene targeted mutation analysis in Blood or Tissue by Molecular genetics method"
+          },
+          {
+            "code" : "94224-3",
+            "display" : "RET gene full mutation analysis in Blood or Tissue by Sequencing"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:ddb772bb-43cd-4ba1-9b7d-325126aacde4",
+    "timestamp" : "2025-11-24T18:16:13-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101386-1",
+        "display" : "RET gene deletion+duplication and full mutation analysis in Blood or Tissue by Molecular genetics method"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "21733-1",
+        "display" : "RET gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "21734-9",
+        "display" : "RET gene mutations tested for in Blood or Tissue by Molecular genetics method Nominal"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "40693-4",
+        "display" : "RET gene targeted mutation analysis in Blood or Tissue by Molecular genetics method"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94224-3",
+        "display" : "RET gene full mutation analysis in Blood or Tissue by Sequencing"
+      }
+    ]
+  }
+}

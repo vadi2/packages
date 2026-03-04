@@ -1,0 +1,103 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2543",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Clubfoot,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2543",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2543"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "ClubfootDisordersICD10CM",
+  "title" : "Clubfoot (Disorders) (ICD10CM)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Clubfoot regardless of the clinical presentation of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Talipes equinovarus (including congenital, idiopathic, and neurogenic), talipes not otherwise specified, clubfoot not otherwise specified.),(Exclusion Criteria: Talipes equinovalgus, talipes calcaneovarus, talipes calcaneovalgus, talipes varus, talipes valgus, vertical talus, metatarsus adductus alone, metatarsus varus alone, pes varus, pes valgus, pes planus, rocker-bottom foot, positional or postural clubfoot.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "Q66.00",
+            "display" : "Congenital talipes equinovarus, unspecified foot"
+          },
+          {
+            "code" : "Q66.01",
+            "display" : "Congenital talipes equinovarus, right foot"
+          },
+          {
+            "code" : "Q66.02",
+            "display" : "Congenital talipes equinovarus, left foot"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:bf3071ec-6e8b-449a-b166-ef18bdb5c601",
+    "timestamp" : "2025-11-24T13:28:09-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q66.00",
+        "display" : "Congenital talipes equinovarus, unspecified foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q66.01",
+        "display" : "Congenital talipes equinovarus, right foot"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "Q66.02",
+        "display" : "Congenital talipes equinovarus, left foot"
+      }
+    ]
+  }
+}

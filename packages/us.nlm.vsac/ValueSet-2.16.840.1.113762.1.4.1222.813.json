@@ -1,0 +1,187 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.813",
+  "meta" : {
+    "versionId" : "17",
+    "lastUpdated" : "2024-09-10T11:03:49.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.813",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.813"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "BloodEthanolLevel",
+  "title" : "Blood Ethanol Level",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values addresses terms representing Blood Ethanol Level.),(Data Element Scope: The intent of this set of values is to identify patients who have ethanol in the blood, serum or plasma.),(Inclusion Criteria: Includes LOINC codes for Blood Ethanol Level.),(Exclusion Criteria: Terms not representative of observable encoded terms that may have values indicating Blood Ethanol Level.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "74859-0"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "5640-8"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "56478-1"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "15120-9"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "5643-2"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "14719-9"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "=",
+            "value" : "14336-2"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a60c0602-650d-42dd-bb10-5967bb11ea22",
+    "timestamp" : "2025-11-24T15:31:13-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14336-2",
+        "display" : "Ethanol [Mass/volume] in Serum or Plasma by Gas chromatography"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14719-9",
+        "display" : "Ethanol [Moles/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "15120-9",
+        "display" : "Ethanol [Moles/volume] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "5640-8",
+        "display" : "Ethanol [Mass/volume] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "5643-2",
+        "display" : "Ethanol [Mass/volume] in Serum or Plasma"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "56478-1",
+        "display" : "Ethanol [Mass/volume] in Blood by Gas chromatography"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "74859-0",
+        "display" : "Ethanol [Mass/volume] in Blood Estimated from serum or plasma level"
+      }
+    ]
+  }
+}

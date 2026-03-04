@@ -1,0 +1,154 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2904",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2904",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2904"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "PertussisAdditionalContextSpecimenSourceCodes",
+  "title" : "Pertussis Additional Context Specimen Source Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Pertussis Additional Context Specimen Source Codes),(Data Element Scope: Pertussis Additional Context Specimen Source Codes),(Inclusion Criteria: Pertussis Additional Context Specimen Source Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "119297000",
+            "display" : "Blood specimen (specimen)"
+          },
+          {
+            "code" : "122555007",
+            "display" : "Venous blood specimen (specimen)"
+          },
+          {
+            "code" : "258467004",
+            "display" : "Nasopharyngeal washings (specimen)"
+          },
+          {
+            "code" : "258500001",
+            "display" : "Nasopharyngeal swab (specimen)"
+          },
+          {
+            "code" : "258580003",
+            "display" : "Whole blood specimen (specimen)"
+          },
+          {
+            "code" : "263376008",
+            "display" : "Entire oropharynx (body structure)"
+          },
+          {
+            "code" : "71836000",
+            "display" : "Nasopharyngeal structure (body structure)"
+          },
+          {
+            "code" : "87612001",
+            "display" : "Blood (substance)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f20d93ba-e5d4-409c-b7f0-336ffbf6a6c4",
+    "timestamp" : "2025-11-24T13:44:43-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "119297000",
+        "display" : "Blood specimen (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "122555007",
+        "display" : "Venous blood specimen (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "258467004",
+        "display" : "Nasopharyngeal washings (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "258500001",
+        "display" : "Nasopharyngeal swab (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "258580003",
+        "display" : "Whole blood specimen (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "263376008",
+        "display" : "Entire oropharynx (body structure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71836000",
+        "display" : "Nasopharyngeal structure (body structure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87612001",
+        "display" : "Blood (substance)"
+      }
+    ]
+  }
+}

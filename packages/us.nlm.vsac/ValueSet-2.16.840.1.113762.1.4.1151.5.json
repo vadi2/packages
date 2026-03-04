@@ -1,0 +1,80 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1151.5",
+  "meta" : {
+    "versionId" : "3",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Oregon Urology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-02-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2016-07-13"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1151.5",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1151.5"
+    }
+  ],
+  "version" : "20160713",
+  "name" : "BCGBacillusCalmetteGuerinConnaught",
+  "title" : "BCG Bacillus Calmette Guerin, Connaught",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2016-07-13T01:00:02-04:00",
+  "publisher" : "Oregon Urology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: BCG is used for the treatment of non muscle invasive bladder cancer and is administered intravesically.),(Data Element Scope: The intent of this data element is to include BCG as a treatment for non muscle invasive bladder cancer),(Inclusion Criteria: Bacillus Calmette Guerin for intravesical use),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "76469",
+            "display" : "BCG, Live, Connaught Strain"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:e24df5b6-ea9f-4494-ba89-c24685af7bf7",
+    "timestamp" : "2025-11-24T14:08:48-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "76469",
+        "display" : "BCG, live, Connaught strain"
+      }
+    ]
+  }
+}

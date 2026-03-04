@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1349",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-06-19T01:24:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common,Specimen_Type"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1349",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1349"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "CerebrospinalFluidSpecimenTypeSNOMED",
+  "title" : "Cerebrospinal Fluid (Specimen Type) (SNOMED)",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: SNOMED code(s) for type of specimen used for laboratory test, such as blood, stool, specimen from a normally sterile site, respiratory specimen.),(Data Element Scope: Specimens for laboratory testing as documented in a clinical record.),(Inclusion Criteria: CSF),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "110969006",
+            "display" : "Cerebrospinal fluid cytologic material (specimen)"
+          },
+          {
+            "code" : "16216331000119107",
+            "display" : "Cerebrospinal fluid smear specimen (specimen)"
+          },
+          {
+            "code" : "258450006",
+            "display" : "Cerebrospinal fluid specimen (specimen)"
+          },
+          {
+            "code" : "445372002",
+            "display" : "Cerebrospinal fluid specimen from ventricle of brain (specimen)"
+          },
+          {
+            "code" : "446861007",
+            "display" : "Cerebrospinal fluid specimen obtained via ventriculoperitoneal shunt (specimen)"
+          },
+          {
+            "code" : "473405009",
+            "display" : "Cerebrospinal fluid specimen obtained from Rickham reservoir (specimen)"
+          },
+          {
+            "code" : "703691002",
+            "display" : "Spun cerebrospinal fluid (specimen)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9b326dd8-f462-43ed-8760-b0568a042a45",
+    "timestamp" : "2025-11-24T12:49:01-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110969006",
+        "display" : "Cerebrospinal fluid cytologic material (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16216331000119107",
+        "display" : "Cerebrospinal fluid smear specimen (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "258450006",
+        "display" : "Cerebrospinal fluid specimen (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445372002",
+        "display" : "Cerebrospinal fluid specimen from ventricle of brain (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446861007",
+        "display" : "Cerebrospinal fluid specimen obtained via ventriculoperitoneal shunt (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "473405009",
+        "display" : "Cerebrospinal fluid specimen obtained from Rickham reservoir (specimen)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703691002",
+        "display" : "Spun cerebrospinal fluid (specimen)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1116.263",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-10-15T01:04:59.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CancerLinQ Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-15"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-15"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1116.263",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1116.263"
+    }
+  ],
+  "version" : "20251015",
+  "name" : "MultipleMyeloma",
+  "title" : "Multiple Myeloma",
+  "status" : "active",
+  "date" : "2025-10-15T01:04:59-04:00",
+  "publisher" : "CancerLinQ Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: ),(Data Element Scope: ),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "concept" : [
+          {
+            "code" : "C90",
+            "display" : "Multiple myeloma and malignant plasma cell neoplasms"
+          },
+          {
+            "code" : "C90.00",
+            "display" : "Multiple myeloma not having achieved remission"
+          },
+          {
+            "code" : "C90.01",
+            "display" : "Multiple myeloma in remission"
+          },
+          {
+            "code" : "C90.02",
+            "display" : "Multiple myeloma in relapse"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:370e5a70-3cab-4a15-8285-9efa247ab077",
+    "timestamp" : "2025-11-24T12:36:02-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C90",
+        "display" : "Multiple myeloma and malignant plasma cell neoplasms"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C90.00",
+        "display" : "Multiple myeloma not having achieved remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C90.01",
+        "display" : "Multiple myeloma in remission"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-10-cm",
+        "version" : "2026",
+        "code" : "C90.02",
+        "display" : "Multiple myeloma in relapse"
+      }
+    ]
+  }
+}

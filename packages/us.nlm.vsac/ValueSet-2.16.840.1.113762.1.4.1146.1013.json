@@ -1,0 +1,177 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1013",
+  "meta" : {
+    "versionId" : "16",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Enteric,Trigger,Typhi"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1013",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1013"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "STyphiInfectionOrganismOrSubstanceInLabResults",
+  "title" : "S. Typhi Infection (Organism or Substance in Lab Results)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains organism names or substances associated with S. Typhi Infection.),(Data Element Scope: Organism names or substances reported in laboratory results),(Inclusion Criteria: VSAC query: Salmonella typhi (organism); \nNucleic acid and antigen substances),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "115428008",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi flagellar (substance)"
+          },
+          {
+            "code" : "115429000",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi somatic (substance)"
+          },
+          {
+            "code" : "1201000221106",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide unconjugated (substance)"
+          },
+          {
+            "code" : "291000221101",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi (substance)"
+          },
+          {
+            "code" : "30751000112106",
+            "display" : "Extended spectrum beta-lactamase producing Salmonella enterica subspecies enterica serovar Typhi (organism)"
+          },
+          {
+            "code" : "5595000",
+            "display" : "Salmonella enterica subspecies enterica serovar Typhi (organism)"
+          },
+          {
+            "code" : "708426007",
+            "display" : "Deoxyribonucleic acid of Salmonella enterica enterica serovar Typhi (substance)"
+          },
+          {
+            "code" : "767841007",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi (substance)"
+          },
+          {
+            "code" : "768659005",
+            "display" : "Vi capsular polysaccharide antigen of Salmonella Typhi (substance)"
+          },
+          {
+            "code" : "838461003",
+            "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi unconjugated (substance)"
+          },
+          {
+            "code" : "840684000",
+            "display" : "Multidrug-resistant Salmonella enterica subspecies enterica serovar Typhi (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9a5a874a-255b-4816-9565-90f1a58dc7e7",
+    "timestamp" : "2025-11-24T12:43:10-05:00",
+    "total" : 10,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "115428008",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi flagellar (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "115429000",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi somatic (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1201000221106",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide unconjugated (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "291000221101",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "30751000112106",
+        "display" : "Extended spectrum beta-lactamase producing Salmonella enterica subspecies enterica serovar Typhi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5595000",
+        "display" : "Salmonella enterica subspecies enterica serovar Typhi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708426007",
+        "display" : "Deoxyribonucleic acid of Salmonella enterica enterica serovar Typhi (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "767841007",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "838461003",
+        "display" : "Antigen of Salmonella enterica subspecies enterica serovar Typhi capsular polysaccharide Vi unconjugated (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840684000",
+        "display" : "Multidrug-resistant Salmonella enterica subspecies enterica serovar Typhi (organism)"
+      }
+    ]
+  }
+}

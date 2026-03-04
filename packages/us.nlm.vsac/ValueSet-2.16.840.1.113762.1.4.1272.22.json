@@ -1,0 +1,109 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1272.22",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-03T01:59:20.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Mathematica PSI Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-03"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-03"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1272.22",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1272.22"
+    }
+  ],
+  "version" : "20251003",
+  "name" : "PruritusDiagnosesSNOMED",
+  "title" : "Pruritus Diagnoses SNOMED",
+  "status" : "active",
+  "date" : "2025-10-03T01:59:21-04:00",
+  "publisher" : "Mathematica PSI Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set contains concepts related to a diagnosis of pruritus.),(Data Element Scope: This value set would use the Diagnosis QDM category.),(Inclusion Criteria: This value set contains concepts related to pruritus with either an undocumented cause or which could have been caused by a specific substance or drug.),(Exclusion Criteria: This value set excludes concepts that specify other causes of pruritus.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "276444007",
+            "display" : "Generalized pruritus (finding)"
+          },
+          {
+            "code" : "279333002",
+            "display" : "Pruritic disorder (disorder)"
+          },
+          {
+            "code" : "403576004",
+            "display" : "Generalized pruritus of unknown etiology (disorder)"
+          },
+          {
+            "code" : "724843002",
+            "display" : "Pruritus caused by drug (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1321d188-5481-4eef-8466-67a7764f8a7f",
+    "timestamp" : "2025-11-24T16:57:01-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "276444007",
+        "display" : "Generalized pruritus (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "279333002",
+        "display" : "Pruritic disorder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "403576004",
+        "display" : "Generalized pruritus of unknown etiology (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724843002",
+        "display" : "Pruritus caused by drug (disorder)"
+      }
+    ]
+  }
+}

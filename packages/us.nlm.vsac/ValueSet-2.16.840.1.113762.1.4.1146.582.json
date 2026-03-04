@@ -1,0 +1,204 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.582",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2025-06-24T01:08:12.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_ZVD,Trigger,Viral_Hemorrhagic_Fever"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-24"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-24"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.582",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.582"
+    }
+  ],
+  "version" : "20250624",
+  "name" : "ViralHemorrhagicFeverTestsForViralHemorrhagicFeverVirusAntigen",
+  "title" : "Viral Hemorrhagic Fever (Tests for Viral Hemorrhagic Fever Virus Antigen)",
+  "status" : "active",
+  "date" : "2025-06-24T01:08:12-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This value set should only include hemorrhagic conditions caused by the following viruses: Filoviruses: Ebola virus and Marburg virus Old-world arenaviruses: Lassa virus and Lujo virus New- world arenaviruses: Guanarito, Machupo, Junin, and Sabia viruses Crimean Congo hemorrhagic fever viruses.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Viral Hemorrhagic Fever Antigen),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: component: Viral Hemorrhagic Fever Antigen;  \n\nLOINC Search terms: “(filovirus or ebola or marburg or arenavirus or lassa or lujo or junin or sabia or machupo or guanarito or crimean) Ag -(culture or isolate or panel)”;),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "23401-3",
+            "display" : "Rift valley fever virus Ag [Presence] in Tissue by Neutralization test"
+          },
+          {
+            "code" : "23402-1",
+            "display" : "Rift valley fever virus Ag [Presence] in Blood by Neutralization test"
+          },
+          {
+            "code" : "23403-9",
+            "display" : "Rift valley fever virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code" : "23404-7",
+            "display" : "Rift valley fever virus Ag [Presence] in Tissue by Immunofluorescence"
+          },
+          {
+            "code" : "23405-4",
+            "display" : "Rift valley fever virus Ag [Presence] in Tissue by Immune diffusion (ID)"
+          },
+          {
+            "code" : "23406-2",
+            "display" : "Rift valley fever virus Ag [Presence] in Serum by Immune diffusion (ID)"
+          },
+          {
+            "code" : "31867-5",
+            "display" : "Lassa virus Ag [Presence] in Serum"
+          },
+          {
+            "code" : "31951-7",
+            "display" : "Rift valley fever virus Ag [Presence] in Specimen"
+          },
+          {
+            "code" : "41637-0",
+            "display" : "Ebola virus Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code" : "71708-2",
+            "display" : "Marburg virus Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code" : "71768-6",
+            "display" : "Ebola virus Ag [Presence] in Specimen by Immunoassay"
+          },
+          {
+            "code" : "71778-5",
+            "display" : "Rift valley fever virus Ag [Presence] in Serum by Immunoassay"
+          },
+          {
+            "code" : "7946-7",
+            "display" : "Lassa virus Ag [Presence] in Serum by Immunoassay"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:949457ff-3486-467d-8256-1c6d4a9508d0",
+    "timestamp" : "2025-11-24T13:56:39-05:00",
+    "total" : 13,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23401-3",
+        "display" : "Rift valley fever virus Ag [Presence] in Tissue by Neutralization test"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23402-1",
+        "display" : "Rift valley fever virus Ag [Presence] in Blood by Neutralization test"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23403-9",
+        "display" : "Rift valley fever virus Ag [Presence] in Specimen by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23404-7",
+        "display" : "Rift valley fever virus Ag [Presence] in Tissue by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23405-4",
+        "display" : "Rift valley fever virus Ag [Presence] in Tissue by Immune diffusion (ID)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "23406-2",
+        "display" : "Rift valley fever virus Ag [Presence] in Serum by Immune diffusion (ID)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31867-5",
+        "display" : "Lassa virus Ag [Presence] in Serum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31951-7",
+        "display" : "Rift valley fever virus Ag [Presence] in Specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "41637-0",
+        "display" : "Ebola virus Ag [Presence] in Specimen by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71708-2",
+        "display" : "Marburg virus Ag [Presence] in Specimen by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71768-6",
+        "display" : "Ebola virus Ag [Presence] in Specimen by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71778-5",
+        "display" : "Rift valley fever virus Ag [Presence] in Serum by Immunoassay"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "7946-7",
+        "display" : "Lassa virus Ag [Presence] in Serum by Immunoassay"
+      }
+    ]
+  }
+}

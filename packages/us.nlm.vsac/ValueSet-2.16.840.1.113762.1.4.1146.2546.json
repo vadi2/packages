@@ -1,0 +1,377 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2546",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Cystic_Fibrosis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2546",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2546"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CysticFibrosisDisordersSNOMED",
+  "title" : "Cystic Fibrosis (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Cystic Fibrosis regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Cystic Fibrosis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1010616001",
+            "display" : "Cirrhosis of liver due to classical cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "1296527009",
+            "display" : "Cystic fibrosis due to heterozygous deltaF508 mutation (disorder)"
+          },
+          {
+            "code" : "1296528004",
+            "display" : "Cystic fibrosis due to homozygous deltaF508 mutation (disorder)"
+          },
+          {
+            "code" : "1335845008",
+            "display" : "Cystic fibrosis transmembrane conductance regulator-related disorder (disorder)"
+          },
+          {
+            "code" : "16434671000119101",
+            "display" : "Cystic fibrosis transmembrane conductance regulator-related metabolic syndrome (finding)"
+          },
+          {
+            "code" : "190905008",
+            "display" : "Cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "235978006",
+            "display" : "Cystic fibrosis of pancreas (disorder)"
+          },
+          {
+            "code" : "426705001",
+            "display" : "Diabetes mellitus co-occurrent and due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "427022004",
+            "display" : "Liver disease due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "427089005",
+            "display" : "Diabetes mellitus due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "698940002",
+            "display" : "Arthropathy associated with cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707418001",
+            "display" : "Male infertility due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707419009",
+            "display" : "Osteoporosis due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707420003",
+            "display" : "Portal hypertension due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707450006",
+            "display" : "Pancreatic insufficiency due to cystic fibrosis of pancreas (disorder)"
+          },
+          {
+            "code" : "707536003",
+            "display" : "Digestive system manifestation co-occurrent and due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707542004",
+            "display" : "Otorhinolaryngological manifestation co-occurrent and due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707577004",
+            "display" : "Female infertility due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "707578009",
+            "display" : "Perforation of intestine due to cystic fibrosis with meconium ileus (disorder)"
+          },
+          {
+            "code" : "707734002",
+            "display" : "Liver enzymes level above reference range due to cystic fibrosis (finding)"
+          },
+          {
+            "code" : "707766007",
+            "display" : "Exocrine pancreatic manifestation co-occurrent and due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "716088000",
+            "display" : "Follicular hamartoma with alopecia and cystic fibrosis syndrome (disorder)"
+          },
+          {
+            "code" : "720401009",
+            "display" : "Cystic fibrosis with gastritis and megaloblastic anemia syndrome (disorder)"
+          },
+          {
+            "code" : "721197001",
+            "display" : "Polyneuropathy due to classical cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "762269004",
+            "display" : "Classical cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "762270003",
+            "display" : "Atypical cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "762271004",
+            "display" : "Subclinical cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "81423003",
+            "display" : "Cystic fibrosis without meconium ileus (disorder)"
+          },
+          {
+            "code" : "817966005",
+            "display" : "Distal intestinal obstruction syndrome due to cystic fibrosis (disorder)"
+          },
+          {
+            "code" : "86092005",
+            "display" : "Cystic fibrosis with meconium ileus (disorder)"
+          },
+          {
+            "code" : "86555001",
+            "display" : "Cystic fibrosis of the lung (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9306d6fb-6869-4f06-b943-a87806a61dfa",
+    "timestamp" : "2025-11-24T13:28:17-05:00",
+    "total" : 30,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1010616001",
+        "display" : "Cirrhosis of liver due to classical cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1296527009",
+        "display" : "Cystic fibrosis due to heterozygous deltaF508 mutation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1296528004",
+        "display" : "Cystic fibrosis due to homozygous deltaF508 mutation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1335845008",
+        "display" : "Cystic fibrosis transmembrane conductance regulator-related disorder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16434671000119101",
+        "display" : "Cystic fibrosis transmembrane conductance regulator-related metabolic syndrome (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "190905008",
+        "display" : "Cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235978006",
+        "display" : "Cystic fibrosis of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427022004",
+        "display" : "Liver disease due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427089005",
+        "display" : "Diabetes mellitus due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698940002",
+        "display" : "Arthropathy associated with cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707418001",
+        "display" : "Male infertility due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707419009",
+        "display" : "Osteoporosis due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707420003",
+        "display" : "Portal hypertension due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707450006",
+        "display" : "Pancreatic insufficiency due to cystic fibrosis of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707536003",
+        "display" : "Digestive system manifestation co-occurrent and due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707542004",
+        "display" : "Otorhinolaryngological manifestation co-occurrent and due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707577004",
+        "display" : "Female infertility due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707578009",
+        "display" : "Perforation of intestine due to cystic fibrosis with meconium ileus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707734002",
+        "display" : "Liver enzymes level above reference range due to cystic fibrosis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707766007",
+        "display" : "Exocrine pancreatic manifestation co-occurrent and due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716088000",
+        "display" : "Follicular hamartoma with alopecia and cystic fibrosis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "720401009",
+        "display" : "Cystic fibrosis with gastritis and megaloblastic anemia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721197001",
+        "display" : "Polyneuropathy due to classical cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762269004",
+        "display" : "Classical cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762270003",
+        "display" : "Atypical cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "762271004",
+        "display" : "Subclinical cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81423003",
+        "display" : "Cystic fibrosis without meconium ileus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "817966005",
+        "display" : "Distal intestinal obstruction syndrome due to cystic fibrosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86092005",
+        "display" : "Cystic fibrosis with meconium ileus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86555001",
+        "display" : "Cystic fibrosis of the lung (disorder)"
+      }
+    ]
+  }
+}

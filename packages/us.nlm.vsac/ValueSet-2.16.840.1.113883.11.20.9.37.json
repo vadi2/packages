@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.11.20.9.37",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2025-08-18T17:50:20.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.37",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.11.20.9.37"
+    }
+  ],
+  "version" : "20240606",
+  "name" : "TargetSiteQualifiers",
+  "title" : "TargetSite Qualifiers",
+  "status" : "active",
+  "date" : "2024-06-06T01:23:01-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Concepts representing topographical anatomical directional modifiers: left, right, medial, anterior, and posterior.),(Data Element Scope: Qualifier values used to describe the orientation or side of a clinical finding, procedure, or anatomical site.),(Inclusion Criteria: SNOMED CT qualifier concepts for left, right, medial, anterior, and posterior.),(Exclusion Criteria: Concepts unrelated to anatomical direction, such as severity, timing, or full anatomical structures.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "24028007",
+            "display" : "Right (qualifier value)"
+          },
+          {
+            "code" : "255549009",
+            "display" : "Anterior (qualifier value)"
+          },
+          {
+            "code" : "255551008",
+            "display" : "Posterior (qualifier value)"
+          },
+          {
+            "code" : "255561001",
+            "display" : "Medial (qualifier value)"
+          },
+          {
+            "code" : "7771000",
+            "display" : "Left (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fe63a4c1-7ded-4095-bd8e-a4e4553caced",
+    "timestamp" : "2025-11-24T17:09:01-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "24028007",
+        "display" : "Right (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "255549009",
+        "display" : "Anterior (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "255551008",
+        "display" : "Posterior (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "255561001",
+        "display" : "Medial (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7771000",
+        "display" : "Left (qualifier value)"
+      }
+    ]
+  }
+}

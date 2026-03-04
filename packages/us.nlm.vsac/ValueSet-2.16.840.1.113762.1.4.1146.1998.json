@@ -1,0 +1,133 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1998",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-02-19T01:09:45.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Angiostrongyliasis,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-02-19"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-02-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1998",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1998"
+    }
+  ],
+  "version" : "20250219",
+  "name" : "AngiostrongyliasisDisordersSNOMED",
+  "title" : "Angiostrongyliasis (Disorders) (SNOMED)",
+  "status" : "active",
+  "date" : "2025-02-19T01:09:45-05:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient may have Angiostrongyliasis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Angiostrongyliasis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "187187002",
+            "display" : "Intestinal angiostrongyliasis (disorder)"
+          },
+          {
+            "code" : "35033008",
+            "display" : "Infection caused by Angiostrongylus cantonensis (disorder)"
+          },
+          {
+            "code" : "418480000",
+            "display" : "Eosinophilic meningoencephalitis caused by Angiostrongylus cantonensis (disorder)"
+          },
+          {
+            "code" : "61750000",
+            "display" : "Infection caused by Angiostrongylus (disorder)"
+          },
+          {
+            "code" : "733173009",
+            "display" : "Eosinophilic meningitis caused by Angiostrongylus cantonensis (disorder)"
+          },
+          {
+            "code" : "866078000",
+            "display" : "Infection caused by Angiostrongylus costaricensis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:11b8d150-9bb6-4e7c-9919-b6fd791e70f2",
+    "timestamp" : "2025-11-24T13:03:56-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "187187002",
+        "display" : "Intestinal angiostrongyliasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "35033008",
+        "display" : "Infection caused by Angiostrongylus cantonensis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418480000",
+        "display" : "Eosinophilic meningoencephalitis caused by Angiostrongylus cantonensis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61750000",
+        "display" : "Infection caused by Angiostrongylus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733173009",
+        "display" : "Eosinophilic meningitis caused by Angiostrongylus cantonensis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "866078000",
+        "display" : "Infection caused by Angiostrongylus costaricensis (disorder)"
+      }
+    ]
+  }
+}

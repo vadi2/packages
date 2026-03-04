@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1341",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-17T13:07:23.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-16"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-16"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1341",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1341"
+    }
+  ],
+  "version" : "20250916",
+  "name" : "ThiazideTypeDiureticAllergyNDFRT",
+  "title" : "Thiazide Type Diuretic Allergy NDFRT",
+  "status" : "active",
+  "date" : "2025-09-16T01:18:29-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: NDFRT codes representing thiazide and thiazide-like drug classes),(Data Element Scope: NDFRT codes),(Inclusion Criteria: MoA or EPC),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/ndfrt",
+        "concept" : [
+          {
+            "code" : "N0000175419",
+            "display" : "Thiazide Diuretic [EPC]"
+          },
+          {
+            "code" : "N0000175420",
+            "display" : "Thiazide-like Diuretic [EPC]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:df5d8d31-ad07-4558-bb11-e23a4e6228df",
+    "timestamp" : "2025-11-24T11:44:06-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/ndfrt",
+        "version" : "20180301",
+        "code" : "N0000175419",
+        "display" : "Thiazide Diuretic [EPC]"
+      },
+      {
+        "system" : "http://hl7.org/fhir/ndfrt",
+        "version" : "20180301",
+        "code" : "N0000175420",
+        "display" : "Thiazide-like Diuretic [EPC]"
+      }
+    ]
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.970",
+  "meta" : {
+    "versionId" : "20",
+    "lastUpdated" : "2024-06-19T01:24:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.970",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.970"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "BulbarWeaknessSNOMED",
+  "title" : "Bulbar Weakness (SNOMED)",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has bulbar weakness regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: VSAC query = Bulbar weakness / bulbar palsy (disorder)),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "15749961000119105",
+            "display" : "Weakness of bilateral facial muscles (finding)"
+          },
+          {
+            "code" : "230246005",
+            "display" : "Progressive bulbar palsy of childhood (disorder)"
+          },
+          {
+            "code" : "249932008",
+            "display" : "Lower facial weakness (finding)"
+          },
+          {
+            "code" : "288980000",
+            "display" : "Difficulty sucking (finding)"
+          },
+          {
+            "code" : "298281008",
+            "display" : "Upper facial weakness (finding)"
+          },
+          {
+            "code" : "299757008",
+            "display" : "Sucking reflex absent (finding)"
+          },
+          {
+            "code" : "390789009",
+            "display" : "Head lag (finding)"
+          },
+          {
+            "code" : "398432008",
+            "display" : "Bulbar weakness (disorder)"
+          },
+          {
+            "code" : "51978008",
+            "display" : "Head lag in the newborn (disorder)"
+          },
+          {
+            "code" : "5258001",
+            "display" : "Pharyngeal gag reflex negative (finding)"
+          },
+          {
+            "code" : "54304004",
+            "display" : "Progressive bulbar palsy (disorder)"
+          },
+          {
+            "code" : "5799008",
+            "display" : "Hypoactive gag reflex (finding)"
+          },
+          {
+            "code" : "699866005",
+            "display" : "Progressive bulbar palsy with sensorineural deafness (disorder)"
+          },
+          {
+            "code" : "734756006",
+            "display" : "Weakness of left facial muscle (finding)"
+          },
+          {
+            "code" : "734757002",
+            "display" : "Weakness of right facial muscle (finding)"
+          },
+          {
+            "code" : "95666008",
+            "display" : "Weakness of face muscles (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:8aaa6824-8aee-4b76-b3aa-c3106694fd5c",
+    "timestamp" : "2025-11-24T14:04:58-05:00",
+    "total" : 16,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15749961000119105",
+        "display" : "Weakness of bilateral facial muscles (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230246005",
+        "display" : "Progressive bulbar palsy of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "249932008",
+        "display" : "Lower facial weakness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "288980000",
+        "display" : "Difficulty sucking (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "298281008",
+        "display" : "Upper facial weakness (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "299757008",
+        "display" : "Sucking reflex absent (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "390789009",
+        "display" : "Head lag (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398432008",
+        "display" : "Bulbar weakness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51978008",
+        "display" : "Head lag in newborn (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5258001",
+        "display" : "Pharyngeal gag reflex negative (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54304004",
+        "display" : "Progressive bulbar palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5799008",
+        "display" : "Hypoactive gag reflex (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699866005",
+        "display" : "Progressive bulbar palsy with sensorineural deafness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "734756006",
+        "display" : "Weakness of left facial muscle (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "734757002",
+        "display" : "Weakness of right facial muscle (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95666008",
+        "display" : "Weakness of face muscles (finding)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1316",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1316",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1316"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "BronchiolitisSNOMED",
+  "title" : "Bronchiolitis (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has bronchiolitis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Bronchiolitis),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "15199004",
+            "display" : "Acute bronchiolitis with bronchospasm (disorder)"
+          },
+          {
+            "code" : "195737004",
+            "display" : "Acute exudative bronchiolitis (disorder)"
+          },
+          {
+            "code" : "22482002",
+            "display" : "Subacute obliterative bronchiolitis (disorder)"
+          },
+          {
+            "code" : "233602006",
+            "display" : "Acute viral bronchiolitis (disorder)"
+          },
+          {
+            "code" : "385479009",
+            "display" : "Follicular bronchiolitis (disorder)"
+          },
+          {
+            "code" : "40100001",
+            "display" : "Obliterative bronchiolitis (disorder)"
+          },
+          {
+            "code" : "4120002",
+            "display" : "Bronchiolitis (disorder)"
+          },
+          {
+            "code" : "430476004",
+            "display" : "Diffuse panbronchiolitis (disorder)"
+          },
+          {
+            "code" : "52409006",
+            "display" : "Bronchiolitis exudativa (disorder)"
+          },
+          {
+            "code" : "5505005",
+            "display" : "Acute bronchiolitis (disorder)"
+          },
+          {
+            "code" : "59903001",
+            "display" : "Acute obliterating bronchiolitis (disorder)"
+          },
+          {
+            "code" : "718004",
+            "display" : "Acute bronchiolitis with obstruction (disorder)"
+          },
+          {
+            "code" : "87695000",
+            "display" : "Necrotizing bronchiolitis (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c4821826-237c-434a-bced-6270da686b4f",
+    "timestamp" : "2025-11-24T12:48:37-05:00",
+    "total" : 13,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15199004",
+        "display" : "Acute bronchiolitis with bronchospasm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "195737004",
+        "display" : "Acute exudative bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22482002",
+        "display" : "Subacute obliterative bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "233602006",
+        "display" : "Acute viral bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "385479009",
+        "display" : "Follicular bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40100001",
+        "display" : "Obliterative bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4120002",
+        "display" : "Bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430476004",
+        "display" : "Diffuse panbronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "52409006",
+        "display" : "Bronchiolitis exudativa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5505005",
+        "display" : "Acute bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "59903001",
+        "display" : "Acute obliterating bronchiolitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718004",
+        "display" : "Acute bronchiolitis with obstruction (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87695000",
+        "display" : "Necrotizing bronchiolitis (disorder)"
+      }
+    ]
+  }
+}

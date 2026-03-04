@@ -1,0 +1,3033 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2400",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2400",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2400"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "BruisingUnspecifiedCauseSNOMED",
+  "title" : "Bruising [Unspecified Cause] (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Bruising and contusions regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Bruising and contusions),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10050004",
+            "display" : "Contusion of chest (disorder)"
+          },
+          {
+            "code" : "10900511000119100",
+            "display" : "Contusion of globe of right eye (disorder)"
+          },
+          {
+            "code" : "10900551000119104",
+            "display" : "Contusion of globe of left eye (disorder)"
+          },
+          {
+            "code" : "10900751000119107",
+            "display" : "Contusion of orbital tissue of right eye (disorder)"
+          },
+          {
+            "code" : "10900791000119102",
+            "display" : "Contusion of orbital tissue of left eye (disorder)"
+          },
+          {
+            "code" : "10943311000119108",
+            "display" : "Contusion of right cerebrum (disorder)"
+          },
+          {
+            "code" : "10943471000119107",
+            "display" : "Contusion of left cerebrum (disorder)"
+          },
+          {
+            "code" : "110237009",
+            "display" : "Contusion of condylar process of mandible (disorder)"
+          },
+          {
+            "code" : "110238004",
+            "display" : "Contusion of subcondylar region of mandible (disorder)"
+          },
+          {
+            "code" : "110239007",
+            "display" : "Contusion of coronoid process of mandible (disorder)"
+          },
+          {
+            "code" : "110240009",
+            "display" : "Contusion of ramus of mandible (disorder)"
+          },
+          {
+            "code" : "110241008",
+            "display" : "Contusion of symphysis of body of mandible (disorder)"
+          },
+          {
+            "code" : "110242001",
+            "display" : "Contusion of alveolar border of body of mandible (disorder)"
+          },
+          {
+            "code" : "110243006",
+            "display" : "Contusion of maxilla (disorder)"
+          },
+          {
+            "code" : "110244000",
+            "display" : "Contusion of forehead (disorder)"
+          },
+          {
+            "code" : "110245004",
+            "display" : "Contusion of auricle of ear (disorder)"
+          },
+          {
+            "code" : "110246003",
+            "display" : "Contusion of preauricular region of face (disorder)"
+          },
+          {
+            "code" : "110247007",
+            "display" : "Contusion of malar region of face (disorder)"
+          },
+          {
+            "code" : "110248002",
+            "display" : "Contusion of circumoral region of face (disorder)"
+          },
+          {
+            "code" : "110249005",
+            "display" : "Contusion of chin (disorder)"
+          },
+          {
+            "code" : "110250005",
+            "display" : "Contusion of mouth (disorder)"
+          },
+          {
+            "code" : "110251009",
+            "display" : "Contusion of maxillary vestibule (disorder)"
+          },
+          {
+            "code" : "110252002",
+            "display" : "Contusion of mandibular vestibule (disorder)"
+          },
+          {
+            "code" : "110253007",
+            "display" : "Contusion of maxillary attached gingiva (disorder)"
+          },
+          {
+            "code" : "110254001",
+            "display" : "Contusion of mandibular attached gingiva (disorder)"
+          },
+          {
+            "code" : "110255000",
+            "display" : "Contusion of floor of mouth (disorder)"
+          },
+          {
+            "code" : "110256004",
+            "display" : "Contusion of tongue (disorder)"
+          },
+          {
+            "code" : "110257008",
+            "display" : "Contusion of buccal mucosa (disorder)"
+          },
+          {
+            "code" : "110258003",
+            "display" : "Contusion of soft palate (disorder)"
+          },
+          {
+            "code" : "110259006",
+            "display" : "Contusion of hard palate (disorder)"
+          },
+          {
+            "code" : "110260001",
+            "display" : "Contusion of tonsil (disorder)"
+          },
+          {
+            "code" : "110261002",
+            "display" : "Contusion of oropharynx (disorder)"
+          },
+          {
+            "code" : "110262009",
+            "display" : "Contusion of periorbital region (disorder)"
+          },
+          {
+            "code" : "111721009",
+            "display" : "Contusion of multiple sites (disorder)"
+          },
+          {
+            "code" : "111722002",
+            "display" : "Contusion of breast (disorder)"
+          },
+          {
+            "code" : "111723007",
+            "display" : "Contusion of multiple sites of lower limb (disorder)"
+          },
+          {
+            "code" : "11437003",
+            "display" : "Contusion of back (disorder)"
+          },
+          {
+            "code" : "11773971000119102",
+            "display" : "Contusion of right index finger (disorder)"
+          },
+          {
+            "code" : "11774011000119107",
+            "display" : "Contusion of left index finger (disorder)"
+          },
+          {
+            "code" : "11774051000119108",
+            "display" : "Contusion of right middle finger (disorder)"
+          },
+          {
+            "code" : "11774091000119103",
+            "display" : "Contusion of left middle finger (disorder)"
+          },
+          {
+            "code" : "11774131000119101",
+            "display" : "Contusion of right ring finger (disorder)"
+          },
+          {
+            "code" : "11774171000119103",
+            "display" : "Contusion of left ring finger (disorder)"
+          },
+          {
+            "code" : "11774211000119101",
+            "display" : "Contusion of right little finger (disorder)"
+          },
+          {
+            "code" : "11774251000119100",
+            "display" : "Contusion of left little finger (disorder)"
+          },
+          {
+            "code" : "11774291000119105",
+            "display" : "Contusion of right thumb (disorder)"
+          },
+          {
+            "code" : "11774331000119104",
+            "display" : "Contusion of left thumb (disorder)"
+          },
+          {
+            "code" : "11775011000119108",
+            "display" : "Contusion of right hand (disorder)"
+          },
+          {
+            "code" : "11775051000119109",
+            "display" : "Contusion of left hand (disorder)"
+          },
+          {
+            "code" : "11775331000119100",
+            "display" : "Contusion of right wrist (disorder)"
+          },
+          {
+            "code" : "11775371000119102",
+            "display" : "Contusion of left wrist (disorder)"
+          },
+          {
+            "code" : "11780161000119108",
+            "display" : "Contusion of right ankle (disorder)"
+          },
+          {
+            "code" : "11780201000119103",
+            "display" : "Contusion of left ankle (disorder)"
+          },
+          {
+            "code" : "11780641000119103",
+            "display" : "Contusion of right elbow (disorder)"
+          },
+          {
+            "code" : "11780681000119108",
+            "display" : "Contusion of left elbow (disorder)"
+          },
+          {
+            "code" : "11780721000119102",
+            "display" : "Contusion of right forearm (disorder)"
+          },
+          {
+            "code" : "11780761000119107",
+            "display" : "Contusion of left forearm (disorder)"
+          },
+          {
+            "code" : "11786881000119109",
+            "display" : "Contusion of right hip region (disorder)"
+          },
+          {
+            "code" : "11786921000119102",
+            "display" : "Contusion of left hip region (disorder)"
+          },
+          {
+            "code" : "11790801000119103",
+            "display" : "Contusion of right thigh (disorder)"
+          },
+          {
+            "code" : "11790841000119101",
+            "display" : "Contusion of left thigh (disorder)"
+          },
+          {
+            "code" : "11790961000119109",
+            "display" : "Contusion of right lower leg (disorder)"
+          },
+          {
+            "code" : "11791001000119101",
+            "display" : "Contusion of left lower leg (disorder)"
+          },
+          {
+            "code" : "11791041000119104",
+            "display" : "Contusion of right knee (disorder)"
+          },
+          {
+            "code" : "11791081000119109",
+            "display" : "Contusion of left knee (disorder)"
+          },
+          {
+            "code" : "11796981000119102",
+            "display" : "Contusion of bilateral lungs (disorder)"
+          },
+          {
+            "code" : "11801171000119107",
+            "display" : "Contusion of right kidney (disorder)"
+          },
+          {
+            "code" : "11801251000119105",
+            "display" : "Contusion of left kidney (disorder)"
+          },
+          {
+            "code" : "11811501000119105",
+            "display" : "Contusion of head of pancreas (disorder)"
+          },
+          {
+            "code" : "11811541000119107",
+            "display" : "Contusion of body of pancreas (disorder)"
+          },
+          {
+            "code" : "11811581000119102",
+            "display" : "Contusion of tail of pancreas (disorder)"
+          },
+          {
+            "code" : "11824201000119101",
+            "display" : "Contusion of right upper arm (disorder)"
+          },
+          {
+            "code" : "11824241000119104",
+            "display" : "Contusion of left upper arm (disorder)"
+          },
+          {
+            "code" : "11824841000119100",
+            "display" : "Contusion of right shoulder (disorder)"
+          },
+          {
+            "code" : "11824881000119105",
+            "display" : "Contusion of left shoulder (disorder)"
+          },
+          {
+            "code" : "11844031000119101",
+            "display" : "Contusion of right ear (disorder)"
+          },
+          {
+            "code" : "11844071000119103",
+            "display" : "Contusion of left ear (disorder)"
+          },
+          {
+            "code" : "11848621000119101",
+            "display" : "Contusion of right eyelid (disorder)"
+          },
+          {
+            "code" : "11848661000119106",
+            "display" : "Contusion of left eyelid (disorder)"
+          },
+          {
+            "code" : "11848701000119104",
+            "display" : "Contusion of periorbital region of right eye (disorder)"
+          },
+          {
+            "code" : "11848741000119102",
+            "display" : "Contusion of periorbital region of left eye (disorder)"
+          },
+          {
+            "code" : "11850481000119100",
+            "display" : "Contusion of right breast (disorder)"
+          },
+          {
+            "code" : "11850521000119100",
+            "display" : "Contusion of left breast (disorder)"
+          },
+          {
+            "code" : "11850561000119105",
+            "display" : "Contusion of right chest wall (disorder)"
+          },
+          {
+            "code" : "11850601000119105",
+            "display" : "Contusion of left chest wall (disorder)"
+          },
+          {
+            "code" : "11851841000119102",
+            "display" : "Contusion of right half of posterior chest wall (disorder)"
+          },
+          {
+            "code" : "11851881000119107",
+            "display" : "Contusion of left half of posterior chest wall (disorder)"
+          },
+          {
+            "code" : "11851921000119100",
+            "display" : "Contusion of posterior chest wall (disorder)"
+          },
+          {
+            "code" : "11863401000119109",
+            "display" : "Contusion of right great toe (disorder)"
+          },
+          {
+            "code" : "11863441000119106",
+            "display" : "Contusion of left great toe (disorder)"
+          },
+          {
+            "code" : "11863481000119101",
+            "display" : "Contusion of lesser toe of right foot (disorder)"
+          },
+          {
+            "code" : "11863521000119101",
+            "display" : "Contusion of toe of right foot (disorder)"
+          },
+          {
+            "code" : "11863561000119106",
+            "display" : "Contusion of lesser toe of left foot (disorder)"
+          },
+          {
+            "code" : "11863601000119106",
+            "display" : "Contusion of toe of left foot (disorder)"
+          },
+          {
+            "code" : "11864481000119103",
+            "display" : "Contusion of right foot (disorder)"
+          },
+          {
+            "code" : "11864521000119103",
+            "display" : "Contusion of left foot (disorder)"
+          },
+          {
+            "code" : "125667009",
+            "display" : "Contusion (disorder)"
+          },
+          {
+            "code" : "125668004",
+            "display" : "Contusion of face (disorder)"
+          },
+          {
+            "code" : "125687005",
+            "display" : "Contusion of ocular adnexa (disorder)"
+          },
+          {
+            "code" : "1290786007",
+            "display" : "Superficial contusion of skin (disorder)"
+          },
+          {
+            "code" : "1290798002",
+            "display" : "Deep contusion of muscle (disorder)"
+          },
+          {
+            "code" : "1290799005",
+            "display" : "Deep contusion of bone (disorder)"
+          },
+          {
+            "code" : "14992004",
+            "display" : "Contusion of penis (disorder)"
+          },
+          {
+            "code" : "161887000",
+            "display" : "Spontaneous bruising (disorder)"
+          },
+          {
+            "code" : "17048005",
+            "display" : "Contusion of toenail (disorder)"
+          },
+          {
+            "code" : "17414004",
+            "display" : "Contusion to heart (disorder)"
+          },
+          {
+            "code" : "211438006",
+            "display" : "Contusion of toe(s) with damage to nail (disorder)"
+          },
+          {
+            "code" : "211476000",
+            "display" : "Contusion, throat (disorder)"
+          },
+          {
+            "code" : "211483007",
+            "display" : "Contusion of globe of eye (disorder)"
+          },
+          {
+            "code" : "211486004",
+            "display" : "Contusion of anterior abdominal wall (disorder)"
+          },
+          {
+            "code" : "211492005",
+            "display" : "Contusion of coccyx (disorder)"
+          },
+          {
+            "code" : "211495007",
+            "display" : "Contusion of genital organ (disorder)"
+          },
+          {
+            "code" : "211501009",
+            "display" : "Contusion of clavicular area (disorder)"
+          },
+          {
+            "code" : "211502002",
+            "display" : "Contusion, shoulder and upper arm, multiple sites (disorder)"
+          },
+          {
+            "code" : "211507008",
+            "display" : "Contusion, hand, excluding finger (disorder)"
+          },
+          {
+            "code" : "211508003",
+            "display" : "Contusion hand, palm (disorder)"
+          },
+          {
+            "code" : "211509006",
+            "display" : "Contusion hand, dorsum (disorder)"
+          },
+          {
+            "code" : "211510001",
+            "display" : "Contusion wrist, volar (disorder)"
+          },
+          {
+            "code" : "211511002",
+            "display" : "Contusion wrist, dorsum (disorder)"
+          },
+          {
+            "code" : "211515006",
+            "display" : "Contusion of multiple fingers (disorder)"
+          },
+          {
+            "code" : "211519000",
+            "display" : "Contusion, hip and thigh (disorder)"
+          },
+          {
+            "code" : "211521005",
+            "display" : "Contusion, knee and lower leg (disorder)"
+          },
+          {
+            "code" : "211523008",
+            "display" : "Contusion, ankle and foot, excluding toe(s) (disorder)"
+          },
+          {
+            "code" : "21643007",
+            "display" : "Contusion of groin (disorder)"
+          },
+          {
+            "code" : "225605003",
+            "display" : "Nipple bruised (disorder)"
+          },
+          {
+            "code" : "22562004",
+            "display" : "Contusion of scalp (disorder)"
+          },
+          {
+            "code" : "22878006",
+            "display" : "Contusion of knee (disorder)"
+          },
+          {
+            "code" : "230619007",
+            "display" : "Contusion of peripheral nerve (disorder)"
+          },
+          {
+            "code" : "231814009",
+            "display" : "Contusion of eyelid (disorder)"
+          },
+          {
+            "code" : "23287003",
+            "display" : "Contusion of scrotum (disorder)"
+          },
+          {
+            "code" : "234002001",
+            "display" : "Arterial contusion (disorder)"
+          },
+          {
+            "code" : "234082004",
+            "display" : "Contusion of vein (disorder)"
+          },
+          {
+            "code" : "23713006",
+            "display" : "Contusion of cerebral cortex (disorder)"
+          },
+          {
+            "code" : "25546001",
+            "display" : "Contusion of fingernail (disorder)"
+          },
+          {
+            "code" : "262532009",
+            "display" : "Pattern bruising (disorder)"
+          },
+          {
+            "code" : "262534005",
+            "display" : "Confluent bruising (disorder)"
+          },
+          {
+            "code" : "262635003",
+            "display" : "Contusion of oral cavity (disorder)"
+          },
+          {
+            "code" : "262636002",
+            "display" : "Contusion of palate (disorder)"
+          },
+          {
+            "code" : "262637006",
+            "display" : "Contusion of gingivae (disorder)"
+          },
+          {
+            "code" : "262638001",
+            "display" : "Contusion of intraoral surface of lip (disorder)"
+          },
+          {
+            "code" : "262639009",
+            "display" : "Contusion of oral alveolar mucosa (disorder)"
+          },
+          {
+            "code" : "262676007",
+            "display" : "Contusion of larynx (disorder)"
+          },
+          {
+            "code" : "262681003",
+            "display" : "Contusion of trachea (disorder)"
+          },
+          {
+            "code" : "262689001",
+            "display" : "Contusion of cerebrum (disorder)"
+          },
+          {
+            "code" : "262696004",
+            "display" : "Contusion of spinal cord (disorder)"
+          },
+          {
+            "code" : "262697008",
+            "display" : "Contusion of cervical cord (disorder)"
+          },
+          {
+            "code" : "262698003",
+            "display" : "Contusion of thoracic cord (disorder)"
+          },
+          {
+            "code" : "262699006",
+            "display" : "Contusion of lumbar cord (disorder)"
+          },
+          {
+            "code" : "262700007",
+            "display" : "Contusion of sacral cord (disorder)"
+          },
+          {
+            "code" : "262733002",
+            "display" : "Contusion of spinal nerve root (disorder)"
+          },
+          {
+            "code" : "262734008",
+            "display" : "Contusion of cervical nerve root (disorder)"
+          },
+          {
+            "code" : "262735009",
+            "display" : "Contusion of thoracic nerve root (disorder)"
+          },
+          {
+            "code" : "262736005",
+            "display" : "Contusion of lumbar nerve root (disorder)"
+          },
+          {
+            "code" : "262737001",
+            "display" : "Contusion of sacral nerve root (disorder)"
+          },
+          {
+            "code" : "262767007",
+            "display" : "Contusion of salivary gland (disorder)"
+          },
+          {
+            "code" : "262774002",
+            "display" : "Contusion of thyroid gland (disorder)"
+          },
+          {
+            "code" : "262777009",
+            "display" : "Contusion of parathyroid gland (disorder)"
+          },
+          {
+            "code" : "262784001",
+            "display" : "Contusion of lung (disorder)"
+          },
+          {
+            "code" : "262791003",
+            "display" : "Contusion of esophagus (disorder)"
+          },
+          {
+            "code" : "262799001",
+            "display" : "Contusion of liver (disorder)"
+          },
+          {
+            "code" : "262809001",
+            "display" : "Contusion of gallbladder (disorder)"
+          },
+          {
+            "code" : "262815001",
+            "display" : "Contusion of bile duct (disorder)"
+          },
+          {
+            "code" : "262820001",
+            "display" : "Contusion of spleen (disorder)"
+          },
+          {
+            "code" : "262827003",
+            "display" : "Contusion of pancreas (disorder)"
+          },
+          {
+            "code" : "262833007",
+            "display" : "Contusion of adrenal gland (disorder)"
+          },
+          {
+            "code" : "262839006",
+            "display" : "Contusion of stomach (disorder)"
+          },
+          {
+            "code" : "262845003",
+            "display" : "Contusion of duodenum (disorder)"
+          },
+          {
+            "code" : "262853006",
+            "display" : "Contusion of small intestine (disorder)"
+          },
+          {
+            "code" : "262859005",
+            "display" : "Contusion of appendix (disorder)"
+          },
+          {
+            "code" : "262866006",
+            "display" : "Contusion of cecum (disorder)"
+          },
+          {
+            "code" : "262871004",
+            "display" : "Contusion of colon (disorder)"
+          },
+          {
+            "code" : "262877000",
+            "display" : "Contusion of rectum (disorder)"
+          },
+          {
+            "code" : "262883002",
+            "display" : "Contusion of mesentery (disorder)"
+          },
+          {
+            "code" : "262887001",
+            "display" : "Contusion of omentum (disorder)"
+          },
+          {
+            "code" : "262903001",
+            "display" : "Contusion of urinary conduit (disorder)"
+          },
+          {
+            "code" : "262918000",
+            "display" : "Contusion of vas deferens (disorder)"
+          },
+          {
+            "code" : "262957008",
+            "display" : "Contusion of cranial nerve (disorder)"
+          },
+          {
+            "code" : "262968008",
+            "display" : "Intramuscular contusion (disorder)"
+          },
+          {
+            "code" : "277209002",
+            "display" : "Bruising over mastoid (disorder)"
+          },
+          {
+            "code" : "282053003",
+            "display" : "Contusion of jejunum (disorder)"
+          },
+          {
+            "code" : "282064000",
+            "display" : "Contusion of ileum (disorder)"
+          },
+          {
+            "code" : "282076000",
+            "display" : "Contusion of anus (disorder)"
+          },
+          {
+            "code" : "282450009",
+            "display" : "Contusion of nasal septum (disorder)"
+          },
+          {
+            "code" : "282454000",
+            "display" : "Contusion of pharynx (disorder)"
+          },
+          {
+            "code" : "282723003",
+            "display" : "Contusion of bronchus (disorder)"
+          },
+          {
+            "code" : "283135004",
+            "display" : "Superficial bruising of head and neck (disorder)"
+          },
+          {
+            "code" : "283136003",
+            "display" : "Superficial contusion of skin of neck (disorder)"
+          },
+          {
+            "code" : "283137007",
+            "display" : "Contusion of pelvic region (disorder)"
+          },
+          {
+            "code" : "283138002",
+            "display" : "Contusion of dorsum of foot (disorder)"
+          },
+          {
+            "code" : "283906006",
+            "display" : "Contusion of ureter (disorder)"
+          },
+          {
+            "code" : "283915004",
+            "display" : "Contusion of urinary bladder (disorder)"
+          },
+          {
+            "code" : "283918002",
+            "display" : "Contusion of urethra (disorder)"
+          },
+          {
+            "code" : "283928006",
+            "display" : "Contusion of prostate (disorder)"
+          },
+          {
+            "code" : "283937006",
+            "display" : "Contusion of seminal vesicle (disorder)"
+          },
+          {
+            "code" : "283956001",
+            "display" : "Contusion of ovary (disorder)"
+          },
+          {
+            "code" : "283957005",
+            "display" : "Contusion of fallopian tube (disorder)"
+          },
+          {
+            "code" : "283961004",
+            "display" : "Contusion of uterus (disorder)"
+          },
+          {
+            "code" : "283964007",
+            "display" : "Contusion of cervix (disorder)"
+          },
+          {
+            "code" : "283968005",
+            "display" : "Contusion female perineum (disorder)"
+          },
+          {
+            "code" : "283973004",
+            "display" : "Contusion of male perineum (disorder)"
+          },
+          {
+            "code" : "284062002",
+            "display" : "Contusion of lower back (disorder)"
+          },
+          {
+            "code" : "289333007",
+            "display" : "Contusion of umbilical cord (disorder)"
+          },
+          {
+            "code" : "29298007",
+            "display" : "Bruised sole (disorder)"
+          },
+          {
+            "code" : "301768009",
+            "display" : "Contusion of supraorbital area (disorder)"
+          },
+          {
+            "code" : "30841000119109",
+            "display" : "Contusion of sternal region (disorder)"
+          },
+          {
+            "code" : "313262006",
+            "display" : "Contusion of sacral region (disorder)"
+          },
+          {
+            "code" : "34663006",
+            "display" : "Contusion of brain (disorder)"
+          },
+          {
+            "code" : "36160007",
+            "display" : "Contusion of male genital organs (disorder)"
+          },
+          {
+            "code" : "3649004",
+            "display" : "Contusion of multiple sites of trunk (disorder)"
+          },
+          {
+            "code" : "367423000",
+            "display" : "Contusion of eye (disorder)"
+          },
+          {
+            "code" : "36787001",
+            "display" : "Contusion of trunk (disorder)"
+          },
+          {
+            "code" : "373600006",
+            "display" : "Multiple bruising (finding)"
+          },
+          {
+            "code" : "3751005",
+            "display" : "Contusion of labium (disorder)"
+          },
+          {
+            "code" : "39001000087100",
+            "display" : "Contusion of dorsum of right hand (disorder)"
+          },
+          {
+            "code" : "39251000087106",
+            "display" : "Contusion of left buttock (disorder)"
+          },
+          {
+            "code" : "39261000087109",
+            "display" : "Contusion of right buttock (disorder)"
+          },
+          {
+            "code" : "39271000087100",
+            "display" : "Contusion of dorsum of left hand (disorder)"
+          },
+          {
+            "code" : "39397008",
+            "display" : "Contusion of thumb nail (disorder)"
+          },
+          {
+            "code" : "39716001",
+            "display" : "Contusion of vulva (disorder)"
+          },
+          {
+            "code" : "39812007",
+            "display" : "Contusion of forearm (disorder)"
+          },
+          {
+            "code" : "40257000",
+            "display" : "Contusion of shoulder region (disorder)"
+          },
+          {
+            "code" : "416179002",
+            "display" : "Contusion of eye AND ocular adnexa (disorder)"
+          },
+          {
+            "code" : "417654008",
+            "display" : "Contusion of ocular adnexa and periocular tissues (disorder)"
+          },
+          {
+            "code" : "41881000087102",
+            "display" : "Contusion of left lower limb (disorder)"
+          },
+          {
+            "code" : "41891000087100",
+            "display" : "Contusion of right lower limb (disorder)"
+          },
+          {
+            "code" : "41901000087104",
+            "display" : "Contusion of left upper limb (disorder)"
+          },
+          {
+            "code" : "41911000087102",
+            "display" : "Contusion of right upper limb (disorder)"
+          },
+          {
+            "code" : "42039004",
+            "display" : "Contusion of perineum (disorder)"
+          },
+          {
+            "code" : "42081000087104",
+            "display" : "Contusion of left supraorbital area (disorder)"
+          },
+          {
+            "code" : "42091000087102",
+            "display" : "Contusion of right supraorbital area (disorder)"
+          },
+          {
+            "code" : "42141000087105",
+            "display" : "Contusion of left jaw region (disorder)"
+          },
+          {
+            "code" : "42151000087108",
+            "display" : "Contusion of right jaw region (disorder)"
+          },
+          {
+            "code" : "42301000087109",
+            "display" : "Contusion of left clavicular region (disorder)"
+          },
+          {
+            "code" : "42311000087106",
+            "display" : "Contusion of right clavicular region (disorder)"
+          },
+          {
+            "code" : "42321000087103",
+            "display" : "Contusion of left rib (disorder)"
+          },
+          {
+            "code" : "42331000087101",
+            "display" : "Contusion of right rib (disorder)"
+          },
+          {
+            "code" : "424131007",
+            "display" : "Easy bruising (finding)"
+          },
+          {
+            "code" : "42531000087106",
+            "display" : "Contusion of hypogastric region (disorder)"
+          },
+          {
+            "code" : "42697001",
+            "display" : "Contusion of orbital tissues (disorder)"
+          },
+          {
+            "code" : "428016006",
+            "display" : "Contusion of rib (disorder)"
+          },
+          {
+            "code" : "429665006",
+            "display" : "Contusion of thoracic spine (disorder)"
+          },
+          {
+            "code" : "431674004",
+            "display" : "Hematoma and contusion of liver (disorder)"
+          },
+          {
+            "code" : "43541000087108",
+            "display" : "Contusion of left lower eyelid (disorder)"
+          },
+          {
+            "code" : "43551000087106",
+            "display" : "Contusion of left upper eyelid (disorder)"
+          },
+          {
+            "code" : "43561000087109",
+            "display" : "Contusion of right lower eyelid (disorder)"
+          },
+          {
+            "code" : "43571000087100",
+            "display" : "Contusion of right upper eyelid (disorder)"
+          },
+          {
+            "code" : "43581000087103",
+            "display" : "Contusion of left eye region (disorder)"
+          },
+          {
+            "code" : "43591000087101",
+            "display" : "Contusion of right eye region (disorder)"
+          },
+          {
+            "code" : "43601000087109",
+            "display" : "Contusion of left cheek (disorder)"
+          },
+          {
+            "code" : "43611000087106",
+            "display" : "Contusion of right cheek (disorder)"
+          },
+          {
+            "code" : "441519008",
+            "display" : "Contusion of infraorbital nerve (disorder)"
+          },
+          {
+            "code" : "44201000087105",
+            "display" : "Contusion of cervical vertebral column region (disorder)"
+          },
+          {
+            "code" : "44211000087107",
+            "display" : "Contusion of lumbar vertebral column region (disorder)"
+          },
+          {
+            "code" : "44801007",
+            "display" : "Contusion of hip (disorder)"
+          },
+          {
+            "code" : "45613006",
+            "display" : "Contusion of lower leg (disorder)"
+          },
+          {
+            "code" : "48123002",
+            "display" : "Contusion of wrist (disorder)"
+          },
+          {
+            "code" : "4821001",
+            "display" : "Contusion of cheek (disorder)"
+          },
+          {
+            "code" : "50228009",
+            "display" : "Contusion of ear (disorder)"
+          },
+          {
+            "code" : "51772000",
+            "display" : "Contusion of vagina (disorder)"
+          },
+          {
+            "code" : "52945003",
+            "display" : "Contusion of mandibular joint area (disorder)"
+          },
+          {
+            "code" : "53629007",
+            "display" : "Contusion of testis (disorder)"
+          },
+          {
+            "code" : "53759006",
+            "display" : "Contusion of axillary region (disorder)"
+          },
+          {
+            "code" : "54499003",
+            "display" : "Contusion of interscapular region (disorder)"
+          },
+          {
+            "code" : "55042009",
+            "display" : "Contusion of ankle (disorder)"
+          },
+          {
+            "code" : "5662003",
+            "display" : "Contusion of hand (disorder)"
+          },
+          {
+            "code" : "58075000",
+            "display" : "Contusion of toe (disorder)"
+          },
+          {
+            "code" : "58221004",
+            "display" : "Contusion of multiple sites of upper limb (disorder)"
+          },
+          {
+            "code" : "60211009",
+            "display" : "Contusion of flank (disorder)"
+          },
+          {
+            "code" : "60897004",
+            "display" : "Contusion of nose (disorder)"
+          },
+          {
+            "code" : "64458007",
+            "display" : "Contusion of lip (disorder)"
+          },
+          {
+            "code" : "68142008",
+            "display" : "Contusion of upper limb (disorder)"
+          },
+          {
+            "code" : "68893001",
+            "display" : "Contusion of buttock (disorder)"
+          },
+          {
+            "code" : "69787006",
+            "display" : "Contusion of finger (disorder)"
+          },
+          {
+            "code" : "698501003",
+            "display" : "Contusion of multiple sites of shoulder (disorder)"
+          },
+          {
+            "code" : "70092007",
+            "display" : "Contusion of kidney (disorder)"
+          },
+          {
+            "code" : "733218001",
+            "display" : "Contusion of thoracic trachea (disorder)"
+          },
+          {
+            "code" : "733220003",
+            "display" : "Contusion of surface region of pelvis (disorder)"
+          },
+          {
+            "code" : "735645009",
+            "display" : "Contusion of head (disorder)"
+          },
+          {
+            "code" : "735768008",
+            "display" : "Contusion of heart co-occurrent with hemopericardium (disorder)"
+          },
+          {
+            "code" : "74814004",
+            "display" : "Contusion of foot (disorder)"
+          },
+          {
+            "code" : "76437000",
+            "display" : "Contusion of thumb (disorder)"
+          },
+          {
+            "code" : "77233005",
+            "display" : "Contusion of female genital organ (disorder)"
+          },
+          {
+            "code" : "788893001",
+            "display" : "Contusion of blood vessel of finger (disorder)"
+          },
+          {
+            "code" : "788894007",
+            "display" : "Contusion of blood vessel of thumb (disorder)"
+          },
+          {
+            "code" : "788895008",
+            "display" : "Contusion of deep palmar arch (disorder)"
+          },
+          {
+            "code" : "788896009",
+            "display" : "Contusion of superficial palmar arch (disorder)"
+          },
+          {
+            "code" : "80907003",
+            "display" : "Contusion of scapular region (disorder)"
+          },
+          {
+            "code" : "84416003",
+            "display" : "Contusion of thigh (disorder)"
+          },
+          {
+            "code" : "8513005",
+            "display" : "Contusion of neck (disorder)"
+          },
+          {
+            "code" : "85636003",
+            "display" : "Contusion of upper arm (disorder)"
+          },
+          {
+            "code" : "870540001",
+            "display" : "Contusion of hindbrain (disorder)"
+          },
+          {
+            "code" : "874804000",
+            "display" : "Contusion of head and/or neck (disorder)"
+          },
+          {
+            "code" : "874805004",
+            "display" : "Superficial contusion of skin of thigh (disorder)"
+          },
+          {
+            "code" : "90244007",
+            "display" : "Contusion of heel (disorder)"
+          },
+          {
+            "code" : "91603007",
+            "display" : "Contusion of lower limb (disorder)"
+          },
+          {
+            "code" : "91613004",
+            "display" : "Contusion of elbow (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:dd3f8c7f-372a-4a31-9f37-4938fb178bc3",
+    "timestamp" : "2025-11-24T13:21:40-05:00",
+    "total" : 296,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10050004",
+        "display" : "Contusion of chest (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10900511000119100",
+        "display" : "Contusion of globe of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10900551000119104",
+        "display" : "Contusion of globe of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10900751000119107",
+        "display" : "Contusion of orbital tissue of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10900791000119102",
+        "display" : "Contusion of orbital tissue of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10943311000119108",
+        "display" : "Contusion of right cerebrum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10943471000119107",
+        "display" : "Contusion of left cerebrum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110237009",
+        "display" : "Contusion of condylar process of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110238004",
+        "display" : "Contusion of subcondylar region of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110239007",
+        "display" : "Contusion of coronoid process of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110240009",
+        "display" : "Contusion of ramus of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110241008",
+        "display" : "Contusion of symphysis of body of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110242001",
+        "display" : "Contusion of alveolar border of body of mandible (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110243006",
+        "display" : "Contusion of maxilla (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110244000",
+        "display" : "Contusion of forehead (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110245004",
+        "display" : "Contusion of auricle of ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110246003",
+        "display" : "Contusion of preauricular region of face (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110247007",
+        "display" : "Contusion of malar region of face (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110248002",
+        "display" : "Contusion of circumoral region of face (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110249005",
+        "display" : "Contusion of chin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110250005",
+        "display" : "Contusion of mouth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110251009",
+        "display" : "Contusion of maxillary vestibule (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110252002",
+        "display" : "Contusion of mandibular vestibule (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110253007",
+        "display" : "Contusion of maxillary attached gingiva (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110254001",
+        "display" : "Contusion of mandibular attached gingiva (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110255000",
+        "display" : "Contusion of floor of mouth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110256004",
+        "display" : "Contusion of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110257008",
+        "display" : "Contusion of buccal mucosa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110258003",
+        "display" : "Contusion of soft palate (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110259006",
+        "display" : "Contusion of hard palate (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110260001",
+        "display" : "Contusion of tonsil (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110261002",
+        "display" : "Contusion of oropharynx (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110262009",
+        "display" : "Contusion of periorbital region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111721009",
+        "display" : "Contusion of multiple sites (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111722002",
+        "display" : "Contusion of breast (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111723007",
+        "display" : "Contusion of multiple sites of lower limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11437003",
+        "display" : "Contusion of back (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11773971000119102",
+        "display" : "Contusion of right index finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774011000119107",
+        "display" : "Contusion of left index finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774051000119108",
+        "display" : "Contusion of right middle finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774091000119103",
+        "display" : "Contusion of left middle finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774131000119101",
+        "display" : "Contusion of right ring finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774171000119103",
+        "display" : "Contusion of left ring finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774211000119101",
+        "display" : "Contusion of right little finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774251000119100",
+        "display" : "Contusion of left little finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774291000119105",
+        "display" : "Contusion of right thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11774331000119104",
+        "display" : "Contusion of left thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11775011000119108",
+        "display" : "Contusion of right hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11775051000119109",
+        "display" : "Contusion of left hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11775331000119100",
+        "display" : "Contusion of right wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11775371000119102",
+        "display" : "Contusion of left wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780161000119108",
+        "display" : "Contusion of right ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780201000119103",
+        "display" : "Contusion of left ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780641000119103",
+        "display" : "Contusion of right elbow (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780681000119108",
+        "display" : "Contusion of left elbow (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780721000119102",
+        "display" : "Contusion of right forearm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11780761000119107",
+        "display" : "Contusion of left forearm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11786881000119109",
+        "display" : "Contusion of right hip region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11786921000119102",
+        "display" : "Contusion of left hip region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11790801000119103",
+        "display" : "Contusion of right thigh (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11790841000119101",
+        "display" : "Contusion of left thigh (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11790961000119109",
+        "display" : "Contusion of right lower leg (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11791001000119101",
+        "display" : "Contusion of left lower leg (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11791041000119104",
+        "display" : "Contusion of right knee (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11791081000119109",
+        "display" : "Contusion of left knee (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11796981000119102",
+        "display" : "Contusion of bilateral lungs (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11801171000119107",
+        "display" : "Contusion of right kidney (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11801251000119105",
+        "display" : "Contusion of left kidney (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11811501000119105",
+        "display" : "Contusion of head of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11811541000119107",
+        "display" : "Contusion of body of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11811581000119102",
+        "display" : "Contusion of tail of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11824201000119101",
+        "display" : "Contusion of right upper arm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11824241000119104",
+        "display" : "Contusion of left upper arm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11824841000119100",
+        "display" : "Contusion of right shoulder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11824881000119105",
+        "display" : "Contusion of left shoulder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11844031000119101",
+        "display" : "Contusion of right ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11844071000119103",
+        "display" : "Contusion of left ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11848621000119101",
+        "display" : "Contusion of right eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11848661000119106",
+        "display" : "Contusion of left eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11848701000119104",
+        "display" : "Contusion of periorbital region of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11848741000119102",
+        "display" : "Contusion of periorbital region of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11850481000119100",
+        "display" : "Contusion of right breast (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11850521000119100",
+        "display" : "Contusion of left breast (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11850561000119105",
+        "display" : "Contusion of right chest wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11850601000119105",
+        "display" : "Contusion of left chest wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11851841000119102",
+        "display" : "Contusion of right half of posterior chest wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11851881000119107",
+        "display" : "Contusion of left half of posterior chest wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11851921000119100",
+        "display" : "Contusion of posterior chest wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863401000119109",
+        "display" : "Contusion of right great toe (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863441000119106",
+        "display" : "Contusion of left great toe (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863481000119101",
+        "display" : "Contusion of lesser toe of right foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863521000119101",
+        "display" : "Contusion of toe of right foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863561000119106",
+        "display" : "Contusion of lesser toe of left foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11863601000119106",
+        "display" : "Contusion of toe of left foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11864481000119103",
+        "display" : "Contusion of right foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11864521000119103",
+        "display" : "Contusion of left foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "125667009",
+        "display" : "Contusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "125668004",
+        "display" : "Contusion of face (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "125687005",
+        "display" : "Contusion of ocular adnexa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1290786007",
+        "display" : "Superficial contusion of skin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1290798002",
+        "display" : "Deep contusion of muscle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1290799005",
+        "display" : "Deep contusion of bone (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14992004",
+        "display" : "Contusion of penis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "161887000",
+        "display" : "Spontaneous bruising (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17048005",
+        "display" : "Contusion of toenail (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17414004",
+        "display" : "Contusion to heart (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211438006",
+        "display" : "Contusion of toe(s) with damage to nail (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211476000",
+        "display" : "Contusion, throat (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211483007",
+        "display" : "Contusion of globe of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211486004",
+        "display" : "Contusion of anterior abdominal wall (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211492005",
+        "display" : "Contusion of coccyx (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211495007",
+        "display" : "Contusion of genital organ (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211501009",
+        "display" : "Contusion of clavicular area (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211502002",
+        "display" : "Contusion, shoulder and upper arm, multiple sites (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211507008",
+        "display" : "Contusion, hand, excluding finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211508003",
+        "display" : "Contusion hand, palm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211509006",
+        "display" : "Contusion hand, dorsum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211510001",
+        "display" : "Contusion wrist, volar (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211511002",
+        "display" : "Contusion wrist, dorsum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211515006",
+        "display" : "Contusion of multiple fingers (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211519000",
+        "display" : "Contusion, hip and thigh (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211521005",
+        "display" : "Contusion, knee and lower leg (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "211523008",
+        "display" : "Contusion, ankle and foot, excluding toe(s) (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21643007",
+        "display" : "Contusion of groin (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225605003",
+        "display" : "Nipple bruised (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22562004",
+        "display" : "Contusion of scalp (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22878006",
+        "display" : "Contusion of knee (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230619007",
+        "display" : "Contusion of peripheral nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "231814009",
+        "display" : "Contusion of eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23287003",
+        "display" : "Contusion of scrotum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "234002001",
+        "display" : "Arterial contusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "234082004",
+        "display" : "Contusion of vein (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23713006",
+        "display" : "Contusion of cerebral cortex (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25546001",
+        "display" : "Contusion of fingernail (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262532009",
+        "display" : "Pattern bruising (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262534005",
+        "display" : "Confluent bruising (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262635003",
+        "display" : "Contusion of oral cavity (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262636002",
+        "display" : "Contusion of palate (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262637006",
+        "display" : "Contusion of gingivae (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262638001",
+        "display" : "Contusion of intraoral surface of lip (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262639009",
+        "display" : "Contusion of oral alveolar mucosa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262676007",
+        "display" : "Contusion of larynx (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262681003",
+        "display" : "Contusion of trachea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262689001",
+        "display" : "Contusion of cerebrum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262696004",
+        "display" : "Contusion of spinal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262697008",
+        "display" : "Contusion of cervical cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262698003",
+        "display" : "Contusion of thoracic cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262699006",
+        "display" : "Contusion of lumbar cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262700007",
+        "display" : "Contusion of sacral cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262733002",
+        "display" : "Contusion of spinal nerve root (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262734008",
+        "display" : "Contusion of cervical nerve root (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262735009",
+        "display" : "Contusion of thoracic nerve root (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262736005",
+        "display" : "Contusion of lumbar nerve root (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262737001",
+        "display" : "Contusion of sacral nerve root (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262767007",
+        "display" : "Contusion of salivary gland (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262774002",
+        "display" : "Contusion of thyroid gland (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262777009",
+        "display" : "Contusion of parathyroid gland (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262784001",
+        "display" : "Contusion of lung (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262791003",
+        "display" : "Contusion of esophagus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262799001",
+        "display" : "Contusion of liver (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262809001",
+        "display" : "Contusion of gallbladder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262815001",
+        "display" : "Contusion of bile duct (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262820001",
+        "display" : "Contusion of spleen (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262827003",
+        "display" : "Contusion of pancreas (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262833007",
+        "display" : "Contusion of adrenal gland (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262839006",
+        "display" : "Contusion of stomach (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262845003",
+        "display" : "Contusion of duodenum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262853006",
+        "display" : "Contusion of small intestine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262859005",
+        "display" : "Contusion of appendix (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262866006",
+        "display" : "Contusion of cecum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262871004",
+        "display" : "Contusion of colon (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262877000",
+        "display" : "Contusion of rectum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262883002",
+        "display" : "Contusion of mesentery (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262887001",
+        "display" : "Contusion of omentum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262903001",
+        "display" : "Contusion of urinary conduit (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262918000",
+        "display" : "Contusion of vas deferens (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262957008",
+        "display" : "Contusion of cranial nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "262968008",
+        "display" : "Intramuscular contusion (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277209002",
+        "display" : "Bruising over mastoid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282053003",
+        "display" : "Contusion of jejunum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282064000",
+        "display" : "Contusion of ileum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282076000",
+        "display" : "Contusion of anus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282450009",
+        "display" : "Contusion of nasal septum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282454000",
+        "display" : "Contusion of pharynx (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "282723003",
+        "display" : "Contusion of bronchus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283135004",
+        "display" : "Superficial bruising of head and neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283136003",
+        "display" : "Superficial contusion of skin of neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283137007",
+        "display" : "Contusion of pelvic region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283138002",
+        "display" : "Contusion of dorsum of foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283906006",
+        "display" : "Contusion of ureter (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283915004",
+        "display" : "Contusion of urinary bladder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283918002",
+        "display" : "Contusion of urethra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283928006",
+        "display" : "Contusion of prostate (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283937006",
+        "display" : "Contusion of seminal vesicle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283956001",
+        "display" : "Contusion of ovary (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283957005",
+        "display" : "Contusion of fallopian tube (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283961004",
+        "display" : "Contusion of uterus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283964007",
+        "display" : "Contusion of cervix (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283968005",
+        "display" : "Contusion female perineum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "283973004",
+        "display" : "Contusion of male perineum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "284062002",
+        "display" : "Contusion of lower back (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289333007",
+        "display" : "Contusion of umbilical cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29298007",
+        "display" : "Bruised sole (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301768009",
+        "display" : "Contusion of supraorbital area (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "30841000119109",
+        "display" : "Contusion of sternal region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "313262006",
+        "display" : "Contusion of sacral region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34663006",
+        "display" : "Contusion of brain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36160007",
+        "display" : "Contusion of male genital organs (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3649004",
+        "display" : "Contusion of multiple sites of trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367423000",
+        "display" : "Contusion of eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36787001",
+        "display" : "Contusion of trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "373600006",
+        "display" : "Multiple bruising (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3751005",
+        "display" : "Contusion of labium (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39001000087100",
+        "display" : "Contusion of dorsum of right hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39251000087106",
+        "display" : "Contusion of left buttock (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39261000087109",
+        "display" : "Contusion of right buttock (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39271000087100",
+        "display" : "Contusion of dorsum of left hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39397008",
+        "display" : "Contusion of thumb nail (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39716001",
+        "display" : "Contusion of vulva (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39812007",
+        "display" : "Contusion of forearm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40257000",
+        "display" : "Contusion of shoulder region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416179002",
+        "display" : "Contusion of eye AND ocular adnexa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "417654008",
+        "display" : "Contusion of ocular adnexa and periocular tissues (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41881000087102",
+        "display" : "Contusion of left lower limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41891000087100",
+        "display" : "Contusion of right lower limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41901000087104",
+        "display" : "Contusion of left upper limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "41911000087102",
+        "display" : "Contusion of right upper limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42039004",
+        "display" : "Contusion of perineum (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42081000087104",
+        "display" : "Contusion of left supraorbital area (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42091000087102",
+        "display" : "Contusion of right supraorbital area (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42141000087105",
+        "display" : "Contusion of left jaw region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42151000087108",
+        "display" : "Contusion of right jaw region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42301000087109",
+        "display" : "Contusion of left clavicular region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42311000087106",
+        "display" : "Contusion of right clavicular region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42321000087103",
+        "display" : "Contusion of left rib (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42331000087101",
+        "display" : "Contusion of right rib (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424131007",
+        "display" : "Easy bruising (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42531000087106",
+        "display" : "Contusion of hypogastric region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42697001",
+        "display" : "Contusion of orbital tissues (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428016006",
+        "display" : "Contusion of rib (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429665006",
+        "display" : "Contusion of thoracic spine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431674004",
+        "display" : "Hematoma and contusion of liver (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43541000087108",
+        "display" : "Contusion of left lower eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43551000087106",
+        "display" : "Contusion of left upper eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43561000087109",
+        "display" : "Contusion of right lower eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43571000087100",
+        "display" : "Contusion of right upper eyelid (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43581000087103",
+        "display" : "Contusion of left eye region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43591000087101",
+        "display" : "Contusion of right eye region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43601000087109",
+        "display" : "Contusion of left cheek (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43611000087106",
+        "display" : "Contusion of right cheek (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441519008",
+        "display" : "Contusion of infraorbital nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44201000087105",
+        "display" : "Contusion of cervical vertebral column region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44211000087107",
+        "display" : "Contusion of lumbar vertebral column region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44801007",
+        "display" : "Contusion of hip (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45613006",
+        "display" : "Contusion of lower leg (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "48123002",
+        "display" : "Contusion of wrist (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4821001",
+        "display" : "Contusion of cheek (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50228009",
+        "display" : "Contusion of ear (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51772000",
+        "display" : "Contusion of vagina (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "52945003",
+        "display" : "Contusion of mandibular joint area (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53629007",
+        "display" : "Contusion of testis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53759006",
+        "display" : "Contusion of axillary region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54499003",
+        "display" : "Contusion of interscapular region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55042009",
+        "display" : "Contusion of ankle (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5662003",
+        "display" : "Contusion of hand (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58075000",
+        "display" : "Contusion of toe (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58221004",
+        "display" : "Contusion of multiple sites of upper limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60211009",
+        "display" : "Contusion of flank (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "60897004",
+        "display" : "Contusion of nose (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64458007",
+        "display" : "Contusion of lip (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68142008",
+        "display" : "Contusion of upper limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68893001",
+        "display" : "Contusion of buttock (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "69787006",
+        "display" : "Contusion of finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698501003",
+        "display" : "Contusion of multiple sites of shoulder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "70092007",
+        "display" : "Contusion of kidney (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733218001",
+        "display" : "Contusion of thoracic trachea (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733220003",
+        "display" : "Contusion of surface region of pelvis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "735645009",
+        "display" : "Contusion of head (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "735768008",
+        "display" : "Contusion of heart co-occurrent with hemopericardium (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74814004",
+        "display" : "Contusion of foot (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76437000",
+        "display" : "Contusion of thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "77233005",
+        "display" : "Contusion of female genital organ (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788893001",
+        "display" : "Contusion of blood vessel of finger (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788894007",
+        "display" : "Contusion of blood vessel of thumb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788895008",
+        "display" : "Contusion of deep palmar arch (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788896009",
+        "display" : "Contusion of superficial palmar arch (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "80907003",
+        "display" : "Contusion of scapular region (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84416003",
+        "display" : "Contusion of thigh (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "8513005",
+        "display" : "Contusion of neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "85636003",
+        "display" : "Contusion of upper arm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "870540001",
+        "display" : "Contusion of hindbrain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "874804000",
+        "display" : "Contusion of head and/or neck (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "874805004",
+        "display" : "Superficial contusion of skin of thigh (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "90244007",
+        "display" : "Contusion of heel (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "91603007",
+        "display" : "Contusion of lower limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "91613004",
+        "display" : "Contusion of elbow (disorder)"
+      }
+    ]
+  }
+}

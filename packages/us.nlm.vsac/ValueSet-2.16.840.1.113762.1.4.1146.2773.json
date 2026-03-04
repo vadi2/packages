@@ -1,0 +1,333 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2773",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2773",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2773"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "PneumocystisTestsForPneumocystisSpeciesAntigen",
+  "title" : "Pneumocystis (Tests for Pneumocystis Species Antigen)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting Pneumocystis Species Antigen),(Data Element Scope: Laboratory tests names that were ordered or performed.),(Inclusion Criteria: Pneumocystis Species Antigen),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "14514-4",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Blood by Immunofluorescence"
+          },
+          {
+            "code" : "14515-1",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+          },
+          {
+            "code" : "14516-9",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Semen by Immunofluorescence"
+          },
+          {
+            "code" : "14517-7",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Stool by Immunofluorescence"
+          },
+          {
+            "code" : "14518-5",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Throat by Immunofluorescence"
+          },
+          {
+            "code" : "14519-3",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Eye by Immunofluorescence"
+          },
+          {
+            "code" : "14520-1",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Nose by Immunofluorescence"
+          },
+          {
+            "code" : "14521-9",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Urine by Immunofluorescence"
+          },
+          {
+            "code" : "14522-7",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchial specimen by Immunofluorescence"
+          },
+          {
+            "code" : "31932-7",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Blood"
+          },
+          {
+            "code" : "31933-5",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchial specimen"
+          },
+          {
+            "code" : "31934-3",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Cerebral spinal fluid"
+          },
+          {
+            "code" : "31935-0",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Eye"
+          },
+          {
+            "code" : "31936-8",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Nose"
+          },
+          {
+            "code" : "31937-6",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Serum"
+          },
+          {
+            "code" : "31938-4",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Semen"
+          },
+          {
+            "code" : "31939-2",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Sputum"
+          },
+          {
+            "code" : "31940-0",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Stool"
+          },
+          {
+            "code" : "31941-8",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Throat"
+          },
+          {
+            "code" : "31942-6",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Urine"
+          },
+          {
+            "code" : "31943-4",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Specimen"
+          },
+          {
+            "code" : "6518-5",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Serum by Immunofluorescence"
+          },
+          {
+            "code" : "6519-3",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Sputum by Immunofluorescence"
+          },
+          {
+            "code" : "700-5",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Specimen by Immunofluorescence"
+          },
+          {
+            "code" : "88691-1",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+          },
+          {
+            "code" : "91824-3",
+            "display" : "Pneumocystis jirovecii Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:5ad6072f-d47e-4c41-89fc-74fe538bdd19",
+    "timestamp" : "2025-11-24T13:37:22-05:00",
+    "total" : 26,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14514-4",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Blood by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14515-1",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Cerebral spinal fluid by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14516-9",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Semen by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14517-7",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Stool by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14518-5",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Throat by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14519-3",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Eye by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14520-1",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Nose by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14521-9",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Urine by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "14522-7",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchial specimen by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31932-7",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Blood"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31933-5",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchial specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31934-3",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Cerebral spinal fluid"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31935-0",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Eye"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31936-8",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Nose"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31937-6",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Serum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31938-4",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Semen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31939-2",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Sputum"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31940-0",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Stool"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31941-8",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Throat"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31942-6",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Urine"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "31943-4",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Specimen"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "6518-5",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Serum by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "6519-3",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Sputum by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "700-5",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Specimen by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "88691-1",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Bronchoalveolar lavage by Immunofluorescence"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "91824-3",
+        "display" : "Pneumocystis jirovecii Ag [Presence] in Lower respiratory specimen by Immunofluorescence"
+      }
+    ]
+  }
+}

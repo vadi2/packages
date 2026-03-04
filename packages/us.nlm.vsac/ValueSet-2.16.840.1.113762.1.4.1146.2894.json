@@ -1,0 +1,422 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2894",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2894",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2894"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "EhrlichiosisAdditionalContextSymptomCodesSNOMED",
+  "title" : "Ehrlichiosis Additional Context Symptom Codes (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Ehrlichiosis Additional Context Symptom Codes (SNOMED)),(Data Element Scope: Ehrlichiosis Additional Context Symptom Codes (SNOMED)),(Inclusion Criteria: Ehrlichiosis Additional Context Symptom Codes (SNOMED)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "102613000",
+            "display" : "Localized abdominal pain (finding)"
+          },
+          {
+            "code" : "102614006",
+            "display" : "Generalized abdominal pain (finding)"
+          },
+          {
+            "code" : "111985007",
+            "display" : "Chronic abdominal pain (finding)"
+          },
+          {
+            "code" : "116290004",
+            "display" : "Acute abdominal pain (finding)"
+          },
+          {
+            "code" : "162042000",
+            "display" : "Abdominal wall pain (finding)"
+          },
+          {
+            "code" : "162046002",
+            "display" : "Central abdominal pain (finding)"
+          },
+          {
+            "code" : "16932000",
+            "display" : "Nausea and vomiting (disorder)"
+          },
+          {
+            "code" : "207205003",
+            "display" : "[D]Abdominal pain (situation)"
+          },
+          {
+            "code" : "21522001",
+            "display" : "Abdominal pain (finding)"
+          },
+          {
+            "code" : "249468005",
+            "display" : "Anorexia symptom (finding)"
+          },
+          {
+            "code" : "25064002",
+            "display" : "Headache (finding)"
+          },
+          {
+            "code" : "271832001",
+            "display" : "Flatulence, eructation and gas pain (finding)"
+          },
+          {
+            "code" : "285387005",
+            "display" : "Left sided abdominal pain (finding)"
+          },
+          {
+            "code" : "285388000",
+            "display" : "Right sided abdominal pain (finding)"
+          },
+          {
+            "code" : "300359004",
+            "display" : "Finding of vomiting (finding)"
+          },
+          {
+            "code" : "314212008",
+            "display" : "Abdominal pain - cause unknown (finding)"
+          },
+          {
+            "code" : "36456004",
+            "display" : "Mental state finding (finding)"
+          },
+          {
+            "code" : "367391008",
+            "display" : "Malaise (finding)"
+          },
+          {
+            "code" : "37796009",
+            "display" : "Migraine (disorder)"
+          },
+          {
+            "code" : "386661006",
+            "display" : "Fever (finding)"
+          },
+          {
+            "code" : "398057008",
+            "display" : "Tension-type headache (disorder)"
+          },
+          {
+            "code" : "419284004",
+            "display" : "Altered mental status (finding)"
+          },
+          {
+            "code" : "422400008",
+            "display" : "Vomiting (disorder)"
+          },
+          {
+            "code" : "422587007",
+            "display" : "Nausea (finding)"
+          },
+          {
+            "code" : "426000000",
+            "display" : "Fever greater than 100.4 Fahrenheit (finding)"
+          },
+          {
+            "code" : "433082007",
+            "display" : "Transient altered mental status (finding)"
+          },
+          {
+            "code" : "438506002",
+            "display" : "Visceral abdominal pain (finding)"
+          },
+          {
+            "code" : "45979003",
+            "display" : "Abdominal wind pain (finding)"
+          },
+          {
+            "code" : "54586004",
+            "display" : "Lower abdominal pain (finding)"
+          },
+          {
+            "code" : "57676002",
+            "display" : "Pain of joint (finding)"
+          },
+          {
+            "code" : "68962001",
+            "display" : "Muscle pain (finding)"
+          },
+          {
+            "code" : "7520000",
+            "display" : "Pyrexia of unknown origin (finding)"
+          },
+          {
+            "code" : "771258003",
+            "display" : "Bite of tick (event)"
+          },
+          {
+            "code" : "79890006",
+            "display" : "Loss of appetite (finding)"
+          },
+          {
+            "code" : "83132003",
+            "display" : "Upper abdominal pain (finding)"
+          },
+          {
+            "code" : "95898004",
+            "display" : "Tick bite (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:03912aa3-1fba-4689-a27f-82754af3bda9",
+    "timestamp" : "2025-11-24T13:44:15-05:00",
+    "total" : 34,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102613000",
+        "display" : "Localized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102614006",
+        "display" : "Generalized abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111985007",
+        "display" : "Chronic abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116290004",
+        "display" : "Acute abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162042000",
+        "display" : "Abdominal wall pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "162046002",
+        "display" : "Central abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16932000",
+        "display" : "Nausea and vomiting (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "21522001",
+        "display" : "Abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25064002",
+        "display" : "Headache (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271832001",
+        "display" : "Flatulence, eructation and gas pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285387005",
+        "display" : "Left sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "285388000",
+        "display" : "Right sided abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "300359004",
+        "display" : "Finding of vomiting (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314212008",
+        "display" : "Abdominal pain - cause unknown (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "36456004",
+        "display" : "Mental state finding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367391008",
+        "display" : "Malaise (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "37796009",
+        "display" : "Migraine (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "386661006",
+        "display" : "Fever (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398057008",
+        "display" : "Tension-type headache (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419284004",
+        "display" : "Altered mental status (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422400008",
+        "display" : "Vomiting (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "422587007",
+        "display" : "Nausea (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426000000",
+        "display" : "Fever greater than 100.4 Fahrenheit (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433082007",
+        "display" : "Transient altered mental status (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438506002",
+        "display" : "Visceral abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "45979003",
+        "display" : "Abdominal wind pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54586004",
+        "display" : "Lower abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "57676002",
+        "display" : "Pain of joint (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68962001",
+        "display" : "Muscle pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7520000",
+        "display" : "Pyrexia of unknown origin (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771258003",
+        "display" : "Bite of tick (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79890006",
+        "display" : "Loss of appetite (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83132003",
+        "display" : "Upper abdominal pain (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95898004",
+        "display" : "Tick bite (disorder)"
+      }
+    ]
+  }
+}

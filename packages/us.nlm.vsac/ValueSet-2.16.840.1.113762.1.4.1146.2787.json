@@ -1,0 +1,213 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2787",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2787",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2787"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "PainWithSexualIntercourseSNOMED",
+  "title" : "Pain with Sexual Intercourse (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Pain with Sexual Intercourse regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Pain with Sexual Intercourse),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "16690551000119106",
+            "display" : "Female deep pain on intercourse (finding)"
+          },
+          {
+            "code" : "198075006",
+            "display" : "Dyspareunia due to non-psychogenic cause in male (finding)"
+          },
+          {
+            "code" : "198402002",
+            "display" : "Dyspareunia due to non-psychogenic cause in the female (finding)"
+          },
+          {
+            "code" : "23285006",
+            "display" : "Painful sexual act of male (finding)"
+          },
+          {
+            "code" : "247418006",
+            "display" : "Superficial pain on intercourse (finding)"
+          },
+          {
+            "code" : "247419003",
+            "display" : "Deep pain on intercourse (finding)"
+          },
+          {
+            "code" : "247420009",
+            "display" : "Sexual function painful (finding)"
+          },
+          {
+            "code" : "279056004",
+            "display" : "Pain on penetration (finding)"
+          },
+          {
+            "code" : "286992006",
+            "display" : "Non-psychogenic dyspareunia (finding)"
+          },
+          {
+            "code" : "313344000",
+            "display" : "Vulval superficial dyspareunia (finding)"
+          },
+          {
+            "code" : "423893004",
+            "display" : "Pain following sexual intercourse (finding)"
+          },
+          {
+            "code" : "71315007",
+            "display" : "Dyspareunia (finding)"
+          },
+          {
+            "code" : "81712001",
+            "display" : "Pain in female genitalia on intercourse (finding)"
+          },
+          {
+            "code" : "89751008",
+            "display" : "Sexual pain disorder (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:49c247d7-7ec2-4bd3-b39f-6274b625987f",
+    "timestamp" : "2025-11-24T13:37:58-05:00",
+    "total" : 14,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16690551000119106",
+        "display" : "Female deep pain on intercourse (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "198075006",
+        "display" : "Dyspareunia due to non-psychogenic cause in male (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "198402002",
+        "display" : "Dyspareunia due to non-psychogenic cause in the female (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23285006",
+        "display" : "Painful sexual act of male (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247418006",
+        "display" : "Superficial pain on intercourse (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247419003",
+        "display" : "Deep pain on intercourse (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247420009",
+        "display" : "Sexual function painful (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "279056004",
+        "display" : "Pain on penetration (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "286992006",
+        "display" : "Non-psychogenic dyspareunia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "313344000",
+        "display" : "Vulval superficial dyspareunia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "423893004",
+        "display" : "Pain following sexual intercourse (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "71315007",
+        "display" : "Dyspareunia (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81712001",
+        "display" : "Pain in female genitalia on intercourse (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89751008",
+        "display" : "Sexual pain disorder (disorder)"
+      }
+    ]
+  }
+}

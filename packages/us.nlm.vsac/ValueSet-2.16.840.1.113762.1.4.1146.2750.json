@@ -1,0 +1,253 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2750",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2750",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2750"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "ExposureToSexuallyTransmittedInfectionSNOMED",
+  "title" : "Exposure to Sexually Transmitted Infection (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient may have exposure to sexually transmitted infection regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: Exposure to Sexually Transmitted Infection),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1290711000000105",
+            "display" : "Exposure to monkeypox virus (event)"
+          },
+          {
+            "code" : "1351664004",
+            "display" : "Exposure to infective urethritis (event)"
+          },
+          {
+            "code" : "2641000119104",
+            "display" : "Exposure to chlamydia (event)"
+          },
+          {
+            "code" : "444356002",
+            "display" : "Exposure to Human immunodeficiency virus (event)"
+          },
+          {
+            "code" : "444358001",
+            "display" : "Exposure to Klebsiella granulomatis (event)"
+          },
+          {
+            "code" : "444364008",
+            "display" : "Exposure to Gardnerella vaginalis (event)"
+          },
+          {
+            "code" : "444375007",
+            "display" : "Exposure to Haemophilus ducreyi (event)"
+          },
+          {
+            "code" : "444376008",
+            "display" : "Exposure to Neisseria gonorrhoeae (event)"
+          },
+          {
+            "code" : "444380003",
+            "display" : "Exposure to Treponema pallidum (event)"
+          },
+          {
+            "code" : "444395001",
+            "display" : "Exposure to anaerobic bacterial vaginosis (event)"
+          },
+          {
+            "code" : "444418002",
+            "display" : "Exposure to Chlamydia trachomatis (event)"
+          },
+          {
+            "code" : "444451006",
+            "display" : "Exposure to sexually transmissible disorder (event)"
+          },
+          {
+            "code" : "444452004",
+            "display" : "Exposure to genital trichomoniasis (event)"
+          },
+          {
+            "code" : "444454003",
+            "display" : "Exposure to nonspecific urethritis (event)"
+          },
+          {
+            "code" : "444458000",
+            "display" : "Exposure to nonspecific genital infection (event)"
+          },
+          {
+            "code" : "444460003",
+            "display" : "Exposure to bacterial vaginosis (event)"
+          },
+          {
+            "code" : "444461004",
+            "display" : "Exposure to lymphogranuloma venereum (event)"
+          },
+          {
+            "code" : "444487004",
+            "display" : "Exposure to anogenital Herpes simplex virus (event)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:31dc699c-f1cd-4e8a-84b0-849149b71e2d",
+    "timestamp" : "2025-11-24T13:36:20-05:00",
+    "total" : 18,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1290711000000105",
+        "display" : "Exposure to monkeypox virus (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1351664004",
+        "display" : "Exposure to infective urethritis-associated organism (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "2641000119104",
+        "display" : "Exposure to chlamydia (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444356002",
+        "display" : "Exposure to Human immunodeficiency virus (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444358001",
+        "display" : "Exposure to Klebsiella granulomatis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444364008",
+        "display" : "Exposure to Gardnerella vaginalis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444375007",
+        "display" : "Exposure to Haemophilus ducreyi (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444376008",
+        "display" : "Exposure to Neisseria gonorrhoeae (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444380003",
+        "display" : "Exposure to Treponema pallidum (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444395001",
+        "display" : "Exposure to anaerobic bacterial vaginosis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444418002",
+        "display" : "Exposure to Chlamydia trachomatis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444451006",
+        "display" : "Exposure to sexually transmissible disorder (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444452004",
+        "display" : "Exposure to genital trichomoniasis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444454003",
+        "display" : "Exposure to nonspecific urethritis-associated organism (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444458000",
+        "display" : "Exposure to nonspecific genital infection (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444460003",
+        "display" : "Exposure to bacterial vaginosis (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444461004",
+        "display" : "Exposure to lymphogranuloma venereum (event)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444487004",
+        "display" : "Exposure to anogenital Herpes simplex virus (event)"
+      }
+    ]
+  }
+}

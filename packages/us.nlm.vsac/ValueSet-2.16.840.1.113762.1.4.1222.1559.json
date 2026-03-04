@@ -1,0 +1,86 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1222.1559",
+  "meta" : {
+    "versionId" : "14",
+    "lastUpdated" : "2024-06-18T01:21:05.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "MCC eCare Plan Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "MCC_IG"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-18"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-18"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1222.1559",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1222.1559"
+    }
+  ],
+  "version" : "20240618",
+  "name" : "MetabolicSyndromeDiagnosisSCT",
+  "title" : "Metabolic Syndrome Diagnosis SCT",
+  "status" : "active",
+  "date" : "2024-06-18T01:21:05-04:00",
+  "publisher" : "HL7 Patient Care WG Steward",
+  "description" : "This value set may undergo changes until the HL7 Multiple Chronic Care FHIR IG is formally published in 2024.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Metabolic syndrome may be diagnosed if a patient has three or more of the following conditions:\n\nA large waistline,\nHigh blood pressure,\nHigh blood sugar levels,\nHigh blood triglycerides, or\nLow HDL cholesterol.\nMetabolic syndrome is common in the United States. About 1 in 3 adults have metabolic syndrome.),(Data Element Scope: The intent of this set of values is to identify patients who have a diagnosis of metabolic syndrome.),(Inclusion Criteria: Includes the SNOMED CT metabolic syndrome diagnosis concepts.),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "is-a",
+            "value" : "237602007"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0ad14094-cfb8-4feb-8c7e-8f53ed16e53b",
+    "timestamp" : "2025-11-24T15:15:35-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "237602007",
+        "display" : "Metabolic syndrome X (disorder)"
+      }
+    ]
+  }
+}

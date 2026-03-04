@@ -1,0 +1,2421 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.11.20.8.1",
+  "meta" : {
+    "versionId" : "53",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.8.1",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.11.20.8.1"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ProgressNoteDocumentTypeCode",
+  "title" : "ProgressNoteDocumentTypeCode",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "description" : "Run a Search.loinc query for (Component: Progress note Scale: Doc). From the export, create a comma-separated list of codes. Add the comma-separated list to the definition with Operator \"in\" to the \"Code\" field.\nAND as an additional OR clause \"Property\" = \"Concept\" ,  \"Operator\"= \"in\" = 57055-6",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Progress note kind classified by setting, author role, and author specialization),(Data Element Scope: Represents notes that summarize a patient’s status and progress towards goals and, care updates, during an episode of care.),(Inclusion Criteria: LOINC document concepts representing a progress note where component = 'progress note' and scale = 'DOC),(Exclusion Criteria: LOINC document codes Notes specific to another defined type (e.g., operative, procedure, discharge).\nNon-clinical or administrative notes.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "in",
+            "value" : "100499-3,68568-5,100573-5,103554-2,100461-3,90011-8,100452-2,94518-8,89821-3,103804-1,78710-1,100643-6,68878-8,100584-2,100629-5,101039-6,100522-2,100604-8,100520-6,100464-7,68617-0,100442-3,68473-8,11506-3,100445-6,100644-4,100581-8,101892-8,100473-8,68891-1,100503-2,28575-9,101898-5,100502-4,100516-4,97570-6,68763-2,77426-5,34900-1,100551-1,68554-5,85441-4,100527-1,100534-7,100628-7,103969-2,94468-6,100517-2,100519-8,68631-1,68800-2,100617-0,100480-3,68484-5,100444-9,100453-0,100626-1,89813-0,100494-4,100513-1,100574-3,64059-9,80815-4,100632-9,100557-8,100561-0,100585-9,100492-8,100486-0,15507-7,100439-9,68485-2,100633-7,100620-4,100564-4,34125-5,100506-5,100501-6,64079-7,97576-3,100524-8,75497-8,97691-0,95134-3,100556-0,100536-2,72556-4,100448-0,100518-0,28627-8,100529-7,100472-0,100645-1,100466-2,100456-3,94749-9,100621-2,85515-5,80671-1,100580-0,93897-7,68679-0,100661-8,100598-2,28623-7,100490-2,101895-1,100594-1,100647-7,90772-5,68830-9,97577-1,100622-0,100523-0,100570-1,100532-1,96350-4,100646-9,100656-8,100634-5,78669-9,100625-3,100650-1,100535-4,68668-3,100539-6,64057-3,100630-3,100623-8,100562-8,100438-1,100568-5,34901-9,100608-9,100578-4,100600-6,100459-7,100599-0,18733-6,100610-5,90007-6,94245-8,100440-7,34131-3,78705-1,100510-7,78324-1,100618-8,100485-2,80569-7,101036-2,100511-5,68564-4,100488-6,68744-2,100552-9,28569-2,100471-2,100515-6,100624-6,95802-5,100563-6,28656-7,100533-9,68725-1,68896-0,100586-7,100602-2,78482-7,78480-1,34904-3,100596-6,100478-7,68845-7,100603-0,100572-7,104122-7,93892-8,80819-6,100496-9,68574-3,100487-8,68840-8,78664-0,100582-6,34127-1,100595-8,97578-9,100474-6,68703-8,97579-7,11512-1,78481-9,100555-2,68475-3,100651-9,93900-9,100447-2,70238-1,11510-5,100528-9,64063-1,100542-0,100607-1,100616-2,89807-2,96338-9,100566-9,34130-5,100583-4,100514-9,11507-1,64055-7,97575-5,64061-5,78328-2,103971-8,100509-9,34128-9,100465-4,100550-3,100505-7,101042-0,100526-3,100508-1,68646-9,100538-8,100615-4,100469-6,100565-1,100548-7,100577-6,78323-3,100601-4,28580-9,28617-9,100484-5,94466-0,100495-1,100659-2,100591-7,100525-5,78665-7,100540-4,100638-6,100500-8,95757-1,101899-3,95041-0,34132-1,90876-4,68472-0,100457-1,100477-9,34124-8,100559-4,100637-8,89795-9,100462-1,90014-2,100543-8,100497-7,100475-3,100450-6,100639-4,100597-4,100467-0,78663-2,34129-7,68478-7,68589-1,100657-6,100455-5,100627-9,100571-9,89233-1,100553-7,100649-3,78666-5,100546-1,100641-0,68873-9,100593-3,100468-8,68481-1,94467-8,100458-9,100569-3,34126-3,68785-5,100512-3,100560-2,78668-1,100612-1,89816-3,64071-4,97669-6,75221-2,100493-6,100590-9,68693-1,100476-1,89811-4,100660-0,78667-3,64075-5,100614-7,100658-4,97571-4,101046-1,100470-4,100619-6,100567-7,100537-0,100587-5,89224-0,100636-0,100483-7,100544-6,100606-3,95746-4,100545-3,100482-9,100549-5,100592-5,97574-8,68755-8,68479-5,100479-5,100579-2,68480-3,100481-1,96342-1,100521-4,80665-3,100576-8,11509-7,103803-3,80667-9,100441-5,100613-9,100547-9,68810-1,97573-0,100530-5,100504-0,100531-3,97580-5,11508-9,100463-9,100541-2,100642-8,103548-4,100609-7,78326-6,100611-3,82365-8,100507-3,100449-8,78325-8,75220-4,100443-1,100588-3,100635-2,68862-2,100451-4,100460-5,100498-5,100575-0,100589-1,100640-2,100554-5,94809-1,100648-5,100446-4,101037-0,68582-6,100631-1,78479-3,68595-8,97572-2,100558-6,100454-8,89802-3,78327-4,100489-4,89030-1,100605-5,100491-0,68659-2,64067-2"
+          }
+        ]
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "filter" : [
+          {
+            "property" : "concept",
+            "op" : "in",
+            "value" : "57055-6"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:45cc725c-dbc9-49cf-a651-04cd5e057b51",
+    "timestamp" : "2025-11-24T17:08:18-05:00",
+    "total" : 389,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100438-1",
+        "display" : "Adolescent medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100439-9",
+        "display" : "Allergy and Immunology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100440-7",
+        "display" : "Allergy Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100441-5",
+        "display" : "Attending Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100442-3",
+        "display" : "Audiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100443-1",
+        "display" : "Bariatric surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100444-9",
+        "display" : "Blood banking and transfusion medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100445-6",
+        "display" : "Bone Marrow Transplant Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100446-4",
+        "display" : "Breastfeeding Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100447-2",
+        "display" : "Burn management Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100448-0",
+        "display" : "Cardiac surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100449-8",
+        "display" : "Cardiopulmonary Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100450-6",
+        "display" : "Child and adolescent psychiatry Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100451-4",
+        "display" : "Chiropractic medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100452-2",
+        "display" : "Clinical cardiac electrophysiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100453-0",
+        "display" : "Clinical genetics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100454-8",
+        "display" : "Clinical neurophysiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100455-5",
+        "display" : "Clinical pathology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100456-3",
+        "display" : "Colon and rectal surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100457-1",
+        "display" : "Consultant Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100458-9",
+        "display" : "Outpatient COVID-19 Intubation Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100459-7",
+        "display" : "Outpatient COVID-19 Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100460-5",
+        "display" : "Dermatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100461-3",
+        "display" : "Developmental-behavioral pediatrics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100462-1",
+        "display" : "Dialysis and Therapeutic apheresis Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100463-9",
+        "display" : "Eating disorders Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100464-7",
+        "display" : "Endocrinology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100465-4",
+        "display" : "Family medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100466-2",
+        "display" : "Gastroenterology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100467-0",
+        "display" : "Geriatric medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100468-8",
+        "display" : "Gynecologic oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100469-6",
+        "display" : "Gynecology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100470-4",
+        "display" : "Healthcare navigator Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100471-2",
+        "display" : "Heart failure Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100472-0",
+        "display" : "Heart failure+Transplant cardiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100473-8",
+        "display" : "Hematology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100474-6",
+        "display" : "Hematology+Medical oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100475-3",
+        "display" : "Hepatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100476-1",
+        "display" : "Immunology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100477-9",
+        "display" : "Infectious disease Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100478-7",
+        "display" : "Internal medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100479-5",
+        "display" : "Interventional cardiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100480-3",
+        "display" : "Interventional radiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100481-1",
+        "display" : "Outpatient Mechanical circulatory support Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100482-9",
+        "display" : "Medical Aid in Dying Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100483-7",
+        "display" : "Mental health Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100484-5",
+        "display" : "Multi-specialty program Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100485-2",
+        "display" : "Neonatal perinatal medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100486-0",
+        "display" : "Nephrology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100487-8",
+        "display" : "Neurological surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100488-6",
+        "display" : "Neurology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100489-4",
+        "display" : "Neurology with special qualifications in child neurology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100490-2",
+        "display" : "Nurse practitioner Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100491-0",
+        "display" : "Nurse Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100492-8",
+        "display" : "Nutrition and dietetics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100493-6",
+        "display" : "Obstetrics and Gynecology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100494-4",
+        "display" : "Obstetrics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100495-1",
+        "display" : "Occupational therapy Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100496-9",
+        "display" : "Oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100497-7",
+        "display" : "Ophthalmology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100498-5",
+        "display" : "Optometry Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100499-3",
+        "display" : "Oral and Maxillofacial Surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100500-8",
+        "display" : "Orthopaedic surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100501-6",
+        "display" : "Orthotics prosthetics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100502-4",
+        "display" : "Otolaryngology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100503-2",
+        "display" : "Pain medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100504-0",
+        "display" : "Palliative care Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100505-7",
+        "display" : "Pediatric cardiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100506-5",
+        "display" : "Pediatric dermatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100507-3",
+        "display" : "Pediatric endocrinology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100508-1",
+        "display" : "Pediatric gastroenterology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100509-9",
+        "display" : "Pediatric hematology-oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100510-7",
+        "display" : "Pediatric infectious diseases Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100511-5",
+        "display" : "Pediatric otolaryngology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100512-3",
+        "display" : "Pediatric pulmonology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100513-1",
+        "display" : "Pediatric rheumatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100514-9",
+        "display" : "Pediatric surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100515-6",
+        "display" : "Pediatric transplant hepatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100516-4",
+        "display" : "Pediatric urology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100517-2",
+        "display" : "Pharmacogenomics Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100518-0",
+        "display" : "Physical medicine and rehab Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100519-8",
+        "display" : "Physical therapy Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100520-6",
+        "display" : "Plastic surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100521-4",
+        "display" : "Podiatry Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100522-2",
+        "display" : "Psychiatry Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100523-0",
+        "display" : "Psychology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100524-8",
+        "display" : "Pulmonary Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100525-5",
+        "display" : "Radiation oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100526-3",
+        "display" : "Radiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100527-1",
+        "display" : "Recreational therapy Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100528-9",
+        "display" : "Reproductive endocrinology and infertility Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100529-7",
+        "display" : "Research Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100530-5",
+        "display" : "Rheumatology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100531-3",
+        "display" : "Sleep medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100532-1",
+        "display" : "Social worker Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100533-9",
+        "display" : "Solid Organ Transplant Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100534-7",
+        "display" : "Speech-language pathology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100535-4",
+        "display" : "Spinal surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100536-2",
+        "display" : "Sports medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100537-0",
+        "display" : "Surgery of the hand Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100538-8",
+        "display" : "Telehealth+Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100539-6",
+        "display" : "Thromboembolism Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100540-4",
+        "display" : "Transplant surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100541-2",
+        "display" : "Trauma Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100542-0",
+        "display" : "Urology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100543-8",
+        "display" : "Vascular neurology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100544-6",
+        "display" : "Vascular surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100545-3",
+        "display" : "Wound care management Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100546-1",
+        "display" : "Wound, Ostomy, and Continence Care Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100547-9",
+        "display" : "Adolescent medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100548-7",
+        "display" : "Allergy and Immunology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100549-5",
+        "display" : "Allergy Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100550-3",
+        "display" : "Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100551-1",
+        "display" : "Audiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100552-9",
+        "display" : "Bariatric surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100553-7",
+        "display" : "Blood banking and transfusion medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100554-5",
+        "display" : "Bone Marrow Transplant Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100555-2",
+        "display" : "Breastfeeding Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100556-0",
+        "display" : "Burn management Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100557-8",
+        "display" : "Cardiac surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100558-6",
+        "display" : "Cardiopulmonary Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100559-4",
+        "display" : "Child and adolescent psychiatry Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100560-2",
+        "display" : "Clinical cardiac electrophysiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100561-0",
+        "display" : "Clinical genetics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100562-8",
+        "display" : "Clinical neurophysiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100563-6",
+        "display" : "Clinical pathology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100564-4",
+        "display" : "Colon and rectal surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100565-1",
+        "display" : "Consultant Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100566-9",
+        "display" : "Dentistry Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100567-7",
+        "display" : "Dermatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100568-5",
+        "display" : "Developmental-behavioral pediatrics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100569-3",
+        "display" : "Dialysis and Therapeutic apheresis Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100570-1",
+        "display" : "Eating disorders Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100571-9",
+        "display" : "Endocrinology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100572-7",
+        "display" : "Family medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100573-5",
+        "display" : "Gastroenterology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100574-3",
+        "display" : "General medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100575-0",
+        "display" : "Geriatric medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100576-8",
+        "display" : "Gynecologic oncology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100577-6",
+        "display" : "Gynecology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100578-4",
+        "display" : "Healthcare navigator Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100579-2",
+        "display" : "Heart failure Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100580-0",
+        "display" : "Heart failure+Transplant cardiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100581-8",
+        "display" : "Hematology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100582-6",
+        "display" : "Hematology+Medical oncology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100583-4",
+        "display" : "Hepatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100584-2",
+        "display" : "Immunology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100585-9",
+        "display" : "Infectious disease Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100586-7",
+        "display" : "Internal medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100587-5",
+        "display" : "Interventional cardiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100588-3",
+        "display" : "Interventional radiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100589-1",
+        "display" : "Hospital Mechanical circulatory support Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100590-9",
+        "display" : "Medical Aid in Dying Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100591-7",
+        "display" : "Mental health Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100592-5",
+        "display" : "Multi-specialty program Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100593-3",
+        "display" : "Neonatal perinatal medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100594-1",
+        "display" : "Nephrology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100595-8",
+        "display" : "Neurological surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100596-6",
+        "display" : "Neurology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100597-4",
+        "display" : "Neurology with special qualifications in child neurology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100598-2",
+        "display" : "Nurse practitioner Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100599-0",
+        "display" : "Nurse Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100600-6",
+        "display" : "Nutrition and dietetics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100601-4",
+        "display" : "Obstetrics and Gynecology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100602-2",
+        "display" : "Obstetrics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100603-0",
+        "display" : "Occupational therapy Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100604-8",
+        "display" : "Oncology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100605-5",
+        "display" : "Ophthalmology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100606-3",
+        "display" : "Oral and Maxillofacial Surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100607-1",
+        "display" : "Orthopaedic surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100608-9",
+        "display" : "Orthotics prosthetics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100609-7",
+        "display" : "Otolaryngology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100610-5",
+        "display" : "Pain medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100611-3",
+        "display" : "Palliative care Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100612-1",
+        "display" : "Pastoral care Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100613-9",
+        "display" : "Pediatric cardiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100614-7",
+        "display" : "Pediatric dermatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100615-4",
+        "display" : "Pediatric endocrinology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100616-2",
+        "display" : "Pediatric gastroenterology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100617-0",
+        "display" : "Pediatric hematology-oncology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100618-8",
+        "display" : "Pediatric infectious diseases Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100619-6",
+        "display" : "Pediatric otolaryngology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100620-4",
+        "display" : "Pediatric pulmonology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100621-2",
+        "display" : "Pediatric rheumatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100622-0",
+        "display" : "Pediatric surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100623-8",
+        "display" : "Pediatric transplant hepatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100624-6",
+        "display" : "Pharmacogenomics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100625-3",
+        "display" : "Pharmacology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100626-1",
+        "display" : "Physical medicine and rehab Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100627-9",
+        "display" : "Physical therapy Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100628-7",
+        "display" : "Plastic surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100629-5",
+        "display" : "Podiatry Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100630-3",
+        "display" : "Psychology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100631-1",
+        "display" : "Radiation oncology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100632-9",
+        "display" : "Radiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100633-7",
+        "display" : "Rapid response team Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100634-5",
+        "display" : "Recreational therapy Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100635-2",
+        "display" : "Reproductive endocrinology and infertility Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100636-0",
+        "display" : "Research Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100637-8",
+        "display" : "Rheumatology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100638-6",
+        "display" : "Sleep medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100639-4",
+        "display" : "Social worker Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100640-2",
+        "display" : "Solid Organ Transplant Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100641-0",
+        "display" : "Speech-language pathology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100642-8",
+        "display" : "Spinal surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100643-6",
+        "display" : "Surgery of the hand Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100644-4",
+        "display" : "Thromboembolism Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100645-1",
+        "display" : "Trauma Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100646-9",
+        "display" : "Urology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100647-7",
+        "display" : "Vascular neurology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100648-5",
+        "display" : "Vascular surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100649-3",
+        "display" : "Wound care management Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100650-1",
+        "display" : "Wound, Ostomy, and Continence Care Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100651-9",
+        "display" : "Hospital COVID-19 Intubation Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100656-8",
+        "display" : "Maternal and fetal medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100657-6",
+        "display" : "Maternal and fetal medicine Telephone encounter+Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100658-4",
+        "display" : "Hospital COVID-19 Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100659-2",
+        "display" : "Maternal and fetal medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100660-0",
+        "display" : "Maternal and fetal medicine Telephone encounter+Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "100661-8",
+        "display" : "Psychiatry Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101036-2",
+        "display" : "Integrative medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101037-0",
+        "display" : "Chiropody Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101039-6",
+        "display" : "Aerospace medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101042-0",
+        "display" : "Urgent care center Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101046-1",
+        "display" : "Hospitalist Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101892-8",
+        "display" : "Occupational medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101895-1",
+        "display" : "Kinesiotherapy Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101898-5",
+        "display" : "Interdisciplinary Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "101899-3",
+        "display" : "Osteopathic medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103548-4",
+        "display" : "Obstetrics Midwife Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103554-2",
+        "display" : "Surgical oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103803-3",
+        "display" : "Surgery Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103804-1",
+        "display" : "Surgical oncology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103969-2",
+        "display" : "Hospice care Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103971-8",
+        "display" : "Cardiology Rehabilitation progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "104122-7",
+        "display" : "Vascular Access Progress Note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11506-3",
+        "display" : "Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11507-1",
+        "display" : "Occupational therapy Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11508-9",
+        "display" : "Physical therapy Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11509-7",
+        "display" : "Podiatry Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11510-5",
+        "display" : "Psychology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11512-1",
+        "display" : "Speech-language pathology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "15507-7",
+        "display" : "Emergency department Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "18733-6",
+        "display" : "Attending Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28569-2",
+        "display" : "Consultant Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28575-9",
+        "display" : "Nurse practitioner Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28580-9",
+        "display" : "Chiropractic medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28617-9",
+        "display" : "Dentistry Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28623-7",
+        "display" : "Nurse Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28627-8",
+        "display" : "Psychiatry Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "28656-7",
+        "display" : "Social worker Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34124-8",
+        "display" : "Cardiology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34125-5",
+        "display" : "Case manager Patient's home Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34126-3",
+        "display" : "Intensive care unit Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34127-1",
+        "display" : "Dentistry Hygienist Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34128-9",
+        "display" : "Dentistry Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34129-7",
+        "display" : "Patient's home Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34130-5",
+        "display" : "Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34131-3",
+        "display" : "Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34132-1",
+        "display" : "Pharmacology Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34900-1",
+        "display" : "General medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34901-9",
+        "display" : "General medicine Outpatient Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "34904-3",
+        "display" : "Mental health Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57055-6",
+        "display" : "Antepartum summary note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64055-7",
+        "display" : "General medicine Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64057-3",
+        "display" : "Surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64059-9",
+        "display" : "Critical care medicine Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64061-5",
+        "display" : "Cardiothoracic surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64063-1",
+        "display" : "Pulmonary Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64067-2",
+        "display" : "Surgery Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64071-4",
+        "display" : "Critical care medicine Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64075-5",
+        "display" : "Cardiothoracic surgery Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "64079-7",
+        "display" : "Pulmonary Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68472-0",
+        "display" : "Cardiology Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68473-8",
+        "display" : "Critical care medicine Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68475-3",
+        "display" : "General medicine Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68478-7",
+        "display" : "Pulmonary Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68479-5",
+        "display" : "Respiratory therapy Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68480-3",
+        "display" : "Surgery Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68481-1",
+        "display" : "Cardiothoracic surgery Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68484-5",
+        "display" : "Cardiology Attending Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68485-2",
+        "display" : "Cardiology Medical student Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68554-5",
+        "display" : "Hematology+Medical oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68564-4",
+        "display" : "Obstetrics and Gynecology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68574-3",
+        "display" : "Ophthalmology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68582-6",
+        "display" : "Orthopaedic surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68595-8",
+        "display" : "Plastic surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68617-0",
+        "display" : "Adolescent medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68631-1",
+        "display" : "Allergy and Immunology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68646-9",
+        "display" : "Child and adolescent psychiatry Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68659-2",
+        "display" : "Clinical genetics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68668-3",
+        "display" : "Developmental-behavioral pediatrics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68679-0",
+        "display" : "Multi-specialty program Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68693-1",
+        "display" : "Neurological surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68703-8",
+        "display" : "Neurology with special qualifications in child neurology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68725-1",
+        "display" : "Pediatric cardiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68744-2",
+        "display" : "Pediatric gastroenterology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68755-8",
+        "display" : "Pediatric hematology-oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68763-2",
+        "display" : "Pediatric infectious diseases Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68785-5",
+        "display" : "Pediatric pulmonology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68800-2",
+        "display" : "Pediatric surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68810-1",
+        "display" : "Pediatric urology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68830-9",
+        "display" : "Pediatrics Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68840-8",
+        "display" : "Research Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68862-2",
+        "display" : "Pediatric transplant hepatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68873-9",
+        "display" : "Pediatric otolaryngology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68878-8",
+        "display" : "Pediatric rheumatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68891-1",
+        "display" : "Pediatric dermatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68896-0",
+        "display" : "Pediatric endocrinology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "70238-1",
+        "display" : "Transplant surgery Hospital Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "72556-4",
+        "display" : "Interventional radiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75220-4",
+        "display" : "Urology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75221-2",
+        "display" : "Neurology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "75497-8",
+        "display" : "Telehealth Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "77426-5",
+        "display" : "Audiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78323-3",
+        "display" : "Gastroenterology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78324-1",
+        "display" : "Family medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78325-8",
+        "display" : "Infectious disease Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78326-6",
+        "display" : "Dermatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78327-4",
+        "display" : "Endocrinology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78328-2",
+        "display" : "Hematology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78479-3",
+        "display" : "Neonatal perinatal medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78480-1",
+        "display" : "Nephrology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78481-9",
+        "display" : "Nutrition and dietetics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78482-7",
+        "display" : "Oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78663-2",
+        "display" : "Palliative care Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78664-0",
+        "display" : "Recreational therapy Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78665-7",
+        "display" : "Radiation oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78666-5",
+        "display" : "Rheumatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78667-3",
+        "display" : "Optometry Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78668-1",
+        "display" : "Pain medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78669-9",
+        "display" : "Otolaryngology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78705-1",
+        "display" : "Sports medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "78710-1",
+        "display" : "Cardiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80569-7",
+        "display" : "Pharmacology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80665-3",
+        "display" : "Clinical neurophysiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80667-9",
+        "display" : "Vascular neurology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80671-1",
+        "display" : "Pastoral care Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80815-4",
+        "display" : "Geriatric medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "80819-6",
+        "display" : "Pulmonary Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "82365-8",
+        "display" : "Reproductive endocrinology and infertility Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "85441-4",
+        "display" : "Vascular surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "85515-5",
+        "display" : "Bariatric surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89030-1",
+        "display" : "Physical medicine and rehab Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89224-0",
+        "display" : "Gynecology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89233-1",
+        "display" : "Obstetrics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89795-9",
+        "display" : "Blood banking and transfusion medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89802-3",
+        "display" : "Gynecologic oncology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89807-2",
+        "display" : "Maternal and fetal medicine Telephone encounter Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89811-4",
+        "display" : "Anesthesiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89813-0",
+        "display" : "Rapid response team Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89816-3",
+        "display" : "Trauma Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89821-3",
+        "display" : "Wound care management Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90007-6",
+        "display" : "Pharmacogenomics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90011-8",
+        "display" : "Clinical pathology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90014-2",
+        "display" : "Burn management Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90772-5",
+        "display" : "Heart failure Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "90876-4",
+        "display" : "Thromboembolism Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "93892-8",
+        "display" : "Addiction medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "93897-7",
+        "display" : "Maternal and fetal medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "93900-9",
+        "display" : "Healthcare navigator Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94245-8",
+        "display" : "Wound, Ostomy, and Continence Care Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94466-0",
+        "display" : "Solid Organ Transplant Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94467-8",
+        "display" : "Cardiology Intensive care unit Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94468-6",
+        "display" : "Bone Marrow Transplant Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94518-8",
+        "display" : "Clinical cardiac electrophysiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94749-9",
+        "display" : "Medical Aid in Dying Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "94809-1",
+        "display" : "COVID-19 Intubation Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95041-0",
+        "display" : "COVID-19 Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95134-3",
+        "display" : "Dialysis and Therapeutic apheresis Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95746-4",
+        "display" : "Immunology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95757-1",
+        "display" : "Allergy Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "95802-5",
+        "display" : "Breastfeeding Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "96338-9",
+        "display" : "Hepatology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "96342-1",
+        "display" : "Oral and Maxillofacial Surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "96350-4",
+        "display" : "Sleep medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97570-6",
+        "display" : "Cardiopulmonary Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97571-4",
+        "display" : "Cardiac surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97572-2",
+        "display" : "Eating disorders Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97573-0",
+        "display" : "Mechanical circulatory support Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97574-8",
+        "display" : "Spinal surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97575-5",
+        "display" : "Colon and rectal surgery Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97576-3",
+        "display" : "Surgery of the hand Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97577-1",
+        "display" : "Heart failure+Transplant cardiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97578-9",
+        "display" : "Internal medicine Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97579-7",
+        "display" : "Orthotics prosthetics Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97580-5",
+        "display" : "Radiology Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97669-6",
+        "display" : "Emergency medicine Emergency department Progress note"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "97691-0",
+        "display" : "Interventional cardiology Progress note"
+      }
+    ]
+  }
+}

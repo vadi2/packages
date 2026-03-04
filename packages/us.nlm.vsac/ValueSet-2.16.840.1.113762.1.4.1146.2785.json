@@ -1,0 +1,253 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2785",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2785",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2785"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "AbnormalVaginalBleedingSNOMED",
+  "title" : "Abnormal Vaginal Bleeding (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Abnormal Vaginal Bleeding regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Abnormal Vaginal Bleeding),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "206409001",
+            "display" : "Neonatal vaginal hemorrhage (disorder)"
+          },
+          {
+            "code" : "206422009",
+            "display" : "Perinatal transient vaginal bleeding (disorder)"
+          },
+          {
+            "code" : "237278004",
+            "display" : "Heavy show (finding)"
+          },
+          {
+            "code" : "248978005",
+            "display" : "Vaginal introitus bleeding (finding)"
+          },
+          {
+            "code" : "268471004",
+            "display" : "Vaginal show (finding)"
+          },
+          {
+            "code" : "281309004",
+            "display" : "Vaginal vault bleeding (finding)"
+          },
+          {
+            "code" : "289530006",
+            "display" : "Bleeding from vagina (finding)"
+          },
+          {
+            "code" : "289532003",
+            "display" : "Passing clots vaginally (finding)"
+          },
+          {
+            "code" : "289533008",
+            "display" : "Passing small clots vaginally (finding)"
+          },
+          {
+            "code" : "289534002",
+            "display" : "Passing large clots vaginally (finding)"
+          },
+          {
+            "code" : "289536000",
+            "display" : "Fresh bleeding from vagina (finding)"
+          },
+          {
+            "code" : "289537009",
+            "display" : "Passing altered blood from vagina (finding)"
+          },
+          {
+            "code" : "289538004",
+            "display" : "Scanty vaginal bleeding (finding)"
+          },
+          {
+            "code" : "289539007",
+            "display" : "Moderate vaginal bleeding (finding)"
+          },
+          {
+            "code" : "289540009",
+            "display" : "Profuse vaginal bleeding (finding)"
+          },
+          {
+            "code" : "301822002",
+            "display" : "Abnormal vaginal bleeding (finding)"
+          },
+          {
+            "code" : "315224006",
+            "display" : "Heavy episode of vaginal bleeding (finding)"
+          },
+          {
+            "code" : "399131003",
+            "display" : "Non-menstrual vaginal bleeding (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fcfb7b9e-76d5-483b-b307-b8505c53fb33",
+    "timestamp" : "2025-11-24T13:37:53-05:00",
+    "total" : 18,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "206409001",
+        "display" : "Neonatal vaginal hemorrhage (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "206422009",
+        "display" : "Perinatal transient vaginal bleeding (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "237278004",
+        "display" : "Heavy show (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "248978005",
+        "display" : "Vaginal introitus bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "268471004",
+        "display" : "Vaginal show (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281309004",
+        "display" : "Vaginal vault bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289530006",
+        "display" : "Bleeding from vagina (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289532003",
+        "display" : "Passing clots vaginally (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289533008",
+        "display" : "Passing small clots vaginally (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289534002",
+        "display" : "Passing large clots vaginally (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289536000",
+        "display" : "Fresh bleeding from vagina (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289537009",
+        "display" : "Passing altered blood from vagina (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289538004",
+        "display" : "Scanty vaginal bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289539007",
+        "display" : "Moderate vaginal bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "289540009",
+        "display" : "Profuse vaginal bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "301822002",
+        "display" : "Abnormal vaginal bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "315224006",
+        "display" : "Heavy episode of vaginal bleeding (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399131003",
+        "display" : "Non-menstrual vaginal bleeding (disorder)"
+      }
+    ]
+  }
+}

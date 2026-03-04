@@ -1,0 +1,179 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1287",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1287",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1287"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "TotalNephrectomy",
+  "title" : "Total Nephrectomy",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for total nephrectomy.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a total nephrectomy.),(Exclusion Criteria: Partial Nephrectomy.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "50220",
+            "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection"
+          },
+          {
+            "code" : "50225",
+            "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection; complicated because of previous surgery on same kidney"
+          },
+          {
+            "code" : "50230",
+            "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection; radical, with regional lymphadenectomy and/or vena caval thrombectomy"
+          },
+          {
+            "code" : "50234",
+            "display" : "Nephrectomy with total ureterectomy and bladder cuff; through same incision"
+          },
+          {
+            "code" : "50236",
+            "display" : "Nephrectomy with total ureterectomy and bladder cuff; through separate incision"
+          },
+          {
+            "code" : "50340",
+            "display" : "Recipient nephrectomy (separate procedure)"
+          },
+          {
+            "code" : "50370",
+            "display" : "Removal of transplanted renal allograft"
+          },
+          {
+            "code" : "50543",
+            "display" : "Laparoscopy, surgical; partial nephrectomy"
+          },
+          {
+            "code" : "50545",
+            "display" : "Laparoscopy, surgical; radical nephrectomy (includes removal of Gerota's fascia and surrounding fatty tissue, removal of regional lymph nodes, and adrenalectomy)"
+          },
+          {
+            "code" : "50546",
+            "display" : "Laparoscopy, surgical; nephrectomy, including partial ureterectomy"
+          },
+          {
+            "code" : "50548",
+            "display" : "Laparoscopy, surgical; nephrectomy with total ureterectomy"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:47a4f358-053c-4ad9-8f0b-266cccef3c36",
+    "timestamp" : "2025-11-24T18:52:39-05:00",
+    "total" : 11,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50220",
+        "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50225",
+        "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection; complicated because of previous surgery on same kidney"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50230",
+        "display" : "Nephrectomy, including partial ureterectomy, any open approach including rib resection; radical, with regional lymphadenectomy and/or vena caval thrombectomy"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50234",
+        "display" : "Nephrectomy with total ureterectomy and bladder cuff; through same incision"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50236",
+        "display" : "Nephrectomy with total ureterectomy and bladder cuff; through separate incision"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50340",
+        "display" : "Recipient nephrectomy (separate procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50370",
+        "display" : "Removal of transplanted renal allograft"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50543",
+        "display" : "Laparoscopy, surgical; partial nephrectomy"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50545",
+        "display" : "Laparoscopy, surgical; radical nephrectomy (includes removal of Gerota's fascia and surrounding fatty tissue, removal of regional lymph nodes, and adrenalectomy)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50546",
+        "display" : "Laparoscopy, surgical; nephrectomy, including partial ureterectomy"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "50548",
+        "display" : "Laparoscopy, surgical; nephrectomy with total ureterectomy"
+      }
+    ]
+  }
+}

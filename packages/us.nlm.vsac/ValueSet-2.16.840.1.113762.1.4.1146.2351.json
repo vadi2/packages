@@ -1,0 +1,153 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2351",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Common,Shigella"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2351",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2351"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "ShigellosisCombinationTestsThatIncludeShigellaSpeciesByCultureAndIdentification",
+  "title" : "Shigellosis (Combination Tests that include Shigella species by Culture and Identification)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of Shigella species in a culture in combination with another organism.),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: VSAC query: Shigella culture/isolate; LOINC search: \"(Shigella) (culture or isolate) -feed\"),(Exclusion Criteria: LOINC codes for only shigella)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "103661-5",
+            "display" : "Campylobacter and Salmonella and Shigella sp identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "103662-3",
+            "display" : "Campylobacter and Salmonella and Shigella and Yersinia sp identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "103663-1",
+            "display" : "Salmonella and Shigella and Campylobacter and E. coli sp identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "105620-9",
+            "display" : "Campylobacter and Salmonella and Shigella sp # 2 identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "105621-7",
+            "display" : "Campylobacter and Salmonella and Shigella sp # 3 identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "42255-0",
+            "display" : "Salmonella and Shigella sp identified in Specimen by Organism specific culture"
+          },
+          {
+            "code" : "43371-4",
+            "display" : "Salmonella and Shigella sp identified in Stool by Organism specific culture"
+          },
+          {
+            "code" : "48806-4",
+            "display" : "Salmonella sp+Shigella sp+Escherichia coli enterotoxic identified in Stool by Organism specific culture"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d3659845-1364-4c31-bf2d-e16b62ce9b47",
+    "timestamp" : "2025-11-24T13:19:24-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103661-5",
+        "display" : "Campylobacter and Salmonella and Shigella sp identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103662-3",
+        "display" : "Campylobacter and Salmonella and Shigella and Yersinia sp identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103663-1",
+        "display" : "Salmonella and Shigella and Campylobacter and E. coli sp identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "105620-9",
+        "display" : "Campylobacter and Salmonella and Shigella sp # 2 identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "105621-7",
+        "display" : "Campylobacter and Salmonella and Shigella sp # 3 identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "42255-0",
+        "display" : "Salmonella and Shigella sp identified in Specimen by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "43371-4",
+        "display" : "Salmonella and Shigella sp identified in Stool by Organism specific culture"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "48806-4",
+        "display" : "Salmonella sp+Shigella sp+Escherichia coli enterotoxic identified in Stool by Organism specific culture"
+      }
+    ]
+  }
+}

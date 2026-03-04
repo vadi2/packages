@@ -1,0 +1,594 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2912",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2912",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2912"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "HepatitisAVirusInfectionAdditionalContextImmunizationCodes",
+  "title" : "Hepatitis A Virus infection Additional Context Immunization Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Hepatitis A Virus infection Additional Context Immunization Codes),(Data Element Scope: Hepatitis A Virus infection Additional Context Immunization Codes),(Inclusion Criteria: Hepatitis A Virus infection Additional Context Immunization Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1008837",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine"
+          },
+          {
+            "code" : "115386",
+            "display" : "Vaqta"
+          },
+          {
+            "code" : "1160324",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Injectable Product"
+          },
+          {
+            "code" : "1160325",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 Injectable Product"
+          },
+          {
+            "code" : "1166526",
+            "display" : "Havrix Injectable Product"
+          },
+          {
+            "code" : "1186748",
+            "display" : "Twinrix Injectable Product"
+          },
+          {
+            "code" : "1187568",
+            "display" : "Vaqta Injectable Product"
+          },
+          {
+            "code" : "1361667",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / typhoid Vi polysaccharide vaccine, S typhi Ty2 strain"
+          },
+          {
+            "code" : "1491862",
+            "display" : "hepatitis A virus"
+          },
+          {
+            "code" : "153189",
+            "display" : "Twinrix"
+          },
+          {
+            "code" : "1657669",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Injection"
+          },
+          {
+            "code" : "1658057",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 Injection"
+          },
+          {
+            "code" : "1658058",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection"
+          },
+          {
+            "code" : "1658059",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 Injection [Havrix]"
+          },
+          {
+            "code" : "1658060",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection [Havrix]"
+          },
+          {
+            "code" : "1658065",
+            "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection"
+          },
+          {
+            "code" : "1658066",
+            "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection [Havrix]"
+          },
+          {
+            "code" : "1658100",
+            "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection"
+          },
+          {
+            "code" : "1658102",
+            "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection [Vaqta]"
+          },
+          {
+            "code" : "1658105",
+            "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection"
+          },
+          {
+            "code" : "1658106",
+            "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection [Vaqta]"
+          },
+          {
+            "code" : "203439",
+            "display" : "Havrix"
+          },
+          {
+            "code" : "2274413",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated"
+          },
+          {
+            "code" : "2275271",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML"
+          },
+          {
+            "code" : "2275272",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injectable Product"
+          },
+          {
+            "code" : "2275273",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injection"
+          },
+          {
+            "code" : "2275275",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML [Vaqta]"
+          },
+          {
+            "code" : "2275276",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injection [Vaqta]"
+          },
+          {
+            "code" : "2275282",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated Prefilled Syringe"
+          },
+          {
+            "code" : "2275284",
+            "display" : "hepatitis A virus strain CR 326F antigen, inactivated Prefilled Syringe [Vaqta]"
+          },
+          {
+            "code" : "727782",
+            "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "797752",
+            "display" : "hepatitis B surface antigen vaccine"
+          },
+          {
+            "code" : "797753",
+            "display" : "hepatitis B surface antigen vaccine 0.02 MG/ML"
+          },
+          {
+            "code" : "798361",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175"
+          },
+          {
+            "code" : "798362",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML"
+          },
+          {
+            "code" : "798365",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML [Havrix]"
+          },
+          {
+            "code" : "798476",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 Prefilled Syringe"
+          },
+          {
+            "code" : "798477",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "798478",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 Prefilled Syringe [Havrix]"
+          },
+          {
+            "code" : "798479",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe [Havrix]"
+          },
+          {
+            "code" : "798481",
+            "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "798482",
+            "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe [Havrix]"
+          },
+          {
+            "code" : "803362",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML"
+          },
+          {
+            "code" : "803364",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Injection"
+          },
+          {
+            "code" : "803365",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML [Twinrix]"
+          },
+          {
+            "code" : "803368",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe"
+          },
+          {
+            "code" : "803369",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "803370",
+            "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe [Twinrix]"
+          },
+          {
+            "code" : "803371",
+            "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Prefilled Syringe [Twinrix]"
+          },
+          {
+            "code" : "836634",
+            "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe [Vaqta]"
+          },
+          {
+            "code" : "836635",
+            "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "836636",
+            "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe [Vaqta]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:84111812-995c-4bcc-a62e-defdbc89df08",
+    "timestamp" : "2025-11-24T13:45:16-05:00",
+    "total" : 52,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1008837",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "115386",
+        "display" : "Vaqta"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160324",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160325",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1166526",
+        "display" : "Havrix Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186748",
+        "display" : "Twinrix Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187568",
+        "display" : "Vaqta Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1361667",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / typhoid Vi polysaccharide vaccine, S typhi Ty2 strain"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1491862",
+        "display" : "hepatitis A virus"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "153189",
+        "display" : "Twinrix"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1657669",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658057",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658058",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658059",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 Injection [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658060",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658065",
+        "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658066",
+        "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Injection [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658100",
+        "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658102",
+        "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658105",
+        "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1658106",
+        "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Injection [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203439",
+        "display" : "Havrix"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2274413",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275271",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275272",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275273",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275275",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275276",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated Injection [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275282",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2275284",
+        "display" : "hepatitis A virus strain CR 326F antigen, inactivated Prefilled Syringe [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "727782",
+        "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "797752",
+        "display" : "hepatitis B surface antigen vaccine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "797753",
+        "display" : "hepatitis B surface antigen vaccine 0.02 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798361",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798362",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798365",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798476",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798477",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798478",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 Prefilled Syringe [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798479",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798481",
+        "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "798482",
+        "display" : "0.5 ML hepatitis A vaccine (inactivated) strain HM175 1440 UNT/ML Prefilled Syringe [Havrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803362",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803364",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803365",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML [Twinrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803368",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803369",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803370",
+        "display" : "hepatitis A vaccine (inactivated) strain HM175 / hepatitis B surface antigen vaccine Prefilled Syringe [Twinrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "803371",
+        "display" : "1 ML hepatitis A vaccine (inactivated) strain HM175 720 UNT/ML / hepatitis B surface antigen vaccine 0.02 MG/ML Prefilled Syringe [Twinrix]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836634",
+        "display" : "1 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe [Vaqta]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836635",
+        "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836636",
+        "display" : "0.5 ML hepatitis A virus strain CR 326F antigen, inactivated 50 UNT/ML Prefilled Syringe [Vaqta]"
+      }
+    ]
+  }
+}

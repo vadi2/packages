@@ -1,0 +1,169 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.464.1003.1292",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-08T01:02:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "NCQA PHEMUR Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-08"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.1292",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.464.1003.1292"
+    }
+  ],
+  "version" : "20251008",
+  "name" : "PartialNephrectomy",
+  "title" : "Partial Nephrectomy",
+  "status" : "active",
+  "date" : "2025-10-08T01:02:54-04:00",
+  "publisher" : "NCQA PHEMUR",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts for partial nephrectomy.),(Data Element Scope: This value set may use a model element related to Procedure.),(Inclusion Criteria: Includes concepts that represent a procedure of a partial nephrectomy.),(Exclusion Criteria: Total Nephrectomy.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "concept" : [
+          {
+            "code" : "0TB00ZZ",
+            "display" : "Excision of Right Kidney, Open Approach"
+          },
+          {
+            "code" : "0TB03ZZ",
+            "display" : "Excision of Right Kidney, Percutaneous Approach"
+          },
+          {
+            "code" : "0TB04ZZ",
+            "display" : "Excision of Right Kidney, Percutaneous Endoscopic Approach"
+          },
+          {
+            "code" : "0TB07ZZ",
+            "display" : "Excision of Right Kidney, Via Natural or Artificial Opening"
+          },
+          {
+            "code" : "0TB08ZZ",
+            "display" : "Excision of Right Kidney, Via Natural or Artificial Opening Endoscopic"
+          },
+          {
+            "code" : "0TB10ZZ",
+            "display" : "Excision of Left Kidney, Open Approach"
+          },
+          {
+            "code" : "0TB13ZZ",
+            "display" : "Excision of Left Kidney, Percutaneous Approach"
+          },
+          {
+            "code" : "0TB14ZZ",
+            "display" : "Excision of Left Kidney, Percutaneous Endoscopic Approach"
+          },
+          {
+            "code" : "0TB17ZZ",
+            "display" : "Excision of Left Kidney, Via Natural or Artificial Opening"
+          },
+          {
+            "code" : "0TB18ZZ",
+            "display" : "Excision of Left Kidney, Via Natural or Artificial Opening Endoscopic"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2214771c-d46d-4eba-b5d2-d61c8b5d01ad",
+    "timestamp" : "2025-11-24T18:52:51-05:00",
+    "total" : 10,
+    "contains" : [
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB00ZZ",
+        "display" : "Excision of Right Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB03ZZ",
+        "display" : "Excision of Right Kidney, Percutaneous Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB04ZZ",
+        "display" : "Excision of Right Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB07ZZ",
+        "display" : "Excision of Right Kidney, Via Natural or Artificial Opening"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB08ZZ",
+        "display" : "Excision of Right Kidney, Via Natural or Artificial Opening Endoscopic"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB10ZZ",
+        "display" : "Excision of Left Kidney, Open Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB13ZZ",
+        "display" : "Excision of Left Kidney, Percutaneous Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB14ZZ",
+        "display" : "Excision of Left Kidney, Percutaneous Endoscopic Approach"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB17ZZ",
+        "display" : "Excision of Left Kidney, Via Natural or Artificial Opening"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/ICD10",
+        "version" : "2026",
+        "code" : "0TB18ZZ",
+        "display" : "Excision of Left Kidney, Via Natural or Artificial Opening Endoscopic"
+      }
+    ]
+  }
+}

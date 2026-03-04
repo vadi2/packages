@@ -1,0 +1,150 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.11.20.9.84",
+  "meta" : {
+    "versionId" : "16",
+    "lastUpdated" : "2025-08-05T17:01:54.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-07"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-07"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.11.20.9.84",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.11.20.9.84"
+    }
+  ],
+  "version" : "20240607",
+  "name" : "OtherPregnancyOutcome",
+  "title" : "Other Pregnancy Outcome",
+  "status" : "active",
+  "date" : "2024-06-07T01:23:26-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "description" : "Pregnancy counts of interest that are not included in the GPA or TPAL systems, such as induced abortions, spontaneous abortions, still births, etc.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Represents observations of specific pregnancy outcomes that are not part of the GPA (Gravida, Para, Abortus) or TPAL (Term, Preterm, Abortions, Living) summary systems, such as induced or spontaneous abortions, stillbirths, ectopic pregnancies, prior cesarean deliveries, and previous live births now deceased. Values are recorded as whole-number counts..),(Data Element Scope: An observation with a whole number count value),(Inclusion Criteria: Specific pregnancy outcomes that are not included in the GPA or TPAL systems.),(Exclusion Criteria: Pregnancy outcomes that are included in the GPA or TPAL systems.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "11613-7",
+            "display" : "[#] Abortions.induced"
+          },
+          {
+            "code" : "11614-5",
+            "display" : "[#] Abortions.spontaneous"
+          },
+          {
+            "code" : "11636-8",
+            "display" : "[#] Births.live"
+          },
+          {
+            "code" : "11640-0",
+            "display" : "[#] Births total"
+          },
+          {
+            "code" : "33065-4",
+            "display" : "[#] Ectopic pregnancy"
+          },
+          {
+            "code" : "57062-2",
+            "display" : "[#] Births.stillborn"
+          },
+          {
+            "code" : "68496-9",
+            "display" : "Previous live births now dead #"
+          },
+          {
+            "code" : "68497-7",
+            "display" : "Previous cesarean deliveries #"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:339f2b7c-7cb4-4db0-897b-b89b539bb626",
+    "timestamp" : "2025-11-24T17:10:40-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11613-7",
+        "display" : "[#] Abortions.induced"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11614-5",
+        "display" : "[#] Abortions.spontaneous"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11636-8",
+        "display" : "[#] Births.live"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11640-0",
+        "display" : "[#] Births total"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "33065-4",
+        "display" : "[#] Ectopic pregnancy"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "57062-2",
+        "display" : "[#] Births.stillborn"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68496-9",
+        "display" : "Previous live births now dead #"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "68497-7",
+        "display" : "Previous cesarean deliveries #"
+      }
+    ]
+  }
+}

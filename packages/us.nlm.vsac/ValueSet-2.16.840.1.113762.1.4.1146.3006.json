@@ -1,0 +1,3023 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3006",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3006",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3006"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ParalysisSNOMED",
+  "title" : "Paralysis (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Paralysis regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Paralysis),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "101461000119102",
+            "display" : "Musculocutaneous nerve palsy (disorder)"
+          },
+          {
+            "code" : "1052237009",
+            "display" : "Paralysis of left side of tongue (disorder)"
+          },
+          {
+            "code" : "1052238004",
+            "display" : "Paralysis of right side of tongue (disorder)"
+          },
+          {
+            "code" : "11045000",
+            "display" : "Supranuclear facial nerve paralysis (disorder)"
+          },
+          {
+            "code" : "111465000",
+            "display" : "Erb-Duchenne palsy as birth trauma (disorder)"
+          },
+          {
+            "code" : "111959008",
+            "display" : "Drummers' palsy (finding)"
+          },
+          {
+            "code" : "1142203007",
+            "display" : "Palsy of laryngeal nerve due to birth trauma (disorder)"
+          },
+          {
+            "code" : "11538006",
+            "display" : "Quadriplegia (disorder)"
+          },
+          {
+            "code" : "1156761002",
+            "display" : "Progressive supranuclear palsy progressive non fluent aphasia (disorder)"
+          },
+          {
+            "code" : "1156763004",
+            "display" : "Progressive supranuclear palsy corticobasal syndrome (disorder)"
+          },
+          {
+            "code" : "1156764005",
+            "display" : "Progressive supranuclear palsy parkinsonism syndrome (disorder)"
+          },
+          {
+            "code" : "1156790008",
+            "display" : "Atypical progressive supranuclear palsy syndrome (disorder)"
+          },
+          {
+            "code" : "1204418008",
+            "display" : "Congenital palsy of trochlear nerve (disorder)"
+          },
+          {
+            "code" : "1208876004",
+            "display" : "Acquired horizontal gaze palsy (disorder)"
+          },
+          {
+            "code" : "1208886003",
+            "display" : "Isolated acquired horizontal gaze palsy (disorder)"
+          },
+          {
+            "code" : "1208888002",
+            "display" : "Acquired monocular elevator palsy (disorder)"
+          },
+          {
+            "code" : "1208901009",
+            "display" : "Acute trochlear nerve palsy (disorder)"
+          },
+          {
+            "code" : "1208908003",
+            "display" : "Acquired trochlear nerve palsy (disorder)"
+          },
+          {
+            "code" : "1208936008",
+            "display" : "Congenital ichthyosis, intellectual disability, spastic quadriplegia syndrome (disorder)"
+          },
+          {
+            "code" : "1217207008",
+            "display" : "Congenital oculomotor nerve palsy (disorder)"
+          },
+          {
+            "code" : "1217622009",
+            "display" : "Congenital horizontal gaze palsy (disorder)"
+          },
+          {
+            "code" : "1217640008",
+            "display" : "Congenital monocular elevator palsy (disorder)"
+          },
+          {
+            "code" : "1217663003",
+            "display" : "Chronic fourth nerve palsy with spread of comitance (disorder)"
+          },
+          {
+            "code" : "1217665005",
+            "display" : "Chronic fourth nerve palsy (disorder)"
+          },
+          {
+            "code" : "1231190008",
+            "display" : "Nuclear oculomotor nerve palsy (disorder)"
+          },
+          {
+            "code" : "1231192000",
+            "display" : "Nuclear abducens nerve palsy (disorder)"
+          },
+          {
+            "code" : "1231197006",
+            "display" : "Paralysis of upgaze (disorder)"
+          },
+          {
+            "code" : "1231200007",
+            "display" : "Paralysis of downgaze (disorder)"
+          },
+          {
+            "code" : "1231212006",
+            "display" : "Combined paralysis of upgaze and downgaze (disorder)"
+          },
+          {
+            "code" : "1231641009",
+            "display" : "Pseudo-abducens palsy (disorder)"
+          },
+          {
+            "code" : "123391000119106",
+            "display" : "Functional quadriplegia (disorder)"
+          },
+          {
+            "code" : "128188000",
+            "display" : "Cerebral palsy (disorder)"
+          },
+          {
+            "code" : "129583005",
+            "display" : "Paralysis of palate (disorder)"
+          },
+          {
+            "code" : "129614001",
+            "display" : "Paralysis of vagus, spinal accessory and hypoglossal nerves (disorder)"
+          },
+          {
+            "code" : "135834002",
+            "display" : "Pseudoparalysis (finding)"
+          },
+          {
+            "code" : "14786003",
+            "display" : "Saturday night paralysis (disorder)"
+          },
+          {
+            "code" : "1534008",
+            "display" : "Palsy of conjugate gaze (disorder)"
+          },
+          {
+            "code" : "1593000",
+            "display" : "Infantile hemiplegia (disorder)"
+          },
+          {
+            "code" : "171822009",
+            "display" : "Acute atrophic spinal paralysis (disorder)"
+          },
+          {
+            "code" : "192915005",
+            "display" : "Paralysis of cervical sympathetic trunk (disorder)"
+          },
+          {
+            "code" : "192958009",
+            "display" : "Hypotonic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "192976002",
+            "display" : "Progressive supranuclear palsy (disorder)"
+          },
+          {
+            "code" : "193093009",
+            "display" : "Bell's palsy (disorder)"
+          },
+          {
+            "code" : "194118007",
+            "display" : "Partial oculomotor nerve palsy (disorder)"
+          },
+          {
+            "code" : "194119004",
+            "display" : "Total oculomotor nerve palsy (disorder)"
+          },
+          {
+            "code" : "194132009",
+            "display" : "Convergence palsy (disorder)"
+          },
+          {
+            "code" : "197876006",
+            "display" : "Paralysis of sphincter of urinary bladder (disorder)"
+          },
+          {
+            "code" : "198030008",
+            "display" : "Periodic paralysis (finding)"
+          },
+          {
+            "code" : "20610004",
+            "display" : "Fourth nerve palsy (disorder)"
+          },
+          {
+            "code" : "206226005",
+            "display" : "Brachial plexus palsy due to birth trauma (disorder)"
+          },
+          {
+            "code" : "226080004",
+            "display" : "Paralysis of glottis (disorder)"
+          },
+          {
+            "code" : "22881000119100",
+            "display" : "Quadriplegia with quadriparesis (disorder)"
+          },
+          {
+            "code" : "230246005",
+            "display" : "Progressive bulbar palsy of childhood (disorder)"
+          },
+          {
+            "code" : "230407006",
+            "display" : "Hemiconvulsion-hemiplegia-epilepsy syndrome (disorder)"
+          },
+          {
+            "code" : "230466004",
+            "display" : "Alternating hemiplegia of childhood (disorder)"
+          },
+          {
+            "code" : "230492006",
+            "display" : "Excessive daytime sleepiness with sleep paralysis (disorder)"
+          },
+          {
+            "code" : "230542008",
+            "display" : "Congenital facial nerve palsy (disorder)"
+          },
+          {
+            "code" : "230546006",
+            "display" : "Familial facial nerve palsy (disorder)"
+          },
+          {
+            "code" : "230604006",
+            "display" : "Tourniquet palsy (disorder)"
+          },
+          {
+            "code" : "230773005",
+            "display" : "Spastic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "230777006",
+            "display" : "Monoplegic cerebral palsy affecting upper limb (disorder)"
+          },
+          {
+            "code" : "230778001",
+            "display" : "Monoplegic cerebral palsy affecting lower limb (disorder)"
+          },
+          {
+            "code" : "230780007",
+            "display" : "Dyskinetic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "230781006",
+            "display" : "Dystonic/rigid cerebral palsy (disorder)"
+          },
+          {
+            "code" : "230784003",
+            "display" : "Congenital pseudobulbar palsy (disorder)"
+          },
+          {
+            "code" : "232109006",
+            "display" : "Double elevator palsy (disorder)"
+          },
+          {
+            "code" : "232110001",
+            "display" : "Double depressor palsy (disorder)"
+          },
+          {
+            "code" : "232115006",
+            "display" : "Horizontal gaze palsy (disorder)"
+          },
+          {
+            "code" : "232116007",
+            "display" : "Dissociated gaze palsy (disorder)"
+          },
+          {
+            "code" : "232117003",
+            "display" : "Vertical dissociated gaze palsy (disorder)"
+          },
+          {
+            "code" : "232142007",
+            "display" : "Infective paralysis of accommodation (disorder)"
+          },
+          {
+            "code" : "232143002",
+            "display" : "Functional paralysis of accommodation (disorder)"
+          },
+          {
+            "code" : "232144008",
+            "display" : "Toxic paralysis of accommodation (disorder)"
+          },
+          {
+            "code" : "232145009",
+            "display" : "Pharmacological paralysis of accommodation (disorder)"
+          },
+          {
+            "code" : "232269003",
+            "display" : "Acute mastoiditis with facial paralysis (disorder)"
+          },
+          {
+            "code" : "232441008",
+            "display" : "Congenital vocal cord palsy (disorder)"
+          },
+          {
+            "code" : "232442001",
+            "display" : "Congenital laryngeal abductor palsy (disorder)"
+          },
+          {
+            "code" : "232443006",
+            "display" : "Congenital laryngeal adductor palsy (disorder)"
+          },
+          {
+            "code" : "232444000",
+            "display" : "Acquired vocal cord palsy (disorder)"
+          },
+          {
+            "code" : "23728006",
+            "display" : "Partial bilateral paralysis (disorder)"
+          },
+          {
+            "code" : "23740006",
+            "display" : "Bilateral paralysis of tongue (disorder)"
+          },
+          {
+            "code" : "242027005",
+            "display" : "Paralysis following electric shock (finding)"
+          },
+          {
+            "code" : "24408004",
+            "display" : "Rucksack paralysis (disorder)"
+          },
+          {
+            "code" : "246717005",
+            "display" : "Divergence paralysis (disorder)"
+          },
+          {
+            "code" : "246773002",
+            "display" : "Vertical gaze palsy (disorder)"
+          },
+          {
+            "code" : "246774008",
+            "display" : "Horizontal dissociated gaze palsy (disorder)"
+          },
+          {
+            "code" : "246782008",
+            "display" : "Myostatic paralysis (finding)"
+          },
+          {
+            "code" : "247024006",
+            "display" : "Sector pupil palsy (finding)"
+          },
+          {
+            "code" : "247390002",
+            "display" : "Sciatic nerve palsy (disorder)"
+          },
+          {
+            "code" : "249892007",
+            "display" : "Progressive pseudobulbar palsy (disorder)"
+          },
+          {
+            "code" : "25045008",
+            "display" : "Motor level spinal paralysis (finding)"
+          },
+          {
+            "code" : "252794008",
+            "display" : "Obturator nerve paralysis (disorder)"
+          },
+          {
+            "code" : "26554009",
+            "display" : "Nuclear facial nerve paralysis (disorder)"
+          },
+          {
+            "code" : "267607008",
+            "display" : "Familial periodic paralysis (disorder)"
+          },
+          {
+            "code" : "274662006",
+            "display" : "Transient limb paralysis (finding)"
+          },
+          {
+            "code" : "274811005",
+            "display" : "Paralysis absent (finding)"
+          },
+          {
+            "code" : "275468009",
+            "display" : "Congenital quadriplegia (disorder)"
+          },
+          {
+            "code" : "277180005",
+            "display" : "Sleep paralysis (disorder)"
+          },
+          {
+            "code" : "277190002",
+            "display" : "Pelagic paralysis (disorder)"
+          },
+          {
+            "code" : "278284007",
+            "display" : "Right hemiplegia (disorder)"
+          },
+          {
+            "code" : "278285008",
+            "display" : "Left hemiplegia (disorder)"
+          },
+          {
+            "code" : "278512001",
+            "display" : "Ataxic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "280816001",
+            "display" : "Facial palsy (disorder)"
+          },
+          {
+            "code" : "28534004",
+            "display" : "Spastic paralysis due to intracranial birth injury (disorder)"
+          },
+          {
+            "code" : "28778005",
+            "display" : "Phrenic nerve paralysis as birth trauma (disorder)"
+          },
+          {
+            "code" : "290461000119109",
+            "display" : "Spastic hemiplegia of left dominant side (disorder)"
+          },
+          {
+            "code" : "290471000119103",
+            "display" : "Spastic hemiplegia of left nondominant side (disorder)"
+          },
+          {
+            "code" : "290481000119100",
+            "display" : "Spastic hemiplegia of right dominant side (disorder)"
+          },
+          {
+            "code" : "290491000119102",
+            "display" : "Spastic hemiplegia of right nondominant side (disorder)"
+          },
+          {
+            "code" : "29188005",
+            "display" : "Complete bilateral paralysis (disorder)"
+          },
+          {
+            "code" : "292021000119105",
+            "display" : "Paralysis of left femoral nerve (disorder)"
+          },
+          {
+            "code" : "292031000119108",
+            "display" : "Paralysis of right femoral nerve (disorder)"
+          },
+          {
+            "code" : "292161000119101",
+            "display" : "Paralysis of right common peroneal nerve (disorder)"
+          },
+          {
+            "code" : "292171000119107",
+            "display" : "Paralysis of left common peroneal nerve (disorder)"
+          },
+          {
+            "code" : "292601000119109",
+            "display" : "Paralysis of right musculocutaneous nerve (disorder)"
+          },
+          {
+            "code" : "292611000119107",
+            "display" : "Paralysis of left musculocutaneous nerve (disorder)"
+          },
+          {
+            "code" : "292751000119104",
+            "display" : "Tardy right ulnar nerve palsy (finding)"
+          },
+          {
+            "code" : "292761000119102",
+            "display" : "Tardy left ulnar nerve palsy (finding)"
+          },
+          {
+            "code" : "294041000119107",
+            "display" : "Flaccid hemiplegia of left dominant side (disorder)"
+          },
+          {
+            "code" : "294051000119109",
+            "display" : "Flaccid hemiplegia of left nondominant side (disorder)"
+          },
+          {
+            "code" : "294061000119106",
+            "display" : "Flaccid hemiplegia of right dominant side (disorder)"
+          },
+          {
+            "code" : "294071000119100",
+            "display" : "Flaccid hemiplegia of right nondominant side (disorder)"
+          },
+          {
+            "code" : "294101000119109",
+            "display" : "Hemiplegia of left dominant side (disorder)"
+          },
+          {
+            "code" : "294111000119107",
+            "display" : "Hemiplegia of left nondominant side (disorder)"
+          },
+          {
+            "code" : "294121000119100",
+            "display" : "Hemiplegia of right dominant side (disorder)"
+          },
+          {
+            "code" : "294131000119102",
+            "display" : "Hemiplegia of right nondominant side (disorder)"
+          },
+          {
+            "code" : "302912005",
+            "display" : "Vocal cord palsy (disorder)"
+          },
+          {
+            "code" : "304737009",
+            "display" : "Familial hyperkalemic periodic paralysis (disorder)"
+          },
+          {
+            "code" : "307405000",
+            "display" : "Hypoglossal nerve palsy (disorder)"
+          },
+          {
+            "code" : "307756005",
+            "display" : "Cerebral palsy, not congenital or infantile, acute (disorder)"
+          },
+          {
+            "code" : "30967002",
+            "display" : "Thyrotoxic periodic paralysis (disorder)"
+          },
+          {
+            "code" : "313434001",
+            "display" : "Residual hemiplegia (disorder)"
+          },
+          {
+            "code" : "32162001",
+            "display" : "Facial hemiplegia (disorder)"
+          },
+          {
+            "code" : "32739008",
+            "display" : "Crutch paralysis (disorder)"
+          },
+          {
+            "code" : "329741000119109",
+            "display" : "Neuromuscular scoliosis of lumbar spine co-occurrent and due to cerebral palsy (disorder)"
+          },
+          {
+            "code" : "330471000119101",
+            "display" : "Neuromuscular scoliosis co-occurrent and due to cerebral palsy (disorder)"
+          },
+          {
+            "code" : "330521000119103",
+            "display" : "Neuromuscular scoliosis of thoracolumbar spine co-occurrent and due to cerebral palsy (disorder)"
+          },
+          {
+            "code" : "331861000119101",
+            "display" : "Palsy of right oculomotor nerve (disorder)"
+          },
+          {
+            "code" : "337481000119104",
+            "display" : "Palsy of left oculomotor nerve (disorder)"
+          },
+          {
+            "code" : "34209003",
+            "display" : "Cerebral hemiplegia (disorder)"
+          },
+          {
+            "code" : "343271000119109",
+            "display" : "Palsy of bilateral oculomotor nerves (disorder)"
+          },
+          {
+            "code" : "365258000",
+            "display" : "Tibial nerve palsy (disorder)"
+          },
+          {
+            "code" : "367399005",
+            "display" : "Ulnar nerve palsy (finding)"
+          },
+          {
+            "code" : "371079004",
+            "display" : "Paraplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "371120001",
+            "display" : "Quadriplegic spinal paralysis (disorder)"
+          },
+          {
+            "code" : "371129000",
+            "display" : "Paralysis from birth trauma (disorder)"
+          },
+          {
+            "code" : "372310001",
+            "display" : "Paralysis due to lesion of spinal cord (disorder)"
+          },
+          {
+            "code" : "38228000",
+            "display" : "Paralysis of tongue (disorder)"
+          },
+          {
+            "code" : "39157001",
+            "display" : "Flaccid paralysis (finding)"
+          },
+          {
+            "code" : "398029001",
+            "display" : "Paralysis of urinary bladder (finding)"
+          },
+          {
+            "code" : "398760006",
+            "display" : "Abducens nerve palsy (disorder)"
+          },
+          {
+            "code" : "399088004",
+            "display" : "Common peroneal nerve paralysis (disorder)"
+          },
+          {
+            "code" : "400944001",
+            "display" : "Bilateral superior oblique palsy (disorder)"
+          },
+          {
+            "code" : "400945000",
+            "display" : "Congenital sixth nerve palsy (disorder)"
+          },
+          {
+            "code" : "40381009",
+            "display" : "Familial normokalemic periodic paralysis (disorder)"
+          },
+          {
+            "code" : "404689008",
+            "display" : "Alternating hemiplegia (disorder)"
+          },
+          {
+            "code" : "404690004",
+            "display" : "Superior division third nerve palsy (disorder)"
+          },
+          {
+            "code" : "409624004",
+            "display" : "Incomplete paralysis (finding)"
+          },
+          {
+            "code" : "40980002",
+            "display" : "Spastic paralysis due to birth injury (disorder)"
+          },
+          {
+            "code" : "418073009",
+            "display" : "Pseudoparalysis due to generalized arthritis (finding)"
+          },
+          {
+            "code" : "420675003",
+            "display" : "Supranuclear gaze palsy (disorder)"
+          },
+          {
+            "code" : "425491009",
+            "display" : "Contracture of gastrocnemius muscle due to paralysis (disorder)"
+          },
+          {
+            "code" : "42655007",
+            "display" : "Complete bilateral paralysis of vocal cords (disorder)"
+          },
+          {
+            "code" : "42998008",
+            "display" : "Vagus nerve laryngeal paralysis (disorder)"
+          },
+          {
+            "code" : "432991000",
+            "display" : "Organophosphate induced paralysis Type II (disorder)"
+          },
+          {
+            "code" : "43486001",
+            "display" : "Hemiplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "43647007",
+            "display" : "Juvenile paralysis agitans of Hunt (disorder)"
+          },
+          {
+            "code" : "441688003",
+            "display" : "Incomplete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+          },
+          {
+            "code" : "441705005",
+            "display" : "Complete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+          },
+          {
+            "code" : "441717007",
+            "display" : "Hemiplegia of nondominant side (disorder)"
+          },
+          {
+            "code" : "441722007",
+            "display" : "Spastic hemiplegia of nondominant side (disorder)"
+          },
+          {
+            "code" : "441794001",
+            "display" : "Incomplete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+          },
+          {
+            "code" : "441892008",
+            "display" : "Spastic hemiplegia of dominant side (disorder)"
+          },
+          {
+            "code" : "441980007",
+            "display" : "Complete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+          },
+          {
+            "code" : "442020005",
+            "display" : "Flaccid hemiplegia of dominant side (disorder)"
+          },
+          {
+            "code" : "442024001",
+            "display" : "Hemiplegia as late effect of cerebrovascular disease (disorder)"
+          },
+          {
+            "code" : "442077006",
+            "display" : "Flaccid hemiplegia of nondominant side (disorder)"
+          },
+          {
+            "code" : "442120007",
+            "display" : "Recurrent isolated sleep paralysis (disorder)"
+          },
+          {
+            "code" : "442155009",
+            "display" : "Hemiplegia of dominant side (disorder)"
+          },
+          {
+            "code" : "442668000",
+            "display" : "Hemiplegia of nondominant side as late effect of cerebrovascular disease (disorder)"
+          },
+          {
+            "code" : "442676003",
+            "display" : "Hemiplegia of dominant side as late effect of cerebrovascular disease (disorder)"
+          },
+          {
+            "code" : "442733008",
+            "display" : "Hemiplegia as late effect of cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "4439001",
+            "display" : "Cyclic oculomotor paralysis (disorder)"
+          },
+          {
+            "code" : "445217002",
+            "display" : "Vestibulocochlear nerve palsy (disorder)"
+          },
+          {
+            "code" : "44695005",
+            "display" : "Paralysis (finding)"
+          },
+          {
+            "code" : "449916008",
+            "display" : "Peripheral facial palsy (disorder)"
+          },
+          {
+            "code" : "4724003",
+            "display" : "Acute radial nerve palsy (disorder)"
+          },
+          {
+            "code" : "48721008",
+            "display" : "Quadriplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "49275006",
+            "display" : "Athetoid paralysis (finding)"
+          },
+          {
+            "code" : "50582007",
+            "display" : "Hemiplegia (disorder)"
+          },
+          {
+            "code" : "50639002",
+            "display" : "Vagus nerve palate paralysis (disorder)"
+          },
+          {
+            "code" : "5310008",
+            "display" : "Pupillary paralysis (disorder)"
+          },
+          {
+            "code" : "53857003",
+            "display" : "Heredofamilial brachial plexus paralysis syndrome (disorder)"
+          },
+          {
+            "code" : "54304004",
+            "display" : "Progressive bulbar palsy (disorder)"
+          },
+          {
+            "code" : "55637002",
+            "display" : "Spinal hemiplegia (disorder)"
+          },
+          {
+            "code" : "56409008",
+            "display" : "Monoplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "58193001",
+            "display" : "Diplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "58497009",
+            "display" : "Tardy ulnar nerve palsy (finding)"
+          },
+          {
+            "code" : "59103002",
+            "display" : "Cerebral paralysis with homolateral ataxia (disorder)"
+          },
+          {
+            "code" : "609531002",
+            "display" : "Femoral nerve paralysis (disorder)"
+          },
+          {
+            "code" : "63268005",
+            "display" : "Cricket paralysis virus (organism)"
+          },
+          {
+            "code" : "64228003",
+            "display" : "Paralysis of diaphragm (disorder)"
+          },
+          {
+            "code" : "66010009",
+            "display" : "Supranuclear paralysis (disorder)"
+          },
+          {
+            "code" : "66490000",
+            "display" : "Neurological muscular paralysis (finding)"
+          },
+          {
+            "code" : "672441000119103",
+            "display" : "Hemiplegia of nondominant side due to and following ischemic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "672451000119101",
+            "display" : "Hemiplegia of nondominant side due to and following hemorrhagic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "672461000119104",
+            "display" : "Hemiplegia of dominant side due to and following ischemic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "672471000119105",
+            "display" : "Hemiplegia of dominant side due to and following hemorrhagic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "68111000119105",
+            "display" : "Facial palsy House-Brackmann grade I (finding)"
+          },
+          {
+            "code" : "68121000119103",
+            "display" : "Facial palsy House-Brackmann grade II (disorder)"
+          },
+          {
+            "code" : "68131000119100",
+            "display" : "Facial palsy House-Brackmann grade III (disorder)"
+          },
+          {
+            "code" : "68141000119109",
+            "display" : "Facial palsy House-Brackmann grade IV (disorder)"
+          },
+          {
+            "code" : "68151000119106",
+            "display" : "Facial palsy House-Brackmann grade V (disorder)"
+          },
+          {
+            "code" : "690271000119104",
+            "display" : "Hemiplegia of nondominant side due to and following embolic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "690281000119101",
+            "display" : "Hemiplegia of dominant side due to and following embolic cerebrovascular accident (disorder)"
+          },
+          {
+            "code" : "69098002",
+            "display" : "Paralysis of colon (disorder)"
+          },
+          {
+            "code" : "697991001",
+            "display" : "Paralysis of uvula (disorder)"
+          },
+          {
+            "code" : "698293005",
+            "display" : "Acute flaccid paralysis (finding)"
+          },
+          {
+            "code" : "698741009",
+            "display" : "Acute complete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+          },
+          {
+            "code" : "698742002",
+            "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+          },
+          {
+            "code" : "698743007",
+            "display" : "Acute complete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+          },
+          {
+            "code" : "698744001",
+            "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+          },
+          {
+            "code" : "698754002",
+            "display" : "Chronic paralysis due to lesion of spinal cord (disorder)"
+          },
+          {
+            "code" : "698755001",
+            "display" : "Acute paralysis due to lesion of spinal cord (disorder)"
+          },
+          {
+            "code" : "699866005",
+            "display" : "Progressive bulbar palsy with sensorineural deafness (disorder)"
+          },
+          {
+            "code" : "702314005",
+            "display" : "Non-spastic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702315006",
+            "display" : "Dystonic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702316007",
+            "display" : "Choreic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702317003",
+            "display" : "Chorea-athetoid cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702318008",
+            "display" : "Mixed cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702319000",
+            "display" : "Bilateral cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702320006",
+            "display" : "Triplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702321005",
+            "display" : "Pentaplegic cerebral palsy (disorder)"
+          },
+          {
+            "code" : "702381007",
+            "display" : "Horizontal gaze palsy with progressive scoliosis (disorder)"
+          },
+          {
+            "code" : "703543005",
+            "display" : "Infantile ascending hereditary spastic paralysis (disorder)"
+          },
+          {
+            "code" : "714027006",
+            "display" : "Trigeminal nerve palsy (disorder)"
+          },
+          {
+            "code" : "716243005",
+            "display" : "Deafness with malformation of ear and facial palsy syndrome (disorder)"
+          },
+          {
+            "code" : "722389002",
+            "display" : "Congenital hereditary facial paralysis with variable hearing loss syndrome (disorder)"
+          },
+          {
+            "code" : "722900008",
+            "display" : "Erb Duchenne palsy with neuropraxis due to traction birth trauma (disorder)"
+          },
+          {
+            "code" : "722901007",
+            "display" : "Erb Duchenne palsy with neuroma due to birth trauma (disorder)"
+          },
+          {
+            "code" : "722918006",
+            "display" : "Acquired vocal cord paralysis in newborn (disorder)"
+          },
+          {
+            "code" : "723644002",
+            "display" : "Microvascular cranial nerve palsy (disorder)"
+          },
+          {
+            "code" : "724178000",
+            "display" : "Laryngeal abductor paralysis with intellectual disability syndrome (disorder)"
+          },
+          {
+            "code" : "72655000",
+            "display" : "Alternating hypoglossal hemiplegia (disorder)"
+          },
+          {
+            "code" : "733091002",
+            "display" : "Isolated hereditary congenital facial paralysis (disorder)"
+          },
+          {
+            "code" : "733329000",
+            "display" : "Monocular elevator palsy (disorder)"
+          },
+          {
+            "code" : "7379000",
+            "display" : "Pseudobulbar palsy (disorder)"
+          },
+          {
+            "code" : "7409003",
+            "display" : "Secondary periodic paralysis (disorder)"
+          },
+          {
+            "code" : "74225001",
+            "display" : "Tick paralysis (disorder)"
+          },
+          {
+            "code" : "75019001",
+            "display" : "Athetoid cerebral palsy (disorder)"
+          },
+          {
+            "code" : "75299005",
+            "display" : "Spastic spinal syphilitic paralysis (disorder)"
+          },
+          {
+            "code" : "764724007",
+            "display" : "Paralysis of left vocal cord (disorder)"
+          },
+          {
+            "code" : "764726009",
+            "display" : "Paralysis of right vocal cord (disorder)"
+          },
+          {
+            "code" : "770095003",
+            "display" : "Cranial nerve palsy due to diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "770098001",
+            "display" : "Cranial nerve palsy due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "771263004",
+            "display" : "Ptosis and vocal cord paralysis syndrome (disorder)"
+          },
+          {
+            "code" : "771304005",
+            "display" : "Benign nocturnal alternating hemiplegia of childhood (disorder)"
+          },
+          {
+            "code" : "774153002",
+            "display" : "Periodic paralysis with transient compartment-like syndrome (disorder)"
+          },
+          {
+            "code" : "774154008",
+            "display" : "Periodic paralysis with later-onset distal motor neuropathy (disorder)"
+          },
+          {
+            "code" : "78141002",
+            "display" : "Erb-Duchenne paralysis (disorder)"
+          },
+          {
+            "code" : "78152008",
+            "display" : "Multiple cranial nerve palsy (disorder)"
+          },
+          {
+            "code" : "782679002",
+            "display" : "Familial congenital palsy of trochlear nerve (disorder)"
+          },
+          {
+            "code" : "783005002",
+            "display" : "Severe microbrachycephaly, intellectual disability, athetoid cerebral palsy syndrome (disorder)"
+          },
+          {
+            "code" : "78306007",
+            "display" : "Epidural ascending spinal paralysis (disorder)"
+          },
+          {
+            "code" : "783257005",
+            "display" : "Familial recurrent peripheral facial palsy (disorder)"
+          },
+          {
+            "code" : "78403003",
+            "display" : "Spastic paralysis (finding)"
+          },
+          {
+            "code" : "784289008",
+            "display" : "Nerve palsy (disorder)"
+          },
+          {
+            "code" : "785725008",
+            "display" : "Palmoplantar keratoderma, spastic paralysis syndrome (disorder)"
+          },
+          {
+            "code" : "787603009",
+            "display" : "Complete paralysis of left vocal cord (disorder)"
+          },
+          {
+            "code" : "787604003",
+            "display" : "Complete paralysis of right vocal cord (disorder)"
+          },
+          {
+            "code" : "788976000",
+            "display" : "Leaden paralysis (finding)"
+          },
+          {
+            "code" : "789005009",
+            "display" : "Paralysis of uvula after diphtheria (disorder)"
+          },
+          {
+            "code" : "79591004",
+            "display" : "Spastic paralysis due to spinal birth injury (disorder)"
+          },
+          {
+            "code" : "79633009",
+            "display" : "Spastic hemiplegia (disorder)"
+          },
+          {
+            "code" : "80935004",
+            "display" : "Flaccid hemiplegia (disorder)"
+          },
+          {
+            "code" : "81624004",
+            "display" : "Pharyngeal paralysis (disorder)"
+          },
+          {
+            "code" : "81774005",
+            "display" : "Klumpke-Déjerine paralysis as birth trauma (disorder)"
+          },
+          {
+            "code" : "823019007",
+            "display" : "Muscle paralysis due to and following neuromuscular blockade (disorder)"
+          },
+          {
+            "code" : "827047007",
+            "display" : "Palsy of vagus nerve (disorder)"
+          },
+          {
+            "code" : "827048002",
+            "display" : "Palsy of accessory nerve (disorder)"
+          },
+          {
+            "code" : "827049005",
+            "display" : "Palsy of upper motor nerve (disorder)"
+          },
+          {
+            "code" : "827050005",
+            "display" : "Palsy of glossopharyngeal nerve (disorder)"
+          },
+          {
+            "code" : "82732003",
+            "display" : "Familial hypokalemic periodic paralysis (disorder)"
+          },
+          {
+            "code" : "83886009",
+            "display" : "Klumpke-Déjerine paralysis (disorder)"
+          },
+          {
+            "code" : "84160009",
+            "display" : "Laryngeal hemiplegia (disorder)"
+          },
+          {
+            "code" : "84947004",
+            "display" : "Facial palsy as birth trauma (disorder)"
+          },
+          {
+            "code" : "870321008",
+            "display" : "Ocular nerve palsy caused by Herpes zoster (disorder)"
+          },
+          {
+            "code" : "87651000119100",
+            "display" : "Facial palsy House-Brackmann grade VI (disorder)"
+          },
+          {
+            "code" : "87921000119104",
+            "display" : "Cranial nerve palsy due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "88984006",
+            "display" : "Dissociative paralysis (disorder)"
+          },
+          {
+            "code" : "89927005",
+            "display" : "Paralysis of larynx (disorder)"
+          },
+          {
+            "code" : "95430002",
+            "display" : "Respiratory tract paralysis (disorder)"
+          },
+          {
+            "code" : "95650006",
+            "display" : "Transient hemiplegia (disorder)"
+          },
+          {
+            "code" : "95652003",
+            "display" : "Congenital flaccid paralysis (disorder)"
+          },
+          {
+            "code" : "97381000119100",
+            "display" : "Neurogenic urinary bladder due to quadriplegia (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2aaf42d9-b8f2-4284-bd0c-0ec9f55d8246",
+    "timestamp" : "2025-11-24T13:49:59-05:00",
+    "total" : 295,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "101461000119102",
+        "display" : "Musculocutaneous nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1052237009",
+        "display" : "Paralysis of left side of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1052238004",
+        "display" : "Paralysis of right side of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11045000",
+        "display" : "Supranuclear facial nerve paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111465000",
+        "display" : "Erb-Duchenne palsy as birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "111959008",
+        "display" : "Drummers' palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1142203007",
+        "display" : "Palsy of laryngeal nerve due to birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11538006",
+        "display" : "Quadriplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156761002",
+        "display" : "Progressive supranuclear palsy progressive non fluent aphasia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156763004",
+        "display" : "Progressive supranuclear palsy corticobasal syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156764005",
+        "display" : "Progressive supranuclear palsy parkinsonism syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156790008",
+        "display" : "Atypical progressive supranuclear palsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1204418008",
+        "display" : "Congenital palsy of trochlear nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208876004",
+        "display" : "Acquired horizontal gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208886003",
+        "display" : "Isolated acquired horizontal gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208888002",
+        "display" : "Acquired monocular elevator palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208901009",
+        "display" : "Acute trochlear nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208908003",
+        "display" : "Acquired trochlear nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208936008",
+        "display" : "Congenital ichthyosis, intellectual disability, spastic quadriplegia syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217207008",
+        "display" : "Congenital oculomotor nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217622009",
+        "display" : "Congenital horizontal gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217640008",
+        "display" : "Congenital monocular elevator palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217663003",
+        "display" : "Chronic fourth nerve palsy with spread of comitance (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1217665005",
+        "display" : "Chronic fourth nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231190008",
+        "display" : "Nuclear oculomotor nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231192000",
+        "display" : "Nuclear abducens nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231197006",
+        "display" : "Paralysis of upgaze (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231200007",
+        "display" : "Paralysis of downgaze (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231212006",
+        "display" : "Combined paralysis of upgaze and downgaze (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1231641009",
+        "display" : "Pseudo-abducens palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "123391000119106",
+        "display" : "Functional quadriplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128188000",
+        "display" : "Cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "129583005",
+        "display" : "Paralysis of palate (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "129614001",
+        "display" : "Paralysis of vagus, spinal accessory and hypoglossal nerves (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "135834002",
+        "display" : "Pseudoparalysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14786003",
+        "display" : "Saturday night paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1534008",
+        "display" : "Palsy of conjugate gaze (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1593000",
+        "display" : "Infantile hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "171822009",
+        "display" : "Acute atrophic spinal paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "192915005",
+        "display" : "Paralysis of cervical sympathetic trunk (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "192958009",
+        "display" : "Hypotonic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "192976002",
+        "display" : "Progressive supranuclear palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193093009",
+        "display" : "Bell's palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194118007",
+        "display" : "Partial oculomotor nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194119004",
+        "display" : "Total oculomotor nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "194132009",
+        "display" : "Convergence palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197876006",
+        "display" : "Paralysis of sphincter of urinary bladder (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "198030008",
+        "display" : "Periodic paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "20610004",
+        "display" : "Fourth nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "206226005",
+        "display" : "Brachial plexus palsy due to birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "226080004",
+        "display" : "Paralysis of glottis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22881000119100",
+        "display" : "Quadriplegia with quadriparesis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230246005",
+        "display" : "Progressive bulbar palsy of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230407006",
+        "display" : "Hemiconvulsion-hemiplegia-epilepsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230466004",
+        "display" : "Alternating hemiplegia of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230492006",
+        "display" : "Excessive daytime sleepiness with sleep paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230542008",
+        "display" : "Congenital facial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230546006",
+        "display" : "Familial facial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230604006",
+        "display" : "Tourniquet palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230773005",
+        "display" : "Spastic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230777006",
+        "display" : "Monoplegic cerebral palsy affecting upper limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230778001",
+        "display" : "Monoplegic cerebral palsy affecting lower limb (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230780007",
+        "display" : "Dyskinetic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230781006",
+        "display" : "Dystonic/rigid cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230784003",
+        "display" : "Congenital pseudobulbar palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232109006",
+        "display" : "Double elevator palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232110001",
+        "display" : "Double depressor palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232115006",
+        "display" : "Horizontal gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232116007",
+        "display" : "Dissociated gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232117003",
+        "display" : "Vertical dissociated gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232142007",
+        "display" : "Infective paralysis of accommodation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232143002",
+        "display" : "Functional paralysis of accommodation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232144008",
+        "display" : "Toxic paralysis of accommodation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232145009",
+        "display" : "Pharmacological paralysis of accommodation (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232269003",
+        "display" : "Acute mastoiditis with facial paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232441008",
+        "display" : "Congenital vocal cord palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232442001",
+        "display" : "Congenital laryngeal abductor palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232443006",
+        "display" : "Congenital laryngeal adductor palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232444000",
+        "display" : "Acquired vocal cord palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23728006",
+        "display" : "Partial bilateral paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "23740006",
+        "display" : "Bilateral paralysis of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "242027005",
+        "display" : "Paralysis following electric shock (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "24408004",
+        "display" : "Rucksack paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "246717005",
+        "display" : "Divergence paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "246773002",
+        "display" : "Vertical gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "246774008",
+        "display" : "Horizontal dissociated gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "246782008",
+        "display" : "Myostatic paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247024006",
+        "display" : "Sector pupil palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "247390002",
+        "display" : "Sciatic nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "249892007",
+        "display" : "Progressive pseudobulbar palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "25045008",
+        "display" : "Motor level spinal paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "252794008",
+        "display" : "Obturator nerve paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "26554009",
+        "display" : "Nuclear facial nerve paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "267607008",
+        "display" : "Familial periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "274662006",
+        "display" : "Transient limb paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "274811005",
+        "display" : "Paralysis absent (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "275468009",
+        "display" : "Congenital quadriplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277180005",
+        "display" : "Sleep paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "277190002",
+        "display" : "Pelagic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278284007",
+        "display" : "Right hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278285008",
+        "display" : "Left hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278512001",
+        "display" : "Ataxic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "280816001",
+        "display" : "Facial palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28534004",
+        "display" : "Spastic paralysis due to intracranial birth injury (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "28778005",
+        "display" : "Phrenic nerve paralysis as birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "290461000119109",
+        "display" : "Spastic hemiplegia of left dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "290471000119103",
+        "display" : "Spastic hemiplegia of left nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "290481000119100",
+        "display" : "Spastic hemiplegia of right dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "290491000119102",
+        "display" : "Spastic hemiplegia of right nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "29188005",
+        "display" : "Complete bilateral paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292021000119105",
+        "display" : "Paralysis of left femoral nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292031000119108",
+        "display" : "Paralysis of right femoral nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292161000119101",
+        "display" : "Paralysis of right common peroneal nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292171000119107",
+        "display" : "Paralysis of left common peroneal nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292601000119109",
+        "display" : "Paralysis of right musculocutaneous nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292611000119107",
+        "display" : "Paralysis of left musculocutaneous nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292751000119104",
+        "display" : "Tardy right ulnar nerve palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "292761000119102",
+        "display" : "Tardy left ulnar nerve palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294041000119107",
+        "display" : "Flaccid hemiplegia of left dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294051000119109",
+        "display" : "Flaccid hemiplegia of left nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294061000119106",
+        "display" : "Flaccid hemiplegia of right dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294071000119100",
+        "display" : "Flaccid hemiplegia of right nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294101000119109",
+        "display" : "Hemiplegia of left dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294111000119107",
+        "display" : "Hemiplegia of left nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294121000119100",
+        "display" : "Hemiplegia of right dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "294131000119102",
+        "display" : "Hemiplegia of right nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "302912005",
+        "display" : "Vocal cord palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "304737009",
+        "display" : "Familial hyperkalemic periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "307405000",
+        "display" : "Hypoglossal nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "307756005",
+        "display" : "Cerebral palsy, not congenital or infantile, acute (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "30967002",
+        "display" : "Thyrotoxic periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "313434001",
+        "display" : "Residual hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32162001",
+        "display" : "Facial hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32739008",
+        "display" : "Crutch paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "329741000119109",
+        "display" : "Neuromuscular scoliosis of lumbar spine co-occurrent and due to cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "330471000119101",
+        "display" : "Neuromuscular scoliosis co-occurrent and due to cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "330521000119103",
+        "display" : "Neuromuscular scoliosis of thoracolumbar spine co-occurrent and due to cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "331861000119101",
+        "display" : "Palsy of right oculomotor nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "337481000119104",
+        "display" : "Palsy of left oculomotor nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "34209003",
+        "display" : "Cerebral hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "343271000119109",
+        "display" : "Palsy of bilateral oculomotor nerves (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "365258000",
+        "display" : "Tibial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "367399005",
+        "display" : "Ulnar nerve palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371079004",
+        "display" : "Paraplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371120001",
+        "display" : "Quadriplegic spinal paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "371129000",
+        "display" : "Paralysis from birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "372310001",
+        "display" : "Paralysis due to lesion of spinal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "38228000",
+        "display" : "Paralysis of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39157001",
+        "display" : "Flaccid paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398029001",
+        "display" : "Paralysis of urinary bladder (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "398760006",
+        "display" : "Abducens nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399088004",
+        "display" : "Common peroneal nerve paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400944001",
+        "display" : "Bilateral superior oblique palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "400945000",
+        "display" : "Congenital sixth nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40381009",
+        "display" : "Familial normokalemic periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404689008",
+        "display" : "Alternating hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "404690004",
+        "display" : "Superior division third nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "409624004",
+        "display" : "Incomplete paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40980002",
+        "display" : "Spastic paralysis due to birth injury (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418073009",
+        "display" : "Pseudoparalysis due to generalized arthritis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "420675003",
+        "display" : "Supranuclear gaze palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "425491009",
+        "display" : "Contracture of gastrocnemius muscle due to paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42655007",
+        "display" : "Complete bilateral paralysis of vocal cords (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42998008",
+        "display" : "Vagus nerve laryngeal paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432991000",
+        "display" : "Organophosphate induced paralysis Type II (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43486001",
+        "display" : "Hemiplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "43647007",
+        "display" : "Juvenile paralysis agitans of Hunt (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441688003",
+        "display" : "Incomplete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441705005",
+        "display" : "Complete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441717007",
+        "display" : "Hemiplegia of nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441722007",
+        "display" : "Spastic hemiplegia of nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441794001",
+        "display" : "Incomplete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441892008",
+        "display" : "Spastic hemiplegia of dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441980007",
+        "display" : "Complete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442020005",
+        "display" : "Flaccid hemiplegia of dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442024001",
+        "display" : "Hemiplegia as late effect of cerebrovascular disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442077006",
+        "display" : "Flaccid hemiplegia of nondominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442120007",
+        "display" : "Recurrent isolated sleep paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442155009",
+        "display" : "Hemiplegia of dominant side (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442668000",
+        "display" : "Hemiplegia of nondominant side as late effect of cerebrovascular disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442676003",
+        "display" : "Hemiplegia of dominant side as late effect of cerebrovascular disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "442733008",
+        "display" : "Hemiplegia as late effect of cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4439001",
+        "display" : "Cyclic oculomotor paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445217002",
+        "display" : "Vestibulocochlear nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "44695005",
+        "display" : "Paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449916008",
+        "display" : "Peripheral facial palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4724003",
+        "display" : "Acute radial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "48721008",
+        "display" : "Quadriplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "49275006",
+        "display" : "Athetoid paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50582007",
+        "display" : "Hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50639002",
+        "display" : "Vagus nerve palate paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "5310008",
+        "display" : "Pupillary paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53857003",
+        "display" : "Heredofamilial brachial plexus paralysis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "54304004",
+        "display" : "Progressive bulbar palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55637002",
+        "display" : "Spinal hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "56409008",
+        "display" : "Monoplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58193001",
+        "display" : "Diplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58497009",
+        "display" : "Tardy ulnar nerve palsy (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "59103002",
+        "display" : "Cerebral paralysis with homolateral ataxia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "609531002",
+        "display" : "Femoral nerve paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "63268005",
+        "display" : "Cricket paralysis virus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "64228003",
+        "display" : "Paralysis of diaphragm (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66010009",
+        "display" : "Supranuclear paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66490000",
+        "display" : "Neurological muscular paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "672441000119103",
+        "display" : "Hemiplegia of nondominant side due to and following ischemic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "672451000119101",
+        "display" : "Hemiplegia of nondominant side due to and following hemorrhagic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "672461000119104",
+        "display" : "Hemiplegia of dominant side due to and following ischemic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "672471000119105",
+        "display" : "Hemiplegia of dominant side due to and following hemorrhagic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68111000119105",
+        "display" : "Facial palsy House-Brackmann grade I (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68121000119103",
+        "display" : "Facial palsy House-Brackmann grade II (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68131000119100",
+        "display" : "Facial palsy House-Brackmann grade III (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68141000119109",
+        "display" : "Facial palsy House-Brackmann grade IV (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68151000119106",
+        "display" : "Facial palsy House-Brackmann grade V (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "690271000119104",
+        "display" : "Hemiplegia of nondominant side due to and following embolic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "690281000119101",
+        "display" : "Hemiplegia of dominant side due to and following embolic cerebrovascular accident (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "69098002",
+        "display" : "Paralysis of colon (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "697991001",
+        "display" : "Paralysis of uvula (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698293005",
+        "display" : "Acute flaccid paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698741009",
+        "display" : "Acute complete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698742002",
+        "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between first and fourth cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698743007",
+        "display" : "Acute complete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698744001",
+        "display" : "Chronic incomplete quadriplegia due to spinal cord lesion between fifth and seventh cervical vertebra (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698754002",
+        "display" : "Chronic paralysis due to lesion of spinal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "698755001",
+        "display" : "Acute paralysis due to lesion of spinal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699866005",
+        "display" : "Progressive bulbar palsy with sensorineural deafness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702314005",
+        "display" : "Non-spastic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702315006",
+        "display" : "Dystonic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702316007",
+        "display" : "Choreic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702317003",
+        "display" : "Chorea-athetoid cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702318008",
+        "display" : "Mixed cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702319000",
+        "display" : "Bilateral cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702320006",
+        "display" : "Triplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702321005",
+        "display" : "Pentaplegic cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702381007",
+        "display" : "Horizontal gaze palsy with progressive scoliosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "703543005",
+        "display" : "Infantile ascending hereditary spastic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "714027006",
+        "display" : "Trigeminal nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716243005",
+        "display" : "Deafness with malformation of ear and facial palsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722389002",
+        "display" : "Congenital hereditary facial paralysis with variable hearing loss syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722900008",
+        "display" : "Erb Duchenne palsy with neuropraxis due to traction birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722901007",
+        "display" : "Erb Duchenne palsy with neuroma due to birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "722918006",
+        "display" : "Acquired vocal cord paralysis in newborn (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723644002",
+        "display" : "Microvascular cranial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "724178000",
+        "display" : "Laryngeal abductor paralysis with intellectual disability syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "72655000",
+        "display" : "Alternating hypoglossal hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733091002",
+        "display" : "Isolated hereditary congenital facial paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733329000",
+        "display" : "Monocular elevator palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7379000",
+        "display" : "Pseudobulbar palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7409003",
+        "display" : "Secondary periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74225001",
+        "display" : "Tick paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75019001",
+        "display" : "Athetoid cerebral palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "75299005",
+        "display" : "Spastic spinal syphilitic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764724007",
+        "display" : "Paralysis of left vocal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764726009",
+        "display" : "Paralysis of right vocal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770095003",
+        "display" : "Cranial nerve palsy due to diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770098001",
+        "display" : "Cranial nerve palsy due to type 1 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771263004",
+        "display" : "Ptosis and vocal cord paralysis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771304005",
+        "display" : "Benign nocturnal alternating hemiplegia of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "774153002",
+        "display" : "Periodic paralysis with transient compartment-like syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "774154008",
+        "display" : "Periodic paralysis with later-onset distal motor neuropathy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78141002",
+        "display" : "Erb-Duchenne paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78152008",
+        "display" : "Multiple cranial nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "782679002",
+        "display" : "Familial congenital palsy of trochlear nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783005002",
+        "display" : "Severe microbrachycephaly, intellectual disability, athetoid cerebral palsy syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78306007",
+        "display" : "Epidural ascending spinal paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783257005",
+        "display" : "Familial recurrent peripheral facial palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "78403003",
+        "display" : "Spastic paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "784289008",
+        "display" : "Nerve palsy (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "785725008",
+        "display" : "Palmoplantar keratoderma, spastic paralysis syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "787603009",
+        "display" : "Complete paralysis of left vocal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "787604003",
+        "display" : "Complete paralysis of right vocal cord (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "788976000",
+        "display" : "Leaden paralysis (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "789005009",
+        "display" : "Paralysis of uvula after diphtheria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79591004",
+        "display" : "Spastic paralysis due to spinal birth injury (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79633009",
+        "display" : "Spastic hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "80935004",
+        "display" : "Flaccid hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81624004",
+        "display" : "Pharyngeal paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "81774005",
+        "display" : "Klumpke-Déjerine paralysis as birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "823019007",
+        "display" : "Muscle paralysis due to and following neuromuscular blockade (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "827047007",
+        "display" : "Palsy of vagus nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "827048002",
+        "display" : "Palsy of accessory nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "827049005",
+        "display" : "Palsy of upper motor nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "827050005",
+        "display" : "Palsy of glossopharyngeal nerve (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "82732003",
+        "display" : "Familial hypokalemic periodic paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83886009",
+        "display" : "Klumpke-Déjerine paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84160009",
+        "display" : "Laryngeal hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "84947004",
+        "display" : "Facial palsy as birth trauma (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "870321008",
+        "display" : "Ocular nerve palsy caused by Herpes zoster (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87651000119100",
+        "display" : "Facial palsy House-Brackmann grade VI (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "87921000119104",
+        "display" : "Cranial nerve palsy due to type 2 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "88984006",
+        "display" : "Dissociative paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89927005",
+        "display" : "Paralysis of larynx (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95430002",
+        "display" : "Respiratory tract paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95650006",
+        "display" : "Transient hemiplegia (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95652003",
+        "display" : "Congenital flaccid paralysis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "97381000119100",
+        "display" : "Neurogenic urinary bladder due to quadriplegia (disorder)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1339",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-08-21T01:09:20.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-08-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1339",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1339"
+    }
+  ],
+  "version" : "20250821",
+  "name" : "OIA_Trazodone_Inclusion_List",
+  "title" : "OIA_Trazodone_Inclusion_List",
+  "status" : "active",
+  "date" : "2025-08-21T01:09:20-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Trazodone as single or combination drugs in varying strengths),(Data Element Scope: DRUG_CLASS_MEMBERS: PHARMACOLOGIC),(Inclusion Criteria: Trazodone as generic and branded),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "2699613",
+            "display" : "trazodone hydrochloride 10 MG/ML [Raldesy]"
+          },
+          {
+            "code" : "2699618",
+            "display" : "trazodone hydrochloride 10 MG/ML Oral Solution [Raldesy]"
+          },
+          {
+            "code" : "856363",
+            "display" : "trazodone hydrochloride 150 MG"
+          },
+          {
+            "code" : "856364",
+            "display" : "trazodone hydrochloride 150 MG Oral Tablet"
+          },
+          {
+            "code" : "856368",
+            "display" : "trazodone hydrochloride 300 MG"
+          },
+          {
+            "code" : "856369",
+            "display" : "trazodone hydrochloride 300 MG Oral Tablet"
+          },
+          {
+            "code" : "856372",
+            "display" : "trazodone hydrochloride 100 MG"
+          },
+          {
+            "code" : "856373",
+            "display" : "trazodone hydrochloride 100 MG Oral Tablet"
+          },
+          {
+            "code" : "856376",
+            "display" : "trazodone hydrochloride 50 MG"
+          },
+          {
+            "code" : "856377",
+            "display" : "trazodone hydrochloride 50 MG Oral Tablet"
+          },
+          {
+            "code" : "856380",
+            "display" : "trazodone hydrochloride 10 MG/ML"
+          },
+          {
+            "code" : "856381",
+            "display" : "trazodone hydrochloride 10 MG/ML Oral Solution"
+          },
+          {
+            "code" : "856382",
+            "display" : "trazodone hydrochloride 100 MG Oral Capsule"
+          },
+          {
+            "code" : "856383",
+            "display" : "trazodone hydrochloride 50 MG Oral Capsule"
+          },
+          {
+            "code" : "898697",
+            "display" : "24 HR trazodone hydrochloride 150 MG Extended Release Oral Tablet"
+          },
+          {
+            "code" : "898704",
+            "display" : "24 HR trazodone hydrochloride 300 MG Extended Release Oral Tablet"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0a9d9428-d037-4121-b05b-7f8389f81cba",
+    "timestamp" : "2025-11-24T11:44:01-05:00",
+    "total" : 16,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2699613",
+        "display" : "trazodone hydrochloride 10 MG/ML [Raldesy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2699618",
+        "display" : "trazodone hydrochloride 10 MG/ML Oral Solution [Raldesy]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856363",
+        "display" : "trazodone hydrochloride 150 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856364",
+        "display" : "trazodone hydrochloride 150 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856368",
+        "display" : "trazodone hydrochloride 300 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856369",
+        "display" : "trazodone hydrochloride 300 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856372",
+        "display" : "trazodone hydrochloride 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856373",
+        "display" : "trazodone hydrochloride 100 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856376",
+        "display" : "trazodone hydrochloride 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856377",
+        "display" : "trazodone hydrochloride 50 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856380",
+        "display" : "trazodone hydrochloride 10 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856381",
+        "display" : "trazodone hydrochloride 10 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856382",
+        "display" : "trazodone hydrochloride 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "856383",
+        "display" : "trazodone hydrochloride 50 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "898697",
+        "display" : "24 HR trazodone hydrochloride 150 MG Extended Release Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "898704",
+        "display" : "24 HR trazodone hydrochloride 300 MG Extended Release Oral Tablet"
+      }
+    ]
+  }
+}

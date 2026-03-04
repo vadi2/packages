@@ -1,0 +1,674 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.3017",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.3017",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.3017"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "SyphilisAdditionalContextMedicationCodes",
+  "title" : "Syphilis Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Syphilis Additional Context Medication Codes),(Data Element Scope: Syphilis Additional Context Medication Codes),(Inclusion Criteria: Syphilis Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1164764",
+            "display" : "penicillin G Injectable Product"
+          },
+          {
+            "code" : "1173631",
+            "display" : "Bicillin Injectable Product"
+          },
+          {
+            "code" : "1173632",
+            "display" : "Bicillin L-A Injectable Product"
+          },
+          {
+            "code" : "1178225",
+            "display" : "Pfizerpen Injectable Product"
+          },
+          {
+            "code" : "1719795",
+            "display" : "penicillin G Injection"
+          },
+          {
+            "code" : "203133",
+            "display" : "penicillin G potassium"
+          },
+          {
+            "code" : "215674",
+            "display" : "Bicillin L-A"
+          },
+          {
+            "code" : "225110",
+            "display" : "Bicillin"
+          },
+          {
+            "code" : "2645729",
+            "display" : "penicillin G benzathine Prefilled Syringe"
+          },
+          {
+            "code" : "2647209",
+            "display" : "penicillin G benzathine Injectable Suspension"
+          },
+          {
+            "code" : "2647298",
+            "display" : "penicillin G sodium Injectable Solution"
+          },
+          {
+            "code" : "2647493",
+            "display" : "penicillin G potassium Injectable Solution"
+          },
+          {
+            "code" : "2647533",
+            "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe"
+          },
+          {
+            "code" : "2649172",
+            "display" : "penicillin G procaine Prefilled Syringe"
+          },
+          {
+            "code" : "2654286",
+            "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "2657299",
+            "display" : "penicillin G benzathine Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "2657690",
+            "display" : "penicillin G potassium Injectable Solution [Pfizerpen]"
+          },
+          {
+            "code" : "2659432",
+            "display" : "penicillin G benzathine Injectable Product"
+          },
+          {
+            "code" : "2659930",
+            "display" : "penicillin G benzathine / penicillin G procaine Injectable Product"
+          },
+          {
+            "code" : "2660178",
+            "display" : "penicillin G procaine Injectable Product"
+          },
+          {
+            "code" : "2660809",
+            "display" : "penicillin G benzathine / penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2660986",
+            "display" : "penicillin G potassium Injectable Product"
+          },
+          {
+            "code" : "2661899",
+            "display" : "penicillin G procaine / penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2663361",
+            "display" : "penicillin G sodium Injectable Product"
+          },
+          {
+            "code" : "2671686",
+            "display" : "penicillin G benzathine Injection"
+          },
+          {
+            "code" : "2671688",
+            "display" : "Extencilline"
+          },
+          {
+            "code" : "2671690",
+            "display" : "Extencilline Injectable Product"
+          },
+          {
+            "code" : "2671691",
+            "display" : "penicillin G Injection [Extencilline]"
+          },
+          {
+            "code" : "2671692",
+            "display" : "penicillin G benzathine Injection [Extencilline]"
+          },
+          {
+            "code" : "2671694",
+            "display" : "penicillin G benzathine 2400000 UNT"
+          },
+          {
+            "code" : "2671695",
+            "display" : "penicillin G benzathine 2400000 UNT Injection"
+          },
+          {
+            "code" : "2671696",
+            "display" : "penicillin G benzathine 2400000 UNT [Extencilline]"
+          },
+          {
+            "code" : "2671697",
+            "display" : "penicillin G benzathine 2400000 UNT Injection [Extencilline]"
+          },
+          {
+            "code" : "373262",
+            "display" : "penicillin G Injectable Solution"
+          },
+          {
+            "code" : "466553",
+            "display" : "penicillin G benzathine / penicillin G procaine"
+          },
+          {
+            "code" : "583271",
+            "display" : "penicillin G benzathine 300000 UNT/ML"
+          },
+          {
+            "code" : "583272",
+            "display" : "penicillin G procaine 300000 UNT/ML"
+          },
+          {
+            "code" : "623694",
+            "display" : "penicillin G procaine 150000 UNT/ML"
+          },
+          {
+            "code" : "727620",
+            "display" : "penicillin G Prefilled Syringe"
+          },
+          {
+            "code" : "730595",
+            "display" : "penicillin G Prefilled Syringe [Bicillin L-A]"
+          },
+          {
+            "code" : "731538",
+            "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "731539",
+            "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML [Bicillin]"
+          },
+          {
+            "code" : "731540",
+            "display" : "penicillin G Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "731541",
+            "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "731542",
+            "display" : "penicillin G benzathine 600000 UNT/ML"
+          },
+          {
+            "code" : "731543",
+            "display" : "penicillin G procaine 600000 UNT/ML"
+          },
+          {
+            "code" : "731554",
+            "display" : "penicillin G benzathine 450000 UNT/ML"
+          },
+          {
+            "code" : "731565",
+            "display" : "penicillin G benzathine 600000 UNT/ML [Bicillin L-A]"
+          },
+          {
+            "code" : "745301",
+            "display" : "penicillin G sodium 100000 UNT/ML"
+          },
+          {
+            "code" : "7980",
+            "display" : "penicillin G"
+          },
+          {
+            "code" : "7982",
+            "display" : "penicillin G benzathine"
+          },
+          {
+            "code" : "7983",
+            "display" : "penicillin G procaine"
+          },
+          {
+            "code" : "8096",
+            "display" : "Pfizerpen"
+          },
+          {
+            "code" : "836271",
+            "display" : "penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML [Bicillin]"
+          },
+          {
+            "code" : "836306",
+            "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe"
+          },
+          {
+            "code" : "836307",
+            "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin]"
+          },
+          {
+            "code" : "863537",
+            "display" : "penicillin G potassium 1000000 UNT/ML"
+          },
+          {
+            "code" : "93752",
+            "display" : "penicillin G Injectable Solution [Pfizerpen]"
+          },
+          {
+            "code" : "9900",
+            "display" : "penicillin G sodium"
+          },
+          {
+            "code" : "995905",
+            "display" : "penicillin G potassium 1000000 UNT/ML [Pfizerpen]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:04f0351c-f316-4c02-b4fc-d37c1a2a5afd",
+    "timestamp" : "2025-11-24T13:50:32-05:00",
+    "total" : 60,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1164764",
+        "display" : "penicillin G Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1173631",
+        "display" : "Bicillin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1173632",
+        "display" : "Bicillin L-A Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1178225",
+        "display" : "Pfizerpen Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1719795",
+        "display" : "penicillin G Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203133",
+        "display" : "penicillin G potassium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "215674",
+        "display" : "Bicillin L-A"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "225110",
+        "display" : "Bicillin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2645729",
+        "display" : "penicillin G benzathine Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647209",
+        "display" : "penicillin G benzathine Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647298",
+        "display" : "penicillin G sodium Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647493",
+        "display" : "penicillin G potassium Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647533",
+        "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2649172",
+        "display" : "penicillin G procaine Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2654286",
+        "display" : "penicillin G benzathine / penicillin G procaine Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2657299",
+        "display" : "penicillin G benzathine Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2657690",
+        "display" : "penicillin G potassium Injectable Solution [Pfizerpen]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659432",
+        "display" : "penicillin G benzathine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659930",
+        "display" : "penicillin G benzathine / penicillin G procaine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660178",
+        "display" : "penicillin G procaine Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660809",
+        "display" : "penicillin G benzathine / penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660986",
+        "display" : "penicillin G potassium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661899",
+        "display" : "penicillin G procaine / penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663361",
+        "display" : "penicillin G sodium Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671686",
+        "display" : "penicillin G benzathine Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671688",
+        "display" : "Extencilline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671690",
+        "display" : "Extencilline Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671691",
+        "display" : "penicillin G Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671692",
+        "display" : "penicillin G benzathine Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671694",
+        "display" : "penicillin G benzathine 2400000 UNT"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671695",
+        "display" : "penicillin G benzathine 2400000 UNT Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671696",
+        "display" : "penicillin G benzathine 2400000 UNT [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2671697",
+        "display" : "penicillin G benzathine 2400000 UNT Injection [Extencilline]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373262",
+        "display" : "penicillin G Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "466553",
+        "display" : "penicillin G benzathine / penicillin G procaine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "583271",
+        "display" : "penicillin G benzathine 300000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "583272",
+        "display" : "penicillin G procaine 300000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "623694",
+        "display" : "penicillin G procaine 150000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "727620",
+        "display" : "penicillin G Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "730595",
+        "display" : "penicillin G Prefilled Syringe [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731538",
+        "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731539",
+        "display" : "penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731540",
+        "display" : "penicillin G Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731541",
+        "display" : "2 ML penicillin G benzathine 300000 UNT/ML / penicillin G procaine 300000 UNT/ML Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731542",
+        "display" : "penicillin G benzathine 600000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731543",
+        "display" : "penicillin G procaine 600000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731554",
+        "display" : "penicillin G benzathine 450000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "731565",
+        "display" : "penicillin G benzathine 600000 UNT/ML [Bicillin L-A]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "745301",
+        "display" : "penicillin G sodium 100000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7980",
+        "display" : "penicillin G"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7982",
+        "display" : "penicillin G benzathine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "7983",
+        "display" : "penicillin G procaine"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "8096",
+        "display" : "Pfizerpen"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836271",
+        "display" : "penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836306",
+        "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "836307",
+        "display" : "2 ML penicillin G benzathine 450000 UNT/ML / penicillin G procaine 150000 UNT/ML Prefilled Syringe [Bicillin]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "863537",
+        "display" : "penicillin G potassium 1000000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "93752",
+        "display" : "penicillin G Injectable Solution [Pfizerpen]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "9900",
+        "display" : "penicillin G sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "995905",
+        "display" : "penicillin G potassium 1000000 UNT/ML [Pfizerpen]"
+      }
+    ]
+  }
+}

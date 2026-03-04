@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1151.12",
+  "meta" : {
+    "versionId" : "13",
+    "lastUpdated" : "2024-02-09T01:11:17.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Oregon Urology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-02-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-02-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1151.12",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1151.12"
+    }
+  ],
+  "version" : "20240209",
+  "name" : "BladderCancerStagingT1ForUrologyCare",
+  "title" : "Bladder Cancer staging T1 for Urology Care",
+  "status" : "active",
+  "date" : "2024-02-09T01:11:17-05:00",
+  "publisher" : "Oregon Urology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The staging is for the primary Tumor (T) as related to bladder cancer.  This is a tumor that invades the subepithelial connective tissue.),(Data Element Scope: The intent of this data element is to identify patients with a T1 bladder cancer which is nonmuscle invasive.),(Inclusion Criteria: T1 nonmuscle invasive bladder cancer.),(Exclusion Criteria: Any Primary Tumor (T) stage other than T1)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1228889001",
+            "display" : "American Joint Committee on Cancer cT1 (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a012ce7f-4f5b-4061-b9bd-e05eca724c21",
+    "timestamp" : "2025-11-24T14:07:45-05:00",
+    "total" : 1,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1228889001",
+        "display" : "American Joint Committee on Cancer cT1 (qualifier value)"
+      }
+    ]
+  }
+}

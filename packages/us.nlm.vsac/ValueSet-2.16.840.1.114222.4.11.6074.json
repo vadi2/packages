@@ -1,0 +1,100 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.114222.4.11.6074",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CDC NHSN Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-02-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2020-07-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.114222.4.11.6074",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.114222.4.11.6074"
+    }
+  ],
+  "version" : "20200710",
+  "name" : "NHSNStaphAureusTestResults",
+  "title" : "NHSNStaphAureusTestResults",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-07-10T01:00:50-04:00",
+  "publisher" : "CDC NHSN",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: NHSN surveillance reporting: This value set contains codes describing the results of a Staphylococcus aureus-specific test when performing antimicrobial susceptibility testing.),(Data Element Scope: A coded observation value describing the result of a Staphylococcus aureus-specific test when performing antimicrobial susceptibility testing),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "10828004",
+            "display" : "Positive (qualifier value)"
+          },
+          {
+            "code" : "260385009",
+            "display" : "Negative (qualifier value)"
+          },
+          {
+            "code" : "261665006",
+            "display" : "Unknown (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:7071b9b8-ebcd-4c39-aef4-17aa02f936e0",
+    "timestamp" : "2025-11-24T20:04:28-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "10828004",
+        "display" : "Positive (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "260385009",
+        "display" : "Negative (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "261665006",
+        "display" : "Unknown (qualifier value)"
+      }
+    ]
+  }
+}

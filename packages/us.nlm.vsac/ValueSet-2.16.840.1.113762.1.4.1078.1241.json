@@ -1,0 +1,1844 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1078.1241",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-06-17T01:01:00.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Optum Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-17"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-17"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1241",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1078.1241"
+    }
+  ],
+  "version" : "20250617",
+  "name" : "CTAbdomenOrPelvis",
+  "title" : "CT Abdomen or Pelvis",
+  "status" : "active",
+  "date" : "2025-06-17T01:01:00-04:00",
+  "publisher" : "Optum Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: CT Abdomen or Pelvis),(Data Element Scope: CPT or SNOMED CT),(Inclusion Criteria: N/A),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1240"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1078.1239"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9937740c-7506-47eb-9961-0369b1067075",
+    "timestamp" : "2025-11-24T11:39:30-05:00",
+    "total" : 295,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148601000000109",
+        "display" : "Percutaneous microwave ablation of lesion of left kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148611000000106",
+        "display" : "Percutaneous microwave ablation of lesion of right kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148700003",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with intravenous contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148701004",
+        "display" : "Computed tomography of abdomen and pelvis with intravenous contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1148721000000106",
+        "display" : "Percutaneous microwave ablation of lesion of bilateral kidneys using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156011001",
+        "display" : "Percutaneous fine needle aspiration biopsy of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156012008",
+        "display" : "Percutaneous fine needle aspiration biopsy of lesion of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156712004",
+        "display" : "Percutaneous needle aspiration of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156716001",
+        "display" : "Percutaneous needle aspiration of upper abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156740009",
+        "display" : "Percutaneous drainage of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156744000",
+        "display" : "Percutaneous drainage of pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1156745004",
+        "display" : "Percutaneous drainage of upper abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1162471000",
+        "display" : "Biopsy of pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1162472007",
+        "display" : "Biopsy of upper abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1162474008",
+        "display" : "Drainage of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1187246003",
+        "display" : "Computed tomography of abdominal aorta without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1196926008",
+        "display" : "Computed tomography triple phase study of pancreas (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1196927004",
+        "display" : "Computed tomography triple phase study of abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1196929001",
+        "display" : "Computed tomography dual phase study of abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1196930006",
+        "display" : "Computed tomography dual phase study of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1208476009",
+        "display" : "Computed tomography quadruple phase study of abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1331000087102",
+        "display" : "Computed tomography of left hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333925001",
+        "display" : "Computed tomography arthrography of left hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333926000",
+        "display" : "Computed tomography arthrography of right hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333927009",
+        "display" : "Computed tomography arthrography of bilateral hips with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333934006",
+        "display" : "Computed tomography arthrography of left sacroiliac joint with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333935007",
+        "display" : "Computed tomography arthrography of right sacroiliac joint with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1333936008",
+        "display" : "Computed tomography arthrography of bilateral sacroiliac joints with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1337004002",
+        "display" : "Computed tomography of spleen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1339028005",
+        "display" : "Computed tomography angiography of transplanted renal artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1341000087108",
+        "display" : "Computed tomography of left hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343368005",
+        "display" : "Computed tomography myelography of lumbosacral spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343387004",
+        "display" : "Computed tomography of fistula of anus with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343388009",
+        "display" : "Computed tomography of perineum (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343482009",
+        "display" : "Computed tomography of female genital tract (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343483004",
+        "display" : "Computed tomography of female genital tract with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343539005",
+        "display" : "Computed tomography of gallbladder with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343540007",
+        "display" : "Computed tomography of gallbladder (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1343700003",
+        "display" : "Computed tomography of gastric mucous membrane with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1345058007",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1345059004",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1351000087106",
+        "display" : "Computed tomography of right hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1356866001",
+        "display" : "Percutaneous insertion of fiducial marker into liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1356869008",
+        "display" : "Percutaneous insertion of fiducial marker into pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1356874000",
+        "display" : "Percutaneous laser ablation of lesion of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1357779006",
+        "display" : "Percutaneous microwave ablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1361000087109",
+        "display" : "Computed tomography of right hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1366076001",
+        "display" : "Computed tomography angiography of upper abdominal artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1391000087101",
+        "display" : "Biopsy of left kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1401000087103",
+        "display" : "Biopsy of right kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14871000087107",
+        "display" : "Computed tomography angiography of abdomen, pelvis and lumbar spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15221000087108",
+        "display" : "Computed tomography of pelvis and right hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15231000087105",
+        "display" : "Computed tomography of pelvis and left hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15321000087104",
+        "display" : "Computed tomography of pelvis and bilateral hips (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15351000087106",
+        "display" : "Computed tomography of pelvis and bilateral hips with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15391000087101",
+        "display" : "Computed tomography angiography of abdomen, pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16321631000119108",
+        "display" : "Computed tomography angiography of neck and chest and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16326461000119108",
+        "display" : "Computed tomography angiography of chest and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16440141000119108",
+        "display" : "Computed tomography of bilateral kidneys without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16444991000119109",
+        "display" : "Computed tomography of kidney, ureter and urinary bladder without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16457501000119102",
+        "display" : "Computed tomography of abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16462121000119108",
+        "display" : "Computed tomography angiography of thorax and abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16523851000119103",
+        "display" : "Needle puncture and aspiration of abscess of rectum using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16523971000119102",
+        "display" : "Needle puncture and aspiration of abscess of abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16534101000119106",
+        "display" : "Single photon emission computed tomography with computed tomography of liver using technetium Tc^99m^ sulfur colloid (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16534151000119105",
+        "display" : "Single photon emission computed tomography with computed tomography of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16547871000119103",
+        "display" : "Needle aspiration of cyst of left kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16547921000119107",
+        "display" : "Needle aspiration of cyst of right kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16549791000119102",
+        "display" : "Needle biopsy of left kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16549841000119104",
+        "display" : "Needle biopsy of right kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16549891000119107",
+        "display" : "Percutaneous needle biopsy of adrenal gland using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16550001000119100",
+        "display" : "Percutaneous drainage of lesion of pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16550051000119101",
+        "display" : "Radiofrequency ablation of lesion of left kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16550101000119101",
+        "display" : "Radiofrequency ablation of lesion of right kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16551091000119100",
+        "display" : "Percutaneous fine needle aspiration biopsy of joint of left hip using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16551141000119107",
+        "display" : "Percutaneous fine needle aspiration biopsy of joint of right hip using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16554061000119109",
+        "display" : "Computed tomography myelogram of lumbosacral spine with lumbar injection of contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16558481000119100",
+        "display" : "Percutaneous cryoablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16558721000119108",
+        "display" : "Needle aspiration of bursa of right hip using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16558781000119107",
+        "display" : "Needle aspiration of bursa of left hip using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16559021000119103",
+        "display" : "Fine needle aspiration biopsy of spleen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16559141000119108",
+        "display" : "Percutaneous fine needle aspiration biopsy of pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16559201000119102",
+        "display" : "Percutaneous needle biopsy of mass of abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16559261000119101",
+        "display" : "Percutaneous fine needle aspiration biopsy of pseudocyst of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "16559321000119100",
+        "display" : "Fine needle aspiration biopsy of abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "169070004",
+        "display" : "Computed tomography of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "169071000",
+        "display" : "Computed tomography of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17261000087109",
+        "display" : "Computed tomography of pelvis and lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1731000087101",
+        "display" : "Computed tomography of bilateral hips (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17361000087103",
+        "display" : "Computed tomography of pelvis and left lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "17371000087107",
+        "display" : "Computed tomography of pelvis and right lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1741000087107",
+        "display" : "Computed tomography of bilateral hips with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18001000087104",
+        "display" : "Computed tomography of pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "18051000087103",
+        "display" : "Computed tomography of pelvis and bilateral lower limbs with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1811000087104",
+        "display" : "Biopsy of bilateral kidneys using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22831000087106",
+        "display" : "Computed tomography of abdomen, pelvis and bilateral lower limbs with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22851000087102",
+        "display" : "Computed tomography of abdomen, pelvis and left lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22871000087108",
+        "display" : "Computed tomography of abdomen, pelvis and lower limb (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22881000087105",
+        "display" : "Computed tomography of abdomen, pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "22891000087107",
+        "display" : "Computed tomography of abdomen, pelvis and right lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241549007",
+        "display" : "Computed tomography of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241550007",
+        "display" : "Computed tomography of adrenals (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241551006",
+        "display" : "Computed tomography of pancreas (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241552004",
+        "display" : "Computed tomography of spleen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241553009",
+        "display" : "Computed tomography of abdominal aorta (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241554003",
+        "display" : "Computed tomography arterioportography with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241555002",
+        "display" : "Computed tomography of urinary bladder (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241557005",
+        "display" : "Computed tomography prostate (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241558000",
+        "display" : "Computed tomography uterus (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241559008",
+        "display" : "Computed tomography ovary (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241561004",
+        "display" : "Computed tomography bony pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241571002",
+        "display" : "Computed tomography of hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241581003",
+        "display" : "Computed tomography of sacral spine (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241586008",
+        "display" : "Computed tomography arthrogram of hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "241600009",
+        "display" : "Computed tomography pelvimetry (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "303671000",
+        "display" : "Computed tomography of abdominal vascular structure with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "303673002",
+        "display" : "Computed tomography of pelvic organs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "303676005",
+        "display" : "Computed tomography of female pelvic organs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "303677001",
+        "display" : "Computed tomography of male pelvic organs (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "314613007",
+        "display" : "Drainage of pancreatic lesion using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32962002",
+        "display" : "Computed tomography of abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "393161000119104",
+        "display" : "Computed tomography of chest, abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "395771000119107",
+        "display" : "Computed tomography of pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "396101000119105",
+        "display" : "Computed tomography of abdomen without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "407971000119109",
+        "display" : "Percutaneous needle biopsy of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "407981000119107",
+        "display" : "Percutaneous biopsy of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "408031000119108",
+        "display" : "Percutaneous needle biopsy of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "411311000119108",
+        "display" : "Computed tomography of sacrum and coccyx without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "411661000119104",
+        "display" : "Computed tomography of neck, chest, abdomen and pelvis without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418023006",
+        "display" : "Computed tomography of chest, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418332004",
+        "display" : "Computed tomography of neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418618007",
+        "display" : "Computed tomography of sacroiliac joints (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418714002",
+        "display" : "Virtual computed tomography colonoscopy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418863006",
+        "display" : "Computed tomography of biliary tract (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "418891003",
+        "display" : "Computed tomography of chest and abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419394006",
+        "display" : "Computed tomography of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419559003",
+        "display" : "Computed tomography angiography of renal artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "419995000",
+        "display" : "Computed tomography cholangiography with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "420102002",
+        "display" : "Computed tomography of upper abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "425666002",
+        "display" : "Computed tomography of colon (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "426101000119109",
+        "display" : "Computed tomography of adrenal gland without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "427101000119106",
+        "display" : "Computed tomography of chest and abdomen without contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429856001",
+        "display" : "Computed tomography of prostate for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429861004",
+        "display" : "Radiofrequency ablation of lesion of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429862006",
+        "display" : "Computed tomography of liver with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429864007",
+        "display" : "Computed tomography of thorax and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429873004",
+        "display" : "Computed tomography of pancreas with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429876007",
+        "display" : "Injection of hip joint using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429923003",
+        "display" : "Computed tomography of urinary bladder for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429930009",
+        "display" : "Injection of sacral spinal nerve root using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429931008",
+        "display" : "Computed tomography of kidney with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430194000",
+        "display" : "Computed tomography of pelvis for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430430003",
+        "display" : "Computed tomography of adrenal gland with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430433001",
+        "display" : "Injection of sacroiliac joint using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430435008",
+        "display" : "Cementoplasty of acetabulum using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430439002",
+        "display" : "Computed tomography of neck, thorax and abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430443003",
+        "display" : "Sacral epidural injection using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430451000",
+        "display" : "Computed tomography of coccyx (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430452007",
+        "display" : "Computed tomography of sacral spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431475009",
+        "display" : "Radiofrequency ablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431665001",
+        "display" : "Computed tomography of hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432037000",
+        "display" : "Vertebroplasty of sacral spine using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432226009",
+        "display" : "Ablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432370003",
+        "display" : "Computed tomography of abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "432905004",
+        "display" : "Computed tomography of liver and portal vein with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433029000",
+        "display" : "Nephrostomy using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433270008",
+        "display" : "Computed tomography of neck, thorax and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433761009",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433866007",
+        "display" : "Laser ablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "433876005",
+        "display" : "Ethanol ablation of lesion of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "434438003",
+        "display" : "Computed tomography of neck, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438305004",
+        "display" : "Computed tomography dual phase study of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438308002",
+        "display" : "Percutaneous aspiration of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438591004",
+        "display" : "Computed tomography triple phase study of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "438820000",
+        "display" : "Biopsy of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439087006",
+        "display" : "Percutaneous aspiration of abdomen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "439538003",
+        "display" : "Percutaneous aspiration of pelvis using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440331001",
+        "display" : "Computed tomography of head, neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440514007",
+        "display" : "Computed tomography dual phase study of pancreas (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443015004",
+        "display" : "Percutaneous drainage of abscess of perineum using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443267007",
+        "display" : "Single photon emission computed tomography using dimercaptosuccinic acid with computed tomography of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443536006",
+        "display" : "Single photon emission computed tomography with computed tomography of bone of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443637005",
+        "display" : "Single photon emission computed tomography with computed tomography of hemangioma of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "443638000",
+        "display" : "Single photon emission computed tomography with computed tomography of liver and spleen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444618009",
+        "display" : "Computed tomography of head, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444628000",
+        "display" : "Computed tomography of head, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444630003",
+        "display" : "Computed tomography of head, neck, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444633001",
+        "display" : "Computed tomography of head, thorax and abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444674001",
+        "display" : "Computed tomography of head, thorax, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444758004",
+        "display" : "Computed tomography of head, thorax and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "444968003",
+        "display" : "Computed tomography angiography of abdominal aorta with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445583005",
+        "display" : "Computed tomography of head, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445712007",
+        "display" : "Computed tomography of abdomen with ethiodized oil contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446224008",
+        "display" : "Computed tomography triple phase study of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "446564006",
+        "display" : "Computed tomography of inguinal region (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448344005",
+        "display" : "Computed tomography perfusion study of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448443000",
+        "display" : "Computed tomography angiography of abdominal artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448676009",
+        "display" : "Computed tomography perfusion study of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448677000",
+        "display" : "Computed tomography perfusion study of liver (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448760006",
+        "display" : "Computed tomography of head and neck and thorax and abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "448766000",
+        "display" : "Computed tomography angiography of pulmonary artery, abdominal artery and pelvic artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "55501000",
+        "display" : "Computed tomography of kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58211000087104",
+        "display" : "Computed tomography of thoracic, lumbar and sacral spine (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "609168009",
+        "display" : "Percutaneous cryoablation of neoplasm of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "609169001",
+        "display" : "Percutaneous cryoablation of neoplasm of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "699586000",
+        "display" : "Positron emission tomography with computed tomography of liver using yttrium 90 microspheres (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "700505008",
+        "display" : "Computed tomography angiography of blood vessel of abdominal wall with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702513003",
+        "display" : "Computed tomography of abdomen, pelvis and lumbar spine (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702514009",
+        "display" : "Computed tomography of abdomen, pelvis and lumbar spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702521009",
+        "display" : "Computed tomography of lumbar spine and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702522002",
+        "display" : "Computed tomography of lumbar spine and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "702523007",
+        "display" : "Computed tomography of lumbar spine and sacroiliac joints (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709546005",
+        "display" : "Aspiration of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709547001",
+        "display" : "Computed tomography arthrography of sacroiliac joint with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709552006",
+        "display" : "Computed tomography angiography of iliac artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709554007",
+        "display" : "Computed tomography angiography of hepatic artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709586002",
+        "display" : "Computed tomography angiography of pelvic artery with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709630009",
+        "display" : "Biopsy of adrenal gland using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709634000",
+        "display" : "Biopsy of prostate using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709636003",
+        "display" : "Biopsy of spleen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709654004",
+        "display" : "Aspiration of cyst of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709665009",
+        "display" : "Computed tomography of stomach (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709697009",
+        "display" : "Computed tomography of ileal conduit (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709698004",
+        "display" : "Computed tomography of lumbar spine and sacroiliac joint with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709767008",
+        "display" : "Computed tomography of vascular structure of pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709772004",
+        "display" : "Computed tomography of coccyx with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "710305000",
+        "display" : "Computed tomography angiography of pelvis and lower limb with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711210005",
+        "display" : "Cholecystostomy using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711224009",
+        "display" : "Computed tomography of lumbar and sacral spine (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711227002",
+        "display" : "Computed tomography cystography (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711278009",
+        "display" : "Computed tomography of head, neck, thorax and abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711309003",
+        "display" : "Computed tomography of sinus of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711310008",
+        "display" : "Computed tomography of sinus of abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711311007",
+        "display" : "Computed tomography of sinus of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711352003",
+        "display" : "Puncture of cyst of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711425007",
+        "display" : "Computed tomography of sinus of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "711551006",
+        "display" : "Computed tomography of sacrum and coccyx (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712792002",
+        "display" : "Computed tomography of pelvis and hip (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712856009",
+        "display" : "Computed tomography of sacrum and coccyx with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "712874000",
+        "display" : "Computed tomography of sinus of abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713552006",
+        "display" : "Single photon emission computed tomography using iodine 123 meta-iodobenzylguanidine with computed tomography of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713558005",
+        "display" : "Single photon emission computed tomography using gallium 67 with computed tomography of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713560007",
+        "display" : "Single photon emission computed tomography with computed tomography of pelvis using indium (111-In) radiolabeled octreotide (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713561006",
+        "display" : "Single photon emission computed tomography with computed tomography of abdomen using indium (111-In) radiolabeled octreotide (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713635004",
+        "display" : "Single photon emission computed tomography using gallium 67 with computed tomography of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "714257005",
+        "display" : "Single photon emission computed tomography using iodine 123 meta-iodobenzylguanidine with computed tomography of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715249004",
+        "display" : "Computed tomography of abdomen for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715290001",
+        "display" : "Computed tomography of lumbar and sacral spine for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715293004",
+        "display" : "Computed tomography of abdomen with contrast for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715461005",
+        "display" : "Computed tomography of urinary bladder with contrast for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715588003",
+        "display" : "Computed tomography of head, neck, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715681001",
+        "display" : "Computed tomography of pelvis for brachytherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715683003",
+        "display" : "Computed tomography of prostate for brachytherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715687002",
+        "display" : "Computed tomography of prostate with contrast for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715690008",
+        "display" : "Computed tomography of pelvis with contrast for radiotherapy planning (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "715974006",
+        "display" : "Percutaneous needle aspiration of spleen using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716748002",
+        "display" : "Percutaneous irreversible electroporation ablation of neoplasm of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "716756004",
+        "display" : "Percutaneous irreversible electroporation ablation of neoplasm of liver using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717346007",
+        "display" : "Aspiration of pelvis using cone beam computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717691006",
+        "display" : "Insertion of drain into abdomen using cone beam computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717692004",
+        "display" : "Insertion of drain into pelvis using cone beam computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717995000",
+        "display" : "Biopsy of abdomen using cone beam computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717996004",
+        "display" : "Biopsy of pelvis using cone beam computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718003003",
+        "display" : "Cone beam computed tomography of pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718013006",
+        "display" : "Cone beam computed tomography of abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718394008",
+        "display" : "Single photon emission computed tomography using dimercaptosuccinic acid with computed tomography of kidney with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718533003",
+        "display" : "Insertion of fiducial marker into kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "719898006",
+        "display" : "Computed tomography of head, neck, abdomen and pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721041002",
+        "display" : "Dual energy computed tomography of thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721042009",
+        "display" : "Dual energy computed tomography of abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "721043004",
+        "display" : "Dual energy computed tomography of neck, thorax, abdomen and pelvis (procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "72192",
+        "display" : "Computed tomography, pelvis; without contrast material"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "72193",
+        "display" : "Computed tomography, pelvis; with contrast material(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "72194",
+        "display" : "Computed tomography, pelvis; without contrast material, followed by contrast material(s) and further sections"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "723646000",
+        "display" : "Computed tomography of lumbar and sacral spine with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726552004",
+        "display" : "Computed tomography of thorax, abdomen and pelvis with oral contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "726553009",
+        "display" : "Computed tomography of abdomen and pelvis with oral contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "737082000",
+        "display" : "Percutaneous irreversible electroporation ablation of neoplasm of prostate using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74150",
+        "display" : "Computed tomography, abdomen; without contrast material"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74160",
+        "display" : "Computed tomography, abdomen; with contrast material(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74170",
+        "display" : "Computed tomography, abdomen; without contrast material, followed by contrast material(s) and further sections"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74176",
+        "display" : "Computed tomography, abdomen and pelvis; without contrast material"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74177",
+        "display" : "Computed tomography, abdomen and pelvis; with contrast material(s)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "74178",
+        "display" : "Computed tomography, abdomen and pelvis; without contrast material in one or both body regions, followed by contrast material(s) and further sections in one or both body regions"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "74710000",
+        "display" : "Computed tomography of pelvis with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764580004",
+        "display" : "Computed tomography of stomach with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764581000",
+        "display" : "Computed tomography nephrostography (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "764738000",
+        "display" : "Percutaneous irreversible electroporation ablation of neoplasm of pancreas using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765476000",
+        "display" : "Computed tomography of left kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765477009",
+        "display" : "Computed tomography of right kidney (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "819811000000101",
+        "display" : "Percutaneous microwave ablation of lesion of kidney using computed tomography guidance (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "839891000000102",
+        "display" : "Computed tomography arthrography of hip with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "868212005",
+        "display" : "Computed tomography of chest and upper abdomen (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "868213000",
+        "display" : "Computed tomography of chest and upper abdomen with contrast (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "9521000087109",
+        "display" : "Computed tomography angiography of abdominal artery and pelvic artery with contrast (procedure)"
+      }
+    ]
+  }
+}

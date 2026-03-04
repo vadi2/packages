@@ -1,0 +1,143 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2747",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2747",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2747"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ArtificialInseminationSNOMED",
+  "title" : "Artificial Insemination (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has undergone artificial insemination regardless of the clinical presentation of the condition.),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: artificial insemination),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "176844003",
+            "display" : "Intracervical artificial insemination (procedure)"
+          },
+          {
+            "code" : "225250007",
+            "display" : "Intravaginal artificial insemination (procedure)"
+          },
+          {
+            "code" : "265064001",
+            "display" : "Intrauterine artificial insemination (procedure)"
+          },
+          {
+            "code" : "46249006",
+            "display" : "Artificial insemination, heterologous (procedure)"
+          },
+          {
+            "code" : "57233006",
+            "display" : "Artificial insemination with spermatozoa washing and capacitation (procedure)"
+          },
+          {
+            "code" : "58533008",
+            "display" : "Artificial insemination (procedure)"
+          },
+          {
+            "code" : "66601000",
+            "display" : "Artificial insemination, homologous (procedure)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:acaf8c6f-4927-4b63-a3a2-84ece9324d4b",
+    "timestamp" : "2025-11-24T13:36:12-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "176844003",
+        "display" : "Intracervical artificial insemination (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225250007",
+        "display" : "Intravaginal artificial insemination (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "265064001",
+        "display" : "Intrauterine artificial insemination (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "46249006",
+        "display" : "Artificial insemination, heterologous (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "57233006",
+        "display" : "Artificial insemination with spermatozoa washing and capacitation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "58533008",
+        "display" : "Artificial insemination (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "66601000",
+        "display" : "Artificial insemination, homologous (procedure)"
+      }
+    ]
+  }
+}

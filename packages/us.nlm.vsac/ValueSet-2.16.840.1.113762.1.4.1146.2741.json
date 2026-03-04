@@ -1,0 +1,283 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2741",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2741",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2741"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "ThrushSNOMED",
+  "title" : "Thrush (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has thrush regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record.),(Inclusion Criteria: thrush),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "110277001",
+            "display" : "Hyperplastic thrush (disorder)"
+          },
+          {
+            "code" : "15983591000119109",
+            "display" : "Cheilitis caused by Candida species (disorder)"
+          },
+          {
+            "code" : "235069003",
+            "display" : "Acute oral pseudomembraneous candidiasis (disorder)"
+          },
+          {
+            "code" : "235070002",
+            "display" : "Acute oral atrophic candidiasis (disorder)"
+          },
+          {
+            "code" : "235071003",
+            "display" : "Oral erythematous candidiasis (disorder)"
+          },
+          {
+            "code" : "235072005",
+            "display" : "Chronic hyperplastic candidiasis (disorder)"
+          },
+          {
+            "code" : "266154004",
+            "display" : "Candidiasis of mouth and esophagus (disorder)"
+          },
+          {
+            "code" : "278521000",
+            "display" : "Candida angular cheilitis (disorder)"
+          },
+          {
+            "code" : "3001000119103",
+            "display" : "Candidiasis of tongue (disorder)"
+          },
+          {
+            "code" : "359757004",
+            "display" : "Chronic atrophic candidosis (disorder)"
+          },
+          {
+            "code" : "402996006",
+            "display" : "Chronic pseudomembranous oral candidosis (disorder)"
+          },
+          {
+            "code" : "402997002",
+            "display" : "Chronic plaque-like oral candidosis (disorder)"
+          },
+          {
+            "code" : "402998007",
+            "display" : "Chronic nodular oral candidosis (disorder)"
+          },
+          {
+            "code" : "421710003",
+            "display" : "Candidiasis of mouth with acquired immunodeficiency syndrome (disorder)"
+          },
+          {
+            "code" : "700455003",
+            "display" : "Gingivitis caused by Candida (disorder)"
+          },
+          {
+            "code" : "707318002",
+            "display" : "Chronic multifocal candidiasis of mouth (disorder)"
+          },
+          {
+            "code" : "713497004",
+            "display" : "Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code" : "746223006",
+            "display" : "Neonatal infection of mouth caused by Candida (disorder)"
+          },
+          {
+            "code" : "79740000",
+            "display" : "Candidiasis of mouth (disorder)"
+          },
+          {
+            "code" : "95893008",
+            "display" : "Pseudomembranous thrush (disorder)"
+          },
+          {
+            "code" : "95894002",
+            "display" : "Atrophic thrush (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:cfe99b90-2497-40a9-8161-220b3094d0a3",
+    "timestamp" : "2025-11-24T13:35:55-05:00",
+    "total" : 21,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "110277001",
+        "display" : "Hyperplastic thrush (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15983591000119109",
+        "display" : "Cheilitis caused by Candida species (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235069003",
+        "display" : "Acute oral pseudomembraneous candidiasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235070002",
+        "display" : "Acute oral atrophic candidiasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235071003",
+        "display" : "Oral erythematous candidiasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "235072005",
+        "display" : "Chronic hyperplastic candidiasis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "266154004",
+        "display" : "Candidiasis of mouth and esophagus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "278521000",
+        "display" : "Candida angular cheilitis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "3001000119103",
+        "display" : "Candidiasis of tongue (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "359757004",
+        "display" : "Chronic atrophic candidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402996006",
+        "display" : "Chronic pseudomembranous oral candidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402997002",
+        "display" : "Chronic plaque-like oral candidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "402998007",
+        "display" : "Chronic nodular oral candidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "421710003",
+        "display" : "Candidiasis of mouth with acquired immunodeficiency syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "700455003",
+        "display" : "Gingivitis caused by Candida (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "707318002",
+        "display" : "Chronic multifocal candidiasis of mouth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713497004",
+        "display" : "Candidiasis of mouth co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "746223006",
+        "display" : "Neonatal infection of mouth caused by Candida (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79740000",
+        "display" : "Candidiasis of mouth (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95893008",
+        "display" : "Pseudomembranous thrush (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95894002",
+        "display" : "Atrophic thrush (disorder)"
+      }
+    ]
+  }
+}

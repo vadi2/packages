@@ -1,0 +1,1054 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2925",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2925",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2925"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "HerpesAdditionalContextMedicationCodes",
+  "title" : "Herpes Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Herpes Additional Context Medication Codes),(Data Element Scope: Herpes Additional Context Medication Codes),(Inclusion Criteria: Herpes Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "108780",
+            "display" : "valacyclovir 500 MG Oral Tablet [Valtrex]"
+          },
+          {
+            "code" : "1153461",
+            "display" : "acyclovir Oral Product"
+          },
+          {
+            "code" : "1153462",
+            "display" : "acyclovir Pill"
+          },
+          {
+            "code" : "1155011",
+            "display" : "azithromycin Oral Product"
+          },
+          {
+            "code" : "1160778",
+            "display" : "doxycycline Oral Product"
+          },
+          {
+            "code" : "1160779",
+            "display" : "doxycycline Pill"
+          },
+          {
+            "code" : "1163801",
+            "display" : "famciclovir Oral Product"
+          },
+          {
+            "code" : "1163802",
+            "display" : "famciclovir Pill"
+          },
+          {
+            "code" : "1163984",
+            "display" : "valacyclovir Oral Product"
+          },
+          {
+            "code" : "1163985",
+            "display" : "valacyclovir Pill"
+          },
+          {
+            "code" : "1174673",
+            "display" : "Famvir Oral Product"
+          },
+          {
+            "code" : "1174674",
+            "display" : "Famvir Pill"
+          },
+          {
+            "code" : "1182222",
+            "display" : "Monodox Oral Product"
+          },
+          {
+            "code" : "1182223",
+            "display" : "Monodox Pill"
+          },
+          {
+            "code" : "1186464",
+            "display" : "Zovirax Oral Product"
+          },
+          {
+            "code" : "1186465",
+            "display" : "Zovirax Pill"
+          },
+          {
+            "code" : "1187342",
+            "display" : "Valtrex Oral Product"
+          },
+          {
+            "code" : "1187343",
+            "display" : "Valtrex Pill"
+          },
+          {
+            "code" : "1187674",
+            "display" : "Zithromax Oral Product"
+          },
+          {
+            "code" : "151733",
+            "display" : "Famvir"
+          },
+          {
+            "code" : "152490",
+            "display" : "Valtrex"
+          },
+          {
+            "code" : "152535",
+            "display" : "Zovirax"
+          },
+          {
+            "code" : "152981",
+            "display" : "famciclovir 750 MG Oral Tablet"
+          },
+          {
+            "code" : "1649989",
+            "display" : "doxycycline monohydrate 100 MG"
+          },
+          {
+            "code" : "1649990",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+          },
+          {
+            "code" : "1649991",
+            "display" : "doxycycline monohydrate 100 MG [Monodox]"
+          },
+          {
+            "code" : "1666093",
+            "display" : "Mondoxyne"
+          },
+          {
+            "code" : "1666095",
+            "display" : "doxycycline Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "1666096",
+            "display" : "Mondoxyne Oral Product"
+          },
+          {
+            "code" : "1666097",
+            "display" : "Mondoxyne Pill"
+          },
+          {
+            "code" : "1666541",
+            "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+          },
+          {
+            "code" : "1666542",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "1807493",
+            "display" : "azithromycin Oral Powder Product"
+          },
+          {
+            "code" : "1807494",
+            "display" : "azithromycin Powder for Oral Suspension"
+          },
+          {
+            "code" : "1807496",
+            "display" : "azithromycin 1000 MG [Zithromax]"
+          },
+          {
+            "code" : "1807497",
+            "display" : "azithromycin Powder for Oral Suspension [Zithromax]"
+          },
+          {
+            "code" : "1807498",
+            "display" : "Zithromax Oral Powder Product"
+          },
+          {
+            "code" : "18631",
+            "display" : "azithromycin"
+          },
+          {
+            "code" : "196474",
+            "display" : "Zithromax"
+          },
+          {
+            "code" : "197311",
+            "display" : "acyclovir 400 MG Oral Tablet"
+          },
+          {
+            "code" : "197313",
+            "display" : "acyclovir 800 MG Oral Tablet"
+          },
+          {
+            "code" : "198382",
+            "display" : "famciclovir 500 MG Oral Tablet"
+          },
+          {
+            "code" : "199192",
+            "display" : "famciclovir 125 MG Oral Tablet"
+          },
+          {
+            "code" : "199193",
+            "display" : "famciclovir 250 MG Oral Tablet"
+          },
+          {
+            "code" : "201905",
+            "display" : "acyclovir 400 MG Oral Tablet [Zovirax]"
+          },
+          {
+            "code" : "203122",
+            "display" : "doxycycline monohydrate"
+          },
+          {
+            "code" : "2045893",
+            "display" : "Okebo"
+          },
+          {
+            "code" : "2045895",
+            "display" : "doxycycline Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2045896",
+            "display" : "Okebo Oral Product"
+          },
+          {
+            "code" : "2045897",
+            "display" : "Okebo Pill"
+          },
+          {
+            "code" : "2045899",
+            "display" : "doxycycline monohydrate 100 MG [Okebo]"
+          },
+          {
+            "code" : "2045900",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "205621",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "206853",
+            "display" : "famciclovir 500 MG Oral Tablet [Famvir]"
+          },
+          {
+            "code" : "212448",
+            "display" : "valacyclovir 1000 MG Oral Tablet [Valtrex]"
+          },
+          {
+            "code" : "213706",
+            "display" : "acyclovir 800 MG Oral Tablet [Zovirax]"
+          },
+          {
+            "code" : "218432",
+            "display" : "Monodox"
+          },
+          {
+            "code" : "2646603",
+            "display" : "doxycycline monohydrate Oral Capsule"
+          },
+          {
+            "code" : "2655017",
+            "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "2656162",
+            "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "2658892",
+            "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2659349",
+            "display" : "doxycycline monohydrate Pill"
+          },
+          {
+            "code" : "2661725",
+            "display" : "doxycycline anhydrous Pill"
+          },
+          {
+            "code" : "2661810",
+            "display" : "doxycycline monohydrate Oral Product"
+          },
+          {
+            "code" : "2661949",
+            "display" : "doxycycline hyclate Pill"
+          },
+          {
+            "code" : "2662116",
+            "display" : "doxycycline calcium Oral Product"
+          },
+          {
+            "code" : "2663160",
+            "display" : "doxycycline anhydrous Oral Product"
+          },
+          {
+            "code" : "2663263",
+            "display" : "doxycycline hyclate Oral Product"
+          },
+          {
+            "code" : "281",
+            "display" : "acyclovir"
+          },
+          {
+            "code" : "313564",
+            "display" : "valacyclovir 1000 MG Oral Tablet"
+          },
+          {
+            "code" : "313565",
+            "display" : "valacyclovir 500 MG Oral Tablet"
+          },
+          {
+            "code" : "315281",
+            "display" : "acyclovir 400 MG"
+          },
+          {
+            "code" : "315282",
+            "display" : "acyclovir 800 MG"
+          },
+          {
+            "code" : "315916",
+            "display" : "famciclovir 125 MG"
+          },
+          {
+            "code" : "315917",
+            "display" : "famciclovir 250 MG"
+          },
+          {
+            "code" : "317368",
+            "display" : "famciclovir 500 MG"
+          },
+          {
+            "code" : "330296",
+            "display" : "valacyclovir 1000 MG"
+          },
+          {
+            "code" : "330526",
+            "display" : "valacyclovir 500 MG"
+          },
+          {
+            "code" : "336671",
+            "display" : "famciclovir 750 MG"
+          },
+          {
+            "code" : "3640",
+            "display" : "doxycycline"
+          },
+          {
+            "code" : "366778",
+            "display" : "doxycycline Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "367696",
+            "display" : "famciclovir Oral Tablet [Famvir]"
+          },
+          {
+            "code" : "368174",
+            "display" : "acyclovir Oral Tablet [Zovirax]"
+          },
+          {
+            "code" : "368381",
+            "display" : "valacyclovir Oral Tablet [Valtrex]"
+          },
+          {
+            "code" : "370537",
+            "display" : "acyclovir Oral Tablet"
+          },
+          {
+            "code" : "371965",
+            "display" : "doxycycline Oral Capsule"
+          },
+          {
+            "code" : "372137",
+            "display" : "famciclovir Oral Tablet"
+          },
+          {
+            "code" : "374272",
+            "display" : "valacyclovir Oral Tablet"
+          },
+          {
+            "code" : "434692",
+            "display" : "azithromycin 1000 MG"
+          },
+          {
+            "code" : "564583",
+            "display" : "valacyclovir 500 MG [Valtrex]"
+          },
+          {
+            "code" : "566051",
+            "display" : "acyclovir 400 MG [Zovirax]"
+          },
+          {
+            "code" : "567658",
+            "display" : "famciclovir 500 MG [Famvir]"
+          },
+          {
+            "code" : "572631",
+            "display" : "valacyclovir 1000 MG [Valtrex]"
+          },
+          {
+            "code" : "573569",
+            "display" : "acyclovir 800 MG [Zovirax]"
+          },
+          {
+            "code" : "68099",
+            "display" : "famciclovir"
+          },
+          {
+            "code" : "73645",
+            "display" : "valacyclovir"
+          },
+          {
+            "code" : "861416",
+            "display" : "azithromycin 1000 MG Powder for Oral Suspension"
+          },
+          {
+            "code" : "861417",
+            "display" : "azithromycin 1000 MG Powder for Oral Suspension [Zithromax]"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:87b88445-b7fc-4815-8cbb-4bfde648ec25",
+    "timestamp" : "2025-11-24T13:45:52-05:00",
+    "total" : 98,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108780",
+        "display" : "valacyclovir 500 MG Oral Tablet [Valtrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153461",
+        "display" : "acyclovir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1153462",
+        "display" : "acyclovir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1155011",
+        "display" : "azithromycin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160778",
+        "display" : "doxycycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160779",
+        "display" : "doxycycline Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163801",
+        "display" : "famciclovir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163802",
+        "display" : "famciclovir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163984",
+        "display" : "valacyclovir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163985",
+        "display" : "valacyclovir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1174673",
+        "display" : "Famvir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1174674",
+        "display" : "Famvir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182222",
+        "display" : "Monodox Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182223",
+        "display" : "Monodox Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186464",
+        "display" : "Zovirax Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186465",
+        "display" : "Zovirax Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187342",
+        "display" : "Valtrex Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187343",
+        "display" : "Valtrex Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1187674",
+        "display" : "Zithromax Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "151733",
+        "display" : "Famvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "152490",
+        "display" : "Valtrex"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "152535",
+        "display" : "Zovirax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "152981",
+        "display" : "famciclovir 750 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649989",
+        "display" : "doxycycline monohydrate 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649990",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649991",
+        "display" : "doxycycline monohydrate 100 MG [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666093",
+        "display" : "Mondoxyne"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666095",
+        "display" : "doxycycline Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666096",
+        "display" : "Mondoxyne Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666097",
+        "display" : "Mondoxyne Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666541",
+        "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666542",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807493",
+        "display" : "azithromycin Oral Powder Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807494",
+        "display" : "azithromycin Powder for Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807496",
+        "display" : "azithromycin 1000 MG [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807497",
+        "display" : "azithromycin Powder for Oral Suspension [Zithromax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1807498",
+        "display" : "Zithromax Oral Powder Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "18631",
+        "display" : "azithromycin"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "196474",
+        "display" : "Zithromax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197311",
+        "display" : "acyclovir 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "197313",
+        "display" : "acyclovir 800 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "198382",
+        "display" : "famciclovir 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199192",
+        "display" : "famciclovir 125 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199193",
+        "display" : "famciclovir 250 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "201905",
+        "display" : "acyclovir 400 MG Oral Tablet [Zovirax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203122",
+        "display" : "doxycycline monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045893",
+        "display" : "Okebo"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045895",
+        "display" : "doxycycline Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045896",
+        "display" : "Okebo Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045897",
+        "display" : "Okebo Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045899",
+        "display" : "doxycycline monohydrate 100 MG [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045900",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "205621",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "206853",
+        "display" : "famciclovir 500 MG Oral Tablet [Famvir]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "212448",
+        "display" : "valacyclovir 1000 MG Oral Tablet [Valtrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "213706",
+        "display" : "acyclovir 800 MG Oral Tablet [Zovirax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218432",
+        "display" : "Monodox"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646603",
+        "display" : "doxycycline monohydrate Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655017",
+        "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656162",
+        "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2658892",
+        "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659349",
+        "display" : "doxycycline monohydrate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661725",
+        "display" : "doxycycline anhydrous Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661810",
+        "display" : "doxycycline monohydrate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661949",
+        "display" : "doxycycline hyclate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2662116",
+        "display" : "doxycycline calcium Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663160",
+        "display" : "doxycycline anhydrous Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663263",
+        "display" : "doxycycline hyclate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "281",
+        "display" : "acyclovir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313564",
+        "display" : "valacyclovir 1000 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "313565",
+        "display" : "valacyclovir 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315281",
+        "display" : "acyclovir 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315282",
+        "display" : "acyclovir 800 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315916",
+        "display" : "famciclovir 125 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "315917",
+        "display" : "famciclovir 250 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317368",
+        "display" : "famciclovir 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330296",
+        "display" : "valacyclovir 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "330526",
+        "display" : "valacyclovir 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "336671",
+        "display" : "famciclovir 750 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "3640",
+        "display" : "doxycycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "366778",
+        "display" : "doxycycline Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "367696",
+        "display" : "famciclovir Oral Tablet [Famvir]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "368174",
+        "display" : "acyclovir Oral Tablet [Zovirax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "368381",
+        "display" : "valacyclovir Oral Tablet [Valtrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "370537",
+        "display" : "acyclovir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371965",
+        "display" : "doxycycline Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372137",
+        "display" : "famciclovir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "374272",
+        "display" : "valacyclovir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "434692",
+        "display" : "azithromycin 1000 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "564583",
+        "display" : "valacyclovir 500 MG [Valtrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "566051",
+        "display" : "acyclovir 400 MG [Zovirax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "567658",
+        "display" : "famciclovir 500 MG [Famvir]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "572631",
+        "display" : "valacyclovir 1000 MG [Valtrex]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "573569",
+        "display" : "acyclovir 800 MG [Zovirax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "68099",
+        "display" : "famciclovir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "73645",
+        "display" : "valacyclovir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861416",
+        "display" : "azithromycin 1000 MG Powder for Oral Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "861417",
+        "display" : "azithromycin 1000 MG Powder for Oral Suspension [Zithromax]"
+      }
+    ]
+  }
+}

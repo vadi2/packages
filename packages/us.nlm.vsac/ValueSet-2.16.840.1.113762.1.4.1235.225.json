@@ -1,0 +1,140 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.225",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2025-04-22T01:09:50.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-04-22"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-04-22"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.225",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.225"
+    }
+  ],
+  "version" : "20250422",
+  "name" : "PneumococcalVaccineCN_HD_CVX",
+  "title" : "Pneumococcal Vaccine CN_HD_CVX",
+  "status" : "active",
+  "date" : "2025-04-22T01:09:50-04:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for Flu Vaccine - Adult & Pneumococcal Vaccine - Adult Care Need.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The intent of this value set is for the purpose of defining the clinical codes that constitute Flu Vaccine - Adult /& Pneumococcal Vaccine - Adult Care Need for inclusion and utilization in patients/users connected heath.),(Data Element Scope: Flu Vaccine - Adult & Pneumococcal Vaccine - Adult Care Need for b.well.),(Inclusion Criteria: Bone Marrow Transplant Codes that constitute the Flu Vaccine - Adult & Pneumococcal Vaccine - Adult Care Need for b.well.),(Exclusion Criteria: N/A)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "concept" : [
+          {
+            "code" : "109",
+            "display" : "pneumococcal vaccine, unspecified formulation"
+          },
+          {
+            "code" : "133",
+            "display" : "pneumococcal conjugate vaccine, 13 valent"
+          },
+          {
+            "code" : "152",
+            "display" : "Pneumococcal Conjugate, unspecified formulation"
+          },
+          {
+            "code" : "215",
+            "display" : "Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+          },
+          {
+            "code" : "216",
+            "display" : "Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+          },
+          {
+            "code" : "327",
+            "display" : "Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free"
+          },
+          {
+            "code" : "33",
+            "display" : "pneumococcal polysaccharide vaccine, 23 valent"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c8d1769c-8829-4815-8b2e-f8050c4af273",
+    "timestamp" : "2025-11-24T15:42:10-05:00",
+    "total" : 7,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "109",
+        "display" : "pneumococcal vaccine, unspecified formulation"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "133",
+        "display" : "pneumococcal conjugate vaccine, 13 valent"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "152",
+        "display" : "Pneumococcal Conjugate, unspecified formulation"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "215",
+        "display" : "Pneumococcal conjugate vaccine 15-valent (PCV15), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "216",
+        "display" : "Pneumococcal conjugate vaccine 20-valent (PCV20), polysaccharide CRM197 conjugate, adjuvant, preservative free"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "327",
+        "display" : "Pneumococcal conjugate vaccine, 21 valent (PCV21), polysaccharide CRM197 conjugate, preservative free"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/cvx",
+        "version" : "20250715",
+        "code" : "33",
+        "display" : "pneumococcal polysaccharide vaccine, 23 valent"
+      }
+    ]
+  }
+}

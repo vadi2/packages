@@ -1,0 +1,124 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2935",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2935",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2935"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "InvasiveHaemophilusInfluenzaeDiseaseAdditionalContextSymptomCodesICD9CM",
+  "title" : "Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD9CM)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD9CM)),(Data Element Scope: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD9CM)),(Inclusion Criteria: Invasive Haemophilus Influenzae Disease Additional Context Symptom Codes (ICD9CM)),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "concept" : [
+          {
+            "code" : "780.60",
+            "display" : "Fever, unspecified"
+          },
+          {
+            "code" : "780.79",
+            "display" : "Other malaise and fatigue"
+          },
+          {
+            "code" : "784.0",
+            "display" : "Headache"
+          },
+          {
+            "code" : "786.2",
+            "display" : "Cough"
+          },
+          {
+            "code" : "797",
+            "display" : "Senility without mention of psychosis"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c73b5e49-0534-4608-aa72-4621b2933fe7",
+    "timestamp" : "2025-11-24T13:46:25-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "780.60",
+        "display" : "Fever, unspecified"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "780.79",
+        "display" : "Other malaise and fatigue"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "784.0",
+        "display" : "Headache"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "786.2",
+        "display" : "Cough"
+      },
+      {
+        "system" : "http://hl7.org/fhir/sid/icd-9-cm",
+        "version" : "2013",
+        "code" : "797",
+        "display" : "Senility without mention of psychosis"
+      }
+    ]
+  }
+}

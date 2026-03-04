@@ -1,0 +1,90 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.23",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-28T01:02:36.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.23",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.23"
+    }
+  ],
+  "version" : "20250928",
+  "name" : "CellBasedGeneTherapiesForSickleCellDisease",
+  "title" : "Cell based gene therapies for sickle cell disease",
+  "status" : "active",
+  "date" : "2025-09-28T01:02:36-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Cell-based gene therapies for sickle cell disease (SCD)),(Data Element Scope: Codes to identify therapies which use gene editing or gene addition),(Inclusion Criteria: RxNorm codes to to identify therapies which use gene editing or gene addition),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "2672689",
+            "display" : "lovotibeglogene autotemcel Injectable Product"
+          },
+          {
+            "code" : "2672691",
+            "display" : "20 ML lovotibeglogene autotemcel 20000000 CELLS/ML Injection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d8210aed-538a-4cc1-88aa-cd22263a81cd",
+    "timestamp" : "2025-11-24T16:58:44-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2672689",
+        "display" : "lovotibeglogene autotemcel Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2672691",
+        "display" : "20 ML lovotibeglogene autotemcel 20000000 CELLS/ML Injection"
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "resourceType" : "ImplementationGuide",
   "id" : "us.nlm.vsac",
   "url" : "http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac",
-  "version" : "0.23.0",
+  "version" : "0.24.0",
   "name" : "USVSACPackage",
   "title" : "US VSAC Package",
   "status" : "active",

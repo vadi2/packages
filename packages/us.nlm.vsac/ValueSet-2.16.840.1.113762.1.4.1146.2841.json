@@ -1,0 +1,544 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2841",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-09T01:04:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-09"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-09"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2841",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2841"
+    }
+  ],
+  "version" : "20251009",
+  "name" : "MumpsAdditionalContextMedicationCodes",
+  "title" : "Mumps Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-09T01:04:08-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Mumps Additional Context Medication Codes),(Data Element Scope: Mumps Additional Context Medication Codes),(Inclusion Criteria: Mumps Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1152108",
+            "display" : "ceftriaxone Injectable Product"
+          },
+          {
+            "code" : "1160778",
+            "display" : "doxycycline Oral Product"
+          },
+          {
+            "code" : "1160779",
+            "display" : "doxycycline Pill"
+          },
+          {
+            "code" : "1163467",
+            "display" : "levofloxacin Oral Product"
+          },
+          {
+            "code" : "1163468",
+            "display" : "levofloxacin Pill"
+          },
+          {
+            "code" : "1182222",
+            "display" : "Monodox Oral Product"
+          },
+          {
+            "code" : "1182223",
+            "display" : "Monodox Pill"
+          },
+          {
+            "code" : "1649989",
+            "display" : "doxycycline monohydrate 100 MG"
+          },
+          {
+            "code" : "1649990",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+          },
+          {
+            "code" : "1649991",
+            "display" : "doxycycline monohydrate 100 MG [Monodox]"
+          },
+          {
+            "code" : "1664992",
+            "display" : "ceftriaxone Injection"
+          },
+          {
+            "code" : "1665004",
+            "display" : "ceftriaxone 500 MG"
+          },
+          {
+            "code" : "1665005",
+            "display" : "ceftriaxone 500 MG Injection"
+          },
+          {
+            "code" : "1666093",
+            "display" : "Mondoxyne"
+          },
+          {
+            "code" : "1666095",
+            "display" : "doxycycline Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "1666096",
+            "display" : "Mondoxyne Oral Product"
+          },
+          {
+            "code" : "1666097",
+            "display" : "Mondoxyne Pill"
+          },
+          {
+            "code" : "1666541",
+            "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+          },
+          {
+            "code" : "1666542",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "199885",
+            "display" : "levofloxacin 500 MG Oral Tablet"
+          },
+          {
+            "code" : "203122",
+            "display" : "doxycycline monohydrate"
+          },
+          {
+            "code" : "2045893",
+            "display" : "Okebo"
+          },
+          {
+            "code" : "2045895",
+            "display" : "doxycycline Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2045896",
+            "display" : "Okebo Oral Product"
+          },
+          {
+            "code" : "2045897",
+            "display" : "Okebo Pill"
+          },
+          {
+            "code" : "2045899",
+            "display" : "doxycycline monohydrate 100 MG [Okebo]"
+          },
+          {
+            "code" : "2045900",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "205621",
+            "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "218432",
+            "display" : "Monodox"
+          },
+          {
+            "code" : "2193",
+            "display" : "ceftriaxone"
+          },
+          {
+            "code" : "2646603",
+            "display" : "doxycycline monohydrate Oral Capsule"
+          },
+          {
+            "code" : "2655017",
+            "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "2656162",
+            "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+          },
+          {
+            "code" : "2658892",
+            "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+          },
+          {
+            "code" : "2659349",
+            "display" : "doxycycline monohydrate Pill"
+          },
+          {
+            "code" : "2661725",
+            "display" : "doxycycline anhydrous Pill"
+          },
+          {
+            "code" : "2661810",
+            "display" : "doxycycline monohydrate Oral Product"
+          },
+          {
+            "code" : "2661949",
+            "display" : "doxycycline hyclate Pill"
+          },
+          {
+            "code" : "2662116",
+            "display" : "doxycycline calcium Oral Product"
+          },
+          {
+            "code" : "2663160",
+            "display" : "doxycycline anhydrous Oral Product"
+          },
+          {
+            "code" : "2663263",
+            "display" : "doxycycline hyclate Oral Product"
+          },
+          {
+            "code" : "317403",
+            "display" : "levofloxacin 500 MG"
+          },
+          {
+            "code" : "3640",
+            "display" : "doxycycline"
+          },
+          {
+            "code" : "366778",
+            "display" : "doxycycline Oral Capsule [Monodox]"
+          },
+          {
+            "code" : "371965",
+            "display" : "doxycycline Oral Capsule"
+          },
+          {
+            "code" : "372588",
+            "display" : "levofloxacin Oral Tablet"
+          },
+          {
+            "code" : "82122",
+            "display" : "levofloxacin"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:b84188d8-9487-4d30-8629-989278d1e5f5",
+    "timestamp" : "2025-11-24T13:40:40-05:00",
+    "total" : 47,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1152108",
+        "display" : "ceftriaxone Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160778",
+        "display" : "doxycycline Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160779",
+        "display" : "doxycycline Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163467",
+        "display" : "levofloxacin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1163468",
+        "display" : "levofloxacin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182222",
+        "display" : "Monodox Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1182223",
+        "display" : "Monodox Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649989",
+        "display" : "doxycycline monohydrate 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649990",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1649991",
+        "display" : "doxycycline monohydrate 100 MG [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1664992",
+        "display" : "ceftriaxone Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665004",
+        "display" : "ceftriaxone 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1665005",
+        "display" : "ceftriaxone 500 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666093",
+        "display" : "Mondoxyne"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666095",
+        "display" : "doxycycline Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666096",
+        "display" : "Mondoxyne Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666097",
+        "display" : "Mondoxyne Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666541",
+        "display" : "doxycycline monohydrate 100 MG [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1666542",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "199885",
+        "display" : "levofloxacin 500 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "203122",
+        "display" : "doxycycline monohydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045893",
+        "display" : "Okebo"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045895",
+        "display" : "doxycycline Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045896",
+        "display" : "Okebo Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045897",
+        "display" : "Okebo Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045899",
+        "display" : "doxycycline monohydrate 100 MG [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2045900",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "205621",
+        "display" : "doxycycline monohydrate 100 MG Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "218432",
+        "display" : "Monodox"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2193",
+        "display" : "ceftriaxone"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646603",
+        "display" : "doxycycline monohydrate Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655017",
+        "display" : "doxycycline monohydrate Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656162",
+        "display" : "doxycycline monohydrate Oral Capsule [Mondoxyne]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2658892",
+        "display" : "doxycycline monohydrate Oral Capsule [Okebo]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659349",
+        "display" : "doxycycline monohydrate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661725",
+        "display" : "doxycycline anhydrous Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661810",
+        "display" : "doxycycline monohydrate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2661949",
+        "display" : "doxycycline hyclate Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2662116",
+        "display" : "doxycycline calcium Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663160",
+        "display" : "doxycycline anhydrous Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2663263",
+        "display" : "doxycycline hyclate Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "317403",
+        "display" : "levofloxacin 500 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "3640",
+        "display" : "doxycycline"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "366778",
+        "display" : "doxycycline Oral Capsule [Monodox]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "371965",
+        "display" : "doxycycline Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "372588",
+        "display" : "levofloxacin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "82122",
+        "display" : "levofloxacin"
+      }
+    ]
+  }
+}

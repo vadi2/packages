@@ -1,0 +1,403 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.371",
+  "meta" : {
+    "versionId" : "38",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "Cryptosporidiosis,G_Enteric,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.371",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.371"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "CryptosporidiosisOrganismOrSubstanceInLabResults",
+  "title" : "Cryptosporidiosis (Organism or Substance in Lab Results)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains organisms or substances relevant for reporting cryptosporidiosis),(Data Element Scope: Organism names or substances reported in laboratory results),(Inclusion Criteria: VSAC query: cryptosporidium organism; antigen and DNA substances),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "121019009",
+            "display" : "Antigen of Cryptosporidium (substance)"
+          },
+          {
+            "code" : "14974007",
+            "display" : "Cryptosporidium bovis (organism)"
+          },
+          {
+            "code" : "416762004",
+            "display" : "Cryptosporidium canis (organism)"
+          },
+          {
+            "code" : "416961000",
+            "display" : "Cryptosporidium felis (organism)"
+          },
+          {
+            "code" : "417722006",
+            "display" : "Cryptosporidium hominis (organism)"
+          },
+          {
+            "code" : "42461000284100",
+            "display" : "Cryptosporidium andersoni (organism)"
+          },
+          {
+            "code" : "42471000284105",
+            "display" : "Cryptosporidium apodemi (organism)"
+          },
+          {
+            "code" : "42481000284107",
+            "display" : "Cryptosporidium avium (organism)"
+          },
+          {
+            "code" : "42491000284109",
+            "display" : "Cryptosporidium ubiquitum (organism)"
+          },
+          {
+            "code" : "42501000284100",
+            "display" : "Cryptosporidium cuniculus (organism)"
+          },
+          {
+            "code" : "42561000284101",
+            "display" : "Cryptosporidium galli (organism)"
+          },
+          {
+            "code" : "42591000284105",
+            "display" : "Cryptosporidium molnari (organism)"
+          },
+          {
+            "code" : "42611000284104",
+            "display" : "Cryptosporidium rubeyi (organism)"
+          },
+          {
+            "code" : "42621000284108",
+            "display" : "Cryptosporidium ryanae (organism)"
+          },
+          {
+            "code" : "42651000284100",
+            "display" : "Cryptosporidium serpentis (organism)"
+          },
+          {
+            "code" : "42671000284107",
+            "display" : "Cryptosporidium suis (organism)"
+          },
+          {
+            "code" : "46665004",
+            "display" : "Cryptosporidium meleagridis (organism)"
+          },
+          {
+            "code" : "470041000124107",
+            "display" : "Cryptosporidium fayeri (organism)"
+          },
+          {
+            "code" : "4779006",
+            "display" : "Cryptosporidium muris (organism)"
+          },
+          {
+            "code" : "48809002",
+            "display" : "Cryptosporidium tyzzeri (organism)"
+          },
+          {
+            "code" : "50617004",
+            "display" : "Cryptosporidium wrairi (organism)"
+          },
+          {
+            "code" : "51504002",
+            "display" : "Cryptosporidium parvum (organism)"
+          },
+          {
+            "code" : "608927008",
+            "display" : "Trophozoite of genus Cryptosporidium (organism)"
+          },
+          {
+            "code" : "608957004",
+            "display" : "Oocyst of genus Cryptosporidium (organism)"
+          },
+          {
+            "code" : "65521002",
+            "display" : "Cryptosporidium crotalis (organism)"
+          },
+          {
+            "code" : "708227001",
+            "display" : "Deoxyribonucleic acid of Cryptosporidium hominis (substance)"
+          },
+          {
+            "code" : "708228006",
+            "display" : "Deoxyribonucleic acid of Cryptosporidium parvum (substance)"
+          },
+          {
+            "code" : "708229003",
+            "display" : "Deoxyribonucleic acid of Cryptosporidium (substance)"
+          },
+          {
+            "code" : "70892006",
+            "display" : "Cryptosporidium agni (organism)"
+          },
+          {
+            "code" : "709314006",
+            "display" : "Antigen of Cryptosporidium parvum (substance)"
+          },
+          {
+            "code" : "7307002",
+            "display" : "Cryptosporidium baileyi (organism)"
+          },
+          {
+            "code" : "83744009",
+            "display" : "Cryptosporidium nasorum (organism)"
+          },
+          {
+            "code" : "83821001",
+            "display" : "Genus Cryptosporidium (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:de0dba14-14d0-4f45-8154-27681dfae903",
+    "timestamp" : "2025-11-24T13:53:02-05:00",
+    "total" : 33,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "121019009",
+        "display" : "Antigen of Cryptosporidium (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "14974007",
+        "display" : "Cryptosporidium bovis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416762004",
+        "display" : "Cryptosporidium canis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "416961000",
+        "display" : "Cryptosporidium felis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "417722006",
+        "display" : "Cryptosporidium hominis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42461000284100",
+        "display" : "Cryptosporidium andersoni (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42471000284105",
+        "display" : "Cryptosporidium apodemi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42481000284107",
+        "display" : "Cryptosporidium avium (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42491000284109",
+        "display" : "Cryptosporidium ubiquitum (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42501000284100",
+        "display" : "Cryptosporidium cuniculus (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42561000284101",
+        "display" : "Cryptosporidium galli (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42591000284105",
+        "display" : "Cryptosporidium molnari (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42611000284104",
+        "display" : "Cryptosporidium rubeyi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42621000284108",
+        "display" : "Cryptosporidium ryanae (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42651000284100",
+        "display" : "Cryptosporidium serpentis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42671000284107",
+        "display" : "Cryptosporidium suis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "46665004",
+        "display" : "Cryptosporidium meleagridis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "470041000124107",
+        "display" : "Cryptosporidium fayeri (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "4779006",
+        "display" : "Cryptosporidium muris (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "48809002",
+        "display" : "Cryptosporidium tyzzeri (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "50617004",
+        "display" : "Cryptosporidium wrairi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51504002",
+        "display" : "Cryptosporidium parvum (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "608927008",
+        "display" : "Trophozoite of genus Cryptosporidium (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "608957004",
+        "display" : "Oocyst of genus Cryptosporidium (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "65521002",
+        "display" : "Cryptosporidium crotalis (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708227001",
+        "display" : "Deoxyribonucleic acid of Cryptosporidium hominis (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708228006",
+        "display" : "Deoxyribonucleic acid of Cryptosporidium parvum (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "708229003",
+        "display" : "Deoxyribonucleic acid of Cryptosporidium (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "70892006",
+        "display" : "Cryptosporidium agni (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "709314006",
+        "display" : "Antigen of Cryptosporidium parvum (substance)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "7307002",
+        "display" : "Cryptosporidium baileyi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83744009",
+        "display" : "Cryptosporidium nasorum (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83821001",
+        "display" : "Genus Cryptosporidium (organism)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2996",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2996",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2996"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "NephroticSyndromeSNOMED",
+  "title" : "Nephrotic Syndrome (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Nephrotic Syndrome regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Nephrotic Syndrome),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "1081801000112104",
+            "display" : "Acute nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "1187040004",
+            "display" : "Familial steroid-resistant nephrotic syndrome with adrenal insufficiency (disorder)"
+          },
+          {
+            "code" : "1260194003",
+            "display" : "Idiopathic steroid-resistant nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "1260198000",
+            "display" : "Idiopathic steroid-sensitive nephrotic syndrome with secondary steroid resistance (disorder)"
+          },
+          {
+            "code" : "197589005",
+            "display" : "Nephrotic syndrome with proliferative glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197590001",
+            "display" : "Nephrotic syndrome with membranous glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197591002",
+            "display" : "Nephrotic syndrome with membranoproliferative glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197593004",
+            "display" : "Nephrotic syndrome, minor glomerular abnormality (disorder)"
+          },
+          {
+            "code" : "197594005",
+            "display" : "Nephrotic syndrome, focal and segmental glomerular lesions (disorder)"
+          },
+          {
+            "code" : "197595006",
+            "display" : "Nephrotic syndrome, diffuse membranous glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197596007",
+            "display" : "Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197597003",
+            "display" : "Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197598008",
+            "display" : "Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197599000",
+            "display" : "Nephrotic syndrome, dense deposit disease (disorder)"
+          },
+          {
+            "code" : "197600002",
+            "display" : "Nephrotic syndrome, diffuse crescentic glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "197601003",
+            "display" : "Finnish congenital nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "197604006",
+            "display" : "Nephrotic syndrome in amyloidosis (disorder)"
+          },
+          {
+            "code" : "197606008",
+            "display" : "Nephrotic syndrome in malaria (disorder)"
+          },
+          {
+            "code" : "197607004",
+            "display" : "Nephrotic syndrome in polyarteritis nodosa (disorder)"
+          },
+          {
+            "code" : "236380004",
+            "display" : "Steroid-sensitive nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "236381000",
+            "display" : "Steroid-resistant nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "236382007",
+            "display" : "Steroid-dependent nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "236384008",
+            "display" : "Congenital nephrotic syndrome with focal glomerulosclerosis (disorder)"
+          },
+          {
+            "code" : "363233007",
+            "display" : "Nephrotic syndrome secondary to glomerulonephritis (disorder)"
+          },
+          {
+            "code" : "363234001",
+            "display" : "Nephrotic syndrome secondary to systemic disease (disorder)"
+          },
+          {
+            "code" : "445119005",
+            "display" : "Steroid sensitive nephrotic syndrome of childhood (disorder)"
+          },
+          {
+            "code" : "449820008",
+            "display" : "Steroid resistant nephrotic syndrome of childhood (disorder)"
+          },
+          {
+            "code" : "48796009",
+            "display" : "Congenital nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "52254009",
+            "display" : "Nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "705065000",
+            "display" : "Childhood nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "713695001",
+            "display" : "Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+          },
+          {
+            "code" : "717191005",
+            "display" : "Sporadic idiopathic steroid-resistant nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "717760006",
+            "display" : "Multi-drug resistant nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "718141008",
+            "display" : "Genetic steroid-resistant nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "733453005",
+            "display" : "Congenital nephrotic syndrome, interstitial lung disease, epidermolysis bullosa syndrome (disorder)"
+          },
+          {
+            "code" : "771447009",
+            "display" : "Laminin subunit beta 2 related infantile-onset nephrotic syndrome (disorder)"
+          },
+          {
+            "code" : "773647007",
+            "display" : "Nephrotic syndrome, deafness, pretibial epidermolysis bullosa syndrome (disorder)"
+          },
+          {
+            "code" : "783614008",
+            "display" : "Familial steroid-resistant nephrotic syndrome with sensorineural deafness (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:2532e789-d1bb-4b77-bfd4-1b6d114b2dde",
+    "timestamp" : "2025-11-24T13:49:28-05:00",
+    "total" : 38,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1081801000112104",
+        "display" : "Acute nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1187040004",
+        "display" : "Familial steroid-resistant nephrotic syndrome with adrenal insufficiency (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260194003",
+        "display" : "Idiopathic steroid-resistant nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1260198000",
+        "display" : "Idiopathic steroid-sensitive nephrotic syndrome with secondary steroid resistance (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197589005",
+        "display" : "Nephrotic syndrome with proliferative glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197590001",
+        "display" : "Nephrotic syndrome with membranous glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197591002",
+        "display" : "Nephrotic syndrome with membranoproliferative glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197593004",
+        "display" : "Nephrotic syndrome, minor glomerular abnormality (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197594005",
+        "display" : "Nephrotic syndrome, focal and segmental glomerular lesions (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197595006",
+        "display" : "Nephrotic syndrome, diffuse membranous glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197596007",
+        "display" : "Nephrotic syndrome, diffuse mesangial proliferative glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197597003",
+        "display" : "Nephrotic syndrome, diffuse endocapillary proliferative glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197598008",
+        "display" : "Nephrotic syndrome, diffuse mesangiocapillary glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197599000",
+        "display" : "Nephrotic syndrome, dense deposit disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197600002",
+        "display" : "Nephrotic syndrome, diffuse crescentic glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197601003",
+        "display" : "Finnish congenital nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197604006",
+        "display" : "Nephrotic syndrome in amyloidosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197606008",
+        "display" : "Nephrotic syndrome in malaria (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "197607004",
+        "display" : "Nephrotic syndrome in polyarteritis nodosa (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236380004",
+        "display" : "Steroid-sensitive nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236381000",
+        "display" : "Steroid-resistant nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236382007",
+        "display" : "Steroid-dependent nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "236384008",
+        "display" : "Congenital nephrotic syndrome with focal glomerulosclerosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "363233007",
+        "display" : "Nephrotic syndrome secondary to glomerulonephritis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "363234001",
+        "display" : "Nephrotic syndrome secondary to systemic disease (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "445119005",
+        "display" : "Steroid sensitive nephrotic syndrome of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "449820008",
+        "display" : "Steroid resistant nephrotic syndrome of childhood (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "48796009",
+        "display" : "Congenital nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "52254009",
+        "display" : "Nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "705065000",
+        "display" : "Childhood nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713695001",
+        "display" : "Nephrotic syndrome co-occurrent with human immunodeficiency virus infection (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717191005",
+        "display" : "Sporadic idiopathic steroid-resistant nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "717760006",
+        "display" : "Multi-drug resistant nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "718141008",
+        "display" : "Genetic steroid-resistant nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "733453005",
+        "display" : "Congenital nephrotic syndrome, interstitial lung disease, epidermolysis bullosa syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "771447009",
+        "display" : "Laminin subunit beta 2 related infantile-onset nephrotic syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "773647007",
+        "display" : "Nephrotic syndrome, deafness, pretibial epidermolysis bullosa syndrome (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "783614008",
+        "display" : "Familial steroid-resistant nephrotic syndrome with sensorineural deafness (disorder)"
+      }
+    ]
+  }
+}

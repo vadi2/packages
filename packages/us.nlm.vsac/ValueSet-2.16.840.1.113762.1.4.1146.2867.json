@@ -1,0 +1,1614 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2867",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2867",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2867"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "COVID19AdditionalContextImmunizationCodes",
+  "title" : "COVID19 Additional Context Immunization Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: COVID19 Additional Context Immunization Codes),(Data Element Scope: COVID19 Additional Context Immunization Codes),(Inclusion Criteria: COVID19 Additional Context Immunization Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "2468230",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2"
+          },
+          {
+            "code" : "2468231",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein"
+          },
+          {
+            "code" : "2468232",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML"
+          },
+          {
+            "code" : "2468233",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Product"
+          },
+          {
+            "code" : "2468234",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension"
+          },
+          {
+            "code" : "2468235",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2470232",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273"
+          },
+          {
+            "code" : "2470233",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML"
+          },
+          {
+            "code" : "2470234",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2479830",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26"
+          },
+          {
+            "code" : "2479831",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating"
+          },
+          {
+            "code" : "2479832",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 100000000000 UNT/ML"
+          },
+          {
+            "code" : "2479833",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Product"
+          },
+          {
+            "code" : "2479834",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Suspension"
+          },
+          {
+            "code" : "2479835",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 100000000000 UNT/ML Injectable Suspension"
+          },
+          {
+            "code" : "2583742",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML"
+          },
+          {
+            "code" : "2583743",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2593843",
+            "display" : "Comirnaty"
+          },
+          {
+            "code" : "2593844",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML [Comirnaty]"
+          },
+          {
+            "code" : "2593845",
+            "display" : "Comirnaty Injectable Product"
+          },
+          {
+            "code" : "2593846",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension [Comirnaty]"
+          },
+          {
+            "code" : "2593847",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML Injectable Suspension [Comirnaty]"
+          },
+          {
+            "code" : "2598699",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.1 MG/ML"
+          },
+          {
+            "code" : "2598700",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.1 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2601548",
+            "display" : "Spikevax"
+          },
+          {
+            "code" : "2601549",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML [Spikevax]"
+          },
+          {
+            "code" : "2601550",
+            "display" : "Spikevax Injectable Product"
+          },
+          {
+            "code" : "2601551",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension [Spikevax]"
+          },
+          {
+            "code" : "2601552",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML Injectable Suspension [Spikevax]"
+          },
+          {
+            "code" : "2603832",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.015 MG/ML"
+          },
+          {
+            "code" : "2603833",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.015 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2606073",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373"
+          },
+          {
+            "code" : "2606074",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein"
+          },
+          {
+            "code" : "2606075",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 0.01 MG/ML"
+          },
+          {
+            "code" : "2606076",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Injectable Product"
+          },
+          {
+            "code" : "2606077",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Injectable Suspension"
+          },
+          {
+            "code" : "2606078",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 0.01 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2610243",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5)"
+          },
+          {
+            "code" : "2610319",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2610321",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection"
+          },
+          {
+            "code" : "2610324",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.05 MG/ML"
+          },
+          {
+            "code" : "2610326",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5)"
+          },
+          {
+            "code" : "2610327",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.05 MG/ML"
+          },
+          {
+            "code" : "2610328",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.05 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2610346",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML"
+          },
+          {
+            "code" : "2610347",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML Injection"
+          },
+          {
+            "code" : "2621898",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.025 MG/ML"
+          },
+          {
+            "code" : "2621899",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.025 MG/ML"
+          },
+          {
+            "code" : "2621900",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.025 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.025 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2623376",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.025 MG/ML"
+          },
+          {
+            "code" : "2623377",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.025 MG/ML"
+          },
+          {
+            "code" : "2623378",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.025 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.025 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2623380",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.0075 MG/ML"
+          },
+          {
+            "code" : "2623381",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.0075 MG/ML"
+          },
+          {
+            "code" : "2623382",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.0075 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.0075 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2646112",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Suspension"
+          },
+          {
+            "code" : "2646219",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 Injectable Suspension"
+          },
+          {
+            "code" : "2647043",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injection"
+          },
+          {
+            "code" : "2647414",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) Injectable Suspension"
+          },
+          {
+            "code" : "2647501",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injectable Suspension"
+          },
+          {
+            "code" : "2647726",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Suspension"
+          },
+          {
+            "code" : "2648878",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 Injectable Suspension"
+          },
+          {
+            "code" : "2655368",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Suspension [Spikevax]"
+          },
+          {
+            "code" : "2656263",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Suspension [Comirnaty]"
+          },
+          {
+            "code" : "2659610",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) Injectable Product"
+          },
+          {
+            "code" : "2659646",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injectable Product"
+          },
+          {
+            "code" : "2660462",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Product"
+          },
+          {
+            "code" : "2660964",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Product"
+          },
+          {
+            "code" : "2662277",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 Injectable Product"
+          },
+          {
+            "code" : "2662539",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 Injectable Product"
+          },
+          {
+            "code" : "2664725",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5)"
+          },
+          {
+            "code" : "2664726",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML"
+          },
+          {
+            "code" : "2664727",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injectable Product"
+          },
+          {
+            "code" : "2664728",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injection"
+          },
+          {
+            "code" : "2664729",
+            "display" : "0.25 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+          },
+          {
+            "code" : "2664738",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe"
+          },
+          {
+            "code" : "2664739",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Prefilled Syringe"
+          },
+          {
+            "code" : "2664742",
+            "display" : "Comirnaty 2023-2024"
+          },
+          {
+            "code" : "2664744",
+            "display" : "Comirnaty 2023-2024 Injectable Product"
+          },
+          {
+            "code" : "2664745",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664801",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664811",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2664812",
+            "display" : "Spikevax 2023-2024"
+          },
+          {
+            "code" : "2664813",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664814",
+            "display" : "Spikevax 2023-2024 Injectable Product"
+          },
+          {
+            "code" : "2664815",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664816",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Prefilled Syringe [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664817",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664819",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+          },
+          {
+            "code" : "2664820",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664821",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injection [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664822",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection [Spikevax 2023-2024]"
+          },
+          {
+            "code" : "2664825",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5)"
+          },
+          {
+            "code" : "2664826",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.01 MG/ML"
+          },
+          {
+            "code" : "2664827",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injectable Product"
+          },
+          {
+            "code" : "2664828",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injectable Suspension"
+          },
+          {
+            "code" : "2664829",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.01 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2664830",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.0333 MG/ML"
+          },
+          {
+            "code" : "2664831",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injection"
+          },
+          {
+            "code" : "2664832",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.0333 MG/ML Injection"
+          },
+          {
+            "code" : "2664835",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML"
+          },
+          {
+            "code" : "2664836",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Prefilled Syringe"
+          },
+          {
+            "code" : "2664837",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2664839",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664840",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Prefilled Syringe [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664841",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664843",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+          },
+          {
+            "code" : "2664845",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injection [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2664846",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Injection [Comirnaty 2023-2024]"
+          },
+          {
+            "code" : "2666309",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601"
+          },
+          {
+            "code" : "2666310",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 0.01 MG/ML"
+          },
+          {
+            "code" : "2666311",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 Injectable Product"
+          },
+          {
+            "code" : "2666312",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 Injectable Suspension"
+          },
+          {
+            "code" : "2666313",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 0.01 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2688626",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705"
+          },
+          {
+            "code" : "2691168",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2)"
+          },
+          {
+            "code" : "2691169",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML"
+          },
+          {
+            "code" : "2691170",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Injectable Product"
+          },
+          {
+            "code" : "2691171",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Prefilled Syringe"
+          },
+          {
+            "code" : "2691172",
+            "display" : "0.25 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2691175",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2691176",
+            "display" : "Spikevax 2024-2025"
+          },
+          {
+            "code" : "2691177",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML [Spikevax 2024-2025]"
+          },
+          {
+            "code" : "2691178",
+            "display" : "Spikevax 2024-2025 Injectable Product"
+          },
+          {
+            "code" : "2691179",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Spikevax 2024-2025]"
+          },
+          {
+            "code" : "2691180",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Prefilled Syringe [Spikevax 2024-2025]"
+          },
+          {
+            "code" : "2691181",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe [Spikevax 2024-2025]"
+          },
+          {
+            "code" : "2691184",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Injection"
+          },
+          {
+            "code" : "2691192",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2)"
+          },
+          {
+            "code" : "2691193",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.01 MG/ML"
+          },
+          {
+            "code" : "2691194",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injectable Product"
+          },
+          {
+            "code" : "2691195",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injectable Suspension"
+          },
+          {
+            "code" : "2691196",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.01 MG/ML Injectable Suspension"
+          },
+          {
+            "code" : "2691198",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.0333 MG/ML"
+          },
+          {
+            "code" : "2691199",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injection"
+          },
+          {
+            "code" : "2691200",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.0333 MG/ML Injection"
+          },
+          {
+            "code" : "2691203",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML"
+          },
+          {
+            "code" : "2691204",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Prefilled Syringe"
+          },
+          {
+            "code" : "2691205",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+          },
+          {
+            "code" : "2691207",
+            "display" : "Comirnaty 2024-2025"
+          },
+          {
+            "code" : "2691208",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691209",
+            "display" : "Comirnaty 2024-2025 Injectable Product"
+          },
+          {
+            "code" : "2691210",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691211",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Prefilled Syringe [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691212",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691215",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Injection"
+          },
+          {
+            "code" : "2691217",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691218",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injection [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2691219",
+            "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Injection [Comirnaty 2024-2025]"
+          },
+          {
+            "code" : "2692305",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 0.01 MG/ML"
+          },
+          {
+            "code" : "2692306",
+            "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Prefilled Syringe"
+          },
+          {
+            "code" : "2692307",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 Injectable Product"
+          },
+          {
+            "code" : "2692308",
+            "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 Prefilled Syringe"
+          },
+          {
+            "code" : "2692309",
+            "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 0.01 MG/ML Prefilled Syringe"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:fe12fb78-d0a9-401e-bab1-b4b1a4237635",
+    "timestamp" : "2025-11-24T13:42:40-05:00",
+    "total" : 154,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468230",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468231",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468232",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468233",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468234",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2468235",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2470232",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2470233",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2470234",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479830",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479831",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479832",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 100000000000 UNT/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479833",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479834",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2479835",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 100000000000 UNT/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2583742",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2583743",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2593843",
+        "display" : "Comirnaty"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2593844",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML [Comirnaty]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2593845",
+        "display" : "Comirnaty Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2593846",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension [Comirnaty]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2593847",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.1 MG/ML Injectable Suspension [Comirnaty]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2598699",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2598700",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.1 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2601548",
+        "display" : "Spikevax"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2601549",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML [Spikevax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2601550",
+        "display" : "Spikevax Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2601551",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injectable Suspension [Spikevax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2601552",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.2 MG/ML Injectable Suspension [Spikevax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2603832",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.015 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2603833",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.015 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606073",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606074",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606075",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606076",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606077",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2606078",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 0.01 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610243",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610319",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610321",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610324",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.05 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610326",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610327",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.05 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610328",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.05 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610346",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2610347",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.05 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.05 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2621898",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.025 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2621899",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.025 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2621900",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.025 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.025 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623376",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.025 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623377",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.025 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623378",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 0.025 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) 0.025 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623380",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.0075 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623381",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.0075 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2623382",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 0.0075 MG/ML / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) 0.0075 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646112",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2646219",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647043",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647414",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647501",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2647726",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2648878",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2655368",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Suspension [Spikevax]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2656263",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Suspension [Comirnaty]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659610",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 / SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (BA.4/BA.5) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2659646",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 / SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (BA.4/BA.5) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660462",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2660964",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2662277",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2373 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2662539",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664725",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664726",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664727",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664728",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664729",
+        "display" : "0.25 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664738",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664739",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664742",
+        "display" : "Comirnaty 2023-2024"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664744",
+        "display" : "Comirnaty 2023-2024 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664745",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664801",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664811",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664812",
+        "display" : "Spikevax 2023-2024"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664813",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664814",
+        "display" : "Spikevax 2023-2024 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664815",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664816",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Prefilled Syringe [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664817",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664819",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664820",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664821",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) Injection [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664822",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (XBB.1.5) 0.1 MG/ML Injection [Spikevax 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664825",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664826",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664827",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664828",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664829",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.01 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664830",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.0333 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664831",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664832",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.0333 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664835",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664836",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664837",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664839",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664840",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Prefilled Syringe [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664841",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Prefilled Syringe [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664843",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664845",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) Injection [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2664846",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (XBB.1.5) 0.1 MG/ML Injection [Comirnaty 2023-2024]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2666309",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2666310",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2666311",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2666312",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2666313",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2601 0.01 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2688626",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691168",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691169",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691170",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691171",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691172",
+        "display" : "0.25 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691175",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691176",
+        "display" : "Spikevax 2024-2025"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691177",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML [Spikevax 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691178",
+        "display" : "Spikevax 2024-2025 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691179",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Spikevax 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691180",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Prefilled Syringe [Spikevax 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691181",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe [Spikevax 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691184",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-1273 OMICRON (KP.2) Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691192",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2)"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691193",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691194",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691195",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691196",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.01 MG/ML Injectable Suspension"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691198",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.0333 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691199",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691200",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.0333 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691203",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691204",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691205",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691207",
+        "display" : "Comirnaty 2024-2025"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691208",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691209",
+        "display" : "Comirnaty 2024-2025 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691210",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Prefilled Syringe [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691211",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Prefilled Syringe [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691212",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Prefilled Syringe [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691215",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691217",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA spike protein Injection [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691218",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) Injection [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2691219",
+        "display" : "0.3 ML SARS-CoV-2 (COVID-19) vaccine, mRNA-BNT162b2 OMICRON (KP.2) 0.1 MG/ML Injection [Comirnaty 2024-2025]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2692305",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 0.01 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2692306",
+        "display" : "SARS-COV-2 (COVID-19) vaccine, subunit, recombinant spike protein Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2692307",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2692308",
+        "display" : "SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 Prefilled Syringe"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2692309",
+        "display" : "0.5 ML SARS-CoV-2 (COVID-19) vaccine, protein NVX-CoV2705 0.01 MG/ML Prefilled Syringe"
+      }
+    ]
+  }
+}

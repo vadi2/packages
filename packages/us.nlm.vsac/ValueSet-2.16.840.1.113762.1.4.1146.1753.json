@@ -1,0 +1,103 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1753",
+  "meta" : {
+    "versionId" : "11",
+    "lastUpdated" : "2024-06-19T01:24:11.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "StaphEnterotoxinB,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-19"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1753",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1753"
+    }
+  ],
+  "version" : "20240619",
+  "name" : "StaphylococcalEnterotoxinBPoisoningTestsForStaphAureusEnterotoxinBNucleicAcid",
+  "title" : "Staphylococcal Enterotoxin B Poisoning (Tests for Staph aureus Enterotoxin B Nucleic Acid)",
+  "status" : "active",
+  "date" : "2024-06-19T01:24:12-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains codes for laboratory test names associated with detecting the presence of  Staph aureus Enterotoxin B Nucleic Acid),(Data Element Scope: Laboratory tests names that were ordered or observed.),(Inclusion Criteria: Staph aureus Enterotoxin B Nucleic Acid),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://loinc.org",
+        "concept" : [
+          {
+            "code" : "103163-2",
+            "display" : "Staphylococcus aureus enterotoxin A + Staphylococcus aureus enterotoxin B DNA [Presence] in Wound by NAA with probe detection"
+          },
+          {
+            "code" : "44880-3",
+            "display" : "Staphylococcus aureus enterotoxin B seb gene [Presence] in Specimen by NAA with probe detection"
+          },
+          {
+            "code" : "71787-6",
+            "display" : "Staphylococcus aureus exfoliative toxin B etb gene [Presence] in Specimen by NAA with probe detection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:d5cff79f-e30c-41f9-9285-cb9e86086925",
+    "timestamp" : "2025-11-24T12:57:47-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "103163-2",
+        "display" : "Staphylococcus aureus enterotoxin A + Staphylococcus aureus enterotoxin B DNA [Presence] in Wound by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "44880-3",
+        "display" : "Staphylococcus aureus enterotoxin B seb gene [Presence] in Specimen by NAA with probe detection"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "71787-6",
+        "display" : "Staphylococcus aureus exfoliative toxin B etb gene [Presence] in Specimen by NAA with probe detection"
+      }
+    ]
+  }
+}

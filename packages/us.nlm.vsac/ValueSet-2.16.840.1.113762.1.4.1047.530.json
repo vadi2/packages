@@ -1,0 +1,159 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1047.530",
+  "meta" : {
+    "versionId" : "16",
+    "lastUpdated" : "2024-06-05T01:20:19.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "ASRS Quality Measure Development Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-05"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1047.530",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1047.530"
+    }
+  ],
+  "version" : "20240605",
+  "name" : "VitreousHemorrhage",
+  "title" : "Vitreous hemorrhage",
+  "status" : "active",
+  "date" : "2024-06-05T01:20:19-04:00",
+  "publisher" : "ASRS Quality Measure Development Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set includes concepts related to vitreous hemorrhage.),(Data Element Scope: This value set may use QDM category Diagnosis.),(Inclusion Criteria: Includes relevant concepts associated with a diagnosis of vitreous hemorrhage.),(Exclusion Criteria: No exclusions.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "104951000119106",
+            "display" : "Vitreous hemorrhage due to type 1 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "1491000119102",
+            "display" : "Vitreous hemorrhage due to type 2 diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "312910009",
+            "display" : "Vitreous hemorrhage due to diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "31341008",
+            "display" : "Vitreous hemorrhage (disorder)"
+          },
+          {
+            "code" : "331371000119103",
+            "display" : "Hemorrhage of right vitreous body (disorder)"
+          },
+          {
+            "code" : "336981000119105",
+            "display" : "Hemorrhage of left vitreous body (disorder)"
+          },
+          {
+            "code" : "343091000119103",
+            "display" : "Hemorrhage of bilateral vitreous bodies (disorder)"
+          },
+          {
+            "code" : "770361008",
+            "display" : "Vitreous hemorrhage of right eye due to diabetes mellitus (disorder)"
+          },
+          {
+            "code" : "770362001",
+            "display" : "Vitreous hemorrhage of left eye due to diabetes mellitus (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:eee5ef08-8238-426f-97f5-2fc4aacffdee",
+    "timestamp" : "2025-11-24T11:11:40-05:00",
+    "total" : 9,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "104951000119106",
+        "display" : "Vitreous hemorrhage due to type 1 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1491000119102",
+        "display" : "Vitreous hemorrhage due to type 2 diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "312910009",
+        "display" : "Vitreous hemorrhage due to diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "31341008",
+        "display" : "Vitreous hemorrhage (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "331371000119103",
+        "display" : "Hemorrhage of right vitreous body (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "336981000119105",
+        "display" : "Hemorrhage of left vitreous body (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "343091000119103",
+        "display" : "Hemorrhage of bilateral vitreous bodies (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770361008",
+        "display" : "Vitreous hemorrhage of right eye due to diabetes mellitus (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "770362001",
+        "display" : "Vitreous hemorrhage of left eye due to diabetes mellitus (disorder)"
+      }
+    ]
+  }
+}

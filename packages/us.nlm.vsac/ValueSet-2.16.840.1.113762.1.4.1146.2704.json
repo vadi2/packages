@@ -1,0 +1,333 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2704",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-06-20T01:01:16.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-20"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-20"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2704",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2704"
+    }
+  ],
+  "version" : "20250620",
+  "name" : "SexualOrientationSNOMED",
+  "title" : "Sexual Orientation (SNOMED)",
+  "status" : "active",
+  "date" : "2025-06-20T01:01:16-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The value set contains concepts that denote an individual's sexual orientation.),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: sexual orientation),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "102947004",
+            "display" : "High risk sexual behavior (finding)"
+          },
+          {
+            "code" : "105433003",
+            "display" : "Homosexual marriage (finding)"
+          },
+          {
+            "code" : "105434009",
+            "display" : "Homosexual marriage, male (finding)"
+          },
+          {
+            "code" : "105435005",
+            "display" : "Homosexual marriage, female (finding)"
+          },
+          {
+            "code" : "1064711000000108",
+            "display" : "Undecided about sexual orientation (finding)"
+          },
+          {
+            "code" : "1288017002",
+            "display" : "Heterosexual behavior (finding)"
+          },
+          {
+            "code" : "15758551000119106",
+            "display" : "High risk sexual behavior of adolescence (finding)"
+          },
+          {
+            "code" : "20430005",
+            "display" : "Heterosexual (finding)"
+          },
+          {
+            "code" : "225531006",
+            "display" : "Homosexual behavior (finding)"
+          },
+          {
+            "code" : "228471003",
+            "display" : "Heterosexual relationship (finding)"
+          },
+          {
+            "code" : "228472005",
+            "display" : "Homosexual relationship (finding)"
+          },
+          {
+            "code" : "228474006",
+            "display" : "Bisexual - predominantly heterosexual (finding)"
+          },
+          {
+            "code" : "228475007",
+            "display" : "Bisexual - predominantly homosexual (finding)"
+          },
+          {
+            "code" : "288291000119102",
+            "display" : "High risk bisexual behavior (finding)"
+          },
+          {
+            "code" : "288301000119101",
+            "display" : "High risk heterosexual behavior (finding)"
+          },
+          {
+            "code" : "288311000119103",
+            "display" : "High risk homosexual behavior (finding)"
+          },
+          {
+            "code" : "38628009",
+            "display" : "Homosexual (finding)"
+          },
+          {
+            "code" : "42035005",
+            "display" : "Bisexual (finding)"
+          },
+          {
+            "code" : "440583007",
+            "display" : "Sexual orientation unknown (finding)"
+          },
+          {
+            "code" : "51431000087101",
+            "display" : "Pansexual (finding)"
+          },
+          {
+            "code" : "76102007",
+            "display" : "Male homosexual (finding)"
+          },
+          {
+            "code" : "765285002",
+            "display" : "Sexually attracted to male sex (finding)"
+          },
+          {
+            "code" : "765286001",
+            "display" : "Sexually attracted to female sex (finding)"
+          },
+          {
+            "code" : "765287005",
+            "display" : "Sexually attracted to male and female sex (finding)"
+          },
+          {
+            "code" : "765288000",
+            "display" : "Sexually attracted to neither male nor female sex (finding)"
+          },
+          {
+            "code" : "89217008",
+            "display" : "Female homosexual (finding)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:1f28638f-87a1-470d-a0aa-34e2dfec4151",
+    "timestamp" : "2025-11-24T13:35:12-05:00",
+    "total" : 26,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "102947004",
+        "display" : "High risk sexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105433003",
+        "display" : "Homosexual marriage (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105434009",
+        "display" : "Homosexual marriage, male (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105435005",
+        "display" : "Homosexual marriage, female (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1064711000000108",
+        "display" : "Undecided about sexual orientation (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1288017002",
+        "display" : "Heterosexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15758551000119106",
+        "display" : "High risk sexual behavior of adolescence (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "20430005",
+        "display" : "Heterosexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "225531006",
+        "display" : "Homosexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228471003",
+        "display" : "Heterosexual relationship (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228472005",
+        "display" : "Homosexual relationship (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228474006",
+        "display" : "Bisexual - predominantly heterosexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "228475007",
+        "display" : "Bisexual - predominantly homosexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "288291000119102",
+        "display" : "High risk bisexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "288301000119101",
+        "display" : "High risk heterosexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "288311000119103",
+        "display" : "High risk homosexual behavior (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "38628009",
+        "display" : "Homosexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "42035005",
+        "display" : "Bisexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "440583007",
+        "display" : "Sexual orientation unknown (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51431000087101",
+        "display" : "Pansexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "76102007",
+        "display" : "Male homosexual (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765285002",
+        "display" : "Sexually attracted to male sex (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765286001",
+        "display" : "Sexually attracted to female sex (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765287005",
+        "display" : "Sexually attracted to male and female sex (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "765288000",
+        "display" : "Sexually attracted to neither male nor female sex (finding)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89217008",
+        "display" : "Female homosexual (finding)"
+      }
+    ]
+  }
+}

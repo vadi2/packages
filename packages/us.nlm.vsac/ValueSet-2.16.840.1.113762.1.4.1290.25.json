@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1290.25",
+  "meta" : {
+    "versionId" : "5",
+    "lastUpdated" : "2025-09-28T01:02:36.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "IPRO Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-09-28"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-09-28"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.25",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1290.25"
+    }
+  ],
+  "version" : "20250928",
+  "name" : "GeneTherapyForSCD",
+  "title" : "Gene Therapy for SCD",
+  "status" : "active",
+  "date" : "2025-09-28T01:02:36-04:00",
+  "publisher" : "IPRO Steward",
+  "description" : "For MCO reporting using admin data",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Cell-based gene therapies for sickle cell disease (SCD)),(Data Element Scope: gene therapies for sickle cell disease (SCD) which use gene editing like Casgevy)or gene addition like Lyfgenia),(Inclusion Criteria: codes to identify cell-based gene therapies for sickle cell disease),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.24"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1290.23"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:7a3b0e0e-4bb4-4ecb-9bc7-e50a2ddcdfa8",
+    "timestamp" : "2025-11-24T16:58:48-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2672689",
+        "display" : "lovotibeglogene autotemcel Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2672691",
+        "display" : "20 ML lovotibeglogene autotemcel 20000000 CELLS/ML Injection"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "J3392",
+        "display" : "Injection, exagamglogene autotemcel, per treatment"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "J3394",
+        "display" : "Injection, lovotibeglogene autotemcel, per treatment"
+      }
+    ]
+  }
+}

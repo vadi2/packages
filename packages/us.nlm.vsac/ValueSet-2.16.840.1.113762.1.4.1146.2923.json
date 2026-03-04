@@ -1,0 +1,2002 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2923",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES_Interim"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2923",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2923"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "HepatitisCAdditionalContextMedicationCodes",
+  "title" : "Hepatitis C Additional Context Medication Codes",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "description" : "This interim TES value set contains public health agency–provided codes. It differs from final TES value sets, which are reviewed and standardized by the RCKMS content team.",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Hepatitis C Additional Context Medication Codes),(Data Element Scope: Hepatitis C Additional Context Medication Codes),(Inclusion Criteria: Hepatitis C Additional Context Medication Codes),(Exclusion Criteria: none)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "108766",
+            "display" : "ribavirin 100 MG Oral Capsule"
+          },
+          {
+            "code" : "1102129",
+            "display" : "boceprevir"
+          },
+          {
+            "code" : "1102130",
+            "display" : "boceprevir 200 MG"
+          },
+          {
+            "code" : "1102131",
+            "display" : "boceprevir Oral Capsule"
+          },
+          {
+            "code" : "1102132",
+            "display" : "boceprevir 200 MG Oral Capsule"
+          },
+          {
+            "code" : "1102261",
+            "display" : "telaprevir"
+          },
+          {
+            "code" : "1102262",
+            "display" : "telaprevir 375 MG"
+          },
+          {
+            "code" : "1102279",
+            "display" : "telaprevir Oral Tablet"
+          },
+          {
+            "code" : "1102280",
+            "display" : "telaprevir 375 MG Oral Tablet"
+          },
+          {
+            "code" : "1155329",
+            "display" : "boceprevir Oral Product"
+          },
+          {
+            "code" : "1155330",
+            "display" : "boceprevir Pill"
+          },
+          {
+            "code" : "1160884",
+            "display" : "telaprevir Oral Product"
+          },
+          {
+            "code" : "1160885",
+            "display" : "telaprevir Pill"
+          },
+          {
+            "code" : "1165446",
+            "display" : "ribavirin Inhalant Product"
+          },
+          {
+            "code" : "1165447",
+            "display" : "ribavirin Injectable Product"
+          },
+          {
+            "code" : "1165448",
+            "display" : "ribavirin Oral Liquid Product"
+          },
+          {
+            "code" : "1165449",
+            "display" : "ribavirin Oral Product"
+          },
+          {
+            "code" : "1165450",
+            "display" : "ribavirin Pill"
+          },
+          {
+            "code" : "1184138",
+            "display" : "RibaTab Oral Product"
+          },
+          {
+            "code" : "1184139",
+            "display" : "RibaTab Pill"
+          },
+          {
+            "code" : "1184140",
+            "display" : "Ribasphere Oral Product"
+          },
+          {
+            "code" : "1184141",
+            "display" : "Ribasphere Pill"
+          },
+          {
+            "code" : "1186972",
+            "display" : "Virazole Inhalant Product"
+          },
+          {
+            "code" : "1298334",
+            "display" : "{28 (ribavirin 200 MG Oral Tablet) / 28 (ribavirin 400 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "1482790",
+            "display" : "simeprevir"
+          },
+          {
+            "code" : "1482798",
+            "display" : "simeprevir Oral Product"
+          },
+          {
+            "code" : "1482800",
+            "display" : "simeprevir Oral Capsule"
+          },
+          {
+            "code" : "1484518",
+            "display" : "simeprevir sodium"
+          },
+          {
+            "code" : "1484911",
+            "display" : "sofosbuvir"
+          },
+          {
+            "code" : "1484912",
+            "display" : "sofosbuvir 400 MG"
+          },
+          {
+            "code" : "1484913",
+            "display" : "sofosbuvir Oral Product"
+          },
+          {
+            "code" : "1484914",
+            "display" : "sofosbuvir Pill"
+          },
+          {
+            "code" : "1484915",
+            "display" : "sofosbuvir Oral Tablet"
+          },
+          {
+            "code" : "1484917",
+            "display" : "Sovaldi"
+          },
+          {
+            "code" : "1484918",
+            "display" : "sofosbuvir 400 MG [Sovaldi]"
+          },
+          {
+            "code" : "1484919",
+            "display" : "sofosbuvir Oral Tablet [Sovaldi]"
+          },
+          {
+            "code" : "1486192",
+            "display" : "Moderiba"
+          },
+          {
+            "code" : "1486193",
+            "display" : "ribavirin 400 MG [Moderiba]"
+          },
+          {
+            "code" : "1486194",
+            "display" : "ribavirin Oral Tablet [Moderiba]"
+          },
+          {
+            "code" : "1486195",
+            "display" : "Moderiba Oral Product"
+          },
+          {
+            "code" : "1486196",
+            "display" : "Moderiba Pill"
+          },
+          {
+            "code" : "1486197",
+            "display" : "ribavirin 400 MG Oral Tablet [Moderiba]"
+          },
+          {
+            "code" : "1486198",
+            "display" : "{56 (ribavirin 400 MG Oral Tablet [Moderiba]) } Pack [Moderiba 800 Dose Pack]"
+          },
+          {
+            "code" : "1486199",
+            "display" : "ribavirin 200 MG [Moderiba]"
+          },
+          {
+            "code" : "1486200",
+            "display" : "ribavirin 200 MG Oral Tablet [Moderiba]"
+          },
+          {
+            "code" : "1486201",
+            "display" : "ribavirin 600 MG [Moderiba]"
+          },
+          {
+            "code" : "1486202",
+            "display" : "ribavirin 600 MG Oral Tablet [Moderiba]"
+          },
+          {
+            "code" : "1486203",
+            "display" : "{56 (ribavirin 600 MG Oral Tablet [Moderiba]) } Pack [Moderiba 1200 Dose Pack]"
+          },
+          {
+            "code" : "1486581",
+            "display" : "Sovaldi Oral Product"
+          },
+          {
+            "code" : "1486582",
+            "display" : "Sovaldi Pill"
+          },
+          {
+            "code" : "1487498",
+            "display" : "{28 (ribavirin 200 MG Oral Tablet [Moderiba]) / 28 (ribavirin 400 MG Oral Tablet [Moderiba]) } Pack [Moderiba 600 Dose Pack]"
+          },
+          {
+            "code" : "1487500",
+            "display" : "{28 (ribavirin 400 MG Oral Tablet [Moderiba]) / 28 (ribavirin 600 MG Oral Tablet [Moderiba]) } Pack [Moderiba 1000 Dose Pack]"
+          },
+          {
+            "code" : "1591922",
+            "display" : "ledipasvir"
+          },
+          {
+            "code" : "1591938",
+            "display" : "ledipasvir 90 MG"
+          },
+          {
+            "code" : "1591939",
+            "display" : "ledipasvir / sofosbuvir Oral Product"
+          },
+          {
+            "code" : "1591940",
+            "display" : "ledipasvir / sofosbuvir Pill"
+          },
+          {
+            "code" : "1591941",
+            "display" : "ledipasvir / sofosbuvir Oral Tablet"
+          },
+          {
+            "code" : "1591942",
+            "display" : "ledipasvir / sofosbuvir"
+          },
+          {
+            "code" : "1591944",
+            "display" : "Harvoni"
+          },
+          {
+            "code" : "1591945",
+            "display" : "ledipasvir 90 MG / sofosbuvir 400 MG [Harvoni]"
+          },
+          {
+            "code" : "1591946",
+            "display" : "ledipasvir / sofosbuvir Oral Tablet [Harvoni]"
+          },
+          {
+            "code" : "1591947",
+            "display" : "Harvoni Oral Product"
+          },
+          {
+            "code" : "1591948",
+            "display" : "Harvoni Pill"
+          },
+          {
+            "code" : "1597371",
+            "display" : "ombitasvir"
+          },
+          {
+            "code" : "1597372",
+            "display" : "ombitasvir 12.5 MG"
+          },
+          {
+            "code" : "1597373",
+            "display" : "paritaprevir"
+          },
+          {
+            "code" : "1597374",
+            "display" : "paritaprevir 75 MG"
+          },
+          {
+            "code" : "1597375",
+            "display" : "ombitasvir / paritaprevir / ritonavir Oral Product"
+          },
+          {
+            "code" : "1597376",
+            "display" : "ombitasvir / paritaprevir / ritonavir Pill"
+          },
+          {
+            "code" : "1597377",
+            "display" : "ombitasvir / paritaprevir / ritonavir Oral Tablet"
+          },
+          {
+            "code" : "1597378",
+            "display" : "ombitasvir / paritaprevir / ritonavir"
+          },
+          {
+            "code" : "1597379",
+            "display" : "ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet"
+          },
+          {
+            "code" : "1597387",
+            "display" : "{2 (dasabuvir 250 MG Oral Tablet) / 2 (ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "1597388",
+            "display" : "{2 (dasabuvir 250 MG Oral Tablet) / 2 (ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet) } Pack [Viekira Pak]"
+          },
+          {
+            "code" : "1600259",
+            "display" : "dasabuvir / ombitasvir / paritaprevir / ritonavir"
+          },
+          {
+            "code" : "1600436",
+            "display" : "paritaprevir dihydrate"
+          },
+          {
+            "code" : "1600437",
+            "display" : "ombitasvir heminonahydrate"
+          },
+          {
+            "code" : "1606217",
+            "display" : "daclatasvir dihydrochloride"
+          },
+          {
+            "code" : "1606218",
+            "display" : "daclatasvir"
+          },
+          {
+            "code" : "1652103",
+            "display" : "asunaprevir"
+          },
+          {
+            "code" : "1660181",
+            "display" : "daclatasvir 30 MG"
+          },
+          {
+            "code" : "1660182",
+            "display" : "daclatasvir Oral Product"
+          },
+          {
+            "code" : "1660183",
+            "display" : "daclatasvir Pill"
+          },
+          {
+            "code" : "1660184",
+            "display" : "daclatasvir Oral Tablet"
+          },
+          {
+            "code" : "1660185",
+            "display" : "daclatasvir 30 MG Oral Tablet"
+          },
+          {
+            "code" : "1660193",
+            "display" : "daclatasvir 60 MG"
+          },
+          {
+            "code" : "1660194",
+            "display" : "daclatasvir 60 MG Oral Tablet"
+          },
+          {
+            "code" : "1734628",
+            "display" : "elbasvir"
+          },
+          {
+            "code" : "1734629",
+            "display" : "elbasvir 50 MG"
+          },
+          {
+            "code" : "1734630",
+            "display" : "grazoprevir"
+          },
+          {
+            "code" : "1734631",
+            "display" : "grazoprevir 100 MG"
+          },
+          {
+            "code" : "1734632",
+            "display" : "elbasvir / grazoprevir Oral Product"
+          },
+          {
+            "code" : "1734633",
+            "display" : "elbasvir / grazoprevir Pill"
+          },
+          {
+            "code" : "1734634",
+            "display" : "elbasvir / grazoprevir Oral Tablet"
+          },
+          {
+            "code" : "1734635",
+            "display" : "elbasvir / grazoprevir"
+          },
+          {
+            "code" : "1734637",
+            "display" : "Zepatier"
+          },
+          {
+            "code" : "1734638",
+            "display" : "elbasvir 50 MG / grazoprevir 100 MG [Zepatier]"
+          },
+          {
+            "code" : "1734639",
+            "display" : "elbasvir / grazoprevir Oral Tablet [Zepatier]"
+          },
+          {
+            "code" : "1734640",
+            "display" : "Zepatier Oral Product"
+          },
+          {
+            "code" : "1734641",
+            "display" : "Zepatier Pill"
+          },
+          {
+            "code" : "1793881",
+            "display" : "daclatasvir 90 MG"
+          },
+          {
+            "code" : "1793882",
+            "display" : "daclatasvir 90 MG Oral Tablet"
+          },
+          {
+            "code" : "1799206",
+            "display" : "velpatasvir"
+          },
+          {
+            "code" : "1799207",
+            "display" : "velpatasvir 100 MG"
+          },
+          {
+            "code" : "1799208",
+            "display" : "sofosbuvir / velpatasvir Oral Product"
+          },
+          {
+            "code" : "1799209",
+            "display" : "sofosbuvir / velpatasvir Pill"
+          },
+          {
+            "code" : "1799210",
+            "display" : "sofosbuvir / velpatasvir Oral Tablet"
+          },
+          {
+            "code" : "1799211",
+            "display" : "sofosbuvir / velpatasvir"
+          },
+          {
+            "code" : "1799213",
+            "display" : "Epclusa"
+          },
+          {
+            "code" : "1799214",
+            "display" : "sofosbuvir 400 MG / velpatasvir 100 MG [Epclusa]"
+          },
+          {
+            "code" : "1799215",
+            "display" : "sofosbuvir / velpatasvir Oral Tablet [Epclusa]"
+          },
+          {
+            "code" : "1799216",
+            "display" : "Epclusa Oral Product"
+          },
+          {
+            "code" : "1799217",
+            "display" : "Epclusa Pill"
+          },
+          {
+            "code" : "1802210",
+            "display" : "dasabuvir / ombitasvir / paritaprevir / ritonavir Oral Product"
+          },
+          {
+            "code" : "1871173",
+            "display" : "grazoprevir anhydrous"
+          },
+          {
+            "code" : "1939325",
+            "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Product"
+          },
+          {
+            "code" : "1939326",
+            "display" : "sofosbuvir / velpatasvir / voxilaprevir Pill"
+          },
+          {
+            "code" : "1939327",
+            "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Tablet"
+          },
+          {
+            "code" : "1939328",
+            "display" : "sofosbuvir / velpatasvir / voxilaprevir"
+          },
+          {
+            "code" : "1939330",
+            "display" : "Vosevi"
+          },
+          {
+            "code" : "1939331",
+            "display" : "sofosbuvir 400 MG / velpatasvir 100 MG / voxilaprevir 100 MG [Vosevi]"
+          },
+          {
+            "code" : "1939332",
+            "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Tablet [Vosevi]"
+          },
+          {
+            "code" : "1939333",
+            "display" : "Vosevi Oral Product"
+          },
+          {
+            "code" : "1939334",
+            "display" : "Vosevi Pill"
+          },
+          {
+            "code" : "204276",
+            "display" : "Virazole"
+          },
+          {
+            "code" : "207406",
+            "display" : "ribavirin 20 MG/ML Inhalation Solution [Virazole]"
+          },
+          {
+            "code" : "2108389",
+            "display" : "ribavirin Inhalation Solution"
+          },
+          {
+            "code" : "2108391",
+            "display" : "ribavirin Inhalation Solution [Virazole]"
+          },
+          {
+            "code" : "2203890",
+            "display" : "sofosbuvir 200 MG"
+          },
+          {
+            "code" : "2203892",
+            "display" : "sofosbuvir 200 MG [Sovaldi]"
+          },
+          {
+            "code" : "2203894",
+            "display" : "ledipasvir 45 MG"
+          },
+          {
+            "code" : "2203896",
+            "display" : "ledipasvir 45 MG / sofosbuvir 200 MG [Harvoni]"
+          },
+          {
+            "code" : "2203990",
+            "display" : "sofosbuvir 150 MG"
+          },
+          {
+            "code" : "2203991",
+            "display" : "sofosbuvir Pellet Product"
+          },
+          {
+            "code" : "2203992",
+            "display" : "sofosbuvir Oral Pellet"
+          },
+          {
+            "code" : "2204093",
+            "display" : "ledipasvir / sofosbuvir Pellet Product"
+          },
+          {
+            "code" : "2204094",
+            "display" : "ledipasvir / sofosbuvir Oral Pellet"
+          },
+          {
+            "code" : "2204096",
+            "display" : "ledipasvir / sofosbuvir Oral Pellet [Harvoni]"
+          },
+          {
+            "code" : "2204097",
+            "display" : "Harvoni Pellet Product"
+          },
+          {
+            "code" : "2204099",
+            "display" : "ledipasvir 33.75 MG"
+          },
+          {
+            "code" : "2204101",
+            "display" : "ledipasvir 33.75 MG / sofosbuvir 150 MG [Harvoni]"
+          },
+          {
+            "code" : "2277902",
+            "display" : "sofosbuvir 150 MG [Sovaldi]"
+          },
+          {
+            "code" : "2277903",
+            "display" : "sofosbuvir Oral Pellet [Sovaldi]"
+          },
+          {
+            "code" : "2277904",
+            "display" : "Sovaldi Pellet Product"
+          },
+          {
+            "code" : "2288813",
+            "display" : "velpatasvir 50 MG"
+          },
+          {
+            "code" : "2288815",
+            "display" : "sofosbuvir 200 MG / velpatasvir 50 MG [Epclusa]"
+          },
+          {
+            "code" : "248109",
+            "display" : "ribavirin 200 MG Oral Tablet"
+          },
+          {
+            "code" : "248110",
+            "display" : "ribavirin 100 MG/ML Injectable Solution"
+          },
+          {
+            "code" : "248112",
+            "display" : "ribavirin 40 MG/ML Oral Solution"
+          },
+          {
+            "code" : "2559844",
+            "display" : "velpatasvir 37.5 MG"
+          },
+          {
+            "code" : "2559846",
+            "display" : "sofosbuvir 150 MG / velpatasvir 37.5 MG [Epclusa]"
+          },
+          {
+            "code" : "2584194",
+            "display" : "sofosbuvir / velpatasvir Pellet Product"
+          },
+          {
+            "code" : "2584195",
+            "display" : "sofosbuvir / velpatasvir Oral Pellet"
+          },
+          {
+            "code" : "2584197",
+            "display" : "Epclusa Pellet Product"
+          },
+          {
+            "code" : "2584198",
+            "display" : "sofosbuvir / velpatasvir Oral Pellet [Epclusa]"
+          },
+          {
+            "code" : "312817",
+            "display" : "ribavirin 200 MG Oral Capsule"
+          },
+          {
+            "code" : "312818",
+            "display" : "ribavirin 20 MG/ML Inhalation Solution"
+          },
+          {
+            "code" : "332339",
+            "display" : "ribavirin 200 MG"
+          },
+          {
+            "code" : "334453",
+            "display" : "ribavirin 100 MG/ML"
+          },
+          {
+            "code" : "334454",
+            "display" : "ribavirin 40 MG/ML"
+          },
+          {
+            "code" : "340195",
+            "display" : "ribavirin 20 MG/ML"
+          },
+          {
+            "code" : "360926",
+            "display" : "ribavirin 100 MG"
+          },
+          {
+            "code" : "373772",
+            "display" : "ribavirin Oral Capsule"
+          },
+          {
+            "code" : "373773",
+            "display" : "ribavirin Oral Solution"
+          },
+          {
+            "code" : "373774",
+            "display" : "ribavirin Oral Tablet"
+          },
+          {
+            "code" : "376293",
+            "display" : "ribavirin Injectable Solution"
+          },
+          {
+            "code" : "451242",
+            "display" : "ribavirin 400 MG"
+          },
+          {
+            "code" : "539482",
+            "display" : "Ribasphere"
+          },
+          {
+            "code" : "568171",
+            "display" : "ribavirin 20 MG/ML [Virazole]"
+          },
+          {
+            "code" : "597718",
+            "display" : "ribavirin 400 MG Oral Tablet"
+          },
+          {
+            "code" : "597721",
+            "display" : "ribavirin 600 MG"
+          },
+          {
+            "code" : "597722",
+            "display" : "ribavirin 600 MG Oral Tablet"
+          },
+          {
+            "code" : "616128",
+            "display" : "ribavirin Oral Tablet [Ribasphere]"
+          },
+          {
+            "code" : "616130",
+            "display" : "ribavirin 400 MG [Ribasphere]"
+          },
+          {
+            "code" : "616131",
+            "display" : "ribavirin 400 MG Oral Tablet [Ribasphere]"
+          },
+          {
+            "code" : "616132",
+            "display" : "ribavirin 600 MG [Ribasphere]"
+          },
+          {
+            "code" : "616133",
+            "display" : "ribavirin 600 MG Oral Tablet [Ribasphere]"
+          },
+          {
+            "code" : "701408",
+            "display" : "RibaTab"
+          },
+          {
+            "code" : "701409",
+            "display" : "ribavirin 400 MG [RibaTab]"
+          },
+          {
+            "code" : "701410",
+            "display" : "ribavirin Oral Tablet [RibaTab]"
+          },
+          {
+            "code" : "701411",
+            "display" : "ribavirin 400 MG Oral Tablet [RibaTab]"
+          },
+          {
+            "code" : "701412",
+            "display" : "ribavirin 600 MG [RibaTab]"
+          },
+          {
+            "code" : "701413",
+            "display" : "ribavirin 600 MG Oral Tablet [RibaTab]"
+          },
+          {
+            "code" : "754738",
+            "display" : "{28 (ribavirin 400 MG Oral Tablet) / 28 (ribavirin 600 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "757597",
+            "display" : "{56 (ribavirin 600 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "757599",
+            "display" : "{56 (ribavirin 400 MG Oral Tablet) } Pack"
+          },
+          {
+            "code" : "790285",
+            "display" : "ribavirin 500 MG"
+          },
+          {
+            "code" : "790286",
+            "display" : "ribavirin 500 MG Oral Tablet"
+          },
+          {
+            "code" : "795743",
+            "display" : "{28 (ribavirin 400 MG Oral Tablet [RibaTab]) / 28 (ribavirin 600 MG Oral Tablet [RibaTab]) } Pack [RibaTab 1000 mg/day Compliance Pack]"
+          },
+          {
+            "code" : "847330",
+            "display" : "{56 (ribavirin 400 MG Oral Tablet [RibaTab]) } Pack [Ribatab Compliance Pack]"
+          },
+          {
+            "code" : "896790",
+            "display" : "{28 (ribavirin 400 MG Oral Tablet [Ribasphere]) / 28 (ribavirin 600 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 1000]"
+          },
+          {
+            "code" : "902312",
+            "display" : "{56 (ribavirin 400 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 800]"
+          },
+          {
+            "code" : "902313",
+            "display" : "{56 (ribavirin 600 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 1200]"
+          },
+          {
+            "code" : "9344",
+            "display" : "ribavirin"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:f1634572-d1fa-4588-93b7-6f148c473377",
+    "timestamp" : "2025-11-24T13:45:46-05:00",
+    "total" : 192,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "108766",
+        "display" : "ribavirin 100 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102129",
+        "display" : "boceprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102130",
+        "display" : "boceprevir 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102131",
+        "display" : "boceprevir Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102132",
+        "display" : "boceprevir 200 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102261",
+        "display" : "telaprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102262",
+        "display" : "telaprevir 375 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102279",
+        "display" : "telaprevir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1102280",
+        "display" : "telaprevir 375 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1155329",
+        "display" : "boceprevir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1155330",
+        "display" : "boceprevir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160884",
+        "display" : "telaprevir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1160885",
+        "display" : "telaprevir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165446",
+        "display" : "ribavirin Inhalant Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165447",
+        "display" : "ribavirin Injectable Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165448",
+        "display" : "ribavirin Oral Liquid Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165449",
+        "display" : "ribavirin Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1165450",
+        "display" : "ribavirin Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184138",
+        "display" : "RibaTab Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184139",
+        "display" : "RibaTab Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184140",
+        "display" : "Ribasphere Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1184141",
+        "display" : "Ribasphere Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1186972",
+        "display" : "Virazole Inhalant Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1298334",
+        "display" : "{28 (ribavirin 200 MG Oral Tablet) / 28 (ribavirin 400 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1482790",
+        "display" : "simeprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1482798",
+        "display" : "simeprevir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1482800",
+        "display" : "simeprevir Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484518",
+        "display" : "simeprevir sodium"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484911",
+        "display" : "sofosbuvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484912",
+        "display" : "sofosbuvir 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484913",
+        "display" : "sofosbuvir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484914",
+        "display" : "sofosbuvir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484915",
+        "display" : "sofosbuvir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484917",
+        "display" : "Sovaldi"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484918",
+        "display" : "sofosbuvir 400 MG [Sovaldi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1484919",
+        "display" : "sofosbuvir Oral Tablet [Sovaldi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486192",
+        "display" : "Moderiba"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486193",
+        "display" : "ribavirin 400 MG [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486194",
+        "display" : "ribavirin Oral Tablet [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486195",
+        "display" : "Moderiba Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486196",
+        "display" : "Moderiba Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486197",
+        "display" : "ribavirin 400 MG Oral Tablet [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486198",
+        "display" : "{56 (ribavirin 400 MG Oral Tablet [Moderiba]) } Pack [Moderiba 800 Dose Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486199",
+        "display" : "ribavirin 200 MG [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486200",
+        "display" : "ribavirin 200 MG Oral Tablet [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486201",
+        "display" : "ribavirin 600 MG [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486202",
+        "display" : "ribavirin 600 MG Oral Tablet [Moderiba]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486203",
+        "display" : "{56 (ribavirin 600 MG Oral Tablet [Moderiba]) } Pack [Moderiba 1200 Dose Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486581",
+        "display" : "Sovaldi Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1486582",
+        "display" : "Sovaldi Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1487498",
+        "display" : "{28 (ribavirin 200 MG Oral Tablet [Moderiba]) / 28 (ribavirin 400 MG Oral Tablet [Moderiba]) } Pack [Moderiba 600 Dose Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1487500",
+        "display" : "{28 (ribavirin 400 MG Oral Tablet [Moderiba]) / 28 (ribavirin 600 MG Oral Tablet [Moderiba]) } Pack [Moderiba 1000 Dose Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591922",
+        "display" : "ledipasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591938",
+        "display" : "ledipasvir 90 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591939",
+        "display" : "ledipasvir / sofosbuvir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591940",
+        "display" : "ledipasvir / sofosbuvir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591941",
+        "display" : "ledipasvir / sofosbuvir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591942",
+        "display" : "ledipasvir / sofosbuvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591944",
+        "display" : "Harvoni"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591945",
+        "display" : "ledipasvir 90 MG / sofosbuvir 400 MG [Harvoni]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591946",
+        "display" : "ledipasvir / sofosbuvir Oral Tablet [Harvoni]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591947",
+        "display" : "Harvoni Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1591948",
+        "display" : "Harvoni Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597371",
+        "display" : "ombitasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597372",
+        "display" : "ombitasvir 12.5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597373",
+        "display" : "paritaprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597374",
+        "display" : "paritaprevir 75 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597375",
+        "display" : "ombitasvir / paritaprevir / ritonavir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597376",
+        "display" : "ombitasvir / paritaprevir / ritonavir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597377",
+        "display" : "ombitasvir / paritaprevir / ritonavir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597378",
+        "display" : "ombitasvir / paritaprevir / ritonavir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597379",
+        "display" : "ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597387",
+        "display" : "{2 (dasabuvir 250 MG Oral Tablet) / 2 (ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1597388",
+        "display" : "{2 (dasabuvir 250 MG Oral Tablet) / 2 (ombitasvir 12.5 MG / paritaprevir 75 MG / ritonavir 50 MG Oral Tablet) } Pack [Viekira Pak]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1600259",
+        "display" : "dasabuvir / ombitasvir / paritaprevir / ritonavir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1600436",
+        "display" : "paritaprevir dihydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1600437",
+        "display" : "ombitasvir heminonahydrate"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1606217",
+        "display" : "daclatasvir dihydrochloride"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1606218",
+        "display" : "daclatasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1652103",
+        "display" : "asunaprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660181",
+        "display" : "daclatasvir 30 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660182",
+        "display" : "daclatasvir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660183",
+        "display" : "daclatasvir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660184",
+        "display" : "daclatasvir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660185",
+        "display" : "daclatasvir 30 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660193",
+        "display" : "daclatasvir 60 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1660194",
+        "display" : "daclatasvir 60 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734628",
+        "display" : "elbasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734629",
+        "display" : "elbasvir 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734630",
+        "display" : "grazoprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734631",
+        "display" : "grazoprevir 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734632",
+        "display" : "elbasvir / grazoprevir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734633",
+        "display" : "elbasvir / grazoprevir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734634",
+        "display" : "elbasvir / grazoprevir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734635",
+        "display" : "elbasvir / grazoprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734637",
+        "display" : "Zepatier"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734638",
+        "display" : "elbasvir 50 MG / grazoprevir 100 MG [Zepatier]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734639",
+        "display" : "elbasvir / grazoprevir Oral Tablet [Zepatier]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734640",
+        "display" : "Zepatier Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1734641",
+        "display" : "Zepatier Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1793881",
+        "display" : "daclatasvir 90 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1793882",
+        "display" : "daclatasvir 90 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799206",
+        "display" : "velpatasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799207",
+        "display" : "velpatasvir 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799208",
+        "display" : "sofosbuvir / velpatasvir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799209",
+        "display" : "sofosbuvir / velpatasvir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799210",
+        "display" : "sofosbuvir / velpatasvir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799211",
+        "display" : "sofosbuvir / velpatasvir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799213",
+        "display" : "Epclusa"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799214",
+        "display" : "sofosbuvir 400 MG / velpatasvir 100 MG [Epclusa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799215",
+        "display" : "sofosbuvir / velpatasvir Oral Tablet [Epclusa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799216",
+        "display" : "Epclusa Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1799217",
+        "display" : "Epclusa Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1802210",
+        "display" : "dasabuvir / ombitasvir / paritaprevir / ritonavir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1871173",
+        "display" : "grazoprevir anhydrous"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939325",
+        "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939326",
+        "display" : "sofosbuvir / velpatasvir / voxilaprevir Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939327",
+        "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939328",
+        "display" : "sofosbuvir / velpatasvir / voxilaprevir"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939330",
+        "display" : "Vosevi"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939331",
+        "display" : "sofosbuvir 400 MG / velpatasvir 100 MG / voxilaprevir 100 MG [Vosevi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939332",
+        "display" : "sofosbuvir / velpatasvir / voxilaprevir Oral Tablet [Vosevi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939333",
+        "display" : "Vosevi Oral Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1939334",
+        "display" : "Vosevi Pill"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "204276",
+        "display" : "Virazole"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "207406",
+        "display" : "ribavirin 20 MG/ML Inhalation Solution [Virazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2108389",
+        "display" : "ribavirin Inhalation Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2108391",
+        "display" : "ribavirin Inhalation Solution [Virazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203890",
+        "display" : "sofosbuvir 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203892",
+        "display" : "sofosbuvir 200 MG [Sovaldi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203894",
+        "display" : "ledipasvir 45 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203896",
+        "display" : "ledipasvir 45 MG / sofosbuvir 200 MG [Harvoni]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203990",
+        "display" : "sofosbuvir 150 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203991",
+        "display" : "sofosbuvir Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2203992",
+        "display" : "sofosbuvir Oral Pellet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204093",
+        "display" : "ledipasvir / sofosbuvir Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204094",
+        "display" : "ledipasvir / sofosbuvir Oral Pellet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204096",
+        "display" : "ledipasvir / sofosbuvir Oral Pellet [Harvoni]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204097",
+        "display" : "Harvoni Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204099",
+        "display" : "ledipasvir 33.75 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2204101",
+        "display" : "ledipasvir 33.75 MG / sofosbuvir 150 MG [Harvoni]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2277902",
+        "display" : "sofosbuvir 150 MG [Sovaldi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2277903",
+        "display" : "sofosbuvir Oral Pellet [Sovaldi]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2277904",
+        "display" : "Sovaldi Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2288813",
+        "display" : "velpatasvir 50 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2288815",
+        "display" : "sofosbuvir 200 MG / velpatasvir 50 MG [Epclusa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "248109",
+        "display" : "ribavirin 200 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "248110",
+        "display" : "ribavirin 100 MG/ML Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "248112",
+        "display" : "ribavirin 40 MG/ML Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2559844",
+        "display" : "velpatasvir 37.5 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2559846",
+        "display" : "sofosbuvir 150 MG / velpatasvir 37.5 MG [Epclusa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2584194",
+        "display" : "sofosbuvir / velpatasvir Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2584195",
+        "display" : "sofosbuvir / velpatasvir Oral Pellet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2584197",
+        "display" : "Epclusa Pellet Product"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "2584198",
+        "display" : "sofosbuvir / velpatasvir Oral Pellet [Epclusa]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312817",
+        "display" : "ribavirin 200 MG Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "312818",
+        "display" : "ribavirin 20 MG/ML Inhalation Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "332339",
+        "display" : "ribavirin 200 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "334453",
+        "display" : "ribavirin 100 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "334454",
+        "display" : "ribavirin 40 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "340195",
+        "display" : "ribavirin 20 MG/ML"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "360926",
+        "display" : "ribavirin 100 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373772",
+        "display" : "ribavirin Oral Capsule"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373773",
+        "display" : "ribavirin Oral Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "373774",
+        "display" : "ribavirin Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "376293",
+        "display" : "ribavirin Injectable Solution"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "451242",
+        "display" : "ribavirin 400 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "539482",
+        "display" : "Ribasphere"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "568171",
+        "display" : "ribavirin 20 MG/ML [Virazole]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597718",
+        "display" : "ribavirin 400 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597721",
+        "display" : "ribavirin 600 MG"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "597722",
+        "display" : "ribavirin 600 MG Oral Tablet"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "616128",
+        "display" : "ribavirin Oral Tablet [Ribasphere]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "616130",
+        "display" : "ribavirin 400 MG [Ribasphere]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "616131",
+        "display" : "ribavirin 400 MG Oral Tablet [Ribasphere]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "616132",
+        "display" : "ribavirin 600 MG [Ribasphere]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "616133",
+        "display" : "ribavirin 600 MG Oral Tablet [Ribasphere]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701408",
+        "display" : "RibaTab"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701409",
+        "display" : "ribavirin 400 MG [RibaTab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701410",
+        "display" : "ribavirin Oral Tablet [RibaTab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701411",
+        "display" : "ribavirin 400 MG Oral Tablet [RibaTab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701412",
+        "display" : "ribavirin 600 MG [RibaTab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "701413",
+        "display" : "ribavirin 600 MG Oral Tablet [RibaTab]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "754738",
+        "display" : "{28 (ribavirin 400 MG Oral Tablet) / 28 (ribavirin 600 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757597",
+        "display" : "{56 (ribavirin 600 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "757599",
+        "display" : "{56 (ribavirin 400 MG Oral Tablet) } Pack"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "795743",
+        "display" : "{28 (ribavirin 400 MG Oral Tablet [RibaTab]) / 28 (ribavirin 600 MG Oral Tablet [RibaTab]) } Pack [RibaTab 1000 mg/day Compliance Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "847330",
+        "display" : "{56 (ribavirin 400 MG Oral Tablet [RibaTab]) } Pack [Ribatab Compliance Pack]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "896790",
+        "display" : "{28 (ribavirin 400 MG Oral Tablet [Ribasphere]) / 28 (ribavirin 600 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 1000]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "902312",
+        "display" : "{56 (ribavirin 400 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 800]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "902313",
+        "display" : "{56 (ribavirin 600 MG Oral Tablet [Ribasphere]) } Pack [Ribasphere RibaPak 1200]"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "9344",
+        "display" : "ribavirin"
+      }
+    ]
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.2971",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-10T01:04:17.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "TES"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-10"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.2971",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.2971"
+    }
+  ],
+  "version" : "20251010",
+  "name" : "BlindnessSNOMED",
+  "title" : "Blindness (SNOMED)",
+  "status" : "active",
+  "date" : "2025-10-10T01:04:17-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains diagnoses or problems that represent that the patient has Blindness regardless of the clinical presentation of the condition),(Data Element Scope: Diagnoses or problems documented in a clinical record),(Inclusion Criteria: Blindness),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "105597003",
+            "display" : "Blindness AND/OR vision impairment level (disorder)"
+          },
+          {
+            "code" : "15913031000119100",
+            "display" : "Cortical blindness of bilateral sides of brain (disorder)"
+          },
+          {
+            "code" : "193413001",
+            "display" : "Leber's amaurosis (disorder)"
+          },
+          {
+            "code" : "193699007",
+            "display" : "Blindness - both eyes (disorder)"
+          },
+          {
+            "code" : "193709009",
+            "display" : "Acquired blindness of bilateral eyes (disorder)"
+          },
+          {
+            "code" : "230236008",
+            "display" : "Olivopontocerebellar atrophy with blindness (disorder)"
+          },
+          {
+            "code" : "232061009",
+            "display" : "Congenital stationary night blindness (disorder)"
+          },
+          {
+            "code" : "342741000119103",
+            "display" : "Cortical blindness of right side of brain (disorder)"
+          },
+          {
+            "code" : "342751000119101",
+            "display" : "Cortical blindness of left side of brain (disorder)"
+          },
+          {
+            "code" : "39139002",
+            "display" : "Central blindness (disorder)"
+          },
+          {
+            "code" : "399323001",
+            "display" : "Day blindness (disorder)"
+          },
+          {
+            "code" : "53808001",
+            "display" : "Acquired night blindness (disorder)"
+          },
+          {
+            "code" : "65194006",
+            "display" : "Night blindness (disorder)"
+          },
+          {
+            "code" : "68574006",
+            "display" : "Cortical blindness (disorder)"
+          },
+          {
+            "code" : "70449006",
+            "display" : "Amaurosis (disorder)"
+          },
+          {
+            "code" : "829979008",
+            "display" : "Complete blindness of right eye (disorder)"
+          },
+          {
+            "code" : "829980006",
+            "display" : "Complete blindness of left eye (disorder)"
+          },
+          {
+            "code" : "830270002",
+            "display" : "Complete pinhole blindness of left eye (disorder)"
+          },
+          {
+            "code" : "830271003",
+            "display" : "Complete pinhole blindness of right eye (disorder)"
+          },
+          {
+            "code" : "83785004",
+            "display" : "Transient blindness (disorder)"
+          },
+          {
+            "code" : "88032003",
+            "display" : "Amaurosis fugax (disorder)"
+          },
+          {
+            "code" : "88902008",
+            "display" : "Dissociative blindness (disorder)"
+          },
+          {
+            "code" : "95486002",
+            "display" : "Congenital blindness (disorder)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:807bd746-78bc-412c-9398-e4b5c611dc0a",
+    "timestamp" : "2025-11-24T13:48:21-05:00",
+    "total" : 23,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "105597003",
+        "display" : "Blindness AND/OR vision impairment level (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "15913031000119100",
+        "display" : "Cortical blindness of bilateral sides of brain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193413001",
+        "display" : "Leber's amaurosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193699007",
+        "display" : "Blindness - both eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "193709009",
+        "display" : "Acquired blindness of bilateral eyes (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "230236008",
+        "display" : "Olivopontocerebellar atrophy with blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "232061009",
+        "display" : "Congenital stationary night blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342741000119103",
+        "display" : "Cortical blindness of right side of brain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "342751000119101",
+        "display" : "Cortical blindness of left side of brain (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "39139002",
+        "display" : "Central blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "399323001",
+        "display" : "Day blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "53808001",
+        "display" : "Acquired night blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "65194006",
+        "display" : "Night blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "68574006",
+        "display" : "Cortical blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "70449006",
+        "display" : "Amaurosis (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "829979008",
+        "display" : "Complete blindness of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "829980006",
+        "display" : "Complete blindness of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "830270002",
+        "display" : "Complete pinhole blindness of left eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "830271003",
+        "display" : "Complete pinhole blindness of right eye (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "83785004",
+        "display" : "Transient blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "88032003",
+        "display" : "Amaurosis fugax (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "88902008",
+        "display" : "Dissociative blindness (disorder)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "95486002",
+        "display" : "Congenital blindness (disorder)"
+      }
+    ]
+  }
+}

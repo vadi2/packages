@@ -1,0 +1,213 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1235.458",
+  "meta" : {
+    "versionId" : "10",
+    "lastUpdated" : "2024-06-21T01:25:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "B.well Connected Health Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.458",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1235.458"
+    }
+  ],
+  "version" : "20240621",
+  "name" : "Bwell_Vital_RespiratoryRate_ClinicalGroupingEvent",
+  "title" : "bwell_Vital_Respiratory Rate_Clinical Grouping Event",
+  "status" : "active",
+  "date" : "2024-06-21T01:25:03-04:00",
+  "publisher" : "B.well Connected Health Steward",
+  "description" : "b.well created value set by Sr. Clinical Business Analyst for the Respiratory Rate_Clinical Grouping Lab",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set's intent is to define the clinical codes that constitute the Respiratory Rate_Clinical Grouping and utilization in patients/users connected health.),(Data Element Scope: This value set's intent is to define the clinical codes that constitute the Respiratory Rate_Clinical Grouping and utilization in patients/users connected health.),(Inclusion Criteria: This value set's intent is to define the clinical codes that constitute the Respiratory Rate_Clinical Grouping and utilization in patients/users connected health.),(Exclusion Criteria: This value set's intent is to define the clinical codes that constitute the Respiratory Rate_Clinical Grouping and utilization in patients/users connected health.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.446"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1235.516"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:0c5adb3e-a601-40e9-a435-aa5bb23bb590",
+    "timestamp" : "2025-11-24T15:50:21-05:00",
+    "total" : 23,
+    "contains" : [
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "11291-2",
+        "display" : "Respiratory rate at First encounter"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "250810003",
+        "display" : "Total breath rate (observable entity)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "271625008",
+        "display" : "Rate of spontaneous respiration (observable entity)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "40441-8",
+        "display" : "Respiratory rate --post exercise"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76170-0",
+        "display" : "Respiratory rate by Acoustic measurement"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76171-8",
+        "display" : "Respiratory rate by Airway flow measurement"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76173-4",
+        "display" : "Respiratory rate by Non-airway pressure measurement"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76174-2",
+        "display" : "Respiratory rate by Pulse oximetry.plethysmograph"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76270-8",
+        "display" : "Respiratory rate by Impedance.transthoracic"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "76528-9",
+        "display" : "Breath rate spontaneous"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "86290005",
+        "display" : "Respiratory rate (observable entity)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89274-5",
+        "display" : "Respiratory rate --W exercise"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "89279-4",
+        "display" : "Respiratory rate --during anesthesia"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9279-1",
+        "display" : "Respiratory rate"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9295-7",
+        "display" : "Respiratory rate --post bronchoscopy"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9296-5",
+        "display" : "Respiratory rate --post cardioversion"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9297-3",
+        "display" : "Respiratory rate --post conscious sedation"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9298-1",
+        "display" : "Respiratory rate --post inhalation therapy"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9299-9",
+        "display" : "Respiratory rate --pre bronchoscopy"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9300-5",
+        "display" : "Respiratory rate --pre cardioversion"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9301-3",
+        "display" : "Respiratory rate --pre conscious sedation"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9302-1",
+        "display" : "Respiratory rate --pre inhalation therapy"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "9303-9",
+        "display" : "Respiratory rate --resting"
+      }
+    ]
+  }
+}

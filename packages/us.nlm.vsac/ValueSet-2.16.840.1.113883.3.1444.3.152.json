@@ -1,0 +1,110 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.3.152",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-04-08"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2021-03-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.152",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.3.152"
+    }
+  ],
+  "version" : "20210306",
+  "name" : "OlanzapineInjectable",
+  "title" : "Olanzapine Injectable",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-06T01:00:21-05:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of medication Olanzapine.),(Data Element Scope: This value set may use a model element related to Medication.),(Inclusion Criteria: Includes concepts that represent a medication Olanzapine; generic; prescribable; injectable.),(Exclusion Criteria: Excludes concepts that represent non-prescribable branded drugs, components or ingredients.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1718925",
+            "display" : "olanzapine 405 MG Injection"
+          },
+          {
+            "code" : "1718930",
+            "display" : "olanzapine 300 MG Injection"
+          },
+          {
+            "code" : "1718934",
+            "display" : "olanzapine 210 MG Injection"
+          },
+          {
+            "code" : "485968",
+            "display" : "olanzapine 10 MG Injection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:8b52964d-c202-4e9c-86af-bb7c1f19fd8e",
+    "timestamp" : "2025-11-24T18:11:41-05:00",
+    "total" : 4,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718925",
+        "display" : "olanzapine 405 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718930",
+        "display" : "olanzapine 300 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1718934",
+        "display" : "olanzapine 210 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "485968",
+        "display" : "olanzapine 10 MG Injection"
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1170.40",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2025-08-13T01:15:08.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Yale Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-08-13"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-08-13"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1170.40",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1170.40"
+    }
+  ],
+  "version" : "20250813",
+  "name" : "AdvanceCarePlanningDocumentation",
+  "title" : "Advance Care Planning Documentation",
+  "status" : "active",
+  "date" : "2025-08-13T01:15:08-04:00",
+  "publisher" : "Yale",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: CPT Codes used for documenting advance care planning discussion concepts),(Data Element Scope: CPT Codes used for documenting advance care planning discussion concepts),(Inclusion Criteria: CPT Codes used for documenting advance care planning discussion concepts),(Exclusion Criteria: Codes other than CPT Codes used for documenting advance care planning discussion concepts are not included.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "concept" : [
+          {
+            "code" : "1123F",
+            "display" : "Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)"
+          },
+          {
+            "code" : "1124F",
+            "display" : "Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)"
+          },
+          {
+            "code" : "1158F",
+            "display" : "Advance care planning discussion documented in the medical record (COA)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9c32d10f-4f3e-4c60-a937-44b4e555bbae",
+    "timestamp" : "2025-11-24T14:20:07-05:00",
+    "total" : 3,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1123F",
+        "display" : "Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1124F",
+        "display" : "Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1158F",
+        "display" : "Advance care planning discussion documented in the medical record (COA)"
+      }
+    ]
+  }
+}

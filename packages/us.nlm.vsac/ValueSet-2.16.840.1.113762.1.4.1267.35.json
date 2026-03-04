@@ -1,0 +1,258 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1267.35",
+  "meta" : {
+    "versionId" : "7",
+    "lastUpdated" : "2025-10-29T01:08:00.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "HL7 US Realm Program Management Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-10-29"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-10-29"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1267.35",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1267.35"
+    }
+  ],
+  "version" : "20251029",
+  "name" : "PortableMedicalOrdersDetailedCategoriesAndInterventions",
+  "title" : "Portable Medical Orders – Detailed Categories and Interventions",
+  "status" : "active",
+  "date" : "2025-10-29T01:08:00-04:00",
+  "publisher" : "HL7 US Realm Program Management Steward",
+  "description" : "In VSAC, Grouping Value Sets cannot include other Grouping Value Sets. Therefore, although this set is equivalent in content to the PACIO Grouping Value Sets for PMO orders, it must instead be constructed using the individual member sets contained within those Grouping sets (see the “Grouping Members” section on the Value Set Details tab).",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Concepts that represent system-instantiated orders and associated interventions derived from a Portable Medical Order (PMO) form, such as POLST or MOLST.),(Data Element Scope: ncludes SNOMED CT and LOINC codes representing categories and detailed types of system instanciated medical orders derived from a PMO form.),(Inclusion Criteria: This Grouped set is comprised of PACIO defined PMO related order type value sets: \nCardiopulmonary Resuscitation Procedures Grouping \nInitial Treatment Portable Medical Order Procedures Grouping\nMedically Assisted Nutrition Portable Medical Order Procedures Grouping),(Exclusion Criteria: Other value sets and codes not typically associated with end of life decisions.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.28"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.30"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.27"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.32"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1115.35"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:c5a57a4a-9629-4297-af79-8bd21a669a35",
+    "timestamp" : "2025-11-24T16:54:21-05:00",
+    "total" : 28,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "108241001",
+        "display" : "Dialysis procedure (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "11140008",
+        "display" : "Respiratory assist, manual (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "112798008",
+        "display" : "Insertion of endotracheal tube (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "116859006",
+        "display" : "Transfusion of blood product (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "1258985005",
+        "display" : "Invasive mechanical ventilation (regime/therapy)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "281789004",
+        "display" : "Antibiotic therapy (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "306237005",
+        "display" : "Referral to palliative care service (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "40617009",
+        "display" : "Artificial ventilation (regime/therapy)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "424282004",
+        "display" : "Trial for daily interruption of sedation during mechanically assisted ventilation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "428311008",
+        "display" : "Non-invasive ventilation (regime/therapy)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "429202003",
+        "display" : "Transfer of care to hospital (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "430191008",
+        "display" : "Management of noninvasive mechanical ventilation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "431267001",
+        "display" : "Advanced cardiac life support (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "441893003",
+        "display" : "Active compression decompression cardiopulmonary resuscitation with use of inspiratory impedance threshold device (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "52765003",
+        "display" : "Intubation (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713400007",
+        "display" : "Referral to medical rapid response team (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "739123003",
+        "display" : "European Resuscitation Council advanced life support protocol (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "741679001",
+        "display" : "American Heart Association advanced cardiac life support protocol (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "89666000",
+        "display" : "Cardiopulmonary resuscitation (procedure)"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33470-8",
+        "display" : "Yes CPR"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33471-6",
+        "display" : "No CPR: Do Not Attempt Resuscitation."
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33473-2",
+        "display" : "Full treatments"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33474-0",
+        "display" : "Selective treatments"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33475-7",
+        "display" : "Comfort-focused treatments"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33489-8",
+        "display" : "Provide feeding through new or existing surgically-placed tubes"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33490-6",
+        "display" : "Trial period for artificial nutrition but no surgically-placed tubes"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33491-4",
+        "display" : "No artificial means of nutrition desired"
+      },
+      {
+        "system" : "http://loinc.org",
+        "version" : "2.80",
+        "code" : "LA33492-2",
+        "display" : "Not discussed or no decision made (provide standard of care)"
+      }
+    ]
+  }
+}

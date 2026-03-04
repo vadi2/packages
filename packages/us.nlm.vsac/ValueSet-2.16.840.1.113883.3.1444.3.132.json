@@ -1,0 +1,120 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113883.3.1444.3.132",
+  "meta" : {
+    "versionId" : "6",
+    "lastUpdated" : "2023-12-21T17:43:03.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "American Society of Clinical Oncology Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-11-10"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2021-03-06"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.1444.3.132",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113883.3.1444.3.132"
+    }
+  ],
+  "version" : "20210306",
+  "name" : "OxaliplatinInjectable",
+  "title" : "Oxaliplatin Injectable",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-06T01:00:27-05:00",
+  "publisher" : "American Society of Clinical Oncology Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: The purpose of this value set is to represent concepts of medication Oxaliplatin.),(Data Element Scope: This value set may use a model element related to Medication.),(Inclusion Criteria: Includes concepts that represent a medication Oxaliplatin; generic; prescribable; injectable.),(Exclusion Criteria: Excludes concepts that represent non-prescribable branded drugs, components or ingredients.)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "concept" : [
+          {
+            "code" : "1736776",
+            "display" : "10 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1736781",
+            "display" : "20 ML oxaliplatin 5 MG/ML Injection"
+          },
+          {
+            "code" : "1736784",
+            "display" : "oxaliplatin 50 MG Injection"
+          },
+          {
+            "code" : "1736786",
+            "display" : "oxaliplatin 100 MG Injection"
+          },
+          {
+            "code" : "1797528",
+            "display" : "40 ML oxaliplatin 5 MG/ML Injection"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:133bbc74-7bd4-4e1c-9411-5316eb981e7e",
+    "timestamp" : "2025-11-24T18:10:54-05:00",
+    "total" : 5,
+    "contains" : [
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736776",
+        "display" : "10 ML oxaliplatin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736781",
+        "display" : "20 ML oxaliplatin 5 MG/ML Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736784",
+        "display" : "oxaliplatin 50 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1736786",
+        "display" : "oxaliplatin 100 MG Injection"
+      },
+      {
+        "system" : "http://www.nlm.nih.gov/research/umls/rxnorm",
+        "version" : "09022025",
+        "code" : "1797528",
+        "display" : "40 ML oxaliplatin 5 MG/ML Injection"
+      }
+    ]
+  }
+}

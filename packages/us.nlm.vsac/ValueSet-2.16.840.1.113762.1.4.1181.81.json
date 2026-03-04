@@ -1,0 +1,89 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1181.81",
+  "meta" : {
+    "versionId" : "12",
+    "lastUpdated" : "2024-06-21T01:25:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Nursing Informatics Group Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-05"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1181.81",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1181.81"
+    }
+  ],
+  "version" : "20240621",
+  "name" : "PainSpeedOfOnsetReferenceSet",
+  "title" : "Pain speed of onset reference set",
+  "status" : "active",
+  "date" : "2024-06-21T01:25:03-04:00",
+  "publisher" : "Nursing Informatics Group Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: Pain speed of onset value set as defined by the Clinical Information Modeling Initiative.),(Data Element Scope: The purpose of this refset is to document the rate at which pain occurred. Resulting LOINC code 38203-6 \"Speed of pain onset Reported\", resulting the SNOMED CT concept: Pain speed of onset reference set (foundation metadata concept)\n 24231000205103.),(Inclusion Criteria: ),(Exclusion Criteria: )",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "385315009",
+            "display" : "Sudden onset (qualifier value)"
+          },
+          {
+            "code" : "61751001",
+            "display" : "Gradual onset (qualifier value)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:51f9c329-d814-4d7b-bb29-578c167f207e",
+    "timestamp" : "2025-11-24T14:26:55-05:00",
+    "total" : 2,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "385315009",
+        "display" : "Sudden onset (qualifier value)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "61751001",
+        "display" : "Gradual onset (qualifier value)"
+      }
+    ]
+  }
+}

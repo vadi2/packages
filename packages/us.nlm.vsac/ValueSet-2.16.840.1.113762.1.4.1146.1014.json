@@ -1,0 +1,133 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1146.1014",
+  "meta" : {
+    "versionId" : "15",
+    "lastUpdated" : "2025-06-21T01:03:03.000-04:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "CSTE Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-keyWord",
+      "valueString" : "G_Enteric,Paratyphi,Trigger"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2025-06-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2025-06-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1146.1014",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1146.1014"
+    }
+  ],
+  "version" : "20250621",
+  "name" : "SParatyphiInfectionOrganismOrSubstanceInLabResults",
+  "title" : "S. Paratyphi Infection (Organism or Substance in Lab Results)",
+  "status" : "active",
+  "date" : "2025-06-21T01:03:03-04:00",
+  "publisher" : "CSTE Steward",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This set of values contains organism names or substances associated with S. Paratyphi Infection.),(Data Element Scope: Organism names or substances reported in laboratory results),(Inclusion Criteria: VSAC query: Salmonella paratyphi (organism);  \nNucleic acid and antigen substances),(Exclusion Criteria: None)",
+  "compose" : {
+    "include" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "concept" : [
+          {
+            "code" : "128388007",
+            "display" : "Salmonella Paratyphi B var. Java (organism)"
+          },
+          {
+            "code" : "32488009",
+            "display" : "Salmonella Paratyphi C (organism)"
+          },
+          {
+            "code" : "51171000087109",
+            "display" : "Extended spectrum beta-lactamase producing Salmonella Paratyphi A (organism)"
+          },
+          {
+            "code" : "79128009",
+            "display" : "Salmonella Paratyphi A (organism)"
+          },
+          {
+            "code" : "840687007",
+            "display" : "Multidrug-resistant Salmonella paratyphi (organism)"
+          },
+          {
+            "code" : "85908006",
+            "display" : "Salmonella Paratyphi B (organism)"
+          }
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:9083ae37-f4ae-4a87-b7ed-b654b626ef5b",
+    "timestamp" : "2025-11-24T12:43:13-05:00",
+    "total" : 6,
+    "contains" : [
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "128388007",
+        "display" : "Salmonella Paratyphi B var. Java (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "32488009",
+        "display" : "Salmonella Paratyphi C (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "51171000087109",
+        "display" : "Extended spectrum beta-lactamase producing Salmonella Paratyphi A (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "79128009",
+        "display" : "Salmonella Paratyphi A (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "840687007",
+        "display" : "Multidrug-resistant Salmonella paratyphi (organism)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "85908006",
+        "display" : "Salmonella Paratyphi B (organism)"
+      }
+    ]
+  }
+}

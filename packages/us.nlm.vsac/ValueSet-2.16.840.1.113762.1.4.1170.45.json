@@ -1,0 +1,127 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2.16.840.1.113762.1.4.1170.45",
+  "meta" : {
+    "versionId" : "14",
+    "lastUpdated" : "2024-11-21T01:07:41.000-05:00",
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/computable-valueset-cqfm",
+      "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-valueset-cqfm"
+    ]
+  },
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-author",
+      "valueContactDetail" : {
+        "name" : "Yale Author"
+      }
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/resource-lastReviewDate",
+      "valueDate" : "2024-11-21"
+    },
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-effectiveDate",
+      "valueDate" : "2024-11-21"
+    }
+  ],
+  "url" : "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1170.45",
+  "identifier" : [
+    {
+      "system" : "urn:ietf:rfc:3986",
+      "value" : "urn:oid:2.16.840.1.113762.1.4.1170.45"
+    }
+  ],
+  "version" : "20241121",
+  "name" : "AdvanceCarePlanningDocumentation",
+  "title" : "Advance Care Planning Documentation",
+  "status" : "active",
+  "date" : "2024-11-21T01:07:41-05:00",
+  "publisher" : "Yale",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "US"
+        }
+      ]
+    }
+  ],
+  "purpose" : "(Clinical Focus: This value set contains concepts that represent advance care planning documentation.),(Data Element Scope: This value set may use the Quality Data Model category related to documentation.),(Inclusion Criteria: Includes only relevant concepts associated with advance care planning documentation),(Exclusion Criteria: Excludes concepts that pertain to any type of documentation other than for advance care planning.)",
+  "compose" : {
+    "include" : [
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1170.38"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1170.41"
+        ]
+      },
+      {
+        "valueSet" : [
+          "http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1170.40"
+        ]
+      }
+    ]
+  },
+  "expansion" : {
+    "identifier" : "urn:uuid:a90ff818-c06b-4f46-964e-9ce668f536c5",
+    "timestamp" : "2025-11-24T14:20:17-05:00",
+    "total" : 8,
+    "contains" : [
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1123F",
+        "display" : "Advance Care Planning discussed and documented advance care plan or surrogate decision maker documented in the medical record (DEM) (GER, Pall Cr)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1124F",
+        "display" : "Advance Care Planning discussed and documented in the medical record, patient did not wish or was not able to name a surrogate decision maker or provide an advance care plan (DEM) (GER, Pall Cr)"
+      },
+      {
+        "system" : "http://www.ama-assn.org/go/cpt",
+        "version" : "2026",
+        "code" : "1158F",
+        "display" : "Advance care planning discussion documented in the medical record (COA)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713580008",
+        "display" : "Review of advance care plan (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713600001",
+        "display" : "Agreement on advance care plan (procedure)"
+      },
+      {
+        "system" : "http://snomed.info/sct",
+        "version" : "http://snomed.info/sct/731000124108/version/20250901",
+        "code" : "713603004",
+        "display" : "Advance care planning (procedure)"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "G9380",
+        "display" : "Patient offered assistance with end of life issues or existing end of life plan was reviewed or updated during the measurement period"
+      },
+      {
+        "system" : "http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
+        "version" : "2025",
+        "code" : "S0257",
+        "display" : "Counseling and discussion regarding advance directives or end of life care planning and decisions, with patient and/or surrogate (list separately in addition to code for appropriate evaluation and management service)"
+      }
+    ]
+  }
+}
