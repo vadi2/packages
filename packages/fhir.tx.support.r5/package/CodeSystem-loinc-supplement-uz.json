@@ -62035,7 +62035,12 @@
     {
       "code": "46733-2",
       "display": "Amino acidemias newborn screen interpretation",
-      "designation": []
+      "designation": [
+        {
+          "language": "uz",
+          "value": "Aminokislotalemiyalar - neonatal skrining natijalarini interpretatsiya qilish"
+        }
+      ]
     },
     {
       "code": "46734-0",
