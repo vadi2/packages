@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "International Classification of Diseases, Tenth Revision, Clinical Modification (ICD-9-CM)",
+  "description": "International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM)",
   "copyright": "The ICD-9 is copyrighted by the World Health Organization (WHO), which owns and publishes the classification. WHO has authorized the development of an adaptation of ICD-9 for use in the United States for U.S. government purposes. As agreed, all modifications to the ICD-9 must conform to WHO conventions for the ICD. ICD-9-CM was developed following a thorough evaluation by a Technical Advisory Panel and extensive additional consultation with physician groups, clinical coders, and others to assure clinical accuracy and utility.",
   "caseSensitive": false,
   "hierarchyMeaning": "classified-with",
@@ -42,7 +42,7 @@
   ],
   "concept": [
     {
-      "code": "019cd9ba-d191-782b-bf30-a83cb191734f",
+      "code": "CLASSIFICATION_OF_DISEASES_AND_INJURIES",
       "display": "CLASSIFICATION OF DISEASES AND INJURIES",
       "property": [
         {
@@ -9310,7 +9310,7 @@
             },
             {
               "code": "041.3",
-              "display": "Friedl�nder's bacillus infection in conditions classified elsewhere and of unspecified site",
+              "display": "Friedländer's bacillus infection in conditions classified elsewhere and of unspecified site",
               "designation": [
                 {
                   "language": "en",
@@ -9916,7 +9916,7 @@
               "concept": [
                 {
                   "code": "046.71",
-                  "display": "Gerstmann-Str�ussler-Scheinker syndrome",
+                  "display": "Gerstmann-Sträussler-Scheinker syndrome",
                   "designation": [
                     {
                       "language": "en",
@@ -26544,7 +26544,7 @@
             },
             {
               "code": "202.2",
-              "display": "S�zary's disease",
+              "display": "Sézary's disease",
               "concept": [
                 {
                   "code": "202.20",
@@ -65205,11 +65205,11 @@
           "concept": [
             {
               "code": "386.0",
-              "display": "M�ni�re's disease",
+              "display": "Ménière's disease",
               "concept": [
                 {
                   "code": "386.00",
-                  "display": "M�ni�re's disease, unspecified",
+                  "display": "Ménière's disease, unspecified",
                   "designation": [
                     {
                       "language": "en",
@@ -65224,7 +65224,7 @@
                 },
                 {
                   "code": "386.01",
-                  "display": "Active M�ni�re's disease, cochleovestibular",
+                  "display": "Active Ménière's disease, cochleovestibular",
                   "designation": [
                     {
                       "language": "en",
@@ -65239,7 +65239,7 @@
                 },
                 {
                   "code": "386.02",
-                  "display": "Active M�ni�re's disease, cochlear",
+                  "display": "Active Ménière's disease, cochlear",
                   "designation": [
                     {
                       "language": "en",
@@ -65254,7 +65254,7 @@
                 },
                 {
                   "code": "386.03",
-                  "display": "Active M�ni�re's disease, vestibular",
+                  "display": "Active Ménière's disease, vestibular",
                   "designation": [
                     {
                       "language": "en",
@@ -65269,7 +65269,7 @@
                 },
                 {
                   "code": "386.04",
-                  "display": "Inactive M�ni�re's disease",
+                  "display": "Inactive Ménière's disease",
                   "designation": [
                     {
                       "language": "en",
@@ -112841,7 +112841,7 @@
             },
             {
               "code": "711.2",
-              "display": "Arthropathy in Beh�et's syndrome",
+              "display": "Arthropathy in Behçet's syndrome",
               "concept": [
                 {
                   "code": "711.20",
@@ -218618,7 +218618,7 @@
       ]
     },
     {
-      "code": "019cd9ba-d1ac-731d-9bde-b6583f330cf6",
+      "code": "CLASSIFICATION_OF_PROCEDURES",
       "display": "CLASSIFICATION OF PROCEDURES",
       "property": [
         {
