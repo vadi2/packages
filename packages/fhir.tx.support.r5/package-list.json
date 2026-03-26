@@ -6,7 +6,7 @@
   "list" : [
     {
       "version" : "0.1.0",
-      "desc" : "First release - LOINC Uzbek supplement",
+      "desc" : "LOINC Uzbek supplement",
       "path" : "http://fhir.org/packages/fhir.tx.support.r5/0.1.0",
       "status" : "release",
       "sequence" : "Publications",
