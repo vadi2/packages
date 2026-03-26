@@ -1,0 +1,17 @@
+{
+  "package-id" : "fhir.tx.support.r5",
+  "title" : "R5 Terminology Support Package",
+  "canonical" : "http://fhir.org/packages/fhir.tx.support.r5",
+  "introduction" : "Supporting Terminology Resources for R5 servers",
+  "list" : [
+    {
+      "version" : "0.1.0",
+      "desc" : "First release - LOINC Uzbek supplement",
+      "path" : "http://fhir.org/packages/fhir.tx.support.r5/0.1.0",
+      "status" : "release",
+      "sequence" : "Publications",
+      "current" : true,
+      "date" : "2026-03-26"
+    }
+  ]
+}
