@@ -6,7 +6,7 @@
   "list" : [
     {
       "version" : "0.32.0",
-      "desc" : "LOINC Uzbek supplement",
+      "desc" : "FUll versions of ICD-9-CM and ICD-10-CM and LOINC Uzbek supplement",
       "path" : "http://fhir.org/packages/fhir.tx.support.r4/0.32.0",
       "status" : "release",
       "sequence" : "Publications",
