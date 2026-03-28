@@ -43,7 +43,6 @@
     "packages/hl7.fhir.xver-extensions",
     "packages/hl7.fhir.xver.r3",
     "packages/hl7.fhir.xver.r4",
-    "packages/us.cdc.phinvads",
-    "packages/us.nlm.vsac"
+    "packages/us.cdc.phinvads"
   ]
 }

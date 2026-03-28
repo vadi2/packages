@@ -13,72 +13,68 @@
   "publisher" : "HL7 International - Devices Work Group",
   "description" : "ValueSet for the ISO/IEEE 11073-10101 Partition codes.",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "urn:iso:std:iso:11073:10101",
+      "concept" : [{
+        "code" : "0"
+      },
       {
-        "system" : "urn:iso:std:iso:11073:10101",
-        "concept" : [
-          {
-            "code" : "0"
-          },
-          {
-            "code" : "1"
-          },
-          {
-            "code" : "2"
-          },
-          {
-            "code" : "3"
-          },
-          {
-            "code" : "4"
-          },
-          {
-            "code" : "5"
-          },
-          {
-            "code" : "6"
-          },
-          {
-            "code" : "7"
-          },
-          {
-            "code" : "8"
-          },
-          {
-            "code" : "9"
-          },
-          {
-            "code" : "10"
-          },
-          {
-            "code" : "11"
-          },
-          {
-            "code" : "128"
-          },
-          {
-            "code" : "129"
-          },
-          {
-            "code" : "130"
-          },
-          {
-            "code" : "255"
-          },
-          {
-            "code" : "256"
-          },
-          {
-            "code" : "258"
-          },
-          {
-            "code" : "514"
-          },
-          {
-            "code" : "1024"
-          }
-        ]
-      }
-    ]
+        "code" : "1"
+      },
+      {
+        "code" : "2"
+      },
+      {
+        "code" : "3"
+      },
+      {
+        "code" : "4"
+      },
+      {
+        "code" : "5"
+      },
+      {
+        "code" : "6"
+      },
+      {
+        "code" : "7"
+      },
+      {
+        "code" : "8"
+      },
+      {
+        "code" : "9"
+      },
+      {
+        "code" : "10"
+      },
+      {
+        "code" : "11"
+      },
+      {
+        "code" : "128"
+      },
+      {
+        "code" : "129"
+      },
+      {
+        "code" : "130"
+      },
+      {
+        "code" : "255"
+      },
+      {
+        "code" : "256"
+      },
+      {
+        "code" : "258"
+      },
+      {
+        "code" : "514"
+      },
+      {
+        "code" : "1024"
+      }]
+    }]
   }
 }
