@@ -4,12 +4,20 @@
   "canonical" : "http://fhir.org/packages/fhir.tx.support.r4",
   "introduction" : "Supporting Terminology Resources for R4 servers",
   "list" : [{
+    "version" : "0.36.0",
+    "desc" : "Restore Lost content",
+    "path" : "http://fhir.org/packages/fhir.tx.support.r4/0.36.0",
+    "status" : "release",
+    "sequence" : "Publications",
+    "current" : true,
+    "date" : "2026-03-28"
+  },
+  {
     "version" : "0.35.0",
     "desc" : "FUll versions of ICD-9-CM and ICD-10-CM and LOINC Uzbek supplement",
     "path" : "http://fhir.org/packages/fhir.tx.support.r4/0.35.0",
     "status" : "release",
     "sequence" : "Publications",
-    "current" : true,
     "date" : "2026-03-27"
   },
   {
