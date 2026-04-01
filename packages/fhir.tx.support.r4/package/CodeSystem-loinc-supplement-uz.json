@@ -1,6 +1,10 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "loinc-supplement-uz",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/codesystem-supplement-type",
+    "valueCode" : "lang-pack"
+  }],
   "url" : "https://terminology.dhp.uz/fhir/CodeSystem/loinc-supplement-uz",
   "version" : "2.80",
   "name" : "ObservationLoincCS",
