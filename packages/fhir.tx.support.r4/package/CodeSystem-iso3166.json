@@ -25,5985 +25,5980 @@
     "operator" : ["regex"],
     "value" : "concept.code"
   }],
-  "property" : [{
-    "code" : "french",
-    "description" : "French short name",
-    "type" : "string"
-  }],
   "concept" : [{
     "code" : "AF",
     "display" : "Afghanistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afghanistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afghanistan (l')"
     }]
   },
   {
     "code" : "AL",
     "display" : "Albania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Albanie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Albanie (l')"
     }]
   },
   {
     "code" : "DZ",
     "display" : "Algeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Algérie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Algérie (l')"
     }]
   },
   {
     "code" : "AS",
     "display" : "American Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa américaines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa américaines (les)"
     }]
   },
   {
     "code" : "AD",
     "display" : "Andorra",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Andorre (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Andorre (l')"
     }]
   },
   {
     "code" : "AO",
     "display" : "Angola",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Angola (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Angola (l')"
     }]
   },
   {
     "code" : "AI",
     "display" : "Anguilla",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Anguilla"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Anguilla"
     }]
   },
   {
     "code" : "AQ",
     "display" : "Antarctica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antarctique (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antarctique (l')"
     }]
   },
   {
     "code" : "AG",
     "display" : "Antigua and Barbuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antigua-et-Barbuda"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antigua-et-Barbuda"
     }]
   },
   {
     "code" : "AR",
     "display" : "Argentina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Argentine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Argentine (l')"
     }]
   },
   {
     "code" : "AM",
     "display" : "Armenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arménie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arménie (l')"
     }]
   },
   {
     "code" : "AW",
     "display" : "Aruba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Aruba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Aruba"
     }]
   },
   {
     "code" : "AU",
     "display" : "Australia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Australie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Australie (l')"
     }]
   },
   {
     "code" : "AT",
     "display" : "Austria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Autriche (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Autriche (l')"
     }]
   },
   {
     "code" : "AZ",
     "display" : "Azerbaijan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Azerbaïdjan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Azerbaïdjan (l')"
     }]
   },
   {
     "code" : "BS",
     "display" : "Bahamas (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahamas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahamas (les)"
     }]
   },
   {
     "code" : "BH",
     "display" : "Bahrain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahreïn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahreïn"
     }]
   },
   {
     "code" : "BD",
     "display" : "Bangladesh",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bangladesh (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bangladesh (le)"
     }]
   },
   {
     "code" : "BB",
     "display" : "Barbados",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Barbade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Barbade (la)"
     }]
   },
   {
     "code" : "BY",
     "display" : "Belarus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bélarus (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bélarus (le)"
     }]
   },
   {
     "code" : "BE",
     "display" : "Belgium",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belgique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belgique (la)"
     }]
   },
   {
     "code" : "BZ",
     "display" : "Belize",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belize (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belize (le)"
     }]
   },
   {
     "code" : "BJ",
     "display" : "Benin",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bénin (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bénin (le)"
     }]
   },
   {
     "code" : "BM",
     "display" : "Bermuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bermudes (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bermudes (les)"
     }]
   },
   {
     "code" : "BT",
     "display" : "Bhutan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bhoutan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bhoutan (le)"
     }]
   },
   {
     "code" : "BO",
     "display" : "Bolivia (Plurinational State of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bolivie (État plurinational de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bolivie (État plurinational de)"
     }]
   },
   {
     "code" : "BQ",
     "display" : "Bonaire, Sint Eustatius and Saba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bonaire, Saint-Eustache et Saba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bonaire, Saint-Eustache et Saba"
     }]
   },
   {
     "code" : "BA",
     "display" : "Bosnia and Herzegovina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bosnie-Herzégovine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bosnie-Herzégovine (la)"
     }]
   },
   {
     "code" : "BW",
     "display" : "Botswana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Botswana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Botswana (le)"
     }]
   },
   {
     "code" : "BV",
     "display" : "Bouvet Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bouvet (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bouvet (l'Île)"
     }]
   },
   {
     "code" : "BR",
     "display" : "Brazil",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brésil (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brésil (le)"
     }]
   },
   {
     "code" : "IO",
     "display" : "British Indian Ocean Territory (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indien (le Territoire britannique de l'océan)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indien (le Territoire britannique de l'océan)"
     }]
   },
   {
     "code" : "BN",
     "display" : "Brunei Darussalam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brunéi Darussalam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brunéi Darussalam (le)"
     }]
   },
   {
     "code" : "BG",
     "display" : "Bulgaria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bulgarie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bulgarie (la)"
     }]
   },
   {
     "code" : "BF",
     "display" : "Burkina Faso",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burkina Faso (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burkina Faso (le)"
     }]
   },
   {
     "code" : "BI",
     "display" : "Burundi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burundi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burundi (le)"
     }]
   },
   {
     "code" : "CV",
     "display" : "Cabo Verde",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cabo Verde"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cabo Verde"
     }]
   },
   {
     "code" : "KH",
     "display" : "Cambodia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cambodge (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cambodge (le)"
     }]
   },
   {
     "code" : "CM",
     "display" : "Cameroon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cameroun (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cameroun (le)"
     }]
   },
   {
     "code" : "CA",
     "display" : "Canada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Canada (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Canada (le)"
     }]
   },
   {
     "code" : "KY",
     "display" : "Cayman Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Caïmans (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Caïmans (les Îles)"
     }]
   },
   {
     "code" : "CF",
     "display" : "Central African Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République centrafricaine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République centrafricaine (la)"
     }]
   },
   {
     "code" : "TD",
     "display" : "Chad",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchad (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchad (le)"
     }]
   },
   {
     "code" : "CL",
     "display" : "Chile",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chili (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chili (le)"
     }]
   },
   {
     "code" : "CN",
     "display" : "China",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chine (la)"
     }]
   },
   {
     "code" : "CX",
     "display" : "Christmas Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Christmas (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Christmas (l'Île)"
     }]
   },
   {
     "code" : "CC",
     "display" : "Cocos (Keeling) Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cocos (les Îles)/ Keeling (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cocos (les Îles)/ Keeling (les Îles)"
     }]
   },
   {
     "code" : "CO",
     "display" : "Colombia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Colombie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Colombie (la)"
     }]
   },
   {
     "code" : "KM",
     "display" : "Comoros (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Comores (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Comores (les)"
     }]
   },
   {
     "code" : "CD",
     "display" : "Congo (the Democratic Republic of the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (la République démocratique du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (la République démocratique du)"
     }]
   },
   {
     "code" : "CG",
     "display" : "Congo (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (le)"
     }]
   },
   {
     "code" : "CK",
     "display" : "Cook Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cook (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cook (les Îles)"
     }]
   },
   {
     "code" : "CR",
     "display" : "Costa Rica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Costa Rica (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Costa Rica (le)"
     }]
   },
   {
     "code" : "HR",
     "display" : "Croatia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Croatie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Croatie (la)"
     }]
   },
   {
     "code" : "CU",
     "display" : "Cuba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cuba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cuba"
     }]
   },
   {
     "code" : "CW",
     "display" : "Curaçao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Curaçao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Curaçao"
     }]
   },
   {
     "code" : "CY",
     "display" : "Cyprus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chypre"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chypre"
     }]
   },
   {
     "code" : "CZ",
     "display" : "Czechia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchéquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchéquie (la)"
     }]
   },
   {
     "code" : "CI",
     "display" : "Côte d'Ivoire",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Côte d'Ivoire (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Côte d'Ivoire (la)"
     }]
   },
   {
     "code" : "DK",
     "display" : "Denmark",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Danemark (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Danemark (le)"
     }]
   },
   {
     "code" : "DJ",
     "display" : "Djibouti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Djibouti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Djibouti"
     }]
   },
   {
     "code" : "DM",
     "display" : "Dominica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Dominique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Dominique (la)"
     }]
   },
   {
     "code" : "DO",
     "display" : "Dominican Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "dominicaine (la République)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "dominicaine (la République)"
     }]
   },
   {
     "code" : "EC",
     "display" : "Ecuador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Équateur (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Équateur (l')"
     }]
   },
   {
     "code" : "EG",
     "display" : "Egypt",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Égypte (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Égypte (l')"
     }]
   },
   {
     "code" : "SV",
     "display" : "El Salvador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "El Salvador"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "El Salvador"
     }]
   },
   {
     "code" : "GQ",
     "display" : "Equatorial Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée équatoriale (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée équatoriale (la)"
     }]
   },
   {
     "code" : "ER",
     "display" : "Eritrea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Érythrée (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Érythrée (l')"
     }]
   },
   {
     "code" : "EE",
     "display" : "Estonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Estonie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Estonie (l')"
     }]
   },
   {
     "code" : "SZ",
     "display" : "Eswatini",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Eswatini (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Eswatini (l')"
     }]
   },
   {
     "code" : "ET",
     "display" : "Ethiopia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Éthiopie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Éthiopie (l')"
     }]
   },
   {
     "code" : "FK",
     "display" : "Falkland Islands (the) [Malvinas]",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Falkland (les Îles)/Malouines (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Falkland (les Îles)/Malouines (les Îles)"
     }]
   },
   {
     "code" : "FO",
     "display" : "Faroe Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Féroé (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Féroé (les Îles)"
     }]
   },
   {
     "code" : "FJ",
     "display" : "Fiji",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Fidji (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Fidji (les)"
     }]
   },
   {
     "code" : "FI",
     "display" : "Finland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Finlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Finlande (la)"
     }]
   },
   {
     "code" : "FR",
     "display" : "France",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "France (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "France (la)"
     }]
   },
   {
     "code" : "GF",
     "display" : "French Guiana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyane française (la )"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyane française (la )"
     }]
   },
   {
     "code" : "PF",
     "display" : "French Polynesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Polynésie française (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Polynésie française (la)"
     }]
   },
   {
     "code" : "TF",
     "display" : "French Southern Territories (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Terres australes françaises (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Terres australes françaises (les)"
     }]
   },
   {
     "code" : "GA",
     "display" : "Gabon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gabon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gabon (le)"
     }]
   },
   {
     "code" : "GM",
     "display" : "Gambia (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gambie (la)"
     }]
   },
   {
     "code" : "GE",
     "display" : "Georgia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie (la)"
     }]
   },
   {
     "code" : "DE",
     "display" : "Germany",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Allemagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Allemagne (l')"
     }]
   },
   {
     "code" : "GH",
     "display" : "Ghana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ghana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ghana (le)"
     }]
   },
   {
     "code" : "GI",
     "display" : "Gibraltar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gibraltar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gibraltar"
     }]
   },
   {
     "code" : "GR",
     "display" : "Greece",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grèce (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grèce (la)"
     }]
   },
   {
     "code" : "GL",
     "display" : "Greenland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Groenland (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Groenland (le)"
     }]
   },
   {
     "code" : "GD",
     "display" : "Grenada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grenade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grenade (la)"
     }]
   },
   {
     "code" : "GP",
     "display" : "Guadeloupe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guadeloupe (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guadeloupe (la)"
     }]
   },
   {
     "code" : "GU",
     "display" : "Guam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guam"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guam"
     }]
   },
   {
     "code" : "GT",
     "display" : "Guatemala",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guatemala (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guatemala (le)"
     }]
   },
   {
     "code" : "GG",
     "display" : "Guernsey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guernesey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guernesey"
     }]
   },
   {
     "code" : "GN",
     "display" : "Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée (la)"
     }]
   },
   {
     "code" : "GW",
     "display" : "Guinea-Bissau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée-Bissau (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée-Bissau (la)"
     }]
   },
   {
     "code" : "GY",
     "display" : "Guyana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyana (le)"
     }]
   },
   {
     "code" : "HT",
     "display" : "Haiti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Haïti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Haïti"
     }]
   },
   {
     "code" : "HM",
     "display" : "Heard Island and McDonald Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Heard-et-Îles MacDonald (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Heard-et-Îles MacDonald (l'Île)"
     }]
   },
   {
     "code" : "VA",
     "display" : "Holy See (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Siège (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Siège (le)"
     }]
   },
   {
     "code" : "HN",
     "display" : "Honduras",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Honduras (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Honduras (le)"
     }]
   },
   {
     "code" : "HK",
     "display" : "Hong Kong",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hong Kong"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hong Kong"
     }]
   },
   {
     "code" : "HU",
     "display" : "Hungary",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hongrie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hongrie (la)"
     }]
   },
   {
     "code" : "IS",
     "display" : "Iceland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Islande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Islande (l')"
     }]
   },
   {
     "code" : "IN",
     "display" : "India",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Inde (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Inde (l')"
     }]
   },
   {
     "code" : "ID",
     "display" : "Indonesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indonésie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indonésie (l')"
     }]
   },
   {
     "code" : "IR",
     "display" : "Iran (Islamic Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iran (République Islamique d')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iran (République Islamique d')"
     }]
   },
   {
     "code" : "IQ",
     "display" : "Iraq",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iraq (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iraq (l')"
     }]
   },
   {
     "code" : "IE",
     "display" : "Ireland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Irlande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Irlande (l')"
     }]
   },
   {
     "code" : "IM",
     "display" : "Isle of Man",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Île de Man"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Île de Man"
     }]
   },
   {
     "code" : "IL",
     "display" : "Israel",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Israël"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Israël"
     }]
   },
   {
     "code" : "IT",
     "display" : "Italy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Italie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Italie (l')"
     }]
   },
   {
     "code" : "JM",
     "display" : "Jamaica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jamaïque (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jamaïque (la)"
     }]
   },
   {
     "code" : "JP",
     "display" : "Japan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Japon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Japon (le)"
     }]
   },
   {
     "code" : "JE",
     "display" : "Jersey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jersey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jersey"
     }]
   },
   {
     "code" : "JO",
     "display" : "Jordan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jordanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jordanie (la)"
     }]
   },
   {
     "code" : "KZ",
     "display" : "Kazakhstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kazakhstan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kazakhstan (le)"
     }]
   },
   {
     "code" : "KE",
     "display" : "Kenya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kenya (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kenya (le)"
     }]
   },
   {
     "code" : "KI",
     "display" : "Kiribati",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kiribati"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kiribati"
     }]
   },
   {
     "code" : "KP",
     "display" : "Korea (the Democratic People's Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République populaire démocratique de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République populaire démocratique de)"
     }]
   },
   {
     "code" : "KR",
     "display" : "Korea (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République de)"
     }]
   },
   {
     "code" : "KW",
     "display" : "Kuwait",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Koweït (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Koweït (le)"
     }]
   },
   {
     "code" : "KG",
     "display" : "Kyrgyzstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kirghizistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kirghizistan (le)"
     }]
   },
   {
     "code" : "LA",
     "display" : "Lao People's Democratic Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lao (la République démocratique populaire)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lao (la République démocratique populaire)"
     }]
   },
   {
     "code" : "LV",
     "display" : "Latvia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lettonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lettonie (la)"
     }]
   },
   {
     "code" : "LB",
     "display" : "Lebanon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liban (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liban (le)"
     }]
   },
   {
     "code" : "LS",
     "display" : "Lesotho",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lesotho (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lesotho (le)"
     }]
   },
   {
     "code" : "LR",
     "display" : "Liberia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libéria (le)"
     }]
   },
   {
     "code" : "LY",
     "display" : "Libya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libye (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libye (la)"
     }]
   },
   {
     "code" : "LI",
     "display" : "Liechtenstein",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liechtenstein (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liechtenstein (le)"
     }]
   },
   {
     "code" : "LT",
     "display" : "Lithuania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lituanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lituanie (la)"
     }]
   },
   {
     "code" : "LU",
     "display" : "Luxembourg",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Luxembourg (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Luxembourg (le)"
     }]
   },
   {
     "code" : "MO",
     "display" : "Macao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macao"
     }]
   },
   {
     "code" : "MG",
     "display" : "Madagascar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Madagascar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Madagascar"
     }]
   },
   {
     "code" : "MW",
     "display" : "Malawi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malawi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malawi (le)"
     }]
   },
   {
     "code" : "MY",
     "display" : "Malaysia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malaisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malaisie (la)"
     }]
   },
   {
     "code" : "MV",
     "display" : "Maldives",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maldives (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maldives (les)"
     }]
   },
   {
     "code" : "ML",
     "display" : "Mali",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mali (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mali (le)"
     }]
   },
   {
     "code" : "MT",
     "display" : "Malta",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malte"
     }]
   },
   {
     "code" : "MH",
     "display" : "Marshall Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Marshall (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Marshall (les Îles)"
     }]
   },
   {
     "code" : "MQ",
     "display" : "Martinique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Martinique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Martinique (la)"
     }]
   },
   {
     "code" : "MR",
     "display" : "Mauritania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mauritanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mauritanie (la)"
     }]
   },
   {
     "code" : "MU",
     "display" : "Mauritius",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maurice"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maurice"
     }]
   },
   {
     "code" : "YT",
     "display" : "Mayotte",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mayotte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mayotte"
     }]
   },
   {
     "code" : "MX",
     "display" : "Mexico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mexique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mexique (le)"
     }]
   },
   {
     "code" : "FM",
     "display" : "Micronesia (Federated States of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Micronésie (États fédérés de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Micronésie (États fédérés de)"
     }]
   },
   {
     "code" : "MD",
     "display" : "Moldova (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Moldova (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Moldova (la République de)"
     }]
   },
   {
     "code" : "MC",
     "display" : "Monaco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monaco"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monaco"
     }]
   },
   {
     "code" : "MN",
     "display" : "Mongolia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mongolie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mongolie (la)"
     }]
   },
   {
     "code" : "ME",
     "display" : "Montenegro",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monténégro (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monténégro (le)"
     }]
   },
   {
     "code" : "MS",
     "display" : "Montserrat",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Montserrat"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Montserrat"
     }]
   },
   {
     "code" : "MA",
     "display" : "Morocco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maroc (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maroc (le)"
     }]
   },
   {
     "code" : "MZ",
     "display" : "Mozambique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mozambique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mozambique (le)"
     }]
   },
   {
     "code" : "MM",
     "display" : "Myanmar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Myanmar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Myanmar (le)"
     }]
   },
   {
     "code" : "NA",
     "display" : "Namibia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Namibie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Namibie (la)"
     }]
   },
   {
     "code" : "NR",
     "display" : "Nauru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nauru"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nauru"
     }]
   },
   {
     "code" : "NP",
     "display" : "Nepal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Népal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Népal (le)"
     }]
   },
   {
     "code" : "NL",
     "display" : "Netherlands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pays-Bas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pays-Bas (les)"
     }]
   },
   {
     "code" : "NC",
     "display" : "New Caledonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Calédonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Calédonie (la)"
     }]
   },
   {
     "code" : "NZ",
     "display" : "New Zealand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Zélande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Zélande (la)"
     }]
   },
   {
     "code" : "NI",
     "display" : "Nicaragua",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nicaragua (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nicaragua (le)"
     }]
   },
   {
     "code" : "NE",
     "display" : "Niger (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niger (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niger (le)"
     }]
   },
   {
     "code" : "NG",
     "display" : "Nigeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nigéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nigéria (le)"
     }]
   },
   {
     "code" : "NU",
     "display" : "Niue",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niue"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niue"
     }]
   },
   {
     "code" : "NF",
     "display" : "Norfolk Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norfolk (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norfolk (l'Île)"
     }]
   },
   {
     "code" : "MK",
     "display" : "North Macedonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macédoine du Nord (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macédoine du Nord (la)"
     }]
   },
   {
     "code" : "MP",
     "display" : "Northern Mariana Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mariannes du Nord (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mariannes du Nord (les Îles)"
     }]
   },
   {
     "code" : "NO",
     "display" : "Norway",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norvège (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norvège (la)"
     }]
   },
   {
     "code" : "OM",
     "display" : "Oman",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Oman"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Oman"
     }]
   },
   {
     "code" : "PK",
     "display" : "Pakistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pakistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pakistan (le)"
     }]
   },
   {
     "code" : "PW",
     "display" : "Palau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palaos (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palaos (les)"
     }]
   },
   {
     "code" : "PS",
     "display" : "Palestine, State of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palestine, État de"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palestine, État de"
     }]
   },
   {
     "code" : "PA",
     "display" : "Panama",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Panama (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Panama (le)"
     }]
   },
   {
     "code" : "PG",
     "display" : "Papua New Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Papouasie-Nouvelle-Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Papouasie-Nouvelle-Guinée (la)"
     }]
   },
   {
     "code" : "PY",
     "display" : "Paraguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Paraguay (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Paraguay (le)"
     }]
   },
   {
     "code" : "PE",
     "display" : "Peru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pérou (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pérou (le)"
     }]
   },
   {
     "code" : "PH",
     "display" : "Philippines (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Philippines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Philippines (les)"
     }]
   },
   {
     "code" : "PN",
     "display" : "Pitcairn",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pitcairn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pitcairn"
     }]
   },
   {
     "code" : "PL",
     "display" : "Poland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pologne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pologne (la)"
     }]
   },
   {
     "code" : "PT",
     "display" : "Portugal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Portugal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Portugal (le)"
     }]
   },
   {
     "code" : "PR",
     "display" : "Puerto Rico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Porto Rico"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Porto Rico"
     }]
   },
   {
     "code" : "QA",
     "display" : "Qatar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Qatar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Qatar (le)"
     }]
   },
   {
     "code" : "RO",
     "display" : "Romania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Roumanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Roumanie (la)"
     }]
   },
   {
     "code" : "RU",
     "display" : "Russian Federation (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Russie (la Fédération de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Russie (la Fédération de)"
     }]
   },
   {
     "code" : "RW",
     "display" : "Rwanda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Rwanda (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Rwanda (le)"
     }]
   },
   {
     "code" : "RE",
     "display" : "Réunion",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Réunion (La)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Réunion (La)"
     }]
   },
   {
     "code" : "BL",
     "display" : "Saint Barthélemy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Barthélemy"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Barthélemy"
     }]
   },
   {
     "code" : "SH",
     "display" : "Saint Helena, Ascension and Tristan da Cunha",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Hélène, Ascension et Tristan da Cunha"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Hélène, Ascension et Tristan da Cunha"
     }]
   },
   {
     "code" : "KN",
     "display" : "Saint Kitts and Nevis",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Kitts-et-Nevis"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Kitts-et-Nevis"
     }]
   },
   {
     "code" : "LC",
     "display" : "Saint Lucia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Lucie"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Lucie"
     }]
   },
   {
     "code" : "MF",
     "display" : "Saint Martin (French part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie française)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie française)"
     }]
   },
   {
     "code" : "PM",
     "display" : "Saint Pierre and Miquelon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Pierre-et-Miquelon"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Pierre-et-Miquelon"
     }]
   },
   {
     "code" : "VC",
     "display" : "Saint Vincent and the Grenadines",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Vincent-et-les Grenadines"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Vincent-et-les Grenadines"
     }]
   },
   {
     "code" : "WS",
     "display" : "Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa (le)"
     }]
   },
   {
     "code" : "SM",
     "display" : "San Marino",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Marin"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Marin"
     }]
   },
   {
     "code" : "ST",
     "display" : "Sao Tome and Principe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sao Tomé-et-Principe"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sao Tomé-et-Principe"
     }]
   },
   {
     "code" : "SA",
     "display" : "Saudi Arabia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arabie saoudite (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arabie saoudite (l')"
     }]
   },
   {
     "code" : "SN",
     "display" : "Senegal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sénégal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sénégal (le)"
     }]
   },
   {
     "code" : "RS",
     "display" : "Serbia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Serbie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Serbie (la)"
     }]
   },
   {
     "code" : "SC",
     "display" : "Seychelles",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Seychelles (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Seychelles (les)"
     }]
   },
   {
     "code" : "SL",
     "display" : "Sierra Leone",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sierra Leone (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sierra Leone (la)"
     }]
   },
   {
     "code" : "SG",
     "display" : "Singapore",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Singapour"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Singapour"
     }]
   },
   {
     "code" : "SX",
     "display" : "Sint Maarten (Dutch part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie néerlandaise)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie néerlandaise)"
     }]
   },
   {
     "code" : "SK",
     "display" : "Slovakia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovaquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovaquie (la)"
     }]
   },
   {
     "code" : "SI",
     "display" : "Slovenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovénie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovénie (la)"
     }]
   },
   {
     "code" : "SB",
     "display" : "Solomon Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Salomon (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Salomon (les Îles)"
     }]
   },
   {
     "code" : "SO",
     "display" : "Somalia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Somalie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Somalie (la)"
     }]
   },
   {
     "code" : "ZA",
     "display" : "South Africa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afrique du Sud (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afrique du Sud (l')"
     }]
   },
   {
     "code" : "GS",
     "display" : "South Georgia and the South Sandwich Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
     }]
   },
   {
     "code" : "SS",
     "display" : "South Sudan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan du Sud (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan du Sud (le)"
     }]
   },
   {
     "code" : "ES",
     "display" : "Spain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Espagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Espagne (l')"
     }]
   },
   {
     "code" : "LK",
     "display" : "Sri Lanka",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sri Lanka"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sri Lanka"
     }]
   },
   {
     "code" : "SD",
     "display" : "Sudan (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan (le)"
     }]
   },
   {
     "code" : "SR",
     "display" : "Suriname",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suriname (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suriname (le)"
     }]
   },
   {
     "code" : "SJ",
     "display" : "Svalbard and Jan Mayen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Svalbard et l'Île Jan Mayen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Svalbard et l'Île Jan Mayen (le)"
     }]
   },
   {
     "code" : "SE",
     "display" : "Sweden",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suède (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suède (la)"
     }]
   },
   {
     "code" : "CH",
     "display" : "Switzerland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suisse (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suisse (la)"
     }]
   },
   {
     "code" : "SY",
     "display" : "Syrian Arab Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République arabe syrienne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République arabe syrienne (la)"
     }]
   },
   {
     "code" : "TW",
     "display" : "Taiwan (Province of China)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Taïwan (Province de Chine)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Taïwan (Province de Chine)"
     }]
   },
   {
     "code" : "TJ",
     "display" : "Tajikistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tadjikistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tadjikistan (le)"
     }]
   },
   {
     "code" : "TZ",
     "display" : "Tanzania, the United Republic of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tanzanie (la République-Unie de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tanzanie (la République-Unie de)"
     }]
   },
   {
     "code" : "TH",
     "display" : "Thailand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Thaïlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Thaïlande (la)"
     }]
   },
   {
     "code" : "TL",
     "display" : "Timor-Leste",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Timor-Leste (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Timor-Leste (le)"
     }]
   },
   {
     "code" : "TG",
     "display" : "Togo",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Togo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Togo (le)"
     }]
   },
   {
     "code" : "TK",
     "display" : "Tokelau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tokelau (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tokelau (les)"
     }]
   },
   {
     "code" : "TO",
     "display" : "Tonga",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tonga (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tonga (les)"
     }]
   },
   {
     "code" : "TT",
     "display" : "Trinidad and Tobago",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Trinité-et-Tobago (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Trinité-et-Tobago (la)"
     }]
   },
   {
     "code" : "TN",
     "display" : "Tunisia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tunisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tunisie (la)"
     }]
   },
   {
     "code" : "TR",
     "display" : "Turkey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turquie (la)"
     }]
   },
   {
     "code" : "TM",
     "display" : "Turkmenistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turkménistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turkménistan (le)"
     }]
   },
   {
     "code" : "TC",
     "display" : "Turks and Caicos Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turks-et-Caïcos (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turks-et-Caïcos (les Îles)"
     }]
   },
   {
     "code" : "TV",
     "display" : "Tuvalu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tuvalu (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tuvalu (les)"
     }]
   },
   {
     "code" : "UG",
     "display" : "Uganda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouganda (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouganda (l')"
     }]
   },
   {
     "code" : "UA",
     "display" : "Ukraine",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ukraine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ukraine (l')"
     }]
   },
   {
     "code" : "AE",
     "display" : "United Arab Emirates (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Émirats arabes unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Émirats arabes unis (les)"
     }]
   },
   {
     "code" : "GB",
     "display" : "United Kingdom of Great Britain and Northern Ireland (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
     }]
   },
   {
     "code" : "UM",
     "display" : "United States Minor Outlying Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Îles mineures éloignées des États-Unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Îles mineures éloignées des États-Unis (les)"
     }]
   },
   {
     "code" : "US",
     "display" : "United States of America (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "États-Unis d'Amérique (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "États-Unis d'Amérique (les)"
     }]
   },
   {
     "code" : "UY",
     "display" : "Uruguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Uruguay (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Uruguay (l')"
     }]
   },
   {
     "code" : "UZ",
     "display" : "Uzbekistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouzbékistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouzbékistan (l')"
     }]
   },
   {
     "code" : "VU",
     "display" : "Vanuatu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vanuatu (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vanuatu (le)"
     }]
   },
   {
     "code" : "VE",
     "display" : "Venezuela (Bolivarian Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Venezuela (République bolivarienne du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Venezuela (République bolivarienne du)"
     }]
   },
   {
     "code" : "VN",
     "display" : "Viet Nam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Viet Nam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Viet Nam (le)"
     }]
   },
   {
     "code" : "VG",
     "display" : "Virgin Islands (British)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges britanniques (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges britanniques (les Îles)"
     }]
   },
   {
     "code" : "VI",
     "display" : "Virgin Islands (U.S.)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges des États-Unis (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges des États-Unis (les Îles)"
     }]
   },
   {
     "code" : "WF",
     "display" : "Wallis and Futuna",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Wallis-et-Futuna"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Wallis-et-Futuna"
     }]
   },
   {
     "code" : "EH",
     "display" : "Western Sahara*",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sahara occidental (le)*"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sahara occidental (le)*"
     }]
   },
   {
     "code" : "YE",
     "display" : "Yemen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Yémen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Yémen (le)"
     }]
   },
   {
     "code" : "ZM",
     "display" : "Zambia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zambie (la)"
     }]
   },
   {
     "code" : "ZW",
     "display" : "Zimbabwe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zimbabwe (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zimbabwe (le)"
     }]
   },
   {
     "code" : "AX",
     "display" : "Åland Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Åland(les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Åland(les Îles)"
     }]
   },
   {
     "code" : "AFG",
     "display" : "Afghanistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afghanistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afghanistan (l')"
     }]
   },
   {
     "code" : "ALB",
     "display" : "Albania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Albanie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Albanie (l')"
     }]
   },
   {
     "code" : "DZA",
     "display" : "Algeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Algérie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Algérie (l')"
     }]
   },
   {
     "code" : "ASM",
     "display" : "American Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa américaines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa américaines (les)"
     }]
   },
   {
     "code" : "AND",
     "display" : "Andorra",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Andorre (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Andorre (l')"
     }]
   },
   {
     "code" : "AGO",
     "display" : "Angola",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Angola (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Angola (l')"
     }]
   },
   {
     "code" : "AIA",
     "display" : "Anguilla",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Anguilla"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Anguilla"
     }]
   },
   {
     "code" : "ATA",
     "display" : "Antarctica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antarctique (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antarctique (l')"
     }]
   },
   {
     "code" : "ATG",
     "display" : "Antigua and Barbuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antigua-et-Barbuda"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antigua-et-Barbuda"
     }]
   },
   {
     "code" : "ARG",
     "display" : "Argentina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Argentine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Argentine (l')"
     }]
   },
   {
     "code" : "ARM",
     "display" : "Armenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arménie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arménie (l')"
     }]
   },
   {
     "code" : "ABW",
     "display" : "Aruba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Aruba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Aruba"
     }]
   },
   {
     "code" : "AUS",
     "display" : "Australia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Australie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Australie (l')"
     }]
   },
   {
     "code" : "AUT",
     "display" : "Austria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Autriche (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Autriche (l')"
     }]
   },
   {
     "code" : "AZE",
     "display" : "Azerbaijan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Azerbaïdjan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Azerbaïdjan (l')"
     }]
   },
   {
     "code" : "BHS",
     "display" : "Bahamas (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahamas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahamas (les)"
     }]
   },
   {
     "code" : "BHR",
     "display" : "Bahrain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahreïn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahreïn"
     }]
   },
   {
     "code" : "BGD",
     "display" : "Bangladesh",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bangladesh (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bangladesh (le)"
     }]
   },
   {
     "code" : "BRB",
     "display" : "Barbados",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Barbade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Barbade (la)"
     }]
   },
   {
     "code" : "BLR",
     "display" : "Belarus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bélarus (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bélarus (le)"
     }]
   },
   {
     "code" : "BEL",
     "display" : "Belgium",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belgique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belgique (la)"
     }]
   },
   {
     "code" : "BLZ",
     "display" : "Belize",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belize (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belize (le)"
     }]
   },
   {
     "code" : "BEN",
     "display" : "Benin",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bénin (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bénin (le)"
     }]
   },
   {
     "code" : "BMU",
     "display" : "Bermuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bermudes (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bermudes (les)"
     }]
   },
   {
     "code" : "BTN",
     "display" : "Bhutan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bhoutan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bhoutan (le)"
     }]
   },
   {
     "code" : "BOL",
     "display" : "Bolivia (Plurinational State of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bolivie (État plurinational de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bolivie (État plurinational de)"
     }]
   },
   {
     "code" : "BES",
     "display" : "Bonaire, Sint Eustatius and Saba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bonaire, Saint-Eustache et Saba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bonaire, Saint-Eustache et Saba"
     }]
   },
   {
     "code" : "BIH",
     "display" : "Bosnia and Herzegovina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bosnie-Herzégovine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bosnie-Herzégovine (la)"
     }]
   },
   {
     "code" : "BWA",
     "display" : "Botswana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Botswana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Botswana (le)"
     }]
   },
   {
     "code" : "BVT",
     "display" : "Bouvet Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bouvet (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bouvet (l'Île)"
     }]
   },
   {
     "code" : "BRA",
     "display" : "Brazil",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brésil (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brésil (le)"
     }]
   },
   {
     "code" : "IOT",
     "display" : "British Indian Ocean Territory (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indien (le Territoire britannique de l'océan)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indien (le Territoire britannique de l'océan)"
     }]
   },
   {
     "code" : "BRN",
     "display" : "Brunei Darussalam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brunéi Darussalam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brunéi Darussalam (le)"
     }]
   },
   {
     "code" : "BGR",
     "display" : "Bulgaria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bulgarie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bulgarie (la)"
     }]
   },
   {
     "code" : "BFA",
     "display" : "Burkina Faso",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burkina Faso (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burkina Faso (le)"
     }]
   },
   {
     "code" : "BDI",
     "display" : "Burundi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burundi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burundi (le)"
     }]
   },
   {
     "code" : "CPV",
     "display" : "Cabo Verde",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cabo Verde"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cabo Verde"
     }]
   },
   {
     "code" : "KHM",
     "display" : "Cambodia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cambodge (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cambodge (le)"
     }]
   },
   {
     "code" : "CMR",
     "display" : "Cameroon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cameroun (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cameroun (le)"
     }]
   },
   {
     "code" : "CAN",
     "display" : "Canada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Canada (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Canada (le)"
     }]
   },
   {
     "code" : "CYM",
     "display" : "Cayman Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Caïmans (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Caïmans (les Îles)"
     }]
   },
   {
     "code" : "CAF",
     "display" : "Central African Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République centrafricaine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République centrafricaine (la)"
     }]
   },
   {
     "code" : "TCD",
     "display" : "Chad",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchad (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchad (le)"
     }]
   },
   {
     "code" : "CHL",
     "display" : "Chile",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chili (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chili (le)"
     }]
   },
   {
     "code" : "CHN",
     "display" : "China",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chine (la)"
     }]
   },
   {
     "code" : "CXR",
     "display" : "Christmas Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Christmas (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Christmas (l'Île)"
     }]
   },
   {
     "code" : "CCK",
     "display" : "Cocos (Keeling) Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cocos (les Îles)/ Keeling (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cocos (les Îles)/ Keeling (les Îles)"
     }]
   },
   {
     "code" : "COL",
     "display" : "Colombia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Colombie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Colombie (la)"
     }]
   },
   {
     "code" : "COM",
     "display" : "Comoros (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Comores (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Comores (les)"
     }]
   },
   {
     "code" : "COD",
     "display" : "Congo (the Democratic Republic of the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (la République démocratique du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (la République démocratique du)"
     }]
   },
   {
     "code" : "COG",
     "display" : "Congo (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (le)"
     }]
   },
   {
     "code" : "COK",
     "display" : "Cook Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cook (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cook (les Îles)"
     }]
   },
   {
     "code" : "CRI",
     "display" : "Costa Rica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Costa Rica (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Costa Rica (le)"
     }]
   },
   {
     "code" : "HRV",
     "display" : "Croatia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Croatie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Croatie (la)"
     }]
   },
   {
     "code" : "CUB",
     "display" : "Cuba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cuba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cuba"
     }]
   },
   {
     "code" : "CUW",
     "display" : "Curaçao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Curaçao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Curaçao"
     }]
   },
   {
     "code" : "CYP",
     "display" : "Cyprus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chypre"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chypre"
     }]
   },
   {
     "code" : "CZE",
     "display" : "Czechia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchéquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchéquie (la)"
     }]
   },
   {
     "code" : "CIV",
     "display" : "Côte d'Ivoire",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Côte d'Ivoire (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Côte d'Ivoire (la)"
     }]
   },
   {
     "code" : "DNK",
     "display" : "Denmark",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Danemark (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Danemark (le)"
     }]
   },
   {
     "code" : "DJI",
     "display" : "Djibouti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Djibouti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Djibouti"
     }]
   },
   {
     "code" : "DMA",
     "display" : "Dominica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Dominique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Dominique (la)"
     }]
   },
   {
     "code" : "DOM",
     "display" : "Dominican Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "dominicaine (la République)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "dominicaine (la République)"
     }]
   },
   {
     "code" : "ECU",
     "display" : "Ecuador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Équateur (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Équateur (l')"
     }]
   },
   {
     "code" : "EGY",
     "display" : "Egypt",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Égypte (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Égypte (l')"
     }]
   },
   {
     "code" : "SLV",
     "display" : "El Salvador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "El Salvador"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "El Salvador"
     }]
   },
   {
     "code" : "GNQ",
     "display" : "Equatorial Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée équatoriale (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée équatoriale (la)"
     }]
   },
   {
     "code" : "ERI",
     "display" : "Eritrea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Érythrée (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Érythrée (l')"
     }]
   },
   {
     "code" : "EST",
     "display" : "Estonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Estonie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Estonie (l')"
     }]
   },
   {
     "code" : "SWZ",
     "display" : "Eswatini",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Eswatini (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Eswatini (l')"
     }]
   },
   {
     "code" : "ETH",
     "display" : "Ethiopia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Éthiopie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Éthiopie (l')"
     }]
   },
   {
     "code" : "FLK",
     "display" : "Falkland Islands (the) [Malvinas]",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Falkland (les Îles)/Malouines (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Falkland (les Îles)/Malouines (les Îles)"
     }]
   },
   {
     "code" : "FRO",
     "display" : "Faroe Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Féroé (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Féroé (les Îles)"
     }]
   },
   {
     "code" : "FJI",
     "display" : "Fiji",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Fidji (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Fidji (les)"
     }]
   },
   {
     "code" : "FIN",
     "display" : "Finland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Finlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Finlande (la)"
     }]
   },
   {
     "code" : "FRA",
     "display" : "France",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "France (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "France (la)"
     }]
   },
   {
     "code" : "GUF",
     "display" : "French Guiana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyane française (la )"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyane française (la )"
     }]
   },
   {
     "code" : "PYF",
     "display" : "French Polynesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Polynésie française (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Polynésie française (la)"
     }]
   },
   {
     "code" : "ATF",
     "display" : "French Southern Territories (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Terres australes françaises (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Terres australes françaises (les)"
     }]
   },
   {
     "code" : "GAB",
     "display" : "Gabon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gabon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gabon (le)"
     }]
   },
   {
     "code" : "GMB",
     "display" : "Gambia (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gambie (la)"
     }]
   },
   {
     "code" : "GEO",
     "display" : "Georgia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie (la)"
     }]
   },
   {
     "code" : "DEU",
     "display" : "Germany",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Allemagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Allemagne (l')"
     }]
   },
   {
     "code" : "GHA",
     "display" : "Ghana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ghana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ghana (le)"
     }]
   },
   {
     "code" : "GIB",
     "display" : "Gibraltar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gibraltar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gibraltar"
     }]
   },
   {
     "code" : "GRC",
     "display" : "Greece",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grèce (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grèce (la)"
     }]
   },
   {
     "code" : "GRL",
     "display" : "Greenland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Groenland (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Groenland (le)"
     }]
   },
   {
     "code" : "GRD",
     "display" : "Grenada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grenade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grenade (la)"
     }]
   },
   {
     "code" : "GLP",
     "display" : "Guadeloupe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guadeloupe (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guadeloupe (la)"
     }]
   },
   {
     "code" : "GUM",
     "display" : "Guam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guam"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guam"
     }]
   },
   {
     "code" : "GTM",
     "display" : "Guatemala",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guatemala (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guatemala (le)"
     }]
   },
   {
     "code" : "GGY",
     "display" : "Guernsey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guernesey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guernesey"
     }]
   },
   {
     "code" : "GIN",
     "display" : "Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée (la)"
     }]
   },
   {
     "code" : "GNB",
     "display" : "Guinea-Bissau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée-Bissau (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée-Bissau (la)"
     }]
   },
   {
     "code" : "GUY",
     "display" : "Guyana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyana (le)"
     }]
   },
   {
     "code" : "HTI",
     "display" : "Haiti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Haïti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Haïti"
     }]
   },
   {
     "code" : "HMD",
     "display" : "Heard Island and McDonald Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Heard-et-Îles MacDonald (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Heard-et-Îles MacDonald (l'Île)"
     }]
   },
   {
     "code" : "VAT",
     "display" : "Holy See (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Siège (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Siège (le)"
     }]
   },
   {
     "code" : "HND",
     "display" : "Honduras",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Honduras (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Honduras (le)"
     }]
   },
   {
     "code" : "HKG",
     "display" : "Hong Kong",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hong Kong"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hong Kong"
     }]
   },
   {
     "code" : "HUN",
     "display" : "Hungary",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hongrie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hongrie (la)"
     }]
   },
   {
     "code" : "ISL",
     "display" : "Iceland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Islande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Islande (l')"
     }]
   },
   {
     "code" : "IND",
     "display" : "India",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Inde (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Inde (l')"
     }]
   },
   {
     "code" : "IDN",
     "display" : "Indonesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indonésie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indonésie (l')"
     }]
   },
   {
     "code" : "IRN",
     "display" : "Iran (Islamic Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iran (République Islamique d')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iran (République Islamique d')"
     }]
   },
   {
     "code" : "IRQ",
     "display" : "Iraq",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iraq (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iraq (l')"
     }]
   },
   {
     "code" : "IRL",
     "display" : "Ireland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Irlande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Irlande (l')"
     }]
   },
   {
     "code" : "IMN",
     "display" : "Isle of Man",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Île de Man"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Île de Man"
     }]
   },
   {
     "code" : "ISR",
     "display" : "Israel",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Israël"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Israël"
     }]
   },
   {
     "code" : "ITA",
     "display" : "Italy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Italie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Italie (l')"
     }]
   },
   {
     "code" : "JAM",
     "display" : "Jamaica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jamaïque (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jamaïque (la)"
     }]
   },
   {
     "code" : "JPN",
     "display" : "Japan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Japon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Japon (le)"
     }]
   },
   {
     "code" : "JEY",
     "display" : "Jersey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jersey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jersey"
     }]
   },
   {
     "code" : "JOR",
     "display" : "Jordan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jordanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jordanie (la)"
     }]
   },
   {
     "code" : "KAZ",
     "display" : "Kazakhstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kazakhstan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kazakhstan (le)"
     }]
   },
   {
     "code" : "KEN",
     "display" : "Kenya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kenya (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kenya (le)"
     }]
   },
   {
     "code" : "KIR",
     "display" : "Kiribati",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kiribati"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kiribati"
     }]
   },
   {
     "code" : "PRK",
     "display" : "Korea (the Democratic People's Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République populaire démocratique de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République populaire démocratique de)"
     }]
   },
   {
     "code" : "KOR",
     "display" : "Korea (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République de)"
     }]
   },
   {
     "code" : "KWT",
     "display" : "Kuwait",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Koweït (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Koweït (le)"
     }]
   },
   {
     "code" : "KGZ",
     "display" : "Kyrgyzstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kirghizistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kirghizistan (le)"
     }]
   },
   {
     "code" : "LAO",
     "display" : "Lao People's Democratic Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lao (la République démocratique populaire)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lao (la République démocratique populaire)"
     }]
   },
   {
     "code" : "LVA",
     "display" : "Latvia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lettonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lettonie (la)"
     }]
   },
   {
     "code" : "LBN",
     "display" : "Lebanon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liban (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liban (le)"
     }]
   },
   {
     "code" : "LSO",
     "display" : "Lesotho",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lesotho (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lesotho (le)"
     }]
   },
   {
     "code" : "LBR",
     "display" : "Liberia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libéria (le)"
     }]
   },
   {
     "code" : "LBY",
     "display" : "Libya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libye (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libye (la)"
     }]
   },
   {
     "code" : "LIE",
     "display" : "Liechtenstein",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liechtenstein (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liechtenstein (le)"
     }]
   },
   {
     "code" : "LTU",
     "display" : "Lithuania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lituanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lituanie (la)"
     }]
   },
   {
     "code" : "LUX",
     "display" : "Luxembourg",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Luxembourg (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Luxembourg (le)"
     }]
   },
   {
     "code" : "MAC",
     "display" : "Macao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macao"
     }]
   },
   {
     "code" : "MDG",
     "display" : "Madagascar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Madagascar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Madagascar"
     }]
   },
   {
     "code" : "MWI",
     "display" : "Malawi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malawi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malawi (le)"
     }]
   },
   {
     "code" : "MYS",
     "display" : "Malaysia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malaisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malaisie (la)"
     }]
   },
   {
     "code" : "MDV",
     "display" : "Maldives",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maldives (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maldives (les)"
     }]
   },
   {
     "code" : "MLI",
     "display" : "Mali",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mali (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mali (le)"
     }]
   },
   {
     "code" : "MLT",
     "display" : "Malta",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malte"
     }]
   },
   {
     "code" : "MHL",
     "display" : "Marshall Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Marshall (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Marshall (les Îles)"
     }]
   },
   {
     "code" : "MTQ",
     "display" : "Martinique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Martinique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Martinique (la)"
     }]
   },
   {
     "code" : "MRT",
     "display" : "Mauritania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mauritanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mauritanie (la)"
     }]
   },
   {
     "code" : "MUS",
     "display" : "Mauritius",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maurice"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maurice"
     }]
   },
   {
     "code" : "MYT",
     "display" : "Mayotte",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mayotte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mayotte"
     }]
   },
   {
     "code" : "MEX",
     "display" : "Mexico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mexique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mexique (le)"
     }]
   },
   {
     "code" : "FSM",
     "display" : "Micronesia (Federated States of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Micronésie (États fédérés de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Micronésie (États fédérés de)"
     }]
   },
   {
     "code" : "MDA",
     "display" : "Moldova (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Moldova (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Moldova (la République de)"
     }]
   },
   {
     "code" : "MCO",
     "display" : "Monaco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monaco"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monaco"
     }]
   },
   {
     "code" : "MNG",
     "display" : "Mongolia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mongolie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mongolie (la)"
     }]
   },
   {
     "code" : "MNE",
     "display" : "Montenegro",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monténégro (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monténégro (le)"
     }]
   },
   {
     "code" : "MSR",
     "display" : "Montserrat",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Montserrat"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Montserrat"
     }]
   },
   {
     "code" : "MAR",
     "display" : "Morocco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maroc (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maroc (le)"
     }]
   },
   {
     "code" : "MOZ",
     "display" : "Mozambique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mozambique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mozambique (le)"
     }]
   },
   {
     "code" : "MMR",
     "display" : "Myanmar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Myanmar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Myanmar (le)"
     }]
   },
   {
     "code" : "NAM",
     "display" : "Namibia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Namibie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Namibie (la)"
     }]
   },
   {
     "code" : "NRU",
     "display" : "Nauru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nauru"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nauru"
     }]
   },
   {
     "code" : "NPL",
     "display" : "Nepal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Népal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Népal (le)"
     }]
   },
   {
     "code" : "NLD",
     "display" : "Netherlands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pays-Bas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pays-Bas (les)"
     }]
   },
   {
     "code" : "NCL",
     "display" : "New Caledonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Calédonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Calédonie (la)"
     }]
   },
   {
     "code" : "NZL",
     "display" : "New Zealand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Zélande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Zélande (la)"
     }]
   },
   {
     "code" : "NIC",
     "display" : "Nicaragua",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nicaragua (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nicaragua (le)"
     }]
   },
   {
     "code" : "NER",
     "display" : "Niger (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niger (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niger (le)"
     }]
   },
   {
     "code" : "NGA",
     "display" : "Nigeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nigéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nigéria (le)"
     }]
   },
   {
     "code" : "NIU",
     "display" : "Niue",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niue"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niue"
     }]
   },
   {
     "code" : "NFK",
     "display" : "Norfolk Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norfolk (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norfolk (l'Île)"
     }]
   },
   {
     "code" : "MKD",
     "display" : "North Macedonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macédoine du Nord (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macédoine du Nord (la)"
     }]
   },
   {
     "code" : "MNP",
     "display" : "Northern Mariana Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mariannes du Nord (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mariannes du Nord (les Îles)"
     }]
   },
   {
     "code" : "NOR",
     "display" : "Norway",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norvège (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norvège (la)"
     }]
   },
   {
     "code" : "OMN",
     "display" : "Oman",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Oman"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Oman"
     }]
   },
   {
     "code" : "PAK",
     "display" : "Pakistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pakistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pakistan (le)"
     }]
   },
   {
     "code" : "PLW",
     "display" : "Palau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palaos (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palaos (les)"
     }]
   },
   {
     "code" : "PSE",
     "display" : "Palestine, State of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palestine, État de"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palestine, État de"
     }]
   },
   {
     "code" : "PAN",
     "display" : "Panama",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Panama (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Panama (le)"
     }]
   },
   {
     "code" : "PNG",
     "display" : "Papua New Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Papouasie-Nouvelle-Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Papouasie-Nouvelle-Guinée (la)"
     }]
   },
   {
     "code" : "PRY",
     "display" : "Paraguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Paraguay (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Paraguay (le)"
     }]
   },
   {
     "code" : "PER",
     "display" : "Peru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pérou (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pérou (le)"
     }]
   },
   {
     "code" : "PHL",
     "display" : "Philippines (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Philippines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Philippines (les)"
     }]
   },
   {
     "code" : "PCN",
     "display" : "Pitcairn",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pitcairn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pitcairn"
     }]
   },
   {
     "code" : "POL",
     "display" : "Poland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pologne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pologne (la)"
     }]
   },
   {
     "code" : "PRT",
     "display" : "Portugal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Portugal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Portugal (le)"
     }]
   },
   {
     "code" : "PRI",
     "display" : "Puerto Rico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Porto Rico"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Porto Rico"
     }]
   },
   {
     "code" : "QAT",
     "display" : "Qatar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Qatar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Qatar (le)"
     }]
   },
   {
     "code" : "ROU",
     "display" : "Romania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Roumanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Roumanie (la)"
     }]
   },
   {
     "code" : "RUS",
     "display" : "Russian Federation (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Russie (la Fédération de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Russie (la Fédération de)"
     }]
   },
   {
     "code" : "RWA",
     "display" : "Rwanda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Rwanda (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Rwanda (le)"
     }]
   },
   {
     "code" : "REU",
     "display" : "Réunion",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Réunion (La)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Réunion (La)"
     }]
   },
   {
     "code" : "BLM",
     "display" : "Saint Barthélemy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Barthélemy"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Barthélemy"
     }]
   },
   {
     "code" : "SHN",
     "display" : "Saint Helena, Ascension and Tristan da Cunha",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Hélène, Ascension et Tristan da Cunha"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Hélène, Ascension et Tristan da Cunha"
     }]
   },
   {
     "code" : "KNA",
     "display" : "Saint Kitts and Nevis",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Kitts-et-Nevis"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Kitts-et-Nevis"
     }]
   },
   {
     "code" : "LCA",
     "display" : "Saint Lucia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Lucie"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Lucie"
     }]
   },
   {
     "code" : "MAF",
     "display" : "Saint Martin (French part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie française)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie française)"
     }]
   },
   {
     "code" : "SPM",
     "display" : "Saint Pierre and Miquelon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Pierre-et-Miquelon"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Pierre-et-Miquelon"
     }]
   },
   {
     "code" : "VCT",
     "display" : "Saint Vincent and the Grenadines",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Vincent-et-les Grenadines"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Vincent-et-les Grenadines"
     }]
   },
   {
     "code" : "WSM",
     "display" : "Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa (le)"
     }]
   },
   {
     "code" : "SMR",
     "display" : "San Marino",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Marin"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Marin"
     }]
   },
   {
     "code" : "STP",
     "display" : "Sao Tome and Principe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sao Tomé-et-Principe"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sao Tomé-et-Principe"
     }]
   },
   {
     "code" : "SAU",
     "display" : "Saudi Arabia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arabie saoudite (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arabie saoudite (l')"
     }]
   },
   {
     "code" : "SEN",
     "display" : "Senegal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sénégal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sénégal (le)"
     }]
   },
   {
     "code" : "SRB",
     "display" : "Serbia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Serbie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Serbie (la)"
     }]
   },
   {
     "code" : "SYC",
     "display" : "Seychelles",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Seychelles (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Seychelles (les)"
     }]
   },
   {
     "code" : "SLE",
     "display" : "Sierra Leone",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sierra Leone (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sierra Leone (la)"
     }]
   },
   {
     "code" : "SGP",
     "display" : "Singapore",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Singapour"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Singapour"
     }]
   },
   {
     "code" : "SXM",
     "display" : "Sint Maarten (Dutch part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie néerlandaise)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie néerlandaise)"
     }]
   },
   {
     "code" : "SVK",
     "display" : "Slovakia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovaquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovaquie (la)"
     }]
   },
   {
     "code" : "SVN",
     "display" : "Slovenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovénie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovénie (la)"
     }]
   },
   {
     "code" : "SLB",
     "display" : "Solomon Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Salomon (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Salomon (les Îles)"
     }]
   },
   {
     "code" : "SOM",
     "display" : "Somalia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Somalie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Somalie (la)"
     }]
   },
   {
     "code" : "ZAF",
     "display" : "South Africa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afrique du Sud (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afrique du Sud (l')"
     }]
   },
   {
     "code" : "SGS",
     "display" : "South Georgia and the South Sandwich Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
     }]
   },
   {
     "code" : "SSD",
     "display" : "South Sudan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan du Sud (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan du Sud (le)"
     }]
   },
   {
     "code" : "ESP",
     "display" : "Spain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Espagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Espagne (l')"
     }]
   },
   {
     "code" : "LKA",
     "display" : "Sri Lanka",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sri Lanka"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sri Lanka"
     }]
   },
   {
     "code" : "SDN",
     "display" : "Sudan (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan (le)"
     }]
   },
   {
     "code" : "SUR",
     "display" : "Suriname",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suriname (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suriname (le)"
     }]
   },
   {
     "code" : "SJM",
     "display" : "Svalbard and Jan Mayen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Svalbard et l'Île Jan Mayen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Svalbard et l'Île Jan Mayen (le)"
     }]
   },
   {
     "code" : "SWE",
     "display" : "Sweden",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suède (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suède (la)"
     }]
   },
   {
     "code" : "CHE",
     "display" : "Switzerland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suisse (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suisse (la)"
     }]
   },
   {
     "code" : "SYR",
     "display" : "Syrian Arab Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République arabe syrienne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République arabe syrienne (la)"
     }]
   },
   {
     "code" : "TWN",
     "display" : "Taiwan (Province of China)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Taïwan (Province de Chine)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Taïwan (Province de Chine)"
     }]
   },
   {
     "code" : "TJK",
     "display" : "Tajikistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tadjikistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tadjikistan (le)"
     }]
   },
   {
     "code" : "TZA",
     "display" : "Tanzania, the United Republic of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tanzanie (la République-Unie de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tanzanie (la République-Unie de)"
     }]
   },
   {
     "code" : "THA",
     "display" : "Thailand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Thaïlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Thaïlande (la)"
     }]
   },
   {
     "code" : "TLS",
     "display" : "Timor-Leste",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Timor-Leste (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Timor-Leste (le)"
     }]
   },
   {
     "code" : "TGO",
     "display" : "Togo",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Togo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Togo (le)"
     }]
   },
   {
     "code" : "TKL",
     "display" : "Tokelau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tokelau (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tokelau (les)"
     }]
   },
   {
     "code" : "TON",
     "display" : "Tonga",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tonga (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tonga (les)"
     }]
   },
   {
     "code" : "TTO",
     "display" : "Trinidad and Tobago",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Trinité-et-Tobago (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Trinité-et-Tobago (la)"
     }]
   },
   {
     "code" : "TUN",
     "display" : "Tunisia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tunisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tunisie (la)"
     }]
   },
   {
     "code" : "TUR",
     "display" : "Turkey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turquie (la)"
     }]
   },
   {
     "code" : "TKM",
     "display" : "Turkmenistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turkménistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turkménistan (le)"
     }]
   },
   {
     "code" : "TCA",
     "display" : "Turks and Caicos Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turks-et-Caïcos (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turks-et-Caïcos (les Îles)"
     }]
   },
   {
     "code" : "TUV",
     "display" : "Tuvalu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tuvalu (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tuvalu (les)"
     }]
   },
   {
     "code" : "UGA",
     "display" : "Uganda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouganda (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouganda (l')"
     }]
   },
   {
     "code" : "UKR",
     "display" : "Ukraine",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ukraine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ukraine (l')"
     }]
   },
   {
     "code" : "ARE",
     "display" : "United Arab Emirates (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Émirats arabes unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Émirats arabes unis (les)"
     }]
   },
   {
     "code" : "GBR",
     "display" : "United Kingdom of Great Britain and Northern Ireland (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
     }]
   },
   {
     "code" : "UMI",
     "display" : "United States Minor Outlying Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Îles mineures éloignées des États-Unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Îles mineures éloignées des États-Unis (les)"
     }]
   },
   {
     "code" : "USA",
     "display" : "United States of America (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "États-Unis d'Amérique (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "États-Unis d'Amérique (les)"
     }]
   },
   {
     "code" : "URY",
     "display" : "Uruguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Uruguay (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Uruguay (l')"
     }]
   },
   {
     "code" : "UZB",
     "display" : "Uzbekistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouzbékistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouzbékistan (l')"
     }]
   },
   {
     "code" : "VUT",
     "display" : "Vanuatu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vanuatu (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vanuatu (le)"
     }]
   },
   {
     "code" : "VEN",
     "display" : "Venezuela (Bolivarian Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Venezuela (République bolivarienne du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Venezuela (République bolivarienne du)"
     }]
   },
   {
     "code" : "VNM",
     "display" : "Viet Nam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Viet Nam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Viet Nam (le)"
     }]
   },
   {
     "code" : "VGB",
     "display" : "Virgin Islands (British)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges britanniques (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges britanniques (les Îles)"
     }]
   },
   {
     "code" : "VIR",
     "display" : "Virgin Islands (U.S.)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges des États-Unis (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges des États-Unis (les Îles)"
     }]
   },
   {
     "code" : "WLF",
     "display" : "Wallis and Futuna",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Wallis-et-Futuna"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Wallis-et-Futuna"
     }]
   },
   {
     "code" : "ESH",
     "display" : "Western Sahara*",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sahara occidental (le)*"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sahara occidental (le)*"
     }]
   },
   {
     "code" : "YEM",
     "display" : "Yemen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Yémen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Yémen (le)"
     }]
   },
   {
     "code" : "ZMB",
     "display" : "Zambia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zambie (la)"
     }]
   },
   {
     "code" : "ZWE",
     "display" : "Zimbabwe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zimbabwe (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zimbabwe (le)"
     }]
   },
   {
     "code" : "ALA",
     "display" : "Åland Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Åland(les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Åland(les Îles)"
     }]
   },
   {
     "code" : "100",
     "display" : "Bulgaria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bulgarie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bulgarie (la)"
     }]
   },
   {
     "code" : "104",
     "display" : "Myanmar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Myanmar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Myanmar (le)"
     }]
   },
   {
     "code" : "108",
     "display" : "Burundi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burundi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burundi (le)"
     }]
   },
   {
     "code" : "112",
     "display" : "Belarus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bélarus (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bélarus (le)"
     }]
   },
   {
     "code" : "116",
     "display" : "Cambodia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cambodge (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cambodge (le)"
     }]
   },
   {
     "code" : "120",
     "display" : "Cameroon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cameroun (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cameroun (le)"
     }]
   },
   {
     "code" : "124",
     "display" : "Canada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Canada (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Canada (le)"
     }]
   },
   {
     "code" : "132",
     "display" : "Cabo Verde",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cabo Verde"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cabo Verde"
     }]
   },
   {
     "code" : "136",
     "display" : "Cayman Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Caïmans (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Caïmans (les Îles)"
     }]
   },
   {
     "code" : "140",
     "display" : "Central African Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République centrafricaine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République centrafricaine (la)"
     }]
   },
   {
     "code" : "144",
     "display" : "Sri Lanka",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sri Lanka"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sri Lanka"
     }]
   },
   {
     "code" : "148",
     "display" : "Chad",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchad (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchad (le)"
     }]
   },
   {
     "code" : "152",
     "display" : "Chile",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chili (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chili (le)"
     }]
   },
   {
     "code" : "156",
     "display" : "China",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chine (la)"
     }]
   },
   {
     "code" : "158",
     "display" : "Taiwan (Province of China)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Taïwan (Province de Chine)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Taïwan (Province de Chine)"
     }]
   },
   {
     "code" : "162",
     "display" : "Christmas Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Christmas (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Christmas (l'Île)"
     }]
   },
   {
     "code" : "166",
     "display" : "Cocos (Keeling) Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cocos (les Îles)/ Keeling (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cocos (les Îles)/ Keeling (les Îles)"
     }]
   },
   {
     "code" : "170",
     "display" : "Colombia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Colombie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Colombie (la)"
     }]
   },
   {
     "code" : "174",
     "display" : "Comoros (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Comores (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Comores (les)"
     }]
   },
   {
     "code" : "175",
     "display" : "Mayotte",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mayotte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mayotte"
     }]
   },
   {
     "code" : "178",
     "display" : "Congo (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (le)"
     }]
   },
   {
     "code" : "180",
     "display" : "Congo (the Democratic Republic of the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Congo (la République démocratique du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Congo (la République démocratique du)"
     }]
   },
   {
     "code" : "184",
     "display" : "Cook Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cook (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cook (les Îles)"
     }]
   },
   {
     "code" : "188",
     "display" : "Costa Rica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Costa Rica (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Costa Rica (le)"
     }]
   },
   {
     "code" : "191",
     "display" : "Croatia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Croatie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Croatie (la)"
     }]
   },
   {
     "code" : "192",
     "display" : "Cuba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Cuba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Cuba"
     }]
   },
   {
     "code" : "196",
     "display" : "Cyprus",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Chypre"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Chypre"
     }]
   },
   {
     "code" : "203",
     "display" : "Czechia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tchéquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tchéquie (la)"
     }]
   },
   {
     "code" : "204",
     "display" : "Benin",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bénin (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bénin (le)"
     }]
   },
   {
     "code" : "208",
     "display" : "Denmark",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Danemark (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Danemark (le)"
     }]
   },
   {
     "code" : "212",
     "display" : "Dominica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Dominique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Dominique (la)"
     }]
   },
   {
     "code" : "214",
     "display" : "Dominican Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "dominicaine (la République)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "dominicaine (la République)"
     }]
   },
   {
     "code" : "218",
     "display" : "Ecuador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Équateur (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Équateur (l')"
     }]
   },
   {
     "code" : "222",
     "display" : "El Salvador",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "El Salvador"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "El Salvador"
     }]
   },
   {
     "code" : "226",
     "display" : "Equatorial Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée équatoriale (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée équatoriale (la)"
     }]
   },
   {
     "code" : "231",
     "display" : "Ethiopia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Éthiopie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Éthiopie (l')"
     }]
   },
   {
     "code" : "232",
     "display" : "Eritrea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Érythrée (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Érythrée (l')"
     }]
   },
   {
     "code" : "233",
     "display" : "Estonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Estonie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Estonie (l')"
     }]
   },
   {
     "code" : "234",
     "display" : "Faroe Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Féroé (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Féroé (les Îles)"
     }]
   },
   {
     "code" : "238",
     "display" : "Falkland Islands (the) [Malvinas]",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Falkland (les Îles)/Malouines (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Falkland (les Îles)/Malouines (les Îles)"
     }]
   },
   {
     "code" : "239",
     "display" : "South Georgia and the South Sandwich Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie du Sud-et-les Îles Sandwich du Sud (la)"
     }]
   },
   {
     "code" : "242",
     "display" : "Fiji",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Fidji (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Fidji (les)"
     }]
   },
   {
     "code" : "246",
     "display" : "Finland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Finlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Finlande (la)"
     }]
   },
   {
     "code" : "248",
     "display" : "Åland Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Åland(les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Åland(les Îles)"
     }]
   },
   {
     "code" : "250",
     "display" : "France",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "France (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "France (la)"
     }]
   },
   {
     "code" : "254",
     "display" : "French Guiana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyane française (la )"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyane française (la )"
     }]
   },
   {
     "code" : "258",
     "display" : "French Polynesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Polynésie française (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Polynésie française (la)"
     }]
   },
   {
     "code" : "260",
     "display" : "French Southern Territories (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Terres australes françaises (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Terres australes françaises (les)"
     }]
   },
   {
     "code" : "262",
     "display" : "Djibouti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Djibouti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Djibouti"
     }]
   },
   {
     "code" : "266",
     "display" : "Gabon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gabon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gabon (le)"
     }]
   },
   {
     "code" : "268",
     "display" : "Georgia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Géorgie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Géorgie (la)"
     }]
   },
   {
     "code" : "270",
     "display" : "Gambia (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gambie (la)"
     }]
   },
   {
     "code" : "275",
     "display" : "Palestine, State of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palestine, État de"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palestine, État de"
     }]
   },
   {
     "code" : "276",
     "display" : "Germany",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Allemagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Allemagne (l')"
     }]
   },
   {
     "code" : "288",
     "display" : "Ghana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ghana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ghana (le)"
     }]
   },
   {
     "code" : "292",
     "display" : "Gibraltar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Gibraltar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Gibraltar"
     }]
   },
   {
     "code" : "296",
     "display" : "Kiribati",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kiribati"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kiribati"
     }]
   },
   {
     "code" : "300",
     "display" : "Greece",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grèce (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grèce (la)"
     }]
   },
   {
     "code" : "304",
     "display" : "Greenland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Groenland (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Groenland (le)"
     }]
   },
   {
     "code" : "308",
     "display" : "Grenada",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Grenade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Grenade (la)"
     }]
   },
   {
     "code" : "312",
     "display" : "Guadeloupe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guadeloupe (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guadeloupe (la)"
     }]
   },
   {
     "code" : "316",
     "display" : "Guam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guam"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guam"
     }]
   },
   {
     "code" : "320",
     "display" : "Guatemala",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guatemala (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guatemala (le)"
     }]
   },
   {
     "code" : "324",
     "display" : "Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée (la)"
     }]
   },
   {
     "code" : "328",
     "display" : "Guyana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guyana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guyana (le)"
     }]
   },
   {
     "code" : "332",
     "display" : "Haiti",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Haïti"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Haïti"
     }]
   },
   {
     "code" : "334",
     "display" : "Heard Island and McDonald Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Heard-et-Îles MacDonald (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Heard-et-Îles MacDonald (l'Île)"
     }]
   },
   {
     "code" : "336",
     "display" : "Holy See (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Siège (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Siège (le)"
     }]
   },
   {
     "code" : "340",
     "display" : "Honduras",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Honduras (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Honduras (le)"
     }]
   },
   {
     "code" : "344",
     "display" : "Hong Kong",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hong Kong"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hong Kong"
     }]
   },
   {
     "code" : "348",
     "display" : "Hungary",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Hongrie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Hongrie (la)"
     }]
   },
   {
     "code" : "352",
     "display" : "Iceland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Islande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Islande (l')"
     }]
   },
   {
     "code" : "356",
     "display" : "India",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Inde (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Inde (l')"
     }]
   },
   {
     "code" : "360",
     "display" : "Indonesia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indonésie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indonésie (l')"
     }]
   },
   {
     "code" : "364",
     "display" : "Iran (Islamic Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iran (République Islamique d')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iran (République Islamique d')"
     }]
   },
   {
     "code" : "368",
     "display" : "Iraq",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Iraq (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Iraq (l')"
     }]
   },
   {
     "code" : "372",
     "display" : "Ireland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Irlande (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Irlande (l')"
     }]
   },
   {
     "code" : "376",
     "display" : "Israel",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Israël"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Israël"
     }]
   },
   {
     "code" : "380",
     "display" : "Italy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Italie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Italie (l')"
     }]
   },
   {
     "code" : "384",
     "display" : "Côte d'Ivoire",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Côte d'Ivoire (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Côte d'Ivoire (la)"
     }]
   },
   {
     "code" : "388",
     "display" : "Jamaica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jamaïque (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jamaïque (la)"
     }]
   },
   {
     "code" : "392",
     "display" : "Japan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Japon (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Japon (le)"
     }]
   },
   {
     "code" : "398",
     "display" : "Kazakhstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kazakhstan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kazakhstan (le)"
     }]
   },
   {
     "code" : "400",
     "display" : "Jordan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jordanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jordanie (la)"
     }]
   },
   {
     "code" : "404",
     "display" : "Kenya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kenya (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kenya (le)"
     }]
   },
   {
     "code" : "408",
     "display" : "Korea (the Democratic People's Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République populaire démocratique de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République populaire démocratique de)"
     }]
   },
   {
     "code" : "410",
     "display" : "Korea (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Corée (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Corée (la République de)"
     }]
   },
   {
     "code" : "414",
     "display" : "Kuwait",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Koweït (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Koweït (le)"
     }]
   },
   {
     "code" : "417",
     "display" : "Kyrgyzstan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Kirghizistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Kirghizistan (le)"
     }]
   },
   {
     "code" : "418",
     "display" : "Lao People's Democratic Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lao (la République démocratique populaire)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lao (la République démocratique populaire)"
     }]
   },
   {
     "code" : "422",
     "display" : "Lebanon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liban (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liban (le)"
     }]
   },
   {
     "code" : "426",
     "display" : "Lesotho",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lesotho (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lesotho (le)"
     }]
   },
   {
     "code" : "428",
     "display" : "Latvia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lettonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lettonie (la)"
     }]
   },
   {
     "code" : "430",
     "display" : "Liberia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libéria (le)"
     }]
   },
   {
     "code" : "434",
     "display" : "Libya",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Libye (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Libye (la)"
     }]
   },
   {
     "code" : "438",
     "display" : "Liechtenstein",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Liechtenstein (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Liechtenstein (le)"
     }]
   },
   {
     "code" : "440",
     "display" : "Lithuania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Lituanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Lituanie (la)"
     }]
   },
   {
     "code" : "442",
     "display" : "Luxembourg",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Luxembourg (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Luxembourg (le)"
     }]
   },
   {
     "code" : "446",
     "display" : "Macao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macao"
     }]
   },
   {
     "code" : "450",
     "display" : "Madagascar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Madagascar"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Madagascar"
     }]
   },
   {
     "code" : "454",
     "display" : "Malawi",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malawi (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malawi (le)"
     }]
   },
   {
     "code" : "458",
     "display" : "Malaysia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malaisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malaisie (la)"
     }]
   },
   {
     "code" : "462",
     "display" : "Maldives",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maldives (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maldives (les)"
     }]
   },
   {
     "code" : "466",
     "display" : "Mali",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mali (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mali (le)"
     }]
   },
   {
     "code" : "470",
     "display" : "Malta",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Malte"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Malte"
     }]
   },
   {
     "code" : "474",
     "display" : "Martinique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Martinique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Martinique (la)"
     }]
   },
   {
     "code" : "478",
     "display" : "Mauritania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mauritanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mauritanie (la)"
     }]
   },
   {
     "code" : "480",
     "display" : "Mauritius",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maurice"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maurice"
     }]
   },
   {
     "code" : "484",
     "display" : "Mexico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mexique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mexique (le)"
     }]
   },
   {
     "code" : "492",
     "display" : "Monaco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monaco"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monaco"
     }]
   },
   {
     "code" : "496",
     "display" : "Mongolia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mongolie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mongolie (la)"
     }]
   },
   {
     "code" : "498",
     "display" : "Moldova (the Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Moldova (la République de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Moldova (la République de)"
     }]
   },
   {
     "code" : "499",
     "display" : "Montenegro",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Monténégro (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Monténégro (le)"
     }]
   },
   {
     "code" : "500",
     "display" : "Montserrat",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Montserrat"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Montserrat"
     }]
   },
   {
     "code" : "504",
     "display" : "Morocco",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Maroc (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Maroc (le)"
     }]
   },
   {
     "code" : "508",
     "display" : "Mozambique",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mozambique (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mozambique (le)"
     }]
   },
   {
     "code" : "512",
     "display" : "Oman",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Oman"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Oman"
     }]
   },
   {
     "code" : "516",
     "display" : "Namibia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Namibie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Namibie (la)"
     }]
   },
   {
     "code" : "520",
     "display" : "Nauru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nauru"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nauru"
     }]
   },
   {
     "code" : "524",
     "display" : "Nepal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Népal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Népal (le)"
     }]
   },
   {
     "code" : "528",
     "display" : "Netherlands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pays-Bas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pays-Bas (les)"
     }]
   },
   {
     "code" : "531",
     "display" : "Curaçao",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Curaçao"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Curaçao"
     }]
   },
   {
     "code" : "533",
     "display" : "Aruba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Aruba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Aruba"
     }]
   },
   {
     "code" : "534",
     "display" : "Sint Maarten (Dutch part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie néerlandaise)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie néerlandaise)"
     }]
   },
   {
     "code" : "535",
     "display" : "Bonaire, Sint Eustatius and Saba",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bonaire, Saint-Eustache et Saba"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bonaire, Saint-Eustache et Saba"
     }]
   },
   {
     "code" : "540",
     "display" : "New Caledonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Calédonie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Calédonie (la)"
     }]
   },
   {
     "code" : "548",
     "display" : "Vanuatu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vanuatu (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vanuatu (le)"
     }]
   },
   {
     "code" : "554",
     "display" : "New Zealand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nouvelle-Zélande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nouvelle-Zélande (la)"
     }]
   },
   {
     "code" : "558",
     "display" : "Nicaragua",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nicaragua (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nicaragua (le)"
     }]
   },
   {
     "code" : "562",
     "display" : "Niger (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niger (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niger (le)"
     }]
   },
   {
     "code" : "566",
     "display" : "Nigeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Nigéria (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Nigéria (le)"
     }]
   },
   {
     "code" : "570",
     "display" : "Niue",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Niue"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Niue"
     }]
   },
   {
     "code" : "574",
     "display" : "Norfolk Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norfolk (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norfolk (l'Île)"
     }]
   },
   {
     "code" : "578",
     "display" : "Norway",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Norvège (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Norvège (la)"
     }]
   },
   {
     "code" : "580",
     "display" : "Northern Mariana Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Mariannes du Nord (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Mariannes du Nord (les Îles)"
     }]
   },
   {
     "code" : "581",
     "display" : "United States Minor Outlying Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Îles mineures éloignées des États-Unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Îles mineures éloignées des États-Unis (les)"
     }]
   },
   {
     "code" : "583",
     "display" : "Micronesia (Federated States of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Micronésie (États fédérés de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Micronésie (États fédérés de)"
     }]
   },
   {
     "code" : "584",
     "display" : "Marshall Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Marshall (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Marshall (les Îles)"
     }]
   },
   {
     "code" : "585",
     "display" : "Palau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Palaos (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Palaos (les)"
     }]
   },
   {
     "code" : "586",
     "display" : "Pakistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pakistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pakistan (le)"
     }]
   },
   {
     "code" : "591",
     "display" : "Panama",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Panama (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Panama (le)"
     }]
   },
   {
     "code" : "598",
     "display" : "Papua New Guinea",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Papouasie-Nouvelle-Guinée (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Papouasie-Nouvelle-Guinée (la)"
     }]
   },
   {
     "code" : "600",
     "display" : "Paraguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Paraguay (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Paraguay (le)"
     }]
   },
   {
     "code" : "604",
     "display" : "Peru",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pérou (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pérou (le)"
     }]
   },
   {
     "code" : "608",
     "display" : "Philippines (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Philippines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Philippines (les)"
     }]
   },
   {
     "code" : "612",
     "display" : "Pitcairn",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pitcairn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pitcairn"
     }]
   },
   {
     "code" : "616",
     "display" : "Poland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Pologne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Pologne (la)"
     }]
   },
   {
     "code" : "620",
     "display" : "Portugal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Portugal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Portugal (le)"
     }]
   },
   {
     "code" : "624",
     "display" : "Guinea-Bissau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guinée-Bissau (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guinée-Bissau (la)"
     }]
   },
   {
     "code" : "626",
     "display" : "Timor-Leste",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Timor-Leste (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Timor-Leste (le)"
     }]
   },
   {
     "code" : "630",
     "display" : "Puerto Rico",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Porto Rico"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Porto Rico"
     }]
   },
   {
     "code" : "634",
     "display" : "Qatar",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Qatar (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Qatar (le)"
     }]
   },
   {
     "code" : "638",
     "display" : "Réunion",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Réunion (La)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Réunion (La)"
     }]
   },
   {
     "code" : "642",
     "display" : "Romania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Roumanie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Roumanie (la)"
     }]
   },
   {
     "code" : "643",
     "display" : "Russian Federation (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Russie (la Fédération de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Russie (la Fédération de)"
     }]
   },
   {
     "code" : "646",
     "display" : "Rwanda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Rwanda (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Rwanda (le)"
     }]
   },
   {
     "code" : "652",
     "display" : "Saint Barthélemy",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Barthélemy"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Barthélemy"
     }]
   },
   {
     "code" : "654",
     "display" : "Saint Helena, Ascension and Tristan da Cunha",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Hélène, Ascension et Tristan da Cunha"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Hélène, Ascension et Tristan da Cunha"
     }]
   },
   {
     "code" : "659",
     "display" : "Saint Kitts and Nevis",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Kitts-et-Nevis"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Kitts-et-Nevis"
     }]
   },
   {
     "code" : "660",
     "display" : "Anguilla",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Anguilla"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Anguilla"
     }]
   },
   {
     "code" : "662",
     "display" : "Saint Lucia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sainte-Lucie"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sainte-Lucie"
     }]
   },
   {
     "code" : "663",
     "display" : "Saint Martin (French part)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Martin (partie française)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Martin (partie française)"
     }]
   },
   {
     "code" : "666",
     "display" : "Saint Pierre and Miquelon",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Pierre-et-Miquelon"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Pierre-et-Miquelon"
     }]
   },
   {
     "code" : "670",
     "display" : "Saint Vincent and the Grenadines",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Vincent-et-les Grenadines"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Vincent-et-les Grenadines"
     }]
   },
   {
     "code" : "674",
     "display" : "San Marino",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Saint-Marin"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Saint-Marin"
     }]
   },
   {
     "code" : "678",
     "display" : "Sao Tome and Principe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sao Tomé-et-Principe"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sao Tomé-et-Principe"
     }]
   },
   {
     "code" : "682",
     "display" : "Saudi Arabia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arabie saoudite (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arabie saoudite (l')"
     }]
   },
   {
     "code" : "686",
     "display" : "Senegal",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sénégal (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sénégal (le)"
     }]
   },
   {
     "code" : "688",
     "display" : "Serbia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Serbie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Serbie (la)"
     }]
   },
   {
     "code" : "690",
     "display" : "Seychelles",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Seychelles (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Seychelles (les)"
     }]
   },
   {
     "code" : "694",
     "display" : "Sierra Leone",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sierra Leone (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sierra Leone (la)"
     }]
   },
   {
     "code" : "702",
     "display" : "Singapore",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Singapour"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Singapour"
     }]
   },
   {
     "code" : "703",
     "display" : "Slovakia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovaquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovaquie (la)"
     }]
   },
   {
     "code" : "704",
     "display" : "Viet Nam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Viet Nam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Viet Nam (le)"
     }]
   },
   {
     "code" : "705",
     "display" : "Slovenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Slovénie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Slovénie (la)"
     }]
   },
   {
     "code" : "706",
     "display" : "Somalia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Somalie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Somalie (la)"
     }]
   },
   {
     "code" : "710",
     "display" : "South Africa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afrique du Sud (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afrique du Sud (l')"
     }]
   },
   {
     "code" : "716",
     "display" : "Zimbabwe",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zimbabwe (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zimbabwe (le)"
     }]
   },
   {
     "code" : "724",
     "display" : "Spain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Espagne (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Espagne (l')"
     }]
   },
   {
     "code" : "728",
     "display" : "South Sudan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan du Sud (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan du Sud (le)"
     }]
   },
   {
     "code" : "729",
     "display" : "Sudan (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Soudan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Soudan (le)"
     }]
   },
   {
     "code" : "732",
     "display" : "Western Sahara*",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Sahara occidental (le)*"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Sahara occidental (le)*"
     }]
   },
   {
     "code" : "740",
     "display" : "Suriname",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suriname (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suriname (le)"
     }]
   },
   {
     "code" : "744",
     "display" : "Svalbard and Jan Mayen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Svalbard et l'Île Jan Mayen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Svalbard et l'Île Jan Mayen (le)"
     }]
   },
   {
     "code" : "748",
     "display" : "Eswatini",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Eswatini (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Eswatini (l')"
     }]
   },
   {
     "code" : "752",
     "display" : "Sweden",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suède (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suède (la)"
     }]
   },
   {
     "code" : "756",
     "display" : "Switzerland",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Suisse (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Suisse (la)"
     }]
   },
   {
     "code" : "760",
     "display" : "Syrian Arab Republic (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "République arabe syrienne (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "République arabe syrienne (la)"
     }]
   },
   {
     "code" : "762",
     "display" : "Tajikistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tadjikistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tadjikistan (le)"
     }]
   },
   {
     "code" : "764",
     "display" : "Thailand",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Thaïlande (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Thaïlande (la)"
     }]
   },
   {
     "code" : "768",
     "display" : "Togo",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Togo (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Togo (le)"
     }]
   },
   {
     "code" : "772",
     "display" : "Tokelau",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tokelau (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tokelau (les)"
     }]
   },
   {
     "code" : "776",
     "display" : "Tonga",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tonga (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tonga (les)"
     }]
   },
   {
     "code" : "780",
     "display" : "Trinidad and Tobago",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Trinité-et-Tobago (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Trinité-et-Tobago (la)"
     }]
   },
   {
     "code" : "784",
     "display" : "United Arab Emirates (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Émirats arabes unis (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Émirats arabes unis (les)"
     }]
   },
   {
     "code" : "788",
     "display" : "Tunisia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tunisie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tunisie (la)"
     }]
   },
   {
     "code" : "792",
     "display" : "Turkey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turquie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turquie (la)"
     }]
   },
   {
     "code" : "795",
     "display" : "Turkmenistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turkménistan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turkménistan (le)"
     }]
   },
   {
     "code" : "796",
     "display" : "Turks and Caicos Islands (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Turks-et-Caïcos (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Turks-et-Caïcos (les Îles)"
     }]
   },
   {
     "code" : "798",
     "display" : "Tuvalu",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tuvalu (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tuvalu (les)"
     }]
   },
   {
     "code" : "800",
     "display" : "Uganda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouganda (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouganda (l')"
     }]
   },
   {
     "code" : "804",
     "display" : "Ukraine",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ukraine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ukraine (l')"
     }]
   },
   {
     "code" : "807",
     "display" : "North Macedonia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Macédoine du Nord (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Macédoine du Nord (la)"
     }]
   },
   {
     "code" : "818",
     "display" : "Egypt",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Égypte (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Égypte (l')"
     }]
   },
   {
     "code" : "826",
     "display" : "United Kingdom of Great Britain and Northern Ireland (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Royaume-Uni de Grande-Bretagne et d'Irlande du Nord (le)"
     }]
   },
   {
     "code" : "831",
     "display" : "Guernsey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Guernesey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Guernesey"
     }]
   },
   {
     "code" : "832",
     "display" : "Jersey",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Jersey"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Jersey"
     }]
   },
   {
     "code" : "833",
     "display" : "Isle of Man",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Île de Man"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Île de Man"
     }]
   },
   {
     "code" : "834",
     "display" : "Tanzania, the United Republic of",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Tanzanie (la République-Unie de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Tanzanie (la République-Unie de)"
     }]
   },
   {
     "code" : "840",
     "display" : "United States of America (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "États-Unis d'Amérique (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "États-Unis d'Amérique (les)"
     }]
   },
   {
     "code" : "850",
     "display" : "Virgin Islands (U.S.)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges des États-Unis (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges des États-Unis (les Îles)"
     }]
   },
   {
     "code" : "854",
     "display" : "Burkina Faso",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Burkina Faso (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Burkina Faso (le)"
     }]
   },
   {
     "code" : "858",
     "display" : "Uruguay",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Uruguay (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Uruguay (l')"
     }]
   },
   {
     "code" : "860",
     "display" : "Uzbekistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Ouzbékistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Ouzbékistan (l')"
     }]
   },
   {
     "code" : "862",
     "display" : "Venezuela (Bolivarian Republic of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Venezuela (République bolivarienne du)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Venezuela (République bolivarienne du)"
     }]
   },
   {
     "code" : "876",
     "display" : "Wallis and Futuna",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Wallis-et-Futuna"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Wallis-et-Futuna"
     }]
   },
   {
     "code" : "882",
     "display" : "Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa (le)"
     }]
   },
   {
     "code" : "887",
     "display" : "Yemen",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Yémen (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Yémen (le)"
     }]
   },
   {
     "code" : "894",
     "display" : "Zambia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Zambie (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Zambie (la)"
     }]
   },
   {
     "code" : "004",
     "display" : "Afghanistan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Afghanistan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Afghanistan (l')"
     }]
   },
   {
     "code" : "008",
     "display" : "Albania",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Albanie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Albanie (l')"
     }]
   },
   {
     "code" : "012",
     "display" : "Algeria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Algérie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Algérie (l')"
     }]
   },
   {
     "code" : "016",
     "display" : "American Samoa",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Samoa américaines (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Samoa américaines (les)"
     }]
   },
   {
     "code" : "020",
     "display" : "Andorra",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Andorre (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Andorre (l')"
     }]
   },
   {
     "code" : "024",
     "display" : "Angola",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Angola (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Angola (l')"
     }]
   },
   {
     "code" : "010",
     "display" : "Antarctica",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antarctique (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antarctique (l')"
     }]
   },
   {
     "code" : "028",
     "display" : "Antigua and Barbuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Antigua-et-Barbuda"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Antigua-et-Barbuda"
     }]
   },
   {
     "code" : "032",
     "display" : "Argentina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Argentine (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Argentine (l')"
     }]
   },
   {
     "code" : "051",
     "display" : "Armenia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Arménie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Arménie (l')"
     }]
   },
   {
     "code" : "036",
     "display" : "Australia",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Australie (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Australie (l')"
     }]
   },
   {
     "code" : "040",
     "display" : "Austria",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Autriche (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Autriche (l')"
     }]
   },
   {
     "code" : "031",
     "display" : "Azerbaijan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Azerbaïdjan (l')"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Azerbaïdjan (l')"
     }]
   },
   {
     "code" : "044",
     "display" : "Bahamas (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahamas (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahamas (les)"
     }]
   },
   {
     "code" : "048",
     "display" : "Bahrain",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bahreïn"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bahreïn"
     }]
   },
   {
     "code" : "050",
     "display" : "Bangladesh",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bangladesh (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bangladesh (le)"
     }]
   },
   {
     "code" : "052",
     "display" : "Barbados",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Barbade (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Barbade (la)"
     }]
   },
   {
     "code" : "056",
     "display" : "Belgium",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belgique (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belgique (la)"
     }]
   },
   {
     "code" : "084",
     "display" : "Belize",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Belize (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Belize (le)"
     }]
   },
   {
     "code" : "060",
     "display" : "Bermuda",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bermudes (les)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bermudes (les)"
     }]
   },
   {
     "code" : "064",
     "display" : "Bhutan",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bhoutan (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bhoutan (le)"
     }]
   },
   {
     "code" : "068",
     "display" : "Bolivia (Plurinational State of)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bolivie (État plurinational de)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bolivie (État plurinational de)"
     }]
   },
   {
     "code" : "070",
     "display" : "Bosnia and Herzegovina",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bosnie-Herzégovine (la)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bosnie-Herzégovine (la)"
     }]
   },
   {
     "code" : "072",
     "display" : "Botswana",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Botswana (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Botswana (le)"
     }]
   },
   {
     "code" : "074",
     "display" : "Bouvet Island",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Bouvet (l'Île)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Bouvet (l'Île)"
     }]
   },
   {
     "code" : "076",
     "display" : "Brazil",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brésil (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brésil (le)"
     }]
   },
   {
     "code" : "086",
     "display" : "British Indian Ocean Territory (the)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Indien (le Territoire britannique de l'océan)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Indien (le Territoire britannique de l'océan)"
     }]
   },
   {
     "code" : "096",
     "display" : "Brunei Darussalam",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Brunéi Darussalam (le)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Brunéi Darussalam (le)"
     }]
   },
   {
     "code" : "090",
     "display" : "Solomon Islands",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Salomon (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Salomon (les Îles)"
     }]
   },
   {
     "code" : "092",
     "display" : "Virgin Islands (British)",
-    "property" : [{
-      "code" : "french",
-      "valueString" : "Vierges britanniques (les Îles)"
+    "designation" : [{
+      "language" : "fr",
+      "value" : "Vierges britanniques (les Îles)"
     }]
   }]
 }
