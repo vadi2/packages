@@ -13,7 +13,7 @@
   "version" : "2021",
   "name" : "ISO3166_2",
   "title" : "Codes for the representation of names of countries and their subdivisions – Part 2: Country subdivision code",
-  "status" : "draft",
+  "status" : "active",
   "contact" : [{
     "telecom" : [{
       "system" : "email"

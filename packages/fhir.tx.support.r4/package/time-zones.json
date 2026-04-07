@@ -13,7 +13,7 @@
   "version" : "20210124",
   "name" : "IANA_Timezones",
   "title" : "IANA Timezones",
-  "status" : "draft",
+  "status" : "active",
   "date" : "2021-01-24T00:00:00.000Z",
   "description" : "Codes defined at https://www.iana.org/time-zones",
   "valueSet" : "http://hl7.org/fhir/ValueSet/timezones",

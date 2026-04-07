@@ -3952,6 +3952,10 @@
     "code" : "C41338",
     "display" : "Mild Adverse Event",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "value" : "Grade 1 Mild Adverse Event"
     }]
   },
@@ -3959,6 +3963,10 @@
     "code" : "C41339",
     "display" : "Moderate Adverse Event",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "value" : "Grade 2 Moderate Adverse Event"
     }]
   },
@@ -3966,6 +3974,10 @@
     "code" : "C41340",
     "display" : "Severe Adverse Event",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "value" : "Grade 3 Severe Adverse Event"
     }]
   },
@@ -3973,6 +3985,10 @@
     "code" : "C41337",
     "display" : "Life Threatening or Disabling Adverse Event",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "value" : "Grade 4 Life Threatening or Disabling Adverse Event"
     }]
   },
@@ -3980,6 +3996,10 @@
     "code" : "C48275",
     "display" : "Death Related to Adverse Event",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "value" : "Grade 5 Death Related to Adverse Event"
     },
     {
@@ -4187,6 +4207,10 @@
     "display" : "OPTICAL ACTIVITY",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -4382,6 +4406,10 @@
     "display" : "MIXTURE SUBSTANCE",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -4405,6 +4433,10 @@
     "display" : "POLYMER SUBSTANCE",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -4419,6 +4451,10 @@
     "code" : "C706",
     "display" : "NUCLEIC ACID SUBSTANCE",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -6419,6 +6455,10 @@
     "display" : "GRANULE",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8018,6 +8058,10 @@
     "display" : "HUMANITARIAN DEVICE EXEMPTION",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8032,6 +8076,10 @@
     "code" : "C80442",
     "display" : "PREMARKET NOTIFICATION",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8236,6 +8284,10 @@
     "display" : "Child Resistant Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8246,6 +8298,10 @@
     "code" : "C96114",
     "display" : "Child Resistant Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8258,6 +8314,10 @@
     "display" : "Continuous Thread Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8268,6 +8328,10 @@
     "code" : "C96116",
     "display" : "Continuous Thread Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8280,6 +8344,10 @@
     "display" : "Tamper Evident Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8290,6 +8358,10 @@
     "code" : "C96118",
     "display" : "Tamper Evident Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8302,6 +8374,10 @@
     "display" : "Vacuum Sealed Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8312,6 +8388,10 @@
     "code" : "C96120",
     "display" : "Tamper Evident Composite Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8324,6 +8404,10 @@
     "display" : "Vacuum Sealed Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8334,6 +8418,10 @@
     "code" : "C96122",
     "display" : "Vacuum Sealed Composite Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8346,6 +8434,10 @@
     "display" : "Press-On/Twist-Off Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8356,6 +8448,10 @@
     "code" : "C96124",
     "display" : "Press-On Composite Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8368,6 +8464,10 @@
     "display" : "Crown Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8378,6 +8478,10 @@
     "code" : "C96126",
     "display" : "Lug Metal Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8390,6 +8494,10 @@
     "display" : "Roll On Metal Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8400,6 +8508,10 @@
     "code" : "C96128",
     "display" : "Flip-Top Dispensing Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8412,6 +8524,10 @@
     "display" : "Hinged Dispensing Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8422,6 +8538,10 @@
     "code" : "C96130",
     "display" : "Linerless Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8434,6 +8554,10 @@
     "display" : "Pump Dispensing Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8444,6 +8568,10 @@
     "code" : "C96132",
     "display" : "Push-Pull Dispensing Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8456,6 +8584,10 @@
     "display" : "Snap-On Cap Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8466,6 +8598,10 @@
     "code" : "C96134",
     "display" : "Snip-Tip Dispensing Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8478,6 +8614,10 @@
     "display" : "Toggle-Swing Dispensing Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8488,6 +8628,10 @@
     "code" : "C96136",
     "display" : "Trigger Spray Dispensing Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8500,6 +8644,10 @@
     "display" : "Twist Open/Close Dispensing Plastic Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8510,6 +8658,10 @@
     "code" : "C96138",
     "display" : "Valved Dispensing Plastic Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8522,6 +8674,10 @@
     "display" : "Stopper Container Closure",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8532,6 +8688,10 @@
     "code" : "C96140",
     "display" : "Tie Container Closure",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8548,6 +8708,10 @@
     "display" : "Stability Study Batch",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8558,6 +8722,10 @@
     "code" : "C133990",
     "display" : "Commercial Batch",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8570,6 +8738,10 @@
     "display" : "Development Batch",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8580,6 +8752,10 @@
     "code" : "C133961",
     "display" : "Deliverable Volume/Fill Volume Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8592,6 +8768,10 @@
     "display" : "Crystallinity Analysis",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8602,6 +8782,10 @@
     "code" : "C133975",
     "display" : "Tablet Friability Determination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8614,6 +8798,10 @@
     "display" : "Viscosity/Rheological Property Analysis",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8624,6 +8812,10 @@
     "code" : "C133983",
     "display" : "Pyrogenicity/Endotoxin Assessment",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8636,6 +8828,10 @@
     "display" : "Redispersibility Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8646,6 +8842,10 @@
     "code" : "C134113",
     "display" : "Syringe Functionality Testing",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8658,6 +8858,10 @@
     "display" : "Total Organic Carbon Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8668,6 +8872,10 @@
     "code" : "C134249",
     "display" : "Container Closure Integrity Testing",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8680,6 +8888,10 @@
     "display" : "Content Uniformity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8690,6 +8902,10 @@
     "code" : "C134252",
     "display" : "Pharmaceutical Disintegration Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8702,6 +8918,10 @@
     "display" : "Pharmaceutical Dissolution Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8712,6 +8932,10 @@
     "code" : "C134255",
     "display" : "Loss on Drying Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8724,6 +8948,10 @@
     "display" : "Microbial Limit Determination",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8734,6 +8962,10 @@
     "code" : "C134257",
     "display" : "Particle Size Distribution Analysis",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8746,6 +8978,10 @@
     "display" : "Powder Bulk Density Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8756,6 +8992,10 @@
     "code" : "C134263",
     "display" : "Conductivity Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8768,6 +9008,10 @@
     "display" : "Hardness Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8778,6 +9022,10 @@
     "code" : "C134266",
     "display" : "Tap Density Determination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8790,6 +9038,10 @@
     "display" : "Plume Geometry Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8800,6 +9052,10 @@
     "code" : "C134269",
     "display" : "Polymorphic Form Determination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8812,6 +9068,10 @@
     "display" : "Potency Assay",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8822,6 +9082,10 @@
     "code" : "C134272",
     "display" : "Reconstitution Time Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8834,6 +9098,10 @@
     "display" : "Residue on Ignition Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8844,6 +9112,10 @@
     "code" : "C134277",
     "display" : "Spray Pattern Assessment",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8856,6 +9128,10 @@
     "display" : "Sterility Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8866,6 +9142,10 @@
     "code" : "C138993",
     "display" : "Material Identification Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8878,6 +9158,10 @@
     "display" : "Post Translational Modification Analysis",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8888,6 +9172,10 @@
     "code" : "C193381",
     "display" : "Particulate Testing",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8900,6 +9188,10 @@
     "display" : "Cytotoxicity Assay",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8910,6 +9202,10 @@
     "code" : "C204971",
     "display" : "Impurity Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8922,6 +9218,10 @@
     "display" : "Active Substance Functional Assay",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8932,6 +9232,10 @@
     "code" : "C205012",
     "display" : "Droplet Size Test Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8948,6 +9252,10 @@
     "display" : "Mechanical Integrity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8958,6 +9266,10 @@
     "code" : "C205026",
     "display" : "Organoleptic Examination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8970,6 +9282,10 @@
     "display" : "Osmolality/Osmolarity Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -8980,6 +9296,10 @@
     "code" : "C205029",
     "display" : "pH Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -8992,6 +9312,10 @@
     "display" : "Porosity Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9002,6 +9326,10 @@
     "code" : "C205032",
     "display" : "Refractive Index Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9014,6 +9342,10 @@
     "display" : "Surface Area Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9025,6 +9357,10 @@
     "display" : "Transdermal Device Property Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9035,6 +9371,10 @@
     "code" : "C25483",
     "display" : "Dimension",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9055,6 +9395,10 @@
     "display" : "Melting Point Determination",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9070,6 +9414,10 @@
     "display" : "Turbidity Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9080,6 +9428,10 @@
     "code" : "C133992",
     "display" : "Clinical Batch",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9092,6 +9444,10 @@
     "display" : "Validation Batch",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9102,6 +9458,10 @@
     "code" : "C133994",
     "display" : "Bioequivalence Batch",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9114,6 +9474,10 @@
     "display" : "MDL Molfile Format",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9124,6 +9488,10 @@
     "code" : "C133996",
     "display" : "MDL Structure-data File Format",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9136,6 +9504,10 @@
     "display" : "Macromolecular CIF",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9146,6 +9518,10 @@
     "code" : "C49039",
     "display" : "Protein Data Bank",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9158,6 +9534,10 @@
     "display" : "International Chemical Identifier",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9169,6 +9549,10 @@
     "display" : "Simplified Molecular Input Line Entry Specification",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9179,6 +9563,10 @@
     "code" : "C85435",
     "display" : "Scalable Vector Graphics",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9194,6 +9582,10 @@
     "code" : "C80262",
     "display" : "Conformance",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9226,6 +9618,10 @@
     "display" : "Petri Dish",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9237,6 +9633,10 @@
     "display" : "Microwell Plate",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9247,6 +9647,10 @@
     "code" : "C96143",
     "display" : "Lined Canister",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9263,6 +9667,10 @@
     "display" : "Inorganic Impurity",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9274,6 +9682,10 @@
     "display" : "Process Related Impurity",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9284,6 +9696,10 @@
     "code" : "C176813",
     "display" : "Product Related Impurity",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9300,6 +9716,10 @@
     "display" : "Degradant",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9310,6 +9730,10 @@
     "code" : "C185190",
     "display" : "Elemental Impurity",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9322,6 +9746,10 @@
     "display" : "Leachable Material",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9332,6 +9760,10 @@
     "code" : "C92081",
     "display" : "Microbial Contamination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9344,6 +9776,10 @@
     "display" : "Equivalent",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9354,6 +9790,10 @@
     "code" : "C134006",
     "display" : "United States Pharmacopeia-National Formulary",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9366,6 +9806,10 @@
     "display" : "European Pharmacopeia",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9376,6 +9820,10 @@
     "code" : "C134008",
     "display" : "Japanese Pharmacopeia",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9391,6 +9839,10 @@
     "code" : "C176793",
     "display" : "British Pharmacopeia",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9419,6 +9871,10 @@
     "display" : "Microorganism",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9429,6 +9885,10 @@
     "code" : "C18634",
     "display" : "Animal Sources",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9444,6 +9904,10 @@
     "code" : "C134010",
     "display" : "Tentative Approval",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9464,6 +9928,10 @@
     "display" : "Approval",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9479,6 +9947,10 @@
     "display" : "Raw Materials/Excipients/Intermediates/Reagents Specification",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9489,6 +9961,10 @@
     "code" : "C134021",
     "display" : "Drug Product Specification",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9501,6 +9977,10 @@
     "display" : "Drug Substance Specification",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9511,6 +9991,10 @@
     "code" : "C96148",
     "display" : "Proprietary Storage Condition",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9523,6 +10007,10 @@
     "display" : "Standard Environmental Condition",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9533,6 +10021,10 @@
     "code" : "C134027",
     "display" : "Cycled-Simple Environmental Condition",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9545,6 +10037,10 @@
     "display" : "Complex Environmental Condition",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9555,6 +10051,10 @@
     "code" : "C96087",
     "display" : "Photostability Drug Study",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9567,6 +10067,10 @@
     "display" : "Compendial Method",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9577,6 +10081,10 @@
     "code" : "C96103",
     "display" : "Proprietary Method",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9589,6 +10097,10 @@
     "display" : "Code of Federal Regulations Method",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9599,6 +10111,10 @@
     "code" : "C134029",
     "display" : "Release Determination",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9611,6 +10127,10 @@
     "display" : "Stability Determination",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9621,6 +10141,10 @@
     "code" : "C61583",
     "display" : "Greater Than or Equal To",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9633,6 +10157,10 @@
     "display" : "Greater Than",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9643,6 +10171,10 @@
     "code" : "C61585",
     "display" : "Less Than",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9655,6 +10187,10 @@
     "display" : "Less Than or Equal To",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9665,6 +10201,10 @@
     "code" : "C134003",
     "display" : "Data Universal Numbering System",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9677,6 +10217,10 @@
     "display" : "Facility FDA Establishment Identifier",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9687,6 +10231,10 @@
     "code" : "C134005",
     "display" : "Central File Number",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9703,6 +10251,10 @@
     "display" : "Drug Component Mass",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9713,6 +10265,10 @@
     "code" : "C45420",
     "display" : "Biochemical Activity",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9729,6 +10285,10 @@
     "display" : "Pharmaceutical Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9744,6 +10304,10 @@
     "display" : "Emollient Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9754,6 +10318,10 @@
     "code" : "C176633",
     "display" : "Emulsion Stabilizing Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9766,6 +10334,10 @@
     "display" : "Foam Stabilizing Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9776,6 +10348,10 @@
     "code" : "C176635",
     "display" : "Organoleptic Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9788,6 +10364,10 @@
     "display" : "Stabilizing Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9798,6 +10378,10 @@
     "code" : "C176637",
     "display" : "Absorption Modifying Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9810,6 +10394,10 @@
     "display" : "Effervescent Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9820,6 +10408,10 @@
     "code" : "C176639",
     "display" : "Reducing Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9832,6 +10424,10 @@
     "display" : "Solubilizing Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9842,6 +10438,10 @@
     "code" : "C176641",
     "display" : "Tonicity Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9858,6 +10458,10 @@
     "display" : "Air Displacement Agent",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9868,6 +10472,10 @@
     "code" : "C176644",
     "display" : "Bulking Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9880,6 +10488,10 @@
     "display" : "Carrier Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9890,6 +10502,10 @@
     "code" : "C176646",
     "display" : "Complexing Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9906,6 +10522,10 @@
     "display" : "Film Coating Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9916,6 +10536,10 @@
     "code" : "C176649",
     "display" : "Free Radical Scavenging Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9928,6 +10552,10 @@
     "display" : "Gelling Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9938,6 +10566,10 @@
     "code" : "C176651",
     "display" : "Humectant Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9950,6 +10582,10 @@
     "display" : "Lyophilization Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9961,6 +10597,10 @@
     "display" : "Matrix Forming Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9971,6 +10611,10 @@
     "code" : "C176654",
     "display" : "Microencapsulating Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -9987,6 +10631,10 @@
     "display" : "Opacifying Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -9997,6 +10645,10 @@
     "code" : "C176657",
     "display" : "Osmotic Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10009,6 +10661,10 @@
     "display" : "pH Modifying Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10020,6 +10676,10 @@
     "display" : "Polishing Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10030,6 +10690,10 @@
     "code" : "C176660",
     "display" : "Ophthalmic Polymer",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10046,6 +10710,10 @@
     "display" : "Release Modifying Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10061,6 +10729,10 @@
     "display" : "Transdermal Delivery Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10071,6 +10743,10 @@
     "code" : "C176665",
     "display" : "Transfer Ligand Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10083,6 +10759,10 @@
     "display" : "Viscosity Modifying Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10094,6 +10774,10 @@
     "display" : "Water Repelling Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10104,6 +10788,10 @@
     "code" : "C176668",
     "display" : "Wetting Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10124,6 +10812,10 @@
     "display" : "Binder Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10134,6 +10826,10 @@
     "code" : "C42648",
     "display" : "Disintegrant Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10146,6 +10842,10 @@
     "display" : "Filler Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10156,6 +10856,10 @@
     "code" : "C42653",
     "display" : "Lubricant Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10168,6 +10872,10 @@
     "display" : "Glidant Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10178,6 +10886,10 @@
     "code" : "C42656",
     "display" : "Color Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10190,6 +10902,10 @@
     "display" : "Printing Ink Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10200,6 +10916,10 @@
     "code" : "C42659",
     "display" : "Preservative Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10212,6 +10932,10 @@
     "display" : "Suspending Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10223,6 +10947,10 @@
     "display" : "Dispersing Excipient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10233,6 +10961,10 @@
     "code" : "C42739",
     "display" : "Surfactant Excipient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10249,6 +10981,10 @@
     "display" : "Cryoprotective Agent",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10263,6 +10999,10 @@
     "code" : "C70815",
     "display" : "Buffer",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10279,6 +11019,10 @@
     "display" : "Adhesive Device",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10289,6 +11033,10 @@
     "code" : "C927",
     "display" : "Drug Vehicle",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10301,6 +11049,10 @@
     "display" : "Master File or Application Approved Indicator",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10312,6 +11064,10 @@
     "display" : "Adequate Substance Process Understanding",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10322,6 +11078,10 @@
     "code" : "C185188",
     "display" : "Proposed Substance Date Change",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10378,6 +11138,10 @@
     "display" : "Matrix Drug Release",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10388,6 +11152,10 @@
     "code" : "C203360",
     "display" : "Osmotic Pump Drug Release",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10400,6 +11168,10 @@
     "display" : "Reservoir Drug Release",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10411,6 +11183,10 @@
     "display" : "International Nonproprietary Name",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10421,6 +11197,10 @@
     "code" : "C203354",
     "display" : "Company Identifier",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10441,6 +11221,10 @@
     "display" : "Chemical Systematic Name",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10460,6 +11244,10 @@
     "display" : "Proprietary Name",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10471,6 +11259,10 @@
     "display" : "ISBT-128 Donation Identification Number",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10481,6 +11273,10 @@
     "code" : "C96973",
     "display" : "United States Adopted Name",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10497,6 +11293,10 @@
     "display" : "Active Core Granule",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10507,6 +11307,10 @@
     "code" : "C203882",
     "display" : "Extragranular Ingredient",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10519,6 +11323,10 @@
     "display" : "Intragranular Ingredient",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10529,6 +11337,10 @@
     "code" : "C42669",
     "display" : "Immediate Release Dosage Form",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10541,6 +11353,10 @@
     "display" : "Extended Release Dosage Form",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10551,6 +11367,10 @@
     "code" : "C42730",
     "display" : "Delayed Release Dosage Form",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10563,6 +11383,10 @@
     "display" : "Appearance Promoting Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10573,6 +11397,10 @@
     "code" : "C203885",
     "display" : "Consumption Promoting Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10585,6 +11413,10 @@
     "display" : "Isolate Promoting Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10595,6 +11427,10 @@
     "code" : "C203887",
     "display" : "Delayed Release Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10607,6 +11443,10 @@
     "display" : "Drug Layering Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10617,6 +11457,10 @@
     "code" : "C203889",
     "display" : "Extended Release Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10629,6 +11473,10 @@
     "display" : "Irritant Suppression Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10639,6 +11487,10 @@
     "code" : "C203891",
     "display" : "Odor Masking Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10651,6 +11503,10 @@
     "display" : "Protective Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10661,6 +11517,10 @@
     "code" : "C203893",
     "display" : "Seal Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10673,6 +11533,10 @@
     "display" : "Site Delivery Coating",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10683,6 +11547,10 @@
     "code" : "C203895",
     "display" : "Taste Masking Coating",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10695,6 +11563,10 @@
     "display" : "Dispersion Dosage Form",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10705,6 +11577,10 @@
     "code" : "C203896",
     "display" : "Blended Dry Mixture",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10721,6 +11597,10 @@
     "display" : "Minitablet Dosage Form",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10731,6 +11611,10 @@
     "code" : "C25450",
     "display" : "Coat",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10747,6 +11631,10 @@
     "display" : "Residual Solvent Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10757,6 +11645,10 @@
     "code" : "C134115",
     "display" : "Uniformity of Dosage Units Analysis",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10769,6 +11661,10 @@
     "display" : "Impurities/Degradation Products/Related Substances Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10779,6 +11675,10 @@
     "code" : "C134261",
     "display" : "Clarity of Solution Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10791,6 +11691,10 @@
     "display" : "Color of Solution Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10801,6 +11705,10 @@
     "code" : "C138990",
     "display" : "Product Description/Appearance Assessment",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10813,6 +11721,10 @@
     "display" : "Odor Detection",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10823,6 +11735,10 @@
     "code" : "C16643",
     "display" : "Protein Glycosylation",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10835,6 +11751,10 @@
     "display" : "Nucleic Acid Concentration Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10845,6 +11765,10 @@
     "code" : "C204845",
     "display" : "Active Ingredient Assay",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10857,6 +11781,10 @@
     "display" : "Chemical Impurity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10867,6 +11795,10 @@
     "code" : "C205001",
     "display" : "Adventitious Agent Assay",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10879,6 +11811,10 @@
     "display" : "Amidation Assay",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10889,6 +11825,10 @@
     "code" : "C205003",
     "display" : "Bioburden Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10901,6 +11841,10 @@
     "display" : "Blend Uniformity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10911,6 +11855,10 @@
     "code" : "C205005",
     "display" : "Capsule Lock Length Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10927,6 +11875,10 @@
     "display" : "Counterion Content Assessment",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10937,6 +11889,10 @@
     "code" : "C205008",
     "display" : "Deamidation Assessment",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10949,6 +11905,10 @@
     "display" : "Dose Orifice Depth Drilled Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10959,6 +11919,10 @@
     "code" : "C205010",
     "display" : "Dose Orifice Diameter Drilled Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10971,6 +11935,10 @@
     "display" : "Dose Orifice Location Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -10981,6 +11949,10 @@
     "code" : "C205014",
     "display" : "Elemental Impurity Analysis",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -10993,6 +11965,10 @@
     "display" : "Excipient Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11003,6 +11979,10 @@
     "code" : "C205016",
     "display" : "Group Fill Substance Weight Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11015,6 +11995,10 @@
     "display" : "Group Substance Weight Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11026,6 +12010,10 @@
     "display" : "Host Cell DNA Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11036,6 +12024,10 @@
     "code" : "C205019",
     "display" : "In Process Control Content Uniformity Tests",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11052,6 +12044,10 @@
     "display" : "Individual Substance Fill Weight Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11062,6 +12058,10 @@
     "code" : "C205022",
     "display" : "Individual Substance Weight Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11074,6 +12074,10 @@
     "display" : "Metal Level Detection Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11084,6 +12088,10 @@
     "code" : "C205025",
     "display" : "Number of Dose Orifices Drilled Count",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11096,6 +12104,10 @@
     "display" : "Percent Conjugated Protein Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11106,6 +12118,10 @@
     "code" : "C205031",
     "display" : "Protein Sialylation",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11126,6 +12142,10 @@
     "display" : "Seam Thickness Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11136,6 +12156,10 @@
     "code" : "C205036",
     "display" : "Shell Weight Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11148,6 +12172,10 @@
     "display" : "Single or Double Drilled Side Assessment",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11158,6 +12186,10 @@
     "code" : "C205038",
     "display" : "Solvate Content Identification",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11170,6 +12202,10 @@
     "display" : "Specified Identified Impurity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11180,6 +12216,10 @@
     "code" : "C205040",
     "display" : "Specified Unidentified Impurity Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11192,6 +12232,10 @@
     "display" : "Tablet Thickness Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11202,6 +12246,10 @@
     "code" : "C205043",
     "display" : "Tablet/Capsule Diameter Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11214,6 +12262,10 @@
     "display" : "Tablet/Capsule Length Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11224,6 +12276,10 @@
     "code" : "C205045",
     "display" : "Target Group Product Weight Gain Percentage",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11236,6 +12292,10 @@
     "display" : "Total Product Impurity above Threshold Assay",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11246,6 +12306,10 @@
     "code" : "C205048",
     "display" : "Total Product Unknown Impurity Assay",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11258,6 +12322,10 @@
     "display" : "Content Uniformity in Container",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11268,6 +12336,10 @@
     "code" : "C205051",
     "display" : "Unspecified Product Impurity below ICH Identification Threshold",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11280,6 +12352,10 @@
     "display" : "Unspecified Product Impurity Test",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11290,6 +12366,10 @@
     "code" : "C205053",
     "display" : "Weight/Concentration Variation Test",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11306,6 +12386,10 @@
     "display" : "Average Fill Substance Weight Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11316,6 +12400,10 @@
     "code" : "C205209",
     "display" : "Average Substance Weight Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11328,6 +12416,10 @@
     "display" : "Purity Assessment",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11339,6 +12431,10 @@
     "display" : "Total Protein Measurement",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11349,6 +12445,10 @@
     "code" : "C81183",
     "display" : "Amino Acid Measurement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11381,6 +12481,10 @@
     "display" : "Capsule Dose Form Category",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11392,6 +12496,10 @@
     "display" : "Tablet Dosage Form Category",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11402,6 +12510,10 @@
     "code" : "C154598",
     "display" : "Solution Dosage Form Category",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11422,6 +12534,10 @@
     "display" : "Drug Master File",
     "designation" : [{
       "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
+      "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
       },
@@ -11432,6 +12548,10 @@
     "code" : "C70880",
     "display" : "Pre-market Approval Application",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"
@@ -11479,6 +12599,10 @@
     "code" : "C96094",
     "display" : "Approved Application Supplement",
     "designation" : [{
+      "use" : {
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usag",
+        "code" : "long-description"
+      },
       "use" : {
         "system" : "http://snomed.info/sct",
         "code" : "900000000000013009"

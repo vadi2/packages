@@ -9,7 +9,7 @@
   "version" : "2.80",
   "name" : "ObservationLoincCS",
   "title" : "Observation LOINC codes translations",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : true,
   "description" : "LOINC CodeSystem supplement with Uzbek translations",
   "content" : "supplement",

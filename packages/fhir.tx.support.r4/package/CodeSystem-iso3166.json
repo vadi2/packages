@@ -13,7 +13,7 @@
   "version" : "20210120",
   "name" : "Iso3166",
   "title" : "ISO 3166 Country Codes",
-  "status" : "draft",
+  "status" : "active",
   "caseSensitive" : false,
   "compositional" : false,
   "versionNeeded" : false,

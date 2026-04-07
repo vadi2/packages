@@ -7,7 +7,7 @@
   "version" : "4.1.0",
   "name" : "RadLexCodeSystem",
   "title" : "RadLex radiology lexicon",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
   "contact" : [{
     "name" : "informatics@rsna.org"

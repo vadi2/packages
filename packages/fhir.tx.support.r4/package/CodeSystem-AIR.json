@@ -232,8 +232,8 @@
     "definition" : "Fluzone High-Dose Quadrivalent",
     "designation" : [{
       "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
+        "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
+        "code" : "display"
       },
       "value" : "Fluzone High-Dose Quad"
     }],
