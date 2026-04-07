@@ -54,7 +54,8 @@
       "code" : "notSelectable",
       "valueBoolean" : true
     }]
-  },{
+  },
+  {
     "code" : "b",
     "display" : "BODY FUNCTIONS",
     "designation" : [{

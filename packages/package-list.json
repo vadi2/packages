@@ -5,11 +5,8 @@
     "fhir.tx.support.r3" : "http://fhir.org/packages/fhir.tx.support.r3",
     "fhir.tx.support.r4" : "http://fhir.org/packages/fhir.tx.support.r4",
     "hl7.fhir.pubpack" : "http://fhir.org/packages/hl7.fhir.pubpack",
-    "hl7.fhir.xver.r3" : "http://fhir.org/packages/hl7.fhir.xver.r3",
-    "hl7.fhir.xver.r4" : "http://fhir.org/packages/hl7.fhir.xver.r4",
     "hl7.fhir.xver-extensions" : "http://fhir.org/packages/hl7.fhir.xver-extensions",
     "us.cdc.phinvads" : "http://fhir.org/packages/us.cdc.phinvads",
-    "us.nlm.vsac" : "http://fhir.org/packages/us.nlm.vsac",
     "fhir.dicom" : "http://fhir.org/packages/fhir.dicom"
   }
 }

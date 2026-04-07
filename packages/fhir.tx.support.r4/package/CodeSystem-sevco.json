@@ -103,7 +103,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "interventional study"
       },
@@ -111,7 +110,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "interventional study design"
       },
@@ -119,7 +117,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "interventional primary research"
       },
@@ -127,7 +124,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "international method of research"
       },
@@ -135,7 +131,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "experimental research"
       },
@@ -143,7 +138,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "experimental study"
       }],
@@ -167,7 +161,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "interventional research with randomized assignment"
         },
@@ -175,7 +168,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "randomized trial"
         },
@@ -183,7 +175,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "randomized controlled trial"
         },
@@ -191,7 +182,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RCT"
         }],
@@ -211,7 +201,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "unrestricted randomization"
           }],
@@ -288,7 +277,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "interventional research with non-randomized assignment"
         }],
@@ -370,7 +358,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "pragmatic trial"
           }],
@@ -407,7 +394,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "compassionate use trial"
           },
@@ -415,7 +401,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "compassionate use study"
           },
@@ -423,7 +408,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "expanded access trial"
           }],
@@ -456,7 +440,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase I trial"
           },
@@ -464,7 +447,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 1 study"
           },
@@ -472,7 +454,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase I clinical trial"
           }],
@@ -508,7 +489,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "phase 0 study"
             },
@@ -516,7 +496,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "pre-clinical trial"
             },
@@ -524,7 +503,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "exploratory ind study"
             }],
@@ -562,7 +540,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase I/II trial"
           },
@@ -570,7 +547,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 1-2 trial"
           },
@@ -578,7 +554,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 1/2 trial"
           },
@@ -586,7 +561,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "trial phase 1-2"
           },
@@ -594,7 +568,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "trial phase 1/2"
           }],
@@ -631,7 +604,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase II trial"
           },
@@ -639,7 +611,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 2 study"
           },
@@ -647,7 +618,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "exploratory clinical study"
           },
@@ -655,7 +625,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase II clinical trial"
           }],
@@ -692,7 +661,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase II/III trial"
           },
@@ -700,7 +668,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 2-3 trial"
           },
@@ -708,7 +675,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 2/3 trial"
           },
@@ -716,7 +682,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "trial phase 2-3"
           },
@@ -724,7 +689,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "trial phase 2/3"
           }],
@@ -761,7 +725,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase III trial"
           },
@@ -769,7 +732,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 3 study"
           },
@@ -777,7 +739,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "confirmatory clinical study"
           },
@@ -785,7 +746,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase III clinical trial"
           }],
@@ -822,7 +782,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase IV trial"
           },
@@ -830,7 +789,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 4 trial"
           },
@@ -838,7 +796,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "phase 4 study"
           },
@@ -846,7 +803,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "trial phase 4"
           },
@@ -854,7 +810,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "post-approval study"
           }],
@@ -889,7 +844,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational study"
       },
@@ -897,7 +851,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational study design"
       },
@@ -905,7 +858,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational primary research"
       },
@@ -913,7 +865,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational method of research"
       },
@@ -921,7 +872,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "non-interventional research"
       },
@@ -929,7 +879,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational study"
       },
@@ -937,7 +886,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational study design"
       },
@@ -945,7 +893,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "observational primary research"
       },
@@ -953,7 +900,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "non-interventional research"
       }],
@@ -985,7 +931,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "postmarketing evaluation study"
         },
@@ -993,7 +938,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "postmarketing evaluation study"
         }],
@@ -1023,7 +967,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "comparative research"
       }],
@@ -1043,7 +986,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "concurrent cohort study"
         }],
@@ -1064,7 +1006,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "crossover study"
         },
@@ -1072,7 +1013,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "crossover trial"
         }],
@@ -1140,7 +1080,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "matched study design"
         }],
@@ -1160,7 +1099,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "familial study"
           },
@@ -1168,7 +1106,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "family study"
           },
@@ -1176,7 +1113,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "family based study"
           }],
@@ -1211,7 +1147,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "clustering for comparison"
         }],
@@ -1233,7 +1168,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "non-comparative research"
       },
@@ -1241,7 +1175,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "descriptive study"
       }],
@@ -1261,7 +1194,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "single cohort design"
         },
@@ -1269,7 +1201,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "case series design"
         },
@@ -1277,7 +1208,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "non-controlled cohort design"
         }],
@@ -1298,7 +1228,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "case study"
         }],
@@ -1320,7 +1249,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "population study"
       }],
@@ -1344,7 +1272,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "ecologic study"
         }],
@@ -1398,7 +1325,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "cross-sectional study"
       }],
@@ -1423,7 +1349,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "longitudinal study"
       }],
@@ -1447,7 +1372,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "multiple time point comparison"
         }],
@@ -1467,7 +1391,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "before and after design"
           },
@@ -1475,7 +1398,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "pre-post design"
           },
@@ -1483,7 +1405,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "before-after comparison"
           }],
@@ -1506,7 +1427,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "study-generated data collection"
       }],
@@ -1539,7 +1459,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "RWD collection"
       }],
@@ -1571,7 +1490,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD collection from clinical care records"
         },
@@ -1579,7 +1497,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD from health care records"
         },
@@ -1587,7 +1504,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD from healthcare delivery records"
         },
@@ -1595,7 +1511,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "real world data collection from medical records"
         }],
@@ -1628,7 +1543,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "real world data collection from personal care records"
         },
@@ -1636,7 +1550,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD collection from personal medical records"
         }],
@@ -1665,7 +1578,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD collection from healthcare financing records"
         }],
@@ -1694,7 +1606,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "RWD collection from testing procedures"
         }],
@@ -1722,7 +1633,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "RWD collection from monitoring procedures"
           }],
@@ -1874,7 +1784,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of study participants"
       }],
@@ -1899,7 +1808,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of intervention providers"
       },
@@ -1907,7 +1815,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "blinding of intervention deliverers"
       },
@@ -1915,7 +1822,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of intervention deliverers"
       }],
@@ -1940,7 +1846,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of outcome assessors"
       }],
@@ -1965,7 +1870,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of data analysts"
       }],
@@ -1990,7 +1894,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "blinding of randomization assignment"
       },
@@ -1998,7 +1901,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "masking of randomization assignment"
       }],
@@ -2062,7 +1964,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "multi-institutional study"
       },
@@ -2070,7 +1971,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "multicenter trial"
       },
@@ -2078,7 +1978,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "multicenter study"
       }],
@@ -2111,7 +2010,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes patient-reported outcomes"
       },
@@ -2119,7 +2017,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "PRO"
       }],
@@ -2156,7 +2053,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes patient-oriented outcome"
       },
@@ -2164,7 +2060,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes patient-important outcome"
       },
@@ -2172,7 +2067,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes patient-relevant outcome"
       },
@@ -2180,7 +2074,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes clinical outcome"
       },
@@ -2188,7 +2081,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes patient-centered outcome measure"
       },
@@ -2196,7 +2088,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes clinical outcome measure"
       }],
@@ -2229,7 +2120,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes disease-oriented outcome measure"
       },
@@ -2237,7 +2127,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes surrogate outcome"
       },
@@ -2245,7 +2134,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes surrogate outcome measure"
       }],
@@ -2278,7 +2166,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes process outcome"
       },
@@ -2286,7 +2173,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "includes process outcome measure"
       }],
@@ -2319,7 +2205,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "study aim"
       }],
@@ -2343,7 +2228,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "evaluation study goal"
         },
@@ -2351,7 +2235,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "evaluation aim"
         }],
@@ -2380,7 +2263,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "derivation study goal"
         }],
@@ -2401,7 +2283,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "validation study goal"
         }],
@@ -2438,7 +2319,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "comparative analysis goal"
         }],
@@ -2579,7 +2459,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "superiority study goal"
           }],
@@ -2687,7 +2566,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "selection bias due to inappropriate selection criteria"
           }],
@@ -2712,7 +2590,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "biased sampling strategy"
           },
@@ -2720,7 +2597,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "inappropriate sample frame"
           },
@@ -2728,7 +2604,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "inappropriate sampling frame"
           },
@@ -2736,7 +2611,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "inappropriate sampling procedure"
           },
@@ -2744,7 +2618,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "selection bias due to inappropriate sampling strategy"
           }],
@@ -2768,7 +2641,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "participant selection bias due to inappropriate data source for sampling frame"
             }],
@@ -2790,7 +2662,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "selection bias due to non-representative sample"
           },
@@ -2798,7 +2669,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "unrepresentative sample"
           },
@@ -2806,7 +2676,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "nonrepresentative sample"
           }],
@@ -2830,7 +2699,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "selection bias due to inadequate enrollment"
             },
@@ -2838,7 +2706,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "non-representative sample due to inadequate enrollment"
             }],
@@ -2863,7 +2730,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "mismatch in start of intervention and start of follow-up"
             }],
@@ -2883,7 +2749,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "prevalent user bias"
               },
@@ -2891,7 +2756,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "non-representative sample due to depletion of susceptibles"
               }],
@@ -2914,7 +2778,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "participant selection bias due to post-baseline factors"
           }],
@@ -2934,7 +2797,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "early termination bias affecting enrollment"
             }],
@@ -2968,7 +2830,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "participant selection bias due to factor associated wiith exposure"
           }],
@@ -2989,7 +2850,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "participant selection bias due to factor associated wiith outcome"
           }],
@@ -3011,7 +2871,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "bias in study selection"
         }],
@@ -3219,7 +3078,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "study selection bias due to selective reporting bias"
           },
@@ -3227,7 +3085,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "study selection bias due to non-reporting bias"
           },
@@ -3235,7 +3092,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "study selection bias due to reporting bias"
           }],
@@ -3373,7 +3229,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "nonadherence to study eligibility criteria"
           }],
@@ -3519,7 +3374,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "nonrandom allocation bias"
           },
@@ -3527,7 +3381,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "non-random allocation bias"
           },
@@ -3535,7 +3388,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "bias due to non-random allocation"
           }],
@@ -3569,7 +3421,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "comparison group selection bias"
         },
@@ -3577,7 +3428,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "comparator group selection bias"
         },
@@ -3585,7 +3435,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "comparison selection bias"
         }],
@@ -3610,7 +3459,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "recognized difference with potential for confounding"
         },
@@ -3618,7 +3466,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "recognized confounding difference"
         }],
@@ -3651,7 +3498,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "confounding by follow-up time"
         }],
@@ -3684,7 +3530,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "starting time bias"
         }],
@@ -3826,7 +3671,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "study exposure adherence bias"
       },
@@ -3834,7 +3678,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "intervention adherence bias"
       },
@@ -3842,7 +3685,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "compliance bias"
       },
@@ -3850,7 +3692,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "performance adherence bias"
       }],
@@ -3882,7 +3723,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate masking of participants"
         },
@@ -3890,7 +3730,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "lack of blinding of participants"
         }],
@@ -3923,7 +3762,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate masking of intervention deliverers"
         },
@@ -3931,7 +3769,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "lack of blinding of intervention deliverers"
         }],
@@ -3990,7 +3827,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "nonadherence of interventionalist"
         }],
@@ -4032,7 +3868,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "asymmetry in adherence between groups"
         }],
@@ -4054,7 +3889,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "missing data bias"
       }],
@@ -4140,7 +3974,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "attrition bias due to missing intervention data"
           }],
@@ -4275,7 +4108,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "perception bias for outcome determination"
           },
@@ -4283,7 +4115,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subjective interpretive bias for outcome determination"
           },
@@ -4291,7 +4122,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subjectivity bias for outcome determination"
           }],
@@ -4315,7 +4145,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "bias due to lack of blinding during outcome assessment"
             },
@@ -4323,7 +4152,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "bias due to lack of masking during outcome assessment"
             },
@@ -4331,7 +4159,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "awareness bias for outcome determination"
             }],
@@ -4388,7 +4215,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "diagnostic suspicion bias for outcome determination"
               },
@@ -4396,7 +4222,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "previous opinion bias for outcome determination"
               }],
@@ -4431,7 +4256,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "hawthorne effect for outcome determination"
             }],
@@ -4460,7 +4284,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "subjunctivity bias for outcome determination"
             }],
@@ -4494,7 +4317,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "unacceptable disease bias for outcome determination"
             }],
@@ -4516,7 +4338,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "ascertainment bias for outcome determination"
           }],
@@ -4536,7 +4357,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "misaligned follow up period for outcome of interest"
             }],
@@ -4590,7 +4410,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "imbalance in outcome ascertainment"
             }],
@@ -4624,7 +4443,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "measurement bias for outcome determination"
           }],
@@ -4656,7 +4474,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "incorrect outcome measurement method"
             },
@@ -4664,7 +4481,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inappropriate outcome measurement method"
             }],
@@ -4693,7 +4509,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate sensitivity for outcome measure"
             }],
@@ -4726,7 +4541,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate specificity for outcome measure"
             }],
@@ -4935,7 +4749,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "misclassification bias for outcome determination"
           },
@@ -4943,7 +4756,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "outcome misclassification bias"
           }],
@@ -4975,7 +4787,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "definition bias for outcome determination"
             },
@@ -4983,7 +4794,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "outcome definition bias"
             }],
@@ -5043,7 +4853,6 @@
                   "use" : {
                     "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                     "code" : "synonym"
-                    
                   },
                   "value" : "substitution bias for outcome classification"
                 }]
@@ -5057,7 +4866,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "post-hoc outcome definition"
               },
@@ -5065,7 +4873,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "definition for outcome classification not prespecified"
               },
@@ -5073,7 +4880,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "no prespecified definition for outcome classification"
               }],
@@ -5103,7 +4909,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "classification process bias for outcome determination"
             }],
@@ -5167,7 +4972,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "perception bias for exposure determination"
           },
@@ -5175,7 +4979,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subjective interpretive bias for exposure  determination"
           },
@@ -5183,7 +4986,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subjectivity bias for exposure determination"
           }],
@@ -5211,7 +5013,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "bias due to lack of blinding during exposure assessment"
             },
@@ -5219,7 +5020,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "bias due to lack of masking during exposure assessment"
             },
@@ -5227,7 +5027,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "awareness bias for exposure determination"
             }],
@@ -5276,7 +5075,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "diagnostic suspicion bias for exposure determination"
               },
@@ -5284,7 +5082,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "previous opinion bias for exposure  determination"
               }],
@@ -5327,7 +5124,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "hawthorne effect for exposure determination"
             }],
@@ -5356,7 +5152,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "subjunctivity bias for exposure determination"
             }],
@@ -5410,7 +5205,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "unacceptable disease bias for exposure determination"
             }],
@@ -5436,7 +5230,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "ascertainment bias for exposure determination"
           },
@@ -5444,7 +5237,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "data collection bias for exposure determination"
           }],
@@ -5472,7 +5264,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "misaligned follow up period for exposure of interest"
             }],
@@ -5530,7 +5321,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "imbalance in exposure ascertainment"
             }],
@@ -5564,7 +5354,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "measurement bias for exposure determination"
           }],
@@ -5588,7 +5377,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "incorrect exposure measurement method"
             },
@@ -5596,7 +5384,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inappropriate exposure measurement method"
             }],
@@ -5629,7 +5416,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate sensitivity for exposure measure"
             },
@@ -5637,7 +5423,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate sensitivity for exposure determination"
             }],
@@ -5666,7 +5451,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate specificity for exposure measure"
             }],
@@ -5695,7 +5479,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inappropriate exposure measurement conduct"
             }],
@@ -5831,7 +5614,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "misclassification bias for exposure determination"
           },
@@ -5839,7 +5621,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "exposure misclassification bias"
           }],
@@ -5863,7 +5644,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "definition bias for exposure determination"
             },
@@ -5871,7 +5651,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "threshold bias for exposure determination"
             }],
@@ -5947,7 +5726,6 @@
                   "use" : {
                     "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                     "code" : "synonym"
-                    
                   },
                   "value" : "substitution bias for exposure classification"
                 },
@@ -5955,7 +5733,6 @@
                   "use" : {
                     "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                     "code" : "synonym"
-                    
                   },
                   "value" : "proxy bias for exposure classification"
                 }]
@@ -5969,7 +5746,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "definition for exposure classification not prespecified"
               },
@@ -5977,7 +5753,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "post-hoc exposure definition"
               },
@@ -5985,7 +5760,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "no prespecified definition for exposure classification"
               }],
@@ -6080,7 +5854,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "bias for reference standard result determination"
         }],
@@ -6101,7 +5874,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "bias for index test result determination"
         }],
@@ -6130,7 +5902,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "data recording bias"
         }],
@@ -6193,7 +5964,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "analysis selection bias"
         }],
@@ -6254,7 +6024,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate as-randomized analysis"
             }],
@@ -6387,7 +6156,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "bias controlling for adherence effect"
               },
@@ -6395,7 +6163,6 @@
                 "use" : {
                   "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                   "code" : "synonym"
-                  
                 },
                 "value" : "bias controlling for confounding by adherence"
               }],
@@ -6464,7 +6231,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "bias related to selection of the statistical framework"
           }],
@@ -6496,7 +6262,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inappropriate analytic model"
             }],
@@ -6550,7 +6315,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "significance-threshold selection bias"
             },
@@ -6558,7 +6322,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "statistical significance threshold selection bias"
             },
@@ -6566,7 +6329,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "bias related to selection of the threshold for statistical significance"
             }],
@@ -6682,7 +6444,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "inadequate numbers for analysis"
             }],
@@ -6709,7 +6470,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "bias in processing of data"
         }],
@@ -6733,7 +6493,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "incomplete analysis process"
           }],
@@ -6880,7 +6639,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "bug"
           },
@@ -6888,7 +6646,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "statistical programming error"
           },
@@ -6896,7 +6653,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "programming error"
           }],
@@ -6972,7 +6728,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "interim analysis bias"
         }],
@@ -6993,7 +6748,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "p-hacking"
         },
@@ -7001,7 +6755,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "fishing expedition"
         },
@@ -7009,7 +6762,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "data snooping bias"
         },
@@ -7017,7 +6769,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "p-hacking bias"
         },
@@ -7025,7 +6776,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "fishing expedition bias"
         }],
@@ -7062,7 +6812,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate robustness analysis"
         }],
@@ -7198,7 +6947,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "lack of masking of data analysts"
             }],
@@ -7581,7 +7329,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "outcome reporting bias"
           }],
@@ -7605,7 +7352,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "selective outcome measure reporting within outcome domain"
             }],
@@ -7631,7 +7377,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subgroup reporting bias"
           },
@@ -7639,7 +7384,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "subgroup analysis reporting bias"
           },
@@ -7647,7 +7391,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "selective subgroup analysis reporting"
           }],
@@ -7731,7 +7474,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "selective cutoff reporting bias"
           }],
@@ -7765,7 +7507,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "spin bias"
         },
@@ -7773,7 +7514,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "cognitive interpretive bias for reporting"
         },
@@ -7781,7 +7521,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "selective interpretation reporting bias"
         },
@@ -7789,7 +7528,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "selective representation reporting bias"
         },
@@ -7797,7 +7535,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "cognitive interpretive reporting bias"
         }],
@@ -7833,7 +7570,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "interpretation of results not addressing risk of bias"
           }],
@@ -7918,7 +7654,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "preliminary reporting bias"
         },
@@ -7926,7 +7661,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "early reporting bias"
         },
@@ -7934,7 +7668,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "interim reporting bias"
         },
@@ -7942,7 +7675,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "early publication bias"
         },
@@ -7950,7 +7682,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "interim publication bias"
         },
@@ -7958,7 +7689,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "premature publication bias"
         },
@@ -7966,7 +7696,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "preliminary publication bias"
         },
@@ -7974,7 +7703,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "premature reporting bias"
         },
@@ -7982,7 +7710,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "premature dissemination bias"
         }],
@@ -8015,7 +7742,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "fraud"
         }],
@@ -8057,7 +7783,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "selective citation bias"
         }],
@@ -8094,7 +7819,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate reporting to assess analytic strategy"
         },
@@ -8102,7 +7826,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate methods reporting bias"
         }],
@@ -8127,7 +7850,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate explanation of participant attrition"
         }],
@@ -8310,7 +8032,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate rationale for mixed methods design"
         }],
@@ -8391,7 +8112,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "validation bias"
       }],
@@ -8419,7 +8139,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate external validation assessment"
         }],
@@ -8444,7 +8163,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "inadequate internal validation assessment"
         }],
@@ -8470,7 +8188,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "bias due to early study termination"
       }],
@@ -8677,7 +8394,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "non-financial conflict of interest"
       }],
@@ -8756,7 +8472,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "some concerns for risk of bias"
       },
@@ -8764,7 +8479,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "medium risk of bias"
       }],
@@ -8801,7 +8515,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "serious risk of bias"
       }],
@@ -8838,7 +8551,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "extreme risk of bias"
       }],
@@ -8965,7 +8677,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "factor presence or absence undetermined"
       }],
@@ -9074,7 +8785,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "risk of bias against the null hypothesis"
       }],
@@ -9295,7 +9005,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "total"
       }],
@@ -9376,7 +9085,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "central tendency measure"
       },
@@ -9384,7 +9092,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "centrality measure"
       }],
@@ -9413,7 +9120,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "arithmetic mean"
         },
@@ -9421,7 +9127,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "average"
         },
@@ -9429,7 +9134,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "average value"
         },
@@ -9437,7 +9141,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "statistical mean"
         }],
@@ -9465,7 +9168,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "mean of paired differences"
           },
@@ -9473,7 +9175,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "average of differences"
           },
@@ -9481,7 +9182,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "mean difference"
           },
@@ -9489,7 +9189,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "average difference"
           }],
@@ -9530,7 +9229,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "mean TTE"
           }],
@@ -9573,7 +9271,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "center value"
         },
@@ -9581,7 +9278,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "statistical median"
         },
@@ -9589,7 +9285,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "middle value"
         }],
@@ -9625,7 +9320,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "median TTE"
           }],
@@ -9647,7 +9341,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "statistical mode"
         },
@@ -9655,7 +9348,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "most common value"
         },
@@ -9663,7 +9355,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "most frequent value"
         }],
@@ -9738,7 +9429,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "centile"
         },
@@ -9746,7 +9436,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "%ile"
         }],
@@ -9852,7 +9541,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "delta"
       }],
@@ -9888,7 +9576,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "difference in counts"
           },
@@ -9896,7 +9583,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "number difference"
           }],
@@ -9929,7 +9615,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "difference of means"
           }],
@@ -9954,7 +9639,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "difference of medians"
           }],
@@ -9975,7 +9659,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "absolute risk difference"
           },
@@ -9983,7 +9666,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "RD"
           },
@@ -9991,7 +9673,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "ARD"
           }],
@@ -10020,7 +9701,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "difference in differences"
           }],
@@ -10129,7 +9809,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "smd"
         }],
@@ -10194,7 +9873,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "ssmd"
           }],
@@ -10283,7 +9961,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "number needed to treat to benefit"
         },
@@ -10291,7 +9968,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNT"
         },
@@ -10299,7 +9975,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNTB"
         }],
@@ -10328,7 +10003,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNS"
         }],
@@ -10353,7 +10027,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNS"
         }],
@@ -10382,7 +10055,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "number needed to treat to harm"
         },
@@ -10390,7 +10062,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNH"
         },
@@ -10398,7 +10069,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "NNTH"
         }],
@@ -10530,7 +10200,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "cumulative incidence"
           },
@@ -10538,7 +10207,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "incidence proportion"
           }],
@@ -10575,7 +10243,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "period prevalence"
           },
@@ -10583,7 +10250,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "point prevalence"
           },
@@ -10591,7 +10257,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "lifetime prevalence"
           }],
@@ -10628,7 +10293,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "recall"
           },
@@ -10636,7 +10300,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "true positive rate"
           }],
@@ -10673,7 +10336,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "true negative rate"
           }],
@@ -10702,7 +10364,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "precision (as used in information retrieval)"
           },
@@ -10710,7 +10371,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "PPV"
           }],
@@ -10747,7 +10407,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "NPV"
           }],
@@ -10797,7 +10456,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "probability"
           }],
@@ -10888,7 +10546,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "incidence density"
           },
@@ -10896,7 +10553,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "average hazard rate"
           }],
@@ -10933,7 +10589,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "hazard"
           },
@@ -10941,7 +10596,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "hazard function"
           },
@@ -10949,7 +10603,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "instantaneous hazard rate"
           }],
@@ -11025,7 +10678,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "frequentist probability"
         }],
@@ -11171,7 +10823,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "IRR"
           }],
@@ -11199,7 +10850,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "SIR"
             }],
@@ -11283,7 +10933,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "relative risk"
           }],
@@ -11316,7 +10965,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "positive likelihood ratio"
           },
@@ -11324,7 +10972,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "+LR"
           },
@@ -11332,7 +10979,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "LR+"
           }],
@@ -11365,7 +11011,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "negative likelihood ratio"
           },
@@ -11373,7 +11018,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "LR-"
           },
@@ -11381,7 +11025,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "-LR"
           }],
@@ -11414,7 +11057,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "categorical accuracy"
           },
@@ -11422,7 +11064,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "classification accuracy"
           }],
@@ -11455,7 +11096,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "DOR"
           }],
@@ -11488,7 +11128,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "mean square contingency coefficient"
           },
@@ -11496,7 +11135,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Yule phi"
           },
@@ -11504,7 +11142,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Matthews correlation coefficient"
           }],
@@ -11554,7 +11191,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "kappa statistic"
           }],
@@ -11590,7 +11226,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "Bennett’s Kappa"
             },
@@ -11598,7 +11233,6 @@
               "use" : {
                 "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
                 "code" : "synonym"
-                
               },
               "value" : "Brennan-Prediger agreement coefficient"
             }],
@@ -11707,7 +11341,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "classification error"
           },
@@ -11715,7 +11348,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "misclassification error"
           }],
@@ -11740,7 +11372,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F1 score"
           },
@@ -11748,7 +11379,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F1 measure"
           },
@@ -11756,7 +11386,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F measure"
           },
@@ -11764,7 +11393,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F score"
           },
@@ -11772,7 +11400,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F-score"
           },
@@ -11780,7 +11407,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F-measure"
           },
@@ -11788,7 +11414,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "F1-measure"
           }],
@@ -11822,7 +11447,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "correlation"
         }],
@@ -11879,7 +11503,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "product moment"
           },
@@ -11887,7 +11510,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "product moment correlation"
           }],
@@ -11920,7 +11542,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Spearman's rank correlation coefficient"
           },
@@ -11928,7 +11549,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Spearman's rho"
           }],
@@ -11965,7 +11585,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Kendall's tau coefficient"
           },
@@ -11973,7 +11592,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Kendall's tau"
           },
@@ -11981,7 +11599,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Kendall's t"
           },
@@ -11989,7 +11606,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Kendall rank correlation coefficient"
           },
@@ -11997,7 +11613,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Kendall's tau-b"
           }],
@@ -12034,7 +11649,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Goodman-Kruskal gamma"
           },
@@ -12042,7 +11656,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "gamma statistic"
           },
@@ -12050,7 +11663,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "gamma coefficient"
           }],
@@ -12142,7 +11754,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "calibration-in-the-large"
           }],
@@ -12179,7 +11790,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "calibration-in-the-small"
           }],
@@ -12218,7 +11828,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "measure of variation"
       },
@@ -12226,7 +11835,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "dispersion"
       },
@@ -12234,7 +11842,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "statistical dispersion"
       }],
@@ -12287,7 +11894,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "middle range"
         },
@@ -12295,7 +11901,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "midspread"
         },
@@ -12303,7 +11908,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "IQR"
         },
@@ -12311,7 +11915,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "median IQR"
         }],
@@ -12344,7 +11947,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "SD"
         }],
@@ -12376,7 +11978,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "sample standard deviation"
           },
@@ -12384,7 +11985,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "sample SD"
           },
@@ -12392,7 +11992,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "S"
           },
@@ -12400,7 +11999,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "s"
           }],
@@ -12454,7 +12052,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "sample variance"
           },
@@ -12462,7 +12059,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "s^2"
           },
@@ -12470,7 +12066,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "V"
           },
@@ -12478,7 +12073,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Var"
           }],
@@ -12508,7 +12102,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Gini coefficient"
         }],
@@ -12541,7 +12134,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "SE"
         },
@@ -12549,7 +12141,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "standard error of the estimate"
         }],
@@ -12577,7 +12168,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "SEM"
           }],
@@ -12666,7 +12256,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "region of highest posterior density"
         }],
@@ -12716,7 +12305,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "measure of statistical heterogeneity"
         }],
@@ -12748,7 +12336,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi square for heterogeneity"
           },
@@ -12756,7 +12343,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi² heterogeneity statistic"
           },
@@ -12764,7 +12350,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "𝜒² for homogeneity"
           },
@@ -12772,7 +12357,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "𝜒² test statistic for homogeneity"
           },
@@ -12780,7 +12364,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "𝜒² heterogeneity statistic"
           },
@@ -12788,7 +12371,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi-square test statistic for heterogeneity"
           },
@@ -12796,7 +12378,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi-square test statistic for homogeneity"
           },
@@ -12804,7 +12385,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "𝜒² for heterogeneity"
           },
@@ -12812,7 +12392,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "𝜒² test statistic for heterogeneity"
           },
@@ -12820,7 +12399,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi square for homogeneity"
           },
@@ -12828,7 +12406,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran Q"
           },
@@ -12836,7 +12413,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran Q statistic"
           },
@@ -12844,7 +12420,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran's Q statistic"
           },
@@ -12852,7 +12427,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran Q test statistic"
           },
@@ -12860,7 +12434,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran's Q test statistic"
           }],
@@ -12897,7 +12470,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "I2"
           },
@@ -12905,7 +12477,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "I²"
           },
@@ -12913,7 +12484,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "I-square"
           }],
@@ -12946,7 +12516,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "tau²"
           },
@@ -12954,7 +12523,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "τ2"
           },
@@ -12962,7 +12530,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "τ²"
           },
@@ -12970,7 +12537,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "tau square"
           },
@@ -12978,7 +12544,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "tau2"
           }],
@@ -13009,7 +12574,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "AUC"
       }],
@@ -13037,7 +12601,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "AUC"
         },
@@ -13045,7 +12608,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "AUROC"
         },
@@ -13053,7 +12615,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "area under the receiver operating characteristic curve"
         },
@@ -13061,7 +12622,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "c-statistic"
         },
@@ -13069,7 +12629,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "C-statistic"
         },
@@ -13077,7 +12636,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Harrell's C"
         },
@@ -13085,7 +12643,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "concordance index"
         },
@@ -13093,7 +12650,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "concordance statistic"
         }],
@@ -13155,7 +12711,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "AUPRC"
         },
@@ -13163,7 +12718,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "AUCPR"
         },
@@ -13171,7 +12725,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "AUC-PR"
         }],
@@ -13196,7 +12749,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "area under the value-by-time curve"
         },
@@ -13204,7 +12756,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "area under the value vs. time curve"
         },
@@ -13212,7 +12763,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "area under the value versus time curve"
         }],
@@ -13246,7 +12796,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "cutoff"
       },
@@ -13254,7 +12803,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "threshold value"
       },
@@ -13262,7 +12810,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "cutoff value"
       },
@@ -13270,7 +12817,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "cutoff threshold"
       },
@@ -13278,7 +12824,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "limit"
       }],
@@ -13303,7 +12848,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "number of degrees of freedom"
       }],
@@ -13332,7 +12876,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "hypothesis testing statistic"
       },
@@ -13340,7 +12883,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "hypothesis test statistic"
       }],
@@ -13372,7 +12914,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "p value"
         },
@@ -13380,7 +12921,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "P value"
         },
@@ -13388,7 +12928,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "P-value"
         }],
@@ -13424,7 +12963,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "p-value for one-tailed test"
           },
@@ -13432,7 +12970,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "one-sided p-value"
           },
@@ -13440,7 +12977,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "one-tailed p-value"
           }],
@@ -13473,7 +13009,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "p-value for two-tailed test"
           },
@@ -13481,7 +13016,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "two-sided p-value"
           },
@@ -13489,7 +13023,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "two-tailed p-value"
           }],
@@ -13523,7 +13056,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "chi-squared statistic"
         }],
@@ -13551,7 +13083,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi-squared statistic for independence"
           }],
@@ -13588,7 +13119,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran-Armitage chi-squared statistic for trend"
           },
@@ -13596,7 +13126,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran-Armitage chi-square statistic"
           },
@@ -13604,7 +13133,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "Cochran-Armitage statistic"
           }],
@@ -13629,7 +13157,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi-squared statistic for homogeneity"
           }],
@@ -13662,7 +13189,6 @@
             "use" : {
               "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
               "code" : "synonym"
-              
             },
             "value" : "chi-squared statistic for goodness of fit"
           }],
@@ -13709,7 +13235,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Student's t"
         },
@@ -13717,7 +13242,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Student's t statistic"
         }],
@@ -13767,7 +13291,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Bayesian p-value"
         },
@@ -13775,7 +13298,6 @@
           "use" : {
             "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
             "code" : "synonym"
-            
           },
           "value" : "Bayes p-value"
         }],
@@ -13813,7 +13335,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "Z-score"
       },
@@ -13821,7 +13342,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "z score"
       },
@@ -13829,7 +13349,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "Z score"
       },
@@ -13837,7 +13356,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "z-value"
       }],
@@ -13874,7 +13392,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "T-score"
       },
@@ -13882,7 +13399,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "t score"
       },
@@ -13890,7 +13406,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "T score"
       },
@@ -13898,7 +13413,6 @@
         "use" : {
           "system" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
           "code" : "synonym"
-          
         },
         "value" : "t-value"
       }],

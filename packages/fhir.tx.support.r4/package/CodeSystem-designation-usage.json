@@ -1,43 +1,37 @@
 {
-  "resourceType": "CodeSystem",
-  "id": "designation-usage",
-  "url": "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
-  "version": "0.1.0",
-  "name": "DesignationUsage",
-  "title": "Designation Usage",
-  "status": "active",
-  "experimental": false,
-  "date": "2020-05-09T12:49:00-04:00",
-  "publisher": "FHIR Project team",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "http://fhir.org/packages/fhir.tx.support.r4"
-        }
-      ]
-    }
-  ],
-  "description": "Possible ValueSet for use with CodeSystem.concept.designation.use",
-  "caseSensitive": true,
-  "valueSet": "http://fhir.org/packages/fhir.tx.support/ValueSet/designation-usage",
-  "content": "complete",
-  "concept": [
-    {
-      "code": "display",
-      "display": "Display",
-      "definition": "A designation suitable for display to an end-user"
-    },
-    {
-      "code": "long-description",
-      "display": "Long Description",
-      "definition": "A variant designation that fills out abbreviations etc"
-    },
-    {
-      "code": "synonym",
-      "display": "Synonym",
-      "definition": "A variant designation that is also suitable for use as a display"
-    }
-  ]
+  "resourceType" : "CodeSystem",
+  "id" : "designation-usage",
+  "url" : "http://fhir.org/packages/fhir.tx.support/CodeSystem/designation-usage",
+  "version" : "0.1.0",
+  "name" : "DesignationUsage",
+  "title" : "Designation Usage",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-05-09T12:49:00-04:00",
+  "publisher" : "FHIR Project team",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://fhir.org/packages/fhir.tx.support.r4"
+    }]
+  }],
+  "description" : "Possible ValueSet for use with CodeSystem.concept.designation.use",
+  "caseSensitive" : true,
+  "valueSet" : "http://fhir.org/packages/fhir.tx.support/ValueSet/designation-usage",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "display",
+    "display" : "Display",
+    "definition" : "A designation suitable for display to an end-user"
+  },
+  {
+    "code" : "long-description",
+    "display" : "Long Description",
+    "definition" : "A variant designation that fills out abbreviations etc"
+  },
+  {
+    "code" : "synonym",
+    "display" : "Synonym",
+    "definition" : "A variant designation that is also suitable for use as a display"
+  }]
 }

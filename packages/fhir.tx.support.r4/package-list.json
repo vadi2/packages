@@ -4,12 +4,20 @@
   "canonical" : "http://fhir.org/packages/fhir.tx.support.r4",
   "introduction" : "Supporting Terminology Resources for R4 servers",
   "list" : [{
+    "version" : "0.37.0",
+    "desc" : "Various QA fixes to code systems",
+    "path" : "http://fhir.org/packages/fhir.tx.support.r4/0.37.0",
+    "status" : "release",
+    "sequence" : "Publications",
+    "current" : true,
+    "date" : "2026-04-08"
+  },
+  {
     "version" : "0.36.0",
     "desc" : "Restore Lost content",
     "path" : "http://fhir.org/packages/fhir.tx.support.r4/0.36.0",
     "status" : "release",
     "sequence" : "Publications",
-    "current" : true,
     "date" : "2026-03-28"
   },
   {
