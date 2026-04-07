@@ -5,10 +5,6 @@
     "versionId" : "55",
     "lastUpdated" : "2025-09-13T20:55:36.205Z"
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/uv/ebm/StructureDefinition/cite-as",
-    "valueMarkdown" : "Scientific Evidence Code System (SEVCO) -- Release 2.0 [Database Entry: FHIR CodeSystem Resource]. Contributors: Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao [Authors/Creators]. Rebecca Baker, Arnav Agarwal, Kailei Nong [Reviewers]. Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao [Editors]. Jesús López-Alcalde, Eric Harvey, Paola Rosati, Robin Ann Yurk, Alejandro Piscoya, Cauê Monaco, Cheow Peng Ooi, Nisha Mathew, Leo Orozco, Nelle Stocquart, Sorana D. Bolboaca, KM Saif-Ur-Rahman, A.G. Radhika, Andrew Beck, Louis Leff, Tatyana Shamliyan, Sunu Alice Cherian, Yasser Sami Amer, Sebastien Bailly, Eric Au, Paul Harris, Ahmad Sofi-Mahmudi, Elma Omeragic. Jennifer Hunter, Lara Kahaleh, Lenny Vasanthan, Mahnoor Ahmed, Morufu Olalekan Raimi, Sean Grant, Sumalatha Arunachala, Yaowaluk Ngoenwiwatkul [Endorsers]. In: Fast Evidence Interoperability Resources (FEvIR) Platform, FOI 293778. Published 2024-12-13. Revised 2024-12-11. Available at: https://fevir.net/sevco. Computable resource at: https://fevir.net/sevco#json."
-  }],
   "url" : "https://fevir.net/sevco",
   "identifier" : [{
     "system" : "https://fevir.net/FOI",
@@ -33,47 +29,12 @@
   }],
   "description" : "The Scientific Evidence Code System (SEVCO) includes terms for describing scientific research, including study design, risk of bias, and statistical concepts. For additional derivation details for any term, see https://fevir.net/resources/CodeSystem/27270\n\nFor SEVCO Release 2.0:\n\nAuthors/Editors: Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao\n\nAdditional Endorsers: Jesús López-Alcalde, Eric Harvey, Paola Rosati, Robin Ann Yurk, Alejandro Piscoya, Cauê Monaco, Cheow Peng Ooi, Nisha Mathew, Leo Orozco, Nelle Stocquart, Sorana D. Bolboaca, KM Saif-Ur-Rahman, A.G. Radhika, Andrew Beck, Louis Leff, Tatyana Shamliyan, Sunu Alice Cherian, Yasser Sami Amer, Sebastien Bailly, Eric Au, Paul Harris, Ahmad Sofi-Mahmudi, Elma Omeragic. Jennifer Hunter, Lara Kahaleh, Lenny Vasanthan, Mahnoor Ahmed, Morufu Olalekan Raimi, Sean Grant, Sumalatha Arunachala, Yaowaluk Ngoenwiwatkul\n\nAdditional Reviewers: Rebecca Baker, Arnav Agarwal, Kailei Nong\n\nfor SEVCO Release 1.1 -- see https://fevir.net/resources/CodeSystem/103845\nfor SEVCO Release 1.0 -- see https://fevir.net/resources/CodeSystem/52433",
   "copyright" : "https://creativecommons.org/licenses/by-sa/4.0/ copyright holder is Scientific Knowledge Accelerator Foundation",
-  "copyrightLabel" : "2024 Scientific Knowledge Accelerator Foundation",
-  "approvalDate" : "2024-12-13",
-  "lastReviewDate" : "2024-12-13",
-  "author" : [{
-    "name" : "Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao"
-  }],
-  "editor" : [{
-    "name" : "Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao"
-  }],
-  "reviewer" : [{
-    "name" : "Rebecca Baker, Arnav Agarwal, Kailei Nong"
-  }],
-  "endorser" : [{
-    "name" : "Jesús López-Alcalde, Eric Harvey, Paola Rosati, Robin Ann Yurk, Alejandro Piscoya, Cauê Monaco, Cheow Peng Ooi, Nisha Mathew, Leo Orozco, Nelle Stocquart, Sorana D. Bolboaca, KM Saif-Ur-Rahman, A.G. Radhika, Andrew Beck, Louis Leff, Tatyana Shamliyan, Sunu Alice Cherian, Yasser Sami Amer, Sebastien Bailly, Eric Au, Paul Harris, Ahmad Sofi-Mahmudi, Elma Omeragic. Jennifer Hunter, Lara Kahaleh, Lenny Vasanthan, Mahnoor Ahmed, Morufu Olalekan Raimi, Sean Grant, Sumalatha Arunachala, Yaowaluk Ngoenwiwatkul"
-  }],
-  "relatedArtifact" : [{
-    "type" : "cite-as",
-    "citation" : "Scientific Evidence Code System (SEVCO) -- Release 2.0 [Database Entry: FHIR CodeSystem Resource]. Contributors: Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao [Authors/Creators]. Rebecca Baker, Arnav Agarwal, Kailei Nong [Reviewers]. Brian S. Alper, Harold Lehmann, Joanne Dehnbostel, Janice Tufte, Mario Tristan, Paul Whaley, Kenneth Wilkins, Khalid Shahin, Erfan Shamsoddin, Michael Panzer, Asiyah Yu Lin, Ellen Jepson, Ilkka Kunnamo, Neeraj Ojha, Olga Vovk, Airton Tetelbom Stein, Bhagvan Kommadi, Carlos Alva-Diaz, Cauê Monaco, Homa Keshavarz, Javier Bracchiglione, Kevin O'Brien. Li Wang, Muhammad Afzal, Philippe Rocca-Serra, Saphia Mokrane, Sheyu Li, Xing Song, Yuan Gao [Editors]. Jesús López-Alcalde, Eric Harvey, Paola Rosati, Robin Ann Yurk, Alejandro Piscoya, Cauê Monaco, Cheow Peng Ooi, Nisha Mathew, Leo Orozco, Nelle Stocquart, Sorana D. Bolboaca, KM Saif-Ur-Rahman, A.G. Radhika, Andrew Beck, Louis Leff, Tatyana Shamliyan, Sunu Alice Cherian, Yasser Sami Amer, Sebastien Bailly, Eric Au, Paul Harris, Ahmad Sofi-Mahmudi, Elma Omeragic. Jennifer Hunter, Lara Kahaleh, Lenny Vasanthan, Mahnoor Ahmed, Morufu Olalekan Raimi, Sean Grant, Sumalatha Arunachala, Yaowaluk Ngoenwiwatkul [Endorsers]. In: Fast Evidence Interoperability Resources (FEvIR) Platform, FOI 293778. Published 2024-12-13. Revised 2024-12-11. Available at: https://fevir.net/sevco. Computable resource at: https://fevir.net/sevco#json."
-  },
-  {
-    "type" : "derived-from",
-    "label" : "Development Version",
-    "resourceReference" : {
-      "reference" : "CodeSystem/27270",
-      "type" : "CodeSystem",
-      "display" : "Scientific Evidence Code System (SEVCO) -- DRAFT ONLY (Not published for current use)"
-    }
-  },
-  {
-    "type" : "replaces",
-    "resourceReference" : {
-      "reference" : "CodeSystem/103845",
-      "type" : "CodeSystem",
-      "display" : "Scientific Evidence Code System (SEVCO) -- Release 1.1"
-    }
-  }],
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "versionNeeded" : true,
   "content" : "complete",
   "property" : [{
+    "uri" : "http://hl7.org/fhir/concept-properties#comment",
     "code" : "comment",
     "description" : "Comment for application",
     "type" : "string"
@@ -3220,7 +3181,7 @@
           },
           {
             "code" : "comment",
-            "valueString" : "Limiting the study reports included in a systematic review by language may result in an incomplete view of the truly available evidence.\n\nThe terms <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00266\" target=\"_blank\">search strategy limits for study report characteristics not appropriate</a> and <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00277\" target=\"_blank\">study eligibility criteria limits for study report characteristics not appropriate</a> are used to describe types of study selection bias that results from restrictions regarding the study report, distinguishing different steps in the search and selection process."
+            "valueString" : "Limiting the study reports included in a systematic review by language may result in an incomplete view of the truly available evidence.\n\nThe terms [search strategy limits for study report characteristics not appropriate](https://fevir.net/resources/CodeSystem/27270#SEVCO:00266) and [study eligibility criteria limits for study report characteristics not appropriate](https://fevir.net/resources/CodeSystem/27270#SEVCO:00277) are used to describe types of study selection bias that results from restrictions regarding the study report, distinguishing different steps in the search and selection process."
           },
           {
             "code" : "editors",
@@ -3245,7 +3206,7 @@
           },
           {
             "code" : "comment",
-            "valueString" : "Limiting the study reports included in a systematic review by country of origin may result in an incomplete view of the truly available evidence.\n\nThe geographic origin of the research may refer to the location of the research participants, the investigators, or their associated organizations.\n\nThe terms <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00266\" target=\"_blank\">search strategy limits for study report characteristics not appropriate</a> , <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00276\" target=\"_blank\">study eligibility criteria limits for study characteristics not appropriate</a> and <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00277\" target=\"_blank\">study eligibility criteria limits for study report characteristics not appropriate</a> are used to describe types of study selection bias that results from restrictions regarding the study report, distinguishing different steps in the search and selection process."
+            "valueString" : "Limiting the study reports included in a systematic review by country of origin may result in an incomplete view of the truly available evidence.\n\nThe geographic origin of the research may refer to the location of the research participants, the investigators, or their associated organizations.\n\n The terms [search strategy limits for study report characteristics not appropriate](https://fevir.net/resources/CodeSystem/27270#SEVCO:00266) and [study eligibility criteria limits for study report characteristics not appropriate](https://fevir.net/resources/CodeSystem/27270#SEVCO:00277) are used to describe types of study selection bias that results from restrictions regarding the study report, distinguishing different steps in the search and selection process."
           },
           {
             "code" : "editors",
@@ -3286,7 +3247,7 @@
           }],
           "property" : [{
             "code" : "comment",
-            "valueString" : "Publication bias arises from the failure to identify all studies that have been conducted, either published (i.e., publicly available) or unpublished. The term 'studies' means evidence or research results in any form where such studies would meet the study eligibility criteria without consideration of criteria regarding the form of publication. The phrase 'publicly available studies' means the studies are available to the broad academic community and the public through established distribution channels in any form, including forms with restricted access.  Established distribution channels include peer-reviewed journals, books, conference proceedings, dissertations, reports by governmental or research organizations, preprints, and study registries.\n\nPublication bias often leads to an overestimate in the effect in favor of the study hypothesis, because studies with statistically significant positive results are more likely to be publicly available.\n\nThe terms <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> and <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00024\" target=\"_blank\">selective reporting bias</a> are used to describe biases in study reports, i.e., reporting bias. To avoid confusion between biases in study reports and biases in study selection, when either 'reporting bias' or 'selective reporting bias' are used as alternative for 'publication bias', the term is appended to 'study selection bias due to' as shown below:\n&#9;• study selection bias due to reporting bias\n&#9;• study selection bias due to selective reporting bias"
+            "valueString" : "Publication bias arises from the failure to identify all studies that have been conducted, either published (i.e., publicly available) or unpublished. The term 'studies' means evidence or research results in any form where such studies would meet the study eligibility criteria without consideration of criteria regarding the form of publication. The phrase 'publicly available studies' means the studies are available to the broad academic community and the public through established distribution channels in any form, including forms with restricted access.  Established distribution channels include peer-reviewed journals, books, conference proceedings, dissertations, reports by governmental or research organizations, preprints, and study registries.\n\nPublication bias often leads to an overestimate in the effect in favor of the study hypothesis, because studies with statistically significant positive results are more likely to be publicly available.\n\nThe terms [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) and [selective reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00024) are used to describe biases in study reports, i.e., reporting bias. To avoid confusion between biases in study reports and biases in study selection, when either 'reporting bias' or 'selective reporting bias' are used as alternative for 'publication bias', the term is appended to 'study selection bias due to' as shown below:\n&#9;• study selection bias due to reporting bias\n&#9;• study selection bias due to selective reporting bias"
           },
           {
             "code" : "editors",
@@ -7608,7 +7569,7 @@
         },
         {
           "code" : "comment",
-          "valueString" : "A <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings."
+          "valueString" : "A [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings."
         },
         {
           "code" : "editors",
@@ -7632,7 +7593,7 @@
           }],
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings."
           },
           {
             "code" : "editors",
@@ -7656,7 +7617,7 @@
             }],
             "property" : [{
               "code" : "comment",
-              "valueString" : "Selective outcome measure reporting may be considered a type of selective outcome reporting in which the measurement method for determination of the outcome is interpreted as a distinct outcome.\nA selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings."
+              "valueString" : "Selective outcome measure reporting may be considered a type of selective outcome reporting in which the measurement method for determination of the outcome is interpreted as a distinct outcome.\nA selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings."
             },
             {
               "code" : "editors",
@@ -7698,7 +7659,7 @@
           }],
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings.\nSelective subgroup reporting relates to choice of attributes of participants within cohorts, for example reporting limited to male patients."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings.\nSelective subgroup reporting relates to choice of attributes of participants within cohorts, for example reporting limited to male patients."
           },
           {
             "code" : "editors",
@@ -7715,7 +7676,7 @@
           "definition" : "A selective reporting bias due to inappropriate selection of comparison groups for which results or research findings are reported.",
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings.\nSelective comparison reporting relates to choice of cohort definitions, for example an intention-to-treat analysis (as-randomized analysis) vs. an as-treated analysis."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings.\nSelective comparison reporting relates to choice of cohort definitions, for example an intention-to-treat analysis (as-randomized analysis) vs. an as-treated analysis."
           },
           {
             "code" : "editors",
@@ -7740,7 +7701,7 @@
           "definition" : "A selective reporting bias due to inappropriate selection of which analyses are reported for an outcome that was analyzed at multiple points in time in a longitudinal study.",
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings."
           },
           {
             "code" : "editors",
@@ -7757,7 +7718,7 @@
           "definition" : "A selective reporting bias due to inappropriate selection of which analyses are reported for an outcome that was analyzed in multiple ways.",
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings.\nAdjustment reporting bias, or selective reporting of adjusted estimates, is a type of selective analysis reporting from multiple analytic models."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings.\nAdjustment reporting bias, or selective reporting of adjusted estimates, is a type of selective analysis reporting from multiple analytic models."
           },
           {
             "code" : "editors",
@@ -7782,7 +7743,7 @@
           }],
           "property" : [{
             "code" : "comment",
-            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA <a href=\"https://fevir.net/resources/CodeSystem/27270#SEVCO:00023\" target=\"_blank\">reporting bias</a> is a bias due to distortions in the selection of or representation of information in study results or research findings."
+            "valueString" : "A selective reporting bias is a reporting bias due to inappropriate selection of the results or research findings that are reported.\nA [reporting bias](https://fevir.net/resources/CodeSystem/27270#SEVCO:00023) is a bias due to distortions in the selection of or representation of information in study results or research findings."
           },
           {
             "code" : "editors",
@@ -9857,7 +9818,7 @@
         },
         {
           "code" : "comment",
-          "valueString" : "Quantile is defined as a statistic that represents the value for which the number of data points at or below it constitutes a specific portion of the total number of data points.\n\nQuartile is a type of statistic but not used to define a statistic value without specification of the portion it represents. For example, one may report a third quartile but one does not report a quartile without specification of which quartile. 75% of the data is at or below the third quartile. The second quartile is also called the median.\n\nTo report the first quartile, use the SEVCO term for <a href=\"https://fevir.net/resources/CodeSystem/27270#TBD:first-quartile\" target=\"_blank\">first quartile</a>. To report the second quartile, use the SEVCO term for <a href=\"https://fevir.net/resources/CodeSystem/27270#STATO:0000574\" target=\"_blank\">median</a>. To report the third quartile, use the SEVCO term for <a href=\"https://fevir.net/resources/CodeSystem/27270#TBD:third-quartile\" target=\"_blank\">third quartile</a>. To report the fourth quartile, use the SEVCO term for maximum observed value."
+          "valueString" : "Quantile is defined as a statistic that represents the value for which the number of data points at or below it constitutes a specific portion of the total number of data points.\n\nQuartile is a type of statistic but not used to define a statistic value without specification of the portion it represents. For example, one may report a third quartile but one does not report a quartile without specification of which quartile. 75% of the data is at or below the third quartile. The second quartile is also called the median.\n\nTo report the first quartile, use the SEVCO term for [first quartile](https://fevir.net/resources/CodeSystem/27270#TBD:first-quartile). To report the second quartile, use the SEVCO term for [median](https://fevir.net/resources/CodeSystem/27270#STATO:0000574). To report the third quartile, use the SEVCO term for [third quartile](https://fevir.net/resources/CodeSystem/27270#TBD:third-quartile). To report the fourth quartile, use the SEVCO term for maximum observed value."
         },
         {
           "code" : "editors",

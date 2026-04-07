@@ -4,18 +4,6 @@
   "meta" : {
     "lastUpdated" : "2021-01-17T07:06:13.533+11:00"
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "fhir"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-    "valueCode" : "trial-use"
-  },
-  {
-    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-    "valueInteger" : 1
-  }],
   "url" : "http://hl7.org/fhir/spdx-license",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
@@ -24,7 +12,7 @@
   "version" : "84728b7",
   "name" : "SPDXLicense",
   "title" : "SPDXLicense",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : false,
   "date" : "2021-01-17T07:06:13+11:00",
   "publisher" : "HL7 (FHIR Project)",
@@ -318,7 +306,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -373,7 +361,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -1126,7 +1114,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -1147,7 +1135,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -1587,7 +1575,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -3524,7 +3512,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4067,7 +4055,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4190,7 +4178,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4313,7 +4301,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4538,7 +4526,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4559,7 +4547,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4614,7 +4602,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4639,7 +4627,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4706,7 +4694,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4727,7 +4715,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4748,7 +4736,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4769,7 +4757,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4790,7 +4778,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4811,7 +4799,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4836,7 +4824,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4903,7 +4891,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -4924,7 +4912,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5644,7 +5632,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5665,7 +5653,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5720,7 +5708,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5745,7 +5733,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5812,7 +5800,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -5841,7 +5829,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -7466,7 +7454,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -9303,7 +9291,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",
@@ -9959,7 +9947,7 @@
     },
     {
       "code" : "status",
-      "valueBoolean" : false
+      "valueCode" : "retired"
     },
     {
       "code" : "seeAlso",

@@ -14,6 +14,7 @@
   }],
   "publisher" : "Radiological Society of North America (RSNA.org)",
   "content" : "complete",
+  "caseSensitive" : true,
   "date" : "2020-11-25",
   "description" : "RadLex is a comprehensive set of radiology terms for use in radiology reporting, decision support, data mining, data registries, education and research.",
   "concept" : [{
