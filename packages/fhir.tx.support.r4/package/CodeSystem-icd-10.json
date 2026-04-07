@@ -16,6 +16,12 @@
   "property" : [{
     "code" : "kind",
     "type" : "code"
+  },{
+    "code" : "parent",
+    "type" : "code"
+  },{
+    "code" : "child",
+    "type" : "code"
   },
   {
     "code" : "footnote",

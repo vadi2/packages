@@ -4,8 +4,7 @@
   "meta" : {
     "versionId" : "235393721",
     "lastUpdated" : "2018-06-18T00:00:00-04:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
-    "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "urn:oid:2.16.840.1.113883.6.238",
   "identifier" : [{
@@ -15,10 +14,20 @@
   "version" : "1.2",
   "name" : "CDCREC",
   "title" : "CDC Race and Ethnicity",
+  "description" : "CDC Race and Ethnicity",
   "status" : "active",
+  "publisher" : "FHIR Project",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "email",
+      "value" : "director@fhir.org"
+    }]
+  }],
   "experimental" : false,
   "date" : "2018-04-26T00:00:00-04:00",
   "content" : "complete",
+  "caseSensitive" : false,
+  "hierarchyMeaning" : "is-a",
   "count" : 966,
   "concept" : [{
     "code" : "1000-9",

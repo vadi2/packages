@@ -15,6 +15,13 @@
   "description" : "CDC Race and Ethnicity code system, including hierarchical relationships reconstructed from the CDC published hierarchy.",
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
+  "caseSensitive" : true,
+  "contact" : [{
+    "telecom" : [{
+      "system" : "email",
+      "value" : "director@fhir.org"
+    }]
+  }],
   "count" : 1324,
   "concept" : [{
     "code" : "2133-7",

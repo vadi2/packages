@@ -21,6 +21,7 @@
   }],
   "compositional" : false,
   "content" : "complete",
+  "caseSensitive" : true,
   "count" : 5099,
   "property" : [{
     "code" : "country",

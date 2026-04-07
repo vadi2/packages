@@ -4,8 +4,7 @@
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2021-08-23T23:16:26.778+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
-    "https://healthterminologies.gov.au/fhir/StructureDefinition/complete-code-system-4"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
     "status" : "generated",
@@ -32,7 +31,6 @@
   "description" : "The Australian Immunisation Register Vaccine code system defines the vaccine codes available for recording of vaccine administration on the Australian Immunisation Register, and may be used for online claiming and reimbursement for vaccine administration through Medicare.",
   "copyright" : "Copyright © 2021 Australian Digital Health Agency - All rights reserved. Except for the material identified below, this content is licensed under a Creative Commons Attribution 4.0 International License. See https://creativecommons.org/licenses/by/4.0/. \n\n[This resource also includes material from the ‘Australian Immunisation Register Vaccine Code Formats’ last updated: 22 February 2021 © Commonwealth of Australia, represented by Services Australia https://www.servicesaustralia.gov.au/organisations/health-professionals/services/medicare/australian-immunisation-register-health-professionals/resources/air-vaccine-code-formats. Licensed under https://creativecommons.org/licenses/by/3.0/au).\n\nAll copies of this resource must include this copyright statement and all information contained in this statement.",
   "caseSensitive" : false,
-  "valueSet" : "https://www.humanservices.gov.au/organisations/health-professionals/enablers/air-vaccine-code-formats/vs",
   "compositional" : false,
   "versionNeeded" : false,
   "content" : "complete",
@@ -43,6 +41,7 @@
     "type" : "string"
   },
   {
+    "uri" : "http://hl7.org/fhir/concept-properties#inactive",
     "code" : "inactive",
     "description" : "Whether the code is active or not (defaults to false).",
     "type" : "boolean"

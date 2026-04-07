@@ -31,6 +31,22 @@
     "uri" : "http://hl7.org/fhir/concept-properties#notSelectable",
     "description" : "This concept is a grouping concept and not intended to be used in the normal use of the code system (though may be used for filters etc.). This is also known as 'Abstract'.",
     "type" : "boolean"
+  },{
+    "code" : "description",
+    "description" : "Description.",
+    "type" : "string"
+  },{
+    "code" : "note",
+    "description" : "Note.",
+    "type" : "string"
+  },{
+    "code" : "excludes",
+    "description" : "excludes - what this code does not include.",
+    "type" : "string"
+  },{
+    "code" : "includes",
+    "description" : "includes - notes about what is included in this code.",
+    "type" : "string"
   }],
   "concept" : [{
     "code" : "CLASSIFICATION_OF_DISEASES_AND_INJURIES",

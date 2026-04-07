@@ -24,6 +24,7 @@
   "description" : "Standard terms published by the European Directorate for the Quality of Medicines & HealthCare (EDQM) for pharmaceutical dose forms, routes and methods of administration, containers, closures, administration devices and units of presentation.",
   "copyright" : "Unless otherwise indicated, reproduction of material posted on Council of Europe websites, and reproduction of photographs for which the Council of Europe holds copyright – see legal notice \\“photo credits\\” – is authorised for private use and for informational and educational uses relating to the Council of Europe’s work. This authorisation is subject to the condition that the source be indicated and no charge made for reproduction.  Persons wishing to make some other use than those specified above, including commercial use, of information and text posted on these sites are asked to apply for prior written authorisation to the Council of Europe, Directorate of Communication.",
   "content" : "complete",
+  "caseSensitive" : true,
   "filter" : [{
     "code" : "class",
     "description" : "Concept Class",
@@ -15976,7 +15977,6 @@
   {
     "code" : "10116000",
     "display" : "Lyophilisate for suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -17586,7 +17586,6 @@
   {
     "code" : "10230500",
     "display" : "Pill",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -18140,7 +18139,6 @@
   {
     "code" : "10307000",
     "display" : "Oromucosal drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -18177,7 +18175,6 @@
   {
     "code" : "10308000",
     "display" : "Oromucosal spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -18337,7 +18334,6 @@
   {
     "code" : "10309000",
     "display" : "Sublingual spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -19331,7 +19327,6 @@
   {
     "code" : "10404000",
     "display" : "Dental insert",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -20713,7 +20708,6 @@
   {
     "code" : "10521500",
     "display" : "Nail solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -20828,7 +20822,6 @@
   {
     "code" : "10524000",
     "display" : "Cutaneous sponge",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -20902,7 +20895,6 @@
   {
     "code" : "10526000",
     "display" : "Collar",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -21570,7 +21562,6 @@
   {
     "code" : "10539250",
     "display" : "Scalp solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -21607,7 +21598,6 @@
   {
     "code" : "10539500",
     "display" : "Scrub",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -23809,7 +23799,6 @@
   {
     "code" : "10900500",
     "display" : "Intravaginal ring",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -24461,7 +24450,6 @@
   {
     "code" : "10916000",
     "display" : "Vaginal sponge",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -25081,7 +25069,6 @@
   {
     "code" : "11100500",
     "display" : "Aerosol",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -25839,7 +25826,6 @@
   {
     "code" : "11118000",
     "display" : "Inhalation gas",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -27160,7 +27146,6 @@
   {
     "code" : "11303750",
     "display" : "Kit for implant",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -27398,7 +27383,6 @@
   {
     "code" : "11501000",
     "display" : "Solution for intravesical use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -28412,7 +28396,6 @@
   {
     "code" : "12100500",
     "display" : "Absorbable coated sponge",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -28794,7 +28777,6 @@
   {
     "code" : "12109900",
     "display" : "Frozen solution for sealant",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -29176,7 +29158,6 @@
   {
     "code" : "12115500",
     "display" : "Solution for perfusion of organs",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -32162,7 +32143,6 @@
   {
     "code" : "13058000",
     "display" : "Caplet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -33680,7 +33660,6 @@
   {
     "code" : "13136000",
     "display" : "Gastro-resistant powder for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -34193,7 +34172,6 @@
   {
     "code" : "13164000",
     "display" : "Mucosal spray, solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35091,7 +35069,6 @@
   {
     "code" : "30047500",
     "display" : "Pouch",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35419,7 +35396,6 @@
   {
     "code" : "50012000",
     "display" : "Concentrate for peritoneal dialysis solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35456,7 +35432,6 @@
   {
     "code" : "50013000",
     "display" : "Concentrate for solution for intravesical use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35530,7 +35505,6 @@
   {
     "code" : "50013500",
     "display" : "Concentrate for spray emulsion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35567,7 +35541,6 @@
   {
     "code" : "50014000",
     "display" : "Concentrate for suspension for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35604,7 +35577,6 @@
   {
     "code" : "50015000",
     "display" : "Cutaneous and nasal ointment",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35645,7 +35617,6 @@
   {
     "code" : "50015100",
     "display" : "Cutaneous/ear drops suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35731,7 +35702,6 @@
   {
     "code" : "50015300",
     "display" : "Cutaneous/oromucosal/oral solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -35780,7 +35750,6 @@
   {
     "code" : "50015400",
     "display" : "Cutaneous/oromucosal spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36206,7 +36175,6 @@
   {
     "code" : "50020000",
     "display" : "Ear/eye/nose drops, solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36292,7 +36260,6 @@
   {
     "code" : "50020500",
     "display" : "Effervescent buccal tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36419,7 +36386,6 @@
   {
     "code" : "50023500",
     "display" : "Film coated gastro-resistant tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36542,7 +36508,6 @@
   {
     "code" : "50025000",
     "display" : "Gastro-resistant coated tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36579,7 +36544,6 @@
   {
     "code" : "50026000",
     "display" : "Gastro-resistant granules for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36620,7 +36584,6 @@
   {
     "code" : "50026250",
     "display" : "Gastro-resistant prolonged-release tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36657,7 +36620,6 @@
   {
     "code" : "50028000",
     "display" : "Granules for oral and rectal suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36702,7 +36664,6 @@
   {
     "code" : "50029000",
     "display" : "Granules for oral drops, solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36858,7 +36819,6 @@
   {
     "code" : "50029600",
     "display" : "Hard capsule with gastro-resistant pellets",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -36895,7 +36855,6 @@
   {
     "code" : "50029800",
     "display" : "Inhalation impregnated pad",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37227,7 +37186,6 @@
   {
     "code" : "50034000",
     "display" : "Liquefied gas for dental use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37301,7 +37259,6 @@
   {
     "code" : "50035000",
     "display" : "Modified-release film-coated tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37338,7 +37295,6 @@
   {
     "code" : "50036000",
     "display" : "Modified-release granules for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37412,7 +37368,6 @@
   {
     "code" : "50036100",
     "display" : "Muco-adhesive buccal prolonged-release tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37531,7 +37486,6 @@
   {
     "code" : "50037000",
     "display" : "Nasal spray and oromucosal solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -37957,7 +37911,6 @@
   {
     "code" : "50040000",
     "display" : "Oromucosal/laryngopharyngeal solution/spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38153,7 +38106,6 @@
   {
     "code" : "50049000",
     "display" : "Powder for concentrate for haemodialysis solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38575,7 +38527,6 @@
   {
     "code" : "50051100",
     "display" : "Powder for mouth wash",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38612,7 +38563,6 @@
   {
     "code" : "50051500",
     "display" : "Powder for nebuliser solution/solution for injection/infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38710,7 +38660,6 @@
   {
     "code" : "50053000",
     "display" : "Powder for solution for injection or infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38796,7 +38745,6 @@
   {
     "code" : "50054000",
     "display" : "Powder for solution for intravesical use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38833,7 +38781,6 @@
   {
     "code" : "50055000",
     "display" : "Powder for solution for nasal spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38870,7 +38817,6 @@
   {
     "code" : "50055150",
     "display" : "Powder for solution/suspension for injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38948,7 +38894,6 @@
   {
     "code" : "50055500",
     "display" : "Prolonged-release film-coated tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -38985,7 +38930,6 @@
   {
     "code" : "50056000",
     "display" : "Prolonged-release granules for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39104,7 +39048,6 @@
   {
     "code" : "50058000",
     "display" : "Solution for infusion and oral solution",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39149,7 +39092,6 @@
   {
     "code" : "50059000",
     "display" : "Solution for injection/concentrate for solution for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39194,7 +39136,6 @@
   {
     "code" : "50059500",
     "display" : "Solution for injection for euthanasia",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39288,7 +39229,6 @@
   {
     "code" : "50060700",
     "display" : "Solution for injection/infusion/rectal use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39337,7 +39277,6 @@
   {
     "code" : "50061000",
     "display" : "Solution for intraperitoneal use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39448,7 +39387,6 @@
   {
     "code" : "50061600",
     "display" : "Solvent for nasal use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39485,7 +39423,6 @@
   {
     "code" : "50063000",
     "display" : "Suspension for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39559,7 +39496,6 @@
   {
     "code" : "50066000",
     "display" : "Tablet for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -39637,7 +39573,6 @@
   {
     "code" : "50070000",
     "display" : "Oral suspension for use in drinking water",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PDF"
@@ -40974,7 +40909,6 @@
   {
     "code" : "15061000",
     "display" : "Puff",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "UOP"
@@ -42147,7 +42081,6 @@
   {
     "code" : "20048500",
     "display" : "Nail use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "ROA"
@@ -42827,7 +42760,6 @@
   {
     "code" : "0001",
     "display" : "Container",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PAC"
@@ -43024,7 +42956,6 @@
   {
     "code" : "0002",
     "display" : "Closure",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PAC"
@@ -43093,7 +43024,6 @@
   {
     "code" : "0003",
     "display" : "Administration device",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PAC"
@@ -43379,7 +43309,6 @@
   {
     "code" : "13131000",
     "display" : "Capsule for opening",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CON"
@@ -43593,7 +43522,6 @@
   {
     "code" : "30011500",
     "display" : "Calendar package",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CON"
@@ -43944,7 +43872,6 @@
   {
     "code" : "30045500",
     "display" : "Pack",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CON"
@@ -45082,7 +45009,6 @@
   {
     "code" : "30025000",
     "display" : "High pressure transdermal delivery device",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "DEV"
@@ -46103,7 +46029,6 @@
   {
     "code" : "12109500",
     "display" : "Fibrin sealant-powder and solvent for fibrin sealant",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -46468,7 +46393,6 @@
   {
     "code" : "13138000",
     "display" : "Gastro-resistant powder and solvent for oral suspension",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -46899,7 +46823,6 @@
   {
     "code" : "50001500",
     "display" : "Concentrate and diluent for solution for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -46974,7 +46897,6 @@
   {
     "code" : "50004000",
     "display" : "Concentrate and solvent for cutaneous use",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -46991,7 +46913,6 @@
   {
     "code" : "50005000",
     "display" : "Concentrate and solvent for injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -47773,7 +47694,6 @@
   {
     "code" : "50048600",
     "display" : "Powder, dispersion and solvent for concentrate for dispersion for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -47872,7 +47792,6 @@
   {
     "code" : "50062500",
     "display" : "Suspension and solution for spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -47897,7 +47816,6 @@
   {
     "code" : "50062750",
     "display" : "Suspension and solvent for suspension for injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CDF"
@@ -48103,7 +48021,6 @@
   {
     "code" : "11010",
     "display" : "Oral drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48136,7 +48053,6 @@
   {
     "code" : "11050",
     "display" : "Oral liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48169,7 +48085,6 @@
   {
     "code" : "12100",
     "display" : "Capsule",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48198,7 +48113,6 @@
   {
     "code" : "12120",
     "display" : "Gastro-resistant capsule",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48227,7 +48141,6 @@
   {
     "code" : "12150",
     "display" : "Prolonged-release capsule",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48256,7 +48169,6 @@
   {
     "code" : "12200",
     "display" : "Tablet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48285,7 +48197,6 @@
   {
     "code" : "12320",
     "display" : "Intraruminal device",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48314,7 +48225,6 @@
   {
     "code" : "12350",
     "display" : "Medicated premix",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48339,7 +48249,6 @@
   {
     "code" : "13050",
     "display" : "Oromucosal liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48368,7 +48277,6 @@
   {
     "code" : "13100",
     "display" : "Oromucosal spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48401,7 +48309,6 @@
   {
     "code" : "13150",
     "display" : "Sublingual spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48434,7 +48341,6 @@
   {
     "code" : "13220",
     "display" : "Lozenge",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48459,7 +48365,6 @@
   {
     "code" : "14050",
     "display" : "Dental liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48492,7 +48397,6 @@
   {
     "code" : "15090",
     "display" : "Cutaneous spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48533,7 +48437,6 @@
   {
     "code" : "15130",
     "display" : "Cutaneous liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48566,7 +48469,6 @@
   {
     "code" : "15290",
     "display" : "Dip",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48599,7 +48501,6 @@
   {
     "code" : "15320",
     "display" : "Dip concentrate",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48632,7 +48533,6 @@
   {
     "code" : "15370",
     "display" : "Pour-on",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48665,7 +48565,6 @@
   {
     "code" : "15400",
     "display" : "Spot-on",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48698,7 +48597,6 @@
   {
     "code" : "15430",
     "display" : "Teat dip",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48731,7 +48629,6 @@
   {
     "code" : "15460",
     "display" : "Teat spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48756,7 +48653,6 @@
   {
     "code" : "16040",
     "display" : "Eye drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48789,7 +48685,6 @@
   {
     "code" : "17040",
     "display" : "Ear drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48822,7 +48717,6 @@
   {
     "code" : "17090",
     "display" : "Ear spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48855,7 +48749,6 @@
   {
     "code" : "17120",
     "display" : "Ear wash",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48884,7 +48777,6 @@
   {
     "code" : "18040",
     "display" : "Nasal drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48917,7 +48809,6 @@
   {
     "code" : "18080",
     "display" : "Nasal spray",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48950,7 +48841,6 @@
   {
     "code" : "19050",
     "display" : "Vaginal liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -48983,7 +48873,6 @@
   {
     "code" : "19100",
     "display" : "Vaginal capsule",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49012,7 +48901,6 @@
   {
     "code" : "20050",
     "display" : "Enema",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49045,7 +48933,6 @@
   {
     "code" : "21010",
     "display" : "Nebuliser liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49078,7 +48965,6 @@
   {
     "code" : "21060",
     "display" : "Pressurised inhalation",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49111,7 +48997,6 @@
   {
     "code" : "21100",
     "display" : "Inhalation powder",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49144,7 +49029,6 @@
   {
     "code" : "21140",
     "display" : "Inhalation vapour",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49205,7 +49089,6 @@
   {
     "code" : "22010",
     "display" : "Injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49238,7 +49121,6 @@
   {
     "code" : "22030",
     "display" : "Powder for concentrate",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49271,7 +49153,6 @@
   {
     "code" : "22050",
     "display" : "Powder for injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49300,7 +49181,6 @@
   {
     "code" : "22060",
     "display" : "Powder for prolonged-release injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49325,7 +49205,6 @@
   {
     "code" : "22090",
     "display" : "Sterile concentrate",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49358,7 +49237,6 @@
   {
     "code" : "22100",
     "display" : "Infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49391,7 +49269,6 @@
   {
     "code" : "22120",
     "display" : "Powder for infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49420,7 +49297,6 @@
   {
     "code" : "26010",
     "display" : "Endotracheopulmonary instillation",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49449,7 +49325,6 @@
   {
     "code" : "29020",
     "display" : "Intrauterine liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49482,7 +49357,6 @@
   {
     "code" : "31030",
     "display" : "Blood fraction modifier",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49507,7 +49381,6 @@
   {
     "code" : "31080",
     "display" : "Gastroenteral liquid",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49540,7 +49413,6 @@
   {
     "code" : "31090",
     "display" : "Chewing gum",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49565,7 +49437,6 @@
   {
     "code" : "31100",
     "display" : "Injection/infusion",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -49598,7 +49469,6 @@
   {
     "code" : "31120",
     "display" : "Oromucosal drops",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "PFT"
@@ -50725,7 +50595,6 @@
   {
     "code" : "50026150",
     "display" : "Gastro-resistant granules for oral suspension in sachet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"
@@ -50975,7 +50844,6 @@
   {
     "code" : "50037450",
     "display" : "Nebuliser solution in single-dose container",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"
@@ -51142,7 +51010,6 @@
   {
     "code" : "50039300",
     "display" : "Oromucosal powder in pouch",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"
@@ -51373,7 +51240,6 @@
   {
     "code" : "50048400",
     "display" : "Powder and solvent in pre-filled syringe for solution for injection",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"
@@ -51415,7 +51281,6 @@
   {
     "code" : "50056150",
     "display" : "Prolonged-release granules for oral suspension in sachet",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"
@@ -51648,7 +51513,6 @@
   {
     "code" : "50060400",
     "display" : "Solution for injection in pre-filled syringe with automatic needle guard",
-    "definition" : "",
     "property" : [{
       "code" : "class",
       "valueCode" : "CMT"

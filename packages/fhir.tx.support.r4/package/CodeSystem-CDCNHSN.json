@@ -4,8 +4,7 @@
   "meta" : {
     "versionId" : "4239915659",
     "lastUpdated" : "2023-06-02T00:00:00-04:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem",
-    "http://hl7.org/fhir/us/cqfmeasures/StructureDefinition/publishable-codesystem-cqfm"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://www.cdc.gov/nhsn/cdaportal/terminology/codesystem/cdcnhsn.html",
   "identifier" : [{
@@ -15,10 +14,19 @@
   "version" : "2023-04",
   "name" : "CDCNHSN",
   "title" : "NHSN Surveillance System Codes",
+  "description" : "NHSN Surveillance System Codes",
   "status" : "active",
   "experimental" : false,
   "date" : "2023-06-01T00:00:00-04:00",
   "content" : "complete",
+  "caseSensitive" : true,
+  "publisher" : "FHIR Project",
+  "contact" : [{
+    "telecom" : [{
+      "system" : "email",
+      "value" : "director@fhir.org"
+    }]
+  }],
   "count" : 658,
   "concept" : [{
     "code" : "1002-5",
