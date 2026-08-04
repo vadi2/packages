@@ -9,7 +9,7 @@ the provide important implementation time support for FHIR implementers:
 * Issues / Discussion: Use github issues
 * License: Creative Commons Public Domain or as otherwise stated
 * Contribution Policy: Make PRs. PRs have to build ok with the latest IG Publisher
-* Security Information: There should be no security issues here - it's all static content. Can report issues with the standard github repotring method 
+* Security Information: There should be no security issues here - it's all static content. Can report issues with the standard github reporting method 
 
 ## Core FHIR Packages 
 
