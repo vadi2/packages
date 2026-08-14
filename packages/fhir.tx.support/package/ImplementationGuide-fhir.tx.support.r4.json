@@ -1,0 +1,11 @@
+{
+  "resourceType" : "ImplementationGuide",
+  "id" : "fhir.tx.support",
+  "url" : "http://fhir.org/packages/fhir.tx.support/ImplementationGuide/fhir.tx.support",
+  "version" : "1.0.0",
+  "name" : "FHIRTxSupport",
+  "title" : "FHIR Terminology Support Package",
+  "status" : "active",
+  "description" : "This includes open source terminologies that HL7 can't republish due to various legal reasons",
+  "packageId" : "fhir.tx.support"
+}

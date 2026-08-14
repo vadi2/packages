@@ -1,0 +1,15 @@
+{
+  "name" : "fhir.tx.support",
+  "type" : "IG",
+  "license" : "CC0-1.0",
+  "canonical" : "http://fhir.org/terminology-support",
+  "title" : "Terminology Support (r5+)",
+  "description" : "Various supporting code systems for tx.fhir.org (R5)",
+  "dependencies" : {
+    "hl7.fhir.r5.core" : "5.0.0"
+  },
+  "fhirVersions" : ["5.0.1"],
+  "author" : "FHIR Project",
+  "url" : "http://fhir.org/terminology-support",
+  "version" : "1.0.0"
+}
