@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "SEVCO",
   "meta" : {
-    "versionId": "87",
-    "lastUpdated": "2026-04-22T13:46:49.805Z"
+    "versionId": "89",
+    "lastUpdated": "2026-08-02T21:43:15.060Z"
   },
   "url" : "https://fevir.net/sevco",
   "identifier" : [{
@@ -922,16 +922,7 @@
                   "valueString": "2021-12-14 vote 6-0 by Joanne Dehnbostel, Jesus Lopez-Alcalde, Robin Ann Yurk, Janice Tufte, Paul Whaley, Brian S. Alper"
                 }
               ],
-              "definition": "Interventional research in which one or more healthcare-related actions (i.e., a diagnostic, prognostic, therapeutic, preventive or screening method or intervention) is evaluated for effects on health-related biomedical or behavioral processes and/or outcomes.",
-              "designation": [
-                {
-                  "use": {
-                    "code": "900000000000013009",
-                    "system": "http://snomed.info/sct",
-                    "display": "Synonym (core metadata concept)"
-                  }
-                }
-              ]
+              "definition": "Interventional research in which one or more healthcare-related actions (i.e., a diagnostic, prognostic, therapeutic, preventive or screening method or intervention) is evaluated for effects on health-related biomedical or behavioral processes and/or outcomes."
             }
           ],
           "display": "interventional research",
@@ -15859,16 +15850,7 @@
               "valueString": "2025-12-12 vote 5-0 by Janice Tufte, Saphia Mokrane, Harold Lehmann, Homa Keshavarz, Airton Tetelbom Stein"
             }
           ],
-          "definition": "A threshold that represents the largest value that could occur.",
-          "designation": [
-            {
-              "use": {
-                "code": "900000000000013009",
-                "system": "http://snomed.info/sct",
-                "display": "Synonym (core metadata concept)"
-              }
-            }
-          ]
+          "definition": "A threshold that represents the largest value that could occur."
         },
         {
           "code": "STATO:0000667",
@@ -15895,16 +15877,7 @@
               "valueString": "2025-12-12 vote 5-0 by Janice Tufte, Saphia Mokrane, Harold Lehmann, Homa Keshavarz, Airton Tetelbom Stein"
             }
           ],
-          "definition": "A threshold that represents the smallest value that could occur.",
-          "designation": [
-            {
-              "use": {
-                "code": "900000000000013009",
-                "system": "http://snomed.info/sct",
-                "display": "Synonym (core metadata concept)"
-              }
-            }
-          ]
+          "definition": "A threshold that represents the smallest value that could occur."
         }
       ],
       "display": "threshold",
@@ -16435,16 +16408,7 @@
               "valueString": "2025-08-08 vote 6-0 by Saphia Mokrane, Carlos Alva-Diaz, Sheyu Li, Homa Keshavarz, Bhagvan Kommadi, Airton Tetelbom Stei"
             }
           ],
-          "definition": "A hypothesis test attribute that is a prespecified threshold that distinguishes between a null and alternative hypothesis.",
-          "designation": [
-            {
-              "use": {
-                "code": "900000000000013009",
-                "system": "http://snomed.info/sct",
-                "display": "Synonym (core metadata concept)"
-              }
-            }
-          ]
+          "definition": "A hypothesis test attribute that is a prespecified threshold that distinguishes between a null and alternative hypothesis."
         },
         {
           "code": "STATO:0000057",
@@ -16655,16 +16619,7 @@
               "valueString": "2025-08-08 vote 6-0 by Saphia Mokrane, Carlos Alva-Diaz, Bhagvan Kommadi, Homa Keshavarz, Sheyu Li, Brian S. Alper"
             }
           ],
-          "definition": "A hypothesis test attribute that represents the smallest difference from the value assumed under the null hypothesis that is used to conclude in favor of an alternative hypothesis",
-          "designation": [
-            {
-              "use": {
-                "code": "900000000000013009",
-                "system": "http://snomed.info/sct",
-                "display": "Synonym (core metadata concept)"
-              }
-            }
-          ]
+          "definition": "A hypothesis test attribute that represents the smallest difference from the value assumed under the null hypothesis that is used to conclude in favor of an alternative hypothesis"
         },
         {
           "code": "STATO:0000734",
@@ -16683,16 +16638,7 @@
               "valueString": "2025-09-26 vote 6-0 by Saphia Mokrane, Cauê Monaco, Homa Keshavarz, Bhagvan Kommadi, Khalid Shahin, Airton Tetelbom Stein"
             }
           ],
-          "definition": "A hypothesis test attribute that means the result of a hypothesis test supports rejection of the null hypothesis at the specified alpha level",
-          "designation": [
-            {
-              "use": {
-                "code": "900000000000013009",
-                "system": "http://snomed.info/sct",
-                "display": "Synonym (core metadata concept)"
-              }
-            }
-          ]
+          "definition": "A hypothesis test attribute that means the result of a hypothesis test supports rejection of the null hypothesis at the specified alpha level"
         },
         {
           "code": "STATO:0000735",
@@ -16808,16 +16754,7 @@
           "valueString": "A [statistical hypothesis test](https://fevir.net/resources/CodeSystem/27270#TBD:0000124) is defined as a data transformation that generates the probability, under a null hypothesis, of observing data as or more extreme than the data observed."
         }
       ],
-      "definition": "An aspect, characteristic, or feature of a statistical hypothesis test.",
-      "designation": [
-        {
-          "use": {
-            "code": "900000000000013009",
-            "system": "http://snomed.info/sct",
-            "display": "Synonym (core metadata concept)"
-          }
-        }
-      ]
+      "definition": "An aspect, characteristic, or feature of a statistical hypothesis test."
     },
     {
       "code": "STATO:0000107",
@@ -17005,16 +16942,7 @@
                       "valueString": "2025-10-10 vote 5-0 by Carlos Alva-Diaz, Bhagvan Kommadi, Harold Lehmann, Homa Keshavarz, Airton Tetelbom Stein"
                     }
                   ],
-                  "definition": "A categorical variable for which the meanings of the categories do not have an ordered relationship.",
-                  "designation": [
-                    {
-                      "use": {
-                        "code": "900000000000013009",
-                        "system": "http://snomed.info/sct",
-                        "display": "Synonym (core metadata concept)"
-                      }
-                    }
-                  ]
+                  "definition": "A categorical variable for which the meanings of the categories do not have an ordered relationship."
                 },
                 {
                   "code": "STATO:0000228",
@@ -17081,16 +17009,7 @@
                           "valueString": "2026-01-09 vote 6-0 by Saphia Mokrane, Janice Tufte, Carlos Alva-Diaz, Homa Keshavarz, Harold Lehmann, Airton Tetelbom Stein"
                         }
                       ],
-                      "definition": "An ordinal variable that can assume values from 3 or more discrete possible values.",
-                      "designation": [
-                        {
-                          "use": {
-                            "code": "900000000000013009",
-                            "system": "http://snomed.info/sct",
-                            "display": "Synonym (core metadata concept)"
-                          }
-                        }
-                      ]
+                      "definition": "An ordinal variable that can assume values from 3 or more discrete possible values."
                     }
                   ],
                   "display": "ordinal variable",
@@ -17175,16 +17094,7 @@
                   "valueString": "2026-01-09 vote 6-0 by Saphia Mokrane, Janice Tufte, Carlos Alva-Diaz, Homa Keshavarz, Harold Lehmann, Airton Tetelbom Stein"
                 }
               ],
-              "definition": "A variable that can assume values from only a finite set of values.",
-              "designation": [
-                {
-                  "use": {
-                    "code": "900000000000013009",
-                    "system": "http://snomed.info/sct",
-                    "display": "Synonym (core metadata concept)"
-                  }
-                }
-              ]
+              "definition": "A variable that can assume values from only a finite set of values."
             },
             {
               "code": "STATO:0000722",
@@ -17210,16 +17120,7 @@
                       "valueString": "2025-10-24 comment re: \"discrete variable\" = \"A quantitative variable for which only integer values are allowed.\"\n1Yes)\nin the comments, this sentence is uselessly repeated"
                     }
                   ],
-                  "definition": "A quantitative variable for which only integer values are allowed.",
-                  "designation": [
-                    {
-                      "use": {
-                        "code": "900000000000013009",
-                        "system": "http://snomed.info/sct",
-                        "display": "Synonym (core metadata concept)"
-                      }
-                    }
-                  ]
+                  "definition": "A quantitative variable for which only integer values are allowed."
                 },
                 {
                   "code": "STATO:0000251",
@@ -17244,16 +17145,7 @@
                               "valueString": "2025-10-24 vote 7-0 by Harold Lehmann, Chenyu Li, Saphia Mokrane, Yaowaluk Ngoenwiwatkul, Bhagvan Kommadi, Homa Keshavarz, Airton Tetelbom Stein"
                             }
                           ],
-                          "definition": "An interval variable for which allowable values represent a point in time on a calendar with a year, with or without a month, and with or without a day.",
-                          "designation": [
-                            {
-                              "use": {
-                                "code": "900000000000013009",
-                                "system": "http://snomed.info/sct",
-                                "display": "Synonym (core metadata concept)"
-                              }
-                            }
-                          ]
+                          "definition": "An interval variable for which allowable values represent a point in time on a calendar with a year, with or without a month, and with or without a day."
                         },
                         {
                           "code": "STATO:0000729",
@@ -17272,16 +17164,7 @@
                               "valueString": "2025-10-24 vote 6-0 by Chenyu Li, Saphia Mokrane, Yaowaluk Ngoenwiwatkul, Bhagvan Kommadi, Homa Keshavarz, Airton Tetelbom Stein"
                             }
                           ],
-                          "definition": "An interval variable for which allowable values represent a point in time on a calendar, with a year, month, and day, and on a clock, with hours, minutes, and seconds.",
-                          "designation": [
-                            {
-                              "use": {
-                                "code": "900000000000013009",
-                                "system": "http://snomed.info/sct",
-                                "display": "Synonym (core metadata concept)"
-                              }
-                            }
-                          ]
+                          "definition": "An interval variable for which allowable values represent a point in time on a calendar, with a year, month, and day, and on a clock, with hours, minutes, and seconds."
                         }
                       ],
                       "display": "interval variable",
@@ -17307,16 +17190,7 @@
                           "valueString": "Brian S. Alper, Joanne Dehnbostel"
                         }
                       ],
-                      "definition": "A continuous variable with ordered, equally spaced units where the difference between values is meaningful, but no true zero point exists.",
-                      "designation": [
-                        {
-                          "use": {
-                            "code": "900000000000013009",
-                            "system": "http://snomed.info/sct",
-                            "display": "Synonym (core metadata concept)"
-                          }
-                        }
-                      ]
+                      "definition": "A continuous variable with ordered, equally spaced units where the difference between values is meaningful, but no true zero point exists."
                     },
                     {
                       "code": "STATO:0000730",
@@ -17338,16 +17212,7 @@
                               "valueString": "2025-10-24 vote 6-0 by Chenyu Li, Saphia Mokrane, Yaowaluk Ngoenwiwatkul, Bhagvan Kommadi, Homa Keshavarz, Airton Tetelbom Stein"
                             }
                           ],
-                          "definition": "A ratio variable representing the duration of observation until the event occurred, conditioned on the event occurring.",
-                          "designation": [
-                            {
-                              "use": {
-                                "code": "900000000000013009",
-                                "system": "http://snomed.info/sct",
-                                "display": "Synonym (core metadata concept)"
-                              }
-                            }
-                          ]
+                          "definition": "A ratio variable representing the duration of observation until the event occurred, conditioned on the event occurring."
                         }
                       ],
                       "display": "ratio variable",
@@ -17373,16 +17238,7 @@
                           "valueString": "2025-10-24 vote 6-0 by Chenyu Li, Saphia Mokrane, Yaowaluk Ngoenwiwatkul, Bhagvan Kommadi, Homa Keshavarz, Airton Tetelbom Stein"
                         }
                       ],
-                      "definition": "A continuous variable with a true zero point and ordered, equally spaced units where the difference between values is meaningful.",
-                      "designation": [
-                        {
-                          "use": {
-                            "code": "900000000000013009",
-                            "system": "http://snomed.info/sct",
-                            "display": "Synonym (core metadata concept)"
-                          }
-                        }
-                      ]
+                      "definition": "A continuous variable with a true zero point and ordered, equally spaced units where the difference between values is meaningful."
                     }
                   ],
                   "display": "continuous variable",
@@ -17414,16 +17270,7 @@
                   "valueString": "2025-10-24 vote 8-0 by Harold Lehmann, Saphia Mokrane, Yaowaluk Ngoenwiwatkul, Bhagvan Kommadi, Airton Tetelbom Stein, Homa Keshavarz, Chenyu Li, Carlos Alva-Diaz"
                 }
               ],
-              "definition": "A variable that can assume numerical values, with or without units of measure.",
-              "designation": [
-                {
-                  "use": {
-                    "code": "900000000000013009",
-                    "system": "http://snomed.info/sct",
-                    "display": "Synonym (core metadata concept)"
-                  }
-                }
-              ]
+              "definition": "A variable that can assume numerical values, with or without units of measure."
             }
           ],
           "display": "variable",
@@ -17463,17 +17310,7 @@
           "valueString": "2023-06-05 vote 6-0 by Cauê Monaco, Eric Harvey, Paul Whaley, Jesus Lopez-Alcalde, Sunu Alice Cherian, Harold Lehmann"
         }
       ],
-      "definition": "A part of a statistical model.",
-      "designation": [
-        {
-          "use": {
-            "code": "900000000000013009",
-            "system": "http://snomed.info/sct",
-            "display": "Synonym (core metadata concept)"
-          }
-        }
-      ]
+      "definition": "A part of a statistical model."
     }
   ]
 }
-    
